@@ -1,0 +1,43 @@
+{
+  "protocol": "positive-accent-codex-selector-validation-v1",
+  "createdAt": "2026-06-20T11:43:09.013046+00:00",
+  "packetsRoot": "validation/codex-selector-packets/codex-selector-outer04-strict-60s-cap80-20260620",
+  "selectionsRoot": "validation/codex-selector-packets/codex-selector-outer04-strict-60s-cap80-20260620/selections-codex",
+  "packetCount": 31,
+  "selectionOutputCount": 31,
+  "partialEvaluation": false,
+  "lockedFinalHoldout": "footage_06_10_26_sfx",
+  "openedBlindVideoExcluded": true,
+  "metrics": {
+    "manualPositive": 82,
+    "generated": 28,
+    "combinedMatched": 10,
+    "exactFamilyMatched": 7,
+    "combinedCoverage": 0.12195121951219512,
+    "exactFamilyCoverage": 0.08536585365853659,
+    "precision": 0.35714285714285715,
+    "falseAdditions": 18,
+    "falseAdditionsPerMinute": 0.7651741651494828,
+    "netSavedEdits": -8,
+    "medianProjectCoverage": 0.12195121951219512,
+    "positiveNetProjectFraction": 0.0
+  },
+  "modelErrors": 0,
+  "invalidSelectionCount": 0,
+  "missingOutputCount": 0,
+  "rankerFilter": {
+    "enabled": true,
+    "predictionsPath": "validation/runs/positive-accent-moment-v1-20260620T071254Z/positive-accent-moment-outer-predictions.jsonl",
+    "scoreMin": 0.5,
+    "filteredSelectionCount": 34
+  },
+  "productMaterializationGatePassed": false,
+  "gate": {
+    "combinedCoverageMin": 0.2,
+    "precisionMin": 0.7,
+    "falseAdditionsPerMinuteMax": 0.5,
+    "netSavedEditsMinExclusive": 0,
+    "medianProjectCoverageMin": 0.15,
+    "positiveNetProjectFractionMin": 0.75
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "protocol": "positive-accent-codex-selector-validation-v1",
+  "createdAt": "2026-06-20T11:43:07.922467+00:00",
+  "packetsRoot": "validation/codex-selector-packets/codex-selector-outer04-strict-60s-cap80-20260620",
+  "selectionsRoot": "validation/codex-selector-packets/codex-selector-outer04-strict-60s-cap80-20260620/selections-codex",
+  "packetCount": 31,
+  "selectionOutputCount": 31,
+  "partialEvaluation": false,
+  "lockedFinalHoldout": "footage_06_10_26_sfx",
+  "openedBlindVideoExcluded": true,
+  "metrics": {
+    "manualPositive": 82,
+    "generated": 62,
+    "combinedMatched": 15,
+    "exactFamilyMatched": 11,
+    "combinedCoverage": 0.18292682926829268,
+    "exactFamilyCoverage": 0.13414634146341464,
+    "precision": 0.24193548387096775,
+    "falseAdditions": 47,
+    "falseAdditionsPerMinute": 1.9979547645569826,
+    "netSavedEdits": -32,
+    "medianProjectCoverage": 0.18292682926829268,
+    "positiveNetProjectFraction": 0.0
+  },
+  "modelErrors": 0,
+  "invalidSelectionCount": 0,
+  "missingOutputCount": 0,
+  "rankerFilter": {
+    "enabled": false,
+    "predictionsPath": null,
+    "scoreMin": null,
+    "filteredSelectionCount": 0
+  },
+  "productMaterializationGatePassed": false,
+  "gate": {
+    "combinedCoverageMin": 0.2,
+    "precisionMin": 0.7,
+    "falseAdditionsPerMinuteMax": 0.5,
+    "netSavedEditsMinExclusive": 0,
+    "medianProjectCoverageMin": 0.15,
+    "positiveNetProjectFractionMin": 0.75
+  }
+}
