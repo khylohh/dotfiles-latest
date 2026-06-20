@@ -1,0 +1,3147 @@
+{
+  "rule": "Outer test predictions and labels are not supplied to the selector; choice is based on inner OOF only.",
+  "foldChoices": [
+    {
+      "foldId": "outer_01",
+      "generalizationGroupId": "group_01_footage_04_26_26_sfx",
+      "trainProjectIds": [
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_04_26_26_sfx"
+      ],
+      "choiceHash": "18563dde0b4ef6f5772c96a37cd5fb956229591bdb345f82329ff10bf0397a7c",
+      "rawPredictionSha256": "21be45b35b274dd4151a2adaeef83982da24fd0d4b5ba08b6eb923a2dfae4180",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.3591594028084063,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.3767175270933103,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.4795483551985245,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.5715296284903532,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.6909776162853994,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.3947963216071695,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 26,
+            "generated": 86,
+            "manual": 606,
+            "precision": 0.3023255813953488,
+            "wilsonLower90": 0.24305101895319958,
+            "recall": 0.0429042904290429,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.3591594028084063,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 2,
+            "generated": 24,
+            "manual": 307,
+            "precision": 0.08333333333333333,
+            "wilsonLower90": 0.03515496736169484,
+            "recall": 0.006514657980456026,
+            "projects": 8,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.3767175270933103,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 4,
+            "generated": 20,
+            "manual": 330,
+            "precision": 0.2,
+            "wilsonLower90": 0.11024856845693391,
+            "recall": 0.012121212121212121,
+            "projects": 8,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.4795483551985245,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 1,
+            "generated": 9,
+            "manual": 268,
+            "precision": 0.1111111111111111,
+            "wilsonLower90": 0.03385381281721854,
+            "recall": 0.0037313432835820895,
+            "projects": 6,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.5715296284903532,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 1,
+            "manual": 19,
+            "precision": 0.0,
+            "wilsonLower90": 0.0,
+            "recall": 0.0,
+            "projects": 1,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.6909776162853994,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 50,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.3947963216071695,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_02",
+      "generalizationGroupId": "group_03_footage_05_04_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_04_26_sfx"
+      ],
+      "choiceHash": "c075b8fd8877b1814e5a0c5f73fc0a8294c80ce6df1c1f19c7b34ad28e0f7c08",
+      "rawPredictionSha256": "4a5e1456097d958602edd8322afc5c427fc663c9f85f6b949304337b747185d0",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.5632029919320981,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.47272110275941054,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.3725404470828457,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.5756880618829833,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.5253252623346255,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.4312497633343107,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 11,
+            "generated": 48,
+            "manual": 637,
+            "precision": 0.22916666666666666,
+            "wilsonLower90": 0.16115576650219526,
+            "recall": 0.01726844583987441,
+            "projects": 9,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.5632029919320981,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 2,
+            "generated": 24,
+            "manual": 306,
+            "precision": 0.08333333333333333,
+            "wilsonLower90": 0.03515496736169484,
+            "recall": 0.006535947712418301,
+            "projects": 8,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.47272110275941054,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 1,
+            "generated": 22,
+            "manual": 331,
+            "precision": 0.045454545454545456,
+            "wilsonLower90": 0.013697164076890372,
+            "recall": 0.0030211480362537764,
+            "projects": 9,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.3725404470828457,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 1,
+            "generated": 8,
+            "manual": 288,
+            "precision": 0.125,
+            "wilsonLower90": 0.03817659370772135,
+            "recall": 0.003472222222222222,
+            "projects": 7,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.5756880618829833,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 21,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.5253252623346255,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 47,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.4312497633343107,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_03",
+      "generalizationGroupId": "group_04_footage_05_07_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_07_26_sfx"
+      ],
+      "choiceHash": "46c667fe7f2af094e5a186473f75e439b63425e5a06bf00946d43bc958690e58",
+      "rawPredictionSha256": "24eedf9b89ba5eafa35e3219cd328ff50e9c96c9b65eb0b3e0321d1ed75006cb",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.4455928701560269,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.4532841208762055,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.3894238473804712,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.5421151244489727,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.3492870838993963,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.4095642556320826,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 16,
+            "generated": 77,
+            "manual": 586,
+            "precision": 0.2077922077922078,
+            "wilsonLower90": 0.1549450622374048,
+            "recall": 0.027303754266211604,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.4455928701560269,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 4,
+            "generated": 21,
+            "manual": 282,
+            "precision": 0.19047619047619047,
+            "wilsonLower90": 0.1048135621999262,
+            "recall": 0.014184397163120567,
+            "projects": 8,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.4532841208762055,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 1,
+            "generated": 23,
+            "manual": 334,
+            "precision": 0.043478260869565216,
+            "wilsonLower90": 0.0130973591149842,
+            "recall": 0.0029940119760479044,
+            "projects": 9,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.3894238473804712,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 2,
+            "generated": 8,
+            "manual": 274,
+            "precision": 0.25,
+            "wilsonLower90": 0.10887085671870103,
+            "recall": 0.0072992700729927005,
+            "projects": 7,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.5421151244489727,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 22,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.3492870838993963,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 46,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.4095642556320826,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_04",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_11_26_sfx"
+      ],
+      "choiceHash": "467091d385f68c8121fdbe6daf9f030eb3c0383700a171d5cd086718e285e5fb",
+      "rawPredictionSha256": "f34b59199a4131f871fa845d3272ae0f8f55fcf552bca3bd42c86fa1322144c4",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.5856267308430394,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.5974933751901533,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.39066887244211396,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.5589921845232629,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.4917654304457791,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.3214673308287834,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 14,
+            "generated": 50,
+            "manual": 619,
+            "precision": 0.28,
+            "wilsonLower90": 0.20662005255069144,
+            "recall": 0.022617124394184167,
+            "projects": 10,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.5856267308430394,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 3,
+            "generated": 16,
+            "manual": 330,
+            "precision": 0.1875,
+            "wilsonLower90": 0.0940011945304628,
+            "recall": 0.00909090909090909,
+            "projects": 7,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.5974933751901533,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 2,
+            "generated": 28,
+            "manual": 327,
+            "precision": 0.07142857142857142,
+            "wilsonLower90": 0.03006840439937848,
+            "recall": 0.0061162079510703364,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.39066887244211396,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 2,
+            "generated": 5,
+            "manual": 295,
+            "precision": 0.4,
+            "wilsonLower90": 0.17987273179836358,
+            "recall": 0.006779661016949152,
+            "projects": 4,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.5589921845232629,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 20,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.4917654304457791,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 43,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.3214673308287834,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_05",
+      "generalizationGroupId": "group_07_footage_05_17_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_17_26_sfx"
+      ],
+      "choiceHash": "5f177586b202e551e865e7d0ee8c2f3a07f7c7172147cb710ed177848711ffa1",
+      "rawPredictionSha256": "8efc8390a1f6f44bb0f51cd1e6683156bfd1c642286f1c345e9daa8df675abee",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.6042177084373447,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.4978852372067807,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.5376620812460297,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.6070409152837993,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.5697103679208599,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.46246590258012393,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 13,
+            "generated": 50,
+            "manual": 638,
+            "precision": 0.26,
+            "wilsonLower90": 0.18903806930350722,
+            "recall": 0.02037617554858934,
+            "projects": 9,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.6042177084373447,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 4,
+            "generated": 22,
+            "manual": 320,
+            "precision": 0.18181818181818182,
+            "wilsonLower90": 0.0998900418198388,
+            "recall": 0.0125,
+            "projects": 7,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.4978852372067807,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 0,
+            "generated": 18,
+            "manual": 345,
+            "precision": 0.0,
+            "wilsonLower90": 0.0,
+            "recall": 0.0,
+            "projects": 6,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.5376620812460297,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 1,
+            "generated": 10,
+            "manual": 305,
+            "precision": 0.1,
+            "wilsonLower90": 0.030410684604422766,
+            "recall": 0.003278688524590164,
+            "projects": 7,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.6070409152837993,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 22,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.5697103679208599,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 47,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.46246590258012393,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_06",
+      "generalizationGroupId": "group_08_footage_05_19_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_19_26_sfx"
+      ],
+      "choiceHash": "47c83068e0b8e4470a2db67982d340e461cc6ceaf996512bb696eae53f5ceced",
+      "rawPredictionSha256": "dfa635dfbcdd3dc03c14cf25719e35c1cd1cd161ccd6c0af0c8085556fb7a160",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.41462695632700514,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.5383518648520806,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.3516599622196637,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.4488253261087736,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.7249597798472293,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.32381951867198944,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 26,
+            "generated": 82,
+            "manual": 629,
+            "precision": 0.3170731707317073,
+            "wilsonLower90": 0.25535994944609286,
+            "recall": 0.04133545310015898,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.41462695632700514,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 5,
+            "generated": 15,
+            "manual": 322,
+            "precision": 0.3333333333333333,
+            "wilsonLower90": 0.20078179418520667,
+            "recall": 0.015527950310559006,
+            "projects": 7,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.5383518648520806,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 2,
+            "generated": 22,
+            "manual": 347,
+            "precision": 0.09090909090909091,
+            "wilsonLower90": 0.03840346318416983,
+            "recall": 0.005763688760806916,
+            "projects": 7,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.3516599622196637,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 2,
+            "generated": 14,
+            "manual": 288,
+            "precision": 0.14285714285714285,
+            "wilsonLower90": 0.06092903864032578,
+            "recall": 0.006944444444444444,
+            "projects": 8,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.4488253261087736,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 1,
+            "manual": 20,
+            "precision": 0.0,
+            "wilsonLower90": 0.0,
+            "recall": 0.0,
+            "projects": 1,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.7249597798472293,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 45,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.32381951867198944,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_07",
+      "generalizationGroupId": "group_09_footage_05_26_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_26_26_sfx"
+      ],
+      "choiceHash": "f8ec99281437892f45fd7d354127e9fc4b237a392dcaed5b15557f9ee4b70b4f",
+      "rawPredictionSha256": "5858c446a0e05d11862dd685a1c3dacae0d342805b2acf8e001f10735619a285",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.431959298423072,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.5787550984811658,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.5551711327758994,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.44431445890432686,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.5630964368432928,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.49310245833862043,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 18,
+            "generated": 81,
+            "manual": 618,
+            "precision": 0.2222222222222222,
+            "wilsonLower90": 0.16887531762776306,
+            "recall": 0.02912621359223301,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.431959298423072,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 3,
+            "generated": 14,
+            "manual": 312,
+            "precision": 0.21428571428571427,
+            "wilsonLower90": 0.10798446191582332,
+            "recall": 0.009615384615384616,
+            "projects": 6,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.5787550984811658,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 0,
+            "generated": 15,
+            "manual": 352,
+            "precision": 0.0,
+            "wilsonLower90": 0.0,
+            "recall": 0.0,
+            "projects": 5,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.5551711327758994,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 2,
+            "generated": 15,
+            "manual": 300,
+            "precision": 0.13333333333333333,
+            "wilsonLower90": 0.05676597048514897,
+            "recall": 0.006666666666666667,
+            "projects": 9,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.44431445890432686,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 22,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.5630964368432928,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 45,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.49310245833862043,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_08",
+      "generalizationGroupId": "group_10_footage_05_27_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_27_26_sfx"
+      ],
+      "choiceHash": "3c5ca88ee71fbf92cd4422ca52f78a5385dddf2a21fbb11aaeae16394f33b595",
+      "rawPredictionSha256": "69c0fffe74661a0e33ea072bb8577ca62e80c5a513dbd4d9699f9e54417e72d6",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.35612489570472083,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.5900879734194946,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.46994935999424,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.5222021245035552,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.6289295566247375,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.4886740697958785,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 20,
+            "generated": 84,
+            "manual": 635,
+            "precision": 0.23809523809523808,
+            "wilsonLower90": 0.1839226950722532,
+            "recall": 0.031496062992125984,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.35612489570472083,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 2,
+            "generated": 13,
+            "manual": 327,
+            "precision": 0.15384615384615385,
+            "wilsonLower90": 0.06575170469231512,
+            "recall": 0.0061162079510703364,
+            "projects": 4,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.5900879734194946,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 1,
+            "generated": 23,
+            "manual": 360,
+            "precision": 0.043478260869565216,
+            "wilsonLower90": 0.0130973591149842,
+            "recall": 0.002777777777777778,
+            "projects": 6,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.46994935999424,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 3,
+            "generated": 13,
+            "manual": 302,
+            "precision": 0.23076923076923078,
+            "wilsonLower90": 0.11666589581062548,
+            "recall": 0.009933774834437087,
+            "projects": 8,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.5222021245035552,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 23,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.6289295566247375,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 46,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.4886740697958785,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_09",
+      "generalizationGroupId": "group_11_footage_05_31_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_31_26_sfx"
+      ],
+      "choiceHash": "25299a0723bc6dfaea3bac47a17065e3135a142186e8f609c16cab6b36472db2",
+      "rawPredictionSha256": "2709ccc7349d12f2aa81187ad5f3086aed6322480a5671e084191c675c0f8801",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.35571829217299533,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.5919649804656151,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.3841273644174552,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.4172923633872545,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.4251131709772621,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.38911809846107964,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 27,
+            "generated": 86,
+            "manual": 649,
+            "precision": 0.313953488372093,
+            "wilsonLower90": 0.25381298082205955,
+            "recall": 0.04160246533127889,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.35571829217299533,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 3,
+            "generated": 13,
+            "manual": 330,
+            "precision": 0.23076923076923078,
+            "wilsonLower90": 0.11666589581062548,
+            "recall": 0.00909090909090909,
+            "projects": 7,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.5919649804656151,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 2,
+            "generated": 29,
+            "manual": 335,
+            "precision": 0.06896551724137931,
+            "wilsonLower90": 0.029018767138940017,
+            "recall": 0.005970149253731343,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.3841273644174552,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 3,
+            "generated": 11,
+            "manual": 294,
+            "precision": 0.2727272727272727,
+            "wilsonLower90": 0.13903769297587243,
+            "recall": 0.01020408163265306,
+            "projects": 9,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.4172923633872545,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 21,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.4251131709772621,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 44,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.38911809846107964,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_10",
+      "generalizationGroupId": "group_13_footage_06_05_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_06_05_26_sfx"
+      ],
+      "choiceHash": "42f8316f542a67b775cf917a0f7c12f0a8655bd0125fd2ea5f8952ff5b9e5dbf",
+      "rawPredictionSha256": "9ffb6c0251174f031ec37f943dc6175aba19b0873fb8fb332cccb8837ff863e8",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.5923361343355247,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.3791097949286075,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.5477884990789997,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.5376006910711745,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.24170420786135766,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.27669111796347895,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 9,
+            "generated": 48,
+            "manual": 604,
+            "precision": 0.1875,
+            "wilsonLower90": 0.1260959073371041,
+            "recall": 0.014900662251655629,
+            "projects": 9,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.5923361343355247,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 6,
+            "generated": 29,
+            "manual": 307,
+            "precision": 0.20689655172413793,
+            "wilsonLower90": 0.1275183798612255,
+            "recall": 0.019543973941368076,
+            "projects": 10,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.3791097949286075,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 2,
+            "generated": 18,
+            "manual": 346,
+            "precision": 0.1111111111111111,
+            "wilsonLower90": 0.0471109200648472,
+            "recall": 0.005780346820809248,
+            "projects": 9,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.5477884990789997,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 4,
+            "generated": 16,
+            "manual": 300,
+            "precision": 0.25,
+            "wilsonLower90": 0.13912221223984977,
+            "recall": 0.013333333333333334,
+            "projects": 9,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.5376006910711745,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 19,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.24170420786135766,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 43,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.27669111796347895,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_11",
+      "generalizationGroupId": "group_14_new_footage_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx"
+      ],
+      "testProjectIds": [
+        "new_footage_sfx"
+      ],
+      "choiceHash": "e1072cb0fa16d9e679d267f116b62324ca53e4258e74685988680922a07fc487",
+      "rawPredictionSha256": "34eb9bfda77ed156819f7a2534097eab8b141b66aa08819ce5afd94fbe0b9e6c",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.4213024957141961,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.28639868088371284,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.5643167448794408,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.4857711144843026,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.6794173886673418,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.3486138726094338,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 20,
+            "generated": 88,
+            "manual": 676,
+            "precision": 0.22727272727272727,
+            "wilsonLower90": 0.17532596347746357,
+            "recall": 0.029585798816568046,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.4213024957141961,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 4,
+            "generated": 32,
+            "manual": 336,
+            "precision": 0.125,
+            "wilsonLower90": 0.0679765447143907,
+            "recall": 0.011904761904761904,
+            "projects": 8,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.28639868088371284,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 2,
+            "generated": 16,
+            "manual": 373,
+            "precision": 0.125,
+            "wilsonLower90": 0.05313575672851163,
+            "recall": 0.005361930294906166,
+            "projects": 8,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.5643167448794408,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 1,
+            "generated": 17,
+            "manual": 317,
+            "precision": 0.058823529411764705,
+            "wilsonLower90": 0.017765088017648444,
+            "recall": 0.0031545741324921135,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.4857711144843026,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 1,
+            "manual": 23,
+            "precision": 0.0,
+            "wilsonLower90": 0.0,
+            "recall": 0.0,
+            "projects": 1,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.6794173886673418,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 50,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.3486138726094338,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "foldId": "outer_12",
+      "generalizationGroupId": "group_15_footage_colored_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_colored_sfx"
+      ],
+      "choiceHash": "7868ebcda36515723c4daa1d7678f49f324d8fa05a4b8dae6c78d42e39fa9466",
+      "rawPredictionSha256": "b6031f4ffdbc53b5dab1102f289c09548ce1a795c15233d28b300207b0052212",
+      "modelConfig": {
+        "id": "caption-beat-linear-v1-fixed-c",
+        "emitC": 0.1,
+        "familyC": 0.1,
+        "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+      },
+      "policyBundle": {
+        "ding": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.35522938349996347,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "success": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.5804432361212932,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bonk": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.3535782393045507,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "funny": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.6482447783662112,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "bruh": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.4981013378460189,
+          "enabled": false,
+          "innerQualified": false
+        },
+        "record_scratch": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.39104889951177063,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "innerReport": {
+        "families": {
+          "ding": {
+            "matched": 20,
+            "generated": 83,
+            "manual": 649,
+            "precision": 0.24096385542168675,
+            "wilsonLower90": 0.18620552944604377,
+            "recall": 0.030816640986132512,
+            "projects": 11,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.55,
+              "marginProbability": 0.12,
+              "cooldownSeconds": 5,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.35,
+              "priority": 55,
+              "jointThreshold": 0.35522938349996347,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "success": {
+            "matched": 4,
+            "generated": 13,
+            "manual": 316,
+            "precision": 0.3076923076923077,
+            "wilsonLower90": 0.1731903768824417,
+            "recall": 0.012658227848101266,
+            "projects": 6,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.6,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.15,
+              "cooldownSeconds": 10,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.2,
+              "priority": 75,
+              "jointThreshold": 0.5804432361212932,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bonk": {
+            "matched": 1,
+            "generated": 25,
+            "manual": 323,
+            "precision": 0.04,
+            "wilsonLower90": 0.012042659665709844,
+            "recall": 0.0030959752321981426,
+            "projects": 8,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.65,
+              "conditionalThreshold": 0.6,
+              "marginProbability": 0.18,
+              "cooldownSeconds": 8,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.25,
+              "priority": 80,
+              "jointThreshold": 0.3535782393045507,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "funny": {
+            "matched": 1,
+            "generated": 4,
+            "manual": 300,
+            "precision": 0.25,
+            "wilsonLower90": 0.07808085229255593,
+            "recall": 0.0033333333333333335,
+            "projects": 4,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.7,
+              "conditionalThreshold": 0.65,
+              "marginProbability": 0.2,
+              "cooldownSeconds": 15,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.08,
+              "priority": 40,
+              "jointThreshold": 0.6482447783662112,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "bruh": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 21,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.8,
+              "conditionalThreshold": 0.75,
+              "marginProbability": 0.25,
+              "cooldownSeconds": 60,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 90,
+              "jointThreshold": 0.4981013378460189,
+              "enabled": false,
+              "innerQualified": false
+            }
+          },
+          "record_scratch": {
+            "matched": 0,
+            "generated": 0,
+            "manual": 44,
+            "precision": null,
+            "wilsonLower90": null,
+            "recall": 0.0,
+            "projects": 0,
+            "passes": false,
+            "selectedPolicy": {
+              "gateThreshold": 0.85,
+              "conditionalThreshold": 0.8,
+              "marginProbability": 0.3,
+              "cooldownSeconds": 90,
+              "globalCooldownSeconds": 0.9,
+              "beatNmsSeconds": 0.45,
+              "maxPerMinute": 0.03,
+              "priority": 95,
+              "jointThreshold": 0.39104889951177063,
+              "enabled": false,
+              "innerQualified": false
+            }
+          }
+        }
+      }
+    }
+  ],
+  "oraclePolicyReportForContaminationAuditOnly": {
+    "families": {
+      "ding": {
+        "matched": 26,
+        "generated": 90,
+        "manual": 686,
+        "precision": 0.28888888888888886,
+        "wilsonLower90": 0.23187783524311226,
+        "recall": 0.037900874635568516,
+        "projects": 12,
+        "passes": false,
+        "selectedPolicy": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.55,
+          "marginProbability": 0.12,
+          "cooldownSeconds": 5,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.35,
+          "priority": 55,
+          "jointThreshold": 0.4185594444346261,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "success": {
+        "matched": 5,
+        "generated": 32,
+        "manual": 345,
+        "precision": 0.15625,
+        "wilsonLower90": 0.09107010252403473,
+        "recall": 0.014492753623188406,
+        "projects": 10,
+        "passes": false,
+        "selectedPolicy": {
+          "gateThreshold": 0.6,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.15,
+          "cooldownSeconds": 10,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.2,
+          "priority": 75,
+          "jointThreshold": 0.38073912823574063,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "bonk": {
+        "matched": 0,
+        "generated": 15,
+        "manual": 373,
+        "precision": 0.0,
+        "wilsonLower90": 0.0,
+        "recall": 0.0,
+        "projects": 8,
+        "passes": false,
+        "selectedPolicy": {
+          "gateThreshold": 0.65,
+          "conditionalThreshold": 0.6,
+          "marginProbability": 0.18,
+          "cooldownSeconds": 8,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.25,
+          "priority": 80,
+          "jointThreshold": 0.5190960027784873,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "funny": {
+        "matched": 1,
+        "generated": 12,
+        "manual": 321,
+        "precision": 0.08333333333333333,
+        "wilsonLower90": 0.025270772566861787,
+        "recall": 0.003115264797507788,
+        "projects": 10,
+        "passes": false,
+        "selectedPolicy": {
+          "gateThreshold": 0.7,
+          "conditionalThreshold": 0.65,
+          "marginProbability": 0.2,
+          "cooldownSeconds": 15,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.08,
+          "priority": 40,
+          "jointThreshold": 0.5742731132169089,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "bruh": {
+        "matched": 0,
+        "generated": 1,
+        "manual": 23,
+        "precision": 0.0,
+        "wilsonLower90": 0.0,
+        "recall": 0.0,
+        "projects": 1,
+        "passes": false,
+        "selectedPolicy": {
+          "gateThreshold": 0.8,
+          "conditionalThreshold": 0.75,
+          "marginProbability": 0.25,
+          "cooldownSeconds": 60,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 90,
+          "jointThreshold": 0.6884091278277943,
+          "enabled": false,
+          "innerQualified": false
+        }
+      },
+      "record_scratch": {
+        "matched": 0,
+        "generated": 0,
+        "manual": 50,
+        "precision": null,
+        "wilsonLower90": null,
+        "recall": 0.0,
+        "projects": 0,
+        "passes": false,
+        "selectedPolicy": {
+          "gateThreshold": 0.85,
+          "conditionalThreshold": 0.8,
+          "marginProbability": 0.3,
+          "cooldownSeconds": 90,
+          "globalCooldownSeconds": 0.9,
+          "beatNmsSeconds": 0.45,
+          "maxPerMinute": 0.03,
+          "priority": 95,
+          "jointThreshold": 0.3508594052655794,
+          "enabled": false,
+          "innerQualified": false
+        }
+      }
+    }
+  }
+}

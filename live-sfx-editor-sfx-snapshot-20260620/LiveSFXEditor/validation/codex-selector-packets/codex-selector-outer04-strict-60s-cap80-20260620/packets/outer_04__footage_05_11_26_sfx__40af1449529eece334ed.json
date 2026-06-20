@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "40af1449529eece334ed",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000349253_02",
+  "coreStartSec": 349.253,
+  "coreEndSec": 360,
+  "contextStartSec": 341.253,
+  "contextEndSec": 368,
+  "allowedCandidateIds": [
+    "cand_caption_beat_61abe2142f815050",
+    "cand_caption_beat_38b17dc3231cbfbe",
+    "cand_caption_beat_515eb08e5bfd4381",
+    "cand_caption_beat_5800b7f6156057b8",
+    "cand_caption_beat_6bbaebdb1fc47f8e",
+    "cand_caption_beat_b27508d978c68dc1",
+    "cand_caption_beat_5b28a5c530ad6476",
+    "cand_caption_beat_45384cc92653a807",
+    "cand_caption_beat_84fd84b81d3ededa",
+    "cand_caption_beat_939269657b90f3b1",
+    "cand_caption_beat_9413457755122fbe",
+    "cand_caption_beat_f34bf689cccc5f81",
+    "cand_caption_beat_3d9ccb2c18ded68c",
+    "cand_caption_beat_218cf2b6378ae557",
+    "cand_caption_beat_3944d3bce6d70699"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00203",
+      "startSec": 341.2,
+      "endSec": 341.804,
+      "speakerKey": "speaker_3",
+      "text": "probably like"
+    },
+    {
+      "cueId": "cue-00765",
+      "startSec": 342.14,
+      "endSec": 342.776,
+      "speakerKey": "speaker_1",
+      "text": "four?"
+    },
+    {
+      "cueId": "cue-00766",
+      "startSec": 343.08,
+      "endSec": 343.6,
+      "speakerKey": "speaker_2",
+      "text": "Let's go"
+    },
+    {
+      "cueId": "cue-00767",
+      "startSec": 343.6,
+      "endSec": 344.28,
+      "speakerKey": "speaker_2",
+      "text": "I think your dad is"
+    },
+    {
+      "cueId": "cue-00768",
+      "startSec": 344.28,
+      "endSec": 344.94,
+      "speakerKey": "speaker_2",
+      "text": "waiting for us"
+    },
+    {
+      "cueId": "cue-00769",
+      "startSec": 345.105,
+      "endSec": 345.749,
+      "speakerKey": "speaker_2",
+      "text": "oh no"
+    },
+    {
+      "cueId": "cue-00770",
+      "startSec": 345.96,
+      "endSec": 347.04,
+      "speakerKey": "speaker_2",
+      "text": "Maybe he's still sleeping"
+    },
+    {
+      "cueId": "cue-00204",
+      "startSec": 347.3,
+      "endSec": 347.66,
+      "speakerKey": "speaker_1",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00205",
+      "startSec": 347.905,
+      "endSec": 348.472,
+      "speakerKey": "speaker_1",
+      "text": "okay guys"
+    },
+    {
+      "cueId": "cue-00206",
+      "startSec": 348.59,
+      "endSec": 350.03,
+      "speakerKey": "speaker_1",
+      "text": "usually when we"
+    },
+    {
+      "cueId": "cue-00207",
+      "startSec": 350.14,
+      "endSec": 351.04,
+      "speakerKey": "speaker_1",
+      "text": "are Going to school"
+    },
+    {
+      "cueId": "cue-00208",
+      "startSec": 351.135,
+      "endSec": 352.015,
+      "speakerKey": "speaker_1",
+      "text": "we tell jokes"
+    },
+    {
+      "cueId": "cue-00369",
+      "startSec": 352.2,
+      "endSec": 352.58,
+      "speakerKey": "speaker_2",
+      "text": "They have"
+    },
+    {
+      "cueId": "cue-00772",
+      "startSec": 353.08,
+      "endSec": 353.22,
+      "speakerKey": "speaker_2",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00773",
+      "startSec": 353.22,
+      "endSec": 353.55,
+      "speakerKey": "speaker_2",
+      "text": "a battle"
+    },
+    {
+      "cueId": "cue-00774",
+      "startSec": 353.62,
+      "endSec": 353.88,
+      "speakerKey": "speaker_2",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-00775",
+      "startSec": 354.2,
+      "endSec": 354.32,
+      "speakerKey": "speaker_2",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00776",
+      "startSec": 354.32,
+      "endSec": 355.49,
+      "speakerKey": "speaker_2",
+      "text": "between Suri and George"
+    },
+    {
+      "cueId": "cue-00777",
+      "startSec": 355.58,
+      "endSec": 356.16,
+      "speakerKey": "speaker_2",
+      "text": "Can you believe it?"
+    },
+    {
+      "cueId": "cue-00209",
+      "startSec": 356.42,
+      "endSec": 356.92,
+      "speakerKey": "speaker_1",
+      "text": "I don't know if it's"
+    },
+    {
+      "cueId": "cue-00210",
+      "startSec": 356.92,
+      "endSec": 358.039,
+      "speakerKey": "speaker_1",
+      "text": "like a riddle or a joke"
+    },
+    {
+      "cueId": "cue-00212",
+      "startSec": 358.46,
+      "endSec": 359.853,
+      "speakerKey": "speaker_1",
+      "text": "What type of cup"
+    },
+    {
+      "cueId": "25bd9605-2569-4cf3-9270-fad18cbf7b37",
+      "startSec": 360.825,
+      "endSec": 361.929,
+      "speakerKey": "speaker_1",
+      "text": "Can't hold water?"
+    },
+    {
+      "cueId": "cue-00370",
+      "startSec": 362.48,
+      "endSec": 363.3,
+      "speakerKey": "speaker_2",
+      "text": "I don't know"
+    },
+    {
+      "cueId": "cue-00778",
+      "startSec": 363.96,
+      "endSec": 365.42,
+      "speakerKey": "speaker_2",
+      "text": "You're gonna be deciding"
+    },
+    {
+      "cueId": "cue-00779",
+      "startSec": 365.54,
+      "endSec": 366.56,
+      "speakerKey": "speaker_2",
+      "text": "who's the best joke"
+    },
+    {
+      "cueId": "cue-00215",
+      "startSec": 366.7,
+      "endSec": 367.009,
+      "speakerKey": "speaker_1",
+      "text": "It's not like"
+    },
+    {
+      "cueId": "cue-00371",
+      "startSec": 367.02,
+      "endSec": 367.98,
+      "speakerKey": "speaker_2",
+      "text": "Suri or George"
+    },
+    {
+      "cueId": "cue-00780",
+      "startSec": 367.98,
+      "endSec": 368.163,
+      "speakerKey": "speaker_2",
+      "text": "okay"
+    }
+  ],
+  "markedCaptionText": "[05:41.20 speaker_3] probably like\n[05:42.14 speaker_1] four?\n[05:43.08 speaker_2] Let's go\n[05:43.60 speaker_2] I think your dad is\n[05:44.28 speaker_2] waiting for us\n[05:45.11 speaker_2] oh no\n[05:45.96 speaker_2] Maybe he's still sleeping\n[05:47.30 speaker_1] Yeah\n[05:47.90 speaker_1] okay guys\n[05:48.59 speaker_1] usually when we <cand_caption_beat_61abe2142f815050>\n[05:50.14 speaker_1] are Going to school <cand_caption_beat_61abe2142f815050> <cand_caption_beat_38b17dc3231cbfbe>\n[05:51.13 speaker_1] we tell jokes <cand_caption_beat_515eb08e5bfd4381> <cand_caption_beat_5800b7f6156057b8>\n[05:52.20 speaker_2] They have <cand_caption_beat_5800b7f6156057b8> <cand_caption_beat_6bbaebdb1fc47f8e>\n[05:53.08 speaker_2] like <cand_caption_beat_5800b7f6156057b8> <cand_caption_beat_b27508d978c68dc1>\n[05:53.22 speaker_2] a battle <cand_caption_beat_5800b7f6156057b8> <cand_caption_beat_b27508d978c68dc1>\n[05:53.62 speaker_2] guys <cand_caption_beat_5800b7f6156057b8> <cand_caption_beat_5b28a5c530ad6476>\n[05:54.20 speaker_2] Yeah <cand_caption_beat_5800b7f6156057b8> <cand_caption_beat_45384cc92653a807>\n[05:54.32 speaker_2] between Suri and George <cand_caption_beat_5800b7f6156057b8> <cand_caption_beat_84fd84b81d3ededa>\n[05:55.58 speaker_2] Can you believe it? <cand_caption_beat_5800b7f6156057b8> <cand_caption_beat_939269657b90f3b1>\n[05:56.42 speaker_1] I don't know if it's <cand_caption_beat_9413457755122fbe> <cand_caption_beat_f34bf689cccc5f81>\n[05:56.92 speaker_1] like a riddle or a joke <cand_caption_beat_f34bf689cccc5f81> <cand_caption_beat_3d9ccb2c18ded68c>\n[05:58.46 speaker_1] What type of cup <cand_caption_beat_218cf2b6378ae557> <cand_caption_beat_3944d3bce6d70699>\n[06:00.82 speaker_1] Can't hold water?\n[06:02.48 speaker_2] I don't know\n[06:03.96 speaker_2] You're gonna be deciding\n[06:05.54 speaker_2] who's the best joke\n[06:06.70 speaker_1] It's not like\n[06:07.02 speaker_2] Suri or George\n[06:07.98 speaker_2] okay",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_61abe2142f815050",
+      "momentId": "footage_05_11_26_sfx:beat_group_466",
+      "beatGroupId": "beat_group_466",
+      "relativeTimeSec": 0.827,
+      "absoluteTimeSec": 350.08,
+      "targetFrame": 20984,
+      "cueIds": [
+        "cue-00206",
+        "cue-00207"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "usually when we are Going to school",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.118,
+      "followingGapSec": 0.11,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_38b17dc3231cbfbe",
+      "momentId": "footage_05_11_26_sfx:beat_group_467",
+      "beatGroupId": "beat_group_467",
+      "relativeTimeSec": 1.787,
+      "absoluteTimeSec": 351.04,
+      "targetFrame": 21041,
+      "cueIds": [
+        "cue-00207"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "are Going to school",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.11,
+      "followingGapSec": 0.095,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.179
+    },
+    {
+      "candidateId": "cand_caption_beat_515eb08e5bfd4381",
+      "momentId": "footage_05_11_26_sfx:beat_group_468",
+      "beatGroupId": "beat_group_468",
+      "relativeTimeSec": 1.882,
+      "absoluteTimeSec": 351.135,
+      "targetFrame": 21047,
+      "cueIds": [
+        "cue-00208"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "we tell jokes",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.095,
+      "followingGapSec": 0.185,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.084
+    },
+    {
+      "candidateId": "cand_caption_beat_5800b7f6156057b8",
+      "momentId": "footage_05_11_26_sfx:beat_group_469",
+      "beatGroupId": "beat_group_469",
+      "relativeTimeSec": 2.847,
+      "absoluteTimeSec": 352.1,
+      "targetFrame": 21105,
+      "cueIds": [
+        "cue-00208",
+        "cue-00369",
+        "cue-00772",
+        "cue-00773",
+        "cue-00774",
+        "cue-00775",
+        "cue-00776",
+        "cue-00777"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "we tell jokes They have like a battle guys Yeah between Suri and George Can you believe it?",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.095,
+      "followingGapSec": 0.185,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.119
+    },
+    {
+      "candidateId": "cand_caption_beat_6bbaebdb1fc47f8e",
+      "momentId": "footage_05_11_26_sfx:beat_group_470",
+      "beatGroupId": "beat_group_470",
+      "relativeTimeSec": 3.287,
+      "absoluteTimeSec": 352.54,
+      "targetFrame": 21131,
+      "cueIds": [
+        "cue-00369"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "They have",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.185,
+      "followingGapSec": 0.5,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.321
+    },
+    {
+      "candidateId": "cand_caption_beat_b27508d978c68dc1",
+      "momentId": "footage_05_11_26_sfx:beat_group_471",
+      "beatGroupId": "beat_group_471",
+      "relativeTimeSec": 4.007,
+      "absoluteTimeSec": 353.26,
+      "targetFrame": 21174,
+      "cueIds": [
+        "cue-00772",
+        "cue-00773"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "like a battle",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.5,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.041
+    },
+    {
+      "candidateId": "cand_caption_beat_5b28a5c530ad6476",
+      "momentId": "footage_05_11_26_sfx:beat_group_472",
+      "beatGroupId": "beat_group_472",
+      "relativeTimeSec": 4.627,
+      "absoluteTimeSec": 353.88,
+      "targetFrame": 21212,
+      "cueIds": [
+        "cue-00774"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.07,
+      "followingGapSec": 0.32,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_45384cc92653a807",
+      "momentId": "footage_05_11_26_sfx:beat_group_473",
+      "beatGroupId": "beat_group_473",
+      "relativeTimeSec": 5.247,
+      "absoluteTimeSec": 354.5,
+      "targetFrame": 21249,
+      "cueIds": [
+        "cue-00775"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yeah",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_84fd84b81d3ededa",
+      "momentId": "footage_05_11_26_sfx:beat_group_474",
+      "beatGroupId": "beat_group_474",
+      "relativeTimeSec": 6.237,
+      "absoluteTimeSec": 355.49,
+      "targetFrame": 21308,
+      "cueIds": [
+        "cue-00776"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "between Suri and George",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.09,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_939269657b90f3b1",
+      "momentId": "footage_05_11_26_sfx:beat_group_475",
+      "beatGroupId": "beat_group_475",
+      "relativeTimeSec": 6.907,
+      "absoluteTimeSec": 356.16,
+      "targetFrame": 21348,
+      "cueIds": [
+        "cue-00777"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Can you believe it?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.09,
+      "followingGapSec": 0.26,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9413457755122fbe",
+      "momentId": "footage_05_11_26_sfx:beat_group_476",
+      "beatGroupId": "beat_group_476",
+      "relativeTimeSec": 7.167,
+      "absoluteTimeSec": 356.42,
+      "targetFrame": 21364,
+      "cueIds": [
+        "cue-00209"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I don't know if it's",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.26,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f34bf689cccc5f81",
+      "momentId": "footage_05_11_26_sfx:beat_group_477",
+      "beatGroupId": "beat_group_477",
+      "relativeTimeSec": 7.637,
+      "absoluteTimeSec": 356.89,
+      "targetFrame": 21392,
+      "cueIds": [
+        "cue-00209",
+        "cue-00210"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I don't know if it's like a riddle or a joke",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.26,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.468
+    },
+    {
+      "candidateId": "cand_caption_beat_3d9ccb2c18ded68c",
+      "momentId": "footage_05_11_26_sfx:beat_group_478",
+      "beatGroupId": "beat_group_478",
+      "relativeTimeSec": 8.786,
+      "absoluteTimeSec": 358.039,
+      "targetFrame": 21461,
+      "cueIds": [
+        "cue-00210"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "like a riddle or a joke",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.421,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.319
+    },
+    {
+      "candidateId": "cand_caption_beat_218cf2b6378ae557",
+      "momentId": "footage_05_11_26_sfx:beat_group_479",
+      "beatGroupId": "beat_group_479",
+      "relativeTimeSec": 9.967,
+      "absoluteTimeSec": 359.22,
+      "targetFrame": 21532,
+      "cueIds": [
+        "cue-00212"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "What type of cup",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.421,
+      "followingGapSec": 0.972,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.862
+    },
+    {
+      "candidateId": "cand_caption_beat_3944d3bce6d70699",
+      "momentId": "footage_05_11_26_sfx:beat_group_480",
+      "beatGroupId": "beat_group_480",
+      "relativeTimeSec": 10.52,
+      "absoluteTimeSec": 359.773,
+      "targetFrame": 21565,
+      "cueIds": [
+        "cue-00212"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "What type of cup",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.421,
+      "followingGapSec": 0.972,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.415
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "new_footage_sfx:beat_group_54",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "41.400 speaker_1: if there's games\n42.520 speaker_1: I don't know\n43.240 speaker_1: We're gonna go and check\n<CANDIDATE>46.100 speaker_3: somebody's excited</CANDIDATE>\n47.640 speaker_1: So this is your surprise\n48.900 speaker_1: guys\n49.520 speaker_1: wait",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_49",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "41.600 speaker_1: do you wanna show\n42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n<CANDIDATE>43.920 speaker_3: the humongous t-Rex</CANDIDATE>\n47.562 speaker_1: We got this big\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_70",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "50.280 speaker_2: You don't like it?\n52.120 speaker_2: And by the way\n53.000 speaker_2: look\n<CANDIDATE>54.476 speaker_1: my book</CANDIDATE>\n55.380 speaker_2: This is one of our\n56.355 speaker_2: favorite books\n57.460 speaker_1: Mine",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_colored_sfx:beat_group_777",
+      "projectId": "footage_colored_sfx",
+      "markedCaptionContext": "598.540 speaker_1: And you guys are going\n599.360 speaker_1: to the next grade\n600.000 speaker_1: so\n<CANDIDATE>600.620 speaker_1: let's go</CANDIDATE>\n<CANDIDATE>601.820 speaker_3: So where is it?</CANDIDATE>\n<CANDIDATE>602.620 speaker_1: I can't tell you</CANDIDATE>\n<CANDIDATE>603.260 speaker_1: Let's go</CANDIDATE>",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_665",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "497.100 speaker_3: And usually George is awake\n498.340 speaker_3: not me\n498.980 speaker_1: He's awake\n<CANDIDATE>499.960 speaker_1: but I thought</CANDIDATE>\n<CANDIDATE>500.420 speaker_1: you were gonna be awake</CANDIDATE>\n501.400 speaker_3: What do you think mama?\n502.240 speaker_3: You like it?",
+      "humanDecision": "other_sfx",
+      "otherFamily": "record_scratch"
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_64",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "49.980 speaker_1: Yeah\n50.320 speaker_1: You're right\n50.940 speaker_1: Oh okay\n<CANDIDATE>51.700 speaker_1: You're so smart</CANDIDATE>\n52.880 speaker_2: I told you guys\n53.860 speaker_2: All right\n54.180 speaker_2: Let's go",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_07_26_sfx:beat_group_56",
+      "projectId": "footage_05_07_26_sfx",
+      "markedCaptionContext": "52.260 speaker_3: I'm not\n52.710 speaker_3: all the way in the back\n53.940 speaker_2: Also\n<CANDIDATE>54.260 speaker_2: guys</CANDIDATE>\n<CANDIDATE>54.860 speaker_2: if you see Suri</CANDIDATE>\n55.500 speaker_2: and George kind of tired\n56.370 speaker_2: it's because they've been doing",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

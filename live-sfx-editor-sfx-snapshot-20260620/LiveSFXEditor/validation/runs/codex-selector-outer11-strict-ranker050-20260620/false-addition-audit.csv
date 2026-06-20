@@ -1,0 +1,10 @@
+projectId,segmentId,candidateId,family,momentType,labelKind,labelFamilies,targetSec,captionContext
+new_footage_sfx,new_footage_sfx:outer_11:core_000000000_01,cand_caption_beat_c14aa933928a4b9d,ding,reveal,clean_negative,[],2.3,"  [0.1] speaker_1: guys
+> [1.06] speaker_1: so we're here
+> [2.52] speaker_1: The big surprise is here
+  [5.38] speaker_1: Suri
+  [6.54] speaker_2: Yay
+  [7.2] speaker_3: This house looks nice
+  [8.42] speaker_1: Suri's kinda serious
+  [9.84] speaker_1: So guys
+  [10.68] speaker_1: as you guys already know"

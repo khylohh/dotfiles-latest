@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "protocol": "nested-grouped-caption-cv-v1",
+  "sourceCorpus": "data/sfx-automation-v2/visible-caption-corpus.jsonl",
+  "groupingNotes": [
+    "generalizationGroupId is built from metadata-only connected components.",
+    "Projects are connected by shared scriptBatchId, shootId, or exact normalized script hash.",
+    "Manual SFX labels, model scores, and family performance are not used for grouping."
+  ],
+  "projects": [
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-04-26",
+      "scriptBatchId": "JF 04-25-26",
+      "shootId": "JF 04-25-26",
+      "normalizedScriptHash": "7fd99f9b3681561df856a43280a41b6abc36d4a332da2928cbe63048ff800342",
+      "generalizationGroupId": "group_01_footage_04_26_26_sfx",
+      "durationSec": 1497.7,
+      "candidateCount": 2696,
+      "manualEventCount": 682,
+      "manualCaptionFamilyEventCount": 218,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_05_01_26_sfx",
+      "trainEligible": false,
+      "resolver": {
+        "status": "failed",
+        "reason": "explicit_caption_duration_mismatch",
+        "exclusionReason": "explicit_caption_duration_mismatch"
+      },
+      "recordingDate": "2026-05-01",
+      "scriptBatchId": "JF 04-29-26",
+      "shootId": "JF 04-29-26",
+      "normalizedScriptHash": "01fed654da6637098f1d9ae49ff13f776c8bc1f9c7cf9f063bbd1dc0f7098ea5",
+      "generalizationGroupId": "group_02_footage_05_01_26_sfx",
+      "durationSec": 1658.266667,
+      "candidateCount": 0,
+      "manualEventCount": 512,
+      "manualCaptionFamilyEventCount": 215,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-05-04",
+      "scriptBatchId": "JF 05-04-26",
+      "shootId": "JF 05-04-26",
+      "normalizedScriptHash": "d6282ae5601dc719955d3f737205567b0b35b458711d07a3cc650f8686bf1515",
+      "generalizationGroupId": "group_03_footage_05_04_26_sfx",
+      "durationSec": 1296.812183,
+      "candidateCount": 1744,
+      "manualEventCount": 411,
+      "manualCaptionFamilyEventCount": 168,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-05-07",
+      "scriptBatchId": "JF 05-07-26",
+      "shootId": "JF 05-07-26",
+      "normalizedScriptHash": "d4f57c994520b82ffad00ef22e0a7ccc5b48f2282d9bb94c57674b560cdc8036",
+      "generalizationGroupId": "group_04_footage_05_07_26_sfx",
+      "durationSec": 1705.25355,
+      "candidateCount": 2637,
+      "manualEventCount": 478,
+      "manualCaptionFamilyEventCount": 254,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-05-11",
+      "scriptBatchId": "JF 05-09-26",
+      "shootId": "JF 05-09-26",
+      "normalizedScriptHash": "74aec2a57abcf8f4ad8fe26008137559995cee17c21f55347d79b8f5a88d053a",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "durationSec": 1411.443367,
+      "candidateCount": 2638,
+      "manualEventCount": 326,
+      "manualCaptionFamilyEventCount": 164,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_05_15_26_sfx",
+      "trainEligible": false,
+      "resolver": {
+        "status": "failed",
+        "reason": "explicit_caption_duration_mismatch",
+        "exclusionReason": "explicit_caption_duration_mismatch"
+      },
+      "recordingDate": "2026-05-15",
+      "scriptBatchId": "JF 05-13-26",
+      "shootId": "JF 05-13-26",
+      "normalizedScriptHash": "04f9e4dfa2cbd4ae041c131b00656309b893eaa1332c14ccae905d91522a87db",
+      "generalizationGroupId": "group_06_footage_05_15_26_sfx",
+      "durationSec": 1381.313267,
+      "candidateCount": 0,
+      "manualEventCount": 293,
+      "manualCaptionFamilyEventCount": 96,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-05-17",
+      "scriptBatchId": "JF 05-16-26",
+      "shootId": "JF 05-16-26",
+      "normalizedScriptHash": "f4c51d99c3017129ed54ec28df423597b4778fef9bd2d2cb54af2058c8b22336",
+      "generalizationGroupId": "group_07_footage_05_17_26_sfx",
+      "durationSec": 1197.24605,
+      "candidateCount": 2191,
+      "manualEventCount": 264,
+      "manualCaptionFamilyEventCount": 121,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-05-19",
+      "scriptBatchId": "JF 05-19-26",
+      "shootId": "JF 05-19-26",
+      "normalizedScriptHash": "491f7eb3c9ea1ffa3e5b354ffe4b966d545a59ac62d5218063221e37d7517f2c",
+      "generalizationGroupId": "group_08_footage_05_19_26_sfx",
+      "durationSec": 1463.728933,
+      "candidateCount": 2528,
+      "manualEventCount": 362,
+      "manualCaptionFamilyEventCount": 147,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-05-26",
+      "scriptBatchId": "JF 05-23-26",
+      "shootId": "JF 05-23-26",
+      "normalizedScriptHash": "065ad68b73e6e27decf70cf8ba83130763868185715ec62162704303e22922af",
+      "generalizationGroupId": "group_09_footage_05_26_26_sfx",
+      "durationSec": 1224.840283,
+      "candidateCount": 2240,
+      "manualEventCount": 263,
+      "manualCaptionFamilyEventCount": 149,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-05-27",
+      "scriptBatchId": "JF 05-26-26",
+      "shootId": "JF 05-26-26",
+      "normalizedScriptHash": "431dd33293f05ebdd4599c823157fe8e488202649fc3cbd280b9d52c35f8f3c0",
+      "generalizationGroupId": "group_10_footage_05_27_26_sfx",
+      "durationSec": 1224.239683,
+      "candidateCount": 2264,
+      "manualEventCount": 270,
+      "manualCaptionFamilyEventCount": 105,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-05-31",
+      "scriptBatchId": "JF 05-22-26",
+      "shootId": "JF 05-22-26",
+      "normalizedScriptHash": "0cb422cde8cae585e9df77b2eb1813accc49dfb454a714f3e44d1f794257309c",
+      "generalizationGroupId": "group_11_footage_05_31_26_sfx",
+      "durationSec": 1382.064017,
+      "candidateCount": 2741,
+      "manualEventCount": 284,
+      "manualCaptionFamilyEventCount": 125,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_06_02_26_sfx",
+      "trainEligible": false,
+      "resolver": {
+        "status": "failed",
+        "reason": "explicit_caption_duration_mismatch",
+        "exclusionReason": "explicit_caption_duration_mismatch"
+      },
+      "recordingDate": "2026-06-02",
+      "scriptBatchId": "JF 05-29-26",
+      "shootId": "JF 05-29-26",
+      "normalizedScriptHash": "21650d0f7e614013978b22a4800928d73c06b5a43033853db55785d289ae5244",
+      "generalizationGroupId": "group_12_footage_06_02_26_sfx",
+      "durationSec": 1312.678033,
+      "candidateCount": 0,
+      "manualEventCount": 297,
+      "manualCaptionFamilyEventCount": 156,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-06-05",
+      "scriptBatchId": "JF 06-03-26",
+      "shootId": "JF 06-03-26",
+      "normalizedScriptHash": "fe8522a70c78268d8dd7fba7104e7e8abeff873559abcc70722785464a314082",
+      "generalizationGroupId": "group_13_footage_06_05_26_sfx",
+      "durationSec": 1461.893767,
+      "candidateCount": 2371,
+      "manualEventCount": 364,
+      "manualCaptionFamilyEventCount": 179,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "new_footage_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-06-06",
+      "scriptBatchId": "JF 06-06-26",
+      "shootId": "JF 06-06-26",
+      "normalizedScriptHash": "3e62ccea651be6246d0bc86c500604658eed8869a664b0b0fb6f9cb3c5389eea",
+      "generalizationGroupId": "group_14_new_footage_sfx",
+      "durationSec": 192.809283,
+      "candidateCount": 289,
+      "manualEventCount": 35,
+      "manualCaptionFamilyEventCount": 23,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_06_08_26_sfx",
+      "trainEligible": false,
+      "resolver": {
+        "status": "failed",
+        "reason": "explicit_caption_duration_mismatch",
+        "exclusionReason": "explicit_caption_duration_mismatch"
+      },
+      "recordingDate": "2026-06-08",
+      "scriptBatchId": "JF 06-06-26",
+      "shootId": "JF 06-06-26",
+      "normalizedScriptHash": "34fa86458702fa22df01a2384f17c63ca5749d1aa79b31c93883bd7f95a96b62",
+      "generalizationGroupId": "group_14_new_footage_sfx",
+      "durationSec": 1247.479567,
+      "candidateCount": 0,
+      "manualEventCount": 289,
+      "manualCaptionFamilyEventCount": 145,
+      "sourceProjectKnown": true
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "trainEligible": true,
+      "resolver": {
+        "status": "ok",
+        "reason": "explicit_caption_path",
+        "exclusionReason": ""
+      },
+      "recordingDate": "2026-06-12",
+      "scriptBatchId": "JF 06-12-26",
+      "shootId": "JF 06-12-26",
+      "normalizedScriptHash": "4527c79696523f808f95cb80b7fc8923d46f4b1c398a8e35daae139a50fe9b68",
+      "generalizationGroupId": "group_15_footage_colored_sfx",
+      "durationSec": 1262.61135,
+      "candidateCount": 2135,
+      "manualEventCount": 325,
+      "manualCaptionFamilyEventCount": 145,
+      "sourceProjectKnown": true
+    }
+  ]
+}

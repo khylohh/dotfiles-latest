@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "packId": "jancy-editor-v1",
+  "cyclePools": {
+    "pop.light": { "categoryId": "pop", "count": 24, "minProjects": 10, "minUses": 14, "maxDurationSeconds": 2.2, "maxOnsetSeconds": 0.1 },
+    "ding.small": { "categoryId": "ding", "count": 20, "minProjects": 10, "minUses": 20, "maxDurationSeconds": 2.6, "maxOnsetSeconds": 0.12 },
+    "success.payoff": { "categoryId": "success", "count": 11, "minProjects": 6, "minUses": 8, "maxDurationSeconds": 3.1, "maxOnsetSeconds": 0.2 },
+    "bonk.failure": { "categoryId": "bonk", "count": 16, "minProjects": 10, "minUses": 15, "maxDurationSeconds": 2.6, "maxOnsetSeconds": 0.12 },
+    "funny.punchline": { "categoryId": "funny", "count": 6, "minProjects": 4, "minUses": 8, "maxDurationSeconds": 4.0, "maxOnsetSeconds": 0.25 },
+    "heavy.short": { "categoryId": "dramatic", "count": 10, "minProjects": 6, "minUses": 10, "maxDurationSeconds": 2.1, "maxOnsetSeconds": 0.2 },
+    "record-scratch": { "categoryId": "record_scratch", "count": 2, "minProjects": 1, "minUses": 1, "maxDurationSeconds": 4.0, "maxOnsetSeconds": 0.3 },
+    "bruh": { "categoryId": "bruh", "count": 1, "minProjects": 1, "minUses": 1, "maxDurationSeconds": 3.0, "maxOnsetSeconds": 0.2 }
+  },
+  "manualAllowlist": [
+    { "poolId": "heavy.soft", "match": "ctds2 hit drum soft low punch" },
+    { "poolId": "heavy.soft", "match": "ctds2 hit drum soft flutes" },
+    { "poolId": "heavy.soft", "match": "ctds2 hit drum soft shallow" },
+    { "poolId": "heavy.standard", "match": "ctds2 boom universal" },
+    { "poolId": "heavy.standard", "match": "ctds2 boom surprise" },
+    { "poolId": "heavy.standard", "match": "ctds2 boom critical mass" },
+    { "poolId": "heavy.large", "match": "ctds2 hit drum epic godslayer" },
+    { "poolId": "heavy.large", "match": "ctds2 hit drum epic in your face" },
+    { "poolId": "heavy.reveal", "match": "dramatic impact 1 ren and stimpy production music" },
+    { "poolId": "heavy.reveal", "match": "dramatic bass dun dun dun" },
+    { "poolId": "heavy.reveal", "match": "dramaticeff1" },
+    { "poolId": "heavy.comic", "match": "vine boom" },
+    { "poolId": "riser.short", "match": "instrumental countd" },
+    { "poolId": "riser.short", "match": "elegant riser sound" },
+    { "poolId": "riser.short", "match": "create a tense cinem" }
+  ]
+}

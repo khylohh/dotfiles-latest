@@ -1,0 +1,2380 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "8578c9c9a3cbb19e554c",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000540000_01",
+  "coreStartSec": 540,
+  "coreEndSec": 600,
+  "contextStartSec": 532,
+  "contextEndSec": 608,
+  "allowedCandidateIds": [
+    "cand_caption_beat_e504f7d649a0f715",
+    "cand_caption_beat_cf013ff8bfd51a75",
+    "cand_caption_beat_fe8196f7345ad289",
+    "cand_caption_beat_92f514e75a3d0d2f",
+    "cand_caption_beat_b520a17bd2353d66",
+    "cand_caption_beat_4259ff611acc0f3c",
+    "cand_caption_beat_bf465892b69743e3",
+    "cand_caption_beat_1e037ba3f7876e56",
+    "cand_caption_beat_807b0c1a340c9e77",
+    "cand_caption_beat_5f0fe9a482ff8c32",
+    "cand_caption_beat_0bb452b96b54b364",
+    "cand_caption_beat_6ab2ef441e7c8a56",
+    "cand_caption_beat_c2a6049cba1483e6",
+    "cand_caption_beat_099571aca9b54adb",
+    "cand_caption_beat_961c6c3e55125316",
+    "cand_caption_beat_387dee1a84b5ab36",
+    "cand_caption_beat_431ba89a6bd4ce28",
+    "cand_caption_beat_5ebb298b90f85d3f",
+    "cand_caption_beat_ad5aaf59718f56b0",
+    "cand_caption_beat_e098c6135d3072dc",
+    "cand_caption_beat_a041a3047cef7c0b",
+    "cand_caption_beat_15ad02ee185ba178",
+    "cand_caption_beat_3067dd24a86cf152",
+    "cand_caption_beat_658f555fbf1655d5",
+    "cand_caption_beat_66f15b1826b9c3ee",
+    "cand_caption_beat_93da02cc1f6d27a6",
+    "cand_caption_beat_a6eb5bec28a573da",
+    "cand_caption_beat_57028b6d27b0e874",
+    "cand_caption_beat_56a4278f01556555",
+    "cand_caption_beat_a8c4a1c480f62c24",
+    "cand_caption_beat_42c77fe20de72f48",
+    "cand_caption_beat_66ade6c073002c81",
+    "cand_caption_beat_bcb0e61cb4e040bb",
+    "cand_caption_beat_e26b4f324eb51246",
+    "cand_caption_beat_4dbfab9f643409eb",
+    "cand_caption_beat_094df9169f82134f",
+    "cand_caption_beat_ff8735de4ce75aa6",
+    "cand_caption_beat_73e4718eacd12b97",
+    "cand_caption_beat_bcb21ac1ca438a9f",
+    "cand_caption_beat_6cd2e530fc6e95ad",
+    "cand_caption_beat_86761cbfdcc0c788",
+    "cand_caption_beat_23d452c24f56e3a2",
+    "cand_caption_beat_d91f0112406c3ef1",
+    "cand_caption_beat_b0f97cb874926360",
+    "cand_caption_beat_81554172bc4c32a7",
+    "cand_caption_beat_a23d2a3a48bc4b05",
+    "cand_caption_beat_6322702bc64cec86",
+    "cand_caption_beat_8bb6a2c10494e01e",
+    "cand_caption_beat_82df5fa9a4569c78",
+    "cand_caption_beat_c55a7b6a091e8744",
+    "cand_caption_beat_916ed25b94f63fa1",
+    "cand_caption_beat_5ce3778e0b434606",
+    "cand_caption_beat_381dbaf87838b47f",
+    "cand_caption_beat_1f819922e9a1ce08",
+    "cand_caption_beat_0faa97e4afba9bf2",
+    "cand_caption_beat_4ca8d7cfa919baad",
+    "cand_caption_beat_7e059d4a6dabc0de",
+    "cand_caption_beat_1710cc3a163a5989",
+    "cand_caption_beat_32300aa1934dc2c0",
+    "cand_caption_beat_6c3b3ab23a564bc2",
+    "cand_caption_beat_2a5b6f64d52abeb9",
+    "cand_caption_beat_b2ea02c1e047247e",
+    "cand_caption_beat_5b69b3077bec4b70",
+    "cand_caption_beat_009b0ab63a062159",
+    "cand_caption_beat_31de0dcea30541d3",
+    "cand_caption_beat_0a94fb87beeb6849",
+    "cand_caption_beat_fec84995a61cb58b",
+    "cand_caption_beat_d6b8fbbdd72c85a0",
+    "cand_caption_beat_1f57cf23dcae36d4",
+    "cand_caption_beat_4fe8a152e00563e7",
+    "cand_caption_beat_63d3fc5e323b261d",
+    "cand_caption_beat_1babb4a75b30d287",
+    "cand_caption_beat_a0e88c9513d9b249",
+    "cand_caption_beat_4e527b946c5397d7"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00857",
+      "startSec": 531.38,
+      "endSec": 532.08,
+      "speakerKey": "speaker_3",
+      "text": "but this is like"
+    },
+    {
+      "cueId": "cue-00858",
+      "startSec": 532.2,
+      "endSec": 533.258,
+      "speakerKey": "speaker_3",
+      "text": "strawberry instead"
+    },
+    {
+      "cueId": "cue-00401",
+      "startSec": 533.72,
+      "endSec": 534.24,
+      "speakerKey": "speaker_2",
+      "text": "How about yours?"
+    },
+    {
+      "cueId": "cue-00402",
+      "startSec": 534.26,
+      "endSec": 534.779,
+      "speakerKey": "speaker_3",
+      "text": "10"
+    },
+    {
+      "cueId": "cue-00403",
+      "startSec": 534.96,
+      "endSec": 535.38,
+      "speakerKey": "speaker_2",
+      "text": "10?"
+    },
+    {
+      "cueId": "cue-00859",
+      "startSec": 535.38,
+      "endSec": 536.36,
+      "speakerKey": "speaker_2",
+      "text": "Those are like Oreos"
+    },
+    {
+      "cueId": "cue-00860",
+      "startSec": 536.46,
+      "endSec": 536.64,
+      "speakerKey": "speaker_2",
+      "text": "right?"
+    },
+    {
+      "cueId": "cue-00861",
+      "startSec": 537.08,
+      "endSec": 537.45,
+      "speakerKey": "speaker_2",
+      "text": "Are you guys"
+    },
+    {
+      "cueId": "a5b997ed-c09e-456a-8f86-118c87564e57",
+      "startSec": 537.45,
+      "endSec": 537.92,
+      "speakerKey": "speaker_2",
+      "text": "ready to go to"
+    },
+    {
+      "cueId": "cue-00862",
+      "startSec": 537.92,
+      "endSec": 538.341,
+      "speakerKey": "speaker_2",
+      "text": "school?"
+    },
+    {
+      "cueId": "cue-00863",
+      "startSec": 538.98,
+      "endSec": 539.16,
+      "speakerKey": "speaker_2",
+      "text": "Okay"
+    },
+    {
+      "cueId": "cue-00864",
+      "startSec": 539.16,
+      "endSec": 539.36,
+      "speakerKey": "speaker_2",
+      "text": "hurry"
+    },
+    {
+      "cueId": "cue-00865",
+      "startSec": 539.36,
+      "endSec": 540.7,
+      "speakerKey": "speaker_2",
+      "text": "because we don't wanna be late"
+    },
+    {
+      "cueId": "cue-00866",
+      "startSec": 540.7,
+      "endSec": 540.94,
+      "speakerKey": "speaker_2",
+      "text": "okay?"
+    },
+    {
+      "cueId": "cue-00274",
+      "startSec": 541.226,
+      "endSec": 542.95,
+      "speakerKey": "speaker_1",
+      "text": "We're done eating at Starbucks"
+    },
+    {
+      "cueId": "cue-00275",
+      "startSec": 543.06,
+      "endSec": 543.22,
+      "speakerKey": "speaker_1",
+      "text": "and"
+    },
+    {
+      "cueId": "cue-00276",
+      "startSec": 543.22,
+      "endSec": 543.78,
+      "speakerKey": "speaker_1",
+      "text": "I got two"
+    },
+    {
+      "cueId": "cue-00277",
+      "startSec": 543.78,
+      "endSec": 544.8,
+      "speakerKey": "speaker_1",
+      "text": "croissants for my friends"
+    },
+    {
+      "cueId": "cue-00278",
+      "startSec": 544.8,
+      "endSec": 545.88,
+      "speakerKey": "speaker_1",
+      "text": "because sometimes when"
+    },
+    {
+      "cueId": "cue-00279",
+      "startSec": 545.88,
+      "endSec": 546.96,
+      "speakerKey": "speaker_1",
+      "text": "they go eat something"
+    },
+    {
+      "cueId": "cue-00280",
+      "startSec": 547.42,
+      "endSec": 548.42,
+      "speakerKey": "speaker_1",
+      "text": "they bring me something"
+    },
+    {
+      "cueId": "cue-00281",
+      "startSec": 548.5,
+      "endSec": 549.1,
+      "speakerKey": "speaker_1",
+      "text": "And then when"
+    },
+    {
+      "cueId": "cue-00282",
+      "startSec": 549.2,
+      "endSec": 550.27,
+      "speakerKey": "speaker_1",
+      "text": "I go eat something"
+    },
+    {
+      "cueId": "cue-00283",
+      "startSec": 550.27,
+      "endSec": 550.565,
+      "speakerKey": "speaker_1",
+      "text": "then"
+    },
+    {
+      "cueId": "cue-00284",
+      "startSec": 550.565,
+      "endSec": 551.47,
+      "speakerKey": "speaker_1",
+      "text": "I bring something for them"
+    },
+    {
+      "cueId": "cue-00404",
+      "startSec": 552,
+      "endSec": 553.22,
+      "speakerKey": "speaker_2",
+      "text": "But there's four croissants"
+    },
+    {
+      "cueId": "cue-00867",
+      "startSec": 553.22,
+      "endSec": 553.6,
+      "speakerKey": "speaker_2",
+      "text": "by the way"
+    },
+    {
+      "cueId": "cue-00868",
+      "startSec": 554.08,
+      "endSec": 554.72,
+      "speakerKey": "speaker_2",
+      "text": "Why?"
+    },
+    {
+      "cueId": "cue-00869",
+      "startSec": 555.36,
+      "endSec": 556.39,
+      "speakerKey": "speaker_2",
+      "text": "Are you gonna eat two"
+    },
+    {
+      "cueId": "e16810e2-f770-4129-aa73-d7d424ca0683",
+      "startSec": 556.39,
+      "endSec": 556.81,
+      "speakerKey": "speaker_2",
+      "text": "also?"
+    },
+    {
+      "cueId": "cue-00286",
+      "startSec": 556.92,
+      "endSec": 557.437,
+      "speakerKey": "speaker_1",
+      "text": "No"
+    },
+    {
+      "cueId": "cue-00287",
+      "startSec": 557.9,
+      "endSec": 558.26,
+      "speakerKey": "speaker_1",
+      "text": "George"
+    },
+    {
+      "cueId": "cue-00288",
+      "startSec": 558.26,
+      "endSec": 559.16,
+      "speakerKey": "speaker_1",
+      "text": "you wanna get the other"
+    },
+    {
+      "cueId": "cue-00289",
+      "startSec": 559.16,
+      "endSec": 560.06,
+      "speakerKey": "speaker_1",
+      "text": "two for your friends or?"
+    },
+    {
+      "cueId": "cue-00290",
+      "startSec": 560.14,
+      "endSec": 560.767,
+      "speakerKey": "speaker_3",
+      "text": "sure"
+    },
+    {
+      "cueId": "cue-00405",
+      "startSec": 561.52,
+      "endSec": 561.92,
+      "speakerKey": "speaker_2",
+      "text": "oh"
+    },
+    {
+      "cueId": "cue-00870",
+      "startSec": 561.92,
+      "endSec": 562.14,
+      "speakerKey": "speaker_2",
+      "text": "okay"
+    },
+    {
+      "cueId": "cue-00871",
+      "startSec": 562.24,
+      "endSec": 562.639,
+      "speakerKey": "speaker_2",
+      "text": "Two and two"
+    },
+    {
+      "cueId": "cue-00291",
+      "startSec": 562.82,
+      "endSec": 563.74,
+      "speakerKey": "speaker_1",
+      "text": "That solves everything"
+    },
+    {
+      "cueId": "cue-00406",
+      "startSec": 564.02,
+      "endSec": 564.505,
+      "speakerKey": "speaker_2",
+      "text": "that's cool"
+    },
+    {
+      "cueId": "cue-00872",
+      "startSec": 565.06,
+      "endSec": 565.42,
+      "speakerKey": "speaker_2",
+      "text": "Okay"
+    },
+    {
+      "cueId": "cue-00873",
+      "startSec": 565.82,
+      "endSec": 566.24,
+      "speakerKey": "speaker_2",
+      "text": "I'm pretty sure"
+    },
+    {
+      "cueId": "41f350aa-0315-4839-bdad-f94f7f0351fa",
+      "startSec": 566.24,
+      "endSec": 567.07,
+      "speakerKey": "speaker_2",
+      "text": "today you guys"
+    },
+    {
+      "cueId": "cue-00874",
+      "startSec": 567.07,
+      "endSec": 567.56,
+      "speakerKey": "speaker_2",
+      "text": "are gonna have a"
+    },
+    {
+      "cueId": "8be31f95-1916-4be3-8372-f07e35e44f23",
+      "startSec": 567.56,
+      "endSec": 568.44,
+      "speakerKey": "speaker_2",
+      "text": "fun day because"
+    },
+    {
+      "cueId": "cue-00292",
+      "startSec": 568.58,
+      "endSec": 569.84,
+      "speakerKey": "speaker_1",
+      "text": "I think it's because"
+    },
+    {
+      "cueId": "cue-00293",
+      "startSec": 570.08,
+      "endSec": 570.92,
+      "speakerKey": "speaker_1",
+      "text": "I don't have PE"
+    },
+    {
+      "cueId": "cue-00295",
+      "startSec": 571.26,
+      "endSec": 571.4,
+      "speakerKey": "speaker_1",
+      "text": "Wait"
+    },
+    {
+      "cueId": "cue-00296",
+      "startSec": 571.48,
+      "endSec": 571.76,
+      "speakerKey": "speaker_1",
+      "text": "George"
+    },
+    {
+      "cueId": "cue-00297",
+      "startSec": 571.76,
+      "endSec": 572.32,
+      "speakerKey": "speaker_1",
+      "text": "do you have PE?"
+    },
+    {
+      "cueId": "cue-00407",
+      "startSec": 572.62,
+      "endSec": 572.98,
+      "speakerKey": "speaker_2",
+      "text": "No"
+    },
+    {
+      "cueId": "cue-00875",
+      "startSec": 572.98,
+      "endSec": 573.555,
+      "speakerKey": "speaker_2",
+      "text": "he doesn't have it"
+    },
+    {
+      "cueId": "db1740df-239c-4abe-9f9c-c6690ec9ec99",
+      "startSec": 573.555,
+      "endSec": 574.519,
+      "speakerKey": "speaker_2",
+      "text": "today either"
+    },
+    {
+      "cueId": "cue-00298",
+      "startSec": 574.56,
+      "endSec": 574.76,
+      "speakerKey": "speaker_1",
+      "text": "Well"
+    },
+    {
+      "cueId": "cue-00299",
+      "startSec": 574.86,
+      "endSec": 575.16,
+      "speakerKey": "speaker_1",
+      "text": "that's why"
+    },
+    {
+      "cueId": "cue-00300",
+      "startSec": 575.16,
+      "endSec": 575.77,
+      "speakerKey": "speaker_1",
+      "text": "I brought my Crocs"
+    },
+    {
+      "cueId": "cue-00301",
+      "startSec": 575.86,
+      "endSec": 576.199,
+      "speakerKey": "speaker_1",
+      "text": "so"
+    },
+    {
+      "cueId": "cue-00302",
+      "startSec": 576.46,
+      "endSec": 577.88,
+      "speakerKey": "speaker_1",
+      "text": "because I only bring my"
+    },
+    {
+      "cueId": "cue-00304",
+      "startSec": 578.054,
+      "endSec": 579.12,
+      "speakerKey": "speaker_1",
+      "text": "real shoes"
+    },
+    {
+      "cueId": "cue-00408",
+      "startSec": 579.94,
+      "endSec": 580.78,
+      "speakerKey": "speaker_2",
+      "text": "I don't know why she"
+    },
+    {
+      "cueId": "cue-00876",
+      "startSec": 580.78,
+      "endSec": 581.8,
+      "speakerKey": "speaker_2",
+      "text": "wears Crocs to school"
+    },
+    {
+      "cueId": "cue-00877",
+      "startSec": 581.88,
+      "endSec": 582.62,
+      "speakerKey": "speaker_2",
+      "text": "but it's fine"
+    },
+    {
+      "cueId": "cue-00878",
+      "startSec": 582.86,
+      "endSec": 583.18,
+      "speakerKey": "speaker_2",
+      "text": "I guess"
+    },
+    {
+      "cueId": "cue-00305",
+      "startSec": 583.19,
+      "endSec": 583.92,
+      "speakerKey": "speaker_1",
+      "text": "I like Crocs"
+    },
+    {
+      "cueId": "cue-00306",
+      "startSec": 583.92,
+      "endSec": 584.94,
+      "speakerKey": "speaker_1",
+      "text": "They're easy to put on"
+    },
+    {
+      "cueId": "cue-00307",
+      "startSec": 584.94,
+      "endSec": 586,
+      "speakerKey": "speaker_1",
+      "text": "You don't have to find socks"
+    },
+    {
+      "cueId": "cue-00308",
+      "startSec": 586,
+      "endSec": 586.96,
+      "speakerKey": "speaker_1",
+      "text": "You don't have to tie"
+    },
+    {
+      "cueId": "cue-00309",
+      "startSec": 586.96,
+      "endSec": 588.116,
+      "speakerKey": "speaker_1",
+      "text": "your shoelaces every like"
+    },
+    {
+      "cueId": "cue-00311",
+      "startSec": 588.116,
+      "endSec": 589.244,
+      "speakerKey": "speaker_1",
+      "text": "20 minutes or something"
+    },
+    {
+      "cueId": "cue-00312",
+      "startSec": 589.244,
+      "endSec": 589.48,
+      "speakerKey": "speaker_1",
+      "text": "so"
+    },
+    {
+      "cueId": "cue-00313",
+      "startSec": 589.48,
+      "endSec": 589.844,
+      "speakerKey": "speaker_2",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00409",
+      "startSec": 590.9,
+      "endSec": 591.16,
+      "speakerKey": "speaker_4",
+      "text": "All right"
+    },
+    {
+      "cueId": "cue-00879",
+      "startSec": 591.16,
+      "endSec": 591.43,
+      "speakerKey": "speaker_4",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-00880",
+      "startSec": 591.56,
+      "endSec": 592.527,
+      "speakerKey": "speaker_4",
+      "text": "as you guys already know"
+    },
+    {
+      "cueId": "cue-00881",
+      "startSec": 592.974,
+      "endSec": 593.63,
+      "speakerKey": "speaker_4",
+      "text": "for Stary's"
+    },
+    {
+      "cueId": "cc6d89d5-5276-4c78-9384-9732de6b9382",
+      "startSec": 593.63,
+      "endSec": 594.455,
+      "speakerKey": "speaker_4",
+      "text": "birthday we went"
+    },
+    {
+      "cueId": "cue-00882",
+      "startSec": 594.455,
+      "endSec": 595.128,
+      "speakerKey": "speaker_4",
+      "text": "somewhere for her"
+    },
+    {
+      "cueId": "307d3ead-74d1-4454-85ae-998160d3e750",
+      "startSec": 595.128,
+      "endSec": 595.898,
+      "speakerKey": "speaker_4",
+      "text": "birthday and"
+    },
+    {
+      "cueId": "cue-00883",
+      "startSec": 595.898,
+      "endSec": 597.36,
+      "speakerKey": "speaker_4",
+      "text": "I think they caught a virus"
+    },
+    {
+      "cueId": "cue-00884",
+      "startSec": 597.68,
+      "endSec": 599.53,
+      "speakerKey": "speaker_4",
+      "text": "So Stary and Terah"
+    },
+    {
+      "cueId": "cue-00885",
+      "startSec": 599.74,
+      "endSec": 600.459,
+      "speakerKey": "speaker_4",
+      "text": "they have fever"
+    },
+    {
+      "cueId": "cue-00886",
+      "startSec": 600.459,
+      "endSec": 601.269,
+      "speakerKey": "speaker_4",
+      "text": "and are kind of sick"
+    },
+    {
+      "cueId": "cue-00887",
+      "startSec": 602.14,
+      "endSec": 602.92,
+      "speakerKey": "speaker_4",
+      "text": "Not good"
+    },
+    {
+      "cueId": "cue-00889",
+      "startSec": 603.053,
+      "endSec": 603.84,
+      "speakerKey": "speaker_4",
+      "text": "but Nan's taking"
+    },
+    {
+      "cueId": "6528eeae-c0a5-43e5-acce-4a6783889406",
+      "startSec": 603.84,
+      "endSec": 604.627,
+      "speakerKey": "speaker_4",
+      "text": "care of them"
+    },
+    {
+      "cueId": "cue-00890",
+      "startSec": 604.627,
+      "endSec": 605.474,
+      "speakerKey": "speaker_4",
+      "text": "we already gave"
+    },
+    {
+      "cueId": "b4c03282-d09a-4b12-8f07-4f2b28eb768c",
+      "startSec": 605.474,
+      "endSec": 606.32,
+      "speakerKey": "speaker_4",
+      "text": "them some medicine"
+    },
+    {
+      "cueId": "cue-00891",
+      "startSec": 606.32,
+      "endSec": 607.324,
+      "speakerKey": "speaker_4",
+      "text": "but we're gonna be giving"
+    },
+    {
+      "cueId": "cue-00892",
+      "startSec": 607.324,
+      "endSec": 609.228,
+      "speakerKey": "speaker_4",
+      "text": "them some freezer pops"
+    }
+  ],
+  "markedCaptionText": "[08:51.38 speaker_3] but this is like\n[08:52.20 speaker_3] strawberry instead\n[08:53.72 speaker_2] How about yours?\n[08:54.26 speaker_3] 10\n[08:54.96 speaker_2] 10?\n[08:55.38 speaker_2] Those are like Oreos\n[08:56.46 speaker_2] right?\n[08:57.08 speaker_2] Are you guys\n[08:57.45 speaker_2] ready to go to\n[08:57.92 speaker_2] school?\n[08:58.98 speaker_2] Okay\n[08:59.16 speaker_2] hurry\n[08:59.36 speaker_2] because we don't wanna be late <cand_caption_beat_e504f7d649a0f715>\n[09:00.70 speaker_2] okay? <cand_caption_beat_e504f7d649a0f715>\n[09:01.23 speaker_1] We're done eating at Starbucks <cand_caption_beat_cf013ff8bfd51a75>\n[09:03.06 speaker_1] and <cand_caption_beat_fe8196f7345ad289>\n[09:03.22 speaker_1] I got two <cand_caption_beat_fe8196f7345ad289> <cand_caption_beat_92f514e75a3d0d2f>\n[09:03.78 speaker_1] croissants for my friends <cand_caption_beat_92f514e75a3d0d2f> <cand_caption_beat_b520a17bd2353d66>\n[09:04.80 speaker_1] because sometimes when <cand_caption_beat_b520a17bd2353d66> <cand_caption_beat_4259ff611acc0f3c>\n[09:05.88 speaker_1] they go eat something <cand_caption_beat_b520a17bd2353d66> <cand_caption_beat_4259ff611acc0f3c> <cand_caption_beat_bf465892b69743e3>\n[09:07.42 speaker_1] they bring me something <cand_caption_beat_b520a17bd2353d66> <cand_caption_beat_1e037ba3f7876e56> <cand_caption_beat_807b0c1a340c9e77>\n[09:08.50 speaker_1] And then when <cand_caption_beat_b520a17bd2353d66> <cand_caption_beat_5f0fe9a482ff8c32>\n[09:09.20 speaker_1] I go eat something <cand_caption_beat_b520a17bd2353d66> <cand_caption_beat_0bb452b96b54b364>\n[09:10.27 speaker_1] then <cand_caption_beat_b520a17bd2353d66> <cand_caption_beat_0bb452b96b54b364>\n[09:10.57 speaker_1] I bring something for them <cand_caption_beat_b520a17bd2353d66> <cand_caption_beat_6ab2ef441e7c8a56>\n[09:12.00 speaker_2] But there's four croissants <cand_caption_beat_c2a6049cba1483e6> <cand_caption_beat_099571aca9b54adb>\n[09:13.22 speaker_2] by the way <cand_caption_beat_099571aca9b54adb>\n[09:14.08 speaker_2] Why? <cand_caption_beat_961c6c3e55125316> <cand_caption_beat_387dee1a84b5ab36>\n[09:15.36 speaker_2] Are you gonna eat two <cand_caption_beat_387dee1a84b5ab36> <cand_caption_beat_431ba89a6bd4ce28> <cand_caption_beat_5ebb298b90f85d3f>\n[09:16.39 speaker_2] also? <cand_caption_beat_387dee1a84b5ab36> <cand_caption_beat_ad5aaf59718f56b0>\n[09:16.92 speaker_1] No <cand_caption_beat_e098c6135d3072dc> <cand_caption_beat_a041a3047cef7c0b>\n[09:17.90 speaker_1] George <cand_caption_beat_15ad02ee185ba178>\n[09:18.26 speaker_1] you wanna get the other <cand_caption_beat_15ad02ee185ba178> <cand_caption_beat_3067dd24a86cf152>\n[09:19.16 speaker_1] two for your friends or? <cand_caption_beat_3067dd24a86cf152> <cand_caption_beat_658f555fbf1655d5>\n[09:20.14 speaker_3] sure <cand_caption_beat_66f15b1826b9c3ee> <cand_caption_beat_93da02cc1f6d27a6>\n[09:21.52 speaker_2] oh <cand_caption_beat_a6eb5bec28a573da>\n[09:21.92 speaker_2] okay <cand_caption_beat_57028b6d27b0e874>\n[09:22.24 speaker_2] Two and two <cand_caption_beat_56a4278f01556555>\n[09:22.82 speaker_1] That solves everything <cand_caption_beat_a8c4a1c480f62c24>\n[09:24.02 speaker_2] that's cool <cand_caption_beat_42c77fe20de72f48>\n[09:25.06 speaker_2] Okay <cand_caption_beat_66ade6c073002c81>\n[09:25.82 speaker_2] I'm pretty sure <cand_caption_beat_bcb0e61cb4e040bb>\n[09:26.24 speaker_2] today you guys <cand_caption_beat_bcb0e61cb4e040bb> <cand_caption_beat_e26b4f324eb51246> <cand_caption_beat_4dbfab9f643409eb>\n[09:27.07 speaker_2] are gonna have a <cand_caption_beat_4dbfab9f643409eb> <cand_caption_beat_094df9169f82134f>\n[09:27.56 speaker_2] fun day because <cand_caption_beat_094df9169f82134f> <cand_caption_beat_ff8735de4ce75aa6>\n[09:28.58 speaker_1] I think it's because <cand_caption_beat_73e4718eacd12b97> <cand_caption_beat_bcb21ac1ca438a9f>\n[09:30.08 speaker_1] I don't have PE <cand_caption_beat_6cd2e530fc6e95ad> <cand_caption_beat_86761cbfdcc0c788> <cand_caption_beat_23d452c24f56e3a2>\n[09:31.26 speaker_1] Wait <cand_caption_beat_23d452c24f56e3a2>\n[09:31.48 speaker_1] George <cand_caption_beat_23d452c24f56e3a2>\n[09:31.76 speaker_1] do you have PE? <cand_caption_beat_23d452c24f56e3a2> <cand_caption_beat_d91f0112406c3ef1>\n[09:32.62 speaker_2] No <cand_caption_beat_b0f97cb874926360>\n[09:32.98 speaker_2] he doesn't have it <cand_caption_beat_81554172bc4c32a7>\n[09:33.55 speaker_2] today either <cand_caption_beat_81554172bc4c32a7>\n[09:34.56 speaker_1] Well <cand_caption_beat_a23d2a3a48bc4b05>\n[09:34.86 speaker_1] that's why <cand_caption_beat_6322702bc64cec86>\n[09:35.16 speaker_1] I brought my Crocs <cand_caption_beat_6322702bc64cec86> <cand_caption_beat_8bb6a2c10494e01e>\n[09:35.86 speaker_1] so\n[09:36.46 speaker_1] because I only bring my <cand_caption_beat_82df5fa9a4569c78> <cand_caption_beat_c55a7b6a091e8744>\n[09:38.05 speaker_1] real shoes <cand_caption_beat_916ed25b94f63fa1>\n[09:39.94 speaker_2] I don't know why she <cand_caption_beat_5ce3778e0b434606> <cand_caption_beat_381dbaf87838b47f>\n[09:40.78 speaker_2] wears Crocs to school <cand_caption_beat_1f819922e9a1ce08>\n[09:41.88 speaker_2] but it's fine <cand_caption_beat_0faa97e4afba9bf2>\n[09:42.86 speaker_2] I guess <cand_caption_beat_4ca8d7cfa919baad>\n[09:43.19 speaker_1] I like Crocs <cand_caption_beat_4ca8d7cfa919baad> <cand_caption_beat_7e059d4a6dabc0de>\n[09:43.92 speaker_1] They're easy to put on <cand_caption_beat_7e059d4a6dabc0de> <cand_caption_beat_1710cc3a163a5989>\n[09:44.94 speaker_1] You don't have to find socks <cand_caption_beat_32300aa1934dc2c0>\n[09:46.00 speaker_1] You don't have to tie <cand_caption_beat_32300aa1934dc2c0> <cand_caption_beat_6c3b3ab23a564bc2>\n[09:46.96 speaker_1] your shoelaces every like <cand_caption_beat_6c3b3ab23a564bc2> <cand_caption_beat_2a5b6f64d52abeb9>\n[09:48.12 speaker_1] 20 minutes or something\n[09:49.24 speaker_1] so <cand_caption_beat_b2ea02c1e047247e>\n[09:49.48 speaker_2] Yeah <cand_caption_beat_b2ea02c1e047247e> <cand_caption_beat_5b69b3077bec4b70>\n[09:50.90 speaker_4] All right <cand_caption_beat_009b0ab63a062159>\n[09:51.16 speaker_4] guys <cand_caption_beat_009b0ab63a062159> <cand_caption_beat_31de0dcea30541d3>\n[09:51.56 speaker_4] as you guys already know <cand_caption_beat_0a94fb87beeb6849>\n[09:52.97 speaker_4] for Stary's <cand_caption_beat_fec84995a61cb58b> <cand_caption_beat_d6b8fbbdd72c85a0>\n[09:53.63 speaker_4] birthday we went <cand_caption_beat_d6b8fbbdd72c85a0> <cand_caption_beat_1f57cf23dcae36d4>\n[09:54.46 speaker_4] somewhere for her <cand_caption_beat_4fe8a152e00563e7>\n[09:55.13 speaker_4] birthday and <cand_caption_beat_63d3fc5e323b261d>\n[09:55.90 speaker_4] I think they caught a virus <cand_caption_beat_63d3fc5e323b261d> <cand_caption_beat_1babb4a75b30d287>\n[09:57.68 speaker_4] So Stary and Terah <cand_caption_beat_a0e88c9513d9b249> <cand_caption_beat_4e527b946c5397d7>\n[09:59.74 speaker_4] they have fever\n[10:00.46 speaker_4] and are kind of sick\n[10:02.14 speaker_4] Not good\n[10:03.05 speaker_4] but Nan's taking\n[10:03.84 speaker_4] care of them\n[10:04.63 speaker_4] we already gave\n[10:05.47 speaker_4] them some medicine\n[10:06.32 speaker_4] but we're gonna be giving\n[10:07.32 speaker_4] them some freezer pops",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_e504f7d649a0f715",
+      "momentId": "footage_05_11_26_sfx:beat_group_714",
+      "beatGroupId": "beat_group_714",
+      "relativeTimeSec": 0.66,
+      "absoluteTimeSec": 540.66,
+      "targetFrame": 32407,
+      "cueIds": [
+        "cue-00865",
+        "cue-00866"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "because we don't wanna be late okay?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_cf013ff8bfd51a75",
+      "momentId": "footage_05_11_26_sfx:beat_group_715",
+      "beatGroupId": "beat_group_715",
+      "relativeTimeSec": 1.226,
+      "absoluteTimeSec": 541.226,
+      "targetFrame": 32441,
+      "cueIds": [
+        "cue-00274"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "We're done eating at Starbucks",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.286,
+      "followingGapSec": 0.11,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fe8196f7345ad289",
+      "momentId": "footage_05_11_26_sfx:beat_group_716",
+      "beatGroupId": "beat_group_716",
+      "relativeTimeSec": 3.24,
+      "absoluteTimeSec": 543.24,
+      "targetFrame": 32562,
+      "cueIds": [
+        "cue-00275",
+        "cue-00276"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "and I got two",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.11,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_92f514e75a3d0d2f",
+      "momentId": "footage_05_11_26_sfx:beat_group_717",
+      "beatGroupId": "beat_group_717",
+      "relativeTimeSec": 3.74,
+      "absoluteTimeSec": 543.74,
+      "targetFrame": 32592,
+      "cueIds": [
+        "cue-00276",
+        "cue-00277"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I got two croissants for my friends",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.071
+    },
+    {
+      "candidateId": "cand_caption_beat_b520a17bd2353d66",
+      "momentId": "footage_05_11_26_sfx:beat_group_718",
+      "beatGroupId": "beat_group_718",
+      "relativeTimeSec": 4.75,
+      "absoluteTimeSec": 544.75,
+      "targetFrame": 32652,
+      "cueIds": [
+        "cue-00277",
+        "cue-00278",
+        "cue-00279",
+        "cue-00280",
+        "cue-00281",
+        "cue-00282",
+        "cue-00283",
+        "cue-00284"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "croissants for my friends because sometimes when they go eat something they bring me something And then when I go eat something then I bring something for them",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.061
+    },
+    {
+      "candidateId": "cand_caption_beat_4259ff611acc0f3c",
+      "momentId": "footage_05_11_26_sfx:beat_group_719",
+      "beatGroupId": "beat_group_719",
+      "relativeTimeSec": 5.84,
+      "absoluteTimeSec": 545.84,
+      "targetFrame": 32718,
+      "cueIds": [
+        "cue-00278",
+        "cue-00279"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "because sometimes when they go eat something",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.029
+    },
+    {
+      "candidateId": "cand_caption_beat_bf465892b69743e3",
+      "momentId": "footage_05_11_26_sfx:beat_group_720",
+      "beatGroupId": "beat_group_720",
+      "relativeTimeSec": 6.96,
+      "absoluteTimeSec": 546.96,
+      "targetFrame": 32785,
+      "cueIds": [
+        "cue-00279"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "they go eat something",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.46,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1e037ba3f7876e56",
+      "momentId": "footage_05_11_26_sfx:beat_group_721",
+      "beatGroupId": "beat_group_721",
+      "relativeTimeSec": 7.42,
+      "absoluteTimeSec": 547.42,
+      "targetFrame": 32812,
+      "cueIds": [
+        "cue-00280"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "they bring me something",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.46,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_807b0c1a340c9e77",
+      "momentId": "footage_05_11_26_sfx:beat_group_722",
+      "beatGroupId": "beat_group_722",
+      "relativeTimeSec": 8.42,
+      "absoluteTimeSec": 548.42,
+      "targetFrame": 32872,
+      "cueIds": [
+        "cue-00280"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "they bring me something",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.46,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5f0fe9a482ff8c32",
+      "momentId": "footage_05_11_26_sfx:beat_group_723",
+      "beatGroupId": "beat_group_723",
+      "relativeTimeSec": 9.1,
+      "absoluteTimeSec": 549.1,
+      "targetFrame": 32913,
+      "cueIds": [
+        "cue-00281"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "And then when",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0bb452b96b54b364",
+      "momentId": "footage_05_11_26_sfx:beat_group_724",
+      "beatGroupId": "beat_group_724",
+      "relativeTimeSec": 10.26,
+      "absoluteTimeSec": 550.26,
+      "targetFrame": 32983,
+      "cueIds": [
+        "cue-00282",
+        "cue-00283"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I go eat something then",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6ab2ef441e7c8a56",
+      "momentId": "footage_05_11_26_sfx:beat_group_725",
+      "beatGroupId": "beat_group_725",
+      "relativeTimeSec": 11.47,
+      "absoluteTimeSec": 551.47,
+      "targetFrame": 33055,
+      "cueIds": [
+        "cue-00284"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I bring something for them",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.53,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c2a6049cba1483e6",
+      "momentId": "footage_05_11_26_sfx:beat_group_726",
+      "beatGroupId": "beat_group_726",
+      "relativeTimeSec": 12,
+      "absoluteTimeSec": 552,
+      "targetFrame": 33087,
+      "cueIds": [
+        "cue-00404"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "But there's four croissants",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.53,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_099571aca9b54adb",
+      "momentId": "footage_05_11_26_sfx:beat_group_727",
+      "beatGroupId": "beat_group_727",
+      "relativeTimeSec": 13.16,
+      "absoluteTimeSec": 553.16,
+      "targetFrame": 33156,
+      "cueIds": [
+        "cue-00404",
+        "cue-00867"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "But there's four croissants by the way",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.53,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 1.461
+    },
+    {
+      "candidateId": "cand_caption_beat_961c6c3e55125316",
+      "momentId": "footage_05_11_26_sfx:beat_group_728",
+      "beatGroupId": "beat_group_728",
+      "relativeTimeSec": 14.08,
+      "absoluteTimeSec": 554.08,
+      "targetFrame": 33212,
+      "cueIds": [
+        "cue-00868"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Why?",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.48,
+      "followingGapSec": 0.64,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.541
+    },
+    {
+      "candidateId": "cand_caption_beat_387dee1a84b5ab36",
+      "momentId": "footage_05_11_26_sfx:beat_group_729",
+      "beatGroupId": "beat_group_729",
+      "relativeTimeSec": 14.72,
+      "absoluteTimeSec": 554.72,
+      "targetFrame": 33250,
+      "cueIds": [
+        "cue-00868",
+        "cue-00869",
+        "e16810e2-f770-4129-aa73-d7d424ca0683"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Why? Are you gonna eat two also?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.48,
+      "followingGapSec": 0.64,
+      "boundaryStrength": 0.7,
+      "nearestZoomDeltaSec": -0.099
+    },
+    {
+      "candidateId": "cand_caption_beat_431ba89a6bd4ce28",
+      "momentId": "footage_05_11_26_sfx:beat_group_730",
+      "beatGroupId": "beat_group_730",
+      "relativeTimeSec": 15.36,
+      "absoluteTimeSec": 555.36,
+      "targetFrame": 33288,
+      "cueIds": [
+        "cue-00869"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Are you gonna eat two",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.64,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.739
+    },
+    {
+      "candidateId": "cand_caption_beat_5ebb298b90f85d3f",
+      "momentId": "footage_05_11_26_sfx:beat_group_731",
+      "beatGroupId": "beat_group_731",
+      "relativeTimeSec": 16.18,
+      "absoluteTimeSec": 556.18,
+      "targetFrame": 33337,
+      "cueIds": [
+        "cue-00869"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Are you gonna eat two",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.64,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ad5aaf59718f56b0",
+      "momentId": "footage_05_11_26_sfx:beat_group_732",
+      "beatGroupId": "beat_group_732",
+      "relativeTimeSec": 16.81,
+      "absoluteTimeSec": 556.81,
+      "targetFrame": 33375,
+      "cueIds": [
+        "e16810e2-f770-4129-aa73-d7d424ca0683"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "also?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.11,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e098c6135d3072dc",
+      "momentId": "footage_05_11_26_sfx:beat_group_733",
+      "beatGroupId": "beat_group_733",
+      "relativeTimeSec": 17.24,
+      "absoluteTimeSec": 557.24,
+      "targetFrame": 33401,
+      "cueIds": [
+        "cue-00286"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "No",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.11,
+      "followingGapSec": 0.463,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a041a3047cef7c0b",
+      "momentId": "footage_05_11_26_sfx:beat_group_734",
+      "beatGroupId": "beat_group_734",
+      "relativeTimeSec": 17.437,
+      "absoluteTimeSec": 557.437,
+      "targetFrame": 33413,
+      "cueIds": [
+        "cue-00286"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "No",
+      "anchorTypes": [
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.11,
+      "followingGapSec": 0.463,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_15ad02ee185ba178",
+      "momentId": "footage_05_11_26_sfx:beat_group_735",
+      "beatGroupId": "beat_group_735",
+      "relativeTimeSec": 18.2,
+      "absoluteTimeSec": 558.2,
+      "targetFrame": 33459,
+      "cueIds": [
+        "cue-00287",
+        "cue-00288"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "George you wanna get the other",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.463,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3067dd24a86cf152",
+      "momentId": "footage_05_11_26_sfx:beat_group_736",
+      "beatGroupId": "beat_group_736",
+      "relativeTimeSec": 19.12,
+      "absoluteTimeSec": 559.12,
+      "targetFrame": 33514,
+      "cueIds": [
+        "cue-00288",
+        "cue-00289"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "you wanna get the other two for your friends or?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_658f555fbf1655d5",
+      "momentId": "footage_05_11_26_sfx:beat_group_737",
+      "beatGroupId": "beat_group_737",
+      "relativeTimeSec": 20.06,
+      "absoluteTimeSec": 560.06,
+      "targetFrame": 33570,
+      "cueIds": [
+        "cue-00289"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "two for your friends or?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_66f15b1826b9c3ee",
+      "momentId": "footage_05_11_26_sfx:beat_group_738",
+      "beatGroupId": "beat_group_738",
+      "relativeTimeSec": 20.58,
+      "absoluteTimeSec": 560.58,
+      "targetFrame": 33601,
+      "cueIds": [
+        "cue-00290"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "sure",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.753,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_93da02cc1f6d27a6",
+      "momentId": "footage_05_11_26_sfx:beat_group_739",
+      "beatGroupId": "beat_group_739",
+      "relativeTimeSec": 20.767,
+      "absoluteTimeSec": 560.767,
+      "targetFrame": 33612,
+      "cueIds": [
+        "cue-00290"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "sure",
+      "anchorTypes": [
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.753,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a6eb5bec28a573da",
+      "momentId": "footage_05_11_26_sfx:beat_group_740",
+      "beatGroupId": "beat_group_740",
+      "relativeTimeSec": 21.76,
+      "absoluteTimeSec": 561.76,
+      "targetFrame": 33672,
+      "cueIds": [
+        "cue-00405"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "oh",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.753,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 1.002
+    },
+    {
+      "candidateId": "cand_caption_beat_57028b6d27b0e874",
+      "momentId": "footage_05_11_26_sfx:beat_group_741",
+      "beatGroupId": "beat_group_741",
+      "relativeTimeSec": 22.14,
+      "absoluteTimeSec": 562.14,
+      "targetFrame": 33695,
+      "cueIds": [
+        "cue-00870"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "okay",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.622
+    },
+    {
+      "candidateId": "cand_caption_beat_56a4278f01556555",
+      "momentId": "footage_05_11_26_sfx:beat_group_742",
+      "beatGroupId": "beat_group_742",
+      "relativeTimeSec": 22.639,
+      "absoluteTimeSec": 562.639,
+      "targetFrame": 33725,
+      "cueIds": [
+        "cue-00871"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Two and two",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0.181,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.123
+    },
+    {
+      "candidateId": "cand_caption_beat_a8c4a1c480f62c24",
+      "momentId": "footage_05_11_26_sfx:beat_group_743",
+      "beatGroupId": "beat_group_743",
+      "relativeTimeSec": 23.74,
+      "absoluteTimeSec": 563.74,
+      "targetFrame": 33791,
+      "cueIds": [
+        "cue-00291"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "That solves everything",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.181,
+      "followingGapSec": 0.28,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.978
+    },
+    {
+      "candidateId": "cand_caption_beat_42c77fe20de72f48",
+      "momentId": "footage_05_11_26_sfx:beat_group_744",
+      "beatGroupId": "beat_group_744",
+      "relativeTimeSec": 24.4,
+      "absoluteTimeSec": 564.4,
+      "targetFrame": 33830,
+      "cueIds": [
+        "cue-00406"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "that's cool",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.28,
+      "followingGapSec": 0.555,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_66ade6c073002c81",
+      "momentId": "footage_05_11_26_sfx:beat_group_745",
+      "beatGroupId": "beat_group_745",
+      "relativeTimeSec": 25.32,
+      "absoluteTimeSec": 565.32,
+      "targetFrame": 33885,
+      "cueIds": [
+        "cue-00872"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Okay",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.555,
+      "followingGapSec": 0.4,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_bcb0e61cb4e040bb",
+      "momentId": "footage_05_11_26_sfx:beat_group_746",
+      "beatGroupId": "beat_group_746",
+      "relativeTimeSec": 26.2,
+      "absoluteTimeSec": 566.2,
+      "targetFrame": 33938,
+      "cueIds": [
+        "41f350aa-0315-4839-bdad-f94f7f0351fa",
+        "cue-00873"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "today you guys I'm pretty sure",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.4,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e26b4f324eb51246",
+      "momentId": "footage_05_11_26_sfx:beat_group_747",
+      "beatGroupId": "beat_group_747",
+      "relativeTimeSec": 26.5,
+      "absoluteTimeSec": 566.5,
+      "targetFrame": 33956,
+      "cueIds": [
+        "41f350aa-0315-4839-bdad-f94f7f0351fa"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "today you guys",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.15,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4dbfab9f643409eb",
+      "momentId": "footage_05_11_26_sfx:beat_group_748",
+      "beatGroupId": "beat_group_748",
+      "relativeTimeSec": 27.06,
+      "absoluteTimeSec": 567.06,
+      "targetFrame": 33990,
+      "cueIds": [
+        "41f350aa-0315-4839-bdad-f94f7f0351fa",
+        "cue-00874"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "today you guys are gonna have a",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_094df9169f82134f",
+      "momentId": "footage_05_11_26_sfx:beat_group_749",
+      "beatGroupId": "beat_group_749",
+      "relativeTimeSec": 27.54,
+      "absoluteTimeSec": 567.54,
+      "targetFrame": 34018,
+      "cueIds": [
+        "8be31f95-1916-4be3-8372-f07e35e44f23",
+        "cue-00874"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "fun day because are gonna have a",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ff8735de4ce75aa6",
+      "momentId": "footage_05_11_26_sfx:beat_group_750",
+      "beatGroupId": "beat_group_750",
+      "relativeTimeSec": 28.44,
+      "absoluteTimeSec": 568.44,
+      "targetFrame": 34072,
+      "cueIds": [
+        "8be31f95-1916-4be3-8372-f07e35e44f23"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "fun day because",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.14,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_73e4718eacd12b97",
+      "momentId": "footage_05_11_26_sfx:beat_group_751",
+      "beatGroupId": "beat_group_751",
+      "relativeTimeSec": 28.58,
+      "absoluteTimeSec": 568.58,
+      "targetFrame": 34081,
+      "cueIds": [
+        "cue-00292"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I think it's because",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.14,
+      "followingGapSec": 0.24,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_bcb21ac1ca438a9f",
+      "momentId": "footage_05_11_26_sfx:beat_group_752",
+      "beatGroupId": "beat_group_752",
+      "relativeTimeSec": 29.84,
+      "absoluteTimeSec": 569.84,
+      "targetFrame": 34156,
+      "cueIds": [
+        "cue-00292"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I think it's because",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.14,
+      "followingGapSec": 0.24,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6cd2e530fc6e95ad",
+      "momentId": "footage_05_11_26_sfx:beat_group_753",
+      "beatGroupId": "beat_group_753",
+      "relativeTimeSec": 30.08,
+      "absoluteTimeSec": 570.08,
+      "targetFrame": 34171,
+      "cueIds": [
+        "cue-00293"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I don't have PE",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.24,
+      "followingGapSec": 0.34,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.324
+    },
+    {
+      "candidateId": "cand_caption_beat_86761cbfdcc0c788",
+      "momentId": "footage_05_11_26_sfx:beat_group_754",
+      "beatGroupId": "beat_group_754",
+      "relativeTimeSec": 30.9,
+      "absoluteTimeSec": 570.9,
+      "targetFrame": 34220,
+      "cueIds": [
+        "cue-00293"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I don't have PE",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.24,
+      "followingGapSec": 0.34,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.504
+    },
+    {
+      "candidateId": "cand_caption_beat_23d452c24f56e3a2",
+      "momentId": "footage_05_11_26_sfx:beat_group_755",
+      "beatGroupId": "beat_group_755",
+      "relativeTimeSec": 31.4,
+      "absoluteTimeSec": 571.4,
+      "targetFrame": 34250,
+      "cueIds": [
+        "cue-00293",
+        "cue-00295",
+        "cue-00296",
+        "cue-00297"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I don't have PE Wait George do you have PE?",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.34,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.004
+    },
+    {
+      "candidateId": "cand_caption_beat_d91f0112406c3ef1",
+      "momentId": "footage_05_11_26_sfx:beat_group_756",
+      "beatGroupId": "beat_group_756",
+      "relativeTimeSec": 32.32,
+      "absoluteTimeSec": 572.32,
+      "targetFrame": 34305,
+      "cueIds": [
+        "cue-00297"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "do you have PE?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.3,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": -0.916
+    },
+    {
+      "candidateId": "cand_caption_beat_b0f97cb874926360",
+      "momentId": "footage_05_11_26_sfx:beat_group_757",
+      "beatGroupId": "beat_group_757",
+      "relativeTimeSec": 32.76,
+      "absoluteTimeSec": 572.76,
+      "targetFrame": 34331,
+      "cueIds": [
+        "cue-00407"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "No",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.3,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.356
+    },
+    {
+      "candidateId": "cand_caption_beat_81554172bc4c32a7",
+      "momentId": "footage_05_11_26_sfx:beat_group_758",
+      "beatGroupId": "beat_group_758",
+      "relativeTimeSec": 33.549,
+      "absoluteTimeSec": 573.549,
+      "targetFrame": 34379,
+      "cueIds": [
+        "cue-00875",
+        "db1740df-239c-4abe-9f9c-c6690ec9ec99"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "he doesn't have it today either",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.958
+    },
+    {
+      "candidateId": "cand_caption_beat_a23d2a3a48bc4b05",
+      "momentId": "footage_05_11_26_sfx:beat_group_759",
+      "beatGroupId": "beat_group_759",
+      "relativeTimeSec": 34.76,
+      "absoluteTimeSec": 574.76,
+      "targetFrame": 34451,
+      "cueIds": [
+        "cue-00298"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Well",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.041,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.253
+    },
+    {
+      "candidateId": "cand_caption_beat_6322702bc64cec86",
+      "momentId": "footage_05_11_26_sfx:beat_group_760",
+      "beatGroupId": "beat_group_760",
+      "relativeTimeSec": 35.12,
+      "absoluteTimeSec": 575.12,
+      "targetFrame": 34473,
+      "cueIds": [
+        "cue-00299",
+        "cue-00300"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "that's why I brought my Crocs",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.613
+    },
+    {
+      "candidateId": "cand_caption_beat_8bb6a2c10494e01e",
+      "momentId": "footage_05_11_26_sfx:beat_group_761",
+      "beatGroupId": "beat_group_761",
+      "relativeTimeSec": 35.77,
+      "absoluteTimeSec": 575.77,
+      "targetFrame": 34512,
+      "cueIds": [
+        "cue-00300"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I brought my Crocs",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.09,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.263
+    },
+    {
+      "candidateId": "cand_caption_beat_82df5fa9a4569c78",
+      "momentId": "footage_05_11_26_sfx:beat_group_762",
+      "beatGroupId": "beat_group_762",
+      "relativeTimeSec": 36.46,
+      "absoluteTimeSec": 576.46,
+      "targetFrame": 34553,
+      "cueIds": [
+        "cue-00302"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "because I only bring my",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.261,
+      "followingGapSec": 0.174,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c55a7b6a091e8744",
+      "momentId": "footage_05_11_26_sfx:beat_group_763",
+      "beatGroupId": "beat_group_763",
+      "relativeTimeSec": 37.88,
+      "absoluteTimeSec": 577.88,
+      "targetFrame": 34638,
+      "cueIds": [
+        "cue-00302"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "because I only bring my",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.261,
+      "followingGapSec": 0.174,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_916ed25b94f63fa1",
+      "momentId": "footage_05_11_26_sfx:beat_group_764",
+      "beatGroupId": "beat_group_764",
+      "relativeTimeSec": 38.94,
+      "absoluteTimeSec": 578.94,
+      "targetFrame": 34702,
+      "cueIds": [
+        "cue-00304"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "real shoes",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.174,
+      "followingGapSec": 0.82,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.139
+    },
+    {
+      "candidateId": "cand_caption_beat_5ce3778e0b434606",
+      "momentId": "footage_05_11_26_sfx:beat_group_765",
+      "beatGroupId": "beat_group_765",
+      "relativeTimeSec": 39.94,
+      "absoluteTimeSec": 579.94,
+      "targetFrame": 34762,
+      "cueIds": [
+        "cue-00408"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I don't know why she",
+      "anchorTypes": [
+        "cue_start",
+        "internal_pause_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.82,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.95,
+      "nearestZoomDeltaSec": 0.139
+    },
+    {
+      "candidateId": "cand_caption_beat_381dbaf87838b47f",
+      "momentId": "footage_05_11_26_sfx:beat_group_766",
+      "beatGroupId": "beat_group_766",
+      "relativeTimeSec": 40.6,
+      "absoluteTimeSec": 580.6,
+      "targetFrame": 34801,
+      "cueIds": [
+        "cue-00408"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I don't know why she",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.82,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": -0.52
+    },
+    {
+      "candidateId": "cand_caption_beat_1f819922e9a1ce08",
+      "momentId": "footage_05_11_26_sfx:beat_group_767",
+      "beatGroupId": "beat_group_767",
+      "relativeTimeSec": 41.8,
+      "absoluteTimeSec": 581.8,
+      "targetFrame": 34873,
+      "cueIds": [
+        "cue-00876"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "wears Crocs to school",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.915
+    },
+    {
+      "candidateId": "cand_caption_beat_0faa97e4afba9bf2",
+      "momentId": "footage_05_11_26_sfx:beat_group_768",
+      "beatGroupId": "beat_group_768",
+      "relativeTimeSec": 42.62,
+      "absoluteTimeSec": 582.62,
+      "targetFrame": 34922,
+      "cueIds": [
+        "cue-00877"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "but it's fine",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.24,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.095
+    },
+    {
+      "candidateId": "cand_caption_beat_4ca8d7cfa919baad",
+      "momentId": "footage_05_11_26_sfx:beat_group_769",
+      "beatGroupId": "beat_group_769",
+      "relativeTimeSec": 43.18,
+      "absoluteTimeSec": 583.18,
+      "targetFrame": 34956,
+      "cueIds": [
+        "cue-00305",
+        "cue-00878"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I like Crocs I guess",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.24,
+      "followingGapSec": 0.01,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.465
+    },
+    {
+      "candidateId": "cand_caption_beat_7e059d4a6dabc0de",
+      "momentId": "footage_05_11_26_sfx:beat_group_770",
+      "beatGroupId": "beat_group_770",
+      "relativeTimeSec": 43.87,
+      "absoluteTimeSec": 583.87,
+      "targetFrame": 34997,
+      "cueIds": [
+        "cue-00305",
+        "cue-00306"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I like Crocs They're easy to put on",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.01,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.155
+    },
+    {
+      "candidateId": "cand_caption_beat_1710cc3a163a5989",
+      "momentId": "footage_05_11_26_sfx:beat_group_771",
+      "beatGroupId": "beat_group_771",
+      "relativeTimeSec": 44.98,
+      "absoluteTimeSec": 584.98,
+      "targetFrame": 35064,
+      "cueIds": [
+        "cue-00306"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "They're easy to put on",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_32300aa1934dc2c0",
+      "momentId": "footage_05_11_26_sfx:beat_group_772",
+      "beatGroupId": "beat_group_772",
+      "relativeTimeSec": 46.02,
+      "absoluteTimeSec": 586.02,
+      "targetFrame": 35126,
+      "cueIds": [
+        "cue-00307",
+        "cue-00308"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "You don't have to find socks You don't have to tie",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.15,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6c3b3ab23a564bc2",
+      "momentId": "footage_05_11_26_sfx:beat_group_773",
+      "beatGroupId": "beat_group_773",
+      "relativeTimeSec": 46.92,
+      "absoluteTimeSec": 586.92,
+      "targetFrame": 35180,
+      "cueIds": [
+        "cue-00308",
+        "cue-00309"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "You don't have to tie your shoelaces every like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2a5b6f64d52abeb9",
+      "momentId": "footage_05_11_26_sfx:beat_group_774",
+      "beatGroupId": "beat_group_774",
+      "relativeTimeSec": 47.82,
+      "absoluteTimeSec": 587.82,
+      "targetFrame": 35234,
+      "cueIds": [
+        "cue-00309"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "your shoelaces every like",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b2ea02c1e047247e",
+      "momentId": "footage_05_11_26_sfx:beat_group_775",
+      "beatGroupId": "beat_group_775",
+      "relativeTimeSec": 49.44,
+      "absoluteTimeSec": 589.44,
+      "targetFrame": 35331,
+      "cueIds": [
+        "cue-00312",
+        "cue-00313"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "so Yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5b69b3077bec4b70",
+      "momentId": "footage_05_11_26_sfx:beat_group_776",
+      "beatGroupId": "beat_group_776",
+      "relativeTimeSec": 49.64,
+      "absoluteTimeSec": 589.64,
+      "targetFrame": 35343,
+      "cueIds": [
+        "cue-00313"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yeah",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 1.056,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_009b0ab63a062159",
+      "momentId": "footage_05_11_26_sfx:beat_group_777",
+      "beatGroupId": "beat_group_777",
+      "relativeTimeSec": 51.12,
+      "absoluteTimeSec": 591.12,
+      "targetFrame": 35432,
+      "cueIds": [
+        "cue-00409",
+        "cue-00879"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "All right guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.056,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_31de0dcea30541d3",
+      "momentId": "footage_05_11_26_sfx:beat_group_778",
+      "beatGroupId": "beat_group_778",
+      "relativeTimeSec": 51.43,
+      "absoluteTimeSec": 591.43,
+      "targetFrame": 35450,
+      "cueIds": [
+        "cue-00879"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.13,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0a94fb87beeb6849",
+      "momentId": "footage_05_11_26_sfx:beat_group_779",
+      "beatGroupId": "beat_group_779",
+      "relativeTimeSec": 52.24,
+      "absoluteTimeSec": 592.24,
+      "targetFrame": 35499,
+      "cueIds": [
+        "cue-00880"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "as you guys already know",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.13,
+      "followingGapSec": 0.447,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fec84995a61cb58b",
+      "momentId": "footage_05_11_26_sfx:beat_group_780",
+      "beatGroupId": "beat_group_780",
+      "relativeTimeSec": 52.974,
+      "absoluteTimeSec": 592.974,
+      "targetFrame": 35543,
+      "cueIds": [
+        "cue-00881"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "for Stary's",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.447,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_d6b8fbbdd72c85a0",
+      "momentId": "footage_05_11_26_sfx:beat_group_781",
+      "beatGroupId": "beat_group_781",
+      "relativeTimeSec": 53.6,
+      "absoluteTimeSec": 593.6,
+      "targetFrame": 35580,
+      "cueIds": [
+        "cc6d89d5-5276-4c78-9384-9732de6b9382",
+        "cue-00881"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "birthday we went for Stary's",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.447,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1f57cf23dcae36d4",
+      "momentId": "footage_05_11_26_sfx:beat_group_782",
+      "beatGroupId": "beat_group_782",
+      "relativeTimeSec": 54.74,
+      "absoluteTimeSec": 594.74,
+      "targetFrame": 35649,
+      "cueIds": [
+        "cc6d89d5-5276-4c78-9384-9732de6b9382"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "birthday we went",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4fe8a152e00563e7",
+      "momentId": "footage_05_11_26_sfx:beat_group_783",
+      "beatGroupId": "beat_group_783",
+      "relativeTimeSec": 55.4,
+      "absoluteTimeSec": 595.4,
+      "targetFrame": 35688,
+      "cueIds": [
+        "cue-00882"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "somewhere for her",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_63d3fc5e323b261d",
+      "momentId": "footage_05_11_26_sfx:beat_group_784",
+      "beatGroupId": "beat_group_784",
+      "relativeTimeSec": 55.9,
+      "absoluteTimeSec": 595.9,
+      "targetFrame": 35718,
+      "cueIds": [
+        "307d3ead-74d1-4454-85ae-998160d3e750",
+        "cue-00883"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "birthday and I think they caught a virus",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1babb4a75b30d287",
+      "momentId": "footage_05_11_26_sfx:beat_group_785",
+      "beatGroupId": "beat_group_785",
+      "relativeTimeSec": 57.36,
+      "absoluteTimeSec": 597.36,
+      "targetFrame": 35806,
+      "cueIds": [
+        "cue-00883"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I think they caught a virus",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.32,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a0e88c9513d9b249",
+      "momentId": "footage_05_11_26_sfx:beat_group_786",
+      "beatGroupId": "beat_group_786",
+      "relativeTimeSec": 58.02,
+      "absoluteTimeSec": 598.02,
+      "targetFrame": 35845,
+      "cueIds": [
+        "cue-00884"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So Stary and Terah",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0.21,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4e527b946c5397d7",
+      "momentId": "footage_05_11_26_sfx:beat_group_787",
+      "beatGroupId": "beat_group_787",
+      "relativeTimeSec": 59.53,
+      "absoluteTimeSec": 599.53,
+      "targetFrame": 35936,
+      "cueIds": [
+        "cue-00884"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So Stary and Terah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0.21,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.202
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_colored_sfx:beat_group_28",
+      "projectId": "footage_colored_sfx",
+      "markedCaptionContext": "22.220 speaker_1: we're gonna have to\n22.700 speaker_1: wake her up\n24.660 speaker_1: Oh she is awake guys\n<CANDIDATE>26.180 speaker_1: She's right here</CANDIDATE>\n27.640 speaker_1: awake and ready\n28.960 speaker_1: You ready for the last\n29.620 speaker_1: day of school or what?",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_49",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "41.600 speaker_1: do you wanna show\n42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n<CANDIDATE>43.920 speaker_3: the humongous t-Rex</CANDIDATE>\n47.562 speaker_1: We got this big\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_07_26_sfx:beat_group_42",
+      "projectId": "footage_05_07_26_sfx",
+      "markedCaptionContext": "39.248 speaker_2: seen anything because she was\n40.191 speaker_2: upstairs last night and today\n43.099 speaker_2: But they\n<CANDIDATE>44.080 speaker_2: gave her that teddy bear</CANDIDATE>\n45.240 speaker_1: Are you excited\n46.500 speaker_1: Stary?\n48.820 speaker_2: And then we got",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_66",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "47.340 speaker_1: not in a crepe\n47.878 speaker_1: so\n48.420 speaker_2: In a crepe is good\n<CANDIDATE>50.280 speaker_2: You don't like it?</CANDIDATE>\n52.120 speaker_2: And by the way\n53.000 speaker_2: look\n54.476 speaker_1: my book",
+      "humanDecision": "other_sfx",
+      "otherFamily": "bonk"
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_59",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "51.280 speaker_1: she doesn't know how to ice skate\n52.120 speaker_1: guys\n52.520 speaker_1: So they need a bucket because\n<CANDIDATE>54.120 speaker_1: they don't know how to do it</CANDIDATE>\n<CANDIDATE>55.400 speaker_1: But this is</CANDIDATE>\n<CANDIDATE>57.260 speaker_1: their</CANDIDATE>\n<CANDIDATE>57.430 speaker_1: their</CANDIDATE>",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_52",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "44.510 speaker_1: Amor?\n46.388 speaker_1: what are you guys doing?\n48.620 speaker_1: You know the gardener's\n<CANDIDATE>49.419 speaker_1: gonna come and do that</CANDIDATE>\n<CANDIDATE>50.290 speaker_1: right?</CANDIDATE>\n51.240 speaker_4: No but this is\n51.955 speaker_4: for the turtle",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_67",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "50.940 speaker_1: Oh okay\n51.700 speaker_1: You're so smart\n52.880 speaker_2: I told you guys\n<CANDIDATE>53.860 speaker_2: All right</CANDIDATE>\n<CANDIDATE>54.180 speaker_2: Let's go</CANDIDATE>\n80.180 speaker_1: we're ready\n82.520 speaker_1: One two",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

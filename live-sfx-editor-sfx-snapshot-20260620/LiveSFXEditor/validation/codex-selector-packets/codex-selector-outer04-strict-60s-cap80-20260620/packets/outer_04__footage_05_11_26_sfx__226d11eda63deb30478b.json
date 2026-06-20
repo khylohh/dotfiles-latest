@@ -1,0 +1,2460 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "226d11eda63deb30478b",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000660000_01",
+  "coreStartSec": 660,
+  "coreEndSec": 720,
+  "contextStartSec": 652,
+  "contextEndSec": 728,
+  "allowedCandidateIds": [
+    "cand_caption_beat_aaccc49b2f64cde9",
+    "cand_caption_beat_8bf2c9529478d7cb",
+    "cand_caption_beat_af654e4982903a52",
+    "cand_caption_beat_aec1c689aa197220",
+    "cand_caption_beat_90d40999b9235c11",
+    "cand_caption_beat_587ed025f7708677",
+    "cand_caption_beat_1e29e30def4a68e2",
+    "cand_caption_beat_22849bb82d04705e",
+    "cand_caption_beat_df86139b9b809145",
+    "cand_caption_beat_6e7853cc547e7224",
+    "cand_caption_beat_04852b816807dd32",
+    "cand_caption_beat_f3c23f565cd1de78",
+    "cand_caption_beat_360c63949e4974b8",
+    "cand_caption_beat_9469b17dd32d6a96",
+    "cand_caption_beat_64180725094d2369",
+    "cand_caption_beat_229376a7a14e07a6",
+    "cand_caption_beat_95faa77a1aaef0a4",
+    "cand_caption_beat_617822db65c430f2",
+    "cand_caption_beat_ce6137503cfc2331",
+    "cand_caption_beat_78ccbadd2ee211dd",
+    "cand_caption_beat_420c3ae82bcaa17b",
+    "cand_caption_beat_82e137bd9371e149",
+    "cand_caption_beat_2e1386b2dbf00b9d",
+    "cand_caption_beat_9af90e806c3eb733",
+    "cand_caption_beat_d9dd92d1ecf6093d",
+    "cand_caption_beat_13a5416b22bd9871",
+    "cand_caption_beat_93cbe59a75fb60ef",
+    "cand_caption_beat_aa27ee80db68c4a0",
+    "cand_caption_beat_d4c056f4f1f03d06",
+    "cand_caption_beat_10074582f78b5e78",
+    "cand_caption_beat_2e60c187251bf0cb",
+    "cand_caption_beat_df6dff98f61265e8",
+    "cand_caption_beat_4cbba83c9d8e8b0c",
+    "cand_caption_beat_b10845a5f990f53a",
+    "cand_caption_beat_fd553338e5cda18e",
+    "cand_caption_beat_48559bcb0124ade6",
+    "cand_caption_beat_5321571afe355cb6",
+    "cand_caption_beat_a778398936e27868",
+    "cand_caption_beat_49c0d57bc0f2e05c",
+    "cand_caption_beat_85fc94b36da18614",
+    "cand_caption_beat_2b309b2e4fe60967",
+    "cand_caption_beat_14cd0a270a5b1b0a",
+    "cand_caption_beat_246eaa155e6a442b",
+    "cand_caption_beat_50d2513756afe2be",
+    "cand_caption_beat_a40be5507c557f3c",
+    "cand_caption_beat_0b9dcf48c7441565",
+    "cand_caption_beat_0830d802a26bf5fc",
+    "cand_caption_beat_09cd14746fd19835",
+    "cand_caption_beat_41f8cdf9ffea7a88",
+    "cand_caption_beat_816ebf5db08c65cf",
+    "cand_caption_beat_cc8929fa0ad381c3",
+    "cand_caption_beat_2197ece687b41a13",
+    "cand_caption_beat_0b1d0d34380b8913",
+    "cand_caption_beat_800a9ac2dad38d40",
+    "cand_caption_beat_60b4d86e565a78a3",
+    "cand_caption_beat_3b735ec0c4592296",
+    "cand_caption_beat_2099dc10e67cfd09",
+    "cand_caption_beat_5180ca6f603b1d44",
+    "cand_caption_beat_674eef6673cb7d72",
+    "cand_caption_beat_f66b2fc34d6ba681",
+    "cand_caption_beat_6026c9320b1b82f6",
+    "cand_caption_beat_4677d1344591105b",
+    "cand_caption_beat_688964418cf35323",
+    "cand_caption_beat_84ae8a9fe6114795",
+    "cand_caption_beat_af67aba70bd2c5ef",
+    "cand_caption_beat_1334bac2a986b7be",
+    "cand_caption_beat_9273d495eaf48125",
+    "cand_caption_beat_c2c0b05288101be8",
+    "cand_caption_beat_e895d9bd5d60ba35",
+    "cand_caption_beat_8a06733338c67c46",
+    "cand_caption_beat_3bc598d3ea92e463",
+    "cand_caption_beat_84fb04f8f98902fb",
+    "cand_caption_beat_2097d3b41404bb18",
+    "cand_caption_beat_43879f16af8e51b4",
+    "cand_caption_beat_ad1f103b1bed3061",
+    "cand_caption_beat_d03259dee061ff49",
+    "cand_caption_beat_2c1bfdcce242cf87",
+    "cand_caption_beat_7d2b7052f9d9ab95"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00929",
+      "startSec": 652.22,
+      "endSec": 653.26,
+      "speakerKey": "speaker_2",
+      "text": "I never got anything"
+    },
+    {
+      "cueId": "cue-00417",
+      "startSec": 653.42,
+      "endSec": 654.492,
+      "speakerKey": "speaker_4",
+      "text": "Probably because Nan's"
+    },
+    {
+      "cueId": "cue-00930",
+      "startSec": 654.492,
+      "endSec": 656.28,
+      "speakerKey": "speaker_4",
+      "text": "blood type is b negative guys"
+    },
+    {
+      "cueId": "cue-00418",
+      "startSec": 656.82,
+      "endSec": 657.29,
+      "speakerKey": "speaker_2",
+      "text": "You think it's because"
+    },
+    {
+      "cueId": "344c87fc-0c23-41d3-95d1-ebe186369204",
+      "startSec": 657.29,
+      "endSec": 658.02,
+      "speakerKey": "speaker_2",
+      "text": "of that?"
+    },
+    {
+      "cueId": "cue-00931",
+      "startSec": 658.02,
+      "endSec": 658.48,
+      "speakerKey": "speaker_2",
+      "text": "Probably"
+    },
+    {
+      "cueId": "cue-00932",
+      "startSec": 658.48,
+      "endSec": 658.72,
+      "speakerKey": "speaker_2",
+      "text": "right?"
+    },
+    {
+      "cueId": "cue-00419",
+      "startSec": 658.88,
+      "endSec": 659.2,
+      "speakerKey": "speaker_4",
+      "text": "Guys"
+    },
+    {
+      "cueId": "cue-00933",
+      "startSec": 659.2,
+      "endSec": 659.65,
+      "speakerKey": "speaker_4",
+      "text": "I wanna tell"
+    },
+    {
+      "cueId": "cue-00934",
+      "startSec": 659.65,
+      "endSec": 661.09,
+      "speakerKey": "speaker_4",
+      "text": "you something super crazy"
+    },
+    {
+      "cueId": "cue-00935",
+      "startSec": 661.36,
+      "endSec": 661.719,
+      "speakerKey": "speaker_4",
+      "text": "so"
+    },
+    {
+      "cueId": "cf635e5b-1997-4cce-8030-cc0106009564",
+      "startSec": 661.719,
+      "endSec": 662.541,
+      "speakerKey": "speaker_2",
+      "text": "stronger"
+    },
+    {
+      "cueId": "a7b9bd85-89f2-4551-9264-b4e484523a6e",
+      "startSec": 662.795,
+      "endSec": 664.194,
+      "speakerKey": "speaker_4",
+      "text": "it's weird but"
+    },
+    {
+      "cueId": "cue-00937",
+      "startSec": 664.194,
+      "endSec": 665.863,
+      "speakerKey": "speaker_4",
+      "text": "Nan has the second"
+    },
+    {
+      "cueId": "cue-00938",
+      "startSec": 665.863,
+      "endSec": 666.957,
+      "speakerKey": "speaker_4",
+      "text": "rarest blood"
+    },
+    {
+      "cueId": "b51daaa6-95b5-451c-af22-b2e8761a54a4",
+      "startSec": 666.957,
+      "endSec": 667.86,
+      "speakerKey": "speaker_4",
+      "text": "b negative"
+    },
+    {
+      "cueId": "cue-00939",
+      "startSec": 667.86,
+      "endSec": 668.393,
+      "speakerKey": "speaker_4",
+      "text": "and guess who"
+    },
+    {
+      "cueId": "cue-00940",
+      "startSec": 668.393,
+      "endSec": 669.443,
+      "speakerKey": "speaker_4",
+      "text": "has the first?"
+    },
+    {
+      "cueId": "cue-00941",
+      "startSec": 669.925,
+      "endSec": 670.637,
+      "speakerKey": "speaker_4",
+      "text": "Stary"
+    },
+    {
+      "cueId": "71c8ad41-0c4b-4624-9a34-6e4c9f3dde75",
+      "startSec": 670.637,
+      "endSec": 671.638,
+      "speakerKey": "speaker_4",
+      "text": "AB negative which"
+    },
+    {
+      "cueId": "cue-00942",
+      "startSec": 671.638,
+      "endSec": 675.02,
+      "speakerKey": "speaker_4",
+      "text": "is 0.6% in the world"
+    },
+    {
+      "cueId": "cue-00943",
+      "startSec": 675.419,
+      "endSec": 675.96,
+      "speakerKey": "speaker_2",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00944",
+      "startSec": 675.96,
+      "endSec": 676.79,
+      "speakerKey": "speaker_4",
+      "text": "Isn't that crazy?"
+    },
+    {
+      "cueId": "cue-00945",
+      "startSec": 677.36,
+      "endSec": 677.8,
+      "speakerKey": "speaker_4",
+      "text": "And Nan is"
+    },
+    {
+      "cueId": "cue-00946",
+      "startSec": 677.88,
+      "endSec": 678.14,
+      "speakerKey": "speaker_4",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00947",
+      "startSec": 678.28,
+      "endSec": 678.66,
+      "speakerKey": "speaker_4",
+      "text": "I think it's"
+    },
+    {
+      "cueId": "cue-00948",
+      "startSec": 678.66,
+      "endSec": 678.931,
+      "speakerKey": "speaker_4",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00949",
+      "startSec": 678.931,
+      "endSec": 680.58,
+      "speakerKey": "speaker_4",
+      "text": "3 point something percent"
+    },
+    {
+      "cueId": "cue-00950",
+      "startSec": 680.7,
+      "endSec": 681.42,
+      "speakerKey": "speaker_4",
+      "text": "which is crazy"
+    },
+    {
+      "cueId": "cue-00951",
+      "startSec": 681.52,
+      "endSec": 681.92,
+      "speakerKey": "speaker_4",
+      "text": "Me"
+    },
+    {
+      "cueId": "cue-00952",
+      "startSec": 682.12,
+      "endSec": 682.48,
+      "speakerKey": "speaker_4",
+      "text": "Suri"
+    },
+    {
+      "cueId": "cue-00953",
+      "startSec": 682.56,
+      "endSec": 683.82,
+      "speakerKey": "speaker_4",
+      "text": "and George have the second"
+    },
+    {
+      "cueId": "cue-00954",
+      "startSec": 683.9,
+      "endSec": 684.72,
+      "speakerKey": "speaker_4",
+      "text": "most common blood"
+    },
+    {
+      "cueId": "cue-00955",
+      "startSec": 684.8,
+      "endSec": 685.86,
+      "speakerKey": "speaker_4",
+      "text": "which is A positive"
+    },
+    {
+      "cueId": "cue-00956",
+      "startSec": 686.86,
+      "endSec": 687.415,
+      "speakerKey": "speaker_4",
+      "text": "so"
+    },
+    {
+      "cueId": "cue-00957",
+      "startSec": 687.586,
+      "endSec": 689.4,
+      "speakerKey": "speaker_4",
+      "text": "it is kind of crazy"
+    },
+    {
+      "cueId": "cue-00958",
+      "startSec": 689.449,
+      "endSec": 689.943,
+      "speakerKey": "speaker_4",
+      "text": "you know?"
+    },
+    {
+      "cueId": "cue-00420",
+      "startSec": 689.943,
+      "endSec": 691.46,
+      "speakerKey": "speaker_2",
+      "text": "It is crazy because"
+    },
+    {
+      "cueId": "cue-00959",
+      "startSec": 691.46,
+      "endSec": 693,
+      "speakerKey": "speaker_2",
+      "text": "if we need blood"
+    },
+    {
+      "cueId": "cue-00960",
+      "startSec": 693,
+      "endSec": 694.09,
+      "speakerKey": "speaker_2",
+      "text": "it's gonna be hard"
+    },
+    {
+      "cueId": "cue-00421",
+      "startSec": 694.14,
+      "endSec": 694.5,
+      "speakerKey": "speaker_4",
+      "text": "No"
+    },
+    {
+      "cueId": "cue-00961",
+      "startSec": 694.5,
+      "endSec": 695.42,
+      "speakerKey": "speaker_4",
+      "text": "that's not how it works"
+    },
+    {
+      "cueId": "cue-00962",
+      "startSec": 695.42,
+      "endSec": 695.63,
+      "speakerKey": "speaker_4",
+      "text": "amor"
+    },
+    {
+      "cueId": "cue-00963",
+      "startSec": 695.63,
+      "endSec": 696.09,
+      "speakerKey": "speaker_4",
+      "text": "That's not how it works"
+    },
+    {
+      "cueId": "cue-00422",
+      "startSec": 696.09,
+      "endSec": 696.505,
+      "speakerKey": "speaker_2",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00964",
+      "startSec": 696.74,
+      "endSec": 697.344,
+      "speakerKey": "speaker_2",
+      "text": "We can"
+    },
+    {
+      "cueId": "cue-00965",
+      "startSec": 697.6,
+      "endSec": 698.85,
+      "speakerKey": "speaker_2",
+      "text": "give blood to anyone"
+    },
+    {
+      "cueId": "cue-00966",
+      "startSec": 699.3,
+      "endSec": 699.58,
+      "speakerKey": "speaker_2",
+      "text": "but"
+    },
+    {
+      "cueId": "cue-00967",
+      "startSec": 699.68,
+      "endSec": 700.14,
+      "speakerKey": "speaker_2",
+      "text": "not"
+    },
+    {
+      "cueId": "cue-00968",
+      "startSec": 700.14,
+      "endSec": 700.88,
+      "speakerKey": "speaker_2",
+      "text": "the people that have"
+    },
+    {
+      "cueId": "cue-00969",
+      "startSec": 700.88,
+      "endSec": 701.62,
+      "speakerKey": "speaker_4",
+      "text": "For her"
+    },
+    {
+      "cueId": "cue-00970",
+      "startSec": 701.62,
+      "endSec": 702.065,
+      "speakerKey": "speaker_2",
+      "text": "Yeah for her"
+    },
+    {
+      "cueId": "cue-00973",
+      "startSec": 702.065,
+      "endSec": 702.72,
+      "speakerKey": "speaker_2",
+      "text": "and For me too"
+    },
+    {
+      "cueId": "cue-00423",
+      "startSec": 702.9,
+      "endSec": 703.305,
+      "speakerKey": "speaker_4",
+      "text": "I think you could"
+    },
+    {
+      "cueId": "cue-00974",
+      "startSec": 703.305,
+      "endSec": 704.07,
+      "speakerKey": "speaker_4",
+      "text": "give her blood though"
+    },
+    {
+      "cueId": "cue-00975",
+      "startSec": 704.15,
+      "endSec": 704.95,
+      "speakerKey": "speaker_4",
+      "text": "you could give them blood"
+    },
+    {
+      "cueId": "cue-00424",
+      "startSec": 705.15,
+      "endSec": 705.72,
+      "speakerKey": "speaker_2",
+      "text": "But they cannot"
+    },
+    {
+      "cueId": "b65753df-857e-4721-a310-2d868910e4b7",
+      "startSec": 705.72,
+      "endSec": 706.18,
+      "speakerKey": "speaker_2",
+      "text": "give it to me"
+    },
+    {
+      "cueId": "cue-00425",
+      "startSec": 706.32,
+      "endSec": 706.62,
+      "speakerKey": "speaker_4",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00976",
+      "startSec": 706.62,
+      "endSec": 706.92,
+      "speakerKey": "speaker_4",
+      "text": "they can"
+    },
+    {
+      "cueId": "cue-00978",
+      "startSec": 707.32,
+      "endSec": 707.9,
+      "speakerKey": "speaker_4",
+      "text": "I already checked"
+    },
+    {
+      "cueId": "cue-00426",
+      "startSec": 707.94,
+      "endSec": 708.43,
+      "speakerKey": "speaker_2",
+      "text": "the only people"
+    },
+    {
+      "cueId": "46dc6501-063e-433a-85ef-10c0c1413492",
+      "startSec": 708.43,
+      "endSec": 708.947,
+      "speakerKey": "speaker_2",
+      "text": "that can give"
+    },
+    {
+      "cueId": "cue-00979",
+      "startSec": 708.947,
+      "endSec": 710.646,
+      "speakerKey": "speaker_2",
+      "text": "it to me is o negative"
+    },
+    {
+      "cueId": "4188580e-1f9a-4ae6-b83c-8954b72f6d03",
+      "startSec": 710.646,
+      "endSec": 711.48,
+      "speakerKey": "speaker_2",
+      "text": "and o positive"
+    },
+    {
+      "cueId": "cue-00980",
+      "startSec": 712,
+      "endSec": 712.301,
+      "speakerKey": "speaker_4",
+      "text": "Guys"
+    },
+    {
+      "cueId": "cue-00982",
+      "startSec": 712.522,
+      "endSec": 712.96,
+      "speakerKey": "speaker_2",
+      "text": "That's it"
+    },
+    {
+      "cueId": "cue-00427",
+      "startSec": 713.06,
+      "endSec": 713.36,
+      "speakerKey": "speaker_4",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-00983",
+      "startSec": 713.36,
+      "endSec": 713.99,
+      "speakerKey": "speaker_4",
+      "text": "Nan doesn't know"
+    },
+    {
+      "cueId": "cue-00984",
+      "startSec": 714.199,
+      "endSec": 714.439,
+      "speakerKey": "speaker_4",
+      "text": "So"
+    },
+    {
+      "cueId": "cue-00985",
+      "startSec": 714.68,
+      "endSec": 715.02,
+      "speakerKey": "speaker_4",
+      "text": "I gotta"
+    },
+    {
+      "cueId": "cue-00988",
+      "startSec": 715.58,
+      "endSec": 716.452,
+      "speakerKey": "speaker_4",
+      "text": "I already checked and"
+    },
+    {
+      "cueId": "cue-00990",
+      "startSec": 716.452,
+      "endSec": 717.09,
+      "speakerKey": "speaker_4",
+      "text": "I gotta give her a"
+    },
+    {
+      "cueId": "8f50790f-3c83-42bd-a5a0-e0f932167a38",
+      "startSec": 717.09,
+      "endSec": 717.86,
+      "speakerKey": "speaker_4",
+      "text": "class of"
+    },
+    {
+      "cueId": "cue-00991",
+      "startSec": 718.12,
+      "endSec": 719.12,
+      "speakerKey": "speaker_4",
+      "text": "knowing who's able"
+    },
+    {
+      "cueId": "cue-00992",
+      "startSec": 719.12,
+      "endSec": 719.8,
+      "speakerKey": "speaker_4",
+      "text": "to give her blood"
+    },
+    {
+      "cueId": "cue-00993",
+      "startSec": 719.86,
+      "endSec": 720.18,
+      "speakerKey": "speaker_4",
+      "text": "Also"
+    },
+    {
+      "cueId": "cue-00994",
+      "startSec": 720.28,
+      "endSec": 720.692,
+      "speakerKey": "speaker_4",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-00995",
+      "startSec": 720.78,
+      "endSec": 721.42,
+      "speakerKey": "speaker_4",
+      "text": "for this month we're"
+    },
+    {
+      "cueId": "cue-00996",
+      "startSec": 721.42,
+      "endSec": 722.36,
+      "speakerKey": "speaker_4",
+      "text": "gonna be giving out"
+    },
+    {
+      "cueId": "cue-00997",
+      "startSec": 722.46,
+      "endSec": 723.763,
+      "speakerKey": "speaker_4",
+      "text": "a new iPhone 17"
+    },
+    {
+      "cueId": "cue-00998",
+      "startSec": 724,
+      "endSec": 724.33,
+      "speakerKey": "speaker_4",
+      "text": "so make sure"
+    },
+    {
+      "cueId": "5700ef44-17dd-4308-aae8-6841bbca5517",
+      "startSec": 724.33,
+      "endSec": 724.86,
+      "speakerKey": "speaker_4",
+      "text": "you guys subscribe"
+    },
+    {
+      "cueId": "cue-00999",
+      "startSec": 724.86,
+      "endSec": 726.06,
+      "speakerKey": "speaker_4",
+      "text": "turn on post notifications"
+    },
+    {
+      "cueId": "cue-01000",
+      "startSec": 726.18,
+      "endSec": 727.27,
+      "speakerKey": "speaker_4",
+      "text": "to enter our next giveaway"
+    },
+    {
+      "cueId": "cue-01001",
+      "startSec": 727.34,
+      "endSec": 727.86,
+      "speakerKey": "speaker_4",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-01002",
+      "startSec": 727.86,
+      "endSec": 728.65,
+      "speakerKey": "speaker_4",
+      "text": "We haven't announced it"
+    }
+  ],
+  "markedCaptionText": "[10:52.22 speaker_2] I never got anything\n[10:53.42 speaker_4] Probably because Nan's\n[10:54.49 speaker_4] blood type is b negative guys\n[10:56.82 speaker_2] You think it's because\n[10:57.29 speaker_2] of that?\n[10:58.02 speaker_2] Probably\n[10:58.48 speaker_2] right?\n[10:58.88 speaker_4] Guys\n[10:59.20 speaker_4] I wanna tell\n[10:59.65 speaker_4] you something super crazy <cand_caption_beat_aaccc49b2f64cde9>\n[11:01.36 speaker_4] so <cand_caption_beat_8bf2c9529478d7cb> <cand_caption_beat_af654e4982903a52>\n[11:01.72 speaker_2] stronger <cand_caption_beat_8bf2c9529478d7cb> <cand_caption_beat_af654e4982903a52>\n[11:02.79 speaker_4] it's weird but <cand_caption_beat_af654e4982903a52> <cand_caption_beat_aec1c689aa197220> <cand_caption_beat_90d40999b9235c11>\n[11:04.19 speaker_4] Nan has the second <cand_caption_beat_aec1c689aa197220> <cand_caption_beat_587ed025f7708677> <cand_caption_beat_1e29e30def4a68e2>\n[11:05.86 speaker_4] rarest blood <cand_caption_beat_587ed025f7708677> <cand_caption_beat_1e29e30def4a68e2> <cand_caption_beat_df86139b9b809145>\n[11:06.96 speaker_4] b negative <cand_caption_beat_1e29e30def4a68e2> <cand_caption_beat_22849bb82d04705e> <cand_caption_beat_df86139b9b809145>\n[11:07.86 speaker_4] and guess who <cand_caption_beat_22849bb82d04705e> <cand_caption_beat_6e7853cc547e7224>\n[11:08.39 speaker_4] has the first? <cand_caption_beat_f3c23f565cd1de78> <cand_caption_beat_360c63949e4974b8>\n[11:09.92 speaker_4] Stary <cand_caption_beat_04852b816807dd32> <cand_caption_beat_f3c23f565cd1de78> <cand_caption_beat_64180725094d2369> <cand_caption_beat_229376a7a14e07a6>\n[11:10.64 speaker_4] AB negative which <cand_caption_beat_9469b17dd32d6a96> <cand_caption_beat_64180725094d2369> <cand_caption_beat_229376a7a14e07a6>\n[11:11.64 speaker_4] is 0.6% in the world <cand_caption_beat_9469b17dd32d6a96> <cand_caption_beat_95faa77a1aaef0a4>\n[11:15.42 speaker_2] Yeah <cand_caption_beat_617822db65c430f2>\n[11:15.96 speaker_4] Isn't that crazy? <cand_caption_beat_ce6137503cfc2331> <cand_caption_beat_78ccbadd2ee211dd>\n[11:17.36 speaker_4] And Nan is <cand_caption_beat_420c3ae82bcaa17b>\n[11:17.88 speaker_4] like <cand_caption_beat_82e137bd9371e149>\n[11:18.28 speaker_4] I think it's\n[11:18.66 speaker_4] like <cand_caption_beat_2e1386b2dbf00b9d>\n[11:18.93 speaker_4] 3 point something percent <cand_caption_beat_9af90e806c3eb733>\n[11:20.70 speaker_4] which is crazy <cand_caption_beat_d9dd92d1ecf6093d> <cand_caption_beat_13a5416b22bd9871>\n[11:21.52 speaker_4] Me <cand_caption_beat_93cbe59a75fb60ef>\n[11:22.12 speaker_4] Suri <cand_caption_beat_aa27ee80db68c4a0>\n[11:22.56 speaker_4] and George have the second <cand_caption_beat_d4c056f4f1f03d06>\n[11:23.90 speaker_4] most common blood <cand_caption_beat_10074582f78b5e78>\n[11:24.80 speaker_4] which is A positive <cand_caption_beat_2e60c187251bf0cb>\n[11:26.86 speaker_4] so <cand_caption_beat_df6dff98f61265e8> <cand_caption_beat_4cbba83c9d8e8b0c> <cand_caption_beat_b10845a5f990f53a>\n[11:27.59 speaker_4] it is kind of crazy <cand_caption_beat_fd553338e5cda18e>\n[11:29.45 speaker_4] you know? <cand_caption_beat_48559bcb0124ade6>\n[11:29.94 speaker_2] It is crazy because <cand_caption_beat_48559bcb0124ade6> <cand_caption_beat_5321571afe355cb6>\n[11:31.46 speaker_2] if we need blood <cand_caption_beat_5321571afe355cb6> <cand_caption_beat_a778398936e27868>\n[11:33.00 speaker_2] it's gonna be hard <cand_caption_beat_5321571afe355cb6> <cand_caption_beat_a778398936e27868> <cand_caption_beat_49c0d57bc0f2e05c>\n[11:34.14 speaker_4] No <cand_caption_beat_85fc94b36da18614>\n[11:34.50 speaker_4] that's not how it works <cand_caption_beat_85fc94b36da18614> <cand_caption_beat_2b309b2e4fe60967>\n[11:35.42 speaker_4] amor <cand_caption_beat_2b309b2e4fe60967> <cand_caption_beat_246eaa155e6a442b>\n[11:35.63 speaker_4] That's not how it works <cand_caption_beat_246eaa155e6a442b>\n[11:36.09 speaker_2] Yeah <cand_caption_beat_14cd0a270a5b1b0a> <cand_caption_beat_246eaa155e6a442b>\n[11:36.74 speaker_2] We can <cand_caption_beat_246eaa155e6a442b> <cand_caption_beat_50d2513756afe2be>\n[11:37.60 speaker_2] give blood to anyone <cand_caption_beat_246eaa155e6a442b> <cand_caption_beat_a40be5507c557f3c> <cand_caption_beat_0b9dcf48c7441565>\n[11:39.30 speaker_2] but <cand_caption_beat_246eaa155e6a442b> <cand_caption_beat_0830d802a26bf5fc>\n[11:39.68 speaker_2] not <cand_caption_beat_09cd14746fd19835>\n[11:40.14 speaker_2] the people that have <cand_caption_beat_09cd14746fd19835> <cand_caption_beat_41f8cdf9ffea7a88>\n[11:40.88 speaker_4] For her <cand_caption_beat_41f8cdf9ffea7a88> <cand_caption_beat_816ebf5db08c65cf>\n[11:41.62 speaker_2] Yeah for her <cand_caption_beat_816ebf5db08c65cf> <cand_caption_beat_cc8929fa0ad381c3>\n[11:42.07 speaker_2] and For me too <cand_caption_beat_cc8929fa0ad381c3> <cand_caption_beat_2197ece687b41a13>\n[11:42.90 speaker_4] I think you could <cand_caption_beat_0b1d0d34380b8913>\n[11:43.30 speaker_4] give her blood though <cand_caption_beat_0b1d0d34380b8913> <cand_caption_beat_800a9ac2dad38d40>\n[11:44.15 speaker_4] you could give them blood <cand_caption_beat_60b4d86e565a78a3>\n[11:45.15 speaker_2] But they cannot <cand_caption_beat_60b4d86e565a78a3> <cand_caption_beat_3b735ec0c4592296>\n[11:45.72 speaker_2] give it to me <cand_caption_beat_3b735ec0c4592296> <cand_caption_beat_2099dc10e67cfd09>\n[11:46.32 speaker_4] Yeah <cand_caption_beat_5180ca6f603b1d44>\n[11:46.62 speaker_4] they can <cand_caption_beat_5180ca6f603b1d44> <cand_caption_beat_674eef6673cb7d72>\n[11:47.32 speaker_4] I already checked <cand_caption_beat_f66b2fc34d6ba681> <cand_caption_beat_6026c9320b1b82f6>\n[11:47.94 speaker_2] the only people <cand_caption_beat_4677d1344591105b> <cand_caption_beat_688964418cf35323>\n[11:48.43 speaker_2] that can give <cand_caption_beat_688964418cf35323> <cand_caption_beat_84ae8a9fe6114795>\n[11:48.95 speaker_2] it to me is o negative <cand_caption_beat_84ae8a9fe6114795> <cand_caption_beat_af67aba70bd2c5ef>\n[11:50.65 speaker_2] and o positive <cand_caption_beat_af67aba70bd2c5ef> <cand_caption_beat_1334bac2a986b7be>\n[11:52.00 speaker_4] Guys <cand_caption_beat_9273d495eaf48125>\n[11:52.52 speaker_2] That's it <cand_caption_beat_c2c0b05288101be8>\n[11:53.06 speaker_4] guys <cand_caption_beat_e895d9bd5d60ba35>\n[11:53.36 speaker_4] Nan doesn't know <cand_caption_beat_e895d9bd5d60ba35> <cand_caption_beat_8a06733338c67c46>\n[11:54.20 speaker_4] So <cand_caption_beat_3bc598d3ea92e463>\n[11:54.68 speaker_4] I gotta <cand_caption_beat_84fb04f8f98902fb>\n[11:55.58 speaker_4] I already checked and <cand_caption_beat_2097d3b41404bb18> <cand_caption_beat_43879f16af8e51b4>\n[11:56.45 speaker_4] I gotta give her a <cand_caption_beat_ad1f103b1bed3061> <cand_caption_beat_d03259dee061ff49>\n[11:57.09 speaker_4] class of <cand_caption_beat_ad1f103b1bed3061> <cand_caption_beat_d03259dee061ff49>\n[11:58.12 speaker_4] knowing who's able <cand_caption_beat_d03259dee061ff49> <cand_caption_beat_2c1bfdcce242cf87>\n[11:59.12 speaker_4] to give her blood <cand_caption_beat_d03259dee061ff49> <cand_caption_beat_2c1bfdcce242cf87> <cand_caption_beat_7d2b7052f9d9ab95>\n[11:59.86 speaker_4] Also\n[12:00.28 speaker_4] guys\n[12:00.78 speaker_4] for this month we're\n[12:01.42 speaker_4] gonna be giving out\n[12:02.46 speaker_4] a new iPhone 17\n[12:04.00 speaker_4] so make sure\n[12:04.33 speaker_4] you guys subscribe\n[12:04.86 speaker_4] turn on post notifications\n[12:06.18 speaker_4] to enter our next giveaway\n[12:07.34 speaker_4] guys\n[12:07.86 speaker_4] We haven't announced it",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_aaccc49b2f64cde9",
+      "momentId": "footage_05_11_26_sfx:beat_group_864",
+      "beatGroupId": "beat_group_864",
+      "relativeTimeSec": 0.86,
+      "absoluteTimeSec": 660.86,
+      "targetFrame": 39612,
+      "cueIds": [
+        "cue-00934"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "you something super crazy",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.27,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8bf2c9529478d7cb",
+      "momentId": "footage_05_11_26_sfx:beat_group_865",
+      "beatGroupId": "beat_group_865",
+      "relativeTimeSec": 1.639,
+      "absoluteTimeSec": 661.639,
+      "targetFrame": 39659,
+      "cueIds": [
+        "cf635e5b-1997-4cce-8030-cc0106009564",
+        "cue-00935"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "stronger so",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.27,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_af654e4982903a52",
+      "momentId": "footage_05_11_26_sfx:beat_group_866",
+      "beatGroupId": "beat_group_866",
+      "relativeTimeSec": 2.72,
+      "absoluteTimeSec": 662.72,
+      "targetFrame": 39723,
+      "cueIds": [
+        "a7b9bd85-89f2-4551-9264-b4e484523a6e",
+        "cf635e5b-1997-4cce-8030-cc0106009564",
+        "cue-00935"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "it's weird but stronger so",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end",
+        "internal_pause_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.27,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.15,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_aec1c689aa197220",
+      "momentId": "footage_05_11_26_sfx:beat_group_867",
+      "beatGroupId": "beat_group_867",
+      "relativeTimeSec": 4.114,
+      "absoluteTimeSec": 664.114,
+      "targetFrame": 39807,
+      "cueIds": [
+        "a7b9bd85-89f2-4551-9264-b4e484523a6e",
+        "cue-00937"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "it's weird but Nan has the second",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start"
+      ],
+      "precedingGapSec": 0.254,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_90d40999b9235c11",
+      "momentId": "footage_05_11_26_sfx:beat_group_868",
+      "beatGroupId": "beat_group_868",
+      "relativeTimeSec": 4.78,
+      "absoluteTimeSec": 664.78,
+      "targetFrame": 39847,
+      "cueIds": [
+        "a7b9bd85-89f2-4551-9264-b4e484523a6e"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "it's weird but",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.254,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_587ed025f7708677",
+      "momentId": "footage_05_11_26_sfx:beat_group_869",
+      "beatGroupId": "beat_group_869",
+      "relativeTimeSec": 5.783,
+      "absoluteTimeSec": 665.783,
+      "targetFrame": 39907,
+      "cueIds": [
+        "cue-00937",
+        "cue-00938"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Nan has the second rarest blood",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.183
+    },
+    {
+      "candidateId": "cand_caption_beat_1e29e30def4a68e2",
+      "momentId": "footage_05_11_26_sfx:beat_group_870",
+      "beatGroupId": "beat_group_870",
+      "relativeTimeSec": 6.82,
+      "absoluteTimeSec": 666.82,
+      "targetFrame": 39969,
+      "cueIds": [
+        "b51daaa6-95b5-451c-af22-b2e8761a54a4",
+        "cue-00937",
+        "cue-00938"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "b negative Nan has the second rarest blood",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.35,
+      "nearestZoomDeltaSec": 0.146
+    },
+    {
+      "candidateId": "cand_caption_beat_22849bb82d04705e",
+      "momentId": "footage_05_11_26_sfx:beat_group_871",
+      "beatGroupId": "beat_group_871",
+      "relativeTimeSec": 7.78,
+      "absoluteTimeSec": 667.78,
+      "targetFrame": 40027,
+      "cueIds": [
+        "b51daaa6-95b5-451c-af22-b2e8761a54a4",
+        "cue-00939"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "b negative and guess who",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.813
+    },
+    {
+      "candidateId": "cand_caption_beat_df86139b9b809145",
+      "momentId": "footage_05_11_26_sfx:beat_group_872",
+      "beatGroupId": "beat_group_872",
+      "relativeTimeSec": 8.64,
+      "absoluteTimeSec": 668.64,
+      "targetFrame": 40078,
+      "cueIds": [
+        "b51daaa6-95b5-451c-af22-b2e8761a54a4",
+        "cue-00938"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "b negative rarest blood",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6e7853cc547e7224",
+      "momentId": "footage_05_11_26_sfx:beat_group_873",
+      "beatGroupId": "beat_group_873",
+      "relativeTimeSec": 9.12,
+      "absoluteTimeSec": 669.12,
+      "targetFrame": 40107,
+      "cueIds": [
+        "cue-00939"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and guess who",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_04852b816807dd32",
+      "momentId": "footage_05_11_26_sfx:beat_group_874",
+      "beatGroupId": "beat_group_874",
+      "relativeTimeSec": 9.925,
+      "absoluteTimeSec": 669.925,
+      "targetFrame": 40155,
+      "cueIds": [
+        "cue-00941"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Stary",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.482,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f3c23f565cd1de78",
+      "momentId": "footage_05_11_26_sfx:beat_group_875",
+      "beatGroupId": "beat_group_875",
+      "relativeTimeSec": 10.557,
+      "absoluteTimeSec": 670.557,
+      "targetFrame": 40193,
+      "cueIds": [
+        "cue-00940",
+        "cue-00941"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "has the first? Stary",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.482,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_360c63949e4974b8",
+      "momentId": "footage_05_11_26_sfx:beat_group_876",
+      "beatGroupId": "beat_group_876",
+      "relativeTimeSec": 11.04,
+      "absoluteTimeSec": 671.04,
+      "targetFrame": 40222,
+      "cueIds": [
+        "cue-00940"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "has the first?",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.482,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9469b17dd32d6a96",
+      "momentId": "footage_05_11_26_sfx:beat_group_877",
+      "beatGroupId": "beat_group_877",
+      "relativeTimeSec": 11.558,
+      "absoluteTimeSec": 671.558,
+      "targetFrame": 40253,
+      "cueIds": [
+        "71c8ad41-0c4b-4624-9a34-6e4c9f3dde75",
+        "cue-00942"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "AB negative which is 0.6% in the world",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_64180725094d2369",
+      "momentId": "footage_05_11_26_sfx:beat_group_878",
+      "beatGroupId": "beat_group_878",
+      "relativeTimeSec": 12.18,
+      "absoluteTimeSec": 672.18,
+      "targetFrame": 40291,
+      "cueIds": [
+        "71c8ad41-0c4b-4624-9a34-6e4c9f3dde75",
+        "cue-00941"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "AB negative which Stary",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.482,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_229376a7a14e07a6",
+      "momentId": "footage_05_11_26_sfx:beat_group_879",
+      "beatGroupId": "beat_group_879",
+      "relativeTimeSec": 13.94,
+      "absoluteTimeSec": 673.94,
+      "targetFrame": 40396,
+      "cueIds": [
+        "71c8ad41-0c4b-4624-9a34-6e4c9f3dde75",
+        "cue-00941"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "AB negative which Stary",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.482,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_95faa77a1aaef0a4",
+      "momentId": "footage_05_11_26_sfx:beat_group_880",
+      "beatGroupId": "beat_group_880",
+      "relativeTimeSec": 15.02,
+      "absoluteTimeSec": 675.02,
+      "targetFrame": 40461,
+      "cueIds": [
+        "cue-00942"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "is 0.6% in the world",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.399,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_617822db65c430f2",
+      "momentId": "footage_05_11_26_sfx:beat_group_881",
+      "beatGroupId": "beat_group_881",
+      "relativeTimeSec": 15.82,
+      "absoluteTimeSec": 675.82,
+      "targetFrame": 40509,
+      "cueIds": [
+        "cue-00943"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.399,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ce6137503cfc2331",
+      "momentId": "footage_05_11_26_sfx:beat_group_882",
+      "beatGroupId": "beat_group_882",
+      "relativeTimeSec": 15.96,
+      "absoluteTimeSec": 675.96,
+      "targetFrame": 40517,
+      "cueIds": [
+        "cue-00944"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Isn't that crazy?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.57,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_78ccbadd2ee211dd",
+      "momentId": "footage_05_11_26_sfx:beat_group_883",
+      "beatGroupId": "beat_group_883",
+      "relativeTimeSec": 16.79,
+      "absoluteTimeSec": 676.79,
+      "targetFrame": 40567,
+      "cueIds": [
+        "cue-00944"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Isn't that crazy?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.57,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_420c3ae82bcaa17b",
+      "momentId": "footage_05_11_26_sfx:beat_group_884",
+      "beatGroupId": "beat_group_884",
+      "relativeTimeSec": 17.8,
+      "absoluteTimeSec": 677.8,
+      "targetFrame": 40627,
+      "cueIds": [
+        "cue-00945"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "And Nan is",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.57,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_82e137bd9371e149",
+      "momentId": "footage_05_11_26_sfx:beat_group_885",
+      "beatGroupId": "beat_group_885",
+      "relativeTimeSec": 18.14,
+      "absoluteTimeSec": 678.14,
+      "targetFrame": 40648,
+      "cueIds": [
+        "cue-00946"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.14,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2e1386b2dbf00b9d",
+      "momentId": "footage_05_11_26_sfx:beat_group_886",
+      "beatGroupId": "beat_group_886",
+      "relativeTimeSec": 18.78,
+      "absoluteTimeSec": 678.78,
+      "targetFrame": 40686,
+      "cueIds": [
+        "cue-00948"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9af90e806c3eb733",
+      "momentId": "footage_05_11_26_sfx:beat_group_887",
+      "beatGroupId": "beat_group_887",
+      "relativeTimeSec": 20.58,
+      "absoluteTimeSec": 680.58,
+      "targetFrame": 40794,
+      "cueIds": [
+        "cue-00949"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "3 point something percent",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_d9dd92d1ecf6093d",
+      "momentId": "footage_05_11_26_sfx:beat_group_888",
+      "beatGroupId": "beat_group_888",
+      "relativeTimeSec": 20.7,
+      "absoluteTimeSec": 680.7,
+      "targetFrame": 40801,
+      "cueIds": [
+        "cue-00950"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "which is crazy",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_13a5416b22bd9871",
+      "momentId": "footage_05_11_26_sfx:beat_group_889",
+      "beatGroupId": "beat_group_889",
+      "relativeTimeSec": 21.42,
+      "absoluteTimeSec": 681.42,
+      "targetFrame": 40844,
+      "cueIds": [
+        "cue-00950"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "which is crazy",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_93cbe59a75fb60ef",
+      "momentId": "footage_05_11_26_sfx:beat_group_890",
+      "beatGroupId": "beat_group_890",
+      "relativeTimeSec": 21.92,
+      "absoluteTimeSec": 681.92,
+      "targetFrame": 40874,
+      "cueIds": [
+        "cue-00951"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Me",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0.2,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_aa27ee80db68c4a0",
+      "momentId": "footage_05_11_26_sfx:beat_group_891",
+      "beatGroupId": "beat_group_891",
+      "relativeTimeSec": 22.48,
+      "absoluteTimeSec": 682.48,
+      "targetFrame": 40908,
+      "cueIds": [
+        "cue-00952"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Suri",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.2,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_d4c056f4f1f03d06",
+      "momentId": "footage_05_11_26_sfx:beat_group_892",
+      "beatGroupId": "beat_group_892",
+      "relativeTimeSec": 23.82,
+      "absoluteTimeSec": 683.82,
+      "targetFrame": 40988,
+      "cueIds": [
+        "cue-00953"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and George have the second",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_10074582f78b5e78",
+      "momentId": "footage_05_11_26_sfx:beat_group_893",
+      "beatGroupId": "beat_group_893",
+      "relativeTimeSec": 24.72,
+      "absoluteTimeSec": 684.72,
+      "targetFrame": 41042,
+      "cueIds": [
+        "cue-00954"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "most common blood",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2e60c187251bf0cb",
+      "momentId": "footage_05_11_26_sfx:beat_group_894",
+      "beatGroupId": "beat_group_894",
+      "relativeTimeSec": 25.86,
+      "absoluteTimeSec": 685.86,
+      "targetFrame": 41110,
+      "cueIds": [
+        "cue-00955"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "which is A positive",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_df6dff98f61265e8",
+      "momentId": "footage_05_11_26_sfx:beat_group_895",
+      "beatGroupId": "beat_group_895",
+      "relativeTimeSec": 26.86,
+      "absoluteTimeSec": 686.86,
+      "targetFrame": 41170,
+      "cueIds": [
+        "cue-00956"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "so",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 1,
+      "followingGapSec": 0.171,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4cbba83c9d8e8b0c",
+      "momentId": "footage_05_11_26_sfx:beat_group_896",
+      "beatGroupId": "beat_group_896",
+      "relativeTimeSec": 27.335,
+      "absoluteTimeSec": 687.335,
+      "targetFrame": 41199,
+      "cueIds": [
+        "cue-00956"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "so",
+      "anchorTypes": [
+        "cue_end_minus_80ms"
+      ],
+      "precedingGapSec": 1,
+      "followingGapSec": 0.171,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b10845a5f990f53a",
+      "momentId": "footage_05_11_26_sfx:beat_group_897",
+      "beatGroupId": "beat_group_897",
+      "relativeTimeSec": 27.92,
+      "absoluteTimeSec": 687.92,
+      "targetFrame": 41234,
+      "cueIds": [
+        "cue-00956"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "so",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 1,
+      "followingGapSec": 0.171,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fd553338e5cda18e",
+      "momentId": "footage_05_11_26_sfx:beat_group_898",
+      "beatGroupId": "beat_group_898",
+      "relativeTimeSec": 29.4,
+      "absoluteTimeSec": 689.4,
+      "targetFrame": 41323,
+      "cueIds": [
+        "cue-00957"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "it is kind of crazy",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.171,
+      "followingGapSec": 0.049,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_48559bcb0124ade6",
+      "momentId": "footage_05_11_26_sfx:beat_group_899",
+      "beatGroupId": "beat_group_899",
+      "relativeTimeSec": 29.863,
+      "absoluteTimeSec": 689.863,
+      "targetFrame": 41350,
+      "cueIds": [
+        "cue-00420",
+        "cue-00958"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It is crazy because you know?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.049,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 1.394
+    },
+    {
+      "candidateId": "cand_caption_beat_5321571afe355cb6",
+      "momentId": "footage_05_11_26_sfx:beat_group_900",
+      "beatGroupId": "beat_group_900",
+      "relativeTimeSec": 31.37,
+      "absoluteTimeSec": 691.37,
+      "targetFrame": 41441,
+      "cueIds": [
+        "cue-00420",
+        "cue-00959",
+        "cue-00960"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It is crazy because if we need blood it's gonna be hard",
+      "anchorTypes": [
+        "final_word_end",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": -0.113
+    },
+    {
+      "candidateId": "cand_caption_beat_a778398936e27868",
+      "momentId": "footage_05_11_26_sfx:beat_group_901",
+      "beatGroupId": "beat_group_901",
+      "relativeTimeSec": 32.98,
+      "absoluteTimeSec": 692.98,
+      "targetFrame": 41537,
+      "cueIds": [
+        "cue-00959",
+        "cue-00960"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "if we need blood it's gonna be hard",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_49c0d57bc0f2e05c",
+      "momentId": "footage_05_11_26_sfx:beat_group_902",
+      "beatGroupId": "beat_group_902",
+      "relativeTimeSec": 34.09,
+      "absoluteTimeSec": 694.09,
+      "targetFrame": 41604,
+      "cueIds": [
+        "cue-00960"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "it's gonna be hard",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.05,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_85fc94b36da18614",
+      "momentId": "footage_05_11_26_sfx:beat_group_903",
+      "beatGroupId": "beat_group_903",
+      "relativeTimeSec": 34.44,
+      "absoluteTimeSec": 694.44,
+      "targetFrame": 41625,
+      "cueIds": [
+        "cue-00421",
+        "cue-00961"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "No that's not how it works",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.05,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2b309b2e4fe60967",
+      "momentId": "footage_05_11_26_sfx:beat_group_904",
+      "beatGroupId": "beat_group_904",
+      "relativeTimeSec": 35.38,
+      "absoluteTimeSec": 695.38,
+      "targetFrame": 41681,
+      "cueIds": [
+        "cue-00961",
+        "cue-00962"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "that's not how it works amor",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.183
+    },
+    {
+      "candidateId": "cand_caption_beat_14cd0a270a5b1b0a",
+      "momentId": "footage_05_11_26_sfx:beat_group_905",
+      "beatGroupId": "beat_group_905",
+      "relativeTimeSec": 36.32,
+      "absoluteTimeSec": 696.32,
+      "targetFrame": 41737,
+      "cueIds": [
+        "cue-00422"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.235,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.243
+    },
+    {
+      "candidateId": "cand_caption_beat_246eaa155e6a442b",
+      "momentId": "footage_05_11_26_sfx:beat_group_906",
+      "beatGroupId": "beat_group_906",
+      "relativeTimeSec": 36.563,
+      "absoluteTimeSec": 696.563,
+      "targetFrame": 41752,
+      "cueIds": [
+        "cue-00422",
+        "cue-00962",
+        "cue-00963",
+        "cue-00964",
+        "cue-00965",
+        "cue-00966"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yeah amor That's not how it works We can give blood to anyone but",
+      "anchorTypes": [
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_50d2513756afe2be",
+      "momentId": "footage_05_11_26_sfx:beat_group_907",
+      "beatGroupId": "beat_group_907",
+      "relativeTimeSec": 37.18,
+      "absoluteTimeSec": 697.18,
+      "targetFrame": 41789,
+      "cueIds": [
+        "cue-00964"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "We can",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.235,
+      "followingGapSec": 0.256,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.617
+    },
+    {
+      "candidateId": "cand_caption_beat_a40be5507c557f3c",
+      "momentId": "footage_05_11_26_sfx:beat_group_908",
+      "beatGroupId": "beat_group_908",
+      "relativeTimeSec": 37.6,
+      "absoluteTimeSec": 697.6,
+      "targetFrame": 41814,
+      "cueIds": [
+        "cue-00965"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "give blood to anyone",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.256,
+      "followingGapSec": 0.45,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.037
+    },
+    {
+      "candidateId": "cand_caption_beat_0b9dcf48c7441565",
+      "momentId": "footage_05_11_26_sfx:beat_group_909",
+      "beatGroupId": "beat_group_909",
+      "relativeTimeSec": 38.85,
+      "absoluteTimeSec": 698.85,
+      "targetFrame": 41889,
+      "cueIds": [
+        "cue-00965"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "give blood to anyone",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.256,
+      "followingGapSec": 0.45,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0830d802a26bf5fc",
+      "momentId": "footage_05_11_26_sfx:beat_group_910",
+      "beatGroupId": "beat_group_910",
+      "relativeTimeSec": 39.58,
+      "absoluteTimeSec": 699.58,
+      "targetFrame": 41933,
+      "cueIds": [
+        "cue-00966"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "but",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.45,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_09cd14746fd19835",
+      "momentId": "footage_05_11_26_sfx:beat_group_911",
+      "beatGroupId": "beat_group_911",
+      "relativeTimeSec": 40.08,
+      "absoluteTimeSec": 700.08,
+      "targetFrame": 41963,
+      "cueIds": [
+        "cue-00967",
+        "cue-00968"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "not the people that have",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_41f8cdf9ffea7a88",
+      "momentId": "footage_05_11_26_sfx:beat_group_912",
+      "beatGroupId": "beat_group_912",
+      "relativeTimeSec": 40.86,
+      "absoluteTimeSec": 700.86,
+      "targetFrame": 42010,
+      "cueIds": [
+        "cue-00968",
+        "cue-00969"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "the people that have For her",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_816ebf5db08c65cf",
+      "momentId": "footage_05_11_26_sfx:beat_group_913",
+      "beatGroupId": "beat_group_913",
+      "relativeTimeSec": 41.58,
+      "absoluteTimeSec": 701.58,
+      "targetFrame": 42053,
+      "cueIds": [
+        "cue-00969",
+        "cue-00970"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "For her Yeah for her",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.222
+    },
+    {
+      "candidateId": "cand_caption_beat_cc8929fa0ad381c3",
+      "momentId": "footage_05_11_26_sfx:beat_group_914",
+      "beatGroupId": "beat_group_914",
+      "relativeTimeSec": 42.06,
+      "absoluteTimeSec": 702.06,
+      "targetFrame": 42082,
+      "cueIds": [
+        "cue-00970",
+        "cue-00973"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yeah for her and For me too",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.742
+    },
+    {
+      "candidateId": "cand_caption_beat_2197ece687b41a13",
+      "momentId": "footage_05_11_26_sfx:beat_group_915",
+      "beatGroupId": "beat_group_915",
+      "relativeTimeSec": 42.72,
+      "absoluteTimeSec": 702.72,
+      "targetFrame": 42121,
+      "cueIds": [
+        "cue-00973"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "and For me too",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.18,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.082
+    },
+    {
+      "candidateId": "cand_caption_beat_0b1d0d34380b8913",
+      "momentId": "footage_05_11_26_sfx:beat_group_916",
+      "beatGroupId": "beat_group_916",
+      "relativeTimeSec": 43.34,
+      "absoluteTimeSec": 703.34,
+      "targetFrame": 42158,
+      "cueIds": [
+        "cue-00423",
+        "cue-00974"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I think you could give her blood though",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.18,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.538
+    },
+    {
+      "candidateId": "cand_caption_beat_800a9ac2dad38d40",
+      "momentId": "footage_05_11_26_sfx:beat_group_917",
+      "beatGroupId": "beat_group_917",
+      "relativeTimeSec": 44.04,
+      "absoluteTimeSec": 704.04,
+      "targetFrame": 42200,
+      "cueIds": [
+        "cue-00974"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "give her blood though",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.238
+    },
+    {
+      "candidateId": "cand_caption_beat_60b4d86e565a78a3",
+      "momentId": "footage_05_11_26_sfx:beat_group_918",
+      "beatGroupId": "beat_group_918",
+      "relativeTimeSec": 45.12,
+      "absoluteTimeSec": 705.12,
+      "targetFrame": 42265,
+      "cueIds": [
+        "cue-00424",
+        "cue-00975"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "But they cannot you could give them blood",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.2,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3b735ec0c4592296",
+      "momentId": "footage_05_11_26_sfx:beat_group_919",
+      "beatGroupId": "beat_group_919",
+      "relativeTimeSec": 45.7,
+      "absoluteTimeSec": 705.7,
+      "targetFrame": 42300,
+      "cueIds": [
+        "b65753df-857e-4721-a310-2d868910e4b7",
+        "cue-00424"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "give it to me But they cannot",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.2,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2099dc10e67cfd09",
+      "momentId": "footage_05_11_26_sfx:beat_group_920",
+      "beatGroupId": "beat_group_920",
+      "relativeTimeSec": 46.18,
+      "absoluteTimeSec": 706.18,
+      "targetFrame": 42328,
+      "cueIds": [
+        "b65753df-857e-4721-a310-2d868910e4b7"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "give it to me",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.14,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5180ca6f603b1d44",
+      "momentId": "footage_05_11_26_sfx:beat_group_921",
+      "beatGroupId": "beat_group_921",
+      "relativeTimeSec": 46.58,
+      "absoluteTimeSec": 706.58,
+      "targetFrame": 42352,
+      "cueIds": [
+        "cue-00425",
+        "cue-00976"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Yeah they can",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.14,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_674eef6673cb7d72",
+      "momentId": "footage_05_11_26_sfx:beat_group_922",
+      "beatGroupId": "beat_group_922",
+      "relativeTimeSec": 46.92,
+      "absoluteTimeSec": 706.92,
+      "targetFrame": 42373,
+      "cueIds": [
+        "cue-00976"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "they can",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.4,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f66b2fc34d6ba681",
+      "momentId": "footage_05_11_26_sfx:beat_group_923",
+      "beatGroupId": "beat_group_923",
+      "relativeTimeSec": 47.32,
+      "absoluteTimeSec": 707.32,
+      "targetFrame": 42397,
+      "cueIds": [
+        "cue-00978"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I already checked",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.4,
+      "followingGapSec": 0.04,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6026c9320b1b82f6",
+      "momentId": "footage_05_11_26_sfx:beat_group_924",
+      "beatGroupId": "beat_group_924",
+      "relativeTimeSec": 47.9,
+      "absoluteTimeSec": 707.9,
+      "targetFrame": 42432,
+      "cueIds": [
+        "cue-00978"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I already checked",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.4,
+      "followingGapSec": 0.04,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4677d1344591105b",
+      "momentId": "footage_05_11_26_sfx:beat_group_925",
+      "beatGroupId": "beat_group_925",
+      "relativeTimeSec": 47.94,
+      "absoluteTimeSec": 707.94,
+      "targetFrame": 42434,
+      "cueIds": [
+        "cue-00426"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "the only people",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.04,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_688964418cf35323",
+      "momentId": "footage_05_11_26_sfx:beat_group_926",
+      "beatGroupId": "beat_group_926",
+      "relativeTimeSec": 48.4,
+      "absoluteTimeSec": 708.4,
+      "targetFrame": 42462,
+      "cueIds": [
+        "46dc6501-063e-433a-85ef-10c0c1413492",
+        "cue-00426"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "that can give the only people",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.04,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_84ae8a9fe6114795",
+      "momentId": "footage_05_11_26_sfx:beat_group_927",
+      "beatGroupId": "beat_group_927",
+      "relativeTimeSec": 48.92,
+      "absoluteTimeSec": 708.92,
+      "targetFrame": 42493,
+      "cueIds": [
+        "46dc6501-063e-433a-85ef-10c0c1413492",
+        "cue-00979"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "that can give it to me is o negative",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_af67aba70bd2c5ef",
+      "momentId": "footage_05_11_26_sfx:beat_group_928",
+      "beatGroupId": "beat_group_928",
+      "relativeTimeSec": 50.64,
+      "absoluteTimeSec": 710.64,
+      "targetFrame": 42596,
+      "cueIds": [
+        "4188580e-1f9a-4ae6-b83c-8954b72f6d03",
+        "cue-00979"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "and o positive it to me is o negative",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1334bac2a986b7be",
+      "momentId": "footage_05_11_26_sfx:beat_group_929",
+      "beatGroupId": "beat_group_929",
+      "relativeTimeSec": 51.48,
+      "absoluteTimeSec": 711.48,
+      "targetFrame": 42646,
+      "cueIds": [
+        "4188580e-1f9a-4ae6-b83c-8954b72f6d03"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "and o positive",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.52,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9273d495eaf48125",
+      "momentId": "footage_05_11_26_sfx:beat_group_930",
+      "beatGroupId": "beat_group_930",
+      "relativeTimeSec": 52.18,
+      "absoluteTimeSec": 712.18,
+      "targetFrame": 42688,
+      "cueIds": [
+        "cue-00980"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.52,
+      "followingGapSec": 0.222,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c2c0b05288101be8",
+      "momentId": "footage_05_11_26_sfx:beat_group_931",
+      "beatGroupId": "beat_group_931",
+      "relativeTimeSec": 52.96,
+      "absoluteTimeSec": 712.96,
+      "targetFrame": 42735,
+      "cueIds": [
+        "cue-00982"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "That's it",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.222,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e895d9bd5d60ba35",
+      "momentId": "footage_05_11_26_sfx:beat_group_932",
+      "beatGroupId": "beat_group_932",
+      "relativeTimeSec": 53.29,
+      "absoluteTimeSec": 713.29,
+      "targetFrame": 42755,
+      "cueIds": [
+        "cue-00427",
+        "cue-00983"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "guys Nan doesn't know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8a06733338c67c46",
+      "momentId": "footage_05_11_26_sfx:beat_group_933",
+      "beatGroupId": "beat_group_933",
+      "relativeTimeSec": 53.99,
+      "absoluteTimeSec": 713.99,
+      "targetFrame": 42797,
+      "cueIds": [
+        "cue-00983"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Nan doesn't know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.209,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3bc598d3ea92e463",
+      "momentId": "footage_05_11_26_sfx:beat_group_934",
+      "beatGroupId": "beat_group_934",
+      "relativeTimeSec": 54.5,
+      "absoluteTimeSec": 714.5,
+      "targetFrame": 42827,
+      "cueIds": [
+        "cue-00984"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.209,
+      "followingGapSec": 0.241,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_84fb04f8f98902fb",
+      "momentId": "footage_05_11_26_sfx:beat_group_935",
+      "beatGroupId": "beat_group_935",
+      "relativeTimeSec": 55.02,
+      "absoluteTimeSec": 715.02,
+      "targetFrame": 42858,
+      "cueIds": [
+        "cue-00985"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I gotta",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.241,
+      "followingGapSec": 0.56,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2097d3b41404bb18",
+      "momentId": "footage_05_11_26_sfx:beat_group_936",
+      "beatGroupId": "beat_group_936",
+      "relativeTimeSec": 55.58,
+      "absoluteTimeSec": 715.58,
+      "targetFrame": 42892,
+      "cueIds": [
+        "cue-00988"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I already checked and",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.56,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_43879f16af8e51b4",
+      "momentId": "footage_05_11_26_sfx:beat_group_937",
+      "beatGroupId": "beat_group_937",
+      "relativeTimeSec": 56.28,
+      "absoluteTimeSec": 716.28,
+      "targetFrame": 42934,
+      "cueIds": [
+        "cue-00988"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I already checked and",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.56,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ad1f103b1bed3061",
+      "momentId": "footage_05_11_26_sfx:beat_group_938",
+      "beatGroupId": "beat_group_938",
+      "relativeTimeSec": 57.04,
+      "absoluteTimeSec": 717.04,
+      "targetFrame": 42979,
+      "cueIds": [
+        "8f50790f-3c83-42bd-a5a0-e0f932167a38",
+        "cue-00990"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "class of I gotta give her a",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.81
+    },
+    {
+      "candidateId": "cand_caption_beat_d03259dee061ff49",
+      "momentId": "footage_05_11_26_sfx:beat_group_939",
+      "beatGroupId": "beat_group_939",
+      "relativeTimeSec": 57.86,
+      "absoluteTimeSec": 717.86,
+      "targetFrame": 43029,
+      "cueIds": [
+        "8f50790f-3c83-42bd-a5a0-e0f932167a38",
+        "cue-00990",
+        "cue-00991",
+        "cue-00992"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "class of I gotta give her a knowing who's able to give her blood",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.26,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": -0.01
+    },
+    {
+      "candidateId": "cand_caption_beat_2c1bfdcce242cf87",
+      "momentId": "footage_05_11_26_sfx:beat_group_940",
+      "beatGroupId": "beat_group_940",
+      "relativeTimeSec": 59.1,
+      "absoluteTimeSec": 719.1,
+      "targetFrame": 43103,
+      "cueIds": [
+        "cue-00991",
+        "cue-00992"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "knowing who's able to give her blood",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.26,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.25
+    },
+    {
+      "candidateId": "cand_caption_beat_7d2b7052f9d9ab95",
+      "momentId": "footage_05_11_26_sfx:beat_group_941",
+      "beatGroupId": "beat_group_941",
+      "relativeTimeSec": 59.8,
+      "absoluteTimeSec": 719.8,
+      "targetFrame": 43145,
+      "cueIds": [
+        "cue-00992"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "to give her blood",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.06,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_07_26_sfx:beat_group_60",
+      "projectId": "footage_05_07_26_sfx",
+      "markedCaptionContext": "54.860 speaker_2: if you see Suri\n55.500 speaker_2: and George kind of tired\n56.370 speaker_2: it's because they've been doing\n<CANDIDATE>57.080 speaker_2: testing all this week</CANDIDATE>\n58.500 speaker_2: in school\n60.769 speaker_2: Stary hasn't been doing testing\n64.560 speaker_2: So yeah",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_19_26_sfx:beat_group_44",
+      "projectId": "footage_05_19_26_sfx",
+      "markedCaptionContext": "32.360 speaker_1: we're doing the\n33.000 speaker_1: iPhone 17 giveaway\n34.080 speaker_1: Make sure you guys subscribe\n<CANDIDATE>34.680 speaker_1: turn on post notifications</CANDIDATE>\n36.000 speaker_3: And like our videos\n37.060 speaker_3: guys\n37.300 speaker_3: Don't forget it",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_49",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "41.600 speaker_1: do you wanna show\n42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n<CANDIDATE>43.920 speaker_3: the humongous t-Rex</CANDIDATE>\n47.562 speaker_1: We got this big\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_colored_sfx:beat_group_26",
+      "projectId": "footage_colored_sfx",
+      "markedCaptionContext": "21.720 speaker_1: If not\n22.220 speaker_1: we're gonna have to\n22.700 speaker_1: wake her up\n<CANDIDATE>24.660 speaker_1: Oh she is awake guys</CANDIDATE>\n<CANDIDATE>26.180 speaker_1: She's right here</CANDIDATE>\n<CANDIDATE>27.640 speaker_1: awake and ready</CANDIDATE>\n28.960 speaker_1: You ready for the last",
+      "humanDecision": "other_sfx",
+      "otherFamily": "dramatic"
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_17",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "13.600 speaker_1: But first let\n14.240 speaker_1: me tell you something\n15.200 speaker_1: We're here\n<CANDIDATE>16.400 speaker_1: because we're</CANDIDATE>\n<CANDIDATE>17.660 speaker_1: gonna be going</CANDIDATE>\n<CANDIDATE>18.680 speaker_1: to this store</CANDIDATE>\n19.840 speaker_1: and guess what?",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "new_footage_sfx:beat_group_35",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "24.860 speaker_1: the tarantula too\n26.100 speaker_1: So me and Nan\n27.220 speaker_1: decided to bring the kids\n<CANDIDATE>28.720 speaker_1: to this beautiful house</CANDIDATE>\n<CANDIDATE>30.120 speaker_1: that has a lot of things</CANDIDATE>\n31.860 speaker_1: guys\n33.760 speaker_1: It's like a",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_1381",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "1199.664 speaker_5: 17 giveaway\n1201.444 speaker_5: At the end of the month\n1202.244 speaker_5: we're gonna be\n<CANDIDATE>1202.544 speaker_5: announcing the winner</CANDIDATE>\n<CANDIDATE>1203.244 speaker_5: so make sure you guys subscribe</CANDIDATE>\n1204.044 speaker_5: turn on the post notifications\n1205.464 speaker_5: and like this video",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

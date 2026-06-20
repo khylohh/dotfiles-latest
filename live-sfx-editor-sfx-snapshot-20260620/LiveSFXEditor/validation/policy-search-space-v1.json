@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "protocol": "nested-grouped-caption-cv-v1",
+  "modelConfigGrid": [
+    {
+      "id": "caption-beat-linear-v1-fixed-c",
+      "emitC": 0.1,
+      "familyC": 0.1,
+      "note": "Hyperparameters are immutable for protocol v1; only policy thresholds are selected inside inner CV."
+    }
+  ],
+  "policySelection": {
+    "thresholdSource": "inner-oof-family-joint-quantiles",
+    "quantiles": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.85,
+      0.9,
+      0.925,
+      0.95,
+      0.975,
+      0.99,
+      0.995
+    ],
+    "immutableFields": [
+      "gateThreshold",
+      "conditionalThreshold",
+      "marginProbability",
+      "cooldownSeconds",
+      "globalCooldownSeconds",
+      "beatNmsSeconds",
+      "maxPerMinute",
+      "priority"
+    ],
+    "tieBreakers": [
+      "higher_recall",
+      "higher_wilson_lower_90",
+      "higher_precision",
+      "fewer_generated_events",
+      "more_conservative_thresholds",
+      "lexicographic_policy_json"
+    ]
+  },
+  "familyDefaults": {
+    "ding": {
+      "gateThreshold": 0.6,
+      "conditionalThreshold": 0.55,
+      "marginProbability": 0.12,
+      "cooldownSeconds": 5,
+      "globalCooldownSeconds": 0.9,
+      "beatNmsSeconds": 0.45,
+      "maxPerMinute": 0.35,
+      "priority": 55
+    },
+    "success": {
+      "gateThreshold": 0.6,
+      "conditionalThreshold": 0.6,
+      "marginProbability": 0.15,
+      "cooldownSeconds": 10,
+      "globalCooldownSeconds": 0.9,
+      "beatNmsSeconds": 0.45,
+      "maxPerMinute": 0.2,
+      "priority": 75
+    },
+    "bonk": {
+      "gateThreshold": 0.65,
+      "conditionalThreshold": 0.6,
+      "marginProbability": 0.18,
+      "cooldownSeconds": 8,
+      "globalCooldownSeconds": 0.9,
+      "beatNmsSeconds": 0.45,
+      "maxPerMinute": 0.25,
+      "priority": 80
+    },
+    "funny": {
+      "gateThreshold": 0.7,
+      "conditionalThreshold": 0.65,
+      "marginProbability": 0.2,
+      "cooldownSeconds": 15,
+      "globalCooldownSeconds": 0.9,
+      "beatNmsSeconds": 0.45,
+      "maxPerMinute": 0.08,
+      "priority": 40
+    },
+    "bruh": {
+      "gateThreshold": 0.8,
+      "conditionalThreshold": 0.75,
+      "marginProbability": 0.25,
+      "cooldownSeconds": 60,
+      "globalCooldownSeconds": 0.9,
+      "beatNmsSeconds": 0.45,
+      "maxPerMinute": 0.03,
+      "priority": 90
+    },
+    "record_scratch": {
+      "gateThreshold": 0.85,
+      "conditionalThreshold": 0.8,
+      "marginProbability": 0.3,
+      "cooldownSeconds": 90,
+      "globalCooldownSeconds": 0.9,
+      "beatNmsSeconds": 0.45,
+      "maxPerMinute": 0.03,
+      "priority": 95
+    }
+  },
+  "precisionFloors": {
+    "ding": {
+      "precision": 0.75,
+      "wilsonLower90": 0.6,
+      "minPredictions": 30,
+      "minProjects": 6
+    },
+    "success": {
+      "precision": 0.75,
+      "wilsonLower90": 0.6,
+      "minPredictions": 25,
+      "minProjects": 6
+    },
+    "bonk": {
+      "precision": 0.78,
+      "wilsonLower90": 0.62,
+      "minPredictions": 25,
+      "minProjects": 6
+    },
+    "funny": {
+      "precision": 0.82,
+      "wilsonLower90": 0.65,
+      "minPredictions": 20,
+      "minProjects": 6
+    },
+    "bruh": {
+      "precision": 0.9,
+      "wilsonLower90": 0.72,
+      "minPredictions": 15,
+      "minProjects": 5
+    },
+    "record_scratch": {
+      "precision": 0.9,
+      "wilsonLower90": 0.72,
+      "minPredictions": 15,
+      "minProjects": 5
+    }
+  }
+}

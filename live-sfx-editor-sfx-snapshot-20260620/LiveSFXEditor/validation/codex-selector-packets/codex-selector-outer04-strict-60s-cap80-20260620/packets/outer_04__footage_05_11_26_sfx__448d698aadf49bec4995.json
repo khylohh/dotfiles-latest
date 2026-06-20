@@ -1,0 +1,1997 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "448d698aadf49bec4995",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000420000_01",
+  "coreStartSec": 420,
+  "coreEndSec": 480,
+  "contextStartSec": 412,
+  "contextEndSec": 488,
+  "allowedCandidateIds": [
+    "cand_caption_beat_de9ee200d79142a9",
+    "cand_caption_beat_e7a3376d8157d537",
+    "cand_caption_beat_a221010f28d2f65c",
+    "cand_caption_beat_33d64b835263e5c4",
+    "cand_caption_beat_4e275e31aefa3c95",
+    "cand_caption_beat_5db475e1612f368a",
+    "cand_caption_beat_51d26bb451f84c82",
+    "cand_caption_beat_b45df8a28deeabc3",
+    "cand_caption_beat_f5604ba60b737af5",
+    "cand_caption_beat_3729d9c4611a40f2",
+    "cand_caption_beat_1b8ed36ef02b9b34",
+    "cand_caption_beat_07c5dfe4d5b4dfa5",
+    "cand_caption_beat_6f71c535e7e1a0d6",
+    "cand_caption_beat_63dbffa451f720d1",
+    "cand_caption_beat_d7fb95c73ba5a1a4",
+    "cand_caption_beat_14a025f3f81ed166",
+    "cand_caption_beat_1e0a5efc141f437e",
+    "cand_caption_beat_59de93c539d5ad1b",
+    "cand_caption_beat_439e8405bc3a1c20",
+    "cand_caption_beat_a924f1f6788ef5c6",
+    "cand_caption_beat_10a9899d58b7d283",
+    "cand_caption_beat_a075645c90741862",
+    "cand_caption_beat_1bfbe8df01893bee",
+    "cand_caption_beat_5df7ec20c808b599",
+    "cand_caption_beat_44058ccd8ee2c081",
+    "cand_caption_beat_1c8e521af889c4bf",
+    "cand_caption_beat_ab0eac809759fcd4",
+    "cand_caption_beat_300c7439b3d59120",
+    "cand_caption_beat_f0249e1bc5aa52d6",
+    "cand_caption_beat_dc7590665064a841",
+    "cand_caption_beat_cf856553ec974070",
+    "cand_caption_beat_927a507125af3026",
+    "cand_caption_beat_9fbb70e65e0c2708",
+    "cand_caption_beat_ab2c8ef7f8e63335",
+    "cand_caption_beat_70ccfe9e093a3a12",
+    "cand_caption_beat_5183c32146b110ae",
+    "cand_caption_beat_5ab09e120911f641",
+    "cand_caption_beat_67b62464bd8151b0",
+    "cand_caption_beat_f36ac18d3c5c8e9e",
+    "cand_caption_beat_bef35a1670fcbd7c",
+    "cand_caption_beat_4943d92fc88d4a88",
+    "cand_caption_beat_e417f4b9ee96c494",
+    "cand_caption_beat_85537737ed9d1cc0",
+    "cand_caption_beat_a435b01ba72ab29d",
+    "cand_caption_beat_b51af30b3d274d74",
+    "cand_caption_beat_82dc439edf0b87f4",
+    "cand_caption_beat_fe5e4d97686c0d39",
+    "cand_caption_beat_bf1f5c2f8f1307f7",
+    "cand_caption_beat_1388d4bd50ed0876",
+    "cand_caption_beat_3441cbf3e72017ad",
+    "cand_caption_beat_c03bd1739ad6502a",
+    "cand_caption_beat_126083d712748744",
+    "cand_caption_beat_f65428c3580bb839",
+    "cand_caption_beat_ce7865fa6612eee7",
+    "cand_caption_beat_d28705c9e2a68a0d",
+    "cand_caption_beat_0245bff81e0a77a3",
+    "cand_caption_beat_5f11c5dec87467f6",
+    "cand_caption_beat_989cf5d45be115a8",
+    "cand_caption_beat_bdfebd7d60c7c5d4",
+    "cand_caption_beat_ef3a86f60b880f2d",
+    "cand_caption_beat_7d005407601a5f6a",
+    "cand_caption_beat_2680462f26a02205",
+    "cand_caption_beat_21d0091119749014",
+    "cand_caption_beat_60a25d2092a61faf",
+    "cand_caption_beat_adcc0886483b922c",
+    "cand_caption_beat_3269a37667cc5105"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00804",
+      "startSec": 413.16,
+      "endSec": 413.85,
+      "speakerKey": "speaker_2",
+      "text": "how did you say it?"
+    },
+    {
+      "cueId": "cue-00805",
+      "startSec": 415.02,
+      "endSec": 416.3,
+      "speakerKey": "speaker_2",
+      "text": "george told me one joke"
+    },
+    {
+      "cueId": "cue-00806",
+      "startSec": 416.417,
+      "endSec": 417.697,
+      "speakerKey": "speaker_2",
+      "text": "I wanna say it was mine"
+    },
+    {
+      "cueId": "cue-00808",
+      "startSec": 417.772,
+      "endSec": 419.137,
+      "speakerKey": "speaker_2",
+      "text": "but it was actually his"
+    },
+    {
+      "cueId": "cue-00382",
+      "startSec": 419.86,
+      "endSec": 420.64,
+      "speakerKey": "speaker_3",
+      "text": "what do you say"
+    },
+    {
+      "cueId": "cue-00809",
+      "startSec": 420.64,
+      "endSec": 421.15,
+      "speakerKey": "speaker_3",
+      "text": "when someone"
+    },
+    {
+      "cueId": "ee6aaf6d-b5b7-451a-ba06-2efbb3d48eb7",
+      "startSec": 421.15,
+      "endSec": 422.1,
+      "speakerKey": "speaker_3",
+      "text": "tells you a joke?"
+    },
+    {
+      "cueId": "cue-00810",
+      "startSec": 422.2,
+      "endSec": 422.56,
+      "speakerKey": "speaker_1",
+      "text": "Knock"
+    },
+    {
+      "cueId": "cue-00811",
+      "startSec": 422.56,
+      "endSec": 422.92,
+      "speakerKey": "speaker_1",
+      "text": "knock"
+    },
+    {
+      "cueId": "cue-00383",
+      "startSec": 423.16,
+      "endSec": 423.54,
+      "speakerKey": "speaker_2",
+      "text": "I don't know"
+    },
+    {
+      "cueId": "cue-00812",
+      "startSec": 425.46,
+      "endSec": 426.38,
+      "speakerKey": "speaker_3",
+      "text": "Yeah I don't know"
+    },
+    {
+      "cueId": "cue-00385",
+      "startSec": 426.48,
+      "endSec": 427.62,
+      "speakerKey": "speaker_2",
+      "text": "I don't know is the answer"
+    },
+    {
+      "cueId": "cue-00814",
+      "startSec": 427.62,
+      "endSec": 428.12,
+      "speakerKey": "speaker_2",
+      "text": "I don't know"
+    },
+    {
+      "cueId": "cue-00240",
+      "startSec": 428.24,
+      "endSec": 429.44,
+      "speakerKey": "speaker_3",
+      "text": "Because every time when"
+    },
+    {
+      "cueId": "cue-00241",
+      "startSec": 429.44,
+      "endSec": 430.63,
+      "speakerKey": "speaker_3",
+      "text": "you tell someone a joke"
+    },
+    {
+      "cueId": "cue-00242",
+      "startSec": 430.72,
+      "endSec": 431.36,
+      "speakerKey": "speaker_3",
+      "text": "they always say"
+    },
+    {
+      "cueId": "cue-00243",
+      "startSec": 431.44,
+      "endSec": 432.08,
+      "speakerKey": "speaker_3",
+      "text": "I don't know because"
+    },
+    {
+      "cueId": "cue-00244",
+      "startSec": 432.16,
+      "endSec": 433.42,
+      "speakerKey": "speaker_3",
+      "text": "they don't know the answer"
+    },
+    {
+      "cueId": "cue-00386",
+      "startSec": 433.37,
+      "endSec": 433.916,
+      "speakerKey": "speaker_2",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00245",
+      "startSec": 433.916,
+      "endSec": 434.51,
+      "speakerKey": "speaker_1",
+      "text": "that's a good one"
+    },
+    {
+      "cueId": "cue-00246",
+      "startSec": 434.6,
+      "endSec": 435.38,
+      "speakerKey": "speaker_1",
+      "text": "but there's some"
+    },
+    {
+      "cueId": "cue-00247",
+      "startSec": 435.38,
+      "endSec": 436.26,
+      "speakerKey": "speaker_1",
+      "text": "cases where it's not"
+    },
+    {
+      "cueId": "cue-00248",
+      "startSec": 436.34,
+      "endSec": 436.9,
+      "speakerKey": "speaker_1",
+      "text": "\"I don't know\""
+    },
+    {
+      "cueId": "cue-00249",
+      "startSec": 436.9,
+      "endSec": 437.257,
+      "speakerKey": "speaker_1",
+      "text": "so"
+    },
+    {
+      "cueId": "cue-00387",
+      "startSec": 437.32,
+      "endSec": 438.66,
+      "speakerKey": "speaker_2",
+      "text": "So decide who's the winner?"
+    },
+    {
+      "cueId": "cue-00815",
+      "startSec": 438.66,
+      "endSec": 439.22,
+      "speakerKey": "speaker_2",
+      "text": "I think me"
+    },
+    {
+      "cueId": "48ffe94f-664f-4065-a5d2-ace4cdd6546e",
+      "startSec": 439.22,
+      "endSec": 439.67,
+      "speakerKey": "speaker_2",
+      "text": "the one that"
+    },
+    {
+      "cueId": "cue-00816",
+      "startSec": 439.888,
+      "endSec": 441.088,
+      "speakerKey": "speaker_2",
+      "text": "is about to tell a joke"
+    },
+    {
+      "cueId": "cue-00817",
+      "startSec": 441.168,
+      "endSec": 442.07,
+      "speakerKey": "speaker_2",
+      "text": "but doesn't know"
+    },
+    {
+      "cueId": "6a5ca35a-c642-4070-bccf-db2dbe495852",
+      "startSec": 442.07,
+      "endSec": 442.608,
+      "speakerKey": "speaker_2",
+      "text": "any joke"
+    },
+    {
+      "cueId": "cue-00251",
+      "startSec": 443.139,
+      "endSec": 444.06,
+      "speakerKey": "speaker_1",
+      "text": "is that the joke?"
+    },
+    {
+      "cueId": "cue-00388",
+      "startSec": 444.18,
+      "endSec": 444.615,
+      "speakerKey": "speaker_2",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00818",
+      "startSec": 446.58,
+      "endSec": 448.06,
+      "speakerKey": "speaker_2",
+      "text": "My kids made a song"
+    },
+    {
+      "cueId": "cue-00819",
+      "startSec": 448.323,
+      "endSec": 449.16,
+      "speakerKey": "speaker_2",
+      "text": "So every time"
+    },
+    {
+      "cueId": "d144b4cf-c562-49bc-9823-e82f24b0a880",
+      "startSec": 449.16,
+      "endSec": 449.923,
+      "speakerKey": "speaker_2",
+      "text": "that they want"
+    },
+    {
+      "cueId": "cue-00820",
+      "startSec": 450.524,
+      "endSec": 452.913,
+      "speakerKey": "speaker_2",
+      "text": "Something from 7 Eleven"
+    },
+    {
+      "cueId": "cue-00822",
+      "startSec": 452.913,
+      "endSec": 454.2,
+      "speakerKey": "speaker_2",
+      "text": "they have to sing this song"
+    },
+    {
+      "cueId": "cue-00253",
+      "startSec": 454.32,
+      "endSec": 454.92,
+      "speakerKey": "speaker_1",
+      "text": "Which one was it"
+    },
+    {
+      "cueId": "cue-00254",
+      "startSec": 454.92,
+      "endSec": 455.14,
+      "speakerKey": "speaker_1",
+      "text": "George"
+    },
+    {
+      "cueId": "cue-00255",
+      "startSec": 455.22,
+      "endSec": 456.1,
+      "speakerKey": "speaker_1",
+      "text": "the first or the second?"
+    },
+    {
+      "cueId": "cue-00256",
+      "startSec": 456.63,
+      "endSec": 457.68,
+      "speakerKey": "speaker_3",
+      "text": "I think the first"
+    },
+    {
+      "cueId": "cue-00389",
+      "startSec": 457.8,
+      "endSec": 458.16,
+      "speakerKey": "speaker_2",
+      "text": "Okay"
+    },
+    {
+      "cueId": "cue-00823",
+      "startSec": 458.54,
+      "endSec": 459.16,
+      "speakerKey": "speaker_2",
+      "text": "Sing the first"
+    },
+    {
+      "cueId": "cue-00824",
+      "startSec": 459.16,
+      "endSec": 460,
+      "speakerKey": "speaker_2",
+      "text": "to jancy family"
+    },
+    {
+      "cueId": "cue-00257",
+      "startSec": 460.51,
+      "endSec": 461.84,
+      "speakerKey": "speaker_1",
+      "text": "7 Eleven"
+    },
+    {
+      "cueId": "cue-00258",
+      "startSec": 461.84,
+      "endSec": 463.579,
+      "speakerKey": "speaker_1",
+      "text": "has chips"
+    },
+    {
+      "cueId": "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+      "startSec": 463.579,
+      "endSec": 465.288,
+      "speakerKey": "speaker_1",
+      "text": "candies and"
+    },
+    {
+      "cueId": "cue-00259",
+      "startSec": 465.288,
+      "endSec": 467.681,
+      "speakerKey": "speaker_1",
+      "text": "slushees like blue raspberry"
+    },
+    {
+      "cueId": "cue-00260",
+      "startSec": 467.681,
+      "endSec": 470.261,
+      "speakerKey": "speaker_1",
+      "text": "cherry and Fanta"
+    },
+    {
+      "cueId": "cue-00261",
+      "startSec": 470.261,
+      "endSec": 472.552,
+      "speakerKey": "speaker_1",
+      "text": "coke which is really tastey"
+    },
+    {
+      "cueId": "cue-00263",
+      "startSec": 472.608,
+      "endSec": 473.23,
+      "speakerKey": "speaker_1",
+      "text": "too"
+    },
+    {
+      "cueId": "cue-00265",
+      "startSec": 475.385,
+      "endSec": 476.64,
+      "speakerKey": "speaker_1",
+      "text": "you're supposed to be clapping"
+    },
+    {
+      "cueId": "cue-00266",
+      "startSec": 476.726,
+      "endSec": 477.74,
+      "speakerKey": "speaker_2",
+      "text": "oh i'm sorry"
+    },
+    {
+      "cueId": "cue-00267",
+      "startSec": 478.32,
+      "endSec": 479.984,
+      "speakerKey": "speaker_2",
+      "text": "Bravo!"
+    },
+    {
+      "cueId": "cue-00390",
+      "startSec": 480.543,
+      "endSec": 481.14,
+      "speakerKey": "speaker_2",
+      "text": "It's because"
+    },
+    {
+      "cueId": "cue-00825",
+      "startSec": 481.14,
+      "endSec": 482.236,
+      "speakerKey": "speaker_2",
+      "text": "I heard this song"
+    },
+    {
+      "cueId": "b3b74d93-707e-468c-86c7-b734b49b11ca",
+      "startSec": 482.65,
+      "endSec": 483.72,
+      "speakerKey": "speaker_2",
+      "text": "so much"
+    },
+    {
+      "cueId": "cue-00826",
+      "startSec": 484.14,
+      "endSec": 485.06,
+      "speakerKey": "speaker_2",
+      "text": "So many times"
+    },
+    {
+      "cueId": "cue-00268",
+      "startSec": 485.22,
+      "endSec": 486.02,
+      "speakerKey": "speaker_1",
+      "text": "And that means we've"
+    },
+    {
+      "cueId": "cue-00269",
+      "startSec": 486.02,
+      "endSec": 487.02,
+      "speakerKey": "speaker_1",
+      "text": "gone to Eleven a lot"
+    },
+    {
+      "cueId": "cue-00391",
+      "startSec": 487.07,
+      "endSec": 488.62,
+      "speakerKey": "speaker_2",
+      "text": "And I already know the song"
+    }
+  ],
+  "markedCaptionText": "[06:53.16 speaker_2] how did you say it?\n[06:55.02 speaker_2] george told me one joke\n[06:56.42 speaker_2] I wanna say it was mine\n[06:57.77 speaker_2] but it was actually his\n[06:59.86 speaker_3] what do you say <cand_caption_beat_de9ee200d79142a9>\n[07:00.64 speaker_3] when someone <cand_caption_beat_de9ee200d79142a9> <cand_caption_beat_e7a3376d8157d537>\n[07:01.15 speaker_3] tells you a joke? <cand_caption_beat_e7a3376d8157d537> <cand_caption_beat_a221010f28d2f65c>\n[07:02.20 speaker_1] Knock\n[07:02.56 speaker_1] knock <cand_caption_beat_33d64b835263e5c4>\n[07:03.16 speaker_2] I don't know <cand_caption_beat_4e275e31aefa3c95>\n[07:05.46 speaker_3] Yeah I don't know <cand_caption_beat_5db475e1612f368a> <cand_caption_beat_51d26bb451f84c82>\n[07:06.48 speaker_2] I don't know is the answer <cand_caption_beat_51d26bb451f84c82> <cand_caption_beat_b45df8a28deeabc3>\n[07:07.62 speaker_2] I don't know <cand_caption_beat_51d26bb451f84c82> <cand_caption_beat_f5604ba60b737af5>\n[07:08.24 speaker_3] Because every time when <cand_caption_beat_51d26bb451f84c82> <cand_caption_beat_3729d9c4611a40f2> <cand_caption_beat_1b8ed36ef02b9b34>\n[07:09.44 speaker_3] you tell someone a joke <cand_caption_beat_07c5dfe4d5b4dfa5>\n[07:10.72 speaker_3] they always say <cand_caption_beat_6f71c535e7e1a0d6>\n[07:11.44 speaker_3] I don't know because <cand_caption_beat_6f71c535e7e1a0d6> <cand_caption_beat_63dbffa451f720d1>\n[07:12.16 speaker_3] they don't know the answer <cand_caption_beat_63dbffa451f720d1> <cand_caption_beat_d7fb95c73ba5a1a4>\n[07:13.37 speaker_2] Yeah <cand_caption_beat_d7fb95c73ba5a1a4> <cand_caption_beat_14a025f3f81ed166>\n[07:13.92 speaker_1] that's a good one <cand_caption_beat_14a025f3f81ed166> <cand_caption_beat_1e0a5efc141f437e>\n[07:14.60 speaker_1] but there's some <cand_caption_beat_59de93c539d5ad1b>\n[07:15.38 speaker_1] cases where it's not <cand_caption_beat_59de93c539d5ad1b> <cand_caption_beat_439e8405bc3a1c20> <cand_caption_beat_10a9899d58b7d283>\n[07:16.34 speaker_1] \"I don't know\" <cand_caption_beat_10a9899d58b7d283>\n[07:16.90 speaker_1] so <cand_caption_beat_a924f1f6788ef5c6> <cand_caption_beat_10a9899d58b7d283>\n[07:17.32 speaker_2] So decide who's the winner? <cand_caption_beat_10a9899d58b7d283> <cand_caption_beat_a075645c90741862>\n[07:18.66 speaker_2] I think me <cand_caption_beat_10a9899d58b7d283> <cand_caption_beat_a075645c90741862> <cand_caption_beat_1bfbe8df01893bee> <cand_caption_beat_5df7ec20c808b599>\n[07:19.22 speaker_2] the one that <cand_caption_beat_1bfbe8df01893bee> <cand_caption_beat_5df7ec20c808b599>\n[07:19.89 speaker_2] is about to tell a joke <cand_caption_beat_44058ccd8ee2c081> <cand_caption_beat_1c8e521af889c4bf>\n[07:21.17 speaker_2] but doesn't know <cand_caption_beat_1c8e521af889c4bf> <cand_caption_beat_ab0eac809759fcd4>\n[07:22.07 speaker_2] any joke <cand_caption_beat_ab0eac809759fcd4> <cand_caption_beat_300c7439b3d59120>\n[07:23.14 speaker_1] is that the joke? <cand_caption_beat_f0249e1bc5aa52d6> <cand_caption_beat_dc7590665064a841>\n[07:24.18 speaker_2] Yeah <cand_caption_beat_cf856553ec974070>\n[07:26.58 speaker_2] My kids made a song <cand_caption_beat_927a507125af3026> <cand_caption_beat_9fbb70e65e0c2708>\n[07:28.32 speaker_2] So every time <cand_caption_beat_ab2c8ef7f8e63335> <cand_caption_beat_70ccfe9e093a3a12>\n[07:29.16 speaker_2] that they want <cand_caption_beat_70ccfe9e093a3a12> <cand_caption_beat_5183c32146b110ae>\n[07:30.52 speaker_2] Something from 7 Eleven <cand_caption_beat_5ab09e120911f641> <cand_caption_beat_67b62464bd8151b0> <cand_caption_beat_f36ac18d3c5c8e9e>\n[07:32.91 speaker_2] they have to sing this song <cand_caption_beat_f36ac18d3c5c8e9e> <cand_caption_beat_bef35a1670fcbd7c>\n[07:34.32 speaker_1] Which one was it <cand_caption_beat_f36ac18d3c5c8e9e> <cand_caption_beat_4943d92fc88d4a88>\n[07:34.92 speaker_1] George <cand_caption_beat_e417f4b9ee96c494>\n[07:35.22 speaker_1] the first or the second? <cand_caption_beat_85537737ed9d1cc0>\n[07:36.63 speaker_3] I think the first <cand_caption_beat_a435b01ba72ab29d> <cand_caption_beat_b51af30b3d274d74>\n[07:37.80 speaker_2] Okay <cand_caption_beat_82dc439edf0b87f4>\n[07:38.54 speaker_2] Sing the first <cand_caption_beat_fe5e4d97686c0d39> <cand_caption_beat_bf1f5c2f8f1307f7>\n[07:39.16 speaker_2] to jancy family <cand_caption_beat_bf1f5c2f8f1307f7> <cand_caption_beat_1388d4bd50ed0876>\n[07:40.51 speaker_1] 7 Eleven <cand_caption_beat_3441cbf3e72017ad> <cand_caption_beat_c03bd1739ad6502a> <cand_caption_beat_126083d712748744>\n[07:41.84 speaker_1] has chips <cand_caption_beat_c03bd1739ad6502a> <cand_caption_beat_126083d712748744> <cand_caption_beat_f65428c3580bb839>\n[07:43.58 speaker_1] candies and <cand_caption_beat_126083d712748744> <cand_caption_beat_f65428c3580bb839>\n[07:45.29 speaker_1] slushees like blue raspberry <cand_caption_beat_ce7865fa6612eee7> <cand_caption_beat_d28705c9e2a68a0d>\n[07:47.68 speaker_1] cherry and Fanta <cand_caption_beat_d28705c9e2a68a0d> <cand_caption_beat_0245bff81e0a77a3> <cand_caption_beat_5f11c5dec87467f6>\n[07:50.26 speaker_1] coke which is really tastey <cand_caption_beat_0245bff81e0a77a3> <cand_caption_beat_5f11c5dec87467f6> <cand_caption_beat_989cf5d45be115a8>\n[07:52.61 speaker_1] too <cand_caption_beat_bdfebd7d60c7c5d4> <cand_caption_beat_ef3a86f60b880f2d>\n[07:55.38 speaker_1] you're supposed to be clapping <cand_caption_beat_7d005407601a5f6a> <cand_caption_beat_2680462f26a02205>\n[07:56.73 speaker_2] oh i'm sorry <cand_caption_beat_21d0091119749014>\n[07:58.32 speaker_2] Bravo! <cand_caption_beat_60a25d2092a61faf> <cand_caption_beat_adcc0886483b922c> <cand_caption_beat_3269a37667cc5105>\n[08:00.54 speaker_2] It's because\n[08:01.14 speaker_2] I heard this song\n[08:02.65 speaker_2] so much\n[08:04.14 speaker_2] So many times\n[08:05.22 speaker_1] And that means we've\n[08:06.02 speaker_1] gone to Eleven a lot\n[08:07.07 speaker_2] And I already know the song",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_de9ee200d79142a9",
+      "momentId": "footage_05_11_26_sfx:beat_group_565",
+      "beatGroupId": "beat_group_565",
+      "relativeTimeSec": 0.6,
+      "absoluteTimeSec": 420.6,
+      "targetFrame": 25211,
+      "cueIds": [
+        "cue-00382",
+        "cue-00809"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "what do you say when someone",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.723,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e7a3376d8157d537",
+      "momentId": "footage_05_11_26_sfx:beat_group_566",
+      "beatGroupId": "beat_group_566",
+      "relativeTimeSec": 1.1,
+      "absoluteTimeSec": 421.1,
+      "targetFrame": 25241,
+      "cueIds": [
+        "cue-00809",
+        "ee6aaf6d-b5b7-451a-ba06-2efbb3d48eb7"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "when someone tells you a joke?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.055
+    },
+    {
+      "candidateId": "cand_caption_beat_a221010f28d2f65c",
+      "momentId": "footage_05_11_26_sfx:beat_group_567",
+      "beatGroupId": "beat_group_567",
+      "relativeTimeSec": 2.1,
+      "absoluteTimeSec": 422.1,
+      "targetFrame": 25301,
+      "cueIds": [
+        "ee6aaf6d-b5b7-451a-ba06-2efbb3d48eb7"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "tells you a joke?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0.4,
+      "nearestZoomDeltaSec": 0.055
+    },
+    {
+      "candidateId": "cand_caption_beat_33d64b835263e5c4",
+      "momentId": "footage_05_11_26_sfx:beat_group_568",
+      "beatGroupId": "beat_group_568",
+      "relativeTimeSec": 2.92,
+      "absoluteTimeSec": 422.92,
+      "targetFrame": 25350,
+      "cueIds": [
+        "cue-00811"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "knock",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.24,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.765
+    },
+    {
+      "candidateId": "cand_caption_beat_4e275e31aefa3c95",
+      "momentId": "footage_05_11_26_sfx:beat_group_569",
+      "beatGroupId": "beat_group_569",
+      "relativeTimeSec": 3.54,
+      "absoluteTimeSec": 423.54,
+      "targetFrame": 25387,
+      "cueIds": [
+        "cue-00383"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I don't know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.24,
+      "followingGapSec": 1.92,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.385
+    },
+    {
+      "candidateId": "cand_caption_beat_5db475e1612f368a",
+      "momentId": "footage_05_11_26_sfx:beat_group_570",
+      "beatGroupId": "beat_group_570",
+      "relativeTimeSec": 5.46,
+      "absoluteTimeSec": 425.46,
+      "targetFrame": 25502,
+      "cueIds": [
+        "cue-00812"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "Yeah I don't know",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 1.92,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0.866
+    },
+    {
+      "candidateId": "cand_caption_beat_51d26bb451f84c82",
+      "momentId": "footage_05_11_26_sfx:beat_group_571",
+      "beatGroupId": "beat_group_571",
+      "relativeTimeSec": 6.38,
+      "absoluteTimeSec": 426.38,
+      "targetFrame": 25557,
+      "cueIds": [
+        "cue-00240",
+        "cue-00385",
+        "cue-00812",
+        "cue-00814"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "Because every time when I don't know is the answer Yeah I don't know I don't know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 1.92,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": -0.054
+    },
+    {
+      "candidateId": "cand_caption_beat_b45df8a28deeabc3",
+      "momentId": "footage_05_11_26_sfx:beat_group_572",
+      "beatGroupId": "beat_group_572",
+      "relativeTimeSec": 7.66,
+      "absoluteTimeSec": 427.66,
+      "targetFrame": 25634,
+      "cueIds": [
+        "cue-00385"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I don't know is the answer",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.334
+    },
+    {
+      "candidateId": "cand_caption_beat_f5604ba60b737af5",
+      "momentId": "footage_05_11_26_sfx:beat_group_573",
+      "beatGroupId": "beat_group_573",
+      "relativeTimeSec": 8.12,
+      "absoluteTimeSec": 428.12,
+      "targetFrame": 25662,
+      "cueIds": [
+        "cue-00814"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I don't know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3729d9c4611a40f2",
+      "momentId": "footage_05_11_26_sfx:beat_group_574",
+      "beatGroupId": "beat_group_574",
+      "relativeTimeSec": 8.24,
+      "absoluteTimeSec": 428.24,
+      "targetFrame": 25669,
+      "cueIds": [
+        "cue-00240"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "Because every time when",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1b8ed36ef02b9b34",
+      "momentId": "footage_05_11_26_sfx:beat_group_575",
+      "beatGroupId": "beat_group_575",
+      "relativeTimeSec": 9.48,
+      "absoluteTimeSec": 429.48,
+      "targetFrame": 25743,
+      "cueIds": [
+        "cue-00240"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "Because every time when",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_07c5dfe4d5b4dfa5",
+      "momentId": "footage_05_11_26_sfx:beat_group_576",
+      "beatGroupId": "beat_group_576",
+      "relativeTimeSec": 10.63,
+      "absoluteTimeSec": 430.63,
+      "targetFrame": 25812,
+      "cueIds": [
+        "cue-00241"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "you tell someone a joke",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.09,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6f71c535e7e1a0d6",
+      "momentId": "footage_05_11_26_sfx:beat_group_577",
+      "beatGroupId": "beat_group_577",
+      "relativeTimeSec": 11.42,
+      "absoluteTimeSec": 431.42,
+      "targetFrame": 25859,
+      "cueIds": [
+        "cue-00242",
+        "cue-00243"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "they always say I don't know because",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.09,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_63dbffa451f720d1",
+      "momentId": "footage_05_11_26_sfx:beat_group_578",
+      "beatGroupId": "beat_group_578",
+      "relativeTimeSec": 12.14,
+      "absoluteTimeSec": 432.14,
+      "targetFrame": 25902,
+      "cueIds": [
+        "cue-00243",
+        "cue-00244"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "I don't know because they don't know the answer",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_d7fb95c73ba5a1a4",
+      "momentId": "footage_05_11_26_sfx:beat_group_579",
+      "beatGroupId": "beat_group_579",
+      "relativeTimeSec": 13.42,
+      "absoluteTimeSec": 433.42,
+      "targetFrame": 25979,
+      "cueIds": [
+        "cue-00244",
+        "cue-00386"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "they don't know the answer Yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "internal_pause_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": -0.05,
+      "boundaryStrength": 0.15,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_14a025f3f81ed166",
+      "momentId": "footage_05_11_26_sfx:beat_group_580",
+      "beatGroupId": "beat_group_580",
+      "relativeTimeSec": 13.88,
+      "absoluteTimeSec": 433.88,
+      "targetFrame": 26007,
+      "cueIds": [
+        "cue-00245",
+        "cue-00386"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "that's a good one Yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": -0.05,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1e0a5efc141f437e",
+      "momentId": "footage_05_11_26_sfx:beat_group_581",
+      "beatGroupId": "beat_group_581",
+      "relativeTimeSec": 14.51,
+      "absoluteTimeSec": 434.51,
+      "targetFrame": 26045,
+      "cueIds": [
+        "cue-00245"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "that's a good one",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.09,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_59de93c539d5ad1b",
+      "momentId": "footage_05_11_26_sfx:beat_group_582",
+      "beatGroupId": "beat_group_582",
+      "relativeTimeSec": 15.34,
+      "absoluteTimeSec": 435.34,
+      "targetFrame": 26094,
+      "cueIds": [
+        "cue-00246",
+        "cue-00247"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "but there's some cases where it's not",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.09,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_439e8405bc3a1c20",
+      "momentId": "footage_05_11_26_sfx:beat_group_583",
+      "beatGroupId": "beat_group_583",
+      "relativeTimeSec": 16.26,
+      "absoluteTimeSec": 436.26,
+      "targetFrame": 26149,
+      "cueIds": [
+        "cue-00247"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "cases where it's not",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.977
+    },
+    {
+      "candidateId": "cand_caption_beat_a924f1f6788ef5c6",
+      "momentId": "footage_05_11_26_sfx:beat_group_584",
+      "beatGroupId": "beat_group_584",
+      "relativeTimeSec": 17.04,
+      "absoluteTimeSec": 437.04,
+      "targetFrame": 26196,
+      "cueIds": [
+        "cue-00249"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "so",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.063,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.197
+    },
+    {
+      "candidateId": "cand_caption_beat_10a9899d58b7d283",
+      "momentId": "footage_05_11_26_sfx:beat_group_585",
+      "beatGroupId": "beat_group_585",
+      "relativeTimeSec": 17.32,
+      "absoluteTimeSec": 437.32,
+      "targetFrame": 26213,
+      "cueIds": [
+        "cue-00247",
+        "cue-00248",
+        "cue-00249",
+        "cue-00387",
+        "cue-00815"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "cases where it's not \"I don't know\" so So decide who's the winner? I think me",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.063,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.7,
+      "nearestZoomDeltaSec": -0.083
+    },
+    {
+      "candidateId": "cand_caption_beat_a075645c90741862",
+      "momentId": "footage_05_11_26_sfx:beat_group_586",
+      "beatGroupId": "beat_group_586",
+      "relativeTimeSec": 18.68,
+      "absoluteTimeSec": 438.68,
+      "targetFrame": 26295,
+      "cueIds": [
+        "cue-00387",
+        "cue-00815"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "So decide who's the winner? I think me",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.063,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": -1.443
+    },
+    {
+      "candidateId": "cand_caption_beat_1bfbe8df01893bee",
+      "momentId": "footage_05_11_26_sfx:beat_group_587",
+      "beatGroupId": "beat_group_587",
+      "relativeTimeSec": 19.14,
+      "absoluteTimeSec": 439.14,
+      "targetFrame": 26322,
+      "cueIds": [
+        "48ffe94f-664f-4065-a5d2-ace4cdd6546e",
+        "cue-00815"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "the one that I think me",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5df7ec20c808b599",
+      "momentId": "footage_05_11_26_sfx:beat_group_588",
+      "beatGroupId": "beat_group_588",
+      "relativeTimeSec": 19.67,
+      "absoluteTimeSec": 439.67,
+      "targetFrame": 26354,
+      "cueIds": [
+        "48ffe94f-664f-4065-a5d2-ace4cdd6546e",
+        "cue-00815"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "the one that I think me",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_44058ccd8ee2c081",
+      "momentId": "footage_05_11_26_sfx:beat_group_589",
+      "beatGroupId": "beat_group_589",
+      "relativeTimeSec": 19.888,
+      "absoluteTimeSec": 439.888,
+      "targetFrame": 26367,
+      "cueIds": [
+        "cue-00816"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "is about to tell a joke",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.218,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1c8e521af889c4bf",
+      "momentId": "footage_05_11_26_sfx:beat_group_590",
+      "beatGroupId": "beat_group_590",
+      "relativeTimeSec": 21.15,
+      "absoluteTimeSec": 441.15,
+      "targetFrame": 26443,
+      "cueIds": [
+        "cue-00816",
+        "cue-00817"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "is about to tell a joke but doesn't know",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.218,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ab0eac809759fcd4",
+      "momentId": "footage_05_11_26_sfx:beat_group_591",
+      "beatGroupId": "beat_group_591",
+      "relativeTimeSec": 22.06,
+      "absoluteTimeSec": 442.06,
+      "targetFrame": 26497,
+      "cueIds": [
+        "6a5ca35a-c642-4070-bccf-db2dbe495852",
+        "cue-00817"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "any joke but doesn't know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.649
+    },
+    {
+      "candidateId": "cand_caption_beat_300c7439b3d59120",
+      "momentId": "footage_05_11_26_sfx:beat_group_592",
+      "beatGroupId": "beat_group_592",
+      "relativeTimeSec": 22.6,
+      "absoluteTimeSec": 442.6,
+      "targetFrame": 26529,
+      "cueIds": [
+        "6a5ca35a-c642-4070-bccf-db2dbe495852"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "any joke",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.531,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.109
+    },
+    {
+      "candidateId": "cand_caption_beat_f0249e1bc5aa52d6",
+      "momentId": "footage_05_11_26_sfx:beat_group_593",
+      "beatGroupId": "beat_group_593",
+      "relativeTimeSec": 23.139,
+      "absoluteTimeSec": 443.139,
+      "targetFrame": 26562,
+      "cueIds": [
+        "cue-00251"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "is that the joke?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.531,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": -0.43
+    },
+    {
+      "candidateId": "cand_caption_beat_dc7590665064a841",
+      "momentId": "footage_05_11_26_sfx:beat_group_594",
+      "beatGroupId": "beat_group_594",
+      "relativeTimeSec": 24.06,
+      "absoluteTimeSec": 444.06,
+      "targetFrame": 26617,
+      "cueIds": [
+        "cue-00251"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "is that the joke?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.531,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": -1.351
+    },
+    {
+      "candidateId": "cand_caption_beat_cf856553ec974070",
+      "momentId": "footage_05_11_26_sfx:beat_group_595",
+      "beatGroupId": "beat_group_595",
+      "relativeTimeSec": 24.4,
+      "absoluteTimeSec": 444.4,
+      "targetFrame": 26637,
+      "cueIds": [
+        "cue-00388"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yeah",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 1.965,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_927a507125af3026",
+      "momentId": "footage_05_11_26_sfx:beat_group_596",
+      "beatGroupId": "beat_group_596",
+      "relativeTimeSec": 26.58,
+      "absoluteTimeSec": 446.58,
+      "targetFrame": 26768,
+      "cueIds": [
+        "cue-00818"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "My kids made a song",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 1.965,
+      "followingGapSec": 0.263,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9fbb70e65e0c2708",
+      "momentId": "footage_05_11_26_sfx:beat_group_597",
+      "beatGroupId": "beat_group_597",
+      "relativeTimeSec": 28.06,
+      "absoluteTimeSec": 448.06,
+      "targetFrame": 26857,
+      "cueIds": [
+        "cue-00818"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "My kids made a song",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.965,
+      "followingGapSec": 0.263,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ab2c8ef7f8e63335",
+      "momentId": "footage_05_11_26_sfx:beat_group_598",
+      "beatGroupId": "beat_group_598",
+      "relativeTimeSec": 28.323,
+      "absoluteTimeSec": 448.323,
+      "targetFrame": 26873,
+      "cueIds": [
+        "cue-00819"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "So every time",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.263,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_70ccfe9e093a3a12",
+      "momentId": "footage_05_11_26_sfx:beat_group_599",
+      "beatGroupId": "beat_group_599",
+      "relativeTimeSec": 29.14,
+      "absoluteTimeSec": 449.14,
+      "targetFrame": 26921,
+      "cueIds": [
+        "cue-00819",
+        "d144b4cf-c562-49bc-9823-e82f24b0a880"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "So every time that they want",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.263,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5183c32146b110ae",
+      "momentId": "footage_05_11_26_sfx:beat_group_600",
+      "beatGroupId": "beat_group_600",
+      "relativeTimeSec": 29.96,
+      "absoluteTimeSec": 449.96,
+      "targetFrame": 26971,
+      "cueIds": [
+        "d144b4cf-c562-49bc-9823-e82f24b0a880"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "that they want",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.601,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5ab09e120911f641",
+      "momentId": "footage_05_11_26_sfx:beat_group_601",
+      "beatGroupId": "beat_group_601",
+      "relativeTimeSec": 30.524,
+      "absoluteTimeSec": 450.524,
+      "targetFrame": 27004,
+      "cueIds": [
+        "cue-00820"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Something from 7 Eleven",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.601,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_67b62464bd8151b0",
+      "momentId": "footage_05_11_26_sfx:beat_group_602",
+      "beatGroupId": "beat_group_602",
+      "relativeTimeSec": 31.58,
+      "absoluteTimeSec": 451.58,
+      "targetFrame": 27068,
+      "cueIds": [
+        "cue-00820"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Something from 7 Eleven",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.601,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 1.339
+    },
+    {
+      "candidateId": "cand_caption_beat_f36ac18d3c5c8e9e",
+      "momentId": "footage_05_11_26_sfx:beat_group_603",
+      "beatGroupId": "beat_group_603",
+      "relativeTimeSec": 32.88,
+      "absoluteTimeSec": 452.88,
+      "targetFrame": 27146,
+      "cueIds": [
+        "cue-00253",
+        "cue-00820",
+        "cue-00822"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Which one was it Something from 7 Eleven they have to sing this song",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.601,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.039
+    },
+    {
+      "candidateId": "cand_caption_beat_bef35a1670fcbd7c",
+      "momentId": "footage_05_11_26_sfx:beat_group_604",
+      "beatGroupId": "beat_group_604",
+      "relativeTimeSec": 34.2,
+      "absoluteTimeSec": 454.2,
+      "targetFrame": 27225,
+      "cueIds": [
+        "cue-00822"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "they have to sing this song",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.281
+    },
+    {
+      "candidateId": "cand_caption_beat_4943d92fc88d4a88",
+      "momentId": "footage_05_11_26_sfx:beat_group_605",
+      "beatGroupId": "beat_group_605",
+      "relativeTimeSec": 34.32,
+      "absoluteTimeSec": 454.32,
+      "targetFrame": 27232,
+      "cueIds": [
+        "cue-00253"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Which one was it",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.401
+    },
+    {
+      "candidateId": "cand_caption_beat_e417f4b9ee96c494",
+      "momentId": "footage_05_11_26_sfx:beat_group_606",
+      "beatGroupId": "beat_group_606",
+      "relativeTimeSec": 35.14,
+      "absoluteTimeSec": 455.14,
+      "targetFrame": 27281,
+      "cueIds": [
+        "cue-00254"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "George",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_85537737ed9d1cc0",
+      "momentId": "footage_05_11_26_sfx:beat_group_607",
+      "beatGroupId": "beat_group_607",
+      "relativeTimeSec": 36.1,
+      "absoluteTimeSec": 456.1,
+      "targetFrame": 27339,
+      "cueIds": [
+        "cue-00255"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "the first or the second?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.53,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a435b01ba72ab29d",
+      "momentId": "footage_05_11_26_sfx:beat_group_608",
+      "beatGroupId": "beat_group_608",
+      "relativeTimeSec": 36.63,
+      "absoluteTimeSec": 456.63,
+      "targetFrame": 27370,
+      "cueIds": [
+        "cue-00256"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "I think the first",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.53,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b51af30b3d274d74",
+      "momentId": "footage_05_11_26_sfx:beat_group_609",
+      "beatGroupId": "beat_group_609",
+      "relativeTimeSec": 37.68,
+      "absoluteTimeSec": 457.68,
+      "targetFrame": 27433,
+      "cueIds": [
+        "cue-00256"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "I think the first",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.53,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_82dc439edf0b87f4",
+      "momentId": "footage_05_11_26_sfx:beat_group_610",
+      "beatGroupId": "beat_group_610",
+      "relativeTimeSec": 38.16,
+      "absoluteTimeSec": 458.16,
+      "targetFrame": 27462,
+      "cueIds": [
+        "cue-00389"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Okay",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0.38,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fe5e4d97686c0d39",
+      "momentId": "footage_05_11_26_sfx:beat_group_611",
+      "beatGroupId": "beat_group_611",
+      "relativeTimeSec": 38.54,
+      "absoluteTimeSec": 458.54,
+      "targetFrame": 27485,
+      "cueIds": [
+        "cue-00823"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Sing the first",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.38,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_bf1f5c2f8f1307f7",
+      "momentId": "footage_05_11_26_sfx:beat_group_612",
+      "beatGroupId": "beat_group_612",
+      "relativeTimeSec": 39.14,
+      "absoluteTimeSec": 459.14,
+      "targetFrame": 27521,
+      "cueIds": [
+        "cue-00823",
+        "cue-00824"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Sing the first to jancy family",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.38,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.153
+    },
+    {
+      "candidateId": "cand_caption_beat_1388d4bd50ed0876",
+      "momentId": "footage_05_11_26_sfx:beat_group_613",
+      "beatGroupId": "beat_group_613",
+      "relativeTimeSec": 40,
+      "absoluteTimeSec": 460,
+      "targetFrame": 27572,
+      "cueIds": [
+        "cue-00824"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "to jancy family",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.51,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.293
+    },
+    {
+      "candidateId": "cand_caption_beat_3441cbf3e72017ad",
+      "momentId": "footage_05_11_26_sfx:beat_group_614",
+      "beatGroupId": "beat_group_614",
+      "relativeTimeSec": 40.51,
+      "absoluteTimeSec": 460.51,
+      "targetFrame": 27603,
+      "cueIds": [
+        "cue-00257"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "7 Eleven",
+      "anchorTypes": [
+        "cue_start",
+        "internal_pause_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.51,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.95,
+      "nearestZoomDeltaSec": -0.217
+    },
+    {
+      "candidateId": "cand_caption_beat_c03bd1739ad6502a",
+      "momentId": "footage_05_11_26_sfx:beat_group_615",
+      "beatGroupId": "beat_group_615",
+      "relativeTimeSec": 41.76,
+      "absoluteTimeSec": 461.76,
+      "targetFrame": 27678,
+      "cueIds": [
+        "cue-00257",
+        "cue-00258"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "7 Eleven has chips",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start"
+      ],
+      "precedingGapSec": 0.51,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": -1.467
+    },
+    {
+      "candidateId": "cand_caption_beat_126083d712748744",
+      "momentId": "footage_05_11_26_sfx:beat_group_616",
+      "beatGroupId": "beat_group_616",
+      "relativeTimeSec": 43.52,
+      "absoluteTimeSec": 463.52,
+      "targetFrame": 27783,
+      "cueIds": [
+        "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+        "cue-00257",
+        "cue-00258"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "candies and 7 Eleven has chips",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.51,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.75,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f65428c3580bb839",
+      "momentId": "footage_05_11_26_sfx:beat_group_617",
+      "beatGroupId": "beat_group_617",
+      "relativeTimeSec": 44.82,
+      "absoluteTimeSec": 464.82,
+      "targetFrame": 27861,
+      "cueIds": [
+        "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+        "cue-00258"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "candies and has chips",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ce7865fa6612eee7",
+      "momentId": "footage_05_11_26_sfx:beat_group_618",
+      "beatGroupId": "beat_group_618",
+      "relativeTimeSec": 46.92,
+      "absoluteTimeSec": 466.92,
+      "targetFrame": 27987,
+      "cueIds": [
+        "cue-00259"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "slushees like blue raspberry",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_d28705c9e2a68a0d",
+      "momentId": "footage_05_11_26_sfx:beat_group_619",
+      "beatGroupId": "beat_group_619",
+      "relativeTimeSec": 47.601,
+      "absoluteTimeSec": 467.601,
+      "targetFrame": 28028,
+      "cueIds": [
+        "cue-00259",
+        "cue-00260"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "slushees like blue raspberry cherry and Fanta",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0245bff81e0a77a3",
+      "momentId": "footage_05_11_26_sfx:beat_group_620",
+      "beatGroupId": "beat_group_620",
+      "relativeTimeSec": 48.63,
+      "absoluteTimeSec": 468.63,
+      "targetFrame": 28090,
+      "cueIds": [
+        "cue-00260",
+        "cue-00261"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "cherry and Fanta coke which is really tastey",
+      "anchorTypes": [
+        "final_word_end",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.15,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5f11c5dec87467f6",
+      "momentId": "footage_05_11_26_sfx:beat_group_621",
+      "beatGroupId": "beat_group_621",
+      "relativeTimeSec": 50.2,
+      "absoluteTimeSec": 470.2,
+      "targetFrame": 28184,
+      "cueIds": [
+        "cue-00260",
+        "cue-00261"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "cherry and Fanta coke which is really tastey",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.056,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_989cf5d45be115a8",
+      "momentId": "footage_05_11_26_sfx:beat_group_622",
+      "beatGroupId": "beat_group_622",
+      "relativeTimeSec": 52.472,
+      "absoluteTimeSec": 472.472,
+      "targetFrame": 28320,
+      "cueIds": [
+        "cue-00261"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "coke which is really tastey",
+      "anchorTypes": [
+        "cue_end_minus_80ms"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.056,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.001
+    },
+    {
+      "candidateId": "cand_caption_beat_bdfebd7d60c7c5d4",
+      "momentId": "footage_05_11_26_sfx:beat_group_623",
+      "beatGroupId": "beat_group_623",
+      "relativeTimeSec": 53.15,
+      "absoluteTimeSec": 473.15,
+      "targetFrame": 28361,
+      "cueIds": [
+        "cue-00263"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "too",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.056,
+      "followingGapSec": 2.155,
+      "boundaryStrength": 0.15,
+      "nearestZoomDeltaSec": 0.323
+    },
+    {
+      "candidateId": "cand_caption_beat_ef3a86f60b880f2d",
+      "momentId": "footage_05_11_26_sfx:beat_group_624",
+      "beatGroupId": "beat_group_624",
+      "relativeTimeSec": 54.16,
+      "absoluteTimeSec": 474.16,
+      "targetFrame": 28421,
+      "cueIds": [
+        "cue-00263"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "too",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.056,
+      "followingGapSec": 2.155,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.687
+    },
+    {
+      "candidateId": "cand_caption_beat_7d005407601a5f6a",
+      "momentId": "footage_05_11_26_sfx:beat_group_625",
+      "beatGroupId": "beat_group_625",
+      "relativeTimeSec": 55.385,
+      "absoluteTimeSec": 475.385,
+      "targetFrame": 28495,
+      "cueIds": [
+        "cue-00265"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "you're supposed to be clapping",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 2.155,
+      "followingGapSec": 0.086,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.425
+    },
+    {
+      "candidateId": "cand_caption_beat_2680462f26a02205",
+      "momentId": "footage_05_11_26_sfx:beat_group_626",
+      "beatGroupId": "beat_group_626",
+      "relativeTimeSec": 56.64,
+      "absoluteTimeSec": 476.64,
+      "targetFrame": 28570,
+      "cueIds": [
+        "cue-00265"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "you're supposed to be clapping",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 2.155,
+      "followingGapSec": 0.086,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.17
+    },
+    {
+      "candidateId": "cand_caption_beat_21d0091119749014",
+      "momentId": "footage_05_11_26_sfx:beat_group_627",
+      "beatGroupId": "beat_group_627",
+      "relativeTimeSec": 57.74,
+      "absoluteTimeSec": 477.74,
+      "targetFrame": 28636,
+      "cueIds": [
+        "cue-00266"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "oh i'm sorry",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.086,
+      "followingGapSec": 0.58,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.93
+    },
+    {
+      "candidateId": "cand_caption_beat_60a25d2092a61faf",
+      "momentId": "footage_05_11_26_sfx:beat_group_628",
+      "beatGroupId": "beat_group_628",
+      "relativeTimeSec": 58.32,
+      "absoluteTimeSec": 478.32,
+      "targetFrame": 28671,
+      "cueIds": [
+        "cue-00267"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Bravo!",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.58,
+      "followingGapSec": 0.559,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_adcc0886483b922c",
+      "momentId": "footage_05_11_26_sfx:beat_group_629",
+      "beatGroupId": "beat_group_629",
+      "relativeTimeSec": 59.14,
+      "absoluteTimeSec": 479.14,
+      "targetFrame": 28720,
+      "cueIds": [
+        "cue-00267"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Bravo!",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.58,
+      "followingGapSec": 0.559,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3269a37667cc5105",
+      "momentId": "footage_05_11_26_sfx:beat_group_630",
+      "beatGroupId": "beat_group_630",
+      "relativeTimeSec": 59.904,
+      "absoluteTimeSec": 479.904,
+      "targetFrame": 28766,
+      "cueIds": [
+        "cue-00267"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Bravo!",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.58,
+      "followingGapSec": 0.559,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_51",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "44.640 speaker_2: it's actually my first\n45.760 speaker_2: time too because\n46.620 speaker_1: Yeah\n<CANDIDATE>46.980 speaker_1: it's Stary's first time</CANDIDATE>\n<CANDIDATE>48.940 speaker_1: it's all of our first times</CANDIDATE>\n50.300 speaker_1: And mommy\n51.280 speaker_1: she doesn't know how to ice skate",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_70",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "50.280 speaker_2: You don't like it?\n52.120 speaker_2: And by the way\n53.000 speaker_2: look\n<CANDIDATE>54.476 speaker_1: my book</CANDIDATE>\n55.380 speaker_2: This is one of our\n56.355 speaker_2: favorite books\n57.460 speaker_1: Mine",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_49",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "41.600 speaker_1: do you wanna show\n42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n<CANDIDATE>43.920 speaker_3: the humongous t-Rex</CANDIDATE>\n47.562 speaker_1: We got this big\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_17",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "13.600 speaker_1: But first let\n14.240 speaker_1: me tell you something\n15.200 speaker_1: We're here\n<CANDIDATE>16.400 speaker_1: because we're</CANDIDATE>\n<CANDIDATE>17.660 speaker_1: gonna be going</CANDIDATE>\n<CANDIDATE>18.680 speaker_1: to this store</CANDIDATE>\n19.840 speaker_1: and guess what?",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "footage_colored_sfx:beat_group_45",
+      "projectId": "footage_colored_sfx",
+      "markedCaptionContext": "35.560 speaker_1: You are?\n36.200 speaker_3: Yeah and I also have these\n38.440 speaker_1: Okay\n<CANDIDATE>38.860 speaker_1: so I think George</CANDIDATE>\n<CANDIDATE>39.760 speaker_1: he doesn't have to</CANDIDATE>\n<CANDIDATE>40.280 speaker_1: take his backpack</CANDIDATE>\n<CANDIDATE>40.980 speaker_1: Do you have to take your</CANDIDATE>",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "new_footage_sfx:beat_group_32",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "23.580 speaker_3: passed away too\n24.460 speaker_1: Yeah\n24.860 speaker_1: the tarantula too\n<CANDIDATE>26.100 speaker_1: So me and Nan</CANDIDATE>\n27.220 speaker_1: decided to bring the kids\n28.720 speaker_1: to this beautiful house\n30.120 speaker_1: that has a lot of things",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_46",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "36.480 speaker_1: What is she doing?\n37.560 speaker_3: I don't know\n40.230 speaker_1: The heck?\n<CANDIDATE>44.510 speaker_1: Amor?</CANDIDATE>\n46.388 speaker_1: what are you guys doing?\n48.620 speaker_1: You know the gardener's\n49.419 speaker_1: gonna come and do that",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

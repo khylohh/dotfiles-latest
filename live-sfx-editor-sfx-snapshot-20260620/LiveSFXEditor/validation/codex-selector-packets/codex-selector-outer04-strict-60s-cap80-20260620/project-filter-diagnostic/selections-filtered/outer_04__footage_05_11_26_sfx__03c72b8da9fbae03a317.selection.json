@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000120000_01",
+  "selections": [
+    {
+      "candidateId": "cand_caption_beat_12396cc08a8a80aa",
+      "family": "ding",
+      "momentType": "positive_detail"
+    }
+  ]
+}

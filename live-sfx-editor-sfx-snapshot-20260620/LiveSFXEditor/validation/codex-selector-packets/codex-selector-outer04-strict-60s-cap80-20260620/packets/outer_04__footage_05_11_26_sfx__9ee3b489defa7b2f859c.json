@@ -1,0 +1,1880 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "9ee3b489defa7b2f859c",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000076411_02",
+  "coreStartSec": 76.411,
+  "coreEndSec": 120,
+  "contextStartSec": 68.411,
+  "contextEndSec": 128,
+  "allowedCandidateIds": [
+    "cand_caption_beat_6ed3d78ec380dbfb",
+    "cand_caption_beat_3ba523af00518cfa",
+    "cand_caption_beat_659d4ee30e6abe97",
+    "cand_caption_beat_9f80703376b34594",
+    "cand_caption_beat_808d7182e948bca5",
+    "cand_caption_beat_868c6e0f35c49fc8",
+    "cand_caption_beat_e3d547ff68741183",
+    "cand_caption_beat_0aaae92bebde3262",
+    "cand_caption_beat_0ee21cd8e62a2794",
+    "cand_caption_beat_e9c0494f715d0a70",
+    "cand_caption_beat_355c874813ece749",
+    "cand_caption_beat_588400e1de69ac0c",
+    "cand_caption_beat_21495563a4136665",
+    "cand_caption_beat_ec6d2b8a8bd17f99",
+    "cand_caption_beat_96f62d82a677f484",
+    "cand_caption_beat_e29c93dbc7a80737",
+    "cand_caption_beat_9560a1a3b6c0232b",
+    "cand_caption_beat_09729652d00d2777",
+    "cand_caption_beat_7e49dbacc62914cb",
+    "cand_caption_beat_9be0e81607cb2c78",
+    "cand_caption_beat_b265068dea8aee35",
+    "cand_caption_beat_2813322729aa7a1a",
+    "cand_caption_beat_a284bd41c0bdcfd6",
+    "cand_caption_beat_74189ab5125fe1c1",
+    "cand_caption_beat_836811b959da6207",
+    "cand_caption_beat_ef5617eb4ce9eca8",
+    "cand_caption_beat_63675481a4b86c74",
+    "cand_caption_beat_940852a4fa3a8d16",
+    "cand_caption_beat_1f11cfe2e40a7441",
+    "cand_caption_beat_e3a6ca627c7a1ea4",
+    "cand_caption_beat_7a7a0d5016ed6b52",
+    "cand_caption_beat_770b502ac3d63972",
+    "cand_caption_beat_7a248471afa39543",
+    "cand_caption_beat_30ebc422ba3a2640",
+    "cand_caption_beat_c17703bc9523be61",
+    "cand_caption_beat_aeda3ff0337f08f4",
+    "cand_caption_beat_038ada8a44c1772b",
+    "cand_caption_beat_e2fc1c6f5efe1aa6",
+    "cand_caption_beat_7aacf4504da20219",
+    "cand_caption_beat_fcca6b50731078c5",
+    "cand_caption_beat_658c104d86e139ab",
+    "cand_caption_beat_1bcfda6ead54b1a2",
+    "cand_caption_beat_22aa2f7b1212e4ab",
+    "cand_caption_beat_7aaadf64d2a140ef",
+    "cand_caption_beat_94814c3d50f8b58d",
+    "cand_caption_beat_796637b6131cbc73",
+    "cand_caption_beat_22e5aa2c6d1ae78c",
+    "cand_caption_beat_3da3b25e2a031d2c",
+    "cand_caption_beat_0d9da5fb0e279e52",
+    "cand_caption_beat_b3b14ab4ae37cc46",
+    "cand_caption_beat_02d10221bc690532",
+    "cand_caption_beat_0656053c76a77c61",
+    "cand_caption_beat_9b89c8e4fcd3dd1d",
+    "cand_caption_beat_6b273ed9f8be8850",
+    "cand_caption_beat_61cfe56248f1f269",
+    "cand_caption_beat_6a861040eb700d40",
+    "cand_caption_beat_4f19bd071a5458fb",
+    "cand_caption_beat_ecb752ab8063adfa",
+    "cand_caption_beat_6023b5514d324435",
+    "cand_caption_beat_f08d07f9321583f5"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00048",
+      "startSec": 67.78,
+      "endSec": 68.66,
+      "speakerKey": "speaker_2",
+      "text": "\"Hey guys I got this\""
+    },
+    {
+      "cueId": "72168ba7-2c80-4df6-aa35-5945f3a3b78c",
+      "startSec": 68.66,
+      "endSec": 69.122,
+      "speakerKey": "speaker_2",
+      "text": "and they'll be like"
+    },
+    {
+      "cueId": "cue-00052",
+      "startSec": 69.86,
+      "endSec": 70.38,
+      "speakerKey": "speaker_2",
+      "text": "\"what?\""
+    },
+    {
+      "cueId": "cue-00053",
+      "startSec": 71.24,
+      "endSec": 71.895,
+      "speakerKey": "speaker_2",
+      "text": "That's how they are"
+    },
+    {
+      "cueId": "cue-00054",
+      "startSec": 71.895,
+      "endSec": 72.144,
+      "speakerKey": "speaker_2",
+      "text": "bro"
+    },
+    {
+      "cueId": "cue-00337",
+      "startSec": 72.88,
+      "endSec": 73.34,
+      "speakerKey": "speaker_1",
+      "text": "Okay"
+    },
+    {
+      "cueId": "cue-00628",
+      "startSec": 73.34,
+      "endSec": 73.98,
+      "speakerKey": "speaker_1",
+      "text": "let me do your hair"
+    },
+    {
+      "cueId": "cue-00056",
+      "startSec": 74.46,
+      "endSec": 74.76,
+      "speakerKey": "speaker_1",
+      "text": "So guys"
+    },
+    {
+      "cueId": "cue-00057",
+      "startSec": 74.76,
+      "endSec": 75.452,
+      "speakerKey": "speaker_1",
+      "text": "the first thing"
+    },
+    {
+      "cueId": "cue-00058",
+      "startSec": 75.452,
+      "endSec": 77.444,
+      "speakerKey": "speaker_1",
+      "text": "my mom's gonna do is wet my hair"
+    },
+    {
+      "cueId": "cue-00059",
+      "startSec": 78.682,
+      "endSec": 79.402,
+      "speakerKey": "speaker_1",
+      "text": "So yeah"
+    },
+    {
+      "cueId": "cue-00338",
+      "startSec": 79.64,
+      "endSec": 80.06,
+      "speakerKey": "speaker_2",
+      "text": "All right"
+    },
+    {
+      "cueId": "cue-00060",
+      "startSec": 80.9,
+      "endSec": 81.3,
+      "speakerKey": "speaker_1",
+      "text": "Here you go"
+    },
+    {
+      "cueId": "cue-00339",
+      "startSec": 82.06,
+      "endSec": 82.36,
+      "speakerKey": "speaker_2",
+      "text": "So"
+    },
+    {
+      "cueId": "cue-00061",
+      "startSec": 82.44,
+      "endSec": 83.17,
+      "speakerKey": "speaker_1",
+      "text": "And don't wet my shirt"
+    },
+    {
+      "cueId": "cue-00062",
+      "startSec": 83.4,
+      "endSec": 83.62,
+      "speakerKey": "speaker_1",
+      "text": "okay?"
+    },
+    {
+      "cueId": "cue-00063",
+      "startSec": 83.84,
+      "endSec": 84.42,
+      "speakerKey": "speaker_1",
+      "text": "'Cause then it's"
+    },
+    {
+      "cueId": "cue-00064",
+      "startSec": 84.42,
+      "endSec": 85.13,
+      "speakerKey": "speaker_1",
+      "text": "gonna be looking wet"
+    },
+    {
+      "cueId": "cue-00340",
+      "startSec": 85.16,
+      "endSec": 86.02,
+      "speakerKey": "speaker_2",
+      "text": "How about your face?"
+    },
+    {
+      "cueId": "cue-00629",
+      "startSec": 87.64,
+      "endSec": 88.6,
+      "speakerKey": "speaker_2",
+      "text": "It was only little"
+    },
+    {
+      "cueId": "cue-00630",
+      "startSec": 88.6,
+      "endSec": 89.32,
+      "speakerKey": "speaker_2",
+      "text": "It was a little"
+    },
+    {
+      "cueId": "cue-00065",
+      "startSec": 90.28,
+      "endSec": 91.24,
+      "speakerKey": "speaker_1",
+      "text": "I'm gonna do that"
+    },
+    {
+      "cueId": "cue-00066",
+      "startSec": 91.52,
+      "endSec": 92.1,
+      "speakerKey": "speaker_1",
+      "text": "I'm gonna do that"
+    },
+    {
+      "cueId": "cue-00067",
+      "startSec": 92.52,
+      "endSec": 92.97,
+      "speakerKey": "speaker_1",
+      "text": "I'm gonna do that"
+    },
+    {
+      "cueId": "cue-00341",
+      "startSec": 92.97,
+      "endSec": 93.27,
+      "speakerKey": "speaker_2",
+      "text": "No"
+    },
+    {
+      "cueId": "cue-00631",
+      "startSec": 93.6,
+      "endSec": 93.84,
+      "speakerKey": "speaker_2",
+      "text": "no"
+    },
+    {
+      "cueId": "cue-00632",
+      "startSec": 94.26,
+      "endSec": 94.72,
+      "speakerKey": "speaker_2",
+      "text": "I'm your mom"
+    },
+    {
+      "cueId": "cue-00634",
+      "startSec": 94.87,
+      "endSec": 95.32,
+      "speakerKey": "speaker_1",
+      "text": "when you're sleeping"
+    },
+    {
+      "cueId": "cue-00068",
+      "startSec": 95.423,
+      "endSec": 95.92,
+      "speakerKey": "speaker_2",
+      "text": "I'm your mom"
+    },
+    {
+      "cueId": "cue-00069",
+      "startSec": 95.92,
+      "endSec": 96.64,
+      "speakerKey": "speaker_1",
+      "text": "when you're sleeping"
+    },
+    {
+      "cueId": "cue-00070",
+      "startSec": 96.96,
+      "endSec": 97.94,
+      "speakerKey": "speaker_1",
+      "text": "I'ma go upstairs"
+    },
+    {
+      "cueId": "cue-00071",
+      "startSec": 98.28,
+      "endSec": 99.34,
+      "speakerKey": "speaker_1",
+      "text": "I'ma get a bowl"
+    },
+    {
+      "cueId": "cue-00072",
+      "startSec": 99.62,
+      "endSec": 100.01,
+      "speakerKey": "speaker_1",
+      "text": "Wait why am"
+    },
+    {
+      "cueId": "cue-00074",
+      "startSec": 100.01,
+      "endSec": 100.9,
+      "speakerKey": "speaker_1",
+      "text": "I telling you my idea?"
+    },
+    {
+      "cueId": "cue-00342",
+      "startSec": 101.44,
+      "endSec": 101.8,
+      "speakerKey": "speaker_2",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00636",
+      "startSec": 101.8,
+      "endSec": 102.01,
+      "speakerKey": "speaker_2",
+      "text": "no"
+    },
+    {
+      "cueId": "cue-00637",
+      "startSec": 102.12,
+      "endSec": 102.25,
+      "speakerKey": "speaker_2",
+      "text": "no"
+    },
+    {
+      "cueId": "cue-00638",
+      "startSec": 102.25,
+      "endSec": 102.71,
+      "speakerKey": "speaker_2",
+      "text": "don't it"
+    },
+    {
+      "cueId": "cue-00639",
+      "startSec": 102.71,
+      "endSec": 103.1,
+      "speakerKey": "speaker_2",
+      "text": "Don't do it"
+    },
+    {
+      "cueId": "cue-00076",
+      "startSec": 103.24,
+      "endSec": 104.12,
+      "speakerKey": "speaker_1",
+      "text": "I'ma get a bowl of water"
+    },
+    {
+      "cueId": "cue-00343",
+      "startSec": 104.2,
+      "endSec": 104.5,
+      "speakerKey": "speaker_2",
+      "text": "Stop"
+    },
+    {
+      "cueId": "cue-00640",
+      "startSec": 104.5,
+      "endSec": 105.86,
+      "speakerKey": "speaker_2",
+      "text": "let me wet your hair"
+    },
+    {
+      "cueId": "cue-00642",
+      "startSec": 106.13,
+      "endSec": 106.76,
+      "speakerKey": "speaker_2",
+      "text": "Let me wet your hair"
+    },
+    {
+      "cueId": "cue-00643",
+      "startSec": 107.58,
+      "endSec": 107.931,
+      "speakerKey": "speaker_1",
+      "text": "Okay"
+    },
+    {
+      "cueId": "cue-00645",
+      "startSec": 107.931,
+      "endSec": 108.75,
+      "speakerKey": "speaker_1",
+      "text": "that's a pretty good idea"
+    },
+    {
+      "cueId": "cue-00646",
+      "startSec": 108.75,
+      "endSec": 110.62,
+      "speakerKey": "speaker_2",
+      "text": "It has to be really wet so"
+    },
+    {
+      "cueId": "cue-00647",
+      "startSec": 110.62,
+      "endSec": 111.34,
+      "speakerKey": "speaker_2",
+      "text": "I can brush it"
+    },
+    {
+      "cueId": "cue-00648",
+      "startSec": 111.56,
+      "endSec": 112.34,
+      "speakerKey": "speaker_2",
+      "text": "If it's dry"
+    },
+    {
+      "cueId": "cue-00649",
+      "startSec": 112.56,
+      "endSec": 113.899,
+      "speakerKey": "speaker_1",
+      "text": "it has lots of tangles"
+    },
+    {
+      "cueId": "cue-00651",
+      "startSec": 114.02,
+      "endSec": 114.52,
+      "speakerKey": "speaker_2",
+      "text": "So now"
+    },
+    {
+      "cueId": "cue-00652",
+      "startSec": 115.16,
+      "endSec": 116.8,
+      "speakerKey": "speaker_2",
+      "text": "Suri's hair is already wet"
+    },
+    {
+      "cueId": "cue-00654",
+      "startSec": 117.44,
+      "endSec": 117.96,
+      "speakerKey": "speaker_2",
+      "text": "And I'm gonna be"
+    },
+    {
+      "cueId": "98500724-88fc-430b-a892-e8385784fe95",
+      "startSec": 117.96,
+      "endSec": 118.64,
+      "speakerKey": "speaker_2",
+      "text": "using this"
+    },
+    {
+      "cueId": "cue-00656",
+      "startSec": 119.02,
+      "endSec": 119.8,
+      "speakerKey": "speaker_2",
+      "text": "This is like a kinda"
+    },
+    {
+      "cueId": "063a28c3-f7ed-4930-b6b2-4d97c3a702a5",
+      "startSec": 119.8,
+      "endSec": 120.4,
+      "speakerKey": "speaker_2",
+      "text": "conditioner"
+    },
+    {
+      "cueId": "cue-00077",
+      "startSec": 120.5,
+      "endSec": 121.822,
+      "speakerKey": "speaker_1",
+      "text": "I think it's like oil"
+    },
+    {
+      "cueId": "cue-00079",
+      "startSec": 121.96,
+      "endSec": 123.3,
+      "speakerKey": "speaker_1",
+      "text": "Oil like conditioner"
+    },
+    {
+      "cueId": "cue-00080",
+      "startSec": 123.3,
+      "endSec": 123.494,
+      "speakerKey": "speaker_1",
+      "text": "Like"
+    },
+    {
+      "cueId": "cue-00081",
+      "startSec": 123.494,
+      "endSec": 124.32,
+      "speakerKey": "speaker_1",
+      "text": "conditioner that has"
+    },
+    {
+      "cueId": "cue-00082",
+      "startSec": 124.32,
+      "endSec": 124.596,
+      "speakerKey": "speaker_1",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00083",
+      "startSec": 124.596,
+      "endSec": 125.32,
+      "speakerKey": "speaker_1",
+      "text": "oil on it"
+    },
+    {
+      "cueId": "cue-00344",
+      "startSec": 125.64,
+      "endSec": 126.52,
+      "speakerKey": "speaker_2",
+      "text": "I have to put"
+    },
+    {
+      "cueId": "cue-00658",
+      "startSec": 126.52,
+      "endSec": 128,
+      "speakerKey": "speaker_2",
+      "text": "a lot of this"
+    },
+    {
+      "cueId": "cue-00659",
+      "startSec": 128,
+      "endSec": 128.24,
+      "speakerKey": "speaker_2",
+      "text": "A lot"
+    }
+  ],
+  "markedCaptionText": "[01:07.78 speaker_2] \"Hey guys I got this\"\n[01:08.66 speaker_2] and they'll be like\n[01:09.86 speaker_2] \"what?\"\n[01:11.24 speaker_2] That's how they are\n[01:11.89 speaker_2] bro\n[01:12.88 speaker_1] Okay\n[01:13.34 speaker_1] let me do your hair\n[01:14.46 speaker_1] So guys\n[01:14.76 speaker_1] the first thing\n[01:15.45 speaker_1] my mom's gonna do is wet my hair <cand_caption_beat_6ed3d78ec380dbfb>\n[01:18.68 speaker_1] So yeah <cand_caption_beat_3ba523af00518cfa> <cand_caption_beat_659d4ee30e6abe97>\n[01:19.64 speaker_2] All right <cand_caption_beat_659d4ee30e6abe97> <cand_caption_beat_9f80703376b34594>\n[01:20.90 speaker_1] Here you go <cand_caption_beat_808d7182e948bca5>\n[01:22.06 speaker_2] So <cand_caption_beat_868c6e0f35c49fc8>\n[01:22.44 speaker_1] And don't wet my shirt <cand_caption_beat_e3d547ff68741183> <cand_caption_beat_0aaae92bebde3262>\n[01:23.40 speaker_1] okay? <cand_caption_beat_0ee21cd8e62a2794>\n[01:23.84 speaker_1] 'Cause then it's <cand_caption_beat_e9c0494f715d0a70> <cand_caption_beat_355c874813ece749>\n[01:24.42 speaker_1] gonna be looking wet <cand_caption_beat_355c874813ece749> <cand_caption_beat_588400e1de69ac0c> <cand_caption_beat_21495563a4136665>\n[01:25.16 speaker_2] How about your face? <cand_caption_beat_588400e1de69ac0c> <cand_caption_beat_21495563a4136665>\n[01:27.64 speaker_2] It was only little <cand_caption_beat_ec6d2b8a8bd17f99> <cand_caption_beat_96f62d82a677f484>\n[01:28.60 speaker_2] It was a little <cand_caption_beat_96f62d82a677f484> <cand_caption_beat_e29c93dbc7a80737>\n[01:30.28 speaker_1] I'm gonna do that <cand_caption_beat_9560a1a3b6c0232b> <cand_caption_beat_09729652d00d2777>\n[01:31.52 speaker_1] I'm gonna do that <cand_caption_beat_7e49dbacc62914cb> <cand_caption_beat_9be0e81607cb2c78>\n[01:32.52 speaker_1] I'm gonna do that <cand_caption_beat_b265068dea8aee35>\n[01:32.97 speaker_2] No <cand_caption_beat_2813322729aa7a1a>\n[01:33.60 speaker_2] no <cand_caption_beat_a284bd41c0bdcfd6>\n[01:34.26 speaker_2] I'm your mom <cand_caption_beat_74189ab5125fe1c1> <cand_caption_beat_836811b959da6207>\n[01:34.87 speaker_1] when you're sleeping <cand_caption_beat_ef5617eb4ce9eca8>\n[01:35.42 speaker_2] I'm your mom <cand_caption_beat_63675481a4b86c74>\n[01:35.92 speaker_1] when you're sleeping <cand_caption_beat_63675481a4b86c74> <cand_caption_beat_940852a4fa3a8d16>\n[01:36.96 speaker_1] I'ma go upstairs <cand_caption_beat_1f11cfe2e40a7441> <cand_caption_beat_e3a6ca627c7a1ea4>\n[01:38.28 speaker_1] I'ma get a bowl <cand_caption_beat_7a7a0d5016ed6b52> <cand_caption_beat_770b502ac3d63972>\n[01:39.62 speaker_1] Wait why am <cand_caption_beat_7a248471afa39543>\n[01:40.01 speaker_1] I telling you my idea? <cand_caption_beat_7a248471afa39543> <cand_caption_beat_30ebc422ba3a2640>\n[01:41.44 speaker_2] Yeah <cand_caption_beat_c17703bc9523be61>\n[01:41.80 speaker_2] no <cand_caption_beat_c17703bc9523be61>\n[01:42.12 speaker_2] no <cand_caption_beat_aeda3ff0337f08f4>\n[01:42.25 speaker_2] don't it\n[01:42.71 speaker_2] Don't do it <cand_caption_beat_038ada8a44c1772b>\n[01:43.24 speaker_1] I'ma get a bowl of water <cand_caption_beat_e2fc1c6f5efe1aa6> <cand_caption_beat_7aacf4504da20219>\n[01:44.20 speaker_2] Stop <cand_caption_beat_fcca6b50731078c5>\n[01:44.50 speaker_2] let me wet your hair <cand_caption_beat_fcca6b50731078c5> <cand_caption_beat_658c104d86e139ab>\n[01:46.13 speaker_2] Let me wet your hair <cand_caption_beat_1bcfda6ead54b1a2> <cand_caption_beat_22aa2f7b1212e4ab>\n[01:47.58 speaker_1] Okay <cand_caption_beat_7aaadf64d2a140ef>\n[01:47.93 speaker_1] that's a pretty good idea <cand_caption_beat_94814c3d50f8b58d>\n[01:48.75 speaker_2] It has to be really wet so <cand_caption_beat_94814c3d50f8b58d> <cand_caption_beat_796637b6131cbc73> <cand_caption_beat_22e5aa2c6d1ae78c>\n[01:50.62 speaker_2] I can brush it <cand_caption_beat_22e5aa2c6d1ae78c> <cand_caption_beat_3da3b25e2a031d2c>\n[01:51.56 speaker_2] If it's dry <cand_caption_beat_0d9da5fb0e279e52>\n[01:52.56 speaker_1] it has lots of tangles <cand_caption_beat_b3b14ab4ae37cc46> <cand_caption_beat_02d10221bc690532>\n[01:54.02 speaker_2] So now <cand_caption_beat_0656053c76a77c61> <cand_caption_beat_9b89c8e4fcd3dd1d>\n[01:55.16 speaker_2] Suri's hair is already wet <cand_caption_beat_6b273ed9f8be8850> <cand_caption_beat_61cfe56248f1f269>\n[01:57.44 speaker_2] And I'm gonna be <cand_caption_beat_6a861040eb700d40> <cand_caption_beat_4f19bd071a5458fb>\n[01:57.96 speaker_2] using this <cand_caption_beat_4f19bd071a5458fb> <cand_caption_beat_ecb752ab8063adfa>\n[01:59.02 speaker_2] This is like a kinda <cand_caption_beat_6023b5514d324435> <cand_caption_beat_f08d07f9321583f5>\n[01:59.80 speaker_2] conditioner <cand_caption_beat_f08d07f9321583f5>\n[02:00.50 speaker_1] I think it's like oil\n[02:01.96 speaker_1] Oil like conditioner\n[02:03.30 speaker_1] Like\n[02:03.49 speaker_1] conditioner that has\n[02:04.32 speaker_1] like\n[02:04.60 speaker_1] oil on it\n[02:05.64 speaker_2] I have to put\n[02:06.52 speaker_2] a lot of this\n[02:08.00 speaker_2] A lot",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_6ed3d78ec380dbfb",
+      "momentId": "footage_05_11_26_sfx:beat_group_103",
+      "beatGroupId": "beat_group_103",
+      "relativeTimeSec": 0.869,
+      "absoluteTimeSec": 77.28,
+      "targetFrame": 4632,
+      "cueIds": [
+        "cue-00058"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "my mom's gonna do is wet my hair",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 1.238,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3ba523af00518cfa",
+      "momentId": "footage_05_11_26_sfx:beat_group_104",
+      "beatGroupId": "beat_group_104",
+      "relativeTimeSec": 2.271,
+      "absoluteTimeSec": 78.682,
+      "targetFrame": 4716,
+      "cueIds": [
+        "cue-00059"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "So yeah",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 1.238,
+      "followingGapSec": 0.238,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_659d4ee30e6abe97",
+      "momentId": "footage_05_11_26_sfx:beat_group_105",
+      "beatGroupId": "beat_group_105",
+      "relativeTimeSec": 3.219,
+      "absoluteTimeSec": 79.63,
+      "targetFrame": 4773,
+      "cueIds": [
+        "cue-00059",
+        "cue-00338"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "So yeah All right",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 1.238,
+      "followingGapSec": 0.238,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9f80703376b34594",
+      "momentId": "footage_05_11_26_sfx:beat_group_106",
+      "beatGroupId": "beat_group_106",
+      "relativeTimeSec": 3.649,
+      "absoluteTimeSec": 80.06,
+      "targetFrame": 4799,
+      "cueIds": [
+        "cue-00338"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "All right",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.238,
+      "followingGapSec": 0.84,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_808d7182e948bca5",
+      "momentId": "footage_05_11_26_sfx:beat_group_107",
+      "beatGroupId": "beat_group_107",
+      "relativeTimeSec": 4.889,
+      "absoluteTimeSec": 81.3,
+      "targetFrame": 4873,
+      "cueIds": [
+        "cue-00060"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Here you go",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.84,
+      "followingGapSec": 0.76,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_868c6e0f35c49fc8",
+      "momentId": "footage_05_11_26_sfx:beat_group_108",
+      "beatGroupId": "beat_group_108",
+      "relativeTimeSec": 5.949,
+      "absoluteTimeSec": 82.36,
+      "targetFrame": 4937,
+      "cueIds": [
+        "cue-00339"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "So",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.76,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e3d547ff68741183",
+      "momentId": "footage_05_11_26_sfx:beat_group_109",
+      "beatGroupId": "beat_group_109",
+      "relativeTimeSec": 6.029,
+      "absoluteTimeSec": 82.44,
+      "targetFrame": 4941,
+      "cueIds": [
+        "cue-00061"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "And don't wet my shirt",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.23,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0aaae92bebde3262",
+      "momentId": "footage_05_11_26_sfx:beat_group_110",
+      "beatGroupId": "beat_group_110",
+      "relativeTimeSec": 6.759,
+      "absoluteTimeSec": 83.17,
+      "targetFrame": 4985,
+      "cueIds": [
+        "cue-00061"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "And don't wet my shirt",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.23,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0ee21cd8e62a2794",
+      "momentId": "footage_05_11_26_sfx:beat_group_111",
+      "beatGroupId": "beat_group_111",
+      "relativeTimeSec": 7.209,
+      "absoluteTimeSec": 83.62,
+      "targetFrame": 5012,
+      "cueIds": [
+        "cue-00062"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "okay?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.23,
+      "followingGapSec": 0.22,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e9c0494f715d0a70",
+      "momentId": "footage_05_11_26_sfx:beat_group_112",
+      "beatGroupId": "beat_group_112",
+      "relativeTimeSec": 7.429,
+      "absoluteTimeSec": 83.84,
+      "targetFrame": 5025,
+      "cueIds": [
+        "cue-00063"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "'Cause then it's",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_355c874813ece749",
+      "momentId": "footage_05_11_26_sfx:beat_group_113",
+      "beatGroupId": "beat_group_113",
+      "relativeTimeSec": 7.989,
+      "absoluteTimeSec": 84.4,
+      "targetFrame": 5059,
+      "cueIds": [
+        "cue-00063",
+        "cue-00064"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "'Cause then it's gonna be looking wet",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_588400e1de69ac0c",
+      "momentId": "footage_05_11_26_sfx:beat_group_114",
+      "beatGroupId": "beat_group_114",
+      "relativeTimeSec": 8.719,
+      "absoluteTimeSec": 85.13,
+      "targetFrame": 5103,
+      "cueIds": [
+        "cue-00064",
+        "cue-00340"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "gonna be looking wet How about your face?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "internal_pause_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.03,
+      "boundaryStrength": 0.15,
+      "nearestZoomDeltaSec": 0.889
+    },
+    {
+      "candidateId": "cand_caption_beat_21495563a4136665",
+      "momentId": "footage_05_11_26_sfx:beat_group_115",
+      "beatGroupId": "beat_group_115",
+      "relativeTimeSec": 9.609,
+      "absoluteTimeSec": 86.02,
+      "targetFrame": 5156,
+      "cueIds": [
+        "cue-00064",
+        "cue-00340"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "gonna be looking wet How about your face?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.03,
+      "followingGapSec": 1.62,
+      "boundaryStrength": 0.7,
+      "nearestZoomDeltaSec": -0.001
+    },
+    {
+      "candidateId": "cand_caption_beat_ec6d2b8a8bd17f99",
+      "momentId": "footage_05_11_26_sfx:beat_group_116",
+      "beatGroupId": "beat_group_116",
+      "relativeTimeSec": 11.229,
+      "absoluteTimeSec": 87.64,
+      "targetFrame": 5253,
+      "cueIds": [
+        "cue-00629"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It was only little",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 1.62,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_96f62d82a677f484",
+      "momentId": "footage_05_11_26_sfx:beat_group_117",
+      "beatGroupId": "beat_group_117",
+      "relativeTimeSec": 12.149,
+      "absoluteTimeSec": 88.56,
+      "targetFrame": 5308,
+      "cueIds": [
+        "cue-00629",
+        "cue-00630"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It was only little It was a little",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.62,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e29c93dbc7a80737",
+      "momentId": "footage_05_11_26_sfx:beat_group_118",
+      "beatGroupId": "beat_group_118",
+      "relativeTimeSec": 12.909,
+      "absoluteTimeSec": 89.32,
+      "targetFrame": 5354,
+      "cueIds": [
+        "cue-00630"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It was a little",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.96,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.803
+    },
+    {
+      "candidateId": "cand_caption_beat_9560a1a3b6c0232b",
+      "momentId": "footage_05_11_26_sfx:beat_group_119",
+      "beatGroupId": "beat_group_119",
+      "relativeTimeSec": 13.869,
+      "absoluteTimeSec": 90.28,
+      "targetFrame": 5411,
+      "cueIds": [
+        "cue-00065"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'm gonna do that",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.96,
+      "followingGapSec": 0.28,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": -0.157
+    },
+    {
+      "candidateId": "cand_caption_beat_09729652d00d2777",
+      "momentId": "footage_05_11_26_sfx:beat_group_120",
+      "beatGroupId": "beat_group_120",
+      "relativeTimeSec": 14.829,
+      "absoluteTimeSec": 91.24,
+      "targetFrame": 5469,
+      "cueIds": [
+        "cue-00065"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'm gonna do that",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.96,
+      "followingGapSec": 0.28,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": -1.117
+    },
+    {
+      "candidateId": "cand_caption_beat_7e49dbacc62914cb",
+      "momentId": "footage_05_11_26_sfx:beat_group_121",
+      "beatGroupId": "beat_group_121",
+      "relativeTimeSec": 15.109,
+      "absoluteTimeSec": 91.52,
+      "targetFrame": 5486,
+      "cueIds": [
+        "cue-00066"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'm gonna do that",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.28,
+      "followingGapSec": 0.42,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.397
+    },
+    {
+      "candidateId": "cand_caption_beat_9be0e81607cb2c78",
+      "momentId": "footage_05_11_26_sfx:beat_group_122",
+      "beatGroupId": "beat_group_122",
+      "relativeTimeSec": 15.689,
+      "absoluteTimeSec": 92.1,
+      "targetFrame": 5520,
+      "cueIds": [
+        "cue-00066"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'm gonna do that",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.28,
+      "followingGapSec": 0.42,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b265068dea8aee35",
+      "momentId": "footage_05_11_26_sfx:beat_group_123",
+      "beatGroupId": "beat_group_123",
+      "relativeTimeSec": 16.109,
+      "absoluteTimeSec": 92.52,
+      "targetFrame": 5546,
+      "cueIds": [
+        "cue-00067"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'm gonna do that",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.42,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2813322729aa7a1a",
+      "momentId": "footage_05_11_26_sfx:beat_group_124",
+      "beatGroupId": "beat_group_124",
+      "relativeTimeSec": 16.809,
+      "absoluteTimeSec": 93.22,
+      "targetFrame": 5588,
+      "cueIds": [
+        "cue-00341"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "No",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.33,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a284bd41c0bdcfd6",
+      "momentId": "footage_05_11_26_sfx:beat_group_125",
+      "beatGroupId": "beat_group_125",
+      "relativeTimeSec": 17.429,
+      "absoluteTimeSec": 93.84,
+      "targetFrame": 5625,
+      "cueIds": [
+        "cue-00631"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "no",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.33,
+      "followingGapSec": 0.42,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_74189ab5125fe1c1",
+      "momentId": "footage_05_11_26_sfx:beat_group_126",
+      "beatGroupId": "beat_group_126",
+      "relativeTimeSec": 17.849,
+      "absoluteTimeSec": 94.26,
+      "targetFrame": 5650,
+      "cueIds": [
+        "cue-00632"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I'm your mom",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.42,
+      "followingGapSec": 0.15,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_836811b959da6207",
+      "momentId": "footage_05_11_26_sfx:beat_group_127",
+      "beatGroupId": "beat_group_127",
+      "relativeTimeSec": 18.309,
+      "absoluteTimeSec": 94.72,
+      "targetFrame": 5678,
+      "cueIds": [
+        "cue-00632"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I'm your mom",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.42,
+      "followingGapSec": 0.15,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ef5617eb4ce9eca8",
+      "momentId": "footage_05_11_26_sfx:beat_group_128",
+      "beatGroupId": "beat_group_128",
+      "relativeTimeSec": 18.909,
+      "absoluteTimeSec": 95.32,
+      "targetFrame": 5713,
+      "cueIds": [
+        "cue-00634"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "when you're sleeping",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.15,
+      "followingGapSec": 0.103,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_63675481a4b86c74",
+      "momentId": "footage_05_11_26_sfx:beat_group_129",
+      "beatGroupId": "beat_group_129",
+      "relativeTimeSec": 19.449,
+      "absoluteTimeSec": 95.86,
+      "targetFrame": 5746,
+      "cueIds": [
+        "cue-00068",
+        "cue-00069"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I'm your mom when you're sleeping",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.103,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_940852a4fa3a8d16",
+      "momentId": "footage_05_11_26_sfx:beat_group_130",
+      "beatGroupId": "beat_group_130",
+      "relativeTimeSec": 20.229,
+      "absoluteTimeSec": 96.64,
+      "targetFrame": 5793,
+      "cueIds": [
+        "cue-00069"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "when you're sleeping",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.32,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.458
+    },
+    {
+      "candidateId": "cand_caption_beat_1f11cfe2e40a7441",
+      "momentId": "footage_05_11_26_sfx:beat_group_131",
+      "beatGroupId": "beat_group_131",
+      "relativeTimeSec": 20.549,
+      "absoluteTimeSec": 96.96,
+      "targetFrame": 5812,
+      "cueIds": [
+        "cue-00070"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'ma go upstairs",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0.34,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.138
+    },
+    {
+      "candidateId": "cand_caption_beat_e3a6ca627c7a1ea4",
+      "momentId": "footage_05_11_26_sfx:beat_group_132",
+      "beatGroupId": "beat_group_132",
+      "relativeTimeSec": 21.529,
+      "absoluteTimeSec": 97.94,
+      "targetFrame": 5871,
+      "cueIds": [
+        "cue-00070"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'ma go upstairs",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0.34,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.158
+    },
+    {
+      "candidateId": "cand_caption_beat_7a7a0d5016ed6b52",
+      "momentId": "footage_05_11_26_sfx:beat_group_133",
+      "beatGroupId": "beat_group_133",
+      "relativeTimeSec": 21.869,
+      "absoluteTimeSec": 98.28,
+      "targetFrame": 5891,
+      "cueIds": [
+        "cue-00071"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'ma get a bowl",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.34,
+      "followingGapSec": 0.28,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": -0.182
+    },
+    {
+      "candidateId": "cand_caption_beat_770b502ac3d63972",
+      "momentId": "footage_05_11_26_sfx:beat_group_134",
+      "beatGroupId": "beat_group_134",
+      "relativeTimeSec": 22.929,
+      "absoluteTimeSec": 99.34,
+      "targetFrame": 5954,
+      "cueIds": [
+        "cue-00071"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'ma get a bowl",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.34,
+      "followingGapSec": 0.28,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.36
+    },
+    {
+      "candidateId": "cand_caption_beat_7a248471afa39543",
+      "momentId": "footage_05_11_26_sfx:beat_group_135",
+      "beatGroupId": "beat_group_135",
+      "relativeTimeSec": 23.599,
+      "absoluteTimeSec": 100.01,
+      "targetFrame": 5995,
+      "cueIds": [
+        "cue-00072",
+        "cue-00074"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Wait why am I telling you my idea?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.28,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.31
+    },
+    {
+      "candidateId": "cand_caption_beat_30ebc422ba3a2640",
+      "momentId": "footage_05_11_26_sfx:beat_group_136",
+      "beatGroupId": "beat_group_136",
+      "relativeTimeSec": 24.489,
+      "absoluteTimeSec": 100.9,
+      "targetFrame": 6048,
+      "cueIds": [
+        "cue-00074"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I telling you my idea?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.54,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": -1.2
+    },
+    {
+      "candidateId": "cand_caption_beat_c17703bc9523be61",
+      "momentId": "footage_05_11_26_sfx:beat_group_137",
+      "beatGroupId": "beat_group_137",
+      "relativeTimeSec": 25.289,
+      "absoluteTimeSec": 101.7,
+      "targetFrame": 6096,
+      "cueIds": [
+        "cue-00342",
+        "cue-00636"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yeah no",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.54,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_aeda3ff0337f08f4",
+      "momentId": "footage_05_11_26_sfx:beat_group_138",
+      "beatGroupId": "beat_group_138",
+      "relativeTimeSec": 25.739,
+      "absoluteTimeSec": 102.15,
+      "targetFrame": 6123,
+      "cueIds": [
+        "cue-00637"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "no",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.11,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_038ada8a44c1772b",
+      "momentId": "footage_05_11_26_sfx:beat_group_139",
+      "beatGroupId": "beat_group_139",
+      "relativeTimeSec": 26.689,
+      "absoluteTimeSec": 103.1,
+      "targetFrame": 6180,
+      "cueIds": [
+        "cue-00639"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Don't do it",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.14,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e2fc1c6f5efe1aa6",
+      "momentId": "footage_05_11_26_sfx:beat_group_140",
+      "beatGroupId": "beat_group_140",
+      "relativeTimeSec": 26.829,
+      "absoluteTimeSec": 103.24,
+      "targetFrame": 6188,
+      "cueIds": [
+        "cue-00076"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'ma get a bowl of water",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.14,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_7aacf4504da20219",
+      "momentId": "footage_05_11_26_sfx:beat_group_141",
+      "beatGroupId": "beat_group_141",
+      "relativeTimeSec": 27.709,
+      "absoluteTimeSec": 104.12,
+      "targetFrame": 6241,
+      "cueIds": [
+        "cue-00076"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'ma get a bowl of water",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.14,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fcca6b50731078c5",
+      "momentId": "footage_05_11_26_sfx:beat_group_142",
+      "beatGroupId": "beat_group_142",
+      "relativeTimeSec": 28.049,
+      "absoluteTimeSec": 104.46,
+      "targetFrame": 6261,
+      "cueIds": [
+        "cue-00343",
+        "cue-00640"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Stop let me wet your hair",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_658c104d86e139ab",
+      "momentId": "footage_05_11_26_sfx:beat_group_143",
+      "beatGroupId": "beat_group_143",
+      "relativeTimeSec": 29.429,
+      "absoluteTimeSec": 105.84,
+      "targetFrame": 6344,
+      "cueIds": [
+        "cue-00640"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "let me wet your hair",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.27,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.2
+    },
+    {
+      "candidateId": "cand_caption_beat_1bcfda6ead54b1a2",
+      "momentId": "footage_05_11_26_sfx:beat_group_144",
+      "beatGroupId": "beat_group_144",
+      "relativeTimeSec": 29.719,
+      "absoluteTimeSec": 106.13,
+      "targetFrame": 6361,
+      "cueIds": [
+        "cue-00642"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Let me wet your hair",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.27,
+      "followingGapSec": 0.82,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.91
+    },
+    {
+      "candidateId": "cand_caption_beat_22aa2f7b1212e4ab",
+      "momentId": "footage_05_11_26_sfx:beat_group_145",
+      "beatGroupId": "beat_group_145",
+      "relativeTimeSec": 30.349,
+      "absoluteTimeSec": 106.76,
+      "targetFrame": 6399,
+      "cueIds": [
+        "cue-00642"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Let me wet your hair",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.27,
+      "followingGapSec": 0.82,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.28
+    },
+    {
+      "candidateId": "cand_caption_beat_7aaadf64d2a140ef",
+      "momentId": "footage_05_11_26_sfx:beat_group_146",
+      "beatGroupId": "beat_group_146",
+      "relativeTimeSec": 31.349,
+      "absoluteTimeSec": 107.76,
+      "targetFrame": 6459,
+      "cueIds": [
+        "cue-00643"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Okay",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.82,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": -0.72
+    },
+    {
+      "candidateId": "cand_caption_beat_94814c3d50f8b58d",
+      "momentId": "footage_05_11_26_sfx:beat_group_147",
+      "beatGroupId": "beat_group_147",
+      "relativeTimeSec": 32.369,
+      "absoluteTimeSec": 108.78,
+      "targetFrame": 6520,
+      "cueIds": [
+        "cue-00645",
+        "cue-00646"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "that's a pretty good idea It has to be really wet so",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "internal_pause_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.15,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_796637b6131cbc73",
+      "momentId": "footage_05_11_26_sfx:beat_group_148",
+      "beatGroupId": "beat_group_148",
+      "relativeTimeSec": 33.509,
+      "absoluteTimeSec": 109.92,
+      "targetFrame": 6589,
+      "cueIds": [
+        "cue-00646"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It has to be really wet so",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_22e5aa2c6d1ae78c",
+      "momentId": "footage_05_11_26_sfx:beat_group_149",
+      "beatGroupId": "beat_group_149",
+      "relativeTimeSec": 34.249,
+      "absoluteTimeSec": 110.66,
+      "targetFrame": 6633,
+      "cueIds": [
+        "cue-00646",
+        "cue-00647"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It has to be really wet so I can brush it",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.818
+    },
+    {
+      "candidateId": "cand_caption_beat_3da3b25e2a031d2c",
+      "momentId": "footage_05_11_26_sfx:beat_group_150",
+      "beatGroupId": "beat_group_150",
+      "relativeTimeSec": 34.929,
+      "absoluteTimeSec": 111.34,
+      "targetFrame": 6674,
+      "cueIds": [
+        "cue-00647"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I can brush it",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.22,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.138
+    },
+    {
+      "candidateId": "cand_caption_beat_0d9da5fb0e279e52",
+      "momentId": "footage_05_11_26_sfx:beat_group_151",
+      "beatGroupId": "beat_group_151",
+      "relativeTimeSec": 35.929,
+      "absoluteTimeSec": 112.34,
+      "targetFrame": 6734,
+      "cueIds": [
+        "cue-00648"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "If it's dry",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 0.22,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.862
+    },
+    {
+      "candidateId": "cand_caption_beat_b3b14ab4ae37cc46",
+      "momentId": "footage_05_11_26_sfx:beat_group_152",
+      "beatGroupId": "beat_group_152",
+      "relativeTimeSec": 36.149,
+      "absoluteTimeSec": 112.56,
+      "targetFrame": 6747,
+      "cueIds": [
+        "cue-00649"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "it has lots of tangles",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 0.121,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.082
+    },
+    {
+      "candidateId": "cand_caption_beat_02d10221bc690532",
+      "momentId": "footage_05_11_26_sfx:beat_group_153",
+      "beatGroupId": "beat_group_153",
+      "relativeTimeSec": 37.488,
+      "absoluteTimeSec": 113.899,
+      "targetFrame": 6827,
+      "cueIds": [
+        "cue-00649"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "it has lots of tangles",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 0.121,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0656053c76a77c61",
+      "momentId": "footage_05_11_26_sfx:beat_group_154",
+      "beatGroupId": "beat_group_154",
+      "relativeTimeSec": 37.609,
+      "absoluteTimeSec": 114.02,
+      "targetFrame": 6834,
+      "cueIds": [
+        "cue-00651"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "So now",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.121,
+      "followingGapSec": 0.64,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9b89c8e4fcd3dd1d",
+      "momentId": "footage_05_11_26_sfx:beat_group_155",
+      "beatGroupId": "beat_group_155",
+      "relativeTimeSec": 38.109,
+      "absoluteTimeSec": 114.52,
+      "targetFrame": 6864,
+      "cueIds": [
+        "cue-00651"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "So now",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.121,
+      "followingGapSec": 0.64,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6b273ed9f8be8850",
+      "momentId": "footage_05_11_26_sfx:beat_group_156",
+      "beatGroupId": "beat_group_156",
+      "relativeTimeSec": 38.749,
+      "absoluteTimeSec": 115.16,
+      "targetFrame": 6903,
+      "cueIds": [
+        "cue-00652"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Suri's hair is already wet",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.64,
+      "followingGapSec": 0.64,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_61cfe56248f1f269",
+      "momentId": "footage_05_11_26_sfx:beat_group_157",
+      "beatGroupId": "beat_group_157",
+      "relativeTimeSec": 40.389,
+      "absoluteTimeSec": 116.8,
+      "targetFrame": 7001,
+      "cueIds": [
+        "cue-00652"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Suri's hair is already wet",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.64,
+      "followingGapSec": 0.64,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.184
+    },
+    {
+      "candidateId": "cand_caption_beat_6a861040eb700d40",
+      "momentId": "footage_05_11_26_sfx:beat_group_158",
+      "beatGroupId": "beat_group_158",
+      "relativeTimeSec": 41.029,
+      "absoluteTimeSec": 117.44,
+      "targetFrame": 7039,
+      "cueIds": [
+        "cue-00654"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "And I'm gonna be",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.64,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.456
+    },
+    {
+      "candidateId": "cand_caption_beat_4f19bd071a5458fb",
+      "momentId": "footage_05_11_26_sfx:beat_group_159",
+      "beatGroupId": "beat_group_159",
+      "relativeTimeSec": 41.509,
+      "absoluteTimeSec": 117.92,
+      "targetFrame": 7068,
+      "cueIds": [
+        "98500724-88fc-430b-a892-e8385784fe95",
+        "cue-00654"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "using this And I'm gonna be",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.64,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.936
+    },
+    {
+      "candidateId": "cand_caption_beat_ecb752ab8063adfa",
+      "momentId": "footage_05_11_26_sfx:beat_group_160",
+      "beatGroupId": "beat_group_160",
+      "relativeTimeSec": 42.229,
+      "absoluteTimeSec": 118.64,
+      "targetFrame": 7111,
+      "cueIds": [
+        "98500724-88fc-430b-a892-e8385784fe95"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "using this",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.38,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6023b5514d324435",
+      "momentId": "footage_05_11_26_sfx:beat_group_161",
+      "beatGroupId": "beat_group_161",
+      "relativeTimeSec": 42.609,
+      "absoluteTimeSec": 119.02,
+      "targetFrame": 7134,
+      "cueIds": [
+        "cue-00656"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "This is like a kinda",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.38,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f08d07f9321583f5",
+      "momentId": "footage_05_11_26_sfx:beat_group_162",
+      "beatGroupId": "beat_group_162",
+      "relativeTimeSec": 43.349,
+      "absoluteTimeSec": 119.76,
+      "targetFrame": 7178,
+      "cueIds": [
+        "063a28c3-f7ed-4930-b6b2-4d97c3a702a5",
+        "cue-00656"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "conditioner This is like a kinda",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.38,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_50",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "40.230 speaker_1: The heck?\n44.510 speaker_1: Amor?\n46.388 speaker_1: what are you guys doing?\n<CANDIDATE>48.620 speaker_1: You know the gardener's</CANDIDATE>\n<CANDIDATE>49.419 speaker_1: gonna come and do that</CANDIDATE>\n<CANDIDATE>50.290 speaker_1: right?</CANDIDATE>\n<CANDIDATE>51.240 speaker_4: No but this is</CANDIDATE>",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "new_footage_sfx:beat_group_36",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "26.100 speaker_1: So me and Nan\n27.220 speaker_1: decided to bring the kids\n28.720 speaker_1: to this beautiful house\n<CANDIDATE>30.120 speaker_1: that has a lot of things</CANDIDATE>\n<CANDIDATE>31.860 speaker_1: guys</CANDIDATE>\n33.760 speaker_1: It's like a\n34.120 speaker_1: little small resort",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_49",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "41.600 speaker_1: do you wanna show\n42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n<CANDIDATE>43.920 speaker_3: the humongous t-Rex</CANDIDATE>\n47.562 speaker_1: We got this big\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_27_26_sfx:beat_group_56",
+      "projectId": "footage_05_27_26_sfx",
+      "markedCaptionContext": "39.760 speaker_1: It's weird\n41.880 speaker_1: So we're gonna be taking\n42.720 speaker_1: her to the vet right now\n<CANDIDATE>46.960 speaker_1: Bambi</CANDIDATE>\n<CANDIDATE>48.100 speaker_1: you good?</CANDIDATE>\n50.480 speaker_1: Okay\n50.700 speaker_1: come on",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_66",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "47.340 speaker_1: not in a crepe\n47.878 speaker_1: so\n48.420 speaker_2: In a crepe is good\n<CANDIDATE>50.280 speaker_2: You don't like it?</CANDIDATE>\n52.120 speaker_2: And by the way\n53.000 speaker_2: look\n54.476 speaker_1: my book",
+      "humanDecision": "other_sfx",
+      "otherFamily": "bonk"
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_55",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "46.980 speaker_1: it's Stary's first time\n48.940 speaker_1: it's all of our first times\n50.300 speaker_1: And mommy\n<CANDIDATE>51.280 speaker_1: she doesn't know how to ice skate</CANDIDATE>\n52.120 speaker_1: guys\n52.520 speaker_1: So they need a bucket because\n54.120 speaker_1: they don't know how to do it",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_25",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "18.680 speaker_1: to this store\n19.840 speaker_1: and guess what?\n21.060 speaker_3: What?\n<CANDIDATE>21.800 speaker_1: This is a new store</CANDIDATE>\n<CANDIDATE>22.640 speaker_1: okay?</CANDIDATE>\n23.580 speaker_1: They have a lot\n24.760 speaker_1: a lot of",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

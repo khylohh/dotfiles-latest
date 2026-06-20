@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#140b08"/>
+  <path d="M12 37h6l5-14 8 28 8-38 7 24h6" fill="none" stroke="#ff9d2e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="18" r="6" fill="#ff3f7f"/>
+  <text x="32" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#ffe08a">SFX</text>
+</svg>

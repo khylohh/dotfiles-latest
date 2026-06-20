@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "positive_accent_segment_selection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "segmentId", "selections"],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "segmentId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "selections": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidateId", "family", "momentType"],
+        "properties": {
+          "candidateId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "family": {
+            "type": "string",
+            "enum": ["ding", "success"]
+          },
+          "momentType": {
+            "type": "string",
+            "enum": [
+              "reveal",
+              "positive_detail",
+              "selection_confirmation",
+              "specific_answer",
+              "completed_result",
+              "correct_result",
+              "achievement"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

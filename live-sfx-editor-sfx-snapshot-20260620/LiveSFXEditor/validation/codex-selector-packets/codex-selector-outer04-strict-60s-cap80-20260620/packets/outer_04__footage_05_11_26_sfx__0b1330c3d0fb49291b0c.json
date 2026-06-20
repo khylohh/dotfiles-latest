@@ -1,0 +1,2288 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "0b1330c3d0fb49291b0c",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_001200000_01",
+  "coreStartSec": 1200,
+  "coreEndSec": 1260,
+  "contextStartSec": 1192,
+  "contextEndSec": 1268,
+  "allowedCandidateIds": [
+    "cand_caption_beat_abd3f9d9ac2fdbef",
+    "cand_caption_beat_0e15af1e3250701c",
+    "cand_caption_beat_54fd744b2dc4c1be",
+    "cand_caption_beat_12179c02f0ff3236",
+    "cand_caption_beat_312d2960ed228bae",
+    "cand_caption_beat_96b05febdf7a4549",
+    "cand_caption_beat_cfdcb739a741f47e",
+    "cand_caption_beat_cebf459d68ded744",
+    "cand_caption_beat_4a4ec798330121d6",
+    "cand_caption_beat_70aa6ad173a6ba4d",
+    "cand_caption_beat_615e7c7998d4f3d4",
+    "cand_caption_beat_88f01c8b9882d4ed",
+    "cand_caption_beat_2311bcb00bbfbe29",
+    "cand_caption_beat_7ecfe75fcf56cbb6",
+    "cand_caption_beat_b6df3efe1b699e19",
+    "cand_caption_beat_5b43e1a8dd0fcb6e",
+    "cand_caption_beat_e83da75aba2e82ed",
+    "cand_caption_beat_c109339683d036b5",
+    "cand_caption_beat_2fa930fa07bd36ae",
+    "cand_caption_beat_4637a97ac911984c",
+    "cand_caption_beat_18191785f3c2822a",
+    "cand_caption_beat_16aa06617788ef82",
+    "cand_caption_beat_f585bbfa5b0a7f67",
+    "cand_caption_beat_8fc4d8b778ea68be",
+    "cand_caption_beat_5e00ccab907f8b2c",
+    "cand_caption_beat_204fc1ed8452d2c5",
+    "cand_caption_beat_ad8643c47e7e3639",
+    "cand_caption_beat_e9a89f0483c03096",
+    "cand_caption_beat_af24224984828ffc",
+    "cand_caption_beat_fe5a6de88b4325d3",
+    "cand_caption_beat_a3545dd681e4f8a8",
+    "cand_caption_beat_feea843eaa7c01ed",
+    "cand_caption_beat_88dc6790f584b6f2",
+    "cand_caption_beat_288e8da1cfff66fe",
+    "cand_caption_beat_67d45f25c09e97ca",
+    "cand_caption_beat_ccfe883349c6f281",
+    "cand_caption_beat_ba1603f6ecfb15f9",
+    "cand_caption_beat_f0e7c6a53e102706",
+    "cand_caption_beat_b7fc7acaba529b44",
+    "cand_caption_beat_4b9b905112b2d158",
+    "cand_caption_beat_e2d6ceeb09394c80",
+    "cand_caption_beat_4f5c52d88a78906d",
+    "cand_caption_beat_7d2b25087678da1f",
+    "cand_caption_beat_4859175b55f2efe7",
+    "cand_caption_beat_2416bb3930a6d8c7",
+    "cand_caption_beat_49e3b9cb82dc7e8c",
+    "cand_caption_beat_017a6119fe2ca2c1",
+    "cand_caption_beat_3ec5f7ad46da8b50",
+    "cand_caption_beat_2f27c19571b3acac",
+    "cand_caption_beat_44863fa4f2dffc41",
+    "cand_caption_beat_04d2a1855f8c950a",
+    "cand_caption_beat_9d3d928bc1aa215b",
+    "cand_caption_beat_36710a063b598f98",
+    "cand_caption_beat_41010c87067f51bb",
+    "cand_caption_beat_c3294e7805da8690",
+    "cand_caption_beat_f0ff02cf88a828a7",
+    "cand_caption_beat_601d742750b3d42a",
+    "cand_caption_beat_fee560ddbb563297",
+    "cand_caption_beat_45310e97add1503e",
+    "cand_caption_beat_60dbd15bfff6223f",
+    "cand_caption_beat_204bd0dc020f46b4",
+    "cand_caption_beat_c71d4d86a5bca269",
+    "cand_caption_beat_c6b346653f3b6dae",
+    "cand_caption_beat_8a36899759d1465d",
+    "cand_caption_beat_c19e6887a80adc19",
+    "cand_caption_beat_de29204bb5fb6f44",
+    "cand_caption_beat_ef91b21db1957dfe",
+    "cand_caption_beat_bcbd83c91b52e07d",
+    "cand_caption_beat_1695303857d40a9e",
+    "cand_caption_beat_2295bfccbdf85582",
+    "cand_caption_beat_267ccf08e03b6806",
+    "cand_caption_beat_0f8eed6ab756a0e3",
+    "cand_caption_beat_4f1393e48a71dc37"
+  ],
+  "cues": [
+    {
+      "cueId": "8818acc0-078f-48ae-b97c-e6ddb3884d8a",
+      "startSec": 1192.355,
+      "endSec": 1193.56,
+      "speakerKey": "speaker_3",
+      "text": "why did it get out?"
+    },
+    {
+      "cueId": "cue-00538",
+      "startSec": 1193.76,
+      "endSec": 1194.64,
+      "speakerKey": "speaker_4",
+      "text": "She keeps getting out"
+    },
+    {
+      "cueId": "cue-01307",
+      "startSec": 1194.64,
+      "endSec": 1195.681,
+      "speakerKey": "speaker_4",
+      "text": "I don't know where she's going"
+    },
+    {
+      "cueId": "cue-01308",
+      "startSec": 1195.681,
+      "endSec": 1196.382,
+      "speakerKey": "speaker_4",
+      "text": "We literally keep"
+    },
+    {
+      "cueId": "cue-01309",
+      "startSec": 1196.382,
+      "endSec": 1197.074,
+      "speakerKey": "speaker_4",
+      "text": "putting her back in"
+    },
+    {
+      "cueId": "cue-00539",
+      "startSec": 1197.074,
+      "endSec": 1197.928,
+      "speakerKey": "speaker_3",
+      "text": "There's like"
+    },
+    {
+      "cueId": "cue-01311",
+      "startSec": 1198.1,
+      "endSec": 1199.34,
+      "speakerKey": "speaker_3",
+      "text": "thingies aquí holes"
+    },
+    {
+      "cueId": "cue-00540",
+      "startSec": 1199.84,
+      "endSec": 1200.82,
+      "speakerKey": "speaker_4",
+      "text": "I don't know what that is"
+    },
+    {
+      "cueId": "cue-01313",
+      "startSec": 1200.82,
+      "endSec": 1201.52,
+      "speakerKey": "speaker_4",
+      "text": "That's kind of weird"
+    },
+    {
+      "cueId": "cue-01314",
+      "startSec": 1201.52,
+      "endSec": 1202.1,
+      "speakerKey": "speaker_4",
+      "text": "Maybe she fell"
+    },
+    {
+      "cueId": "cue-01315",
+      "startSec": 1202.48,
+      "endSec": 1202.68,
+      "speakerKey": "speaker_4",
+      "text": "and"
+    },
+    {
+      "cueId": "cue-01316",
+      "startSec": 1202.68,
+      "endSec": 1202.8,
+      "speakerKey": "speaker_4",
+      "text": "and"
+    },
+    {
+      "cueId": "cue-01317",
+      "startSec": 1202.8,
+      "endSec": 1203.19,
+      "speakerKey": "speaker_4",
+      "text": "rolled"
+    },
+    {
+      "cueId": "cue-01318",
+      "startSec": 1203.19,
+      "endSec": 1203.799,
+      "speakerKey": "speaker_4",
+      "text": "Should we leave her"
+    },
+    {
+      "cueId": "cue-01319",
+      "startSec": 1203.82,
+      "endSec": 1204.7,
+      "speakerKey": "speaker_4",
+      "text": "there or should we take her?"
+    },
+    {
+      "cueId": "cue-00541",
+      "startSec": 1204.908,
+      "endSec": 1205.475,
+      "speakerKey": "speaker_1",
+      "text": "I think we should"
+    },
+    {
+      "cueId": "bef5c43b-692c-476c-830f-f3f97d9986b0",
+      "startSec": 1205.475,
+      "endSec": 1206,
+      "speakerKey": "speaker_1",
+      "text": "put her back"
+    },
+    {
+      "cueId": "cue-01321",
+      "startSec": 1206,
+      "endSec": 1207.06,
+      "speakerKey": "speaker_3",
+      "text": "Is Bambi doing something?"
+    },
+    {
+      "cueId": "cue-00542",
+      "startSec": 1207.25,
+      "endSec": 1207.658,
+      "speakerKey": "speaker_4",
+      "text": "No"
+    },
+    {
+      "cueId": "cue-01322",
+      "startSec": 1207.8,
+      "endSec": 1208.09,
+      "speakerKey": "speaker_4",
+      "text": "Guys"
+    },
+    {
+      "cueId": "cue-01323",
+      "startSec": 1208.24,
+      "endSec": 1208.92,
+      "speakerKey": "speaker_4",
+      "text": "this is so weird"
+    },
+    {
+      "cueId": "cue-01324",
+      "startSec": 1209.02,
+      "endSec": 1210.09,
+      "speakerKey": "speaker_4",
+      "text": "but we put her"
+    },
+    {
+      "cueId": "9c05882c-282d-40e8-8d4c-8accceb5e56c",
+      "startSec": 1210.09,
+      "endSec": 1211.16,
+      "speakerKey": "speaker_4",
+      "text": "in the little pond"
+    },
+    {
+      "cueId": "cue-01325",
+      "startSec": 1211.23,
+      "endSec": 1211.88,
+      "speakerKey": "speaker_4",
+      "text": "and then she keeps"
+    },
+    {
+      "cueId": "160b9764-11eb-42a7-8c9c-acdf2e2abda8",
+      "startSec": 1211.88,
+      "endSec": 1212.53,
+      "speakerKey": "speaker_4",
+      "text": "coming out"
+    },
+    {
+      "cueId": "cue-00543",
+      "startSec": 1212.6,
+      "endSec": 1213.62,
+      "speakerKey": "speaker_1",
+      "text": "you can tell it's a girl"
+    },
+    {
+      "cueId": "cue-01327",
+      "startSec": 1213.66,
+      "endSec": 1214.655,
+      "speakerKey": "speaker_3",
+      "text": "It's the third time"
+    },
+    {
+      "cueId": "cue-01328",
+      "startSec": 1215.339,
+      "endSec": 1216.06,
+      "speakerKey": "speaker_4",
+      "text": "We should just"
+    },
+    {
+      "cueId": "cue-01329",
+      "startSec": 1216.06,
+      "endSec": 1216.46,
+      "speakerKey": "speaker_4",
+      "text": "leave her there"
+    },
+    {
+      "cueId": "cue-01330",
+      "startSec": 1216.6,
+      "endSec": 1217.2,
+      "speakerKey": "speaker_4",
+      "text": "see what happens"
+    },
+    {
+      "cueId": "cue-01332",
+      "startSec": 1217.6,
+      "endSec": 1217.892,
+      "speakerKey": "speaker_4",
+      "text": "Okay"
+    },
+    {
+      "cueId": "cue-01335",
+      "startSec": 1217.892,
+      "endSec": 1218.978,
+      "speakerKey": "speaker_4",
+      "text": "let's get all the floaties in"
+    },
+    {
+      "cueId": "cue-01336",
+      "startSec": 1218.978,
+      "endSec": 1219.998,
+      "speakerKey": "speaker_3",
+      "text": "papa isn't it gonna leave"
+    },
+    {
+      "cueId": "cue-01337",
+      "startSec": 1219.998,
+      "endSec": 1220.881,
+      "speakerKey": "speaker_3",
+      "text": "and go somewhere?"
+    },
+    {
+      "cueId": "cue-00546",
+      "startSec": 1221.36,
+      "endSec": 1221.66,
+      "speakerKey": "speaker_4",
+      "text": "No"
+    },
+    {
+      "cueId": "cue-01338",
+      "startSec": 1221.66,
+      "endSec": 1222.52,
+      "speakerKey": "speaker_4",
+      "text": "it just leaves and then"
+    },
+    {
+      "cueId": "cue-01339",
+      "startSec": 1222.52,
+      "endSec": 1223.22,
+      "speakerKey": "speaker_4",
+      "text": "it's gonna go back"
+    },
+    {
+      "cueId": "cue-01340",
+      "startSec": 1223.44,
+      "endSec": 1224.15,
+      "speakerKey": "speaker_4",
+      "text": "We heard they get out"
+    },
+    {
+      "cueId": "efa57f3b-1d61-46bb-b304-ccb1e53c659f",
+      "startSec": 1224.15,
+      "endSec": 1224.875,
+      "speakerKey": "speaker_4",
+      "text": "to lay eggs"
+    },
+    {
+      "cueId": "cue-01341",
+      "startSec": 1224.875,
+      "endSec": 1225.251,
+      "speakerKey": "speaker_4",
+      "text": "but"
+    },
+    {
+      "cueId": "cue-01342",
+      "startSec": 1225.88,
+      "endSec": 1226.22,
+      "speakerKey": "speaker_4",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-01343",
+      "startSec": 1227.16,
+      "endSec": 1228.26,
+      "speakerKey": "speaker_4",
+      "text": "we don't know if they need"
+    },
+    {
+      "cueId": "cue-01344",
+      "startSec": 1228.26,
+      "endSec": 1229.68,
+      "speakerKey": "speaker_4",
+      "text": "to have a boy to lay eggs"
+    },
+    {
+      "cueId": "cue-01345",
+      "startSec": 1230.56,
+      "endSec": 1232.34,
+      "speakerKey": "speaker_4",
+      "text": "But she's being super cute"
+    },
+    {
+      "cueId": "cue-00547",
+      "startSec": 1232.504,
+      "endSec": 1233.285,
+      "speakerKey": "speaker_3",
+      "text": "can you search it?"
+    },
+    {
+      "cueId": "cue-00548",
+      "startSec": 1234.5,
+      "endSec": 1235.36,
+      "speakerKey": "speaker_4",
+      "text": "I did search it"
+    },
+    {
+      "cueId": "cue-01347",
+      "startSec": 1235.36,
+      "endSec": 1236.16,
+      "speakerKey": "speaker_4",
+      "text": "They say they get out"
+    },
+    {
+      "cueId": "cue-01348",
+      "startSec": 1236.16,
+      "endSec": 1236.92,
+      "speakerKey": "speaker_4",
+      "text": "and they have to dig"
+    },
+    {
+      "cueId": "cue-01349",
+      "startSec": 1236.92,
+      "endSec": 1237.722,
+      "speakerKey": "speaker_4",
+      "text": "and they gotta find like"
+    },
+    {
+      "cueId": "cue-01351",
+      "startSec": 1237.722,
+      "endSec": 1238.76,
+      "speakerKey": "speaker_4",
+      "text": "a place to lay the eggs"
+    },
+    {
+      "cueId": "cue-00549",
+      "startSec": 1239.76,
+      "endSec": 1240.74,
+      "speakerKey": "speaker_3",
+      "text": "did the eggs hatch?"
+    },
+    {
+      "cueId": "cue-00550",
+      "startSec": 1241.44,
+      "endSec": 1242.1,
+      "speakerKey": "speaker_4",
+      "text": "I don't think so"
+    },
+    {
+      "cueId": "cue-01352",
+      "startSec": 1242.82,
+      "endSec": 1243.04,
+      "speakerKey": "speaker_4",
+      "text": "All right"
+    },
+    {
+      "cueId": "cue-01353",
+      "startSec": 1243.04,
+      "endSec": 1243.46,
+      "speakerKey": "speaker_4",
+      "text": "let's take the"
+    },
+    {
+      "cueId": "cue-01354",
+      "startSec": 1243.46,
+      "endSec": 1244.14,
+      "speakerKey": "speaker_4",
+      "text": "floaties to the pool"
+    },
+    {
+      "cueId": "cue-01355",
+      "startSec": 1244.14,
+      "endSec": 1244.38,
+      "speakerKey": "speaker_4",
+      "text": "Hurry"
+    },
+    {
+      "cueId": "cue-01356",
+      "startSec": 1244.38,
+      "endSec": 1245.17,
+      "speakerKey": "speaker_4",
+      "text": "We still got sun"
+    },
+    {
+      "cueId": "cue-01357",
+      "startSec": 1245.17,
+      "endSec": 1245.561,
+      "speakerKey": "speaker_4",
+      "text": "but"
+    },
+    {
+      "cueId": "2997d59e-7edd-4743-8ea9-bceb08ba5b26",
+      "startSec": 1245.561,
+      "endSec": 1245.974,
+      "speakerKey": "speaker_4",
+      "text": "the floaties"
+    },
+    {
+      "cueId": "cue-01358",
+      "startSec": 1245.974,
+      "endSec": 1246.24,
+      "speakerKey": "speaker_4",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-01359",
+      "startSec": 1246.24,
+      "endSec": 1246.66,
+      "speakerKey": "speaker_4",
+      "text": "they're right there"
+    },
+    {
+      "cueId": "cue-00552",
+      "startSec": 1247.96,
+      "endSec": 1248.72,
+      "speakerKey": "speaker_4",
+      "text": "I think we gotta turn"
+    },
+    {
+      "cueId": "cue-01360",
+      "startSec": 1248.72,
+      "endSec": 1249.9,
+      "speakerKey": "speaker_4",
+      "text": "on the pool more because"
+    },
+    {
+      "cueId": "cue-01361",
+      "startSec": 1249.9,
+      "endSec": 1251,
+      "speakerKey": "speaker_4",
+      "text": "it's kind of low right now"
+    },
+    {
+      "cueId": "cue-01362",
+      "startSec": 1251.4,
+      "endSec": 1252.58,
+      "speakerKey": "speaker_4",
+      "text": "So we have this"
+    },
+    {
+      "cueId": "cue-01363",
+      "startSec": 1252.74,
+      "endSec": 1253.44,
+      "speakerKey": "speaker_4",
+      "text": "I don't know if you call it"
+    },
+    {
+      "cueId": "cue-01364",
+      "startSec": 1253.44,
+      "endSec": 1253.58,
+      "speakerKey": "speaker_4",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-01365",
+      "startSec": 1253.58,
+      "endSec": 1255.42,
+      "speakerKey": "speaker_4",
+      "text": "a valve to open the pool"
+    },
+    {
+      "cueId": "cue-01366",
+      "startSec": 1256.22,
+      "endSec": 1257.74,
+      "speakerKey": "speaker_4",
+      "text": "So you turn this on"
+    },
+    {
+      "cueId": "cue-01367",
+      "startSec": 1258.52,
+      "endSec": 1259.58,
+      "speakerKey": "speaker_4",
+      "text": "and the pool fills up"
+    },
+    {
+      "cueId": "cue-01368",
+      "startSec": 1259.66,
+      "endSec": 1260.38,
+      "speakerKey": "speaker_4",
+      "text": "which is crazy"
+    },
+    {
+      "cueId": "cue-01369",
+      "startSec": 1261.04,
+      "endSec": 1261.24,
+      "speakerKey": "speaker_4",
+      "text": "Okay"
+    },
+    {
+      "cueId": "cue-01370",
+      "startSec": 1261.24,
+      "endSec": 1261.58,
+      "speakerKey": "speaker_4",
+      "text": "it's good"
+    },
+    {
+      "cueId": "cue-01371",
+      "startSec": 1262.06,
+      "endSec": 1262.52,
+      "speakerKey": "speaker_4",
+      "text": "And then"
+    },
+    {
+      "cueId": "cue-01372",
+      "startSec": 1263.72,
+      "endSec": 1264.072,
+      "speakerKey": "speaker_4",
+      "text": "you see"
+    },
+    {
+      "cueId": "cue-01373",
+      "startSec": 1264.072,
+      "endSec": 1264.96,
+      "speakerKey": "speaker_4",
+      "text": "it fills up right here"
+    }
+  ],
+  "markedCaptionText": "[19:52.36 speaker_3] why did it get out?\n[19:53.76 speaker_4] She keeps getting out\n[19:54.64 speaker_4] I don't know where she's going\n[19:55.68 speaker_4] We literally keep\n[19:56.38 speaker_4] putting her back in\n[19:57.07 speaker_3] There's like\n[19:58.10 speaker_3] thingies aquí holes\n[19:59.84 speaker_4] I don't know what that is <cand_caption_beat_abd3f9d9ac2fdbef>\n[20:00.82 speaker_4] That's kind of weird <cand_caption_beat_abd3f9d9ac2fdbef> <cand_caption_beat_0e15af1e3250701c>\n[20:01.52 speaker_4] Maybe she fell <cand_caption_beat_0e15af1e3250701c> <cand_caption_beat_54fd744b2dc4c1be>\n[20:02.48 speaker_4] and <cand_caption_beat_12179c02f0ff3236>\n[20:02.68 speaker_4] and <cand_caption_beat_12179c02f0ff3236> <cand_caption_beat_312d2960ed228bae>\n[20:02.80 speaker_4] rolled <cand_caption_beat_12179c02f0ff3236> <cand_caption_beat_312d2960ed228bae>\n[20:03.19 speaker_4] Should we leave her <cand_caption_beat_312d2960ed228bae> <cand_caption_beat_96b05febdf7a4549>\n[20:03.82 speaker_4] there or should we take her? <cand_caption_beat_96b05febdf7a4549> <cand_caption_beat_cfdcb739a741f47e>\n[20:04.91 speaker_1] I think we should <cand_caption_beat_cebf459d68ded744> <cand_caption_beat_4a4ec798330121d6>\n[20:05.47 speaker_1] put her back <cand_caption_beat_4a4ec798330121d6> <cand_caption_beat_70aa6ad173a6ba4d>\n[20:06.00 speaker_3] Is Bambi doing something? <cand_caption_beat_70aa6ad173a6ba4d> <cand_caption_beat_615e7c7998d4f3d4>\n[20:07.25 speaker_4] No <cand_caption_beat_88f01c8b9882d4ed>\n[20:07.80 speaker_4] Guys <cand_caption_beat_2311bcb00bbfbe29>\n[20:08.24 speaker_4] this is so weird <cand_caption_beat_7ecfe75fcf56cbb6>\n[20:09.02 speaker_4] but we put her <cand_caption_beat_b6df3efe1b699e19>\n[20:10.09 speaker_4] in the little pond <cand_caption_beat_b6df3efe1b699e19> <cand_caption_beat_5b43e1a8dd0fcb6e>\n[20:11.23 speaker_4] and then she keeps <cand_caption_beat_e83da75aba2e82ed> <cand_caption_beat_c109339683d036b5>\n[20:11.88 speaker_4] coming out <cand_caption_beat_c109339683d036b5> <cand_caption_beat_2fa930fa07bd36ae>\n[20:12.60 speaker_1] you can tell it's a girl <cand_caption_beat_4637a97ac911984c> <cand_caption_beat_18191785f3c2822a> <cand_caption_beat_f585bbfa5b0a7f67>\n[20:13.66 speaker_3] It's the third time <cand_caption_beat_16aa06617788ef82> <cand_caption_beat_f585bbfa5b0a7f67>\n[20:15.34 speaker_4] We should just <cand_caption_beat_f585bbfa5b0a7f67> <cand_caption_beat_8fc4d8b778ea68be>\n[20:16.06 speaker_4] leave her there <cand_caption_beat_f585bbfa5b0a7f67> <cand_caption_beat_5e00ccab907f8b2c>\n[20:16.60 speaker_4] see what happens <cand_caption_beat_f585bbfa5b0a7f67> <cand_caption_beat_204fc1ed8452d2c5> <cand_caption_beat_ad8643c47e7e3639>\n[20:17.60 speaker_4] Okay <cand_caption_beat_e9a89f0483c03096>\n[20:17.89 speaker_4] let's get all the floaties in <cand_caption_beat_af24224984828ffc>\n[20:18.98 speaker_3] papa isn't it gonna leave <cand_caption_beat_af24224984828ffc> <cand_caption_beat_fe5a6de88b4325d3>\n[20:20.00 speaker_3] and go somewhere? <cand_caption_beat_fe5a6de88b4325d3> <cand_caption_beat_a3545dd681e4f8a8>\n[20:21.36 speaker_4] No <cand_caption_beat_feea843eaa7c01ed>\n[20:21.66 speaker_4] it just leaves and then <cand_caption_beat_feea843eaa7c01ed> <cand_caption_beat_88dc6790f584b6f2>\n[20:22.52 speaker_4] it's gonna go back <cand_caption_beat_88dc6790f584b6f2> <cand_caption_beat_288e8da1cfff66fe>\n[20:23.44 speaker_4] We heard they get out <cand_caption_beat_67d45f25c09e97ca> <cand_caption_beat_ccfe883349c6f281>\n[20:24.15 speaker_4] to lay eggs <cand_caption_beat_ccfe883349c6f281>\n[20:24.88 speaker_4] but <cand_caption_beat_ba1603f6ecfb15f9>\n[20:25.88 speaker_4] like <cand_caption_beat_f0e7c6a53e102706>\n[20:27.16 speaker_4] we don't know if they need <cand_caption_beat_b7fc7acaba529b44> <cand_caption_beat_4b9b905112b2d158>\n[20:28.26 speaker_4] to have a boy to lay eggs <cand_caption_beat_4b9b905112b2d158> <cand_caption_beat_e2d6ceeb09394c80>\n[20:30.56 speaker_4] But she's being super cute <cand_caption_beat_4f5c52d88a78906d> <cand_caption_beat_7d2b25087678da1f>\n[20:32.50 speaker_3] can you search it? <cand_caption_beat_4859175b55f2efe7> <cand_caption_beat_2416bb3930a6d8c7> <cand_caption_beat_49e3b9cb82dc7e8c>\n[20:34.50 speaker_4] I did search it <cand_caption_beat_49e3b9cb82dc7e8c> <cand_caption_beat_017a6119fe2ca2c1>\n[20:35.36 speaker_4] They say they get out <cand_caption_beat_3ec5f7ad46da8b50>\n[20:36.16 speaker_4] and they have to dig <cand_caption_beat_3ec5f7ad46da8b50> <cand_caption_beat_2f27c19571b3acac>\n[20:36.92 speaker_4] and they gotta find like <cand_caption_beat_2f27c19571b3acac> <cand_caption_beat_44863fa4f2dffc41>\n[20:37.72 speaker_4] a place to lay the eggs <cand_caption_beat_44863fa4f2dffc41> <cand_caption_beat_04d2a1855f8c950a>\n[20:39.76 speaker_3] did the eggs hatch? <cand_caption_beat_9d3d928bc1aa215b> <cand_caption_beat_36710a063b598f98>\n[20:41.44 speaker_4] I don't think so <cand_caption_beat_41010c87067f51bb> <cand_caption_beat_c3294e7805da8690>\n[20:42.82 speaker_4] All right <cand_caption_beat_f0ff02cf88a828a7>\n[20:43.04 speaker_4] let's take the <cand_caption_beat_f0ff02cf88a828a7> <cand_caption_beat_601d742750b3d42a>\n[20:43.46 speaker_4] floaties to the pool <cand_caption_beat_601d742750b3d42a>\n[20:44.14 speaker_4] Hurry <cand_caption_beat_fee560ddbb563297>\n[20:44.38 speaker_4] We still got sun <cand_caption_beat_fee560ddbb563297> <cand_caption_beat_45310e97add1503e>\n[20:45.17 speaker_4] but <cand_caption_beat_45310e97add1503e> <cand_caption_beat_60dbd15bfff6223f>\n[20:45.56 speaker_4] the floaties <cand_caption_beat_60dbd15bfff6223f>\n[20:45.97 speaker_4] guys <cand_caption_beat_60dbd15bfff6223f>\n[20:46.24 speaker_4] they're right there <cand_caption_beat_204bd0dc020f46b4>\n[20:47.96 speaker_4] I think we gotta turn <cand_caption_beat_c71d4d86a5bca269> <cand_caption_beat_c6b346653f3b6dae>\n[20:48.72 speaker_4] on the pool more because <cand_caption_beat_c6b346653f3b6dae> <cand_caption_beat_8a36899759d1465d>\n[20:49.90 speaker_4] it's kind of low right now <cand_caption_beat_8a36899759d1465d> <cand_caption_beat_c19e6887a80adc19>\n[20:51.40 speaker_4] So we have this <cand_caption_beat_de29204bb5fb6f44> <cand_caption_beat_ef91b21db1957dfe>\n[20:52.74 speaker_4] I don't know if you call it <cand_caption_beat_bcbd83c91b52e07d>\n[20:53.44 speaker_4] like <cand_caption_beat_bcbd83c91b52e07d>\n[20:53.58 speaker_4] a valve to open the pool <cand_caption_beat_1695303857d40a9e> <cand_caption_beat_2295bfccbdf85582>\n[20:56.22 speaker_4] So you turn this on <cand_caption_beat_2295bfccbdf85582> <cand_caption_beat_267ccf08e03b6806>\n[20:58.52 speaker_4] and the pool fills up <cand_caption_beat_2295bfccbdf85582> <cand_caption_beat_0f8eed6ab756a0e3> <cand_caption_beat_4f1393e48a71dc37>\n[20:59.66 speaker_4] which is crazy <cand_caption_beat_2295bfccbdf85582>\n[21:01.04 speaker_4] Okay\n[21:01.24 speaker_4] it's good\n[21:02.06 speaker_4] And then\n[21:03.72 speaker_4] you see\n[21:04.07 speaker_4] it fills up right here",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_abd3f9d9ac2fdbef",
+      "momentId": "footage_05_11_26_sfx:beat_group_1515",
+      "beatGroupId": "beat_group_1515",
+      "relativeTimeSec": 0.78,
+      "absoluteTimeSec": 1200.78,
+      "targetFrame": 71975,
+      "cueIds": [
+        "cue-00540",
+        "cue-01313"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I don't know what that is That's kind of weird",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.5,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": -1.082
+    },
+    {
+      "candidateId": "cand_caption_beat_0e15af1e3250701c",
+      "momentId": "footage_05_11_26_sfx:beat_group_1516",
+      "beatGroupId": "beat_group_1516",
+      "relativeTimeSec": 1.48,
+      "absoluteTimeSec": 1201.48,
+      "targetFrame": 72017,
+      "cueIds": [
+        "cue-01313",
+        "cue-01314"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "That's kind of weird Maybe she fell",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_54fd744b2dc4c1be",
+      "momentId": "footage_05_11_26_sfx:beat_group_1517",
+      "beatGroupId": "beat_group_1517",
+      "relativeTimeSec": 2.1,
+      "absoluteTimeSec": 1202.1,
+      "targetFrame": 72054,
+      "cueIds": [
+        "cue-01314"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Maybe she fell",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.38,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_12179c02f0ff3236",
+      "momentId": "footage_05_11_26_sfx:beat_group_1518",
+      "beatGroupId": "beat_group_1518",
+      "relativeTimeSec": 2.69,
+      "absoluteTimeSec": 1202.69,
+      "targetFrame": 72089,
+      "cueIds": [
+        "cue-01315",
+        "cue-01316",
+        "cue-01317"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and and rolled",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.38,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_312d2960ed228bae",
+      "momentId": "footage_05_11_26_sfx:beat_group_1519",
+      "beatGroupId": "beat_group_1519",
+      "relativeTimeSec": 3.22,
+      "absoluteTimeSec": 1203.22,
+      "targetFrame": 72121,
+      "cueIds": [
+        "cue-01316",
+        "cue-01317",
+        "cue-01318"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and rolled Should we leave her",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.15,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_96b05febdf7a4549",
+      "momentId": "footage_05_11_26_sfx:beat_group_1520",
+      "beatGroupId": "beat_group_1520",
+      "relativeTimeSec": 3.78,
+      "absoluteTimeSec": 1203.78,
+      "targetFrame": 72155,
+      "cueIds": [
+        "cue-01318",
+        "cue-01319"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Should we leave her there or should we take her?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.021,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_cfdcb739a741f47e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1521",
+      "beatGroupId": "beat_group_1521",
+      "relativeTimeSec": 4.7,
+      "absoluteTimeSec": 1204.7,
+      "targetFrame": 72210,
+      "cueIds": [
+        "cue-01319"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "there or should we take her?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.021,
+      "followingGapSec": 0.208,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_cebf459d68ded744",
+      "momentId": "footage_05_11_26_sfx:beat_group_1522",
+      "beatGroupId": "beat_group_1522",
+      "relativeTimeSec": 4.908,
+      "absoluteTimeSec": 1204.908,
+      "targetFrame": 72222,
+      "cueIds": [
+        "cue-00541"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I think we should",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.208,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4a4ec798330121d6",
+      "momentId": "footage_05_11_26_sfx:beat_group_1523",
+      "beatGroupId": "beat_group_1523",
+      "relativeTimeSec": 5.45,
+      "absoluteTimeSec": 1205.45,
+      "targetFrame": 72255,
+      "cueIds": [
+        "bef5c43b-692c-476c-830f-f3f97d9986b0",
+        "cue-00541"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "put her back I think we should",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.208,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_70aa6ad173a6ba4d",
+      "momentId": "footage_05_11_26_sfx:beat_group_1524",
+      "beatGroupId": "beat_group_1524",
+      "relativeTimeSec": 5.95,
+      "absoluteTimeSec": 1205.95,
+      "targetFrame": 72285,
+      "cueIds": [
+        "bef5c43b-692c-476c-830f-f3f97d9986b0",
+        "cue-01321"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "put her back Is Bambi doing something?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_615e7c7998d4f3d4",
+      "momentId": "footage_05_11_26_sfx:beat_group_1525",
+      "beatGroupId": "beat_group_1525",
+      "relativeTimeSec": 7.06,
+      "absoluteTimeSec": 1207.06,
+      "targetFrame": 72351,
+      "cueIds": [
+        "cue-01321"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "Is Bambi doing something?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.19,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.647
+    },
+    {
+      "candidateId": "cand_caption_beat_88f01c8b9882d4ed",
+      "momentId": "footage_05_11_26_sfx:beat_group_1526",
+      "beatGroupId": "beat_group_1526",
+      "relativeTimeSec": 7.5,
+      "absoluteTimeSec": 1207.5,
+      "targetFrame": 72378,
+      "cueIds": [
+        "cue-00542"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "No",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.19,
+      "followingGapSec": 0.142,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.207
+    },
+    {
+      "candidateId": "cand_caption_beat_2311bcb00bbfbe29",
+      "momentId": "footage_05_11_26_sfx:beat_group_1527",
+      "beatGroupId": "beat_group_1527",
+      "relativeTimeSec": 8.09,
+      "absoluteTimeSec": 1208.09,
+      "targetFrame": 72413,
+      "cueIds": [
+        "cue-01322"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.142,
+      "followingGapSec": 0.15,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.383
+    },
+    {
+      "candidateId": "cand_caption_beat_7ecfe75fcf56cbb6",
+      "momentId": "footage_05_11_26_sfx:beat_group_1528",
+      "beatGroupId": "beat_group_1528",
+      "relativeTimeSec": 8.92,
+      "absoluteTimeSec": 1208.92,
+      "targetFrame": 72463,
+      "cueIds": [
+        "cue-01323"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "this is so weird",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.15,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.214
+    },
+    {
+      "candidateId": "cand_caption_beat_b6df3efe1b699e19",
+      "momentId": "footage_05_11_26_sfx:beat_group_1529",
+      "beatGroupId": "beat_group_1529",
+      "relativeTimeSec": 10.04,
+      "absoluteTimeSec": 1210.04,
+      "targetFrame": 72530,
+      "cueIds": [
+        "9c05882c-282d-40e8-8d4c-8accceb5e56c",
+        "cue-01324"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "in the little pond but we put her",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5b43e1a8dd0fcb6e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1530",
+      "beatGroupId": "beat_group_1530",
+      "relativeTimeSec": 11.16,
+      "absoluteTimeSec": 1211.16,
+      "targetFrame": 72597,
+      "cueIds": [
+        "9c05882c-282d-40e8-8d4c-8accceb5e56c"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "in the little pond",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.07,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e83da75aba2e82ed",
+      "momentId": "footage_05_11_26_sfx:beat_group_1531",
+      "beatGroupId": "beat_group_1531",
+      "relativeTimeSec": 11.23,
+      "absoluteTimeSec": 1211.23,
+      "targetFrame": 72601,
+      "cueIds": [
+        "cue-01325"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and then she keeps",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.07,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c109339683d036b5",
+      "momentId": "footage_05_11_26_sfx:beat_group_1532",
+      "beatGroupId": "beat_group_1532",
+      "relativeTimeSec": 11.86,
+      "absoluteTimeSec": 1211.86,
+      "targetFrame": 72639,
+      "cueIds": [
+        "160b9764-11eb-42a7-8c9c-acdf2e2abda8",
+        "cue-01325"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "coming out and then she keeps",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.07,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2fa930fa07bd36ae",
+      "momentId": "footage_05_11_26_sfx:beat_group_1533",
+      "beatGroupId": "beat_group_1533",
+      "relativeTimeSec": 12.53,
+      "absoluteTimeSec": 1212.53,
+      "targetFrame": 72679,
+      "cueIds": [
+        "160b9764-11eb-42a7-8c9c-acdf2e2abda8"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "coming out",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.07,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4637a97ac911984c",
+      "momentId": "footage_05_11_26_sfx:beat_group_1534",
+      "beatGroupId": "beat_group_1534",
+      "relativeTimeSec": 12.6,
+      "absoluteTimeSec": 1212.6,
+      "targetFrame": 72683,
+      "cueIds": [
+        "cue-00543"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "you can tell it's a girl",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.07,
+      "followingGapSec": 0.04,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_18191785f3c2822a",
+      "momentId": "footage_05_11_26_sfx:beat_group_1535",
+      "beatGroupId": "beat_group_1535",
+      "relativeTimeSec": 13.62,
+      "absoluteTimeSec": 1213.62,
+      "targetFrame": 72744,
+      "cueIds": [
+        "cue-00543"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "you can tell it's a girl",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.07,
+      "followingGapSec": 0.04,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.927
+    },
+    {
+      "candidateId": "cand_caption_beat_16aa06617788ef82",
+      "momentId": "footage_05_11_26_sfx:beat_group_1536",
+      "beatGroupId": "beat_group_1536",
+      "relativeTimeSec": 13.66,
+      "absoluteTimeSec": 1213.66,
+      "targetFrame": 72747,
+      "cueIds": [
+        "cue-01327"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "It's the third time",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.04,
+      "followingGapSec": 0.684,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.887
+    },
+    {
+      "candidateId": "cand_caption_beat_f585bbfa5b0a7f67",
+      "momentId": "footage_05_11_26_sfx:beat_group_1537",
+      "beatGroupId": "beat_group_1537",
+      "relativeTimeSec": 14.48,
+      "absoluteTimeSec": 1214.48,
+      "targetFrame": 72796,
+      "cueIds": [
+        "cue-00543",
+        "cue-01327",
+        "cue-01328",
+        "cue-01329",
+        "cue-01330"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "you can tell it's a girl It's the third time We should just leave her there see what happens",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.04,
+      "followingGapSec": 0.684,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.067
+    },
+    {
+      "candidateId": "cand_caption_beat_8fc4d8b778ea68be",
+      "momentId": "footage_05_11_26_sfx:beat_group_1538",
+      "beatGroupId": "beat_group_1538",
+      "relativeTimeSec": 15.339,
+      "absoluteTimeSec": 1215.339,
+      "targetFrame": 72847,
+      "cueIds": [
+        "cue-01328"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "We should just",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.684,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": -0.792
+    },
+    {
+      "candidateId": "cand_caption_beat_5e00ccab907f8b2c",
+      "momentId": "footage_05_11_26_sfx:beat_group_1539",
+      "beatGroupId": "beat_group_1539",
+      "relativeTimeSec": 16.46,
+      "absoluteTimeSec": 1216.46,
+      "targetFrame": 72915,
+      "cueIds": [
+        "cue-01329"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "leave her there",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.14,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_204fc1ed8452d2c5",
+      "momentId": "footage_05_11_26_sfx:beat_group_1540",
+      "beatGroupId": "beat_group_1540",
+      "relativeTimeSec": 16.6,
+      "absoluteTimeSec": 1216.6,
+      "targetFrame": 72923,
+      "cueIds": [
+        "cue-01330"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "see what happens",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.14,
+      "followingGapSec": 0.4,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ad8643c47e7e3639",
+      "momentId": "footage_05_11_26_sfx:beat_group_1541",
+      "beatGroupId": "beat_group_1541",
+      "relativeTimeSec": 17.2,
+      "absoluteTimeSec": 1217.2,
+      "targetFrame": 72959,
+      "cueIds": [
+        "cue-01330"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "see what happens",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.14,
+      "followingGapSec": 0.4,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e9a89f0483c03096",
+      "momentId": "footage_05_11_26_sfx:beat_group_1542",
+      "beatGroupId": "beat_group_1542",
+      "relativeTimeSec": 17.76,
+      "absoluteTimeSec": 1217.76,
+      "targetFrame": 72993,
+      "cueIds": [
+        "cue-01332"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Okay",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.4,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_af24224984828ffc",
+      "momentId": "footage_05_11_26_sfx:beat_group_1543",
+      "beatGroupId": "beat_group_1543",
+      "relativeTimeSec": 18.98,
+      "absoluteTimeSec": 1218.98,
+      "targetFrame": 73066,
+      "cueIds": [
+        "cue-01335",
+        "cue-01336"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "let's get all the floaties in papa isn't it gonna leave",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fe5a6de88b4325d3",
+      "momentId": "footage_05_11_26_sfx:beat_group_1544",
+      "beatGroupId": "beat_group_1544",
+      "relativeTimeSec": 20,
+      "absoluteTimeSec": 1220,
+      "targetFrame": 73127,
+      "cueIds": [
+        "cue-01336",
+        "cue-01337"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "papa isn't it gonna leave and go somewhere?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a3545dd681e4f8a8",
+      "momentId": "footage_05_11_26_sfx:beat_group_1545",
+      "beatGroupId": "beat_group_1545",
+      "relativeTimeSec": 20.73,
+      "absoluteTimeSec": 1220.73,
+      "targetFrame": 73171,
+      "cueIds": [
+        "cue-01337"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "and go somewhere?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.479,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_feea843eaa7c01ed",
+      "momentId": "footage_05_11_26_sfx:beat_group_1546",
+      "beatGroupId": "beat_group_1546",
+      "relativeTimeSec": 21.6,
+      "absoluteTimeSec": 1221.6,
+      "targetFrame": 73223,
+      "cueIds": [
+        "cue-00546",
+        "cue-01338"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "No it just leaves and then",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.479,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_88dc6790f584b6f2",
+      "momentId": "footage_05_11_26_sfx:beat_group_1547",
+      "beatGroupId": "beat_group_1547",
+      "relativeTimeSec": 22.47,
+      "absoluteTimeSec": 1222.47,
+      "targetFrame": 73275,
+      "cueIds": [
+        "cue-01338",
+        "cue-01339"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "it just leaves and then it's gonna go back",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.919
+    },
+    {
+      "candidateId": "cand_caption_beat_288e8da1cfff66fe",
+      "momentId": "footage_05_11_26_sfx:beat_group_1548",
+      "beatGroupId": "beat_group_1548",
+      "relativeTimeSec": 23.22,
+      "absoluteTimeSec": 1223.22,
+      "targetFrame": 73320,
+      "cueIds": [
+        "cue-01339"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "it's gonna go back",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.22,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.169
+    },
+    {
+      "candidateId": "cand_caption_beat_67d45f25c09e97ca",
+      "momentId": "footage_05_11_26_sfx:beat_group_1549",
+      "beatGroupId": "beat_group_1549",
+      "relativeTimeSec": 23.52,
+      "absoluteTimeSec": 1223.52,
+      "targetFrame": 73338,
+      "cueIds": [
+        "cue-01340"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "We heard they get out",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.35,
+      "nearestZoomDeltaSec": -0.131
+    },
+    {
+      "candidateId": "cand_caption_beat_ccfe883349c6f281",
+      "momentId": "footage_05_11_26_sfx:beat_group_1550",
+      "beatGroupId": "beat_group_1550",
+      "relativeTimeSec": 24.12,
+      "absoluteTimeSec": 1224.12,
+      "targetFrame": 73374,
+      "cueIds": [
+        "cue-01340",
+        "efa57f3b-1d61-46bb-b304-ccb1e53c659f"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "We heard they get out to lay eggs",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.731
+    },
+    {
+      "candidateId": "cand_caption_beat_ba1603f6ecfb15f9",
+      "momentId": "footage_05_11_26_sfx:beat_group_1551",
+      "beatGroupId": "beat_group_1551",
+      "relativeTimeSec": 25.13,
+      "absoluteTimeSec": 1225.13,
+      "targetFrame": 73434,
+      "cueIds": [
+        "cue-01341"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "but",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.629,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f0e7c6a53e102706",
+      "momentId": "footage_05_11_26_sfx:beat_group_1552",
+      "beatGroupId": "beat_group_1552",
+      "relativeTimeSec": 26.22,
+      "absoluteTimeSec": 1226.22,
+      "targetFrame": 73500,
+      "cueIds": [
+        "cue-01342"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.629,
+      "followingGapSec": 0.94,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b7fc7acaba529b44",
+      "momentId": "footage_05_11_26_sfx:beat_group_1553",
+      "beatGroupId": "beat_group_1553",
+      "relativeTimeSec": 27.16,
+      "absoluteTimeSec": 1227.16,
+      "targetFrame": 73556,
+      "cueIds": [
+        "cue-01343"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "we don't know if they need",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.94,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4b9b905112b2d158",
+      "momentId": "footage_05_11_26_sfx:beat_group_1554",
+      "beatGroupId": "beat_group_1554",
+      "relativeTimeSec": 28.22,
+      "absoluteTimeSec": 1228.22,
+      "targetFrame": 73620,
+      "cueIds": [
+        "cue-01343",
+        "cue-01344"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "we don't know if they need to have a boy to lay eggs",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.94,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e2d6ceeb09394c80",
+      "momentId": "footage_05_11_26_sfx:beat_group_1555",
+      "beatGroupId": "beat_group_1555",
+      "relativeTimeSec": 29.68,
+      "absoluteTimeSec": 1229.68,
+      "targetFrame": 73707,
+      "cueIds": [
+        "cue-01344"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "to have a boy to lay eggs",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.88,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.149
+    },
+    {
+      "candidateId": "cand_caption_beat_4f5c52d88a78906d",
+      "momentId": "footage_05_11_26_sfx:beat_group_1556",
+      "beatGroupId": "beat_group_1556",
+      "relativeTimeSec": 30.56,
+      "absoluteTimeSec": 1230.56,
+      "targetFrame": 73760,
+      "cueIds": [
+        "cue-01345"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "But she's being super cute",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.88,
+      "followingGapSec": 0.164,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.731
+    },
+    {
+      "candidateId": "cand_caption_beat_7d2b25087678da1f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1557",
+      "beatGroupId": "beat_group_1557",
+      "relativeTimeSec": 32.34,
+      "absoluteTimeSec": 1232.34,
+      "targetFrame": 73867,
+      "cueIds": [
+        "cue-01345"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "But she's being super cute",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.88,
+      "followingGapSec": 0.164,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4859175b55f2efe7",
+      "momentId": "footage_05_11_26_sfx:beat_group_1558",
+      "beatGroupId": "beat_group_1558",
+      "relativeTimeSec": 32.504,
+      "absoluteTimeSec": 1232.504,
+      "targetFrame": 73876,
+      "cueIds": [
+        "cue-00547"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "can you search it?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.164,
+      "followingGapSec": 1.215,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2416bb3930a6d8c7",
+      "momentId": "footage_05_11_26_sfx:beat_group_1559",
+      "beatGroupId": "beat_group_1559",
+      "relativeTimeSec": 33.205,
+      "absoluteTimeSec": 1233.205,
+      "targetFrame": 73918,
+      "cueIds": [
+        "cue-00547"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "can you search it?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.164,
+      "followingGapSec": 1.215,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_49e3b9cb82dc7e8c",
+      "momentId": "footage_05_11_26_sfx:beat_group_1560",
+      "beatGroupId": "beat_group_1560",
+      "relativeTimeSec": 34.46,
+      "absoluteTimeSec": 1234.46,
+      "targetFrame": 73994,
+      "cueIds": [
+        "cue-00547",
+        "cue-00548"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "can you search it? I did search it",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.164,
+      "followingGapSec": 1.215,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_017a6119fe2ca2c1",
+      "momentId": "footage_05_11_26_sfx:beat_group_1561",
+      "beatGroupId": "beat_group_1561",
+      "relativeTimeSec": 35.22,
+      "absoluteTimeSec": 1235.22,
+      "targetFrame": 74039,
+      "cueIds": [
+        "cue-00548"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I did search it",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.215,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3ec5f7ad46da8b50",
+      "momentId": "footage_05_11_26_sfx:beat_group_1562",
+      "beatGroupId": "beat_group_1562",
+      "relativeTimeSec": 36.14,
+      "absoluteTimeSec": 1236.14,
+      "targetFrame": 74094,
+      "cueIds": [
+        "cue-01347",
+        "cue-01348"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "They say they get out and they have to dig",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2f27c19571b3acac",
+      "momentId": "footage_05_11_26_sfx:beat_group_1563",
+      "beatGroupId": "beat_group_1563",
+      "relativeTimeSec": 36.88,
+      "absoluteTimeSec": 1236.88,
+      "targetFrame": 74139,
+      "cueIds": [
+        "cue-01348",
+        "cue-01349"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and they have to dig and they gotta find like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_44863fa4f2dffc41",
+      "momentId": "footage_05_11_26_sfx:beat_group_1564",
+      "beatGroupId": "beat_group_1564",
+      "relativeTimeSec": 37.65,
+      "absoluteTimeSec": 1237.65,
+      "targetFrame": 74185,
+      "cueIds": [
+        "cue-01349",
+        "cue-01351"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and they gotta find like a place to lay the eggs",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_04d2a1855f8c950a",
+      "momentId": "footage_05_11_26_sfx:beat_group_1565",
+      "beatGroupId": "beat_group_1565",
+      "relativeTimeSec": 38.76,
+      "absoluteTimeSec": 1238.76,
+      "targetFrame": 74251,
+      "cueIds": [
+        "cue-01351"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "a place to lay the eggs",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9d3d928bc1aa215b",
+      "momentId": "footage_05_11_26_sfx:beat_group_1566",
+      "beatGroupId": "beat_group_1566",
+      "relativeTimeSec": 39.76,
+      "absoluteTimeSec": 1239.76,
+      "targetFrame": 74311,
+      "cueIds": [
+        "cue-00549"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "did the eggs hatch?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 1,
+      "followingGapSec": 0.7,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_36710a063b598f98",
+      "momentId": "footage_05_11_26_sfx:beat_group_1567",
+      "beatGroupId": "beat_group_1567",
+      "relativeTimeSec": 40.74,
+      "absoluteTimeSec": 1240.74,
+      "targetFrame": 74370,
+      "cueIds": [
+        "cue-00549"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "did the eggs hatch?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 1,
+      "followingGapSec": 0.7,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_41010c87067f51bb",
+      "momentId": "footage_05_11_26_sfx:beat_group_1568",
+      "beatGroupId": "beat_group_1568",
+      "relativeTimeSec": 41.44,
+      "absoluteTimeSec": 1241.44,
+      "targetFrame": 74412,
+      "cueIds": [
+        "cue-00550"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I don't think so",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.7,
+      "followingGapSec": 0.72,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c3294e7805da8690",
+      "momentId": "footage_05_11_26_sfx:beat_group_1569",
+      "beatGroupId": "beat_group_1569",
+      "relativeTimeSec": 42.1,
+      "absoluteTimeSec": 1242.1,
+      "targetFrame": 74452,
+      "cueIds": [
+        "cue-00550"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I don't think so",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.7,
+      "followingGapSec": 0.72,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f0ff02cf88a828a7",
+      "momentId": "footage_05_11_26_sfx:beat_group_1570",
+      "beatGroupId": "beat_group_1570",
+      "relativeTimeSec": 42.99,
+      "absoluteTimeSec": 1242.99,
+      "targetFrame": 74505,
+      "cueIds": [
+        "cue-01352",
+        "cue-01353"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "All right let's take the",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.72,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_601d742750b3d42a",
+      "momentId": "footage_05_11_26_sfx:beat_group_1571",
+      "beatGroupId": "beat_group_1571",
+      "relativeTimeSec": 43.44,
+      "absoluteTimeSec": 1243.44,
+      "targetFrame": 74532,
+      "cueIds": [
+        "cue-01353",
+        "cue-01354"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "let's take the floaties to the pool",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fee560ddbb563297",
+      "momentId": "footage_05_11_26_sfx:beat_group_1572",
+      "beatGroupId": "beat_group_1572",
+      "relativeTimeSec": 44.34,
+      "absoluteTimeSec": 1244.34,
+      "targetFrame": 74586,
+      "cueIds": [
+        "cue-01355",
+        "cue-01356"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Hurry We still got sun",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.204
+    },
+    {
+      "candidateId": "cand_caption_beat_45310e97add1503e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1573",
+      "beatGroupId": "beat_group_1573",
+      "relativeTimeSec": 45.2,
+      "absoluteTimeSec": 1245.2,
+      "targetFrame": 74637,
+      "cueIds": [
+        "cue-01356",
+        "cue-01357"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "We still got sun but",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.344
+    },
+    {
+      "candidateId": "cand_caption_beat_60dbd15bfff6223f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1574",
+      "beatGroupId": "beat_group_1574",
+      "relativeTimeSec": 45.97,
+      "absoluteTimeSec": 1245.97,
+      "targetFrame": 74684,
+      "cueIds": [
+        "2997d59e-7edd-4743-8ea9-bceb08ba5b26",
+        "cue-01357",
+        "cue-01358"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "the floaties but guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.426
+    },
+    {
+      "candidateId": "cand_caption_beat_204bd0dc020f46b4",
+      "momentId": "footage_05_11_26_sfx:beat_group_1575",
+      "beatGroupId": "beat_group_1575",
+      "relativeTimeSec": 46.66,
+      "absoluteTimeSec": 1246.66,
+      "targetFrame": 74725,
+      "cueIds": [
+        "cue-01359"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "they're right there",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 1.3,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.116
+    },
+    {
+      "candidateId": "cand_caption_beat_c71d4d86a5bca269",
+      "momentId": "footage_05_11_26_sfx:beat_group_1576",
+      "beatGroupId": "beat_group_1576",
+      "relativeTimeSec": 47.96,
+      "absoluteTimeSec": 1247.96,
+      "targetFrame": 74803,
+      "cueIds": [
+        "cue-00552"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I think we gotta turn",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 1.3,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c6b346653f3b6dae",
+      "momentId": "footage_05_11_26_sfx:beat_group_1577",
+      "beatGroupId": "beat_group_1577",
+      "relativeTimeSec": 48.68,
+      "absoluteTimeSec": 1248.68,
+      "targetFrame": 74846,
+      "cueIds": [
+        "cue-00552",
+        "cue-01360"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I think we gotta turn on the pool more because",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.3,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8a36899759d1465d",
+      "momentId": "footage_05_11_26_sfx:beat_group_1578",
+      "beatGroupId": "beat_group_1578",
+      "relativeTimeSec": 49.86,
+      "absoluteTimeSec": 1249.86,
+      "targetFrame": 74917,
+      "cueIds": [
+        "cue-01360",
+        "cue-01361"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "on the pool more because it's kind of low right now",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c19e6887a80adc19",
+      "momentId": "footage_05_11_26_sfx:beat_group_1579",
+      "beatGroupId": "beat_group_1579",
+      "relativeTimeSec": 51,
+      "absoluteTimeSec": 1251,
+      "targetFrame": 74985,
+      "cueIds": [
+        "cue-01361"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "it's kind of low right now",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.4,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_de29204bb5fb6f44",
+      "momentId": "footage_05_11_26_sfx:beat_group_1580",
+      "beatGroupId": "beat_group_1580",
+      "relativeTimeSec": 51.4,
+      "absoluteTimeSec": 1251.4,
+      "targetFrame": 75009,
+      "cueIds": [
+        "cue-01362"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So we have this",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.4,
+      "followingGapSec": 0.16,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ef91b21db1957dfe",
+      "momentId": "footage_05_11_26_sfx:beat_group_1581",
+      "beatGroupId": "beat_group_1581",
+      "relativeTimeSec": 52.58,
+      "absoluteTimeSec": 1252.58,
+      "targetFrame": 75080,
+      "cueIds": [
+        "cue-01362"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So we have this",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.4,
+      "followingGapSec": 0.16,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_bcbd83c91b52e07d",
+      "momentId": "footage_05_11_26_sfx:beat_group_1582",
+      "beatGroupId": "beat_group_1582",
+      "relativeTimeSec": 53.43,
+      "absoluteTimeSec": 1253.43,
+      "targetFrame": 75131,
+      "cueIds": [
+        "cue-01363",
+        "cue-01364"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I don't know if you call it like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.16,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1695303857d40a9e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1583",
+      "beatGroupId": "beat_group_1583",
+      "relativeTimeSec": 55.42,
+      "absoluteTimeSec": 1255.42,
+      "targetFrame": 75250,
+      "cueIds": [
+        "cue-01365"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "a valve to open the pool",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.8,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.702
+    },
+    {
+      "candidateId": "cand_caption_beat_2295bfccbdf85582",
+      "momentId": "footage_05_11_26_sfx:beat_group_1584",
+      "beatGroupId": "beat_group_1584",
+      "relativeTimeSec": 56.22,
+      "absoluteTimeSec": 1256.22,
+      "targetFrame": 75298,
+      "cueIds": [
+        "cue-01365",
+        "cue-01366",
+        "cue-01367",
+        "cue-01368"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "a valve to open the pool So you turn this on and the pool fills up which is crazy",
+      "anchorTypes": [
+        "cue_start",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.8,
+      "followingGapSec": 0.78,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": -0.098
+    },
+    {
+      "candidateId": "cand_caption_beat_267ccf08e03b6806",
+      "momentId": "footage_05_11_26_sfx:beat_group_1585",
+      "beatGroupId": "beat_group_1585",
+      "relativeTimeSec": 57.74,
+      "absoluteTimeSec": 1257.74,
+      "targetFrame": 75389,
+      "cueIds": [
+        "cue-01366"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So you turn this on",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.8,
+      "followingGapSec": 0.78,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0f8eed6ab756a0e3",
+      "momentId": "footage_05_11_26_sfx:beat_group_1586",
+      "beatGroupId": "beat_group_1586",
+      "relativeTimeSec": 58.52,
+      "absoluteTimeSec": 1258.52,
+      "targetFrame": 75436,
+      "cueIds": [
+        "cue-01367"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and the pool fills up",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.78,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4f1393e48a71dc37",
+      "momentId": "footage_05_11_26_sfx:beat_group_1587",
+      "beatGroupId": "beat_group_1587",
+      "relativeTimeSec": 59.58,
+      "absoluteTimeSec": 1259.58,
+      "targetFrame": 75499,
+      "cueIds": [
+        "cue-01367"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and the pool fills up",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.78,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_50",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "40.230 speaker_1: The heck?\n44.510 speaker_1: Amor?\n46.388 speaker_1: what are you guys doing?\n<CANDIDATE>48.620 speaker_1: You know the gardener's</CANDIDATE>\n<CANDIDATE>49.419 speaker_1: gonna come and do that</CANDIDATE>\n<CANDIDATE>50.290 speaker_1: right?</CANDIDATE>\n<CANDIDATE>51.240 speaker_4: No but this is</CANDIDATE>",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_49",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "41.600 speaker_1: do you wanna show\n42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n<CANDIDATE>43.920 speaker_3: the humongous t-Rex</CANDIDATE>\n47.562 speaker_1: We got this big\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_colored_sfx:beat_group_17",
+      "projectId": "footage_colored_sfx",
+      "markedCaptionContext": "15.240 speaker_1: be exciting for them\n16.040 speaker_1: you know?\n16.380 speaker_1: No more school\n<CANDIDATE>17.060 speaker_1: for a couple of months</CANDIDATE>\n<CANDIDATE>18.020 speaker_1: so</CANDIDATE>\n19.140 speaker_1: let's go and see\n19.640 speaker_1: if Suri is already awake",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_27_26_sfx:beat_group_56",
+      "projectId": "footage_05_27_26_sfx",
+      "markedCaptionContext": "39.760 speaker_1: It's weird\n41.880 speaker_1: So we're gonna be taking\n42.720 speaker_1: her to the vet right now\n<CANDIDATE>46.960 speaker_1: Bambi</CANDIDATE>\n<CANDIDATE>48.100 speaker_1: you good?</CANDIDATE>\n50.480 speaker_1: Okay\n50.700 speaker_1: come on",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "new_footage_sfx:beat_group_52",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "40.940 speaker_1: We'll see\n41.400 speaker_1: if there's games\n42.520 speaker_1: I don't know\n<CANDIDATE>43.240 speaker_1: We're gonna go and check</CANDIDATE>\n46.100 speaker_3: somebody's excited\n47.640 speaker_1: So this is your surprise\n48.900 speaker_1: guys",
+      "humanDecision": "other_sfx",
+      "otherFamily": "dramatic"
+    },
+    {
+      "exampleId": "footage_05_19_26_sfx:beat_group_24",
+      "projectId": "footage_05_19_26_sfx",
+      "markedCaptionContext": "15.980 speaker_1: Okay so she's back there\n16.980 speaker_1: guys\n17.620 speaker_1: we came to this new place\n<CANDIDATE>19.320 speaker_1: close to Suri's school</CANDIDATE>\n<CANDIDATE>21.640 speaker_1: And it looks pretty good</CANDIDATE>\n22.640 speaker_1: so we're gonna go\n23.110 speaker_1: and try it out",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_57",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "50.300 speaker_1: And mommy\n51.280 speaker_1: she doesn't know how to ice skate\n52.120 speaker_1: guys\n<CANDIDATE>52.520 speaker_1: So they need a bucket because</CANDIDATE>\n54.120 speaker_1: they don't know how to do it\n55.400 speaker_1: But this is\n57.260 speaker_1: their",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

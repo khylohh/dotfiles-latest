@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000180000_01",
+  "selections": [
+    {
+      "candidateId": "cand_caption_beat_668de0916f4fab98",
+      "family": "success",
+      "momentType": "completed_result"
+    },
+    {
+      "candidateId": "cand_caption_beat_91709b473927dd4d",
+      "family": "ding",
+      "momentType": "positive_detail"
+    }
+  ]
+}

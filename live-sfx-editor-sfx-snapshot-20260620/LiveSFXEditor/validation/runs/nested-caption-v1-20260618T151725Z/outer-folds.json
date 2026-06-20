@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "protocol": "nested-grouped-caption-cv-v1",
+  "splitStrategy": "leave-one-generalizationGroupId-out",
+  "folds": [
+    {
+      "foldId": "outer_01",
+      "generalizationGroupId": "group_01_footage_04_26_26_sfx",
+      "trainProjectIds": [
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_04_26_26_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_02",
+      "generalizationGroupId": "group_03_footage_05_04_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_04_26_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_03",
+      "generalizationGroupId": "group_04_footage_05_07_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_07_26_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_04",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_11_26_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_05",
+      "generalizationGroupId": "group_07_footage_05_17_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_17_26_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_06",
+      "generalizationGroupId": "group_08_footage_05_19_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_19_26_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_07",
+      "generalizationGroupId": "group_09_footage_05_26_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_26_26_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_08",
+      "generalizationGroupId": "group_10_footage_05_27_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_27_26_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_09",
+      "generalizationGroupId": "group_11_footage_05_31_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_31_26_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_10",
+      "generalizationGroupId": "group_13_footage_06_05_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_06_05_26_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_11",
+      "generalizationGroupId": "group_14_new_footage_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx"
+      ],
+      "testProjectIds": [
+        "new_footage_sfx"
+      ]
+    },
+    {
+      "foldId": "outer_12",
+      "generalizationGroupId": "group_15_footage_colored_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_colored_sfx"
+      ]
+    }
+  ]
+}

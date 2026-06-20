@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "5ab1bbc90cd9788398a0",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000170116_02",
+  "coreStartSec": 170.116,
+  "coreEndSec": 180,
+  "contextStartSec": 162.116,
+  "contextEndSec": 188,
+  "allowedCandidateIds": [
+    "cand_caption_beat_1d8bccf346a93940",
+    "cand_caption_beat_a64c5826401e97d0",
+    "cand_caption_beat_8451eeb895455b63",
+    "cand_caption_beat_4607eb486b2b09d4",
+    "cand_caption_beat_ee52dead325d7539",
+    "cand_caption_beat_fb7a6822126e51bd",
+    "cand_caption_beat_aefa937eb543aa9d",
+    "cand_caption_beat_7f9eeb27b1b1da7f",
+    "cand_caption_beat_d3dff6df173edb0d",
+    "cand_caption_beat_ccc8c0eb26a6039e",
+    "cand_caption_beat_b3e719cd7c3a661a",
+    "cand_caption_beat_8f6c0e5b6374e839",
+    "cand_caption_beat_6fb4468bd0ebb557",
+    "cand_caption_beat_0f404bbcb9d8b480"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00111",
+      "startSec": 162.06,
+      "endSec": 162.38,
+      "speakerKey": "speaker_1",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00112",
+      "startSec": 162.513,
+      "endSec": 164.113,
+      "speakerKey": "speaker_1",
+      "text": "but also because it's cool"
+    },
+    {
+      "cueId": "cue-00349",
+      "startSec": 164.24,
+      "endSec": 164.62,
+      "speakerKey": "speaker_2",
+      "text": "Okay"
+    },
+    {
+      "cueId": "cue-00673",
+      "startSec": 164.62,
+      "endSec": 165.59,
+      "speakerKey": "speaker_2",
+      "text": "I'm just gonna put this"
+    },
+    {
+      "cueId": "cue-00674",
+      "startSec": 165.74,
+      "endSec": 166.88,
+      "speakerKey": "speaker_2",
+      "text": "this is Kerastase oil"
+    },
+    {
+      "cueId": "cue-00675",
+      "startSec": 167.6,
+      "endSec": 168.96,
+      "speakerKey": "speaker_2",
+      "text": "And Suri's always saying"
+    },
+    {
+      "cueId": "cue-00677",
+      "startSec": 170.88,
+      "endSec": 171.32,
+      "speakerKey": "speaker_1",
+      "text": "Yes"
+    },
+    {
+      "cueId": "cue-00679",
+      "startSec": 171.54,
+      "endSec": 171.88,
+      "speakerKey": "speaker_2",
+      "text": "Okay listen"
+    },
+    {
+      "cueId": "cue-00681",
+      "startSec": 171.92,
+      "endSec": 172.75,
+      "speakerKey": "speaker_1",
+      "text": "Because she has"
+    },
+    {
+      "cueId": "cue-00682",
+      "startSec": 173.06,
+      "endSec": 173.412,
+      "speakerKey": "speaker_1",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00683",
+      "startSec": 173.46,
+      "endSec": 174.63,
+      "speakerKey": "speaker_1",
+      "text": "three leftover bottles"
+    },
+    {
+      "cueId": "cue-00684",
+      "startSec": 174.98,
+      "endSec": 175.82,
+      "speakerKey": "speaker_1",
+      "text": "and she doesn't put"
+    },
+    {
+      "cueId": "cue-00685",
+      "startSec": 175.82,
+      "endSec": 176.42,
+      "speakerKey": "speaker_1",
+      "text": "them in the trash"
+    },
+    {
+      "cueId": "cue-00687",
+      "startSec": 176.536,
+      "endSec": 177.991,
+      "speakerKey": "speaker_2",
+      "text": "It's because this bottle"
+    },
+    {
+      "cueId": "cue-00688",
+      "startSec": 178.2,
+      "endSec": 179.73,
+      "speakerKey": "speaker_2",
+      "text": "goes inside in another bottle"
+    },
+    {
+      "cueId": "cue-00690",
+      "startSec": 180.12,
+      "endSec": 181.7,
+      "speakerKey": "speaker_2",
+      "text": "If you buy the other bottle"
+    },
+    {
+      "cueId": "cue-00692",
+      "startSec": 182.71,
+      "endSec": 183.45,
+      "speakerKey": "speaker_2",
+      "text": "no the whole bottle"
+    },
+    {
+      "cueId": "cue-00694",
+      "startSec": 184.16,
+      "endSec": 185.41,
+      "speakerKey": "speaker_2",
+      "text": "it's I think $60"
+    },
+    {
+      "cueId": "cue-00696",
+      "startSec": 185.78,
+      "endSec": 186.9,
+      "speakerKey": "speaker_2",
+      "text": "And if you buy this one"
+    },
+    {
+      "cueId": "cue-00697",
+      "startSec": 186.98,
+      "endSec": 187.92,
+      "speakerKey": "speaker_2",
+      "text": "it's only $48"
+    }
+  ],
+  "markedCaptionText": "[02:42.06 speaker_1] Yeah\n[02:42.51 speaker_1] but also because it's cool\n[02:44.24 speaker_2] Okay\n[02:44.62 speaker_2] I'm just gonna put this\n[02:45.74 speaker_2] this is Kerastase oil\n[02:47.60 speaker_2] And Suri's always saying\n[02:50.88 speaker_1] Yes <cand_caption_beat_1d8bccf346a93940>\n[02:51.54 speaker_2] Okay listen <cand_caption_beat_a64c5826401e97d0>\n[02:51.92 speaker_1] Because she has <cand_caption_beat_a64c5826401e97d0> <cand_caption_beat_8451eeb895455b63>\n[02:53.06 speaker_1] like <cand_caption_beat_4607eb486b2b09d4>\n[02:53.46 speaker_1] three leftover bottles <cand_caption_beat_ee52dead325d7539>\n[02:54.98 speaker_1] and she doesn't put <cand_caption_beat_fb7a6822126e51bd> <cand_caption_beat_aefa937eb543aa9d>\n[02:55.82 speaker_1] them in the trash <cand_caption_beat_aefa937eb543aa9d> <cand_caption_beat_7f9eeb27b1b1da7f> <cand_caption_beat_ccc8c0eb26a6039e>\n[02:56.54 speaker_2] It's because this bottle <cand_caption_beat_d3dff6df173edb0d> <cand_caption_beat_ccc8c0eb26a6039e> <cand_caption_beat_b3e719cd7c3a661a> <cand_caption_beat_6fb4468bd0ebb557>\n[02:58.20 speaker_2] goes inside in another bottle <cand_caption_beat_ccc8c0eb26a6039e> <cand_caption_beat_8f6c0e5b6374e839> <cand_caption_beat_0f404bbcb9d8b480>\n[03:00.12 speaker_2] If you buy the other bottle\n[03:02.71 speaker_2] no the whole bottle\n[03:04.16 speaker_2] it's I think $60\n[03:05.78 speaker_2] And if you buy this one\n[03:06.98 speaker_2] it's only $48",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_1d8bccf346a93940",
+      "momentId": "footage_05_11_26_sfx:beat_group_231",
+      "beatGroupId": "beat_group_231",
+      "relativeTimeSec": 1.204,
+      "absoluteTimeSec": 171.32,
+      "targetFrame": 10269,
+      "cueIds": [
+        "cue-00677"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Yes",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.92,
+      "followingGapSec": 0.22,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a64c5826401e97d0",
+      "momentId": "footage_05_11_26_sfx:beat_group_232",
+      "beatGroupId": "beat_group_232",
+      "relativeTimeSec": 1.764,
+      "absoluteTimeSec": 171.88,
+      "targetFrame": 10302,
+      "cueIds": [
+        "cue-00679",
+        "cue-00681"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Okay listen Because she has",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 0.04,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8451eeb895455b63",
+      "momentId": "footage_05_11_26_sfx:beat_group_233",
+      "beatGroupId": "beat_group_233",
+      "relativeTimeSec": 2.634,
+      "absoluteTimeSec": 172.75,
+      "targetFrame": 10355,
+      "cueIds": [
+        "cue-00681"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Because she has",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.04,
+      "followingGapSec": 0.31,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4607eb486b2b09d4",
+      "momentId": "footage_05_11_26_sfx:beat_group_234",
+      "beatGroupId": "beat_group_234",
+      "relativeTimeSec": 3.124,
+      "absoluteTimeSec": 173.24,
+      "targetFrame": 10384,
+      "cueIds": [
+        "cue-00682"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.31,
+      "followingGapSec": 0.048,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ee52dead325d7539",
+      "momentId": "footage_05_11_26_sfx:beat_group_235",
+      "beatGroupId": "beat_group_235",
+      "relativeTimeSec": 4.514,
+      "absoluteTimeSec": 174.63,
+      "targetFrame": 10467,
+      "cueIds": [
+        "cue-00683"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "three leftover bottles",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.048,
+      "followingGapSec": 0.35,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fb7a6822126e51bd",
+      "momentId": "footage_05_11_26_sfx:beat_group_236",
+      "beatGroupId": "beat_group_236",
+      "relativeTimeSec": 4.864,
+      "absoluteTimeSec": 174.98,
+      "targetFrame": 10488,
+      "cueIds": [
+        "cue-00684"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "and she doesn't put",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.35,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_aefa937eb543aa9d",
+      "momentId": "footage_05_11_26_sfx:beat_group_237",
+      "beatGroupId": "beat_group_237",
+      "relativeTimeSec": 5.654,
+      "absoluteTimeSec": 175.77,
+      "targetFrame": 10536,
+      "cueIds": [
+        "cue-00684",
+        "cue-00685"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "and she doesn't put them in the trash",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.35,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.34
+    },
+    {
+      "candidateId": "cand_caption_beat_7f9eeb27b1b1da7f",
+      "momentId": "footage_05_11_26_sfx:beat_group_238",
+      "beatGroupId": "beat_group_238",
+      "relativeTimeSec": 6.304,
+      "absoluteTimeSec": 176.42,
+      "targetFrame": 10575,
+      "cueIds": [
+        "cue-00685"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "them in the trash",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.116,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.69
+    },
+    {
+      "candidateId": "cand_caption_beat_d3dff6df173edb0d",
+      "momentId": "footage_05_11_26_sfx:beat_group_239",
+      "beatGroupId": "beat_group_239",
+      "relativeTimeSec": 6.42,
+      "absoluteTimeSec": 176.536,
+      "targetFrame": 10582,
+      "cueIds": [
+        "cue-00687"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It's because this bottle",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.116,
+      "followingGapSec": 0.209,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.574
+    },
+    {
+      "candidateId": "cand_caption_beat_ccc8c0eb26a6039e",
+      "momentId": "footage_05_11_26_sfx:beat_group_240",
+      "beatGroupId": "beat_group_240",
+      "relativeTimeSec": 6.995,
+      "absoluteTimeSec": 177.11,
+      "targetFrame": 10616,
+      "cueIds": [
+        "cue-00685",
+        "cue-00687",
+        "cue-00688"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "them in the trash It's because this bottle goes inside in another bottle",
+      "anchorTypes": [
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.116,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b3e719cd7c3a661a",
+      "momentId": "footage_05_11_26_sfx:beat_group_241",
+      "beatGroupId": "beat_group_241",
+      "relativeTimeSec": 7.795,
+      "absoluteTimeSec": 177.911,
+      "targetFrame": 10664,
+      "cueIds": [
+        "cue-00687"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It's because this bottle",
+      "anchorTypes": [
+        "cue_end_minus_80ms"
+      ],
+      "precedingGapSec": 0.116,
+      "followingGapSec": 0.209,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.8
+    },
+    {
+      "candidateId": "cand_caption_beat_8f6c0e5b6374e839",
+      "momentId": "footage_05_11_26_sfx:beat_group_242",
+      "beatGroupId": "beat_group_242",
+      "relativeTimeSec": 8.084,
+      "absoluteTimeSec": 178.2,
+      "targetFrame": 10681,
+      "cueIds": [
+        "cue-00688"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "goes inside in another bottle",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.209,
+      "followingGapSec": 0.39,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.09
+    },
+    {
+      "candidateId": "cand_caption_beat_6fb4468bd0ebb557",
+      "momentId": "footage_05_11_26_sfx:beat_group_243",
+      "beatGroupId": "beat_group_243",
+      "relativeTimeSec": 8.474,
+      "absoluteTimeSec": 178.59,
+      "targetFrame": 10705,
+      "cueIds": [
+        "cue-00687"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It's because this bottle",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.116,
+      "followingGapSec": 0.209,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.48
+    },
+    {
+      "candidateId": "cand_caption_beat_0f404bbcb9d8b480",
+      "momentId": "footage_05_11_26_sfx:beat_group_244",
+      "beatGroupId": "beat_group_244",
+      "relativeTimeSec": 9.614,
+      "absoluteTimeSec": 179.73,
+      "targetFrame": 10773,
+      "cueIds": [
+        "cue-00688"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "goes inside in another bottle",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.209,
+      "followingGapSec": 0.39,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_50",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "40.230 speaker_1: The heck?\n44.510 speaker_1: Amor?\n46.388 speaker_1: what are you guys doing?\n<CANDIDATE>48.620 speaker_1: You know the gardener's</CANDIDATE>\n<CANDIDATE>49.419 speaker_1: gonna come and do that</CANDIDATE>\n<CANDIDATE>50.290 speaker_1: right?</CANDIDATE>\n<CANDIDATE>51.240 speaker_4: No but this is</CANDIDATE>",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_51",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "44.640 speaker_2: it's actually my first\n45.760 speaker_2: time too because\n46.620 speaker_1: Yeah\n<CANDIDATE>46.980 speaker_1: it's Stary's first time</CANDIDATE>\n<CANDIDATE>48.940 speaker_1: it's all of our first times</CANDIDATE>\n50.300 speaker_1: And mommy\n51.280 speaker_1: she doesn't know how to ice skate",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_70",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "50.280 speaker_2: You don't like it?\n52.120 speaker_2: And by the way\n53.000 speaker_2: look\n<CANDIDATE>54.476 speaker_1: my book</CANDIDATE>\n55.380 speaker_2: This is one of our\n56.355 speaker_2: favorite books\n57.460 speaker_1: Mine",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_49",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "41.600 speaker_1: do you wanna show\n42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n<CANDIDATE>43.920 speaker_3: the humongous t-Rex</CANDIDATE>\n47.562 speaker_1: We got this big\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_19_26_sfx:beat_group_74",
+      "projectId": "footage_05_19_26_sfx",
+      "markedCaptionContext": "49.760 speaker_1: nooooo\n50.960 speaker_3: What the heck?\n51.540 speaker_3: You put tiptik on your eyes\n<CANDIDATE>53.197 speaker_4: Wait what?</CANDIDATE>\n<CANDIDATE>53.640 speaker_2: she did?</CANDIDATE>\n54.660 speaker_3: Yeah\n55.240 speaker_1: She did",
+      "humanDecision": "other_sfx",
+      "otherFamily": "bonk"
+    },
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_270",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "188.560 speaker_1: It's the only one\n189.320 speaker_1: We have another copy\n190.280 speaker_1: of this in the set\n<CANDIDATE>192.200 speaker_2: Oh yeah</CANDIDATE>\n192.700 speaker_1: I think it's pretty\n193.640 speaker_2: Okay let's get that one then\n195.180 speaker_2: Okay",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "footage_05_07_26_sfx:beat_group_58",
+      "projectId": "footage_05_07_26_sfx",
+      "markedCaptionContext": "53.940 speaker_2: Also\n54.260 speaker_2: guys\n54.860 speaker_2: if you see Suri\n<CANDIDATE>55.500 speaker_2: and George kind of tired</CANDIDATE>\n<CANDIDATE>56.370 speaker_2: it's because they've been doing</CANDIDATE>\n57.080 speaker_2: testing all this week\n58.500 speaker_2: in school",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_1835",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "1442.540 speaker_1: asked if\n1443.780 speaker_1: I can buy this one\n1445.340 speaker_1: and first\n<CANDIDATE>1446.040 speaker_1: I said no</CANDIDATE>\n<CANDIDATE>1446.580 speaker_1: but i think</CANDIDATE>\n1447.640 speaker_1: I'm gonna be getting it\n1449.640 speaker_1: You want it?",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

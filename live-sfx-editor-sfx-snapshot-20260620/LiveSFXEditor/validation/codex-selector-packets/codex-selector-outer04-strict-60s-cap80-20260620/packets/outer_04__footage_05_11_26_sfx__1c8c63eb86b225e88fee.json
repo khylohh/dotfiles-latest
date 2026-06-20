@@ -1,0 +1,1014 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "1c8c63eb86b225e88fee",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000480000_01",
+  "coreStartSec": 480,
+  "coreEndSec": 502.17,
+  "contextStartSec": 472,
+  "contextEndSec": 510.17,
+  "allowedCandidateIds": [
+    "cand_caption_beat_6759b9124f2d9a1b",
+    "cand_caption_beat_4a4774b785be5d96",
+    "cand_caption_beat_f9f8adbfb610ae68",
+    "cand_caption_beat_8887136690c5292c",
+    "cand_caption_beat_b5da07485bc3a26c",
+    "cand_caption_beat_3fd92ab4b3221530",
+    "cand_caption_beat_49b2d19a3bdb8b01",
+    "cand_caption_beat_28660caf3e189724",
+    "cand_caption_beat_0ab9d1ba6739ee33",
+    "cand_caption_beat_e1972afcbf00e596",
+    "cand_caption_beat_2ad0ac98f6c9ddbb",
+    "cand_caption_beat_6b06f5b2ad52bfab",
+    "cand_caption_beat_66f6fb2d654c3308",
+    "cand_caption_beat_d1af8e0590601cdd",
+    "cand_caption_beat_b584814c4721510a",
+    "cand_caption_beat_633de2f03aa6bdbb",
+    "cand_caption_beat_6032154b36d706a0",
+    "cand_caption_beat_d839924a959716cf",
+    "cand_caption_beat_1645d5154d6541c4",
+    "cand_caption_beat_6adbfaf9e96b6c5d",
+    "cand_caption_beat_ce600c8222eb22c5",
+    "cand_caption_beat_c37fb921c678c1f6",
+    "cand_caption_beat_f5384e17e9ba1fd2",
+    "cand_caption_beat_7e5898bb018bef7f",
+    "cand_caption_beat_dd39921482435215",
+    "cand_caption_beat_240c807cf1830807",
+    "cand_caption_beat_48aaed0b7c75961a",
+    "cand_caption_beat_f04b055283d88b1d",
+    "cand_caption_beat_09b396d4259bc251",
+    "cand_caption_beat_46a8e85e26cced24",
+    "cand_caption_beat_3a226d8a7127adf9",
+    "cand_caption_beat_2b3b83d977c111ae",
+    "cand_caption_beat_85e93e0d7c35d1a9"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00261",
+      "startSec": 470.261,
+      "endSec": 472.552,
+      "speakerKey": "speaker_1",
+      "text": "coke which is really tastey"
+    },
+    {
+      "cueId": "cue-00263",
+      "startSec": 472.608,
+      "endSec": 473.23,
+      "speakerKey": "speaker_1",
+      "text": "too"
+    },
+    {
+      "cueId": "cue-00265",
+      "startSec": 475.385,
+      "endSec": 476.64,
+      "speakerKey": "speaker_1",
+      "text": "you're supposed to be clapping"
+    },
+    {
+      "cueId": "cue-00266",
+      "startSec": 476.726,
+      "endSec": 477.74,
+      "speakerKey": "speaker_2",
+      "text": "oh i'm sorry"
+    },
+    {
+      "cueId": "cue-00267",
+      "startSec": 478.32,
+      "endSec": 479.984,
+      "speakerKey": "speaker_2",
+      "text": "Bravo!"
+    },
+    {
+      "cueId": "cue-00390",
+      "startSec": 480.543,
+      "endSec": 481.14,
+      "speakerKey": "speaker_2",
+      "text": "It's because"
+    },
+    {
+      "cueId": "cue-00825",
+      "startSec": 481.14,
+      "endSec": 482.236,
+      "speakerKey": "speaker_2",
+      "text": "I heard this song"
+    },
+    {
+      "cueId": "b3b74d93-707e-468c-86c7-b734b49b11ca",
+      "startSec": 482.65,
+      "endSec": 483.72,
+      "speakerKey": "speaker_2",
+      "text": "so much"
+    },
+    {
+      "cueId": "cue-00826",
+      "startSec": 484.14,
+      "endSec": 485.06,
+      "speakerKey": "speaker_2",
+      "text": "So many times"
+    },
+    {
+      "cueId": "cue-00268",
+      "startSec": 485.22,
+      "endSec": 486.02,
+      "speakerKey": "speaker_1",
+      "text": "And that means we've"
+    },
+    {
+      "cueId": "cue-00269",
+      "startSec": 486.02,
+      "endSec": 487.02,
+      "speakerKey": "speaker_1",
+      "text": "gone to Eleven a lot"
+    },
+    {
+      "cueId": "cue-00391",
+      "startSec": 487.07,
+      "endSec": 488.62,
+      "speakerKey": "speaker_2",
+      "text": "And I already know the song"
+    },
+    {
+      "cueId": "cue-00827",
+      "startSec": 489.28,
+      "endSec": 489.86,
+      "speakerKey": "speaker_2",
+      "text": "So guys"
+    },
+    {
+      "cueId": "cue-00828",
+      "startSec": 490.22,
+      "endSec": 491.38,
+      "speakerKey": "speaker_2",
+      "text": "if you want your parents"
+    },
+    {
+      "cueId": "cue-00829",
+      "startSec": 491.8,
+      "endSec": 493.205,
+      "speakerKey": "speaker_2",
+      "text": "to buy you some candy"
+    },
+    {
+      "cueId": "cue-00270",
+      "startSec": 493.205,
+      "endSec": 494.644,
+      "speakerKey": "speaker_1",
+      "text": "7 eleven or Something"
+    },
+    {
+      "cueId": "cue-00272",
+      "startSec": 494.644,
+      "endSec": 495.272,
+      "speakerKey": "speaker_1",
+      "text": "You could just make it up"
+    },
+    {
+      "cueId": "cue-00392",
+      "startSec": 495.272,
+      "endSec": 495.854,
+      "speakerKey": "speaker_2",
+      "text": "make a song"
+    },
+    {
+      "cueId": "cue-00830",
+      "startSec": 496.014,
+      "endSec": 496.414,
+      "speakerKey": "speaker_2",
+      "text": "It works"
+    },
+    {
+      "cueId": "cue-00831",
+      "startSec": 496.8,
+      "endSec": 497.276,
+      "speakerKey": "speaker_2",
+      "text": "It works"
+    },
+    {
+      "cueId": "cue-00832",
+      "startSec": 497.276,
+      "endSec": 498.2,
+      "speakerKey": "speaker_2",
+      "text": "for me every time"
+    },
+    {
+      "cueId": "cue-00273",
+      "startSec": 498.28,
+      "endSec": 499.172,
+      "speakerKey": "speaker_1",
+      "text": "you mean for us"
+    },
+    {
+      "cueId": "cue-00393",
+      "startSec": 499.7,
+      "endSec": 500.305,
+      "speakerKey": "speaker_2",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00833",
+      "startSec": 500.836,
+      "endSec": 501.436,
+      "speakerKey": "speaker_2",
+      "text": "Oh"
+    },
+    {
+      "cueId": "cue-00834",
+      "startSec": 503.02,
+      "endSec": 504.51,
+      "speakerKey": "speaker_2",
+      "text": "What are you gonna get"
+    },
+    {
+      "cueId": "cue-00835",
+      "startSec": 504.889,
+      "endSec": 505.32,
+      "speakerKey": "speaker_2",
+      "text": "guys?"
+    },
+    {
+      "cueId": "cue-00836",
+      "startSec": 505.86,
+      "endSec": 506.76,
+      "speakerKey": "speaker_2",
+      "text": "What is that?"
+    },
+    {
+      "cueId": "cue-00837",
+      "startSec": 507.1,
+      "endSec": 507.48,
+      "speakerKey": "speaker_2",
+      "text": "No way"
+    },
+    {
+      "cueId": "cue-00838",
+      "startSec": 507.48,
+      "endSec": 508.829,
+      "speakerKey": "speaker_2",
+      "text": "Is that the matcha bread?"
+    },
+    {
+      "cueId": "cue-00839",
+      "startSec": 509.3,
+      "endSec": 510.22,
+      "speakerKey": "speaker_2",
+      "text": "I want one of those"
+    }
+  ],
+  "markedCaptionText": "[07:50.26 speaker_1] coke which is really tastey\n[07:52.61 speaker_1] too\n[07:55.38 speaker_1] you're supposed to be clapping\n[07:56.73 speaker_2] oh i'm sorry\n[07:58.32 speaker_2] Bravo!\n[08:00.54 speaker_2] It's because <cand_caption_beat_6759b9124f2d9a1b> <cand_caption_beat_4a4774b785be5d96>\n[08:01.14 speaker_2] I heard this song <cand_caption_beat_4a4774b785be5d96> <cand_caption_beat_f9f8adbfb610ae68>\n[08:02.65 speaker_2] so much <cand_caption_beat_8887136690c5292c> <cand_caption_beat_b5da07485bc3a26c>\n[08:04.14 speaker_2] So many times <cand_caption_beat_3fd92ab4b3221530> <cand_caption_beat_49b2d19a3bdb8b01>\n[08:05.22 speaker_1] And that means we've <cand_caption_beat_49b2d19a3bdb8b01> <cand_caption_beat_28660caf3e189724>\n[08:06.02 speaker_1] gone to Eleven a lot <cand_caption_beat_49b2d19a3bdb8b01> <cand_caption_beat_0ab9d1ba6739ee33>\n[08:07.07 speaker_2] And I already know the song <cand_caption_beat_e1972afcbf00e596> <cand_caption_beat_2ad0ac98f6c9ddbb>\n[08:09.28 speaker_2] So guys <cand_caption_beat_6b06f5b2ad52bfab> <cand_caption_beat_66f6fb2d654c3308>\n[08:10.22 speaker_2] if you want your parents <cand_caption_beat_d1af8e0590601cdd> <cand_caption_beat_b584814c4721510a> <cand_caption_beat_633de2f03aa6bdbb>\n[08:11.80 speaker_2] to buy you some candy <cand_caption_beat_6032154b36d706a0> <cand_caption_beat_d839924a959716cf> <cand_caption_beat_1645d5154d6541c4>\n[08:13.20 speaker_1] 7 eleven or Something <cand_caption_beat_6adbfaf9e96b6c5d> <cand_caption_beat_ce600c8222eb22c5>\n[08:14.64 speaker_1] You could just make it up <cand_caption_beat_ce600c8222eb22c5> <cand_caption_beat_c37fb921c678c1f6>\n[08:15.27 speaker_2] make a song <cand_caption_beat_f5384e17e9ba1fd2>\n[08:16.01 speaker_2] It works <cand_caption_beat_f5384e17e9ba1fd2> <cand_caption_beat_7e5898bb018bef7f>\n[08:16.80 speaker_2] It works <cand_caption_beat_dd39921482435215>\n[08:17.28 speaker_2] for me every time <cand_caption_beat_240c807cf1830807> <cand_caption_beat_48aaed0b7c75961a>\n[08:18.28 speaker_1] you mean for us <cand_caption_beat_f04b055283d88b1d> <cand_caption_beat_09b396d4259bc251>\n[08:19.70 speaker_2] Yeah <cand_caption_beat_46a8e85e26cced24> <cand_caption_beat_3a226d8a7127adf9>\n[08:20.84 speaker_2] Oh <cand_caption_beat_2b3b83d977c111ae> <cand_caption_beat_85e93e0d7c35d1a9>\n[08:23.02 speaker_2] What are you gonna get\n[08:24.89 speaker_2] guys?\n[08:25.86 speaker_2] What is that?\n[08:27.10 speaker_2] No way\n[08:27.48 speaker_2] Is that the matcha bread?\n[08:29.30 speaker_2] I want one of those",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_6759b9124f2d9a1b",
+      "momentId": "footage_05_11_26_sfx:beat_group_631",
+      "beatGroupId": "beat_group_631",
+      "relativeTimeSec": 0.75,
+      "absoluteTimeSec": 480.75,
+      "targetFrame": 28816,
+      "cueIds": [
+        "cue-00390"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It's because",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.559,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4a4774b785be5d96",
+      "momentId": "footage_05_11_26_sfx:beat_group_632",
+      "beatGroupId": "beat_group_632",
+      "relativeTimeSec": 1.16,
+      "absoluteTimeSec": 481.16,
+      "targetFrame": 28841,
+      "cueIds": [
+        "cue-00390",
+        "cue-00825"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It's because I heard this song",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.559,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f9f8adbfb610ae68",
+      "momentId": "footage_05_11_26_sfx:beat_group_633",
+      "beatGroupId": "beat_group_633",
+      "relativeTimeSec": 2.26,
+      "absoluteTimeSec": 482.26,
+      "targetFrame": 28907,
+      "cueIds": [
+        "cue-00825"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I heard this song",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.414,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8887136690c5292c",
+      "momentId": "footage_05_11_26_sfx:beat_group_634",
+      "beatGroupId": "beat_group_634",
+      "relativeTimeSec": 2.65,
+      "absoluteTimeSec": 482.65,
+      "targetFrame": 28930,
+      "cueIds": [
+        "b3b74d93-707e-468c-86c7-b734b49b11ca"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "so much",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.414,
+      "followingGapSec": 0.42,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b5da07485bc3a26c",
+      "momentId": "footage_05_11_26_sfx:beat_group_635",
+      "beatGroupId": "beat_group_635",
+      "relativeTimeSec": 3.72,
+      "absoluteTimeSec": 483.72,
+      "targetFrame": 28994,
+      "cueIds": [
+        "b3b74d93-707e-468c-86c7-b734b49b11ca"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "so much",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.414,
+      "followingGapSec": 0.42,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.331
+    },
+    {
+      "candidateId": "cand_caption_beat_3fd92ab4b3221530",
+      "momentId": "footage_05_11_26_sfx:beat_group_636",
+      "beatGroupId": "beat_group_636",
+      "relativeTimeSec": 4.14,
+      "absoluteTimeSec": 484.14,
+      "targetFrame": 29019,
+      "cueIds": [
+        "cue-00826"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "So many times",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.42,
+      "followingGapSec": 0.16,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.911
+    },
+    {
+      "candidateId": "cand_caption_beat_49b2d19a3bdb8b01",
+      "momentId": "footage_05_11_26_sfx:beat_group_637",
+      "beatGroupId": "beat_group_637",
+      "relativeTimeSec": 5.06,
+      "absoluteTimeSec": 485.06,
+      "targetFrame": 29075,
+      "cueIds": [
+        "cue-00268",
+        "cue-00269",
+        "cue-00826"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "And that means we've gone to Eleven a lot So many times",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.42,
+      "followingGapSec": 0.16,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": -0.009
+    },
+    {
+      "candidateId": "cand_caption_beat_28660caf3e189724",
+      "momentId": "footage_05_11_26_sfx:beat_group_638",
+      "beatGroupId": "beat_group_638",
+      "relativeTimeSec": 6.1,
+      "absoluteTimeSec": 486.1,
+      "targetFrame": 29137,
+      "cueIds": [
+        "cue-00268"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "And that means we've",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.16,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.049
+    },
+    {
+      "candidateId": "cand_caption_beat_0ab9d1ba6739ee33",
+      "momentId": "footage_05_11_26_sfx:beat_group_639",
+      "beatGroupId": "beat_group_639",
+      "relativeTimeSec": 7.02,
+      "absoluteTimeSec": 487.02,
+      "targetFrame": 29192,
+      "cueIds": [
+        "cue-00269"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "gone to Eleven a lot",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.05,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e1972afcbf00e596",
+      "momentId": "footage_05_11_26_sfx:beat_group_640",
+      "beatGroupId": "beat_group_640",
+      "relativeTimeSec": 7.07,
+      "absoluteTimeSec": 487.07,
+      "targetFrame": 29195,
+      "cueIds": [
+        "cue-00391"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "And I already know the song",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.05,
+      "followingGapSec": 0.66,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2ad0ac98f6c9ddbb",
+      "momentId": "footage_05_11_26_sfx:beat_group_641",
+      "beatGroupId": "beat_group_641",
+      "relativeTimeSec": 8.62,
+      "absoluteTimeSec": 488.62,
+      "targetFrame": 29288,
+      "cueIds": [
+        "cue-00391"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "And I already know the song",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.05,
+      "followingGapSec": 0.66,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6b06f5b2ad52bfab",
+      "momentId": "footage_05_11_26_sfx:beat_group_642",
+      "beatGroupId": "beat_group_642",
+      "relativeTimeSec": 9.28,
+      "absoluteTimeSec": 489.28,
+      "targetFrame": 29327,
+      "cueIds": [
+        "cue-00827"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "So guys",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.66,
+      "followingGapSec": 0.36,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_66f6fb2d654c3308",
+      "momentId": "footage_05_11_26_sfx:beat_group_643",
+      "beatGroupId": "beat_group_643",
+      "relativeTimeSec": 9.86,
+      "absoluteTimeSec": 489.86,
+      "targetFrame": 29362,
+      "cueIds": [
+        "cue-00827"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "So guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.66,
+      "followingGapSec": 0.36,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.93
+    },
+    {
+      "candidateId": "cand_caption_beat_d1af8e0590601cdd",
+      "momentId": "footage_05_11_26_sfx:beat_group_644",
+      "beatGroupId": "beat_group_644",
+      "relativeTimeSec": 10.22,
+      "absoluteTimeSec": 490.22,
+      "targetFrame": 29384,
+      "cueIds": [
+        "cue-00828"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "if you want your parents",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.36,
+      "followingGapSec": 0.42,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.57
+    },
+    {
+      "candidateId": "cand_caption_beat_b584814c4721510a",
+      "momentId": "footage_05_11_26_sfx:beat_group_645",
+      "beatGroupId": "beat_group_645",
+      "relativeTimeSec": 10.87,
+      "absoluteTimeSec": 490.87,
+      "targetFrame": 29423,
+      "cueIds": [
+        "cue-00828"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "if you want your parents",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.36,
+      "followingGapSec": 0.42,
+      "boundaryStrength": 0.65,
+      "nearestZoomDeltaSec": -0.08
+    },
+    {
+      "candidateId": "cand_caption_beat_633de2f03aa6bdbb",
+      "momentId": "footage_05_11_26_sfx:beat_group_646",
+      "beatGroupId": "beat_group_646",
+      "relativeTimeSec": 11.38,
+      "absoluteTimeSec": 491.38,
+      "targetFrame": 29453,
+      "cueIds": [
+        "cue-00828"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "if you want your parents",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.36,
+      "followingGapSec": 0.42,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.59
+    },
+    {
+      "candidateId": "cand_caption_beat_6032154b36d706a0",
+      "momentId": "footage_05_11_26_sfx:beat_group_647",
+      "beatGroupId": "beat_group_647",
+      "relativeTimeSec": 11.8,
+      "absoluteTimeSec": 491.8,
+      "targetFrame": 29479,
+      "cueIds": [
+        "cue-00829"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "to buy you some candy",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.42,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.01
+    },
+    {
+      "candidateId": "cand_caption_beat_d839924a959716cf",
+      "momentId": "footage_05_11_26_sfx:beat_group_648",
+      "beatGroupId": "beat_group_648",
+      "relativeTimeSec": 12.66,
+      "absoluteTimeSec": 492.66,
+      "targetFrame": 29530,
+      "cueIds": [
+        "cue-00829"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "to buy you some candy",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.42,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1645d5154d6541c4",
+      "momentId": "footage_05_11_26_sfx:beat_group_649",
+      "beatGroupId": "beat_group_649",
+      "relativeTimeSec": 13.29,
+      "absoluteTimeSec": 493.29,
+      "targetFrame": 29568,
+      "cueIds": [
+        "cue-00829"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "to buy you some candy",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.42,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6adbfaf9e96b6c5d",
+      "momentId": "footage_05_11_26_sfx:beat_group_650",
+      "beatGroupId": "beat_group_650",
+      "relativeTimeSec": 14.08,
+      "absoluteTimeSec": 494.08,
+      "targetFrame": 29615,
+      "cueIds": [
+        "cue-00270"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "7 eleven or Something",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ce600c8222eb22c5",
+      "momentId": "footage_05_11_26_sfx:beat_group_651",
+      "beatGroupId": "beat_group_651",
+      "relativeTimeSec": 14.564,
+      "absoluteTimeSec": 494.564,
+      "targetFrame": 29644,
+      "cueIds": [
+        "cue-00270",
+        "cue-00272"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "7 eleven or Something You could just make it up",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c37fb921c678c1f6",
+      "momentId": "footage_05_11_26_sfx:beat_group_652",
+      "beatGroupId": "beat_group_652",
+      "relativeTimeSec": 15.4,
+      "absoluteTimeSec": 495.4,
+      "targetFrame": 29694,
+      "cueIds": [
+        "cue-00272"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "You could just make it up",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.363
+    },
+    {
+      "candidateId": "cand_caption_beat_f5384e17e9ba1fd2",
+      "momentId": "footage_05_11_26_sfx:beat_group_653",
+      "beatGroupId": "beat_group_653",
+      "relativeTimeSec": 15.96,
+      "absoluteTimeSec": 495.96,
+      "targetFrame": 29728,
+      "cueIds": [
+        "cue-00392",
+        "cue-00830"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "make a song It works",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.16,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.803
+    },
+    {
+      "candidateId": "cand_caption_beat_7e5898bb018bef7f",
+      "momentId": "footage_05_11_26_sfx:beat_group_654",
+      "beatGroupId": "beat_group_654",
+      "relativeTimeSec": 16.62,
+      "absoluteTimeSec": 496.62,
+      "targetFrame": 29767,
+      "cueIds": [
+        "cue-00830"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It works",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.16,
+      "followingGapSec": 0.386,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.143
+    },
+    {
+      "candidateId": "cand_caption_beat_dd39921482435215",
+      "momentId": "footage_05_11_26_sfx:beat_group_655",
+      "beatGroupId": "beat_group_655",
+      "relativeTimeSec": 17.15,
+      "absoluteTimeSec": 497.15,
+      "targetFrame": 29799,
+      "cueIds": [
+        "cue-00831"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "It works",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.386,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": -0.387
+    },
+    {
+      "candidateId": "cand_caption_beat_240c807cf1830807",
+      "momentId": "footage_05_11_26_sfx:beat_group_656",
+      "beatGroupId": "beat_group_656",
+      "relativeTimeSec": 17.276,
+      "absoluteTimeSec": 497.276,
+      "targetFrame": 29807,
+      "cueIds": [
+        "cue-00832"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "for me every time",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.513
+    },
+    {
+      "candidateId": "cand_caption_beat_48aaed0b7c75961a",
+      "momentId": "footage_05_11_26_sfx:beat_group_657",
+      "beatGroupId": "beat_group_657",
+      "relativeTimeSec": 18.2,
+      "absoluteTimeSec": 498.2,
+      "targetFrame": 29862,
+      "cueIds": [
+        "cue-00832"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "for me every time",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.437
+    },
+    {
+      "candidateId": "cand_caption_beat_f04b055283d88b1d",
+      "momentId": "footage_05_11_26_sfx:beat_group_658",
+      "beatGroupId": "beat_group_658",
+      "relativeTimeSec": 18.28,
+      "absoluteTimeSec": 498.28,
+      "targetFrame": 29867,
+      "cueIds": [
+        "cue-00273"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "you mean for us",
+      "anchorTypes": [
+        "cue_start",
+        "internal_pause_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.528,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_09b396d4259bc251",
+      "momentId": "footage_05_11_26_sfx:beat_group_659",
+      "beatGroupId": "beat_group_659",
+      "relativeTimeSec": 19.04,
+      "absoluteTimeSec": 499.04,
+      "targetFrame": 29912,
+      "cueIds": [
+        "cue-00273"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "you mean for us",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.528,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_46a8e85e26cced24",
+      "momentId": "footage_05_11_26_sfx:beat_group_660",
+      "beatGroupId": "beat_group_660",
+      "relativeTimeSec": 19.98,
+      "absoluteTimeSec": 499.98,
+      "targetFrame": 29969,
+      "cueIds": [
+        "cue-00393"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yeah",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.528,
+      "followingGapSec": 0.531,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3a226d8a7127adf9",
+      "momentId": "footage_05_11_26_sfx:beat_group_661",
+      "beatGroupId": "beat_group_661",
+      "relativeTimeSec": 20.225,
+      "absoluteTimeSec": 500.225,
+      "targetFrame": 29983,
+      "cueIds": [
+        "cue-00393"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.528,
+      "followingGapSec": 0.531,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2b3b83d977c111ae",
+      "momentId": "footage_05_11_26_sfx:beat_group_662",
+      "beatGroupId": "beat_group_662",
+      "relativeTimeSec": 20.836,
+      "absoluteTimeSec": 500.836,
+      "targetFrame": 30020,
+      "cueIds": [
+        "cue-00833"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Oh",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.531,
+      "followingGapSec": 1.584,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_85e93e0d7c35d1a9",
+      "momentId": "footage_05_11_26_sfx:beat_group_663",
+      "beatGroupId": "beat_group_663",
+      "relativeTimeSec": 21.32,
+      "absoluteTimeSec": 501.32,
+      "targetFrame": 30049,
+      "cueIds": [
+        "cue-00833"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Oh",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.531,
+      "followingGapSec": 1.584,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_colored_sfx:beat_group_28",
+      "projectId": "footage_colored_sfx",
+      "markedCaptionContext": "22.220 speaker_1: we're gonna have to\n22.700 speaker_1: wake her up\n24.660 speaker_1: Oh she is awake guys\n<CANDIDATE>26.180 speaker_1: She's right here</CANDIDATE>\n27.640 speaker_1: awake and ready\n28.960 speaker_1: You ready for the last\n29.620 speaker_1: day of school or what?",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_22",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "14.613 speaker_2: an ice skating arena\n16.260 speaker_2: or is that what you call it?\n17.080 speaker_1: Ice skating arena yeah\n<CANDIDATE>17.700 speaker_2: Because we wanna</CANDIDATE>\n<CANDIDATE>18.520 speaker_2: learn how to ice skate</CANDIDATE>\n<CANDIDATE>19.540 speaker_2: Also</CANDIDATE>\n<CANDIDATE>20.060 speaker_2: Stary's gonna learn too</CANDIDATE>",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_522",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "420.400 speaker_1: a lot\n421.480 speaker_2: I can really tell\n422.640 speaker_1: You guys can get\n<CANDIDATE>424.680 speaker_1: one thing</CANDIDATE>\n427.160 speaker_4: I already know what\n427.820 speaker_4: I'm gonna get\n428.200 speaker_1: So yeah",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_93",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "78.540 speaker_3: And guys these are lollipops\n84.360 speaker_3: And one of the\n85.735 speaker_3: best things is\n<CANDIDATE>86.740 speaker_1: Is that</CANDIDATE>\n88.000 speaker_3: No\n88.620 speaker_3: it's not that\n89.420 speaker_3: I mean",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_20",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "14.020 speaker_1: Yeah\n14.700 speaker_1: And guys\n15.100 speaker_1: my mom\n<CANDIDATE>15.620 speaker_1: she doesn't know what</CANDIDATE>\n<CANDIDATE>16.210 speaker_1: brunch is</CANDIDATE>\n<CANDIDATE>17.560 speaker_2: I know</CANDIDATE>\n18.100 speaker_1: She doesn't know",
+      "humanDecision": "other_sfx",
+      "otherFamily": "funny"
+    },
+    {
+      "exampleId": "footage_05_27_26_sfx:beat_group_28",
+      "projectId": "footage_05_27_26_sfx",
+      "markedCaptionContext": "17.720 speaker_1: it came back again\n18.800 speaker_1: She's really not\n19.500 speaker_1: walking great and\n<CANDIDATE>20.730 speaker_3: and she's shaking a lot</CANDIDATE>\n<CANDIDATE>21.760 speaker_1: yeah</CANDIDATE>\n<CANDIDATE>22.000 speaker_1: she's shaking so much</CANDIDATE>\n<CANDIDATE>23.080 speaker_1: guys</CANDIDATE>",
+      "humanDecision": "other_sfx",
+      "otherFamily": "tension"
+    },
+    {
+      "exampleId": "new_footage_sfx:beat_group_34",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "24.460 speaker_1: Yeah\n24.860 speaker_1: the tarantula too\n26.100 speaker_1: So me and Nan\n<CANDIDATE>27.220 speaker_1: decided to bring the kids</CANDIDATE>\n<CANDIDATE>28.720 speaker_1: to this beautiful house</CANDIDATE>\n30.120 speaker_1: that has a lot of things\n31.860 speaker_1: guys",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_28",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "22.780 speaker_1: What does that mean?\n25.260 speaker_3: it's a class\n26.620 speaker_1: Well\n<CANDIDATE>26.965 speaker_1: I know it's a class</CANDIDATE>\n28.780 speaker_1: You mean you\n29.180 speaker_1: had to take off your\n29.940 speaker_1: shoes?",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

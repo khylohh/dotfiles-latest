@@ -1,0 +1,2124 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "03c72b8da9fbae03a317",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000120000_01",
+  "coreStartSec": 120,
+  "coreEndSec": 170.116,
+  "contextStartSec": 112,
+  "contextEndSec": 178.116,
+  "allowedCandidateIds": [
+    "cand_caption_beat_0535b2bc71c076cb",
+    "cand_caption_beat_af42ff272c22f6c8",
+    "cand_caption_beat_9ca1a0f437ee9ffa",
+    "cand_caption_beat_3bb547619738e683",
+    "cand_caption_beat_332cd82f4808052f",
+    "cand_caption_beat_8020562bcd63c2a5",
+    "cand_caption_beat_d957340cf9f08e52",
+    "cand_caption_beat_7e5a7bb2d26b59d4",
+    "cand_caption_beat_d90b9e32912d108d",
+    "cand_caption_beat_e150c715e4acdbca",
+    "cand_caption_beat_1aac3d2675532d03",
+    "cand_caption_beat_781989717198e61c",
+    "cand_caption_beat_20ad7c1024919b08",
+    "cand_caption_beat_55bce522fdd8de81",
+    "cand_caption_beat_8fc66abbadb933ed",
+    "cand_caption_beat_0f7065a96807b31c",
+    "cand_caption_beat_9348578e431de26b",
+    "cand_caption_beat_236a0c27ce735eda",
+    "cand_caption_beat_50e1ec62b8489f84",
+    "cand_caption_beat_4619c5db9aeefc9f",
+    "cand_caption_beat_4b9b6df067f71e49",
+    "cand_caption_beat_190140cc7358fb25",
+    "cand_caption_beat_ccea656ea35e86a0",
+    "cand_caption_beat_b8f31d335ed41ff3",
+    "cand_caption_beat_be8639886503a8a3",
+    "cand_caption_beat_47a0d62788ea5d41",
+    "cand_caption_beat_d7ab501f5227a594",
+    "cand_caption_beat_815f201b578d4b11",
+    "cand_caption_beat_be9533ec6485f44c",
+    "cand_caption_beat_2ab52b028b72bf51",
+    "cand_caption_beat_935bff4e8e4b3464",
+    "cand_caption_beat_eefd5a9f2588fe55",
+    "cand_caption_beat_ab41cdd1eb38e3fb",
+    "cand_caption_beat_0157c85eae0aee13",
+    "cand_caption_beat_12396cc08a8a80aa",
+    "cand_caption_beat_1005aa3480d3ab8c",
+    "cand_caption_beat_4f59c6d30f6260d2",
+    "cand_caption_beat_0cd36f2b30c7204d",
+    "cand_caption_beat_eccce8e33fc61b1d",
+    "cand_caption_beat_3606aadd17ca1469",
+    "cand_caption_beat_fe767cd77ba7cbfc",
+    "cand_caption_beat_d762473d69b57d85",
+    "cand_caption_beat_d15e0b1ca25b8316",
+    "cand_caption_beat_e2a7467511b9b45d",
+    "cand_caption_beat_026fd7d85a1d465d",
+    "cand_caption_beat_eaf97eb6afa3a8ec",
+    "cand_caption_beat_a43546b7d7916a46",
+    "cand_caption_beat_e1fc9c51cce32b4b",
+    "cand_caption_beat_c4556d8b8e704fe0",
+    "cand_caption_beat_e172af9d8947b7f7",
+    "cand_caption_beat_fd3938e01c55f94c",
+    "cand_caption_beat_a57ea3fbb4188de6",
+    "cand_caption_beat_ec272fdcd769aab5",
+    "cand_caption_beat_806b842d9ef110e4",
+    "cand_caption_beat_d67b90fa1287fced",
+    "cand_caption_beat_9299b3e86ce3ab7f",
+    "cand_caption_beat_0df4ec89117e8fee",
+    "cand_caption_beat_b0e618521f9e59e6",
+    "cand_caption_beat_8709e2f93bb57194",
+    "cand_caption_beat_c9aa19b35492543c",
+    "cand_caption_beat_f4641b518c30ad87",
+    "cand_caption_beat_5e20f85d4080a886",
+    "cand_caption_beat_c8635d20a95d5edd",
+    "cand_caption_beat_a8948a468bbd144f",
+    "cand_caption_beat_596122c4ebd0bebb",
+    "cand_caption_beat_5ec6c1c9ee7960ea",
+    "cand_caption_beat_1860cfacedd4b9a0",
+    "cand_caption_beat_6114b5dfe7de3d45"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00648",
+      "startSec": 111.56,
+      "endSec": 112.34,
+      "speakerKey": "speaker_2",
+      "text": "If it's dry"
+    },
+    {
+      "cueId": "cue-00649",
+      "startSec": 112.56,
+      "endSec": 113.899,
+      "speakerKey": "speaker_1",
+      "text": "it has lots of tangles"
+    },
+    {
+      "cueId": "cue-00651",
+      "startSec": 114.02,
+      "endSec": 114.52,
+      "speakerKey": "speaker_2",
+      "text": "So now"
+    },
+    {
+      "cueId": "cue-00652",
+      "startSec": 115.16,
+      "endSec": 116.8,
+      "speakerKey": "speaker_2",
+      "text": "Suri's hair is already wet"
+    },
+    {
+      "cueId": "cue-00654",
+      "startSec": 117.44,
+      "endSec": 117.96,
+      "speakerKey": "speaker_2",
+      "text": "And I'm gonna be"
+    },
+    {
+      "cueId": "98500724-88fc-430b-a892-e8385784fe95",
+      "startSec": 117.96,
+      "endSec": 118.64,
+      "speakerKey": "speaker_2",
+      "text": "using this"
+    },
+    {
+      "cueId": "cue-00656",
+      "startSec": 119.02,
+      "endSec": 119.8,
+      "speakerKey": "speaker_2",
+      "text": "This is like a kinda"
+    },
+    {
+      "cueId": "063a28c3-f7ed-4930-b6b2-4d97c3a702a5",
+      "startSec": 119.8,
+      "endSec": 120.4,
+      "speakerKey": "speaker_2",
+      "text": "conditioner"
+    },
+    {
+      "cueId": "cue-00077",
+      "startSec": 120.5,
+      "endSec": 121.822,
+      "speakerKey": "speaker_1",
+      "text": "I think it's like oil"
+    },
+    {
+      "cueId": "cue-00079",
+      "startSec": 121.96,
+      "endSec": 123.3,
+      "speakerKey": "speaker_1",
+      "text": "Oil like conditioner"
+    },
+    {
+      "cueId": "cue-00080",
+      "startSec": 123.3,
+      "endSec": 123.494,
+      "speakerKey": "speaker_1",
+      "text": "Like"
+    },
+    {
+      "cueId": "cue-00081",
+      "startSec": 123.494,
+      "endSec": 124.32,
+      "speakerKey": "speaker_1",
+      "text": "conditioner that has"
+    },
+    {
+      "cueId": "cue-00082",
+      "startSec": 124.32,
+      "endSec": 124.596,
+      "speakerKey": "speaker_1",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00083",
+      "startSec": 124.596,
+      "endSec": 125.32,
+      "speakerKey": "speaker_1",
+      "text": "oil on it"
+    },
+    {
+      "cueId": "cue-00344",
+      "startSec": 125.64,
+      "endSec": 126.52,
+      "speakerKey": "speaker_2",
+      "text": "I have to put"
+    },
+    {
+      "cueId": "cue-00658",
+      "startSec": 126.52,
+      "endSec": 128,
+      "speakerKey": "speaker_2",
+      "text": "a lot of this"
+    },
+    {
+      "cueId": "cue-00659",
+      "startSec": 128,
+      "endSec": 128.24,
+      "speakerKey": "speaker_2",
+      "text": "A lot"
+    },
+    {
+      "cueId": "cue-00084",
+      "startSec": 128.44,
+      "endSec": 128.78,
+      "speakerKey": "speaker_1",
+      "text": "Yes"
+    },
+    {
+      "cueId": "cue-00085",
+      "startSec": 129.06,
+      "endSec": 129.52,
+      "speakerKey": "speaker_1",
+      "text": "a lot"
+    },
+    {
+      "cueId": "cue-00086",
+      "startSec": 129.6,
+      "endSec": 131.1,
+      "speakerKey": "speaker_1",
+      "text": "because then if it's dry"
+    },
+    {
+      "cueId": "cue-00087",
+      "startSec": 131.42,
+      "endSec": 132.34,
+      "speakerKey": "speaker_1",
+      "text": "I have a lot of tangles"
+    },
+    {
+      "cueId": "cue-00088",
+      "startSec": 132.34,
+      "endSec": 132.9,
+      "speakerKey": "speaker_1",
+      "text": "when it's dry"
+    },
+    {
+      "cueId": "cue-00345",
+      "startSec": 132.89,
+      "endSec": 133.19,
+      "speakerKey": "speaker_2",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00660",
+      "startSec": 133.4,
+      "endSec": 134.03,
+      "speakerKey": "speaker_2",
+      "text": "This helps a"
+    },
+    {
+      "cueId": "a7f384cc-7149-4d64-8db7-9b54c82211ae",
+      "startSec": 134.03,
+      "endSec": 134.84,
+      "speakerKey": "speaker_2",
+      "text": "lot with the tangles"
+    },
+    {
+      "cueId": "cue-00662",
+      "startSec": 135.144,
+      "endSec": 135.545,
+      "speakerKey": "speaker_1",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00663",
+      "startSec": 135.86,
+      "endSec": 136.31,
+      "speakerKey": "speaker_2",
+      "text": "All right"
+    },
+    {
+      "cueId": "cue-00664",
+      "startSec": 136.48,
+      "endSec": 136.989,
+      "speakerKey": "speaker_2",
+      "text": "so now"
+    },
+    {
+      "cueId": "cue-00665",
+      "startSec": 137.14,
+      "endSec": 137.98,
+      "speakerKey": "speaker_2",
+      "text": "I'm gonna be brushing it"
+    },
+    {
+      "cueId": "cue-00666",
+      "startSec": 138.206,
+      "endSec": 138.926,
+      "speakerKey": "speaker_2",
+      "text": "with this brush"
+    },
+    {
+      "cueId": "cue-00667",
+      "startSec": 139.006,
+      "endSec": 139.886,
+      "speakerKey": "speaker_2",
+      "text": "our favorite brush"
+    },
+    {
+      "cueId": "cue-00668",
+      "startSec": 139.966,
+      "endSec": 140.366,
+      "speakerKey": "speaker_2",
+      "text": "by the way"
+    },
+    {
+      "cueId": "cue-00089",
+      "startSec": 140.42,
+      "endSec": 141.56,
+      "speakerKey": "speaker_1",
+      "text": "My favorite's the pink one"
+    },
+    {
+      "cueId": "cue-00346",
+      "startSec": 142.3,
+      "endSec": 142.98,
+      "speakerKey": "speaker_2",
+      "text": "Do you see that?"
+    },
+    {
+      "cueId": "cue-00669",
+      "startSec": 142.98,
+      "endSec": 143.12,
+      "speakerKey": "speaker_2",
+      "text": "Look"
+    },
+    {
+      "cueId": "cue-00670",
+      "startSec": 143.12,
+      "endSec": 143.522,
+      "speakerKey": "speaker_2",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-00090",
+      "startSec": 144.1,
+      "endSec": 144.7,
+      "speakerKey": "speaker_1",
+      "text": "It's so smooth"
+    },
+    {
+      "cueId": "cue-00091",
+      "startSec": 145.04,
+      "endSec": 145.26,
+      "speakerKey": "speaker_1",
+      "text": "Guys"
+    },
+    {
+      "cueId": "cue-00092",
+      "startSec": 145.26,
+      "endSec": 146.18,
+      "speakerKey": "speaker_1",
+      "text": "my favorite's the pink one"
+    },
+    {
+      "cueId": "cue-00093",
+      "startSec": 146.18,
+      "endSec": 146.78,
+      "speakerKey": "speaker_1",
+      "text": "My mom likes"
+    },
+    {
+      "cueId": "cue-00094",
+      "startSec": 147,
+      "endSec": 147.28,
+      "speakerKey": "speaker_1",
+      "text": "Ow"
+    },
+    {
+      "cueId": "cue-00096",
+      "startSec": 147.76,
+      "endSec": 149.204,
+      "speakerKey": "speaker_1",
+      "text": "My mom likes the green one but"
+    },
+    {
+      "cueId": "cue-00097",
+      "startSec": 149.46,
+      "endSec": 150.278,
+      "speakerKey": "speaker_1",
+      "text": "I like the pink one"
+    },
+    {
+      "cueId": "cue-00098",
+      "startSec": 150.278,
+      "endSec": 151.029,
+      "speakerKey": "speaker_1",
+      "text": "It's because we used"
+    },
+    {
+      "cueId": "cue-00099",
+      "startSec": 151.04,
+      "endSec": 151.7,
+      "speakerKey": "speaker_1",
+      "text": "to have a blue one"
+    },
+    {
+      "cueId": "cue-00101",
+      "startSec": 152.14,
+      "endSec": 152.5,
+      "speakerKey": "speaker_1",
+      "text": "but it was"
+    },
+    {
+      "cueId": "cue-00102",
+      "startSec": 152.5,
+      "endSec": 152.62,
+      "speakerKey": "speaker_1",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00103",
+      "startSec": 152.78,
+      "endSec": 153.22,
+      "speakerKey": "speaker_1",
+      "text": "bended"
+    },
+    {
+      "cueId": "cue-00104",
+      "startSec": 153.22,
+      "endSec": 153.7,
+      "speakerKey": "speaker_1",
+      "text": "Since it's not"
+    },
+    {
+      "cueId": "cue-00105",
+      "startSec": 153.78,
+      "endSec": 154.152,
+      "speakerKey": "speaker_1",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00106",
+      "startSec": 154.22,
+      "endSec": 154.662,
+      "speakerKey": "speaker_1",
+      "text": "hard"
+    },
+    {
+      "cueId": "cue-00107",
+      "startSec": 154.662,
+      "endSec": 155.411,
+      "speakerKey": "speaker_1",
+      "text": "and then you know"
+    },
+    {
+      "cueId": "cue-00347",
+      "startSec": 155.76,
+      "endSec": 156.44,
+      "speakerKey": "speaker_2",
+      "text": "But all the"
+    },
+    {
+      "cueId": "df9b319a-79d3-4463-8d3d-58f1561f8f3b",
+      "startSec": 156.44,
+      "endSec": 157.34,
+      "speakerKey": "speaker_2",
+      "text": "brushes are the same"
+    },
+    {
+      "cueId": "cue-00671",
+      "startSec": 157.34,
+      "endSec": 157.6,
+      "speakerKey": "speaker_2",
+      "text": "Suri"
+    },
+    {
+      "cueId": "cue-00109",
+      "startSec": 158.66,
+      "endSec": 159.09,
+      "speakerKey": "speaker_1",
+      "text": "Still"
+    },
+    {
+      "cueId": "cue-00110",
+      "startSec": 159.2,
+      "endSec": 160.36,
+      "speakerKey": "speaker_1",
+      "text": "I still like the pink one better"
+    },
+    {
+      "cueId": "cue-00348",
+      "startSec": 160.44,
+      "endSec": 161.137,
+      "speakerKey": "speaker_2",
+      "text": "Yes because you love"
+    },
+    {
+      "cueId": "cue-00672",
+      "startSec": 161.137,
+      "endSec": 161.66,
+      "speakerKey": "speaker_2",
+      "text": "the color pink"
+    },
+    {
+      "cueId": "cue-00111",
+      "startSec": 162.06,
+      "endSec": 162.38,
+      "speakerKey": "speaker_1",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00112",
+      "startSec": 162.513,
+      "endSec": 164.113,
+      "speakerKey": "speaker_1",
+      "text": "but also because it's cool"
+    },
+    {
+      "cueId": "cue-00349",
+      "startSec": 164.24,
+      "endSec": 164.62,
+      "speakerKey": "speaker_2",
+      "text": "Okay"
+    },
+    {
+      "cueId": "cue-00673",
+      "startSec": 164.62,
+      "endSec": 165.59,
+      "speakerKey": "speaker_2",
+      "text": "I'm just gonna put this"
+    },
+    {
+      "cueId": "cue-00674",
+      "startSec": 165.74,
+      "endSec": 166.88,
+      "speakerKey": "speaker_2",
+      "text": "this is Kerastase oil"
+    },
+    {
+      "cueId": "cue-00675",
+      "startSec": 167.6,
+      "endSec": 168.96,
+      "speakerKey": "speaker_2",
+      "text": "And Suri's always saying"
+    },
+    {
+      "cueId": "cue-00677",
+      "startSec": 170.88,
+      "endSec": 171.32,
+      "speakerKey": "speaker_1",
+      "text": "Yes"
+    },
+    {
+      "cueId": "cue-00679",
+      "startSec": 171.54,
+      "endSec": 171.88,
+      "speakerKey": "speaker_2",
+      "text": "Okay listen"
+    },
+    {
+      "cueId": "cue-00681",
+      "startSec": 171.92,
+      "endSec": 172.75,
+      "speakerKey": "speaker_1",
+      "text": "Because she has"
+    },
+    {
+      "cueId": "cue-00682",
+      "startSec": 173.06,
+      "endSec": 173.412,
+      "speakerKey": "speaker_1",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00683",
+      "startSec": 173.46,
+      "endSec": 174.63,
+      "speakerKey": "speaker_1",
+      "text": "three leftover bottles"
+    },
+    {
+      "cueId": "cue-00684",
+      "startSec": 174.98,
+      "endSec": 175.82,
+      "speakerKey": "speaker_1",
+      "text": "and she doesn't put"
+    },
+    {
+      "cueId": "cue-00685",
+      "startSec": 175.82,
+      "endSec": 176.42,
+      "speakerKey": "speaker_1",
+      "text": "them in the trash"
+    },
+    {
+      "cueId": "cue-00687",
+      "startSec": 176.536,
+      "endSec": 177.991,
+      "speakerKey": "speaker_2",
+      "text": "It's because this bottle"
+    }
+  ],
+  "markedCaptionText": "[01:51.56 speaker_2] If it's dry\n[01:52.56 speaker_1] it has lots of tangles\n[01:54.02 speaker_2] So now\n[01:55.16 speaker_2] Suri's hair is already wet\n[01:57.44 speaker_2] And I'm gonna be\n[01:57.96 speaker_2] using this\n[01:59.02 speaker_2] This is like a kinda\n[01:59.80 speaker_2] conditioner <cand_caption_beat_0535b2bc71c076cb>\n[02:00.50 speaker_1] I think it's like oil <cand_caption_beat_af42ff272c22f6c8> <cand_caption_beat_9ca1a0f437ee9ffa> <cand_caption_beat_3bb547619738e683>\n[02:01.96 speaker_1] Oil like conditioner <cand_caption_beat_332cd82f4808052f>\n[02:03.30 speaker_1] Like <cand_caption_beat_332cd82f4808052f>\n[02:03.49 speaker_1] conditioner that has\n[02:04.32 speaker_1] like <cand_caption_beat_8020562bcd63c2a5>\n[02:04.60 speaker_1] oil on it <cand_caption_beat_d957340cf9f08e52>\n[02:05.64 speaker_2] I have to put <cand_caption_beat_7e5a7bb2d26b59d4> <cand_caption_beat_d90b9e32912d108d>\n[02:06.52 speaker_2] a lot of this <cand_caption_beat_d90b9e32912d108d> <cand_caption_beat_e150c715e4acdbca>\n[02:08.00 speaker_2] A lot <cand_caption_beat_e150c715e4acdbca>\n[02:08.44 speaker_1] Yes <cand_caption_beat_1aac3d2675532d03>\n[02:09.06 speaker_1] a lot <cand_caption_beat_781989717198e61c> <cand_caption_beat_20ad7c1024919b08>\n[02:09.60 speaker_1] because then if it's dry <cand_caption_beat_55bce522fdd8de81>\n[02:11.42 speaker_1] I have a lot of tangles <cand_caption_beat_8fc66abbadb933ed> <cand_caption_beat_0f7065a96807b31c>\n[02:12.34 speaker_1] when it's dry <cand_caption_beat_0f7065a96807b31c> <cand_caption_beat_9348578e431de26b>\n[02:12.89 speaker_2] Yeah <cand_caption_beat_9348578e431de26b>\n[02:13.40 speaker_2] This helps a <cand_caption_beat_236a0c27ce735eda> <cand_caption_beat_50e1ec62b8489f84>\n[02:14.03 speaker_2] lot with the tangles <cand_caption_beat_50e1ec62b8489f84> <cand_caption_beat_4619c5db9aeefc9f>\n[02:15.14 speaker_1] Yeah <cand_caption_beat_4b9b6df067f71e49>\n[02:15.86 speaker_2] All right <cand_caption_beat_190140cc7358fb25>\n[02:16.48 speaker_2] so now <cand_caption_beat_ccea656ea35e86a0> <cand_caption_beat_b8f31d335ed41ff3>\n[02:17.14 speaker_2] I'm gonna be brushing it <cand_caption_beat_be8639886503a8a3>\n[02:18.21 speaker_2] with this brush <cand_caption_beat_47a0d62788ea5d41>\n[02:19.01 speaker_2] our favorite brush <cand_caption_beat_d7ab501f5227a594>\n[02:19.97 speaker_2] by the way <cand_caption_beat_d7ab501f5227a594> <cand_caption_beat_815f201b578d4b11>\n[02:20.42 speaker_1] My favorite's the pink one <cand_caption_beat_be9533ec6485f44c> <cand_caption_beat_2ab52b028b72bf51>\n[02:22.30 speaker_2] Do you see that? <cand_caption_beat_935bff4e8e4b3464>\n[02:22.98 speaker_2] Look <cand_caption_beat_eefd5a9f2588fe55>\n[02:23.12 speaker_2] guys <cand_caption_beat_eefd5a9f2588fe55> <cand_caption_beat_ab41cdd1eb38e3fb>\n[02:24.10 speaker_1] It's so smooth <cand_caption_beat_0157c85eae0aee13> <cand_caption_beat_12396cc08a8a80aa>\n[02:25.04 speaker_1] Guys <cand_caption_beat_1005aa3480d3ab8c>\n[02:25.26 speaker_1] my favorite's the pink one <cand_caption_beat_1005aa3480d3ab8c> <cand_caption_beat_4f59c6d30f6260d2>\n[02:26.18 speaker_1] My mom likes <cand_caption_beat_4f59c6d30f6260d2> <cand_caption_beat_0cd36f2b30c7204d>\n[02:27.00 speaker_1] Ow <cand_caption_beat_eccce8e33fc61b1d>\n[02:27.76 speaker_1] My mom likes the green one but <cand_caption_beat_3606aadd17ca1469> <cand_caption_beat_fe767cd77ba7cbfc>\n[02:29.46 speaker_1] I like the pink one <cand_caption_beat_d762473d69b57d85> <cand_caption_beat_d15e0b1ca25b8316>\n[02:30.28 speaker_1] It's because we used <cand_caption_beat_d15e0b1ca25b8316> <cand_caption_beat_e2a7467511b9b45d>\n[02:31.04 speaker_1] to have a blue one <cand_caption_beat_e2a7467511b9b45d> <cand_caption_beat_026fd7d85a1d465d>\n[02:32.14 speaker_1] but it was <cand_caption_beat_eaf97eb6afa3a8ec>\n[02:32.50 speaker_1] like <cand_caption_beat_eaf97eb6afa3a8ec>\n[02:32.78 speaker_1] bended <cand_caption_beat_a43546b7d7916a46>\n[02:33.22 speaker_1] Since it's not <cand_caption_beat_a43546b7d7916a46>\n[02:33.78 speaker_1] like <cand_caption_beat_e1fc9c51cce32b4b>\n[02:34.22 speaker_1] hard <cand_caption_beat_c4556d8b8e704fe0>\n[02:34.66 speaker_1] and then you know <cand_caption_beat_c4556d8b8e704fe0> <cand_caption_beat_e172af9d8947b7f7>\n[02:35.76 speaker_2] But all the <cand_caption_beat_fd3938e01c55f94c> <cand_caption_beat_a57ea3fbb4188de6>\n[02:36.44 speaker_2] brushes are the same <cand_caption_beat_a57ea3fbb4188de6> <cand_caption_beat_ec272fdcd769aab5> <cand_caption_beat_806b842d9ef110e4>\n[02:37.34 speaker_2] Suri <cand_caption_beat_ec272fdcd769aab5> <cand_caption_beat_806b842d9ef110e4>\n[02:38.66 speaker_1] Still <cand_caption_beat_806b842d9ef110e4> <cand_caption_beat_d67b90fa1287fced>\n[02:39.20 speaker_1] I still like the pink one better <cand_caption_beat_806b842d9ef110e4> <cand_caption_beat_9299b3e86ce3ab7f> <cand_caption_beat_0df4ec89117e8fee>\n[02:40.44 speaker_2] Yes because you love <cand_caption_beat_806b842d9ef110e4> <cand_caption_beat_b0e618521f9e59e6> <cand_caption_beat_8709e2f93bb57194>\n[02:41.14 speaker_2] the color pink <cand_caption_beat_806b842d9ef110e4> <cand_caption_beat_c9aa19b35492543c>\n[02:42.06 speaker_1] Yeah <cand_caption_beat_f4641b518c30ad87>\n[02:42.51 speaker_1] but also because it's cool <cand_caption_beat_5e20f85d4080a886> <cand_caption_beat_c8635d20a95d5edd>\n[02:44.24 speaker_2] Okay <cand_caption_beat_c8635d20a95d5edd>\n[02:44.62 speaker_2] I'm just gonna put this <cand_caption_beat_a8948a468bbd144f> <cand_caption_beat_596122c4ebd0bebb>\n[02:45.74 speaker_2] this is Kerastase oil <cand_caption_beat_5ec6c1c9ee7960ea>\n[02:47.60 speaker_2] And Suri's always saying <cand_caption_beat_1860cfacedd4b9a0> <cand_caption_beat_6114b5dfe7de3d45>\n[02:50.88 speaker_1] Yes\n[02:51.54 speaker_2] Okay listen\n[02:51.92 speaker_1] Because she has\n[02:53.06 speaker_1] like\n[02:53.46 speaker_1] three leftover bottles\n[02:54.98 speaker_1] and she doesn't put\n[02:55.82 speaker_1] them in the trash\n[02:56.54 speaker_2] It's because this bottle",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_0535b2bc71c076cb",
+      "momentId": "footage_05_11_26_sfx:beat_group_163",
+      "beatGroupId": "beat_group_163",
+      "relativeTimeSec": 0.4,
+      "absoluteTimeSec": 120.4,
+      "targetFrame": 7217,
+      "cueIds": [
+        "063a28c3-f7ed-4930-b6b2-4d97c3a702a5"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "conditioner",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_af42ff272c22f6c8",
+      "momentId": "footage_05_11_26_sfx:beat_group_164",
+      "beatGroupId": "beat_group_164",
+      "relativeTimeSec": 0.5,
+      "absoluteTimeSec": 120.5,
+      "targetFrame": 7223,
+      "cueIds": [
+        "cue-00077"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I think it's like oil",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0.138,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.422
+    },
+    {
+      "candidateId": "cand_caption_beat_9ca1a0f437ee9ffa",
+      "momentId": "footage_05_11_26_sfx:beat_group_165",
+      "beatGroupId": "beat_group_165",
+      "relativeTimeSec": 0.97,
+      "absoluteTimeSec": 120.97,
+      "targetFrame": 7251,
+      "cueIds": [
+        "cue-00077"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I think it's like oil",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0.138,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.952
+    },
+    {
+      "candidateId": "cand_caption_beat_3bb547619738e683",
+      "momentId": "footage_05_11_26_sfx:beat_group_166",
+      "beatGroupId": "beat_group_166",
+      "relativeTimeSec": 1.742,
+      "absoluteTimeSec": 121.742,
+      "targetFrame": 7297,
+      "cueIds": [
+        "cue-00077"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I think it's like oil",
+      "anchorTypes": [
+        "cue_end_minus_80ms"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0.138,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.18
+    },
+    {
+      "candidateId": "cand_caption_beat_332cd82f4808052f",
+      "momentId": "footage_05_11_26_sfx:beat_group_167",
+      "beatGroupId": "beat_group_167",
+      "relativeTimeSec": 3.24,
+      "absoluteTimeSec": 123.24,
+      "targetFrame": 7387,
+      "cueIds": [
+        "cue-00079",
+        "cue-00080"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Oil like conditioner Like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.138,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.318
+    },
+    {
+      "candidateId": "cand_caption_beat_8020562bcd63c2a5",
+      "momentId": "footage_05_11_26_sfx:beat_group_168",
+      "beatGroupId": "beat_group_168",
+      "relativeTimeSec": 4.4,
+      "absoluteTimeSec": 124.4,
+      "targetFrame": 7457,
+      "cueIds": [
+        "cue-00082"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_d957340cf9f08e52",
+      "momentId": "footage_05_11_26_sfx:beat_group_169",
+      "beatGroupId": "beat_group_169",
+      "relativeTimeSec": 5.32,
+      "absoluteTimeSec": 125.32,
+      "targetFrame": 7512,
+      "cueIds": [
+        "cue-00083"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "oil on it",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.32,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_7e5a7bb2d26b59d4",
+      "momentId": "footage_05_11_26_sfx:beat_group_170",
+      "beatGroupId": "beat_group_170",
+      "relativeTimeSec": 5.64,
+      "absoluteTimeSec": 125.64,
+      "targetFrame": 7531,
+      "cueIds": [
+        "cue-00344"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I have to put",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_d90b9e32912d108d",
+      "momentId": "footage_05_11_26_sfx:beat_group_171",
+      "beatGroupId": "beat_group_171",
+      "relativeTimeSec": 6.46,
+      "absoluteTimeSec": 126.46,
+      "targetFrame": 7580,
+      "cueIds": [
+        "cue-00344",
+        "cue-00658"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I have to put a lot of this",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e150c715e4acdbca",
+      "momentId": "footage_05_11_26_sfx:beat_group_172",
+      "beatGroupId": "beat_group_172",
+      "relativeTimeSec": 7.96,
+      "absoluteTimeSec": 127.96,
+      "targetFrame": 7670,
+      "cueIds": [
+        "cue-00658",
+        "cue-00659"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "a lot of this A lot",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1aac3d2675532d03",
+      "momentId": "footage_05_11_26_sfx:beat_group_173",
+      "beatGroupId": "beat_group_173",
+      "relativeTimeSec": 8.78,
+      "absoluteTimeSec": 128.78,
+      "targetFrame": 7719,
+      "cueIds": [
+        "cue-00084"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Yes",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.2,
+      "followingGapSec": 0.28,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.783
+    },
+    {
+      "candidateId": "cand_caption_beat_781989717198e61c",
+      "momentId": "footage_05_11_26_sfx:beat_group_174",
+      "beatGroupId": "beat_group_174",
+      "relativeTimeSec": 9.06,
+      "absoluteTimeSec": 129.06,
+      "targetFrame": 7736,
+      "cueIds": [
+        "cue-00085"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "a lot",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.28,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.503
+    },
+    {
+      "candidateId": "cand_caption_beat_20ad7c1024919b08",
+      "momentId": "footage_05_11_26_sfx:beat_group_175",
+      "beatGroupId": "beat_group_175",
+      "relativeTimeSec": 9.52,
+      "absoluteTimeSec": 129.52,
+      "targetFrame": 7763,
+      "cueIds": [
+        "cue-00085"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "a lot",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.28,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.043
+    },
+    {
+      "candidateId": "cand_caption_beat_55bce522fdd8de81",
+      "momentId": "footage_05_11_26_sfx:beat_group_176",
+      "beatGroupId": "beat_group_176",
+      "relativeTimeSec": 11.1,
+      "absoluteTimeSec": 131.1,
+      "targetFrame": 7858,
+      "cueIds": [
+        "cue-00086"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "because then if it's dry",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.32,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8fc66abbadb933ed",
+      "momentId": "footage_05_11_26_sfx:beat_group_177",
+      "beatGroupId": "beat_group_177",
+      "relativeTimeSec": 11.42,
+      "absoluteTimeSec": 131.42,
+      "targetFrame": 7877,
+      "cueIds": [
+        "cue-00087"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I have a lot of tangles",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0f7065a96807b31c",
+      "momentId": "footage_05_11_26_sfx:beat_group_178",
+      "beatGroupId": "beat_group_178",
+      "relativeTimeSec": 12.29,
+      "absoluteTimeSec": 132.29,
+      "targetFrame": 7929,
+      "cueIds": [
+        "cue-00087",
+        "cue-00088"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I have a lot of tangles when it's dry",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9348578e431de26b",
+      "momentId": "footage_05_11_26_sfx:beat_group_179",
+      "beatGroupId": "beat_group_179",
+      "relativeTimeSec": 12.9,
+      "absoluteTimeSec": 132.9,
+      "targetFrame": 7966,
+      "cueIds": [
+        "cue-00088",
+        "cue-00345"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "when it's dry Yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "internal_pause_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": -0.01,
+      "boundaryStrength": 0.15,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_236a0c27ce735eda",
+      "momentId": "footage_05_11_26_sfx:beat_group_180",
+      "beatGroupId": "beat_group_180",
+      "relativeTimeSec": 13.4,
+      "absoluteTimeSec": 133.4,
+      "targetFrame": 7996,
+      "cueIds": [
+        "cue-00660"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "This helps a",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.21,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_50e1ec62b8489f84",
+      "momentId": "footage_05_11_26_sfx:beat_group_181",
+      "beatGroupId": "beat_group_181",
+      "relativeTimeSec": 14,
+      "absoluteTimeSec": 134,
+      "targetFrame": 8032,
+      "cueIds": [
+        "a7f384cc-7149-4d64-8db7-9b54c82211ae",
+        "cue-00660"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "lot with the tangles This helps a",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.21,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4619c5db9aeefc9f",
+      "momentId": "footage_05_11_26_sfx:beat_group_182",
+      "beatGroupId": "beat_group_182",
+      "relativeTimeSec": 14.84,
+      "absoluteTimeSec": 134.84,
+      "targetFrame": 8082,
+      "cueIds": [
+        "a7f384cc-7149-4d64-8db7-9b54c82211ae"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "lot with the tangles",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.304,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4b9b6df067f71e49",
+      "momentId": "footage_05_11_26_sfx:beat_group_183",
+      "beatGroupId": "beat_group_183",
+      "relativeTimeSec": 15.46,
+      "absoluteTimeSec": 135.46,
+      "targetFrame": 8119,
+      "cueIds": [
+        "cue-00662"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.304,
+      "followingGapSec": 0.315,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_190140cc7358fb25",
+      "momentId": "footage_05_11_26_sfx:beat_group_184",
+      "beatGroupId": "beat_group_184",
+      "relativeTimeSec": 16.31,
+      "absoluteTimeSec": 136.31,
+      "targetFrame": 8170,
+      "cueIds": [
+        "cue-00663"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "All right",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.315,
+      "followingGapSec": 0.17,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_ccea656ea35e86a0",
+      "momentId": "footage_05_11_26_sfx:beat_group_185",
+      "beatGroupId": "beat_group_185",
+      "relativeTimeSec": 16.48,
+      "absoluteTimeSec": 136.48,
+      "targetFrame": 8181,
+      "cueIds": [
+        "cue-00664"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "so now",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.17,
+      "followingGapSec": 0.151,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b8f31d335ed41ff3",
+      "momentId": "footage_05_11_26_sfx:beat_group_186",
+      "beatGroupId": "beat_group_186",
+      "relativeTimeSec": 16.989,
+      "absoluteTimeSec": 136.989,
+      "targetFrame": 8211,
+      "cueIds": [
+        "cue-00664"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "so now",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.17,
+      "followingGapSec": 0.151,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.116
+    },
+    {
+      "candidateId": "cand_caption_beat_be8639886503a8a3",
+      "momentId": "footage_05_11_26_sfx:beat_group_187",
+      "beatGroupId": "beat_group_187",
+      "relativeTimeSec": 17.98,
+      "absoluteTimeSec": 137.98,
+      "targetFrame": 8271,
+      "cueIds": [
+        "cue-00665"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I'm gonna be brushing it",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.151,
+      "followingGapSec": 0.226,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.125
+    },
+    {
+      "candidateId": "cand_caption_beat_47a0d62788ea5d41",
+      "momentId": "footage_05_11_26_sfx:beat_group_188",
+      "beatGroupId": "beat_group_188",
+      "relativeTimeSec": 18.96,
+      "absoluteTimeSec": 138.96,
+      "targetFrame": 8329,
+      "cueIds": [
+        "cue-00666"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "with this brush",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.226,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.855
+    },
+    {
+      "candidateId": "cand_caption_beat_d7ab501f5227a594",
+      "momentId": "footage_05_11_26_sfx:beat_group_189",
+      "beatGroupId": "beat_group_189",
+      "relativeTimeSec": 19.96,
+      "absoluteTimeSec": 139.96,
+      "targetFrame": 8389,
+      "cueIds": [
+        "cue-00667",
+        "cue-00668"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "our favorite brush by the way",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_815f201b578d4b11",
+      "momentId": "footage_05_11_26_sfx:beat_group_190",
+      "beatGroupId": "beat_group_190",
+      "relativeTimeSec": 20.26,
+      "absoluteTimeSec": 140.26,
+      "targetFrame": 8407,
+      "cueIds": [
+        "cue-00668"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "by the way",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.054,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.448
+    },
+    {
+      "candidateId": "cand_caption_beat_be9533ec6485f44c",
+      "momentId": "footage_05_11_26_sfx:beat_group_191",
+      "beatGroupId": "beat_group_191",
+      "relativeTimeSec": 20.42,
+      "absoluteTimeSec": 140.42,
+      "targetFrame": 8417,
+      "cueIds": [
+        "cue-00089"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "My favorite's the pink one",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.054,
+      "followingGapSec": 0.74,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.288
+    },
+    {
+      "candidateId": "cand_caption_beat_2ab52b028b72bf51",
+      "momentId": "footage_05_11_26_sfx:beat_group_192",
+      "beatGroupId": "beat_group_192",
+      "relativeTimeSec": 21.56,
+      "absoluteTimeSec": 141.56,
+      "targetFrame": 8485,
+      "cueIds": [
+        "cue-00089"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "My favorite's the pink one",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.054,
+      "followingGapSec": 0.74,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.148
+    },
+    {
+      "candidateId": "cand_caption_beat_935bff4e8e4b3464",
+      "momentId": "footage_05_11_26_sfx:beat_group_193",
+      "beatGroupId": "beat_group_193",
+      "relativeTimeSec": 22.72,
+      "absoluteTimeSec": 142.72,
+      "targetFrame": 8555,
+      "cueIds": [
+        "cue-00346"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Do you see that?",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.74,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": -1.012
+    },
+    {
+      "candidateId": "cand_caption_beat_eefd5a9f2588fe55",
+      "momentId": "footage_05_11_26_sfx:beat_group_194",
+      "beatGroupId": "beat_group_194",
+      "relativeTimeSec": 23.1,
+      "absoluteTimeSec": 143.1,
+      "targetFrame": 8577,
+      "cueIds": [
+        "cue-00669",
+        "cue-00670"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Look guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.392
+    },
+    {
+      "candidateId": "cand_caption_beat_ab41cdd1eb38e3fb",
+      "momentId": "footage_05_11_26_sfx:beat_group_195",
+      "beatGroupId": "beat_group_195",
+      "relativeTimeSec": 23.442,
+      "absoluteTimeSec": 143.442,
+      "targetFrame": 8598,
+      "cueIds": [
+        "cue-00670"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.578,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0157c85eae0aee13",
+      "momentId": "footage_05_11_26_sfx:beat_group_196",
+      "beatGroupId": "beat_group_196",
+      "relativeTimeSec": 24.1,
+      "absoluteTimeSec": 144.1,
+      "targetFrame": 8637,
+      "cueIds": [
+        "cue-00090"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "It's so smooth",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.578,
+      "followingGapSec": 0.34,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_12396cc08a8a80aa",
+      "momentId": "footage_05_11_26_sfx:beat_group_197",
+      "beatGroupId": "beat_group_197",
+      "relativeTimeSec": 24.7,
+      "absoluteTimeSec": 144.7,
+      "targetFrame": 8673,
+      "cueIds": [
+        "cue-00090"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "It's so smooth",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.578,
+      "followingGapSec": 0.34,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1005aa3480d3ab8c",
+      "momentId": "footage_05_11_26_sfx:beat_group_198",
+      "beatGroupId": "beat_group_198",
+      "relativeTimeSec": 25.22,
+      "absoluteTimeSec": 145.22,
+      "targetFrame": 8704,
+      "cueIds": [
+        "cue-00091",
+        "cue-00092"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Guys my favorite's the pink one",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.34,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4f59c6d30f6260d2",
+      "momentId": "footage_05_11_26_sfx:beat_group_199",
+      "beatGroupId": "beat_group_199",
+      "relativeTimeSec": 26.14,
+      "absoluteTimeSec": 146.14,
+      "targetFrame": 8760,
+      "cueIds": [
+        "cue-00092",
+        "cue-00093"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "my favorite's the pink one My mom likes",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0cd36f2b30c7204d",
+      "momentId": "footage_05_11_26_sfx:beat_group_200",
+      "beatGroupId": "beat_group_200",
+      "relativeTimeSec": 26.78,
+      "absoluteTimeSec": 146.78,
+      "targetFrame": 8798,
+      "cueIds": [
+        "cue-00093"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "My mom likes",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.22,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_eccce8e33fc61b1d",
+      "momentId": "footage_05_11_26_sfx:beat_group_201",
+      "beatGroupId": "beat_group_201",
+      "relativeTimeSec": 27.28,
+      "absoluteTimeSec": 147.28,
+      "targetFrame": 8828,
+      "cueIds": [
+        "cue-00094"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Ow",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 0.48,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3606aadd17ca1469",
+      "momentId": "footage_05_11_26_sfx:beat_group_202",
+      "beatGroupId": "beat_group_202",
+      "relativeTimeSec": 27.76,
+      "absoluteTimeSec": 147.76,
+      "targetFrame": 8857,
+      "cueIds": [
+        "cue-00096"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "My mom likes the green one but",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.48,
+      "followingGapSec": 0.256,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fe767cd77ba7cbfc",
+      "momentId": "footage_05_11_26_sfx:beat_group_203",
+      "beatGroupId": "beat_group_203",
+      "relativeTimeSec": 29.24,
+      "absoluteTimeSec": 149.24,
+      "targetFrame": 8945,
+      "cueIds": [
+        "cue-00096"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "My mom likes the green one but",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.48,
+      "followingGapSec": 0.256,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.144
+    },
+    {
+      "candidateId": "cand_caption_beat_d762473d69b57d85",
+      "momentId": "footage_05_11_26_sfx:beat_group_204",
+      "beatGroupId": "beat_group_204",
+      "relativeTimeSec": 29.46,
+      "absoluteTimeSec": 149.46,
+      "targetFrame": 8959,
+      "cueIds": [
+        "cue-00097"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I like the pink one",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.256,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.924
+    },
+    {
+      "candidateId": "cand_caption_beat_d15e0b1ca25b8316",
+      "momentId": "footage_05_11_26_sfx:beat_group_205",
+      "beatGroupId": "beat_group_205",
+      "relativeTimeSec": 30.3,
+      "absoluteTimeSec": 150.3,
+      "targetFrame": 9009,
+      "cueIds": [
+        "cue-00097",
+        "cue-00098"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I like the pink one It's because we used",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.256,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.35,
+      "nearestZoomDeltaSec": 0.084
+    },
+    {
+      "candidateId": "cand_caption_beat_e2a7467511b9b45d",
+      "momentId": "footage_05_11_26_sfx:beat_group_206",
+      "beatGroupId": "beat_group_206",
+      "relativeTimeSec": 30.98,
+      "absoluteTimeSec": 150.98,
+      "targetFrame": 9050,
+      "cueIds": [
+        "cue-00098",
+        "cue-00099"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "It's because we used to have a blue one",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.011,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.596
+    },
+    {
+      "candidateId": "cand_caption_beat_026fd7d85a1d465d",
+      "momentId": "footage_05_11_26_sfx:beat_group_207",
+      "beatGroupId": "beat_group_207",
+      "relativeTimeSec": 31.7,
+      "absoluteTimeSec": 151.7,
+      "targetFrame": 9093,
+      "cueIds": [
+        "cue-00099"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "to have a blue one",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.011,
+      "followingGapSec": 0.44,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.316
+    },
+    {
+      "candidateId": "cand_caption_beat_eaf97eb6afa3a8ec",
+      "momentId": "footage_05_11_26_sfx:beat_group_208",
+      "beatGroupId": "beat_group_208",
+      "relativeTimeSec": 32.46,
+      "absoluteTimeSec": 152.46,
+      "targetFrame": 9138,
+      "cueIds": [
+        "cue-00101",
+        "cue-00102"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "but it was like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.44,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a43546b7d7916a46",
+      "momentId": "footage_05_11_26_sfx:beat_group_209",
+      "beatGroupId": "beat_group_209",
+      "relativeTimeSec": 33.16,
+      "absoluteTimeSec": 153.16,
+      "targetFrame": 9180,
+      "cueIds": [
+        "cue-00103",
+        "cue-00104"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "bended Since it's not",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.16,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e1fc9c51cce32b4b",
+      "momentId": "footage_05_11_26_sfx:beat_group_210",
+      "beatGroupId": "beat_group_210",
+      "relativeTimeSec": 33.94,
+      "absoluteTimeSec": 153.94,
+      "targetFrame": 9227,
+      "cueIds": [
+        "cue-00105"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "like",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.068,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c4556d8b8e704fe0",
+      "momentId": "footage_05_11_26_sfx:beat_group_211",
+      "beatGroupId": "beat_group_211",
+      "relativeTimeSec": 34.62,
+      "absoluteTimeSec": 154.62,
+      "targetFrame": 9268,
+      "cueIds": [
+        "cue-00106",
+        "cue-00107"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "hard and then you know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.068,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e172af9d8947b7f7",
+      "momentId": "footage_05_11_26_sfx:beat_group_212",
+      "beatGroupId": "beat_group_212",
+      "relativeTimeSec": 35.02,
+      "absoluteTimeSec": 155.02,
+      "targetFrame": 9292,
+      "cueIds": [
+        "cue-00107"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "and then you know",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.349,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fd3938e01c55f94c",
+      "momentId": "footage_05_11_26_sfx:beat_group_213",
+      "beatGroupId": "beat_group_213",
+      "relativeTimeSec": 35.76,
+      "absoluteTimeSec": 155.76,
+      "targetFrame": 9336,
+      "cueIds": [
+        "cue-00347"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "But all the",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.349,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a57ea3fbb4188de6",
+      "momentId": "footage_05_11_26_sfx:beat_group_214",
+      "beatGroupId": "beat_group_214",
+      "relativeTimeSec": 36.42,
+      "absoluteTimeSec": 156.42,
+      "targetFrame": 9376,
+      "cueIds": [
+        "cue-00347",
+        "df9b319a-79d3-4463-8d3d-58f1561f8f3b"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "But all the brushes are the same",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.349,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 1.438
+    },
+    {
+      "candidateId": "cand_caption_beat_ec272fdcd769aab5",
+      "momentId": "footage_05_11_26_sfx:beat_group_215",
+      "beatGroupId": "beat_group_215",
+      "relativeTimeSec": 37.329,
+      "absoluteTimeSec": 157.329,
+      "targetFrame": 9430,
+      "cueIds": [
+        "cue-00671",
+        "df9b319a-79d3-4463-8d3d-58f1561f8f3b"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Suri brushes are the same",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.529
+    },
+    {
+      "candidateId": "cand_caption_beat_806b842d9ef110e4",
+      "momentId": "footage_05_11_26_sfx:beat_group_216",
+      "beatGroupId": "beat_group_216",
+      "relativeTimeSec": 37.858,
+      "absoluteTimeSec": 157.858,
+      "targetFrame": 9462,
+      "cueIds": [
+        "cue-00109",
+        "cue-00110",
+        "cue-00348",
+        "cue-00671",
+        "cue-00672",
+        "df9b319a-79d3-4463-8d3d-58f1561f8f3b"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Still I still like the pink one better Yes because you love Suri the color pink brushes are the same",
+      "anchorTypes": [
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_d67b90fa1287fced",
+      "momentId": "footage_05_11_26_sfx:beat_group_217",
+      "beatGroupId": "beat_group_217",
+      "relativeTimeSec": 39.09,
+      "absoluteTimeSec": 159.09,
+      "targetFrame": 9536,
+      "cueIds": [
+        "cue-00109"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Still",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.06,
+      "followingGapSec": 0.11,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": -1.232
+    },
+    {
+      "candidateId": "cand_caption_beat_9299b3e86ce3ab7f",
+      "momentId": "footage_05_11_26_sfx:beat_group_218",
+      "beatGroupId": "beat_group_218",
+      "relativeTimeSec": 39.2,
+      "absoluteTimeSec": 159.2,
+      "targetFrame": 9542,
+      "cueIds": [
+        "cue-00110"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I still like the pink one better",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.11,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.342
+    },
+    {
+      "candidateId": "cand_caption_beat_0df4ec89117e8fee",
+      "momentId": "footage_05_11_26_sfx:beat_group_219",
+      "beatGroupId": "beat_group_219",
+      "relativeTimeSec": 40.36,
+      "absoluteTimeSec": 160.36,
+      "targetFrame": 9612,
+      "cueIds": [
+        "cue-00110"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I still like the pink one better",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.11,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b0e618521f9e59e6",
+      "momentId": "footage_05_11_26_sfx:beat_group_220",
+      "beatGroupId": "beat_group_220",
+      "relativeTimeSec": 40.44,
+      "absoluteTimeSec": 160.44,
+      "targetFrame": 9617,
+      "cueIds": [
+        "cue-00348"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yes because you love",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8709e2f93bb57194",
+      "momentId": "footage_05_11_26_sfx:beat_group_221",
+      "beatGroupId": "beat_group_221",
+      "relativeTimeSec": 41.32,
+      "absoluteTimeSec": 161.32,
+      "targetFrame": 9670,
+      "cueIds": [
+        "cue-00348"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "Yes because you love",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c9aa19b35492543c",
+      "momentId": "footage_05_11_26_sfx:beat_group_222",
+      "beatGroupId": "beat_group_222",
+      "relativeTimeSec": 41.66,
+      "absoluteTimeSec": 161.66,
+      "targetFrame": 9690,
+      "cueIds": [
+        "cue-00672"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "the color pink",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.4,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f4641b518c30ad87",
+      "momentId": "footage_05_11_26_sfx:beat_group_223",
+      "beatGroupId": "beat_group_223",
+      "relativeTimeSec": 42.38,
+      "absoluteTimeSec": 162.38,
+      "targetFrame": 9733,
+      "cueIds": [
+        "cue-00111"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.4,
+      "followingGapSec": 0.133,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5e20f85d4080a886",
+      "momentId": "footage_05_11_26_sfx:beat_group_224",
+      "beatGroupId": "beat_group_224",
+      "relativeTimeSec": 42.513,
+      "absoluteTimeSec": 162.513,
+      "targetFrame": 9741,
+      "cueIds": [
+        "cue-00112"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "but also because it's cool",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.133,
+      "followingGapSec": 0.127,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c8635d20a95d5edd",
+      "momentId": "footage_05_11_26_sfx:beat_group_225",
+      "beatGroupId": "beat_group_225",
+      "relativeTimeSec": 44.16,
+      "absoluteTimeSec": 164.16,
+      "targetFrame": 9840,
+      "cueIds": [
+        "cue-00112",
+        "cue-00349"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "but also because it's cool Okay",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.133,
+      "followingGapSec": 0.127,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.404
+    },
+    {
+      "candidateId": "cand_caption_beat_a8948a468bbd144f",
+      "momentId": "footage_05_11_26_sfx:beat_group_226",
+      "beatGroupId": "beat_group_226",
+      "relativeTimeSec": 44.62,
+      "absoluteTimeSec": 164.62,
+      "targetFrame": 9867,
+      "cueIds": [
+        "cue-00673"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I'm just gonna put this",
+      "anchorTypes": [
+        "cue_start",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.15,
+      "boundaryStrength": 0.35,
+      "nearestZoomDeltaSec": -0.056
+    },
+    {
+      "candidateId": "cand_caption_beat_596122c4ebd0bebb",
+      "momentId": "footage_05_11_26_sfx:beat_group_227",
+      "beatGroupId": "beat_group_227",
+      "relativeTimeSec": 45.59,
+      "absoluteTimeSec": 165.59,
+      "targetFrame": 9925,
+      "cueIds": [
+        "cue-00673"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I'm just gonna put this",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.15,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.026
+    },
+    {
+      "candidateId": "cand_caption_beat_5ec6c1c9ee7960ea",
+      "momentId": "footage_05_11_26_sfx:beat_group_228",
+      "beatGroupId": "beat_group_228",
+      "relativeTimeSec": 46.88,
+      "absoluteTimeSec": 166.88,
+      "targetFrame": 10003,
+      "cueIds": [
+        "cue-00674"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "this is Kerastase oil",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.15,
+      "followingGapSec": 0.72,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_1860cfacedd4b9a0",
+      "momentId": "footage_05_11_26_sfx:beat_group_229",
+      "beatGroupId": "beat_group_229",
+      "relativeTimeSec": 47.6,
+      "absoluteTimeSec": 167.6,
+      "targetFrame": 10046,
+      "cueIds": [
+        "cue-00675"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "And Suri's always saying",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.72,
+      "followingGapSec": 1.92,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6114b5dfe7de3d45",
+      "momentId": "footage_05_11_26_sfx:beat_group_230",
+      "beatGroupId": "beat_group_230",
+      "relativeTimeSec": 48.96,
+      "absoluteTimeSec": 168.96,
+      "targetFrame": 10127,
+      "cueIds": [
+        "cue-00675"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "And Suri's always saying",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.72,
+      "followingGapSec": 1.92,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.342
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_50",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "40.230 speaker_1: The heck?\n44.510 speaker_1: Amor?\n46.388 speaker_1: what are you guys doing?\n<CANDIDATE>48.620 speaker_1: You know the gardener's</CANDIDATE>\n<CANDIDATE>49.419 speaker_1: gonna come and do that</CANDIDATE>\n<CANDIDATE>50.290 speaker_1: right?</CANDIDATE>\n<CANDIDATE>51.240 speaker_4: No but this is</CANDIDATE>",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_70",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "50.280 speaker_2: You don't like it?\n52.120 speaker_2: And by the way\n53.000 speaker_2: look\n<CANDIDATE>54.476 speaker_1: my book</CANDIDATE>\n55.380 speaker_2: This is one of our\n56.355 speaker_2: favorite books\n57.460 speaker_1: Mine",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "new_footage_sfx:beat_group_36",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "26.100 speaker_1: So me and Nan\n27.220 speaker_1: decided to bring the kids\n28.720 speaker_1: to this beautiful house\n<CANDIDATE>30.120 speaker_1: that has a lot of things</CANDIDATE>\n<CANDIDATE>31.860 speaker_1: guys</CANDIDATE>\n33.760 speaker_1: It's like a\n34.120 speaker_1: little small resort",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_59",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "51.280 speaker_1: she doesn't know how to ice skate\n52.120 speaker_1: guys\n52.520 speaker_1: So they need a bucket because\n<CANDIDATE>54.120 speaker_1: they don't know how to do it</CANDIDATE>\n<CANDIDATE>55.400 speaker_1: But this is</CANDIDATE>\n<CANDIDATE>57.260 speaker_1: their</CANDIDATE>\n<CANDIDATE>57.430 speaker_1: their</CANDIDATE>",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_50",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n43.920 speaker_3: the humongous t-Rex\n<CANDIDATE>47.562 speaker_1: We got this big</CANDIDATE>\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be\n52.480 speaker_3: George's favorite",
+      "humanDecision": "other_sfx",
+      "otherFamily": "misc"
+    },
+    {
+      "exampleId": "footage_05_07_26_sfx:beat_group_56",
+      "projectId": "footage_05_07_26_sfx",
+      "markedCaptionContext": "52.260 speaker_3: I'm not\n52.710 speaker_3: all the way in the back\n53.940 speaker_2: Also\n<CANDIDATE>54.260 speaker_2: guys</CANDIDATE>\n<CANDIDATE>54.860 speaker_2: if you see Suri</CANDIDATE>\n55.500 speaker_2: and George kind of tired\n56.370 speaker_2: it's because they've been doing",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_36",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "27.900 speaker_2: snacks?\n28.820 speaker_1: A lot\n29.760 speaker_3: A LOT?\n<CANDIDATE>30.780 speaker_1: But first you guys</CANDIDATE>\n<CANDIDATE>31.820 speaker_1: need to choose a color</CANDIDATE>\n33.820 speaker_1: Choose a color\n34.780 speaker_1: Pink",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

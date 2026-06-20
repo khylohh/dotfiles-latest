@@ -1,0 +1,714 @@
+{
+  "protocol": "positive-accent-moment-ranker-nested-v1",
+  "createdAt": "2026-06-20T07:15:39.606852+00:00",
+  "lockedFinalHoldout": "footage_06_10_26_sfx",
+  "openedBlindVideoExcluded": true,
+  "metrics": {
+    "manualPositive": 1028,
+    "generated": 134,
+    "combinedMatched": 50,
+    "combinedCoverage": 0.048638132295719845,
+    "precision": 0.373134328358209,
+    "falseAdditions": 84,
+    "falseAdditionsPerMinute": 0.3289679274994446,
+    "netSavedEdits": -34,
+    "netSavedEditFraction": -0.033073929961089495,
+    "medianProjectCoverage": 0.04290876242095754,
+    "p25ProjectCoverage": 0.02952360453436648,
+    "positiveNetProjectFraction": 0.25
+  },
+  "foldChoices": [
+    {
+      "foldId": "outer_01",
+      "generalizationGroupId": "group_01_footage_04_26_26_sfx",
+      "trainProjectIds": [
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_04_26_26_sfx"
+      ],
+      "c": 0.3,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 5.0,
+        "segmentMax": 1,
+        "threshold": 0.2
+      },
+      "innerMetrics": {
+        "manualPositive": 911,
+        "generated": 121,
+        "combinedMatched": 47,
+        "combinedCoverage": 0.05159165751920966,
+        "precision": 0.3884297520661157,
+        "falseAdditions": 74,
+        "falseAdditionsPerMinute": 0.321205127701354,
+        "netSavedEdits": -27,
+        "netSavedEditFraction": -0.029637760702524697,
+        "medianProjectCoverage": 0.05555555555555555,
+        "p25ProjectCoverage": 0.034294733821208206,
+        "positiveNetProjectFraction": 0.18181818181818182
+      },
+      "outerMetrics": {
+        "manualPositive": 117,
+        "generated": 13,
+        "combinedMatched": 4,
+        "combinedCoverage": 0.03418803418803419,
+        "precision": 0.3076923076923077,
+        "falseAdditions": 9,
+        "falseAdditionsPerMinute": 0.3605528476998064,
+        "netSavedEdits": -5,
+        "netSavedEditFraction": -0.042735042735042736,
+        "medianProjectCoverage": 0.03418803418803419,
+        "p25ProjectCoverage": 0.03418803418803419,
+        "positiveNetProjectFraction": 0.0
+      }
+    },
+    {
+      "foldId": "outer_02",
+      "generalizationGroupId": "group_03_footage_05_04_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_04_26_sfx"
+      ],
+      "c": 1.0,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 1,
+        "threshold": 0.7420904875709292
+      },
+      "innerMetrics": {
+        "manualPositive": 940,
+        "generated": 118,
+        "combinedMatched": 50,
+        "combinedCoverage": 0.05319148936170213,
+        "precision": 0.423728813559322,
+        "falseAdditions": 68,
+        "falseAdditionsPerMinute": 0.2909333554147377,
+        "netSavedEdits": -18,
+        "netSavedEditFraction": -0.019148936170212766,
+        "medianProjectCoverage": 0.05,
+        "p25ProjectCoverage": 0.034294733821208206,
+        "positiveNetProjectFraction": 0.2727272727272727
+      },
+      "outerMetrics": {
+        "manualPositive": 88,
+        "generated": 11,
+        "combinedMatched": 7,
+        "combinedCoverage": 0.07954545454545454,
+        "precision": 0.6363636363636364,
+        "falseAdditions": 4,
+        "falseAdditionsPerMinute": 0.1850692051988534,
+        "netSavedEdits": 3,
+        "netSavedEditFraction": 0.03409090909090909,
+        "medianProjectCoverage": 0.07954545454545454,
+        "p25ProjectCoverage": 0.07954545454545454,
+        "positiveNetProjectFraction": 1.0
+      }
+    },
+    {
+      "foldId": "outer_03",
+      "generalizationGroupId": "group_04_footage_05_07_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_07_26_sfx"
+      ],
+      "c": 0.3,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 2,
+        "threshold": 0.7148688576231398
+      },
+      "innerMetrics": {
+        "manualPositive": 866,
+        "generated": 118,
+        "combinedMatched": 49,
+        "combinedCoverage": 0.05658198614318707,
+        "precision": 0.4152542372881356,
+        "falseAdditions": 69,
+        "falseAdditionsPerMinute": 0.3040677005660056,
+        "netSavedEdits": -20,
+        "netSavedEditFraction": -0.023094688221709007,
+        "medianProjectCoverage": 0.042735042735042736,
+        "p25ProjectCoverage": 0.031518151815181514,
+        "positiveNetProjectFraction": 0.2727272727272727
+      },
+      "outerMetrics": {
+        "manualPositive": 162,
+        "generated": 15,
+        "combinedMatched": 6,
+        "combinedCoverage": 0.037037037037037035,
+        "precision": 0.4,
+        "falseAdditions": 9,
+        "falseAdditionsPerMinute": 0.31666845085881806,
+        "netSavedEdits": -3,
+        "netSavedEditFraction": -0.018518518518518517,
+        "medianProjectCoverage": 0.037037037037037035,
+        "p25ProjectCoverage": 0.037037037037037035,
+        "positiveNetProjectFraction": 0.0
+      }
+    },
+    {
+      "foldId": "outer_04",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_11_26_sfx"
+      ],
+      "c": 0.3,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 2,
+        "threshold": 0.7089736655092017
+      },
+      "innerMetrics": {
+        "manualPositive": 946,
+        "generated": 121,
+        "combinedMatched": 54,
+        "combinedCoverage": 0.05708245243128964,
+        "precision": 0.4462809917355372,
+        "falseAdditions": 67,
+        "falseAdditionsPerMinute": 0.28901735976221793,
+        "netSavedEdits": -13,
+        "netSavedEditFraction": -0.013742071881606765,
+        "medianProjectCoverage": 0.04950495049504951,
+        "p25ProjectCoverage": 0.026992753623188405,
+        "positiveNetProjectFraction": 0.36363636363636365
+      },
+      "outerMetrics": {
+        "manualPositive": 82,
+        "generated": 12,
+        "combinedMatched": 4,
+        "combinedCoverage": 0.04878048780487805,
+        "precision": 0.3333333333333333,
+        "falseAdditions": 8,
+        "falseAdditionsPerMinute": 0.34007740673310344,
+        "netSavedEdits": -4,
+        "netSavedEditFraction": -0.04878048780487805,
+        "medianProjectCoverage": 0.04878048780487805,
+        "p25ProjectCoverage": 0.04878048780487805,
+        "positiveNetProjectFraction": 0.0
+      }
+    },
+    {
+      "foldId": "outer_05",
+      "generalizationGroupId": "group_07_footage_05_17_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_17_26_sfx"
+      ],
+      "c": 3.0,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 2,
+        "threshold": 0.7655999398631326
+      },
+      "innerMetrics": {
+        "manualPositive": 955,
+        "generated": 123,
+        "combinedMatched": 50,
+        "combinedCoverage": 0.05235602094240838,
+        "precision": 0.4065040650406504,
+        "falseAdditions": 73,
+        "falseAdditionsPerMinute": 0.31012370332096756,
+        "netSavedEdits": -23,
+        "netSavedEditFraction": -0.024083769633507852,
+        "medianProjectCoverage": 0.05555555555555555,
+        "p25ProjectCoverage": 0.03869895536562203,
+        "positiveNetProjectFraction": 0.2727272727272727
+      },
+      "outerMetrics": {
+        "manualPositive": 73,
+        "generated": 10,
+        "combinedMatched": 4,
+        "combinedCoverage": 0.0547945205479452,
+        "precision": 0.4,
+        "falseAdditions": 6,
+        "falseAdditionsPerMinute": 0.30069007118461577,
+        "netSavedEdits": -2,
+        "netSavedEditFraction": -0.0273972602739726,
+        "medianProjectCoverage": 0.0547945205479452,
+        "p25ProjectCoverage": 0.0547945205479452,
+        "positiveNetProjectFraction": 0.0
+      }
+    },
+    {
+      "foldId": "outer_06",
+      "generalizationGroupId": "group_08_footage_05_19_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_19_26_sfx"
+      ],
+      "c": 0.3,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 1,
+        "threshold": 0.2
+      },
+      "innerMetrics": {
+        "manualPositive": 948,
+        "generated": 121,
+        "combinedMatched": 45,
+        "combinedCoverage": 0.04746835443037975,
+        "precision": 0.371900826446281,
+        "falseAdditions": 76,
+        "falseAdditionsPerMinute": 0.32907761090811743,
+        "netSavedEdits": -31,
+        "netSavedEditFraction": -0.03270042194092827,
+        "medianProjectCoverage": 0.04878048780487805,
+        "p25ProjectCoverage": 0.031339031339031334,
+        "positiveNetProjectFraction": 0.2727272727272727
+      },
+      "outerMetrics": {
+        "manualPositive": 80,
+        "generated": 13,
+        "combinedMatched": 8,
+        "combinedCoverage": 0.1,
+        "precision": 0.6153846153846154,
+        "falseAdditions": 5,
+        "falseAdditionsPerMinute": 0.20495598142282537,
+        "netSavedEdits": 3,
+        "netSavedEditFraction": 0.0375,
+        "medianProjectCoverage": 0.1,
+        "p25ProjectCoverage": 0.1,
+        "positiveNetProjectFraction": 1.0
+      }
+    },
+    {
+      "foldId": "outer_07",
+      "generalizationGroupId": "group_09_footage_05_26_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_26_26_sfx"
+      ],
+      "c": 1.0,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 1,
+        "threshold": 0.2
+      },
+      "innerMetrics": {
+        "manualPositive": 927,
+        "generated": 123,
+        "combinedMatched": 51,
+        "combinedCoverage": 0.05501618122977346,
+        "precision": 0.4146341463414634,
+        "falseAdditions": 72,
+        "falseAdditionsPerMinute": 0.30647422146786807,
+        "netSavedEdits": -21,
+        "netSavedEditFraction": -0.022653721682847898,
+        "medianProjectCoverage": 0.043478260869565216,
+        "p25ProjectCoverage": 0.029594017094017096,
+        "positiveNetProjectFraction": 0.36363636363636365
+      },
+      "outerMetrics": {
+        "manualPositive": 101,
+        "generated": 11,
+        "combinedMatched": 3,
+        "combinedCoverage": 0.0297029702970297,
+        "precision": 0.2727272727272727,
+        "falseAdditions": 8,
+        "falseAdditionsPerMinute": 0.39188782950895157,
+        "netSavedEdits": -5,
+        "netSavedEditFraction": -0.04950495049504951,
+        "medianProjectCoverage": 0.0297029702970297,
+        "p25ProjectCoverage": 0.0297029702970297,
+        "positiveNetProjectFraction": 0.0
+      }
+    },
+    {
+      "foldId": "outer_08",
+      "generalizationGroupId": "group_10_footage_05_27_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_27_26_sfx"
+      ],
+      "c": 0.3,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 2,
+        "threshold": 0.2
+      },
+      "innerMetrics": {
+        "manualPositive": 959,
+        "generated": 123,
+        "combinedMatched": 54,
+        "combinedCoverage": 0.056308654848800835,
+        "precision": 0.43902439024390244,
+        "falseAdditions": 69,
+        "falseAdditionsPerMinute": 0.2936919484872242,
+        "netSavedEdits": -15,
+        "netSavedEditFraction": -0.01564129301355579,
+        "medianProjectCoverage": 0.04950495049504951,
+        "p25ProjectCoverage": 0.039351851851851846,
+        "positiveNetProjectFraction": 0.36363636363636365
+      },
+      "outerMetrics": {
+        "manualPositive": 69,
+        "generated": 11,
+        "combinedMatched": 2,
+        "combinedCoverage": 0.028985507246376812,
+        "precision": 0.18181818181818182,
+        "falseAdditions": 9,
+        "falseAdditionsPerMinute": 0.4410900965705749,
+        "netSavedEdits": -7,
+        "netSavedEditFraction": -0.10144927536231885,
+        "medianProjectCoverage": 0.028985507246376812,
+        "p25ProjectCoverage": 0.028985507246376812,
+        "positiveNetProjectFraction": 0.0
+      }
+    },
+    {
+      "foldId": "outer_09",
+      "generalizationGroupId": "group_11_footage_05_31_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_31_26_sfx"
+      ],
+      "c": 0.3,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 1,
+        "threshold": 0.2
+      },
+      "innerMetrics": {
+        "manualPositive": 976,
+        "generated": 122,
+        "combinedMatched": 50,
+        "combinedCoverage": 0.05122950819672131,
+        "precision": 0.4098360655737705,
+        "falseAdditions": 72,
+        "falseAdditionsPerMinute": 0.30993117524907504,
+        "netSavedEdits": -22,
+        "netSavedEditFraction": -0.022540983606557378,
+        "medianProjectCoverage": 0.04950495049504951,
+        "p25ProjectCoverage": 0.0315867707172055,
+        "positiveNetProjectFraction": 0.2727272727272727
+      },
+      "outerMetrics": {
+        "manualPositive": 52,
+        "generated": 12,
+        "combinedMatched": 0,
+        "combinedCoverage": 0.0,
+        "precision": 0.0,
+        "falseAdditions": 12,
+        "falseAdditionsPerMinute": 0.5209599491367121,
+        "netSavedEdits": -12,
+        "netSavedEditFraction": -0.23076923076923078,
+        "medianProjectCoverage": 0.0,
+        "p25ProjectCoverage": 0.0,
+        "positiveNetProjectFraction": 0.0
+      }
+    },
+    {
+      "foldId": "outer_10",
+      "generalizationGroupId": "group_13_footage_06_05_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_06_05_26_sfx"
+      ],
+      "c": 0.3,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 1,
+        "threshold": 0.7048999974524648
+      },
+      "innerMetrics": {
+        "manualPositive": 908,
+        "generated": 120,
+        "combinedMatched": 49,
+        "combinedCoverage": 0.053964757709251104,
+        "precision": 0.4083333333333333,
+        "falseAdditions": 71,
+        "falseAdditionsPerMinute": 0.30738705871096333,
+        "netSavedEdits": -22,
+        "netSavedEditFraction": -0.024229074889867842,
+        "medianProjectCoverage": 0.05555555555555555,
+        "p25ProjectCoverage": 0.0315867707172055,
+        "positiveNetProjectFraction": 0.2727272727272727
+      },
+      "outerMetrics": {
+        "manualPositive": 120,
+        "generated": 13,
+        "combinedMatched": 3,
+        "combinedCoverage": 0.025,
+        "precision": 0.23076923076923078,
+        "falseAdditions": 10,
+        "falseAdditionsPerMinute": 0.4104265395640065,
+        "netSavedEdits": -7,
+        "netSavedEditFraction": -0.058333333333333334,
+        "medianProjectCoverage": 0.025,
+        "p25ProjectCoverage": 0.025,
+        "positiveNetProjectFraction": 0.0
+      }
+    },
+    {
+      "foldId": "outer_11",
+      "generalizationGroupId": "group_14_new_footage_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx"
+      ],
+      "testProjectIds": [
+        "new_footage_sfx"
+      ],
+      "c": 0.3,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 1,
+        "threshold": 0.2
+      },
+      "innerMetrics": {
+        "manualPositive": 1010,
+        "generated": 132,
+        "combinedMatched": 53,
+        "combinedCoverage": 0.05247524752475247,
+        "precision": 0.4015151515151515,
+        "falseAdditions": 79,
+        "falseAdditionsPerMinute": 0.31332973748855225,
+        "netSavedEdits": -26,
+        "netSavedEditFraction": -0.02574257425742574,
+        "medianProjectCoverage": 0.04950495049504951,
+        "p25ProjectCoverage": 0.028252611585944918,
+        "positiveNetProjectFraction": 0.36363636363636365
+      },
+      "outerMetrics": {
+        "manualPositive": 18,
+        "generated": 2,
+        "combinedMatched": 1,
+        "combinedCoverage": 0.05555555555555555,
+        "precision": 0.5,
+        "falseAdditions": 1,
+        "falseAdditionsPerMinute": 0.311188336300177,
+        "netSavedEdits": 0,
+        "netSavedEditFraction": 0.0,
+        "medianProjectCoverage": 0.05555555555555555,
+        "p25ProjectCoverage": 0.05555555555555555,
+        "positiveNetProjectFraction": 0.0
+      }
+    },
+    {
+      "foldId": "outer_12",
+      "generalizationGroupId": "group_15_footage_colored_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_11_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_colored_sfx"
+      ],
+      "c": 0.3,
+      "policy": {
+        "budgetPerMinute": 0.5,
+        "minimumSpacingSeconds": 2.5,
+        "segmentMax": 1,
+        "threshold": 0.2
+      },
+      "innerMetrics": {
+        "manualPositive": 962,
+        "generated": 123,
+        "combinedMatched": 46,
+        "combinedCoverage": 0.04781704781704782,
+        "precision": 0.37398373983739835,
+        "falseAdditions": 77,
+        "falseAdditionsPerMinute": 0.3286377702452085,
+        "netSavedEdits": -31,
+        "netSavedEditFraction": -0.032224532224532226,
+        "medianProjectCoverage": 0.04950495049504951,
+        "p25ProjectCoverage": 0.029924852388620506,
+        "positiveNetProjectFraction": 0.2727272727272727
+      },
+      "outerMetrics": {
+        "manualPositive": 66,
+        "generated": 11,
+        "combinedMatched": 8,
+        "combinedCoverage": 0.12121212121212122,
+        "precision": 0.7272727272727273,
+        "falseAdditions": 3,
+        "falseAdditionsPerMinute": 0.14256168376753464,
+        "netSavedEdits": 5,
+        "netSavedEditFraction": 0.07575757575757576,
+        "medianProjectCoverage": 0.12121212121212122,
+        "p25ProjectCoverage": 0.12121212121212122,
+        "positiveNetProjectFraction": 1.0
+      }
+    }
+  ],
+  "modelGrid": [
+    0.1,
+    0.3,
+    1.0,
+    3.0
+  ],
+  "policyGrid": {
+    "budgetsPerMinute": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0
+    ],
+    "spacingSeconds": [
+      2.5,
+      3.5,
+      5.0
+    ],
+    "segmentCaps": [
+      1,
+      2
+    ],
+    "thresholdQuantiles": [
+      0.5,
+      0.65,
+      0.8,
+      0.9,
+      0.95
+    ]
+  }
+}

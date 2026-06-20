@@ -1,0 +1,9 @@
+{
+  "protocol": "nested-grouped-caption-cv-v1",
+  "randomSeed": 20260618,
+  "lockedFinalHoldout": "footage_06_10_26_sfx",
+  "outerMetric": "outer-fold-only",
+  "matchToleranceSeconds": 0.75,
+  "groupingVersion": 1,
+  "precisionFloorVersion": 1
+}

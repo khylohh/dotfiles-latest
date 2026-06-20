@@ -1,0 +1,2298 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "bedc3f5b081f6efe4b30",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000960000_01",
+  "coreStartSec": 960,
+  "coreEndSec": 1020,
+  "contextStartSec": 952,
+  "contextEndSec": 1028,
+  "allowedCandidateIds": [
+    "cand_caption_beat_acbe4d682a63379e",
+    "cand_caption_beat_8f67bb4fba1ad3bc",
+    "cand_caption_beat_964d3c17ddc25bce",
+    "cand_caption_beat_06218452d7bf967d",
+    "cand_caption_beat_9659abccb3bdca6e",
+    "cand_caption_beat_218cfd4e241b6d41",
+    "cand_caption_beat_a5b7213588608c8f",
+    "cand_caption_beat_7990e3508cf72701",
+    "cand_caption_beat_fcf4479a2d1a7885",
+    "cand_caption_beat_96b95cfeabec98e8",
+    "cand_caption_beat_f74b253b98d588e9",
+    "cand_caption_beat_9177dba46d63c4ff",
+    "cand_caption_beat_2d34a4565afa213f",
+    "cand_caption_beat_da85efd26442088a",
+    "cand_caption_beat_f99b6e1e90188bd3",
+    "cand_caption_beat_eb8247733ba51ff3",
+    "cand_caption_beat_b8f00c78351a8f83",
+    "cand_caption_beat_d2282c2b568f3aa1",
+    "cand_caption_beat_50bcc5b847c2322d",
+    "cand_caption_beat_b1d5a3818c14b0b3",
+    "cand_caption_beat_b449cd83c6f7519b",
+    "cand_caption_beat_aacaab463df7672f",
+    "cand_caption_beat_57b9600dc9c66fc4",
+    "cand_caption_beat_16018940ad57c93a",
+    "cand_caption_beat_6dc9fa29d655fdb2",
+    "cand_caption_beat_887a9acfd56fbe93",
+    "cand_caption_beat_34f34139ce707e6d",
+    "cand_caption_beat_f7e5628cf12dc1c9",
+    "cand_caption_beat_9655c3d19a5d0b99",
+    "cand_caption_beat_f74c3e5aed51a3e0",
+    "cand_caption_beat_8c8adc249e68aee1",
+    "cand_caption_beat_6b50d5ece36450b1",
+    "cand_caption_beat_84d5b9068277a499",
+    "cand_caption_beat_048fff6b684d03d1",
+    "cand_caption_beat_69bcd0800259c991",
+    "cand_caption_beat_91c923960c42d93f",
+    "cand_caption_beat_54906d7181ca68be",
+    "cand_caption_beat_4141b73897dac40a",
+    "cand_caption_beat_e6f51f8ff522a18e",
+    "cand_caption_beat_3dc5fd98c7f29c70",
+    "cand_caption_beat_d9373ea1b1bc0a85",
+    "cand_caption_beat_e421398d06e9ab65",
+    "cand_caption_beat_e9758a865a4992bf",
+    "cand_caption_beat_e5f37f1ba447368f",
+    "cand_caption_beat_daf9e4d57ecd2649",
+    "cand_caption_beat_32719ecba5447dd3",
+    "cand_caption_beat_5316fab1ea47b676",
+    "cand_caption_beat_640e13ed521bfec6",
+    "cand_caption_beat_406fa1ff5b64161f",
+    "cand_caption_beat_a7efa350992e2ec2",
+    "cand_caption_beat_4fafbcd64f8dd5ea",
+    "cand_caption_beat_49e65393cda51d05",
+    "cand_caption_beat_d7f59b245d84f660",
+    "cand_caption_beat_52c1a7fea830ba12",
+    "cand_caption_beat_bb605e0f09b00686",
+    "cand_caption_beat_c655532ff3536b64",
+    "cand_caption_beat_27e78595758bb22d",
+    "cand_caption_beat_52c0511280176c94",
+    "cand_caption_beat_cd6a1d5caa6b3629",
+    "cand_caption_beat_a54164094236b1f7",
+    "cand_caption_beat_9b41aeef587f72a5",
+    "cand_caption_beat_9a3cf9413511d274",
+    "cand_caption_beat_cdeb3d307e6f6603",
+    "cand_caption_beat_431e642a78485b86",
+    "cand_caption_beat_eb3b83bd0caeb126",
+    "cand_caption_beat_3b2988e85df6edf0",
+    "cand_caption_beat_c82288254f2f028c",
+    "cand_caption_beat_74fa44264d43899f",
+    "cand_caption_beat_f4d4c4ea72c06328",
+    "cand_caption_beat_510f6a51fe3be1dc",
+    "cand_caption_beat_b055e1f21d16e0ae",
+    "cand_caption_beat_4a23524af79ce2bc",
+    "cand_caption_beat_c69cf8b0a35f35f7",
+    "cand_caption_beat_21fc78596ec7e79c",
+    "cand_caption_beat_4f2a34e471f91a2e"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00479",
+      "startSec": 952.36,
+      "endSec": 952.9,
+      "speakerKey": "speaker_4",
+      "text": "How was school?"
+    },
+    {
+      "cueId": "cue-00314",
+      "startSec": 953.76,
+      "endSec": 954.245,
+      "speakerKey": "speaker_1",
+      "text": "Good"
+    },
+    {
+      "cueId": "cue-00315",
+      "startSec": 955.18,
+      "endSec": 955.76,
+      "speakerKey": "speaker_1",
+      "text": "Where's George?"
+    },
+    {
+      "cueId": "cue-00480",
+      "startSec": 956.92,
+      "endSec": 957.8,
+      "speakerKey": "speaker_4",
+      "text": "Something happened in school"
+    },
+    {
+      "cueId": "cue-01143",
+      "startSec": 957.8,
+      "endSec": 958.573,
+      "speakerKey": "speaker_4",
+      "text": "Close the door right"
+    },
+    {
+      "cueId": "cue-00316",
+      "startSec": 958.76,
+      "endSec": 959.31,
+      "speakerKey": "speaker_1",
+      "text": "Don't tell me you"
+    },
+    {
+      "cueId": "2f18e758-8322-4f10-a249-c98bfe9554a4",
+      "startSec": 959.31,
+      "endSec": 960.01,
+      "speakerKey": "speaker_1",
+      "text": "forgot him"
+    },
+    {
+      "cueId": "cue-00317",
+      "startSec": 960.01,
+      "endSec": 960.36,
+      "speakerKey": "speaker_1",
+      "text": "papa"
+    },
+    {
+      "cueId": "cue-00481",
+      "startSec": 960.7,
+      "endSec": 961.2,
+      "speakerKey": "speaker_4",
+      "text": "No"
+    },
+    {
+      "cueId": "cue-01145",
+      "startSec": 961.2,
+      "endSec": 961.97,
+      "speakerKey": "speaker_4",
+      "text": "something bad happened"
+    },
+    {
+      "cueId": "cue-00318",
+      "startSec": 963.06,
+      "endSec": 963.672,
+      "speakerKey": "speaker_1",
+      "text": "What do you mean?"
+    },
+    {
+      "cueId": "cue-00482",
+      "startSec": 963.796,
+      "endSec": 964.4,
+      "speakerKey": "speaker_4",
+      "text": "Somebody hit"
+    },
+    {
+      "cueId": "1695a1fc-da61-43a1-8426-4acc16b12f1b",
+      "startSec": 964.4,
+      "endSec": 964.916,
+      "speakerKey": "speaker_4",
+      "text": "him in the mouth"
+    },
+    {
+      "cueId": "cue-01146",
+      "startSec": 965.076,
+      "endSec": 965.796,
+      "speakerKey": "speaker_4",
+      "text": "and he couldn't stop"
+    },
+    {
+      "cueId": "cue-01147",
+      "startSec": 965.9,
+      "endSec": 966.86,
+      "speakerKey": "speaker_4",
+      "text": "bleeding from his mouth"
+    },
+    {
+      "cueId": "cue-00319",
+      "startSec": 968.26,
+      "endSec": 969.16,
+      "speakerKey": "speaker_1",
+      "text": "Someone hit him?"
+    },
+    {
+      "cueId": "cue-00483",
+      "startSec": 969.34,
+      "endSec": 970.16,
+      "speakerKey": "speaker_4",
+      "text": "But he was playing"
+    },
+    {
+      "cueId": "cue-01148",
+      "startSec": 970.5,
+      "endSec": 970.97,
+      "speakerKey": "speaker_4",
+      "text": "basketball at"
+    },
+    {
+      "cueId": "df4106c8-1007-4792-84dd-c24316625903",
+      "startSec": 970.97,
+      "endSec": 971.82,
+      "speakerKey": "speaker_4",
+      "text": "recess and somebody"
+    },
+    {
+      "cueId": "cue-01149",
+      "startSec": 971.82,
+      "endSec": 972.86,
+      "speakerKey": "speaker_4",
+      "text": "hit him on accident"
+    },
+    {
+      "cueId": "cue-01150",
+      "startSec": 972.98,
+      "endSec": 973.8,
+      "speakerKey": "speaker_4",
+      "text": "and one of his"
+    },
+    {
+      "cueId": "87bf30fb-6667-43c2-974c-b45663969ac7",
+      "startSec": 973.8,
+      "endSec": 974.5,
+      "speakerKey": "speaker_4",
+      "text": "tooth fell off"
+    },
+    {
+      "cueId": "ee8b64d5-a5bf-48c1-9c05-7b6b617a1215",
+      "startSec": 975.233,
+      "endSec": 976.502,
+      "speakerKey": "speaker_3",
+      "text": "one of his tooth fell off?"
+    },
+    {
+      "cueId": "cue-01151",
+      "startSec": 976.988,
+      "endSec": 977.296,
+      "speakerKey": "speaker_4",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-01152",
+      "startSec": 977.296,
+      "endSec": 978.571,
+      "speakerKey": "speaker_4",
+      "text": "But his tooth wasn't ready"
+    },
+    {
+      "cueId": "cue-01153",
+      "startSec": 978.651,
+      "endSec": 979.35,
+      "speakerKey": "speaker_4",
+      "text": "so he's bleeding"
+    },
+    {
+      "cueId": "cue-00484",
+      "startSec": 979.35,
+      "endSec": 979.925,
+      "speakerKey": "speaker_3",
+      "text": "It was one of"
+    },
+    {
+      "cueId": "50b674a3-0606-48e7-ba3e-b555458f8912",
+      "startSec": 979.925,
+      "endSec": 980.68,
+      "speakerKey": "speaker_3",
+      "text": "the loose ones?"
+    },
+    {
+      "cueId": "cue-00485",
+      "startSec": 980.82,
+      "endSec": 981.12,
+      "speakerKey": "speaker_4",
+      "text": "No"
+    },
+    {
+      "cueId": "cue-01154",
+      "startSec": 981.12,
+      "endSec": 982.169,
+      "speakerKey": "speaker_4",
+      "text": "it wasn't loose enough"
+    },
+    {
+      "cueId": "cue-01155",
+      "startSec": 982.4,
+      "endSec": 983.4,
+      "speakerKey": "speaker_4",
+      "text": "so he was bleeding a lot"
+    },
+    {
+      "cueId": "cue-00486",
+      "startSec": 983.5,
+      "endSec": 984.394,
+      "speakerKey": "speaker_3",
+      "text": "Oh"
+    },
+    {
+      "cueId": "cue-00487",
+      "startSec": 984.8,
+      "endSec": 985.42,
+      "speakerKey": "speaker_4",
+      "text": "So I had to go pick"
+    },
+    {
+      "cueId": "cue-01156",
+      "startSec": 985.42,
+      "endSec": 986.38,
+      "speakerKey": "speaker_4",
+      "text": "him up because he wouldn't"
+    },
+    {
+      "cueId": "cue-01157",
+      "startSec": 986.38,
+      "endSec": 987.54,
+      "speakerKey": "speaker_4",
+      "text": "stop bleeding from his mouth"
+    },
+    {
+      "cueId": "cue-00488",
+      "startSec": 989.045,
+      "endSec": 989.845,
+      "speakerKey": "speaker_3",
+      "text": "was it a lot?"
+    },
+    {
+      "cueId": "cue-00489",
+      "startSec": 990.1,
+      "endSec": 991.54,
+      "speakerKey": "speaker_4",
+      "text": "It's a little better now since"
+    },
+    {
+      "cueId": "cue-01158",
+      "startSec": 991.54,
+      "endSec": 992.12,
+      "speakerKey": "speaker_4",
+      "text": "I picked him up"
+    },
+    {
+      "cueId": "cue-00320",
+      "startSec": 992.629,
+      "endSec": 993.899,
+      "speakerKey": "speaker_1",
+      "text": "Where's the tooth?"
+    },
+    {
+      "cueId": "cue-00490",
+      "startSec": 994.16,
+      "endSec": 994.939,
+      "speakerKey": "speaker_4",
+      "text": "he couldn't find it"
+    },
+    {
+      "cueId": "cue-01160",
+      "startSec": 994.939,
+      "endSec": 995.3,
+      "speakerKey": "speaker_4",
+      "text": "I don't know"
+    },
+    {
+      "cueId": "cue-01161",
+      "startSec": 995.46,
+      "endSec": 995.64,
+      "speakerKey": "speaker_4",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-01162",
+      "startSec": 995.692,
+      "endSec": 996.01,
+      "speakerKey": "speaker_4",
+      "text": "so"
+    },
+    {
+      "cueId": "cue-01163",
+      "startSec": 996.02,
+      "endSec": 996.52,
+      "speakerKey": "speaker_4",
+      "text": "I don't know if it"
+    },
+    {
+      "cueId": "cue-01164",
+      "startSec": 996.52,
+      "endSec": 997.372,
+      "speakerKey": "speaker_4",
+      "text": "stayed in school"
+    },
+    {
+      "cueId": "cue-01165",
+      "startSec": 997.7,
+      "endSec": 998.6,
+      "speakerKey": "speaker_4",
+      "text": "So maybe it fell"
+    },
+    {
+      "cueId": "a9922460-1720-4b2e-81cb-e04b081b05db",
+      "startSec": 998.6,
+      "endSec": 999.03,
+      "speakerKey": "speaker_4",
+      "text": "i don't know"
+    },
+    {
+      "cueId": "cue-00321",
+      "startSec": 999.04,
+      "endSec": 999.94,
+      "speakerKey": "speaker_1",
+      "text": "Do you think he also"
+    },
+    {
+      "cueId": "cue-00322",
+      "startSec": 999.94,
+      "endSec": 1000.74,
+      "speakerKey": "speaker_1",
+      "text": "hit himself from out"
+    },
+    {
+      "cueId": "cue-00323",
+      "startSec": 1000.82,
+      "endSec": 1002.35,
+      "speakerKey": "speaker_1",
+      "text": "here because they hit him"
+    },
+    {
+      "cueId": "cue-00324",
+      "startSec": 1002.421,
+      "endSec": 1002.827,
+      "speakerKey": "speaker_1",
+      "text": "right?"
+    },
+    {
+      "cueId": "cue-00491",
+      "startSec": 1003.28,
+      "endSec": 1003.64,
+      "speakerKey": "speaker_4",
+      "text": "No"
+    },
+    {
+      "cueId": "cue-01166",
+      "startSec": 1003.64,
+      "endSec": 1004.5,
+      "speakerKey": "speaker_4",
+      "text": "I think they were like"
+    },
+    {
+      "cueId": "cue-01167",
+      "startSec": 1004.78,
+      "endSec": 1005.36,
+      "speakerKey": "speaker_4",
+      "text": "he said I think it's"
+    },
+    {
+      "cueId": "cue-01169",
+      "startSec": 1005.42,
+      "endSec": 1006.3,
+      "speakerKey": "speaker_4",
+      "text": "an elbow or something"
+    },
+    {
+      "cueId": "cue-01170",
+      "startSec": 1006.3,
+      "endSec": 1006.814,
+      "speakerKey": "speaker_4",
+      "text": "I don't know"
+    },
+    {
+      "cueId": "eb511616-85c1-4c67-91db-f1f774dce38c",
+      "startSec": 1006.814,
+      "endSec": 1007.5,
+      "speakerKey": "speaker_4",
+      "text": "how it happened"
+    },
+    {
+      "cueId": "cue-00492",
+      "startSec": 1010.3,
+      "endSec": 1011.219,
+      "speakerKey": "speaker_4",
+      "text": "He's at home right now"
+    },
+    {
+      "cueId": "cue-01171",
+      "startSec": 1011.219,
+      "endSec": 1011.43,
+      "speakerKey": "speaker_4",
+      "text": "so"
+    },
+    {
+      "cueId": "cue-01172",
+      "startSec": 1011.43,
+      "endSec": 1011.808,
+      "speakerKey": "speaker_4",
+      "text": "he's"
+    },
+    {
+      "cueId": "cue-01174",
+      "startSec": 1012.048,
+      "endSec": 1012.628,
+      "speakerKey": "speaker_4",
+      "text": "he's bleeding a"
+    },
+    {
+      "cueId": "e62e28c6-4d48-4b28-8a82-2d56783c547d",
+      "startSec": 1012.628,
+      "endSec": 1013.185,
+      "speakerKey": "speaker_4",
+      "text": "little bit now"
+    },
+    {
+      "cueId": "cue-01175",
+      "startSec": 1013.185,
+      "endSec": 1014.499,
+      "speakerKey": "speaker_4",
+      "text": "like almost nothing"
+    },
+    {
+      "cueId": "cue-01176",
+      "startSec": 1015.14,
+      "endSec": 1016.2,
+      "speakerKey": "speaker_4",
+      "text": "We gave him Tylenol"
+    },
+    {
+      "cueId": "cue-01177",
+      "startSec": 1016.28,
+      "endSec": 1016.92,
+      "speakerKey": "speaker_4",
+      "text": "We're home"
+    },
+    {
+      "cueId": "cue-00493",
+      "startSec": 1017.64,
+      "endSec": 1018.36,
+      "speakerKey": "speaker_1",
+      "text": "Where is he?"
+    },
+    {
+      "cueId": "cue-00494",
+      "startSec": 1018.5,
+      "endSec": 1018.8,
+      "speakerKey": "speaker_4",
+      "text": "I don't know"
+    },
+    {
+      "cueId": "cue-01178",
+      "startSec": 1019.075,
+      "endSec": 1019.635,
+      "speakerKey": "speaker_4",
+      "text": "George!"
+    },
+    {
+      "cueId": "cue-00495",
+      "startSec": 1020.24,
+      "endSec": 1020.54,
+      "speakerKey": "speaker_3",
+      "text": "George?"
+    },
+    {
+      "cueId": "cue-00496",
+      "startSec": 1021.02,
+      "endSec": 1021.53,
+      "speakerKey": "speaker_4",
+      "text": "he's over here"
+    },
+    {
+      "cueId": "912688a3-63b1-4612-9b62-d240f91811d6",
+      "startSec": 1021.53,
+      "endSec": 1022.18,
+      "speakerKey": "speaker_4",
+      "text": "with his toys"
+    },
+    {
+      "cueId": "cue-00497",
+      "startSec": 1022.54,
+      "endSec": 1023.06,
+      "speakerKey": "speaker_3",
+      "text": "Are you okay?"
+    },
+    {
+      "cueId": "cue-00498",
+      "startSec": 1023.74,
+      "endSec": 1024.25,
+      "speakerKey": "speaker_4",
+      "text": "How do you feel"
+    },
+    {
+      "cueId": "cue-01179",
+      "startSec": 1024.25,
+      "endSec": 1024.49,
+      "speakerKey": "speaker_4",
+      "text": "pa?"
+    },
+    {
+      "cueId": "cue-00499",
+      "startSec": 1024.66,
+      "endSec": 1025.64,
+      "speakerKey": "speaker_1",
+      "text": "i heard what happened"
+    },
+    {
+      "cueId": "cue-01180",
+      "startSec": 1026.46,
+      "endSec": 1027.84,
+      "speakerKey": "speaker_3",
+      "text": "I'm just bleeding a little"
+    }
+  ],
+  "markedCaptionText": "[15:52.36 speaker_4] How was school?\n[15:53.76 speaker_1] Good\n[15:55.18 speaker_1] Where's George?\n[15:56.92 speaker_4] Something happened in school\n[15:57.80 speaker_4] Close the door right\n[15:58.76 speaker_1] Don't tell me you\n[15:59.31 speaker_1] forgot him <cand_caption_beat_acbe4d682a63379e>\n[16:00.01 speaker_1] papa <cand_caption_beat_acbe4d682a63379e>\n[16:00.70 speaker_4] No <cand_caption_beat_8f67bb4fba1ad3bc>\n[16:01.20 speaker_4] something bad happened <cand_caption_beat_964d3c17ddc25bce>\n[16:03.06 speaker_1] What do you mean? <cand_caption_beat_06218452d7bf967d> <cand_caption_beat_9659abccb3bdca6e>\n[16:03.80 speaker_4] Somebody hit <cand_caption_beat_218cfd4e241b6d41> <cand_caption_beat_a5b7213588608c8f>\n[16:04.40 speaker_4] him in the mouth <cand_caption_beat_a5b7213588608c8f> <cand_caption_beat_7990e3508cf72701> <cand_caption_beat_fcf4479a2d1a7885>\n[16:05.08 speaker_4] and he couldn't stop <cand_caption_beat_7990e3508cf72701> <cand_caption_beat_fcf4479a2d1a7885>\n[16:05.90 speaker_4] bleeding from his mouth <cand_caption_beat_fcf4479a2d1a7885> <cand_caption_beat_96b95cfeabec98e8>\n[16:08.26 speaker_1] Someone hit him? <cand_caption_beat_fcf4479a2d1a7885> <cand_caption_beat_f74b253b98d588e9> <cand_caption_beat_9177dba46d63c4ff>\n[16:09.34 speaker_4] But he was playing <cand_caption_beat_2d34a4565afa213f> <cand_caption_beat_da85efd26442088a>\n[16:10.50 speaker_4] basketball at <cand_caption_beat_f99b6e1e90188bd3>\n[16:10.97 speaker_4] recess and somebody <cand_caption_beat_f99b6e1e90188bd3> <cand_caption_beat_eb8247733ba51ff3>\n[16:11.82 speaker_4] hit him on accident <cand_caption_beat_eb8247733ba51ff3> <cand_caption_beat_b8f00c78351a8f83>\n[16:12.98 speaker_4] and one of his <cand_caption_beat_d2282c2b568f3aa1>\n[16:13.80 speaker_4] tooth fell off <cand_caption_beat_d2282c2b568f3aa1> <cand_caption_beat_50bcc5b847c2322d>\n[16:15.23 speaker_3] one of his tooth fell off? <cand_caption_beat_b1d5a3818c14b0b3> <cand_caption_beat_b449cd83c6f7519b>\n[16:16.99 speaker_4] Yeah <cand_caption_beat_aacaab463df7672f>\n[16:17.30 speaker_4] But his tooth wasn't ready <cand_caption_beat_aacaab463df7672f> <cand_caption_beat_57b9600dc9c66fc4>\n[16:18.65 speaker_4] so he's bleeding <cand_caption_beat_16018940ad57c93a>\n[16:19.35 speaker_3] It was one of <cand_caption_beat_16018940ad57c93a> <cand_caption_beat_6dc9fa29d655fdb2>\n[16:19.92 speaker_3] the loose ones? <cand_caption_beat_6dc9fa29d655fdb2> <cand_caption_beat_887a9acfd56fbe93>\n[16:20.82 speaker_4] No <cand_caption_beat_34f34139ce707e6d>\n[16:21.12 speaker_4] it wasn't loose enough <cand_caption_beat_34f34139ce707e6d> <cand_caption_beat_f7e5628cf12dc1c9>\n[16:22.40 speaker_4] so he was bleeding a lot <cand_caption_beat_9655c3d19a5d0b99> <cand_caption_beat_f74c3e5aed51a3e0>\n[16:23.50 speaker_3] Oh <cand_caption_beat_8c8adc249e68aee1> <cand_caption_beat_6b50d5ece36450b1>\n[16:24.80 speaker_4] So I had to go pick <cand_caption_beat_84d5b9068277a499> <cand_caption_beat_048fff6b684d03d1>\n[16:25.42 speaker_4] him up because he wouldn't <cand_caption_beat_048fff6b684d03d1> <cand_caption_beat_69bcd0800259c991>\n[16:26.38 speaker_4] stop bleeding from his mouth <cand_caption_beat_69bcd0800259c991> <cand_caption_beat_91c923960c42d93f>\n[16:29.04 speaker_3] was it a lot? <cand_caption_beat_54906d7181ca68be> <cand_caption_beat_4141b73897dac40a>\n[16:30.10 speaker_4] It's a little better now since <cand_caption_beat_e6f51f8ff522a18e> <cand_caption_beat_3dc5fd98c7f29c70> <cand_caption_beat_d9373ea1b1bc0a85>\n[16:31.54 speaker_4] I picked him up <cand_caption_beat_d9373ea1b1bc0a85> <cand_caption_beat_e421398d06e9ab65>\n[16:32.63 speaker_1] Where's the tooth? <cand_caption_beat_e9758a865a4992bf> <cand_caption_beat_e5f37f1ba447368f>\n[16:34.16 speaker_4] he couldn't find it <cand_caption_beat_daf9e4d57ecd2649> <cand_caption_beat_32719ecba5447dd3>\n[16:34.94 speaker_4] I don't know <cand_caption_beat_32719ecba5447dd3>\n[16:35.46 speaker_4] Yeah <cand_caption_beat_5316fab1ea47b676>\n[16:35.69 speaker_4] so <cand_caption_beat_5316fab1ea47b676>\n[16:36.02 speaker_4] I don't know if it <cand_caption_beat_640e13ed521bfec6>\n[16:36.52 speaker_4] stayed in school <cand_caption_beat_640e13ed521bfec6> <cand_caption_beat_406fa1ff5b64161f>\n[16:37.70 speaker_4] So maybe it fell <cand_caption_beat_a7efa350992e2ec2> <cand_caption_beat_4fafbcd64f8dd5ea>\n[16:38.60 speaker_4] i don't know <cand_caption_beat_4fafbcd64f8dd5ea>\n[16:39.04 speaker_1] Do you think he also <cand_caption_beat_49e65393cda51d05>\n[16:39.94 speaker_1] hit himself from out <cand_caption_beat_49e65393cda51d05> <cand_caption_beat_d7f59b245d84f660>\n[16:40.82 speaker_1] here because they hit him\n[16:42.42 speaker_1] right? <cand_caption_beat_52c1a7fea830ba12>\n[16:43.28 speaker_4] No <cand_caption_beat_bb605e0f09b00686>\n[16:43.64 speaker_4] I think they were like <cand_caption_beat_c655532ff3536b64>\n[16:44.78 speaker_4] he said I think it's <cand_caption_beat_27e78595758bb22d> <cand_caption_beat_52c0511280176c94>\n[16:45.42 speaker_4] an elbow or something\n[16:46.30 speaker_4] I don't know <cand_caption_beat_cd6a1d5caa6b3629>\n[16:46.81 speaker_4] how it happened <cand_caption_beat_a54164094236b1f7>\n[16:50.30 speaker_4] He's at home right now <cand_caption_beat_9b41aeef587f72a5>\n[16:51.22 speaker_4] so <cand_caption_beat_9a3cf9413511d274>\n[16:51.43 speaker_4] he's <cand_caption_beat_9a3cf9413511d274> <cand_caption_beat_cdeb3d307e6f6603>\n[16:52.05 speaker_4] he's bleeding a <cand_caption_beat_431e642a78485b86> <cand_caption_beat_eb3b83bd0caeb126>\n[16:52.63 speaker_4] little bit now <cand_caption_beat_3b2988e85df6edf0> <cand_caption_beat_c82288254f2f028c>\n[16:53.18 speaker_4] like almost nothing <cand_caption_beat_3b2988e85df6edf0> <cand_caption_beat_74fa44264d43899f>\n[16:55.14 speaker_4] We gave him Tylenol <cand_caption_beat_f4d4c4ea72c06328> <cand_caption_beat_510f6a51fe3be1dc>\n[16:56.28 speaker_4] We're home <cand_caption_beat_b055e1f21d16e0ae>\n[16:57.64 speaker_1] Where is he? <cand_caption_beat_4a23524af79ce2bc> <cand_caption_beat_c69cf8b0a35f35f7>\n[16:58.50 speaker_4] I don't know <cand_caption_beat_21fc78596ec7e79c>\n[16:59.08 speaker_4] George! <cand_caption_beat_4f2a34e471f91a2e>\n[17:00.24 speaker_3] George?\n[17:01.02 speaker_4] he's over here\n[17:01.53 speaker_4] with his toys\n[17:02.54 speaker_3] Are you okay?\n[17:03.74 speaker_4] How do you feel\n[17:04.25 speaker_4] pa?\n[17:04.66 speaker_1] i heard what happened\n[17:06.46 speaker_3] I'm just bleeding a little",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_acbe4d682a63379e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1214",
+      "beatGroupId": "beat_group_1214",
+      "relativeTimeSec": -0.04,
+      "absoluteTimeSec": 959.96,
+      "targetFrame": 57540,
+      "cueIds": [
+        "2f18e758-8322-4f10-a249-c98bfe9554a4",
+        "cue-00317"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "forgot him papa",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8f67bb4fba1ad3bc",
+      "momentId": "footage_05_11_26_sfx:beat_group_1215",
+      "beatGroupId": "beat_group_1215",
+      "relativeTimeSec": 0.96,
+      "absoluteTimeSec": 960.96,
+      "targetFrame": 57600,
+      "cueIds": [
+        "cue-00481"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "No",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.34,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_964d3c17ddc25bce",
+      "momentId": "footage_05_11_26_sfx:beat_group_1216",
+      "beatGroupId": "beat_group_1216",
+      "relativeTimeSec": 1.97,
+      "absoluteTimeSec": 961.97,
+      "targetFrame": 57661,
+      "cueIds": [
+        "cue-01145"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "something bad happened",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 1.09,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.692
+    },
+    {
+      "candidateId": "cand_caption_beat_06218452d7bf967d",
+      "momentId": "footage_05_11_26_sfx:beat_group_1217",
+      "beatGroupId": "beat_group_1217",
+      "relativeTimeSec": 3.06,
+      "absoluteTimeSec": 963.06,
+      "targetFrame": 57726,
+      "cueIds": [
+        "cue-00318"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "What do you mean?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 1.09,
+      "followingGapSec": 0.124,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": -0.398
+    },
+    {
+      "candidateId": "cand_caption_beat_9659abccb3bdca6e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1218",
+      "beatGroupId": "beat_group_1218",
+      "relativeTimeSec": 3.56,
+      "absoluteTimeSec": 963.56,
+      "targetFrame": 57756,
+      "cueIds": [
+        "cue-00318"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "What do you mean?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.09,
+      "followingGapSec": 0.124,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": -0.898
+    },
+    {
+      "candidateId": "cand_caption_beat_218cfd4e241b6d41",
+      "momentId": "footage_05_11_26_sfx:beat_group_1219",
+      "beatGroupId": "beat_group_1219",
+      "relativeTimeSec": 3.796,
+      "absoluteTimeSec": 963.796,
+      "targetFrame": 57770,
+      "cueIds": [
+        "cue-00482"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Somebody hit",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.124,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.134
+    },
+    {
+      "candidateId": "cand_caption_beat_a5b7213588608c8f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1220",
+      "beatGroupId": "beat_group_1220",
+      "relativeTimeSec": 4.38,
+      "absoluteTimeSec": 964.38,
+      "targetFrame": 57805,
+      "cueIds": [
+        "1695a1fc-da61-43a1-8426-4acc16b12f1b",
+        "cue-00482"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "him in the mouth Somebody hit",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.124,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.485
+    },
+    {
+      "candidateId": "cand_caption_beat_7990e3508cf72701",
+      "momentId": "footage_05_11_26_sfx:beat_group_1221",
+      "beatGroupId": "beat_group_1221",
+      "relativeTimeSec": 5.1,
+      "absoluteTimeSec": 965.1,
+      "targetFrame": 57848,
+      "cueIds": [
+        "1695a1fc-da61-43a1-8426-4acc16b12f1b",
+        "cue-01146"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "him in the mouth and he couldn't stop",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.16,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.765
+    },
+    {
+      "candidateId": "cand_caption_beat_fcf4479a2d1a7885",
+      "momentId": "footage_05_11_26_sfx:beat_group_1222",
+      "beatGroupId": "beat_group_1222",
+      "relativeTimeSec": 5.86,
+      "absoluteTimeSec": 965.86,
+      "targetFrame": 57894,
+      "cueIds": [
+        "1695a1fc-da61-43a1-8426-4acc16b12f1b",
+        "cue-00319",
+        "cue-01146",
+        "cue-01147"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "him in the mouth Someone hit him? and he couldn't stop bleeding from his mouth",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.16,
+      "followingGapSec": 0.104,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.005
+    },
+    {
+      "candidateId": "cand_caption_beat_96b95cfeabec98e8",
+      "momentId": "footage_05_11_26_sfx:beat_group_1223",
+      "beatGroupId": "beat_group_1223",
+      "relativeTimeSec": 6.86,
+      "absoluteTimeSec": 966.86,
+      "targetFrame": 57954,
+      "cueIds": [
+        "cue-01147"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "bleeding from his mouth",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.104,
+      "followingGapSec": 1.4,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.995
+    },
+    {
+      "candidateId": "cand_caption_beat_f74b253b98d588e9",
+      "momentId": "footage_05_11_26_sfx:beat_group_1224",
+      "beatGroupId": "beat_group_1224",
+      "relativeTimeSec": 8.26,
+      "absoluteTimeSec": 968.26,
+      "targetFrame": 58038,
+      "cueIds": [
+        "cue-00319"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Someone hit him?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 1.4,
+      "followingGapSec": 0.18,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9177dba46d63c4ff",
+      "momentId": "footage_05_11_26_sfx:beat_group_1225",
+      "beatGroupId": "beat_group_1225",
+      "relativeTimeSec": 9.16,
+      "absoluteTimeSec": 969.16,
+      "targetFrame": 58092,
+      "cueIds": [
+        "cue-00319"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Someone hit him?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.4,
+      "followingGapSec": 0.18,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": 1.343
+    },
+    {
+      "candidateId": "cand_caption_beat_2d34a4565afa213f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1226",
+      "beatGroupId": "beat_group_1226",
+      "relativeTimeSec": 9.34,
+      "absoluteTimeSec": 969.34,
+      "targetFrame": 58102,
+      "cueIds": [
+        "cue-00483"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "But he was playing",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.18,
+      "followingGapSec": 0.34,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.163
+    },
+    {
+      "candidateId": "cand_caption_beat_da85efd26442088a",
+      "momentId": "footage_05_11_26_sfx:beat_group_1227",
+      "beatGroupId": "beat_group_1227",
+      "relativeTimeSec": 10.16,
+      "absoluteTimeSec": 970.16,
+      "targetFrame": 58151,
+      "cueIds": [
+        "cue-00483"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "But he was playing",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.18,
+      "followingGapSec": 0.34,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.343
+    },
+    {
+      "candidateId": "cand_caption_beat_f99b6e1e90188bd3",
+      "momentId": "footage_05_11_26_sfx:beat_group_1228",
+      "beatGroupId": "beat_group_1228",
+      "relativeTimeSec": 10.96,
+      "absoluteTimeSec": 970.96,
+      "targetFrame": 58199,
+      "cueIds": [
+        "cue-01148",
+        "df4106c8-1007-4792-84dd-c24316625903"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "basketball at recess and somebody",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.34,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.457
+    },
+    {
+      "candidateId": "cand_caption_beat_eb8247733ba51ff3",
+      "momentId": "footage_05_11_26_sfx:beat_group_1229",
+      "beatGroupId": "beat_group_1229",
+      "relativeTimeSec": 11.78,
+      "absoluteTimeSec": 971.78,
+      "targetFrame": 58249,
+      "cueIds": [
+        "cue-01149",
+        "df4106c8-1007-4792-84dd-c24316625903"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "hit him on accident recess and somebody",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.277
+    },
+    {
+      "candidateId": "cand_caption_beat_b8f00c78351a8f83",
+      "momentId": "footage_05_11_26_sfx:beat_group_1230",
+      "beatGroupId": "beat_group_1230",
+      "relativeTimeSec": 12.86,
+      "absoluteTimeSec": 972.86,
+      "targetFrame": 58313,
+      "cueIds": [
+        "cue-01149"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "hit him on accident",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_d2282c2b568f3aa1",
+      "momentId": "footage_05_11_26_sfx:beat_group_1231",
+      "beatGroupId": "beat_group_1231",
+      "relativeTimeSec": 13.78,
+      "absoluteTimeSec": 973.78,
+      "targetFrame": 58368,
+      "cueIds": [
+        "87bf30fb-6667-43c2-974c-b45663969ac7",
+        "cue-01150"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "tooth fell off and one of his",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.061
+    },
+    {
+      "candidateId": "cand_caption_beat_50bcc5b847c2322d",
+      "momentId": "footage_05_11_26_sfx:beat_group_1232",
+      "beatGroupId": "beat_group_1232",
+      "relativeTimeSec": 14.5,
+      "absoluteTimeSec": 974.5,
+      "targetFrame": 58412,
+      "cueIds": [
+        "87bf30fb-6667-43c2-974c-b45663969ac7"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "tooth fell off",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.733,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.341
+    },
+    {
+      "candidateId": "cand_caption_beat_b1d5a3818c14b0b3",
+      "momentId": "footage_05_11_26_sfx:beat_group_1233",
+      "beatGroupId": "beat_group_1233",
+      "relativeTimeSec": 15.233,
+      "absoluteTimeSec": 975.233,
+      "targetFrame": 58456,
+      "cueIds": [
+        "ee8b64d5-a5bf-48c1-9c05-7b6b617a1215"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "one of his tooth fell off?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.733,
+      "followingGapSec": 0.486,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": -0.393
+    },
+    {
+      "candidateId": "cand_caption_beat_b449cd83c6f7519b",
+      "momentId": "footage_05_11_26_sfx:beat_group_1234",
+      "beatGroupId": "beat_group_1234",
+      "relativeTimeSec": 16.22,
+      "absoluteTimeSec": 976.22,
+      "targetFrame": 58515,
+      "cueIds": [
+        "ee8b64d5-a5bf-48c1-9c05-7b6b617a1215"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "one of his tooth fell off?",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.733,
+      "followingGapSec": 0.486,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": -1.379
+    },
+    {
+      "candidateId": "cand_caption_beat_aacaab463df7672f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1235",
+      "beatGroupId": "beat_group_1235",
+      "relativeTimeSec": 17.3,
+      "absoluteTimeSec": 977.3,
+      "targetFrame": 58579,
+      "cueIds": [
+        "cue-01151",
+        "cue-01152"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Yeah But his tooth wasn't ready",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.486,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_57b9600dc9c66fc4",
+      "momentId": "footage_05_11_26_sfx:beat_group_1236",
+      "beatGroupId": "beat_group_1236",
+      "relativeTimeSec": 18.52,
+      "absoluteTimeSec": 978.52,
+      "targetFrame": 58653,
+      "cueIds": [
+        "cue-01152"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "But his tooth wasn't ready",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.425
+    },
+    {
+      "candidateId": "cand_caption_beat_16018940ad57c93a",
+      "momentId": "footage_05_11_26_sfx:beat_group_1237",
+      "beatGroupId": "beat_group_1237",
+      "relativeTimeSec": 19.36,
+      "absoluteTimeSec": 979.36,
+      "targetFrame": 58703,
+      "cueIds": [
+        "cue-00484",
+        "cue-01153"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "It was one of so he's bleeding",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.415
+    },
+    {
+      "candidateId": "cand_caption_beat_6dc9fa29d655fdb2",
+      "momentId": "footage_05_11_26_sfx:beat_group_1238",
+      "beatGroupId": "beat_group_1238",
+      "relativeTimeSec": 19.89,
+      "absoluteTimeSec": 979.89,
+      "targetFrame": 58735,
+      "cueIds": [
+        "50b674a3-0606-48e7-ba3e-b555458f8912",
+        "cue-00484"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "the loose ones? It was one of",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.945
+    },
+    {
+      "candidateId": "cand_caption_beat_887a9acfd56fbe93",
+      "momentId": "footage_05_11_26_sfx:beat_group_1239",
+      "beatGroupId": "beat_group_1239",
+      "relativeTimeSec": 20.68,
+      "absoluteTimeSec": 980.68,
+      "targetFrame": 58782,
+      "cueIds": [
+        "50b674a3-0606-48e7-ba3e-b555458f8912"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "the loose ones?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.14,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_34f34139ce707e6d",
+      "momentId": "footage_05_11_26_sfx:beat_group_1240",
+      "beatGroupId": "beat_group_1240",
+      "relativeTimeSec": 21.08,
+      "absoluteTimeSec": 981.08,
+      "targetFrame": 58806,
+      "cueIds": [
+        "cue-00485",
+        "cue-01154"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "No it wasn't loose enough",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.14,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f7e5628cf12dc1c9",
+      "momentId": "footage_05_11_26_sfx:beat_group_1241",
+      "beatGroupId": "beat_group_1241",
+      "relativeTimeSec": 22.2,
+      "absoluteTimeSec": 982.2,
+      "targetFrame": 58873,
+      "cueIds": [
+        "cue-01154"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "it wasn't loose enough",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.231,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9655c3d19a5d0b99",
+      "momentId": "footage_05_11_26_sfx:beat_group_1242",
+      "beatGroupId": "beat_group_1242",
+      "relativeTimeSec": 22.4,
+      "absoluteTimeSec": 982.4,
+      "targetFrame": 58885,
+      "cueIds": [
+        "cue-01155"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "so he was bleeding a lot",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.231,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f74c3e5aed51a3e0",
+      "momentId": "footage_05_11_26_sfx:beat_group_1243",
+      "beatGroupId": "beat_group_1243",
+      "relativeTimeSec": 23.4,
+      "absoluteTimeSec": 983.4,
+      "targetFrame": 58945,
+      "cueIds": [
+        "cue-01155"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "so he was bleeding a lot",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.231,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8c8adc249e68aee1",
+      "momentId": "footage_05_11_26_sfx:beat_group_1244",
+      "beatGroupId": "beat_group_1244",
+      "relativeTimeSec": 23.5,
+      "absoluteTimeSec": 983.5,
+      "targetFrame": 58951,
+      "cueIds": [
+        "cue-00486"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "Oh",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0.406,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6b50d5ece36450b1",
+      "momentId": "footage_05_11_26_sfx:beat_group_1245",
+      "beatGroupId": "beat_group_1245",
+      "relativeTimeSec": 24.1,
+      "absoluteTimeSec": 984.1,
+      "targetFrame": 58987,
+      "cueIds": [
+        "cue-00486"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "Oh",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0.406,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.917
+    },
+    {
+      "candidateId": "cand_caption_beat_84d5b9068277a499",
+      "momentId": "footage_05_11_26_sfx:beat_group_1246",
+      "beatGroupId": "beat_group_1246",
+      "relativeTimeSec": 24.8,
+      "absoluteTimeSec": 984.8,
+      "targetFrame": 59029,
+      "cueIds": [
+        "cue-00487"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So I had to go pick",
+      "anchorTypes": [
+        "cue_start",
+        "internal_pause_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.406,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.95,
+      "nearestZoomDeltaSec": 0.217
+    },
+    {
+      "candidateId": "cand_caption_beat_048fff6b684d03d1",
+      "momentId": "footage_05_11_26_sfx:beat_group_1247",
+      "beatGroupId": "beat_group_1247",
+      "relativeTimeSec": 25.4,
+      "absoluteTimeSec": 985.4,
+      "targetFrame": 59065,
+      "cueIds": [
+        "cue-00487",
+        "cue-01156"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So I had to go pick him up because he wouldn't",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.406,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": -0.383
+    },
+    {
+      "candidateId": "cand_caption_beat_69bcd0800259c991",
+      "momentId": "footage_05_11_26_sfx:beat_group_1248",
+      "beatGroupId": "beat_group_1248",
+      "relativeTimeSec": 26.34,
+      "absoluteTimeSec": 986.34,
+      "targetFrame": 59121,
+      "cueIds": [
+        "cue-01156",
+        "cue-01157"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "him up because he wouldn't stop bleeding from his mouth",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.323
+    },
+    {
+      "candidateId": "cand_caption_beat_91c923960c42d93f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1249",
+      "beatGroupId": "beat_group_1249",
+      "relativeTimeSec": 27.54,
+      "absoluteTimeSec": 987.54,
+      "targetFrame": 59193,
+      "cueIds": [
+        "cue-01157"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "stop bleeding from his mouth",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 1.505,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_54906d7181ca68be",
+      "momentId": "footage_05_11_26_sfx:beat_group_1250",
+      "beatGroupId": "beat_group_1250",
+      "relativeTimeSec": 29.045,
+      "absoluteTimeSec": 989.045,
+      "targetFrame": 59283,
+      "cueIds": [
+        "cue-00488"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "was it a lot?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 1.505,
+      "followingGapSec": 0.255,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": 1.077
+    },
+    {
+      "candidateId": "cand_caption_beat_4141b73897dac40a",
+      "momentId": "footage_05_11_26_sfx:beat_group_1251",
+      "beatGroupId": "beat_group_1251",
+      "relativeTimeSec": 29.879,
+      "absoluteTimeSec": 989.879,
+      "targetFrame": 59333,
+      "cueIds": [
+        "cue-00488"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "was it a lot?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.505,
+      "followingGapSec": 0.255,
+      "boundaryStrength": 1,
+      "nearestZoomDeltaSec": 0.243
+    },
+    {
+      "candidateId": "cand_caption_beat_e6f51f8ff522a18e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1252",
+      "beatGroupId": "beat_group_1252",
+      "relativeTimeSec": 30.3,
+      "absoluteTimeSec": 990.3,
+      "targetFrame": 59359,
+      "cueIds": [
+        "cue-00489"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "It's a little better now since",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.255,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.65,
+      "nearestZoomDeltaSec": -0.178
+    },
+    {
+      "candidateId": "cand_caption_beat_3dc5fd98c7f29c70",
+      "momentId": "footage_05_11_26_sfx:beat_group_1253",
+      "beatGroupId": "beat_group_1253",
+      "relativeTimeSec": 30.999,
+      "absoluteTimeSec": 990.999,
+      "targetFrame": 59401,
+      "cueIds": [
+        "cue-00489"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "It's a little better now since",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.255,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": -0.877
+    },
+    {
+      "candidateId": "cand_caption_beat_d9373ea1b1bc0a85",
+      "momentId": "footage_05_11_26_sfx:beat_group_1254",
+      "beatGroupId": "beat_group_1254",
+      "relativeTimeSec": 31.48,
+      "absoluteTimeSec": 991.48,
+      "targetFrame": 59429,
+      "cueIds": [
+        "cue-00489",
+        "cue-01158"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "It's a little better now since I picked him up",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.255,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.358
+    },
+    {
+      "candidateId": "cand_caption_beat_e421398d06e9ab65",
+      "momentId": "footage_05_11_26_sfx:beat_group_1255",
+      "beatGroupId": "beat_group_1255",
+      "relativeTimeSec": 32.12,
+      "absoluteTimeSec": 992.12,
+      "targetFrame": 59468,
+      "cueIds": [
+        "cue-01158"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I picked him up",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.509,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e9758a865a4992bf",
+      "momentId": "footage_05_11_26_sfx:beat_group_1256",
+      "beatGroupId": "beat_group_1256",
+      "relativeTimeSec": 32.629,
+      "absoluteTimeSec": 992.629,
+      "targetFrame": 59498,
+      "cueIds": [
+        "cue-00320"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Where's the tooth?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.509,
+      "followingGapSec": 0.261,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e5f37f1ba447368f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1257",
+      "beatGroupId": "beat_group_1257",
+      "relativeTimeSec": 33.899,
+      "absoluteTimeSec": 993.899,
+      "targetFrame": 59574,
+      "cueIds": [
+        "cue-00320"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Where's the tooth?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.509,
+      "followingGapSec": 0.261,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": 1.429
+    },
+    {
+      "candidateId": "cand_caption_beat_daf9e4d57ecd2649",
+      "momentId": "footage_05_11_26_sfx:beat_group_1258",
+      "beatGroupId": "beat_group_1258",
+      "relativeTimeSec": 34.16,
+      "absoluteTimeSec": 994.16,
+      "targetFrame": 59590,
+      "cueIds": [
+        "cue-00490"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "he couldn't find it",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.261,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.168
+    },
+    {
+      "candidateId": "cand_caption_beat_32719ecba5447dd3",
+      "momentId": "footage_05_11_26_sfx:beat_group_1259",
+      "beatGroupId": "beat_group_1259",
+      "relativeTimeSec": 34.96,
+      "absoluteTimeSec": 994.96,
+      "targetFrame": 59638,
+      "cueIds": [
+        "cue-00490",
+        "cue-01160"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "he couldn't find it I don't know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.261,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 0.368
+    },
+    {
+      "candidateId": "cand_caption_beat_5316fab1ea47b676",
+      "momentId": "footage_05_11_26_sfx:beat_group_1260",
+      "beatGroupId": "beat_group_1260",
+      "relativeTimeSec": 35.64,
+      "absoluteTimeSec": 995.64,
+      "targetFrame": 59679,
+      "cueIds": [
+        "cue-01161",
+        "cue-01162"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Yeah so",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.16,
+      "followingGapSec": 0.052,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.312
+    },
+    {
+      "candidateId": "cand_caption_beat_640e13ed521bfec6",
+      "momentId": "footage_05_11_26_sfx:beat_group_1261",
+      "beatGroupId": "beat_group_1261",
+      "relativeTimeSec": 36.46,
+      "absoluteTimeSec": 996.46,
+      "targetFrame": 59728,
+      "cueIds": [
+        "cue-01163",
+        "cue-01164"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I don't know if it stayed in school",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.01,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.132
+    },
+    {
+      "candidateId": "cand_caption_beat_406fa1ff5b64161f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1262",
+      "beatGroupId": "beat_group_1262",
+      "relativeTimeSec": 37.3,
+      "absoluteTimeSec": 997.3,
+      "targetFrame": 59778,
+      "cueIds": [
+        "cue-01164"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "stayed in school",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.328,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a7efa350992e2ec2",
+      "momentId": "footage_05_11_26_sfx:beat_group_1263",
+      "beatGroupId": "beat_group_1263",
+      "relativeTimeSec": 38.15,
+      "absoluteTimeSec": 998.15,
+      "targetFrame": 59829,
+      "cueIds": [
+        "cue-01165"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So maybe it fell",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.328,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.349
+    },
+    {
+      "candidateId": "cand_caption_beat_4fafbcd64f8dd5ea",
+      "momentId": "footage_05_11_26_sfx:beat_group_1264",
+      "beatGroupId": "beat_group_1264",
+      "relativeTimeSec": 38.56,
+      "absoluteTimeSec": 998.56,
+      "targetFrame": 59854,
+      "cueIds": [
+        "a9922460-1720-4b2e-81cb-e04b081b05db",
+        "cue-01165"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "i don't know So maybe it fell",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.01,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.939
+    },
+    {
+      "candidateId": "cand_caption_beat_49e65393cda51d05",
+      "momentId": "footage_05_11_26_sfx:beat_group_1265",
+      "beatGroupId": "beat_group_1265",
+      "relativeTimeSec": 39.9,
+      "absoluteTimeSec": 999.9,
+      "targetFrame": 59934,
+      "cueIds": [
+        "cue-00321",
+        "cue-00322"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Do you think he also hit himself from out",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.01,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.401
+    },
+    {
+      "candidateId": "cand_caption_beat_d7f59b245d84f660",
+      "momentId": "footage_05_11_26_sfx:beat_group_1266",
+      "beatGroupId": "beat_group_1266",
+      "relativeTimeSec": 40.74,
+      "absoluteTimeSec": 1000.74,
+      "targetFrame": 59984,
+      "cueIds": [
+        "cue-00322"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "hit himself from out",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.241
+    },
+    {
+      "candidateId": "cand_caption_beat_52c1a7fea830ba12",
+      "momentId": "footage_05_11_26_sfx:beat_group_1267",
+      "beatGroupId": "beat_group_1267",
+      "relativeTimeSec": 42.58,
+      "absoluteTimeSec": 1002.58,
+      "targetFrame": 60095,
+      "cueIds": [
+        "cue-00324"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "right?",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.071,
+      "followingGapSec": 0.453,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_bb605e0f09b00686",
+      "momentId": "footage_05_11_26_sfx:beat_group_1268",
+      "beatGroupId": "beat_group_1268",
+      "relativeTimeSec": 43.68,
+      "absoluteTimeSec": 1003.68,
+      "targetFrame": 60161,
+      "cueIds": [
+        "cue-00491"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "No",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.453,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c655532ff3536b64",
+      "momentId": "footage_05_11_26_sfx:beat_group_1269",
+      "beatGroupId": "beat_group_1269",
+      "relativeTimeSec": 44.5,
+      "absoluteTimeSec": 1004.5,
+      "targetFrame": 60210,
+      "cueIds": [
+        "cue-01166"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I think they were like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.28,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_27e78595758bb22d",
+      "momentId": "footage_05_11_26_sfx:beat_group_1270",
+      "beatGroupId": "beat_group_1270",
+      "relativeTimeSec": 44.78,
+      "absoluteTimeSec": 1004.78,
+      "targetFrame": 60227,
+      "cueIds": [
+        "cue-01167"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "he said I think it's",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.28,
+      "followingGapSec": 0.06,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_52c0511280176c94",
+      "momentId": "footage_05_11_26_sfx:beat_group_1271",
+      "beatGroupId": "beat_group_1271",
+      "relativeTimeSec": 45.36,
+      "absoluteTimeSec": 1005.36,
+      "targetFrame": 60261,
+      "cueIds": [
+        "cue-01167"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "he said I think it's",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.28,
+      "followingGapSec": 0.06,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.446
+    },
+    {
+      "candidateId": "cand_caption_beat_cd6a1d5caa6b3629",
+      "momentId": "footage_05_11_26_sfx:beat_group_1272",
+      "beatGroupId": "beat_group_1272",
+      "relativeTimeSec": 46.46,
+      "absoluteTimeSec": 1006.46,
+      "targetFrame": 60327,
+      "cueIds": [
+        "cue-01170"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I don't know",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.346
+    },
+    {
+      "candidateId": "cand_caption_beat_a54164094236b1f7",
+      "momentId": "footage_05_11_26_sfx:beat_group_1273",
+      "beatGroupId": "beat_group_1273",
+      "relativeTimeSec": 47.5,
+      "absoluteTimeSec": 1007.5,
+      "targetFrame": 60390,
+      "cueIds": [
+        "eb511616-85c1-4c67-91db-f1f774dce38c"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "how it happened",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 2.8,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.694
+    },
+    {
+      "candidateId": "cand_caption_beat_9b41aeef587f72a5",
+      "momentId": "footage_05_11_26_sfx:beat_group_1274",
+      "beatGroupId": "beat_group_1274",
+      "relativeTimeSec": 50.3,
+      "absoluteTimeSec": 1010.3,
+      "targetFrame": 60557,
+      "cueIds": [
+        "cue-00492"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "He's at home right now",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 2.8,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9a3cf9413511d274",
+      "momentId": "footage_05_11_26_sfx:beat_group_1275",
+      "beatGroupId": "beat_group_1275",
+      "relativeTimeSec": 51.42,
+      "absoluteTimeSec": 1011.42,
+      "targetFrame": 60625,
+      "cueIds": [
+        "cue-01171",
+        "cue-01172"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "so he's",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_cdeb3d307e6f6603",
+      "momentId": "footage_05_11_26_sfx:beat_group_1276",
+      "beatGroupId": "beat_group_1276",
+      "relativeTimeSec": 51.728,
+      "absoluteTimeSec": 1011.728,
+      "targetFrame": 60643,
+      "cueIds": [
+        "cue-01172"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "he's",
+      "anchorTypes": [
+        "cue_end_minus_80ms"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.24,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_431e642a78485b86",
+      "momentId": "footage_05_11_26_sfx:beat_group_1277",
+      "beatGroupId": "beat_group_1277",
+      "relativeTimeSec": 52.048,
+      "absoluteTimeSec": 1012.048,
+      "targetFrame": 60662,
+      "cueIds": [
+        "cue-01174"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "he's bleeding a",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.24,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_eb3b83bd0caeb126",
+      "momentId": "footage_05_11_26_sfx:beat_group_1278",
+      "beatGroupId": "beat_group_1278",
+      "relativeTimeSec": 52.8,
+      "absoluteTimeSec": 1012.8,
+      "targetFrame": 60707,
+      "cueIds": [
+        "cue-01174"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "he's bleeding a",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.24,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3b2988e85df6edf0",
+      "momentId": "footage_05_11_26_sfx:beat_group_1279",
+      "beatGroupId": "beat_group_1279",
+      "relativeTimeSec": 53.105,
+      "absoluteTimeSec": 1013.105,
+      "targetFrame": 60726,
+      "cueIds": [
+        "cue-01175",
+        "e62e28c6-4d48-4b28-8a82-2d56783c547d"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "like almost nothing little bit now",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c82288254f2f028c",
+      "momentId": "footage_05_11_26_sfx:beat_group_1280",
+      "beatGroupId": "beat_group_1280",
+      "relativeTimeSec": 53.64,
+      "absoluteTimeSec": 1013.64,
+      "targetFrame": 60758,
+      "cueIds": [
+        "e62e28c6-4d48-4b28-8a82-2d56783c547d"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "little bit now",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_74fa44264d43899f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1281",
+      "beatGroupId": "beat_group_1281",
+      "relativeTimeSec": 54.36,
+      "absoluteTimeSec": 1014.36,
+      "targetFrame": 60801,
+      "cueIds": [
+        "cue-01175"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "like almost nothing",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.641,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f4d4c4ea72c06328",
+      "momentId": "footage_05_11_26_sfx:beat_group_1282",
+      "beatGroupId": "beat_group_1282",
+      "relativeTimeSec": 55.14,
+      "absoluteTimeSec": 1015.14,
+      "targetFrame": 60848,
+      "cueIds": [
+        "cue-01176"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "We gave him Tylenol",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.641,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_510f6a51fe3be1dc",
+      "momentId": "footage_05_11_26_sfx:beat_group_1283",
+      "beatGroupId": "beat_group_1283",
+      "relativeTimeSec": 56.2,
+      "absoluteTimeSec": 1016.2,
+      "targetFrame": 60911,
+      "cueIds": [
+        "cue-01176"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "We gave him Tylenol",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.641,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b055e1f21d16e0ae",
+      "momentId": "footage_05_11_26_sfx:beat_group_1284",
+      "beatGroupId": "beat_group_1284",
+      "relativeTimeSec": 56.92,
+      "absoluteTimeSec": 1016.92,
+      "targetFrame": 60954,
+      "cueIds": [
+        "cue-01177"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "We're home",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.72,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4a23524af79ce2bc",
+      "momentId": "footage_05_11_26_sfx:beat_group_1285",
+      "beatGroupId": "beat_group_1285",
+      "relativeTimeSec": 57.64,
+      "absoluteTimeSec": 1017.64,
+      "targetFrame": 60997,
+      "cueIds": [
+        "cue-00493"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Where is he?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.72,
+      "followingGapSec": 0.14,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c69cf8b0a35f35f7",
+      "momentId": "footage_05_11_26_sfx:beat_group_1286",
+      "beatGroupId": "beat_group_1286",
+      "relativeTimeSec": 58.36,
+      "absoluteTimeSec": 1018.36,
+      "targetFrame": 61041,
+      "cueIds": [
+        "cue-00493"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Where is he?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.72,
+      "followingGapSec": 0.14,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_21fc78596ec7e79c",
+      "momentId": "footage_05_11_26_sfx:beat_group_1287",
+      "beatGroupId": "beat_group_1287",
+      "relativeTimeSec": 58.8,
+      "absoluteTimeSec": 1018.8,
+      "targetFrame": 61067,
+      "cueIds": [
+        "cue-00494"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I don't know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.14,
+      "followingGapSec": 0.275,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4f2a34e471f91a2e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1288",
+      "beatGroupId": "beat_group_1288",
+      "relativeTimeSec": 59.52,
+      "absoluteTimeSec": 1019.52,
+      "targetFrame": 61110,
+      "cueIds": [
+        "cue-01178"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "George!",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.275,
+      "followingGapSec": 0.605,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_colored_sfx:beat_group_42",
+      "projectId": "footage_colored_sfx",
+      "markedCaptionContext": "34.320 speaker_1: Huh?\n34.880 speaker_2: I am\n35.560 speaker_1: You are?\n<CANDIDATE>36.200 speaker_3: Yeah and I also have these</CANDIDATE>\n38.440 speaker_1: Okay\n38.860 speaker_1: so I think George\n39.760 speaker_1: he doesn't have to",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_17",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "13.040 speaker_1: Where?\n13.380 speaker_1: where are we at?\n13.704 speaker_2: guys we're here at\n<CANDIDATE>14.613 speaker_2: an ice skating arena</CANDIDATE>\n16.260 speaker_2: or is that what you call it?\n17.080 speaker_1: Ice skating arena yeah\n17.700 speaker_2: Because we wanna",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_70",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "50.280 speaker_2: You don't like it?\n52.120 speaker_2: And by the way\n53.000 speaker_2: look\n<CANDIDATE>54.476 speaker_1: my book</CANDIDATE>\n55.380 speaker_2: This is one of our\n56.355 speaker_2: favorite books\n57.460 speaker_1: Mine",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_17",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "13.600 speaker_1: But first let\n14.240 speaker_1: me tell you something\n15.200 speaker_1: We're here\n<CANDIDATE>16.400 speaker_1: because we're</CANDIDATE>\n<CANDIDATE>17.660 speaker_1: gonna be going</CANDIDATE>\n<CANDIDATE>18.680 speaker_1: to this store</CANDIDATE>\n19.840 speaker_1: and guess what?",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "new_footage_sfx:beat_group_46",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "35.960 speaker_4: like a resort?\n37.220 speaker_1: Yeah\n37.900 speaker_3: Are we gonna do some\n<CANDIDATE>39.500 speaker_3: games?</CANDIDATE>\n40.940 speaker_1: We'll see\n41.400 speaker_1: if there's games\n42.520 speaker_1: I don't know",
+      "humanDecision": "other_sfx",
+      "otherFamily": "dramatic"
+    },
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_42",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "34.320 speaker_3: I think she's over\n35.093 speaker_3: there next to the pool\n36.480 speaker_1: What is she doing?\n<CANDIDATE>37.560 speaker_3: I don't know</CANDIDATE>\n40.230 speaker_1: The heck?\n44.510 speaker_1: Amor?\n46.388 speaker_1: what are you guys doing?",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_19_26_sfx:beat_group_19",
+      "projectId": "footage_05_19_26_sfx",
+      "markedCaptionContext": "13.760 speaker_1: What are you talking about?\n14.980 speaker_4: I don't know\n15.440 speaker_4: math?\n<CANDIDATE>15.980 speaker_1: Okay so she's back there</CANDIDATE>\n<CANDIDATE>16.980 speaker_1: guys</CANDIDATE>\n17.620 speaker_1: we came to this new place\n19.320 speaker_1: close to Suri's school",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

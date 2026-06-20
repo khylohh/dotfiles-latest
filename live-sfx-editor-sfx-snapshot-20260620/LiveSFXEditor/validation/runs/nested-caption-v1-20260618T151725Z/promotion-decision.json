@@ -1,0 +1,68 @@
+{
+  "captionFamiliesEnabled": [],
+  "promoted": false,
+  "reason": "Caption family promotion requires outer-only nested metrics to clear predeclared family floors.",
+  "families": {
+    "ding": {
+      "matched": 0,
+      "generated": 0,
+      "manual": 686,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    "success": {
+      "matched": 0,
+      "generated": 0,
+      "manual": 345,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    "bonk": {
+      "matched": 0,
+      "generated": 0,
+      "manual": 373,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    "funny": {
+      "matched": 0,
+      "generated": 0,
+      "manual": 321,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    "bruh": {
+      "matched": 0,
+      "generated": 0,
+      "manual": 23,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    "record_scratch": {
+      "matched": 0,
+      "generated": 0,
+      "manual": 50,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    }
+  },
+  "lockedFinalHoldoutRunAllowed": false
+}

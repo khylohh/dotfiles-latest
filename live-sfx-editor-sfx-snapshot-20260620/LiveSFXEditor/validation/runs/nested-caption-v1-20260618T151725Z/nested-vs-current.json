@@ -1,0 +1,266 @@
+{
+  "ding": [
+    {
+      "row": "existing_reported_metric_untrusted",
+      "generated": 210,
+      "matched": 47,
+      "manual": 686,
+      "precision": 0.22380952380952382,
+      "wilsonLower90": 0.1891740965669747,
+      "recall": 0.06851311953352769,
+      "projects": 12
+    },
+    {
+      "row": "existing_fixed_policy_no_retune",
+      "generated": 0,
+      "matched": 0,
+      "manual": 686,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0,
+      "projects": 0
+    },
+    {
+      "row": "official_nested_outer_metric",
+      "matched": 0,
+      "generated": 0,
+      "manual": 686,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    {
+      "row": "contaminated_outer_oracle_policy",
+      "matched": 0,
+      "generated": 0,
+      "manual": 686,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    }
+  ],
+  "success": [
+    {
+      "row": "existing_reported_metric_untrusted",
+      "generated": 14,
+      "matched": 3,
+      "manual": 345,
+      "precision": 0.21428571428571427,
+      "wilsonLower90": 0.10798446191582332,
+      "recall": 0.008695652173913044,
+      "projects": 5
+    },
+    {
+      "row": "existing_fixed_policy_no_retune",
+      "generated": 0,
+      "matched": 0,
+      "manual": 345,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0,
+      "projects": 0
+    },
+    {
+      "row": "official_nested_outer_metric",
+      "matched": 0,
+      "generated": 0,
+      "manual": 345,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    {
+      "row": "contaminated_outer_oracle_policy",
+      "matched": 0,
+      "generated": 0,
+      "manual": 345,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    }
+  ],
+  "bonk": [
+    {
+      "row": "existing_reported_metric_untrusted",
+      "generated": 13,
+      "matched": 1,
+      "manual": 373,
+      "precision": 0.07692307692307693,
+      "wilsonLower90": 0.02330170371415785,
+      "recall": 0.002680965147453083,
+      "projects": 4
+    },
+    {
+      "row": "existing_fixed_policy_no_retune",
+      "generated": 0,
+      "matched": 0,
+      "manual": 373,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0,
+      "projects": 0
+    },
+    {
+      "row": "official_nested_outer_metric",
+      "matched": 0,
+      "generated": 0,
+      "manual": 373,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    {
+      "row": "contaminated_outer_oracle_policy",
+      "matched": 0,
+      "generated": 0,
+      "manual": 373,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    }
+  ],
+  "funny": [
+    {
+      "row": "existing_reported_metric_untrusted",
+      "generated": 11,
+      "matched": 2,
+      "manual": 321,
+      "precision": 0.18181818181818182,
+      "wilsonLower90": 0.0781220224548439,
+      "recall": 0.006230529595015576,
+      "projects": 8
+    },
+    {
+      "row": "existing_fixed_policy_no_retune",
+      "generated": 0,
+      "matched": 0,
+      "manual": 321,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0,
+      "projects": 0
+    },
+    {
+      "row": "official_nested_outer_metric",
+      "matched": 0,
+      "generated": 0,
+      "manual": 321,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    {
+      "row": "contaminated_outer_oracle_policy",
+      "matched": 0,
+      "generated": 0,
+      "manual": 321,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    }
+  ],
+  "bruh": [
+    {
+      "row": "existing_reported_metric_untrusted",
+      "generated": 0,
+      "matched": 0,
+      "manual": 23,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0
+    },
+    {
+      "row": "existing_fixed_policy_no_retune",
+      "generated": 0,
+      "matched": 0,
+      "manual": 23,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0,
+      "projects": 0
+    },
+    {
+      "row": "official_nested_outer_metric",
+      "matched": 0,
+      "generated": 0,
+      "manual": 23,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    {
+      "row": "contaminated_outer_oracle_policy",
+      "matched": 0,
+      "generated": 0,
+      "manual": 23,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    }
+  ],
+  "record_scratch": [
+    {
+      "row": "existing_reported_metric_untrusted",
+      "generated": 0,
+      "matched": 0,
+      "manual": 50,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0
+    },
+    {
+      "row": "existing_fixed_policy_no_retune",
+      "generated": 0,
+      "matched": 0,
+      "manual": 50,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0,
+      "projects": 0
+    },
+    {
+      "row": "official_nested_outer_metric",
+      "matched": 0,
+      "generated": 0,
+      "manual": 50,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    },
+    {
+      "row": "contaminated_outer_oracle_policy",
+      "matched": 0,
+      "generated": 0,
+      "manual": 50,
+      "precision": null,
+      "wilsonLower90": null,
+      "recall": 0.0,
+      "projects": 0,
+      "passesFloor": false
+    }
+  ]
+}

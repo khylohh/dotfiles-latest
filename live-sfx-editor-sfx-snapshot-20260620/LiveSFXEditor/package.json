@@ -1,0 +1,51 @@
+{
+  "name": "live-sfx-editor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "bridge": "/Applications/Codex.app/Contents/Resources/node scripts/live-sfx-bridge.mjs",
+    "sfx:pack-v1": "node scripts/sfx/build-automation-pack.mjs",
+    "sfx:generate-v1": "node scripts/sfx/generate-sfx-pass-cli.mjs",
+    "sfx:evidence-v1": "node scripts/sfx/build-caption-evidence.mjs",
+    "sfx:evaluate-v1": "node scripts/sfx/evaluate-sfx-pass.mjs",
+    "sfx:caption-slices-v1": "node scripts/sfx/export-caption-model-slices.mjs",
+    "sfx:caption-corpus-v2": "node scripts/sfx/export-visible-caption-corpus.mjs",
+    "sfx:positive-accent-moments-v1": "node scripts/sfx/build-positive-accent-moments.mjs",
+    "sfx:validation-protocol-v1": "node scripts/sfx/create-caption-validation-protocol.mjs",
+    "sfx:nested-validation-v1": ".venv-sfx/bin/python scripts/sfx/run-caption-nested-validation.py",
+    "sfx:positive-accent-validation-v1": ".venv-sfx/bin/python scripts/sfx/run-positive-accent-validation.py",
+    "sfx:positive-accent-oracle-v1": ".venv-sfx/bin/python scripts/sfx/analyze-positive-accent-candidate-oracle.py",
+    "sfx:positive-accent-moment-validation-v1": ".venv-sfx/bin/python scripts/sfx/run-positive-accent-moment-validation.py",
+    "sfx:positive-accent-codex-packets-v1": "node scripts/sfx/build-positive-accent-codex-packets.mjs",
+    "sfx:positive-accent-codex-worker-v1": "node scripts/sfx/run-positive-accent-codex-worker.mjs",
+    "sfx:positive-accent-codex-worker-batch-v1": "node scripts/sfx/run-positive-accent-codex-worker-batch.mjs",
+    "sfx:positive-accent-codex-project-filter-v1": "node scripts/sfx/run-positive-accent-codex-project-filter.mjs",
+    "sfx:positive-accent-codex-validate-v1": ".venv-sfx/bin/python scripts/sfx/validate-positive-accent-codex-selections.py",
+    "sfx:train-caption-model-v2": ".venv-sfx/bin/python scripts/sfx/train-caption-beat-model.py",
+    "test:sfx-v1": "node --test scripts/sfx-automation/test/*.test.mjs",
+    "build:electron-app": "node scripts/build-electron-app.mjs",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.58.2",
+    "vite": "^8.0.10"
+  }
+}

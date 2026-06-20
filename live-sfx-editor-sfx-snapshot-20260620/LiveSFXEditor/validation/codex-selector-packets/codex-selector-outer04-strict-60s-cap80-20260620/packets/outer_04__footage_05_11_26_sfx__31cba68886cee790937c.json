@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "31cba68886cee790937c",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000360000_01",
+  "coreStartSec": 360,
+  "coreEndSec": 364.75,
+  "contextStartSec": 352,
+  "contextEndSec": 372.75,
+  "allowedCandidateIds": [
+    "cand_caption_beat_112bfe1a9eeea4ba",
+    "cand_caption_beat_67025d6e9c3b1e6b",
+    "cand_caption_beat_6c3c04e9737c4c5e",
+    "cand_caption_beat_a60491a84d572007",
+    "cand_caption_beat_7edf191c1443808a"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00208",
+      "startSec": 351.135,
+      "endSec": 352.015,
+      "speakerKey": "speaker_1",
+      "text": "we tell jokes"
+    },
+    {
+      "cueId": "cue-00369",
+      "startSec": 352.2,
+      "endSec": 352.58,
+      "speakerKey": "speaker_2",
+      "text": "They have"
+    },
+    {
+      "cueId": "cue-00772",
+      "startSec": 353.08,
+      "endSec": 353.22,
+      "speakerKey": "speaker_2",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00773",
+      "startSec": 353.22,
+      "endSec": 353.55,
+      "speakerKey": "speaker_2",
+      "text": "a battle"
+    },
+    {
+      "cueId": "cue-00774",
+      "startSec": 353.62,
+      "endSec": 353.88,
+      "speakerKey": "speaker_2",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-00775",
+      "startSec": 354.2,
+      "endSec": 354.32,
+      "speakerKey": "speaker_2",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00776",
+      "startSec": 354.32,
+      "endSec": 355.49,
+      "speakerKey": "speaker_2",
+      "text": "between Suri and George"
+    },
+    {
+      "cueId": "cue-00777",
+      "startSec": 355.58,
+      "endSec": 356.16,
+      "speakerKey": "speaker_2",
+      "text": "Can you believe it?"
+    },
+    {
+      "cueId": "cue-00209",
+      "startSec": 356.42,
+      "endSec": 356.92,
+      "speakerKey": "speaker_1",
+      "text": "I don't know if it's"
+    },
+    {
+      "cueId": "cue-00210",
+      "startSec": 356.92,
+      "endSec": 358.039,
+      "speakerKey": "speaker_1",
+      "text": "like a riddle or a joke"
+    },
+    {
+      "cueId": "cue-00212",
+      "startSec": 358.46,
+      "endSec": 359.853,
+      "speakerKey": "speaker_1",
+      "text": "What type of cup"
+    },
+    {
+      "cueId": "25bd9605-2569-4cf3-9270-fad18cbf7b37",
+      "startSec": 360.825,
+      "endSec": 361.929,
+      "speakerKey": "speaker_1",
+      "text": "Can't hold water?"
+    },
+    {
+      "cueId": "cue-00370",
+      "startSec": 362.48,
+      "endSec": 363.3,
+      "speakerKey": "speaker_2",
+      "text": "I don't know"
+    },
+    {
+      "cueId": "cue-00778",
+      "startSec": 363.96,
+      "endSec": 365.42,
+      "speakerKey": "speaker_2",
+      "text": "You're gonna be deciding"
+    },
+    {
+      "cueId": "cue-00779",
+      "startSec": 365.54,
+      "endSec": 366.56,
+      "speakerKey": "speaker_2",
+      "text": "who's the best joke"
+    },
+    {
+      "cueId": "cue-00215",
+      "startSec": 366.7,
+      "endSec": 367.009,
+      "speakerKey": "speaker_1",
+      "text": "It's not like"
+    },
+    {
+      "cueId": "cue-00371",
+      "startSec": 367.02,
+      "endSec": 367.98,
+      "speakerKey": "speaker_2",
+      "text": "Suri or George"
+    },
+    {
+      "cueId": "cue-00780",
+      "startSec": 367.98,
+      "endSec": 368.163,
+      "speakerKey": "speaker_2",
+      "text": "okay"
+    },
+    {
+      "cueId": "cue-00781",
+      "startSec": 368.163,
+      "endSec": 368.4,
+      "speakerKey": "speaker_2",
+      "text": "guys?"
+    },
+    {
+      "cueId": "cue-00782",
+      "startSec": 368.54,
+      "endSec": 368.82,
+      "speakerKey": "speaker_2",
+      "text": "So"
+    },
+    {
+      "cueId": "cue-00216",
+      "startSec": 368.889,
+      "endSec": 369.597,
+      "speakerKey": "speaker_1",
+      "text": "Okay"
+    },
+    {
+      "cueId": "cue-00218",
+      "startSec": 369.658,
+      "endSec": 370.81,
+      "speakerKey": "speaker_1",
+      "text": "okay I'm gonna say"
+    },
+    {
+      "cueId": "cue-00219",
+      "startSec": 371.04,
+      "endSec": 372.022,
+      "speakerKey": "speaker_1",
+      "text": "It's a cupcake"
+    },
+    {
+      "cueId": "23088b72-bfa8-4776-9331-ed12afc08f93",
+      "startSec": 372.345,
+      "endSec": 373.5,
+      "speakerKey": "speaker_1",
+      "text": "because it's a cup"
+    }
+  ],
+  "markedCaptionText": "[05:51.13 speaker_1] we tell jokes\n[05:52.20 speaker_2] They have\n[05:53.08 speaker_2] like\n[05:53.22 speaker_2] a battle\n[05:53.62 speaker_2] guys\n[05:54.20 speaker_2] Yeah\n[05:54.32 speaker_2] between Suri and George\n[05:55.58 speaker_2] Can you believe it?\n[05:56.42 speaker_1] I don't know if it's\n[05:56.92 speaker_1] like a riddle or a joke\n[05:58.46 speaker_1] What type of cup\n[06:00.82 speaker_1] Can't hold water? <cand_caption_beat_112bfe1a9eeea4ba> <cand_caption_beat_67025d6e9c3b1e6b>\n[06:02.48 speaker_2] I don't know <cand_caption_beat_6c3c04e9737c4c5e> <cand_caption_beat_a60491a84d572007>\n[06:03.96 speaker_2] You're gonna be deciding <cand_caption_beat_7edf191c1443808a>\n[06:05.54 speaker_2] who's the best joke\n[06:06.70 speaker_1] It's not like\n[06:07.02 speaker_2] Suri or George\n[06:07.98 speaker_2] okay\n[06:08.16 speaker_2] guys?\n[06:08.54 speaker_2] So\n[06:08.89 speaker_1] Okay\n[06:09.66 speaker_1] okay I'm gonna say\n[06:11.04 speaker_1] It's a cupcake\n[06:12.35 speaker_1] because it's a cup",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_112bfe1a9eeea4ba",
+      "momentId": "footage_05_11_26_sfx:beat_group_481",
+      "beatGroupId": "beat_group_481",
+      "relativeTimeSec": 0.825,
+      "absoluteTimeSec": 360.825,
+      "targetFrame": 21628,
+      "cueIds": [
+        "25bd9605-2569-4cf3-9270-fad18cbf7b37"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Can't hold water?",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.972,
+      "followingGapSec": 0.551,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 1.437
+    },
+    {
+      "candidateId": "cand_caption_beat_67025d6e9c3b1e6b",
+      "momentId": "footage_05_11_26_sfx:beat_group_482",
+      "beatGroupId": "beat_group_482",
+      "relativeTimeSec": 1.62,
+      "absoluteTimeSec": 361.62,
+      "targetFrame": 21676,
+      "cueIds": [
+        "25bd9605-2569-4cf3-9270-fad18cbf7b37"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "Can't hold water?",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.972,
+      "followingGapSec": 0.551,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.642
+    },
+    {
+      "candidateId": "cand_caption_beat_6c3c04e9737c4c5e",
+      "momentId": "footage_05_11_26_sfx:beat_group_483",
+      "beatGroupId": "beat_group_483",
+      "relativeTimeSec": 2.48,
+      "absoluteTimeSec": 362.48,
+      "targetFrame": 21727,
+      "cueIds": [
+        "cue-00370"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I don't know",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.551,
+      "followingGapSec": 0.66,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": -0.218
+    },
+    {
+      "candidateId": "cand_caption_beat_a60491a84d572007",
+      "momentId": "footage_05_11_26_sfx:beat_group_484",
+      "beatGroupId": "beat_group_484",
+      "relativeTimeSec": 3.3,
+      "absoluteTimeSec": 363.3,
+      "targetFrame": 21776,
+      "cueIds": [
+        "cue-00370"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "I don't know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.551,
+      "followingGapSec": 0.66,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": -1.038
+    },
+    {
+      "candidateId": "cand_caption_beat_7edf191c1443808a",
+      "momentId": "footage_05_11_26_sfx:beat_group_485",
+      "beatGroupId": "beat_group_485",
+      "relativeTimeSec": 3.96,
+      "absoluteTimeSec": 363.96,
+      "targetFrame": 21816,
+      "cueIds": [
+        "cue-00778"
+      ],
+      "speakerKey": "speaker_2",
+      "captionText": "You're gonna be deciding",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.66,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_07_26_sfx:beat_group_60",
+      "projectId": "footage_05_07_26_sfx",
+      "markedCaptionContext": "54.860 speaker_2: if you see Suri\n55.500 speaker_2: and George kind of tired\n56.370 speaker_2: it's because they've been doing\n<CANDIDATE>57.080 speaker_2: testing all this week</CANDIDATE>\n58.500 speaker_2: in school\n60.769 speaker_2: Stary hasn't been doing testing\n64.560 speaker_2: So yeah",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_522",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "420.400 speaker_1: a lot\n421.480 speaker_2: I can really tell\n422.640 speaker_1: You guys can get\n<CANDIDATE>424.680 speaker_1: one thing</CANDIDATE>\n427.160 speaker_4: I already know what\n427.820 speaker_4: I'm gonna get\n428.200 speaker_1: So yeah",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_70",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "50.280 speaker_2: You don't like it?\n52.120 speaker_2: And by the way\n53.000 speaker_2: look\n<CANDIDATE>54.476 speaker_1: my book</CANDIDATE>\n55.380 speaker_2: This is one of our\n56.355 speaker_2: favorite books\n57.460 speaker_1: Mine",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "new_footage_sfx:beat_group_68",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "54.680 speaker_1: Okay guys\n55.140 speaker_1: we're gonna be starting\n55.940 speaker_1: on this room\n<CANDIDATE>58.920 speaker_1: Stary</CANDIDATE>\n60.340 speaker_2: Oh my God\n60.840 speaker_1: Okay\n61.800 speaker_1: So I don't know if there's",
+      "humanDecision": "other_sfx",
+      "otherFamily": "dramatic"
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_50",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n43.920 speaker_3: the humongous t-Rex\n<CANDIDATE>47.562 speaker_1: We got this big</CANDIDATE>\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be\n52.480 speaker_3: George's favorite",
+      "humanDecision": "other_sfx",
+      "otherFamily": "misc"
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_55",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "46.980 speaker_1: it's Stary's first time\n48.940 speaker_1: it's all of our first times\n50.300 speaker_1: And mommy\n<CANDIDATE>51.280 speaker_1: she doesn't know how to ice skate</CANDIDATE>\n52.120 speaker_1: guys\n52.520 speaker_1: So they need a bucket because\n54.120 speaker_1: they don't know how to do it",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_19_26_sfx:beat_group_80",
+      "projectId": "footage_05_19_26_sfx",
+      "markedCaptionContext": "53.640 speaker_2: she did?\n54.660 speaker_3: Yeah\n55.240 speaker_1: She did\n<CANDIDATE>56.666 speaker_3: what happened bebe?</CANDIDATE>\n58.060 speaker_3: You don't want ice cream?\n59.180 speaker_1: Okay\n59.400 speaker_1: guys",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

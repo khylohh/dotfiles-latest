@@ -1,0 +1,2115 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "91d7146412c84c26b775",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_001320000_01",
+  "coreStartSec": 1320,
+  "coreEndSec": 1380,
+  "contextStartSec": 1312,
+  "contextEndSec": 1388,
+  "allowedCandidateIds": [
+    "cand_caption_beat_97a680e0fd81fa9a",
+    "cand_caption_beat_250656c53684db71",
+    "cand_caption_beat_139f32ffecfe7bc0",
+    "cand_caption_beat_a3fbb4c67b8a8995",
+    "cand_caption_beat_70098e41c3bdc240",
+    "cand_caption_beat_a83999143922190b",
+    "cand_caption_beat_4c5d0be80cc69adc",
+    "cand_caption_beat_33179df54b23a3c3",
+    "cand_caption_beat_57c60a12b447a3b6",
+    "cand_caption_beat_4f6e945a66f2ee0a",
+    "cand_caption_beat_cdc3b7f0267981e4",
+    "cand_caption_beat_6bd2f9cd2f472593",
+    "cand_caption_beat_5d83204cac4ff989",
+    "cand_caption_beat_e35a0a0e94d26760",
+    "cand_caption_beat_b19b319528de8c14",
+    "cand_caption_beat_dbb6bfe403cc2c68",
+    "cand_caption_beat_350751f36bf1d353",
+    "cand_caption_beat_2c1c9af680757bc8",
+    "cand_caption_beat_5e91f669ab39ad8c",
+    "cand_caption_beat_403ce32358b39b1f",
+    "cand_caption_beat_fcb610a293601abe",
+    "cand_caption_beat_266f700751d5a011",
+    "cand_caption_beat_4737561646caafd6",
+    "cand_caption_beat_0c8fe25e140dbce4",
+    "cand_caption_beat_380350850b59f252",
+    "cand_caption_beat_0b3552d61017a2fd",
+    "cand_caption_beat_79f9176be6186b33",
+    "cand_caption_beat_31df7566f3163df5",
+    "cand_caption_beat_da9023a311bd9070",
+    "cand_caption_beat_5c18b76298c2a530",
+    "cand_caption_beat_481159c8ca115715",
+    "cand_caption_beat_d841c37cf1f98f0e",
+    "cand_caption_beat_a7fc1b1c1d348702",
+    "cand_caption_beat_8183d9ee8938d805",
+    "cand_caption_beat_76f76b9796458474",
+    "cand_caption_beat_3191699e0d13d6d8",
+    "cand_caption_beat_9e91c5e55413d911",
+    "cand_caption_beat_988c6391c66d17d1",
+    "cand_caption_beat_d3c5568740c90d82",
+    "cand_caption_beat_2e2995f4c2862278",
+    "cand_caption_beat_f89c4887e8335669",
+    "cand_caption_beat_8558425f89d5c7b1",
+    "cand_caption_beat_854fddd947066b1b",
+    "cand_caption_beat_3b2bdf17b6f5a382",
+    "cand_caption_beat_63f7273d6f5b6bf1",
+    "cand_caption_beat_29d355955b4d28df",
+    "cand_caption_beat_9741888e92363532",
+    "cand_caption_beat_87728a4d8e8ca90c",
+    "cand_caption_beat_f9c032e710612d07",
+    "cand_caption_beat_48cae69f05a19538",
+    "cand_caption_beat_7e26f1d74ed6bfcd",
+    "cand_caption_beat_c5d6567c8df0cf25",
+    "cand_caption_beat_a9608c1be0f0b6d2",
+    "cand_caption_beat_d68a2f7b53d70b9c",
+    "cand_caption_beat_6fd84c2012381768",
+    "cand_caption_beat_0fc6d3a370e2abc5",
+    "cand_caption_beat_83164bc0ec35a3d8",
+    "cand_caption_beat_e2d6b348366b7f00",
+    "cand_caption_beat_df371192b1ddc175",
+    "cand_caption_beat_25504f3dd64c057e",
+    "cand_caption_beat_fbc8a64062bd73f9",
+    "cand_caption_beat_b3894e16357b10a9",
+    "cand_caption_beat_5b8fe1cb239edd81",
+    "cand_caption_beat_be8f7723e35fa6ae",
+    "cand_caption_beat_e7a0b1af2995436d",
+    "cand_caption_beat_99037c96cbdc12ff",
+    "cand_caption_beat_84823e369ea96fe6",
+    "cand_caption_beat_3bbb323c749193eb",
+    "cand_caption_beat_b9017bbfb487c215"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00572",
+      "startSec": 1311.48,
+      "endSec": 1312.8,
+      "speakerKey": "speaker_4",
+      "text": "It's leaving"
+    },
+    {
+      "cueId": "cue-00573",
+      "startSec": 1312.96,
+      "endSec": 1313.7,
+      "speakerKey": "speaker_3",
+      "text": "Bye"
+    },
+    {
+      "cueId": "cue-00574",
+      "startSec": 1313.78,
+      "endSec": 1315.06,
+      "speakerKey": "speaker_4",
+      "text": "You think she's going back to"
+    },
+    {
+      "cueId": "cue-01393",
+      "startSec": 1315.192,
+      "endSec": 1315.8,
+      "speakerKey": "speaker_1",
+      "text": "The pond?"
+    },
+    {
+      "cueId": "cue-01394",
+      "startSec": 1315.879,
+      "endSec": 1316.519,
+      "speakerKey": "speaker_4",
+      "text": "to the pond?"
+    },
+    {
+      "cueId": "cue-00575",
+      "startSec": 1317,
+      "endSec": 1317.96,
+      "speakerKey": "speaker_3",
+      "text": "I think she is"
+    },
+    {
+      "cueId": "cue-00576",
+      "startSec": 1318.3,
+      "endSec": 1318.68,
+      "speakerKey": "speaker_4",
+      "text": "So"
+    },
+    {
+      "cueId": "cue-01396",
+      "startSec": 1319.14,
+      "endSec": 1319.78,
+      "speakerKey": "speaker_4",
+      "text": "we searched it"
+    },
+    {
+      "cueId": "cue-01397",
+      "startSec": 1319.86,
+      "endSec": 1320.14,
+      "speakerKey": "speaker_4",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-01398",
+      "startSec": 1320.26,
+      "endSec": 1321.58,
+      "speakerKey": "speaker_4",
+      "text": "and they do lay eggs"
+    },
+    {
+      "cueId": "cue-01399",
+      "startSec": 1321.58,
+      "endSec": 1322.66,
+      "speakerKey": "speaker_4",
+      "text": "They get out to lay eggs"
+    },
+    {
+      "cueId": "cue-01400",
+      "startSec": 1322.78,
+      "endSec": 1324.1,
+      "speakerKey": "speaker_4",
+      "text": "so we think this is a girl"
+    },
+    {
+      "cueId": "cue-01401",
+      "startSec": 1324.18,
+      "endSec": 1326.198,
+      "speakerKey": "speaker_4",
+      "text": "It's called a red-eared slider"
+    },
+    {
+      "cueId": "cue-01402",
+      "startSec": 1326.198,
+      "endSec": 1326.68,
+      "speakerKey": "speaker_4",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-01403",
+      "startSec": 1326.98,
+      "endSec": 1328.6,
+      "speakerKey": "speaker_4",
+      "text": "Look at how big she is"
+    },
+    {
+      "cueId": "cue-01404",
+      "startSec": 1328.6,
+      "endSec": 1329.82,
+      "speakerKey": "speaker_4",
+      "text": "She's the cutest"
+    },
+    {
+      "cueId": "cue-00577",
+      "startSec": 1329.84,
+      "endSec": 1331.16,
+      "speakerKey": "speaker_3",
+      "text": "you're so cute"
+    },
+    {
+      "cueId": "cue-00578",
+      "startSec": 1334.55,
+      "endSec": 1335.042,
+      "speakerKey": "speaker_4",
+      "text": "What do you think"
+    },
+    {
+      "cueId": "cue-01407",
+      "startSec": 1335.042,
+      "endSec": 1336.562,
+      "speakerKey": "speaker_4",
+      "text": "happened to her shell though?"
+    },
+    {
+      "cueId": "cue-00579",
+      "startSec": 1336.7,
+      "endSec": 1337.537,
+      "speakerKey": "speaker_3",
+      "text": "I don't know"
+    },
+    {
+      "cueId": "cue-00580",
+      "startSec": 1337.7,
+      "endSec": 1338.38,
+      "speakerKey": "speaker_4",
+      "text": "She's so fast"
+    },
+    {
+      "cueId": "cue-01408",
+      "startSec": 1338.38,
+      "endSec": 1339.334,
+      "speakerKey": "speaker_4",
+      "text": "Who said turtles were slow?"
+    },
+    {
+      "cueId": "cue-00581",
+      "startSec": 1339.334,
+      "endSec": 1339.955,
+      "speakerKey": "speaker_3",
+      "text": "I know"
+    },
+    {
+      "cueId": "b646e26f-6783-4b41-9f9e-d6096d18c96b",
+      "startSec": 1339.955,
+      "endSec": 1340.5,
+      "speakerKey": "speaker_3",
+      "text": "I know"
+    },
+    {
+      "cueId": "cue-00582",
+      "startSec": 1340.54,
+      "endSec": 1341,
+      "speakerKey": "speaker_4",
+      "text": "Did she say"
+    },
+    {
+      "cueId": "825454b9-e38c-4d17-9ce1-f3a86d59f5a4",
+      "startSec": 1341,
+      "endSec": 1341.76,
+      "speakerKey": "speaker_4",
+      "text": "turtles were slow?"
+    },
+    {
+      "cueId": "cue-00583",
+      "startSec": 1341.86,
+      "endSec": 1342.546,
+      "speakerKey": "speaker_3",
+      "text": "No"
+    },
+    {
+      "cueId": "cue-00584",
+      "startSec": 1342.85,
+      "endSec": 1343.175,
+      "speakerKey": "speaker_4",
+      "text": "Bro"
+    },
+    {
+      "cueId": "cue-01409",
+      "startSec": 1343.175,
+      "endSec": 1344.535,
+      "speakerKey": "speaker_4",
+      "text": "she's so quick"
+    },
+    {
+      "cueId": "cue-00326",
+      "startSec": 1344.6,
+      "endSec": 1345.271,
+      "speakerKey": "speaker_1",
+      "text": "They always say"
+    },
+    {
+      "cueId": "cue-00327",
+      "startSec": 1345.271,
+      "endSec": 1346.121,
+      "speakerKey": "speaker_1",
+      "text": "that turtles are slow"
+    },
+    {
+      "cueId": "cue-00328",
+      "startSec": 1346.201,
+      "endSec": 1346.811,
+      "speakerKey": "speaker_1",
+      "text": "but look at that"
+    },
+    {
+      "cueId": "cue-00329",
+      "startSec": 1346.811,
+      "endSec": 1347.116,
+      "speakerKey": "speaker_1",
+      "text": "bro"
+    },
+    {
+      "cueId": "cue-00585",
+      "startSec": 1347.34,
+      "endSec": 1348,
+      "speakerKey": "speaker_4",
+      "text": "Where's she going?"
+    },
+    {
+      "cueId": "cue-00330",
+      "startSec": 1348.92,
+      "endSec": 1349.5,
+      "speakerKey": "speaker_1",
+      "text": "They don't look slow"
+    },
+    {
+      "cueId": "cue-00586",
+      "startSec": 1350.31,
+      "endSec": 1350.76,
+      "speakerKey": "speaker_4",
+      "text": "Let's wait"
+    },
+    {
+      "cueId": "cue-01410",
+      "startSec": 1350.76,
+      "endSec": 1351.6,
+      "speakerKey": "speaker_4",
+      "text": "see where she goes"
+    },
+    {
+      "cueId": "cue-01411",
+      "startSec": 1351.838,
+      "endSec": 1352.74,
+      "speakerKey": "speaker_4",
+      "text": "So the turtle went"
+    },
+    {
+      "cueId": "cue-01412",
+      "startSec": 1352.74,
+      "endSec": 1353.82,
+      "speakerKey": "speaker_4",
+      "text": "inside the bushes"
+    },
+    {
+      "cueId": "cue-01413",
+      "startSec": 1353.98,
+      "endSec": 1354.639,
+      "speakerKey": "speaker_4",
+      "text": "She's just there"
+    },
+    {
+      "cueId": "cue-01414",
+      "startSec": 1354.94,
+      "endSec": 1355.94,
+      "speakerKey": "speaker_4",
+      "text": "I don't know if she's"
+    },
+    {
+      "cueId": "cue-01415",
+      "startSec": 1355.94,
+      "endSec": 1356.86,
+      "speakerKey": "speaker_4",
+      "text": "laying the eggs or not"
+    },
+    {
+      "cueId": "cue-01416",
+      "startSec": 1357.82,
+      "endSec": 1358.32,
+      "speakerKey": "speaker_4",
+      "text": "But"
+    },
+    {
+      "cueId": "000de897-afeb-4abb-9dfd-eaf19ac29d06",
+      "startSec": 1358.32,
+      "endSec": 1359.3,
+      "speakerKey": "speaker_4",
+      "text": "we didn't wanna wait anymore"
+    },
+    {
+      "cueId": "cue-01417",
+      "startSec": 1359.4,
+      "endSec": 1360.14,
+      "speakerKey": "speaker_4",
+      "text": "so George and suri are"
+    },
+    {
+      "cueId": "cue-01418",
+      "startSec": 1360.14,
+      "endSec": 1360.61,
+      "speakerKey": "speaker_4",
+      "text": "gonna be going"
+    },
+    {
+      "cueId": "2d4c8a00-1e79-4824-a6d9-92a17cd8abc4",
+      "startSec": 1360.61,
+      "endSec": 1361.28,
+      "speakerKey": "speaker_4",
+      "text": "inside the pool"
+    },
+    {
+      "cueId": "cue-00587",
+      "startSec": 1361.635,
+      "endSec": 1362.44,
+      "speakerKey": "speaker_3",
+      "text": "And I'm going"
+    },
+    {
+      "cueId": "cue-01419",
+      "startSec": 1362.44,
+      "endSec": 1363.84,
+      "speakerKey": "speaker_3",
+      "text": "on the Cheetos floaty"
+    },
+    {
+      "cueId": "cue-00588",
+      "startSec": 1364.06,
+      "endSec": 1365.18,
+      "speakerKey": "speaker_4",
+      "text": "She's going in the Cheeto"
+    },
+    {
+      "cueId": "cue-00590",
+      "startSec": 1366.96,
+      "endSec": 1368.62,
+      "speakerKey": "speaker_4",
+      "text": "And whoever falls first loses"
+    },
+    {
+      "cueId": "cue-00591",
+      "startSec": 1368.74,
+      "endSec": 1369.534,
+      "speakerKey": "speaker_3",
+      "text": "What do we win?"
+    },
+    {
+      "cueId": "cue-00592",
+      "startSec": 1369.68,
+      "endSec": 1370.499,
+      "speakerKey": "speaker_4",
+      "text": "So we had a boat"
+    },
+    {
+      "cueId": "cue-01420",
+      "startSec": 1370.499,
+      "endSec": 1370.659,
+      "speakerKey": "speaker_4",
+      "text": "guys"
+    },
+    {
+      "cueId": "cue-01421",
+      "startSec": 1370.86,
+      "endSec": 1371.28,
+      "speakerKey": "speaker_4",
+      "text": "but then"
+    },
+    {
+      "cueId": "cue-00593",
+      "startSec": 1371.357,
+      "endSec": 1372.14,
+      "speakerKey": "speaker_3",
+      "text": "It broke"
+    },
+    {
+      "cueId": "cue-00594",
+      "startSec": 1372.14,
+      "endSec": 1372.439,
+      "speakerKey": "speaker_4",
+      "text": "yeah"
+    },
+    {
+      "cueId": "cue-01422",
+      "startSec": 1372.439,
+      "endSec": 1372.917,
+      "speakerKey": "speaker_4",
+      "text": "it broke"
+    },
+    {
+      "cueId": "cue-01423",
+      "startSec": 1373.237,
+      "endSec": 1373.877,
+      "speakerKey": "speaker_4",
+      "text": "Literally new"
+    },
+    {
+      "cueId": "cue-01424",
+      "startSec": 1374,
+      "endSec": 1374.58,
+      "speakerKey": "speaker_4",
+      "text": "It's weird"
+    },
+    {
+      "cueId": "cue-00595",
+      "startSec": 1374.72,
+      "endSec": 1375.391,
+      "speakerKey": "speaker_3",
+      "text": "we Just got it"
+    },
+    {
+      "cueId": "cue-00596",
+      "startSec": 1380.48,
+      "endSec": 1380.78,
+      "speakerKey": "speaker_4",
+      "text": "George"
+    },
+    {
+      "cueId": "cue-01427",
+      "startSec": 1380.78,
+      "endSec": 1381.365,
+      "speakerKey": "speaker_4",
+      "text": "is that one"
+    },
+    {
+      "cueId": "cue-01428",
+      "startSec": 1381.56,
+      "endSec": 1382.331,
+      "speakerKey": "speaker_4",
+      "text": "broken too?"
+    },
+    {
+      "cueId": "cue-00597",
+      "startSec": 1382.5,
+      "endSec": 1383.179,
+      "speakerKey": "speaker_3",
+      "text": "I don't think so"
+    },
+    {
+      "cueId": "cue-01429",
+      "startSec": 1383.179,
+      "endSec": 1384.379,
+      "speakerKey": "speaker_3",
+      "text": "It just gets water in"
+    },
+    {
+      "cueId": "cue-00598",
+      "startSec": 1384.6,
+      "endSec": 1385.64,
+      "speakerKey": "speaker_4",
+      "text": "Inside the floaty?"
+    },
+    {
+      "cueId": "cue-00599",
+      "startSec": 1385.98,
+      "endSec": 1386.567,
+      "speakerKey": "speaker_3",
+      "text": "No"
+    }
+  ],
+  "markedCaptionText": "[21:51.48 speaker_4] It's leaving\n[21:52.96 speaker_3] Bye\n[21:53.78 speaker_4] You think she's going back to\n[21:55.19 speaker_1] The pond?\n[21:55.88 speaker_4] to the pond?\n[21:57.00 speaker_3] I think she is\n[21:58.30 speaker_4] So\n[21:59.14 speaker_4] we searched it\n[21:59.86 speaker_4] guys\n[22:00.26 speaker_4] and they do lay eggs <cand_caption_beat_97a680e0fd81fa9a> <cand_caption_beat_250656c53684db71>\n[22:01.58 speaker_4] They get out to lay eggs <cand_caption_beat_250656c53684db71> <cand_caption_beat_139f32ffecfe7bc0>\n[22:02.78 speaker_4] so we think this is a girl <cand_caption_beat_250656c53684db71> <cand_caption_beat_a3fbb4c67b8a8995> <cand_caption_beat_70098e41c3bdc240>\n[22:04.18 speaker_4] It's called a red-eared slider <cand_caption_beat_a83999143922190b>\n[22:06.20 speaker_4] guys <cand_caption_beat_a83999143922190b> <cand_caption_beat_4c5d0be80cc69adc>\n[22:06.98 speaker_4] Look at how big she is <cand_caption_beat_33179df54b23a3c3> <cand_caption_beat_57c60a12b447a3b6>\n[22:08.60 speaker_4] She's the cutest <cand_caption_beat_57c60a12b447a3b6> <cand_caption_beat_4f6e945a66f2ee0a>\n[22:09.84 speaker_3] you're so cute <cand_caption_beat_4f6e945a66f2ee0a> <cand_caption_beat_cdc3b7f0267981e4>\n[22:14.55 speaker_4] What do you think <cand_caption_beat_6bd2f9cd2f472593> <cand_caption_beat_5d83204cac4ff989>\n[22:15.04 speaker_4] happened to her shell though? <cand_caption_beat_5d83204cac4ff989> <cand_caption_beat_e35a0a0e94d26760>\n[22:16.70 speaker_3] I don't know <cand_caption_beat_b19b319528de8c14>\n[22:17.70 speaker_4] She's so fast <cand_caption_beat_dbb6bfe403cc2c68> <cand_caption_beat_350751f36bf1d353>\n[22:18.38 speaker_4] Who said turtles were slow? <cand_caption_beat_350751f36bf1d353> <cand_caption_beat_2c1c9af680757bc8>\n[22:19.33 speaker_3] I know <cand_caption_beat_5e91f669ab39ad8c> <cand_caption_beat_403ce32358b39b1f>\n[22:19.95 speaker_3] I know <cand_caption_beat_5e91f669ab39ad8c> <cand_caption_beat_403ce32358b39b1f>\n[22:20.54 speaker_4] Did she say <cand_caption_beat_403ce32358b39b1f> <cand_caption_beat_fcb610a293601abe>\n[22:21.00 speaker_4] turtles were slow? <cand_caption_beat_fcb610a293601abe> <cand_caption_beat_266f700751d5a011>\n[22:21.86 speaker_3] No <cand_caption_beat_4737561646caafd6> <cand_caption_beat_0c8fe25e140dbce4>\n[22:22.85 speaker_4] Bro <cand_caption_beat_380350850b59f252>\n[22:23.17 speaker_4] she's so quick <cand_caption_beat_380350850b59f252> <cand_caption_beat_0b3552d61017a2fd>\n[22:24.60 speaker_1] They always say <cand_caption_beat_79f9176be6186b33> <cand_caption_beat_31df7566f3163df5>\n[22:25.27 speaker_1] that turtles are slow <cand_caption_beat_31df7566f3163df5> <cand_caption_beat_da9023a311bd9070>\n[22:26.20 speaker_1] but look at that <cand_caption_beat_da9023a311bd9070> <cand_caption_beat_5c18b76298c2a530>\n[22:26.81 speaker_1] bro <cand_caption_beat_5c18b76298c2a530>\n[22:27.34 speaker_4] Where's she going? <cand_caption_beat_481159c8ca115715> <cand_caption_beat_d841c37cf1f98f0e>\n[22:28.92 speaker_1] They don't look slow <cand_caption_beat_a7fc1b1c1d348702> <cand_caption_beat_8183d9ee8938d805>\n[22:30.31 speaker_4] Let's wait <cand_caption_beat_76f76b9796458474>\n[22:30.76 speaker_4] see where she goes <cand_caption_beat_76f76b9796458474> <cand_caption_beat_3191699e0d13d6d8>\n[22:31.84 speaker_4] So the turtle went <cand_caption_beat_9e91c5e55413d911> <cand_caption_beat_988c6391c66d17d1>\n[22:32.74 speaker_4] inside the bushes <cand_caption_beat_988c6391c66d17d1> <cand_caption_beat_d3c5568740c90d82>\n[22:33.98 speaker_4] She's just there <cand_caption_beat_2e2995f4c2862278>\n[22:34.94 speaker_4] I don't know if she's <cand_caption_beat_f89c4887e8335669> <cand_caption_beat_8558425f89d5c7b1>\n[22:35.94 speaker_4] laying the eggs or not <cand_caption_beat_8558425f89d5c7b1> <cand_caption_beat_854fddd947066b1b>\n[22:37.82 speaker_4] But <cand_caption_beat_3b2bdf17b6f5a382>\n[22:38.32 speaker_4] we didn't wanna wait anymore <cand_caption_beat_63f7273d6f5b6bf1> <cand_caption_beat_29d355955b4d28df>\n[22:39.40 speaker_4] so George and suri are <cand_caption_beat_9741888e92363532>\n[22:40.14 speaker_4] gonna be going <cand_caption_beat_9741888e92363532> <cand_caption_beat_87728a4d8e8ca90c>\n[22:40.61 speaker_4] inside the pool <cand_caption_beat_87728a4d8e8ca90c> <cand_caption_beat_f9c032e710612d07>\n[22:41.63 speaker_3] And I'm going <cand_caption_beat_48cae69f05a19538> <cand_caption_beat_7e26f1d74ed6bfcd>\n[22:42.44 speaker_3] on the Cheetos floaty <cand_caption_beat_7e26f1d74ed6bfcd> <cand_caption_beat_c5d6567c8df0cf25>\n[22:44.06 speaker_4] She's going in the Cheeto <cand_caption_beat_a9608c1be0f0b6d2> <cand_caption_beat_d68a2f7b53d70b9c>\n[22:46.96 speaker_4] And whoever falls first loses <cand_caption_beat_6fd84c2012381768> <cand_caption_beat_0fc6d3a370e2abc5>\n[22:48.74 speaker_3] What do we win? <cand_caption_beat_83164bc0ec35a3d8> <cand_caption_beat_e2d6b348366b7f00>\n[22:49.68 speaker_4] So we had a boat <cand_caption_beat_df371192b1ddc175> <cand_caption_beat_25504f3dd64c057e>\n[22:50.50 speaker_4] guys <cand_caption_beat_25504f3dd64c057e>\n[22:50.86 speaker_4] but then <cand_caption_beat_25504f3dd64c057e> <cand_caption_beat_fbc8a64062bd73f9>\n[22:51.36 speaker_3] It broke <cand_caption_beat_b3894e16357b10a9> <cand_caption_beat_5b8fe1cb239edd81>\n[22:52.14 speaker_4] yeah <cand_caption_beat_5b8fe1cb239edd81>\n[22:52.44 speaker_4] it broke <cand_caption_beat_be8f7723e35fa6ae>\n[22:53.24 speaker_4] Literally new <cand_caption_beat_e7a0b1af2995436d> <cand_caption_beat_99037c96cbdc12ff>\n[22:54.00 speaker_4] It's weird <cand_caption_beat_99037c96cbdc12ff> <cand_caption_beat_84823e369ea96fe6>\n[22:54.72 speaker_3] we Just got it <cand_caption_beat_3bbb323c749193eb>\n[23:00.48 speaker_4] George <cand_caption_beat_b9017bbfb487c215>\n[23:00.78 speaker_4] is that one <cand_caption_beat_b9017bbfb487c215>\n[23:01.56 speaker_4] broken too? <cand_caption_beat_b9017bbfb487c215>\n[23:02.50 speaker_3] I don't think so <cand_caption_beat_b9017bbfb487c215>\n[23:03.18 speaker_3] It just gets water in <cand_caption_beat_b9017bbfb487c215>\n[23:04.60 speaker_4] Inside the floaty?\n[23:05.98 speaker_3] No",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_97a680e0fd81fa9a",
+      "momentId": "footage_05_11_26_sfx:beat_group_1655",
+      "beatGroupId": "beat_group_1655",
+      "relativeTimeSec": 0.26,
+      "absoluteTimeSec": 1320.26,
+      "targetFrame": 79136,
+      "cueIds": [
+        "cue-01398"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and they do lay eggs",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.327
+    },
+    {
+      "candidateId": "cand_caption_beat_250656c53684db71",
+      "momentId": "footage_05_11_26_sfx:beat_group_1656",
+      "beatGroupId": "beat_group_1656",
+      "relativeTimeSec": 1.56,
+      "absoluteTimeSec": 1321.56,
+      "targetFrame": 79214,
+      "cueIds": [
+        "cue-01398",
+        "cue-01399",
+        "cue-01400"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "and they do lay eggs They get out to lay eggs so we think this is a girl",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "zoom_onset"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.027
+    },
+    {
+      "candidateId": "cand_caption_beat_139f32ffecfe7bc0",
+      "momentId": "footage_05_11_26_sfx:beat_group_1657",
+      "beatGroupId": "beat_group_1657",
+      "relativeTimeSec": 2.66,
+      "absoluteTimeSec": 1322.66,
+      "targetFrame": 79280,
+      "cueIds": [
+        "cue-01399"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "They get out to lay eggs",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.073
+    },
+    {
+      "candidateId": "cand_caption_beat_a3fbb4c67b8a8995",
+      "momentId": "footage_05_11_26_sfx:beat_group_1658",
+      "beatGroupId": "beat_group_1658",
+      "relativeTimeSec": 2.78,
+      "absoluteTimeSec": 1322.78,
+      "targetFrame": 79288,
+      "cueIds": [
+        "cue-01400"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "so we think this is a girl",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.193
+    },
+    {
+      "candidateId": "cand_caption_beat_70098e41c3bdc240",
+      "momentId": "footage_05_11_26_sfx:beat_group_1659",
+      "beatGroupId": "beat_group_1659",
+      "relativeTimeSec": 4.1,
+      "absoluteTimeSec": 1324.1,
+      "targetFrame": 79367,
+      "cueIds": [
+        "cue-01400"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "so we think this is a girl",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a83999143922190b",
+      "momentId": "footage_05_11_26_sfx:beat_group_1660",
+      "beatGroupId": "beat_group_1660",
+      "relativeTimeSec": 6.19,
+      "absoluteTimeSec": 1326.19,
+      "targetFrame": 79492,
+      "cueIds": [
+        "cue-01401",
+        "cue-01402"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "It's called a red-eared slider guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.802
+    },
+    {
+      "candidateId": "cand_caption_beat_4c5d0be80cc69adc",
+      "momentId": "footage_05_11_26_sfx:beat_group_1661",
+      "beatGroupId": "beat_group_1661",
+      "relativeTimeSec": 6.68,
+      "absoluteTimeSec": 1326.68,
+      "targetFrame": 79521,
+      "cueIds": [
+        "cue-01402"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.3,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.312
+    },
+    {
+      "candidateId": "cand_caption_beat_33179df54b23a3c3",
+      "momentId": "footage_05_11_26_sfx:beat_group_1662",
+      "beatGroupId": "beat_group_1662",
+      "relativeTimeSec": 6.98,
+      "absoluteTimeSec": 1326.98,
+      "targetFrame": 79539,
+      "cueIds": [
+        "cue-01403"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Look at how big she is",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.3,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.012
+    },
+    {
+      "candidateId": "cand_caption_beat_57c60a12b447a3b6",
+      "momentId": "footage_05_11_26_sfx:beat_group_1663",
+      "beatGroupId": "beat_group_1663",
+      "relativeTimeSec": 8.56,
+      "absoluteTimeSec": 1328.56,
+      "targetFrame": 79634,
+      "cueIds": [
+        "cue-01403",
+        "cue-01404"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Look at how big she is She's the cutest",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.3,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_4f6e945a66f2ee0a",
+      "momentId": "footage_05_11_26_sfx:beat_group_1664",
+      "beatGroupId": "beat_group_1664",
+      "relativeTimeSec": 9.82,
+      "absoluteTimeSec": 1329.82,
+      "targetFrame": 79709,
+      "cueIds": [
+        "cue-00577",
+        "cue-01404"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "you're so cute She's the cutest",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.02,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_cdc3b7f0267981e4",
+      "momentId": "footage_05_11_26_sfx:beat_group_1665",
+      "beatGroupId": "beat_group_1665",
+      "relativeTimeSec": 11.16,
+      "absoluteTimeSec": 1331.16,
+      "targetFrame": 79790,
+      "cueIds": [
+        "cue-00577"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "you're so cute",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.02,
+      "followingGapSec": 3.39,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_6bd2f9cd2f472593",
+      "momentId": "footage_05_11_26_sfx:beat_group_1666",
+      "beatGroupId": "beat_group_1666",
+      "relativeTimeSec": 14.55,
+      "absoluteTimeSec": 1334.55,
+      "targetFrame": 79993,
+      "cueIds": [
+        "cue-00578"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "What do you think",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 3.39,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5d83204cac4ff989",
+      "momentId": "footage_05_11_26_sfx:beat_group_1667",
+      "beatGroupId": "beat_group_1667",
+      "relativeTimeSec": 15.02,
+      "absoluteTimeSec": 1335.02,
+      "targetFrame": 80021,
+      "cueIds": [
+        "cue-00578",
+        "cue-01407"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "What do you think happened to her shell though?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 3.39,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e35a0a0e94d26760",
+      "momentId": "footage_05_11_26_sfx:beat_group_1668",
+      "beatGroupId": "beat_group_1668",
+      "relativeTimeSec": 16.48,
+      "absoluteTimeSec": 1336.48,
+      "targetFrame": 80109,
+      "cueIds": [
+        "cue-01407"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "happened to her shell though?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.138,
+      "boundaryStrength": 0.4,
+      "nearestZoomDeltaSec": 0.189
+    },
+    {
+      "candidateId": "cand_caption_beat_b19b319528de8c14",
+      "momentId": "footage_05_11_26_sfx:beat_group_1669",
+      "beatGroupId": "beat_group_1669",
+      "relativeTimeSec": 17.3,
+      "absoluteTimeSec": 1337.3,
+      "targetFrame": 80158,
+      "cueIds": [
+        "cue-00579"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "I don't know",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.138,
+      "followingGapSec": 0.163,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.631
+    },
+    {
+      "candidateId": "cand_caption_beat_dbb6bfe403cc2c68",
+      "momentId": "footage_05_11_26_sfx:beat_group_1670",
+      "beatGroupId": "beat_group_1670",
+      "relativeTimeSec": 17.7,
+      "absoluteTimeSec": 1337.7,
+      "targetFrame": 80182,
+      "cueIds": [
+        "cue-00580"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "She's so fast",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.163,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -1.031
+    },
+    {
+      "candidateId": "cand_caption_beat_350751f36bf1d353",
+      "momentId": "footage_05_11_26_sfx:beat_group_1671",
+      "beatGroupId": "beat_group_1671",
+      "relativeTimeSec": 18.44,
+      "absoluteTimeSec": 1338.44,
+      "targetFrame": 80226,
+      "cueIds": [
+        "cue-00580",
+        "cue-01408"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "She's so fast Who said turtles were slow?",
+      "anchorTypes": [
+        "final_word_end",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.163,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2c1c9af680757bc8",
+      "momentId": "footage_05_11_26_sfx:beat_group_1672",
+      "beatGroupId": "beat_group_1672",
+      "relativeTimeSec": 19.48,
+      "absoluteTimeSec": 1339.48,
+      "targetFrame": 80289,
+      "cueIds": [
+        "cue-01408"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Who said turtles were slow?",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5e91f669ab39ad8c",
+      "momentId": "footage_05_11_26_sfx:beat_group_1673",
+      "beatGroupId": "beat_group_1673",
+      "relativeTimeSec": 19.875,
+      "absoluteTimeSec": 1339.875,
+      "targetFrame": 80312,
+      "cueIds": [
+        "b646e26f-6783-4b41-9f9e-d6096d18c96b",
+        "cue-00581"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "I know I know",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_403ce32358b39b1f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1674",
+      "beatGroupId": "beat_group_1674",
+      "relativeTimeSec": 20.5,
+      "absoluteTimeSec": 1340.5,
+      "targetFrame": 80350,
+      "cueIds": [
+        "b646e26f-6783-4b41-9f9e-d6096d18c96b",
+        "cue-00581",
+        "cue-00582"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "I know I know Did she say",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fcb610a293601abe",
+      "momentId": "footage_05_11_26_sfx:beat_group_1675",
+      "beatGroupId": "beat_group_1675",
+      "relativeTimeSec": 20.98,
+      "absoluteTimeSec": 1340.98,
+      "targetFrame": 80378,
+      "cueIds": [
+        "825454b9-e38c-4d17-9ce1-f3a86d59f5a4",
+        "cue-00582"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "turtles were slow? Did she say",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.04,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_266f700751d5a011",
+      "momentId": "footage_05_11_26_sfx:beat_group_1676",
+      "beatGroupId": "beat_group_1676",
+      "relativeTimeSec": 21.76,
+      "absoluteTimeSec": 1341.76,
+      "targetFrame": 80425,
+      "cueIds": [
+        "825454b9-e38c-4d17-9ce1-f3a86d59f5a4"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "turtles were slow?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 1.048
+    },
+    {
+      "candidateId": "cand_caption_beat_4737561646caafd6",
+      "momentId": "footage_05_11_26_sfx:beat_group_1677",
+      "beatGroupId": "beat_group_1677",
+      "relativeTimeSec": 21.86,
+      "absoluteTimeSec": 1341.86,
+      "targetFrame": 80431,
+      "cueIds": [
+        "cue-00583"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "No",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0.304,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.948
+    },
+    {
+      "candidateId": "cand_caption_beat_0c8fe25e140dbce4",
+      "momentId": "footage_05_11_26_sfx:beat_group_1678",
+      "beatGroupId": "beat_group_1678",
+      "relativeTimeSec": 22.38,
+      "absoluteTimeSec": 1342.38,
+      "targetFrame": 80462,
+      "cueIds": [
+        "cue-00583"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "No",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0.304,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.428
+    },
+    {
+      "candidateId": "cand_caption_beat_380350850b59f252",
+      "momentId": "footage_05_11_26_sfx:beat_group_1679",
+      "beatGroupId": "beat_group_1679",
+      "relativeTimeSec": 23.08,
+      "absoluteTimeSec": 1343.08,
+      "targetFrame": 80504,
+      "cueIds": [
+        "cue-00584",
+        "cue-01409"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Bro she's so quick",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.304,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": -0.272
+    },
+    {
+      "candidateId": "cand_caption_beat_0b3552d61017a2fd",
+      "momentId": "footage_05_11_26_sfx:beat_group_1680",
+      "beatGroupId": "beat_group_1680",
+      "relativeTimeSec": 24.32,
+      "absoluteTimeSec": 1344.32,
+      "targetFrame": 80579,
+      "cueIds": [
+        "cue-01409"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "she's so quick",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.065,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_79f9176be6186b33",
+      "momentId": "footage_05_11_26_sfx:beat_group_1681",
+      "beatGroupId": "beat_group_1681",
+      "relativeTimeSec": 24.6,
+      "absoluteTimeSec": 1344.6,
+      "targetFrame": 80595,
+      "cueIds": [
+        "cue-00326"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "They always say",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.065,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_31df7566f3163df5",
+      "momentId": "footage_05_11_26_sfx:beat_group_1682",
+      "beatGroupId": "beat_group_1682",
+      "relativeTimeSec": 25.3,
+      "absoluteTimeSec": 1345.3,
+      "targetFrame": 80637,
+      "cueIds": [
+        "cue-00326",
+        "cue-00327"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "They always say that turtles are slow",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.065,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_da9023a311bd9070",
+      "momentId": "footage_05_11_26_sfx:beat_group_1683",
+      "beatGroupId": "beat_group_1683",
+      "relativeTimeSec": 26.18,
+      "absoluteTimeSec": 1346.18,
+      "targetFrame": 80690,
+      "cueIds": [
+        "cue-00327",
+        "cue-00328"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "that turtles are slow but look at that",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5c18b76298c2a530",
+      "momentId": "footage_05_11_26_sfx:beat_group_1684",
+      "beatGroupId": "beat_group_1684",
+      "relativeTimeSec": 26.96,
+      "absoluteTimeSec": 1346.96,
+      "targetFrame": 80737,
+      "cueIds": [
+        "cue-00328",
+        "cue-00329"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "but look at that bro",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_481159c8ca115715",
+      "momentId": "footage_05_11_26_sfx:beat_group_1685",
+      "beatGroupId": "beat_group_1685",
+      "relativeTimeSec": 27.34,
+      "absoluteTimeSec": 1347.34,
+      "targetFrame": 80760,
+      "cueIds": [
+        "cue-00585"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Where's she going?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.224,
+      "followingGapSec": 0.92,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_d841c37cf1f98f0e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1686",
+      "beatGroupId": "beat_group_1686",
+      "relativeTimeSec": 28,
+      "absoluteTimeSec": 1348,
+      "targetFrame": 80799,
+      "cueIds": [
+        "cue-00585"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Where's she going?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.224,
+      "followingGapSec": 0.92,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_a7fc1b1c1d348702",
+      "momentId": "footage_05_11_26_sfx:beat_group_1687",
+      "beatGroupId": "beat_group_1687",
+      "relativeTimeSec": 28.92,
+      "absoluteTimeSec": 1348.92,
+      "targetFrame": 80854,
+      "cueIds": [
+        "cue-00330"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "They don't look slow",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.92,
+      "followingGapSec": 0.81,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8183d9ee8938d805",
+      "momentId": "footage_05_11_26_sfx:beat_group_1688",
+      "beatGroupId": "beat_group_1688",
+      "relativeTimeSec": 29.5,
+      "absoluteTimeSec": 1349.5,
+      "targetFrame": 80889,
+      "cueIds": [
+        "cue-00330"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "They don't look slow",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.92,
+      "followingGapSec": 0.81,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_76f76b9796458474",
+      "momentId": "footage_05_11_26_sfx:beat_group_1689",
+      "beatGroupId": "beat_group_1689",
+      "relativeTimeSec": 30.65,
+      "absoluteTimeSec": 1350.65,
+      "targetFrame": 80958,
+      "cueIds": [
+        "cue-00586",
+        "cue-01410"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Let's wait see where she goes",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.81,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3191699e0d13d6d8",
+      "momentId": "footage_05_11_26_sfx:beat_group_1690",
+      "beatGroupId": "beat_group_1690",
+      "relativeTimeSec": 31.6,
+      "absoluteTimeSec": 1351.6,
+      "targetFrame": 81015,
+      "cueIds": [
+        "cue-01410"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "see where she goes",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.238,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9e91c5e55413d911",
+      "momentId": "footage_05_11_26_sfx:beat_group_1691",
+      "beatGroupId": "beat_group_1691",
+      "relativeTimeSec": 31.838,
+      "absoluteTimeSec": 1351.838,
+      "targetFrame": 81029,
+      "cueIds": [
+        "cue-01411"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So the turtle went",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.238,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_988c6391c66d17d1",
+      "momentId": "footage_05_11_26_sfx:beat_group_1692",
+      "beatGroupId": "beat_group_1692",
+      "relativeTimeSec": 32.7,
+      "absoluteTimeSec": 1352.7,
+      "targetFrame": 81081,
+      "cueIds": [
+        "cue-01411",
+        "cue-01412"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So the turtle went inside the bushes",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.238,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.219
+    },
+    {
+      "candidateId": "cand_caption_beat_d3c5568740c90d82",
+      "momentId": "footage_05_11_26_sfx:beat_group_1693",
+      "beatGroupId": "beat_group_1693",
+      "relativeTimeSec": 33.82,
+      "absoluteTimeSec": 1353.82,
+      "targetFrame": 81148,
+      "cueIds": [
+        "cue-01412"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "inside the bushes",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.16,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.099
+    },
+    {
+      "candidateId": "cand_caption_beat_2e2995f4c2862278",
+      "momentId": "footage_05_11_26_sfx:beat_group_1694",
+      "beatGroupId": "beat_group_1694",
+      "relativeTimeSec": 34.639,
+      "absoluteTimeSec": 1354.639,
+      "targetFrame": 81197,
+      "cueIds": [
+        "cue-01413"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "She's just there",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.16,
+      "followingGapSec": 0.301,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.72
+    },
+    {
+      "candidateId": "cand_caption_beat_f89c4887e8335669",
+      "momentId": "footage_05_11_26_sfx:beat_group_1695",
+      "beatGroupId": "beat_group_1695",
+      "relativeTimeSec": 35.32,
+      "absoluteTimeSec": 1355.32,
+      "targetFrame": 81238,
+      "cueIds": [
+        "cue-01414"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I don't know if she's",
+      "anchorTypes": [
+        "internal_pause_word_end"
+      ],
+      "precedingGapSec": 0.301,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.45,
+      "nearestZoomDeltaSec": -1.401
+    },
+    {
+      "candidateId": "cand_caption_beat_8558425f89d5c7b1",
+      "momentId": "footage_05_11_26_sfx:beat_group_1696",
+      "beatGroupId": "beat_group_1696",
+      "relativeTimeSec": 35.88,
+      "absoluteTimeSec": 1355.88,
+      "targetFrame": 81272,
+      "cueIds": [
+        "cue-01414",
+        "cue-01415"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I don't know if she's laying the eggs or not",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.301,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_854fddd947066b1b",
+      "momentId": "footage_05_11_26_sfx:beat_group_1697",
+      "beatGroupId": "beat_group_1697",
+      "relativeTimeSec": 36.86,
+      "absoluteTimeSec": 1356.86,
+      "targetFrame": 81330,
+      "cueIds": [
+        "cue-01415"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "laying the eggs or not",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.96,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_3b2bdf17b6f5a382",
+      "momentId": "footage_05_11_26_sfx:beat_group_1698",
+      "beatGroupId": "beat_group_1698",
+      "relativeTimeSec": 38.14,
+      "absoluteTimeSec": 1358.14,
+      "targetFrame": 81407,
+      "cueIds": [
+        "cue-01416"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "But",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.96,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_63f7273d6f5b6bf1",
+      "momentId": "footage_05_11_26_sfx:beat_group_1699",
+      "beatGroupId": "beat_group_1699",
+      "relativeTimeSec": 38.32,
+      "absoluteTimeSec": 1358.32,
+      "targetFrame": 81418,
+      "cueIds": [
+        "000de897-afeb-4abb-9dfd-eaf19ac29d06"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "we didn't wanna wait anymore",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_29d355955b4d28df",
+      "momentId": "footage_05_11_26_sfx:beat_group_1700",
+      "beatGroupId": "beat_group_1700",
+      "relativeTimeSec": 39.3,
+      "absoluteTimeSec": 1359.3,
+      "targetFrame": 81477,
+      "cueIds": [
+        "000de897-afeb-4abb-9dfd-eaf19ac29d06"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "we didn't wanna wait anymore",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9741888e92363532",
+      "momentId": "footage_05_11_26_sfx:beat_group_1701",
+      "beatGroupId": "beat_group_1701",
+      "relativeTimeSec": 40.13,
+      "absoluteTimeSec": 1360.13,
+      "targetFrame": 81526,
+      "cueIds": [
+        "cue-01417",
+        "cue-01418"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "so George and suri are gonna be going",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_87728a4d8e8ca90c",
+      "momentId": "footage_05_11_26_sfx:beat_group_1702",
+      "beatGroupId": "beat_group_1702",
+      "relativeTimeSec": 40.61,
+      "absoluteTimeSec": 1360.61,
+      "targetFrame": 81555,
+      "cueIds": [
+        "2d4c8a00-1e79-4824-a6d9-92a17cd8abc4",
+        "cue-01418"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "inside the pool gonna be going",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f9c032e710612d07",
+      "momentId": "footage_05_11_26_sfx:beat_group_1703",
+      "beatGroupId": "beat_group_1703",
+      "relativeTimeSec": 41.28,
+      "absoluteTimeSec": 1361.28,
+      "targetFrame": 81595,
+      "cueIds": [
+        "2d4c8a00-1e79-4824-a6d9-92a17cd8abc4"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "inside the pool",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.355,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_48cae69f05a19538",
+      "momentId": "footage_05_11_26_sfx:beat_group_1704",
+      "beatGroupId": "beat_group_1704",
+      "relativeTimeSec": 41.635,
+      "absoluteTimeSec": 1361.635,
+      "targetFrame": 81616,
+      "cueIds": [
+        "cue-00587"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "And I'm going",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.355,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_7e26f1d74ed6bfcd",
+      "momentId": "footage_05_11_26_sfx:beat_group_1705",
+      "beatGroupId": "beat_group_1705",
+      "relativeTimeSec": 42.42,
+      "absoluteTimeSec": 1362.42,
+      "targetFrame": 81664,
+      "cueIds": [
+        "cue-00587",
+        "cue-01419"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "And I'm going on the Cheetos floaty",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.355,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c5d6567c8df0cf25",
+      "momentId": "footage_05_11_26_sfx:beat_group_1706",
+      "beatGroupId": "beat_group_1706",
+      "relativeTimeSec": 43.84,
+      "absoluteTimeSec": 1363.84,
+      "targetFrame": 81749,
+      "cueIds": [
+        "cue-01419"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "on the Cheetos floaty",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.22,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.457
+    },
+    {
+      "candidateId": "cand_caption_beat_a9608c1be0f0b6d2",
+      "momentId": "footage_05_11_26_sfx:beat_group_1707",
+      "beatGroupId": "beat_group_1707",
+      "relativeTimeSec": 44.06,
+      "absoluteTimeSec": 1364.06,
+      "targetFrame": 81762,
+      "cueIds": [
+        "cue-00588"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "She's going in the Cheeto",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 1.78,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.237
+    },
+    {
+      "candidateId": "cand_caption_beat_d68a2f7b53d70b9c",
+      "momentId": "footage_05_11_26_sfx:beat_group_1708",
+      "beatGroupId": "beat_group_1708",
+      "relativeTimeSec": 45.18,
+      "absoluteTimeSec": 1365.18,
+      "targetFrame": 81829,
+      "cueIds": [
+        "cue-00588"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "She's going in the Cheeto",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0.22,
+      "followingGapSec": 1.78,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0.117
+    },
+    {
+      "candidateId": "cand_caption_beat_6fd84c2012381768",
+      "momentId": "footage_05_11_26_sfx:beat_group_1709",
+      "beatGroupId": "beat_group_1709",
+      "relativeTimeSec": 46.96,
+      "absoluteTimeSec": 1366.96,
+      "targetFrame": 81936,
+      "cueIds": [
+        "cue-00590"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "And whoever falls first loses",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 1.78,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0fc6d3a370e2abc5",
+      "momentId": "footage_05_11_26_sfx:beat_group_1710",
+      "beatGroupId": "beat_group_1710",
+      "relativeTimeSec": 48.62,
+      "absoluteTimeSec": 1368.62,
+      "targetFrame": 82035,
+      "cueIds": [
+        "cue-00590"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "And whoever falls first loses",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 1.78,
+      "followingGapSec": 0.12,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_83164bc0ec35a3d8",
+      "momentId": "footage_05_11_26_sfx:beat_group_1711",
+      "beatGroupId": "beat_group_1711",
+      "relativeTimeSec": 48.74,
+      "absoluteTimeSec": 1368.74,
+      "targetFrame": 82042,
+      "cueIds": [
+        "cue-00591"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "What do we win?",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0.146,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e2d6b348366b7f00",
+      "momentId": "footage_05_11_26_sfx:beat_group_1712",
+      "beatGroupId": "beat_group_1712",
+      "relativeTimeSec": 49.24,
+      "absoluteTimeSec": 1369.24,
+      "targetFrame": 82072,
+      "cueIds": [
+        "cue-00591"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "What do we win?",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.12,
+      "followingGapSec": 0.146,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_df371192b1ddc175",
+      "momentId": "footage_05_11_26_sfx:beat_group_1713",
+      "beatGroupId": "beat_group_1713",
+      "relativeTimeSec": 49.68,
+      "absoluteTimeSec": 1369.68,
+      "targetFrame": 82099,
+      "cueIds": [
+        "cue-00592"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So we had a boat",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.146,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_25504f3dd64c057e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1714",
+      "beatGroupId": "beat_group_1714",
+      "relativeTimeSec": 50.77,
+      "absoluteTimeSec": 1370.77,
+      "targetFrame": 82164,
+      "cueIds": [
+        "cue-00592",
+        "cue-01420",
+        "cue-01421"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "So we had a boat guys but then",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.146,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_fbc8a64062bd73f9",
+      "momentId": "footage_05_11_26_sfx:beat_group_1715",
+      "beatGroupId": "beat_group_1715",
+      "relativeTimeSec": 51.28,
+      "absoluteTimeSec": 1371.28,
+      "targetFrame": 82195,
+      "cueIds": [
+        "cue-01421"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "but then",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.201,
+      "followingGapSec": 0.077,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_b3894e16357b10a9",
+      "momentId": "footage_05_11_26_sfx:beat_group_1716",
+      "beatGroupId": "beat_group_1716",
+      "relativeTimeSec": 51.357,
+      "absoluteTimeSec": 1371.357,
+      "targetFrame": 82199,
+      "cueIds": [
+        "cue-00593"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "It broke",
+      "anchorTypes": [
+        "cue_start",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.077,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_5b8fe1cb239edd81",
+      "momentId": "footage_05_11_26_sfx:beat_group_1717",
+      "beatGroupId": "beat_group_1717",
+      "relativeTimeSec": 52.14,
+      "absoluteTimeSec": 1372.14,
+      "targetFrame": 82246,
+      "cueIds": [
+        "cue-00593",
+        "cue-00594"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "It broke yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end",
+        "speaker_turn_start"
+      ],
+      "precedingGapSec": 0.077,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_be8f7723e35fa6ae",
+      "momentId": "footage_05_11_26_sfx:beat_group_1718",
+      "beatGroupId": "beat_group_1718",
+      "relativeTimeSec": 53.1,
+      "absoluteTimeSec": 1373.1,
+      "targetFrame": 82304,
+      "cueIds": [
+        "cue-01422"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "it broke",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.32,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e7a0b1af2995436d",
+      "momentId": "footage_05_11_26_sfx:beat_group_1719",
+      "beatGroupId": "beat_group_1719",
+      "relativeTimeSec": 53.237,
+      "absoluteTimeSec": 1373.237,
+      "targetFrame": 82312,
+      "cueIds": [
+        "cue-01423"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Literally new",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0.123,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 1.47
+    },
+    {
+      "candidateId": "cand_caption_beat_99037c96cbdc12ff",
+      "momentId": "footage_05_11_26_sfx:beat_group_1720",
+      "beatGroupId": "beat_group_1720",
+      "relativeTimeSec": 53.92,
+      "absoluteTimeSec": 1373.92,
+      "targetFrame": 82353,
+      "cueIds": [
+        "cue-01423",
+        "cue-01424"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Literally new It's weird",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.32,
+      "followingGapSec": 0.123,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.787
+    },
+    {
+      "candidateId": "cand_caption_beat_84823e369ea96fe6",
+      "momentId": "footage_05_11_26_sfx:beat_group_1721",
+      "beatGroupId": "beat_group_1721",
+      "relativeTimeSec": 54.58,
+      "absoluteTimeSec": 1374.58,
+      "targetFrame": 82392,
+      "cueIds": [
+        "cue-01424"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "It's weird",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.123,
+      "followingGapSec": 0.14,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0.127
+    },
+    {
+      "candidateId": "cand_caption_beat_3bbb323c749193eb",
+      "momentId": "footage_05_11_26_sfx:beat_group_1722",
+      "beatGroupId": "beat_group_1722",
+      "relativeTimeSec": 55.15,
+      "absoluteTimeSec": 1375.15,
+      "targetFrame": 82427,
+      "cueIds": [
+        "cue-00595"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "we Just got it",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.14,
+      "followingGapSec": 5.089,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": -0.443
+    },
+    {
+      "candidateId": "cand_caption_beat_b9017bbfb487c215",
+      "momentId": "footage_05_11_26_sfx:beat_group_1723",
+      "beatGroupId": "beat_group_1723",
+      "relativeTimeSec": 59.945,
+      "absoluteTimeSec": 1379.945,
+      "targetFrame": 82714,
+      "cueIds": [
+        "cue-00596",
+        "cue-00597",
+        "cue-01427",
+        "cue-01428",
+        "cue-01429"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "George I don't think so is that one broken too? It just gets water in",
+      "anchorTypes": [
+        "zoom_onset"
+      ],
+      "precedingGapSec": 5.089,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.8,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_50",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "40.230 speaker_1: The heck?\n44.510 speaker_1: Amor?\n46.388 speaker_1: what are you guys doing?\n<CANDIDATE>48.620 speaker_1: You know the gardener's</CANDIDATE>\n<CANDIDATE>49.419 speaker_1: gonna come and do that</CANDIDATE>\n<CANDIDATE>50.290 speaker_1: right?</CANDIDATE>\n<CANDIDATE>51.240 speaker_4: No but this is</CANDIDATE>",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_49",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "41.600 speaker_1: do you wanna show\n42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n<CANDIDATE>43.920 speaker_3: the humongous t-Rex</CANDIDATE>\n47.562 speaker_1: We got this big\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_colored_sfx:beat_group_17",
+      "projectId": "footage_colored_sfx",
+      "markedCaptionContext": "15.240 speaker_1: be exciting for them\n16.040 speaker_1: you know?\n16.380 speaker_1: No more school\n<CANDIDATE>17.060 speaker_1: for a couple of months</CANDIDATE>\n<CANDIDATE>18.020 speaker_1: so</CANDIDATE>\n19.140 speaker_1: let's go and see\n19.640 speaker_1: if Suri is already awake",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_07_26_sfx:beat_group_51",
+      "projectId": "footage_05_07_26_sfx",
+      "markedCaptionContext": "48.820 speaker_2: And then we got\n49.140 speaker_2: Suri over there in the back\n50.239 speaker_2: What's going on\n<CANDIDATE>50.980 speaker_2: Suri?</CANDIDATE>\n<CANDIDATE>51.160 speaker_2: Why are you all the way</CANDIDATE>\n<CANDIDATE>51.720 speaker_2: over there?</CANDIDATE>\n<CANDIDATE>52.260 speaker_3: I'm not</CANDIDATE>",
+      "humanDecision": "other_sfx",
+      "otherFamily": "dramatic"
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_59",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "51.280 speaker_1: she doesn't know how to ice skate\n52.120 speaker_1: guys\n52.520 speaker_1: So they need a bucket because\n<CANDIDATE>54.120 speaker_1: they don't know how to do it</CANDIDATE>\n<CANDIDATE>55.400 speaker_1: But this is</CANDIDATE>\n<CANDIDATE>57.260 speaker_1: their</CANDIDATE>\n<CANDIDATE>57.430 speaker_1: their</CANDIDATE>",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "footage_05_19_26_sfx:beat_group_19",
+      "projectId": "footage_05_19_26_sfx",
+      "markedCaptionContext": "13.760 speaker_1: What are you talking about?\n14.980 speaker_4: I don't know\n15.440 speaker_4: math?\n<CANDIDATE>15.980 speaker_1: Okay so she's back there</CANDIDATE>\n<CANDIDATE>16.980 speaker_1: guys</CANDIDATE>\n17.620 speaker_1: we came to this new place\n19.320 speaker_1: close to Suri's school",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_27_26_sfx:beat_group_103",
+      "projectId": "footage_05_27_26_sfx",
+      "markedCaptionContext": "81.188 speaker_1: so we don't know if\n81.705 speaker_1: she jumped and\n82.350 speaker_1: got hurt\n<CANDIDATE>82.930 speaker_1: or it's actually the</CANDIDATE>\n84.480 speaker_1: Disease\n84.970 speaker_1: that the Frenchies get\n86.120 speaker_1: but hopefully it's not",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

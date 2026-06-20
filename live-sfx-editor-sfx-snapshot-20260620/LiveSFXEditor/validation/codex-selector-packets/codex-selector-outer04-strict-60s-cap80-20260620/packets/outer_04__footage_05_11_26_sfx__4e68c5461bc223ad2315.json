@@ -1,0 +1,775 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "4e68c5461bc223ad2315",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_001067885_02",
+  "coreStartSec": 1067.885,
+  "coreEndSec": 1080,
+  "contextStartSec": 1059.885,
+  "contextEndSec": 1088,
+  "allowedCandidateIds": [
+    "cand_caption_beat_69c19ff4f344e6ab",
+    "cand_caption_beat_c05a31e936c8afbd",
+    "cand_caption_beat_43523cded111121a",
+    "cand_caption_beat_e0a359b4f5e0fca0",
+    "cand_caption_beat_0a487f87d754b1cd",
+    "cand_caption_beat_8a77cdb6e9f53838",
+    "cand_caption_beat_6537af14ce4b1ee6",
+    "cand_caption_beat_8c56697e5c72f46e",
+    "cand_caption_beat_307fb40b2f4f0f37",
+    "cand_caption_beat_572abd4e17a603ea",
+    "cand_caption_beat_a7afb01a80fa5c2f",
+    "cand_caption_beat_3b60ca88e5b8654c",
+    "cand_caption_beat_2aa5b03a652bf753",
+    "cand_caption_beat_51ac83cf78166ce1",
+    "cand_caption_beat_0546f411051f269e",
+    "cand_caption_beat_f9e33adfbee9fc18",
+    "cand_caption_beat_eae6cfbd1cca733e",
+    "cand_caption_beat_e1a71081c64ed190",
+    "cand_caption_beat_9f5ebba9f4ac0d43"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-01204",
+      "startSec": 1059.44,
+      "endSec": 1060.32,
+      "speakerKey": "speaker_4",
+      "text": "to Stary's birthday"
+    },
+    {
+      "cueId": "cue-01205",
+      "startSec": 1060.43,
+      "endSec": 1061,
+      "speakerKey": "speaker_4",
+      "text": "I think they"
+    },
+    {
+      "cueId": "c7ec5e41-952e-482b-8a10-f1d9fbe54f76",
+      "startSec": 1061,
+      "endSec": 1062.01,
+      "speakerKey": "speaker_4",
+      "text": "touched something or"
+    },
+    {
+      "cueId": "cue-00511",
+      "startSec": 1062.1,
+      "endSec": 1062.498,
+      "speakerKey": "speaker_5",
+      "text": "I saw Terah"
+    },
+    {
+      "cueId": "a5a38d8f-d0d0-4881-aa02-9c771a08fde7",
+      "startSec": 1062.498,
+      "endSec": 1063.34,
+      "speakerKey": "speaker_5",
+      "text": "licking something and"
+    },
+    {
+      "cueId": "cue-01206",
+      "startSec": 1063.34,
+      "endSec": 1064.19,
+      "speakerKey": "speaker_5",
+      "text": "I told her not to but"
+    },
+    {
+      "cueId": "cue-00512",
+      "startSec": 1064.14,
+      "endSec": 1064.44,
+      "speakerKey": "speaker_4",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-01207",
+      "startSec": 1064.44,
+      "endSec": 1064.64,
+      "speakerKey": "speaker_4",
+      "text": "I know"
+    },
+    {
+      "cueId": "cue-01208",
+      "startSec": 1064.64,
+      "endSec": 1064.9,
+      "speakerKey": "speaker_4",
+      "text": "That's what"
+    },
+    {
+      "cueId": "cue-01209",
+      "startSec": 1064.9,
+      "endSec": 1065.468,
+      "speakerKey": "speaker_4",
+      "text": "I was saying"
+    },
+    {
+      "cueId": "cue-01210",
+      "startSec": 1065.468,
+      "endSec": 1065.859,
+      "speakerKey": "speaker_4",
+      "text": "So"
+    },
+    {
+      "cueId": "cue-01211",
+      "startSec": 1067,
+      "endSec": 1068.56,
+      "speakerKey": "speaker_4",
+      "text": "Stary and Terah are sleeping"
+    },
+    {
+      "cueId": "cue-00513",
+      "startSec": 1068.55,
+      "endSec": 1068.85,
+      "speakerKey": "speaker_3",
+      "text": "Is something"
+    },
+    {
+      "cueId": "cue-01212",
+      "startSec": 1068.85,
+      "endSec": 1069.73,
+      "speakerKey": "speaker_3",
+      "text": "happening to everyone"
+    },
+    {
+      "cueId": "cue-01213",
+      "startSec": 1069.772,
+      "endSec": 1070.18,
+      "speakerKey": "speaker_3",
+      "text": "bro?"
+    },
+    {
+      "cueId": "cue-00514",
+      "startSec": 1070.26,
+      "endSec": 1070.62,
+      "speakerKey": "speaker_4",
+      "text": "I don't know"
+    },
+    {
+      "cueId": "cue-01214",
+      "startSec": 1070.62,
+      "endSec": 1071.44,
+      "speakerKey": "speaker_4",
+      "text": "except you"
+    },
+    {
+      "cueId": "cue-01215",
+      "startSec": 1071.44,
+      "endSec": 1072.48,
+      "speakerKey": "speaker_4",
+      "text": "Let's go downstairs and get"
+    },
+    {
+      "cueId": "cue-01217",
+      "startSec": 1072.786,
+      "endSec": 1073.06,
+      "speakerKey": "speaker_4",
+      "text": "the"
+    },
+    {
+      "cueId": "cue-01218",
+      "startSec": 1073.06,
+      "endSec": 1073.52,
+      "speakerKey": "speaker_4",
+      "text": "floaties"
+    },
+    {
+      "cueId": "cue-01219",
+      "startSec": 1073.8,
+      "endSec": 1074.275,
+      "speakerKey": "speaker_4",
+      "text": "Remember the ones"
+    },
+    {
+      "cueId": "1457aef9-ff5a-4299-b731-da221a290c76",
+      "startSec": 1074.275,
+      "endSec": 1074.72,
+      "speakerKey": "speaker_4",
+      "text": "you guys got?"
+    },
+    {
+      "cueId": "cue-01220",
+      "startSec": 1074.8,
+      "endSec": 1075.38,
+      "speakerKey": "speaker_4",
+      "text": "I think they were like"
+    },
+    {
+      "cueId": "cue-01221",
+      "startSec": 1075.62,
+      "endSec": 1076.52,
+      "speakerKey": "speaker_4",
+      "text": "unicorns and stuff"
+    },
+    {
+      "cueId": "cue-00515",
+      "startSec": 1076.62,
+      "endSec": 1076.96,
+      "speakerKey": "speaker_3",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-01222",
+      "startSec": 1076.96,
+      "endSec": 1077.44,
+      "speakerKey": "speaker_3",
+      "text": "it was like"
+    },
+    {
+      "cueId": "380dacc5-1aac-4788-aa64-2d17381a89e6",
+      "startSec": 1077.44,
+      "endSec": 1078.42,
+      "speakerKey": "speaker_3",
+      "text": "for Stary and Terah"
+    },
+    {
+      "cueId": "cue-00516",
+      "startSec": 1078.92,
+      "endSec": 1079.3,
+      "speakerKey": "speaker_4",
+      "text": "Let me see"
+    },
+    {
+      "cueId": "cue-01223",
+      "startSec": 1079.3,
+      "endSec": 1079.42,
+      "speakerKey": "speaker_4",
+      "text": "pa"
+    },
+    {
+      "cueId": "cue-01224",
+      "startSec": 1079.586,
+      "endSec": 1080.066,
+      "speakerKey": "speaker_4",
+      "text": "let me see"
+    },
+    {
+      "cueId": "cue-01225",
+      "startSec": 1081.644,
+      "endSec": 1082.204,
+      "speakerKey": "speaker_4",
+      "text": "Oh wow"
+    },
+    {
+      "cueId": "cue-01226",
+      "startSec": 1082.72,
+      "endSec": 1082.85,
+      "speakerKey": "speaker_4",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-01227",
+      "startSec": 1082.98,
+      "endSec": 1083.6,
+      "speakerKey": "speaker_4",
+      "text": "it doesn't look"
+    },
+    {
+      "cueId": "cue-01228",
+      "startSec": 1083.6,
+      "endSec": 1084.44,
+      "speakerKey": "speaker_4",
+      "text": "like something's"
+    },
+    {
+      "cueId": "b4f19e18-881e-4878-a4dc-3cd2b9dcdd07",
+      "startSec": 1084.44,
+      "endSec": 1085.28,
+      "speakerKey": "speaker_4",
+      "text": "coming out soon"
+    },
+    {
+      "cueId": "cue-00517",
+      "startSec": 1085.84,
+      "endSec": 1086.342,
+      "speakerKey": "speaker_3",
+      "text": "Yep"
+    },
+    {
+      "cueId": "cue-01229",
+      "startSec": 1086.86,
+      "endSec": 1087.484,
+      "speakerKey": "speaker_3",
+      "text": "it was not supposed"
+    },
+    {
+      "cueId": "cue-01230",
+      "startSec": 1087.484,
+      "endSec": 1088.02,
+      "speakerKey": "speaker_3",
+      "text": "to be coming out"
+    }
+  ],
+  "markedCaptionText": "[17:39.44 speaker_4] to Stary's birthday\n[17:40.43 speaker_4] I think they\n[17:41.00 speaker_4] touched something or\n[17:42.10 speaker_5] I saw Terah\n[17:42.50 speaker_5] licking something and\n[17:43.34 speaker_5] I told her not to but\n[17:44.14 speaker_4] Yeah\n[17:44.44 speaker_4] I know\n[17:44.64 speaker_4] That's what\n[17:44.90 speaker_4] I was saying\n[17:45.47 speaker_4] So\n[17:47.00 speaker_4] Stary and Terah are sleeping\n[17:48.55 speaker_3] Is something <cand_caption_beat_69c19ff4f344e6ab>\n[17:48.85 speaker_3] happening to everyone <cand_caption_beat_69c19ff4f344e6ab> <cand_caption_beat_c05a31e936c8afbd>\n[17:49.77 speaker_3] bro? <cand_caption_beat_43523cded111121a>\n[17:50.26 speaker_4] I don't know <cand_caption_beat_e0a359b4f5e0fca0>\n[17:50.62 speaker_4] except you <cand_caption_beat_e0a359b4f5e0fca0> <cand_caption_beat_0a487f87d754b1cd>\n[17:51.44 speaker_4] Let's go downstairs and get <cand_caption_beat_0a487f87d754b1cd> <cand_caption_beat_8a77cdb6e9f53838>\n[17:52.79 speaker_4] the <cand_caption_beat_6537af14ce4b1ee6>\n[17:53.06 speaker_4] floaties <cand_caption_beat_6537af14ce4b1ee6> <cand_caption_beat_8c56697e5c72f46e>\n[17:53.80 speaker_4] Remember the ones <cand_caption_beat_307fb40b2f4f0f37>\n[17:54.28 speaker_4] you guys got? <cand_caption_beat_307fb40b2f4f0f37> <cand_caption_beat_572abd4e17a603ea>\n[17:54.80 speaker_4] I think they were like <cand_caption_beat_a7afb01a80fa5c2f> <cand_caption_beat_3b60ca88e5b8654c>\n[17:55.62 speaker_4] unicorns and stuff <cand_caption_beat_2aa5b03a652bf753> <cand_caption_beat_51ac83cf78166ce1>\n[17:56.62 speaker_3] Yeah <cand_caption_beat_0546f411051f269e>\n[17:56.96 speaker_3] it was like <cand_caption_beat_f9e33adfbee9fc18>\n[17:57.44 speaker_3] for Stary and Terah <cand_caption_beat_f9e33adfbee9fc18> <cand_caption_beat_eae6cfbd1cca733e>\n[17:58.92 speaker_4] Let me see <cand_caption_beat_e1a71081c64ed190>\n[17:59.30 speaker_4] pa <cand_caption_beat_e1a71081c64ed190> <cand_caption_beat_9f5ebba9f4ac0d43>\n[17:59.59 speaker_4] let me see\n[18:01.64 speaker_4] Oh wow\n[18:02.72 speaker_4] Yeah\n[18:02.98 speaker_4] it doesn't look\n[18:03.60 speaker_4] like something's\n[18:04.44 speaker_4] coming out soon\n[18:05.84 speaker_3] Yep\n[18:06.86 speaker_3] it was not supposed\n[18:07.48 speaker_3] to be coming out",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_69c19ff4f344e6ab",
+      "momentId": "footage_05_11_26_sfx:beat_group_1359",
+      "beatGroupId": "beat_group_1359",
+      "relativeTimeSec": 0.965,
+      "absoluteTimeSec": 1068.85,
+      "targetFrame": 64067,
+      "cueIds": [
+        "cue-00513",
+        "cue-01212"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "Is something happening to everyone",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": -0.01,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.5,
+      "nearestZoomDeltaSec": -0.182
+    },
+    {
+      "candidateId": "cand_caption_beat_c05a31e936c8afbd",
+      "momentId": "footage_05_11_26_sfx:beat_group_1360",
+      "beatGroupId": "beat_group_1360",
+      "relativeTimeSec": 1.845,
+      "absoluteTimeSec": 1069.73,
+      "targetFrame": 64120,
+      "cueIds": [
+        "cue-01212"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "happening to everyone",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.042,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.062
+    },
+    {
+      "candidateId": "cand_caption_beat_43523cded111121a",
+      "momentId": "footage_05_11_26_sfx:beat_group_1361",
+      "beatGroupId": "beat_group_1361",
+      "relativeTimeSec": 2.295,
+      "absoluteTimeSec": 1070.18,
+      "targetFrame": 64147,
+      "cueIds": [
+        "cue-01213"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "bro?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.042,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e0a359b4f5e0fca0",
+      "momentId": "footage_05_11_26_sfx:beat_group_1362",
+      "beatGroupId": "beat_group_1362",
+      "relativeTimeSec": 2.695,
+      "absoluteTimeSec": 1070.58,
+      "targetFrame": 64171,
+      "cueIds": [
+        "cue-00514",
+        "cue-01214"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I don't know except you",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0a487f87d754b1cd",
+      "momentId": "footage_05_11_26_sfx:beat_group_1363",
+      "beatGroupId": "beat_group_1363",
+      "relativeTimeSec": 3.495,
+      "absoluteTimeSec": 1071.38,
+      "targetFrame": 64219,
+      "cueIds": [
+        "cue-01214",
+        "cue-01215"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "except you Let's go downstairs and get",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_8a77cdb6e9f53838",
+      "momentId": "footage_05_11_26_sfx:beat_group_1364",
+      "beatGroupId": "beat_group_1364",
+      "relativeTimeSec": 4.555,
+      "absoluteTimeSec": 1072.44,
+      "targetFrame": 64282,
+      "cueIds": [
+        "cue-01215"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Let's go downstairs and get",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.306,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 1.333
+    },
+    {
+      "candidateId": "cand_caption_beat_6537af14ce4b1ee6",
+      "momentId": "footage_05_11_26_sfx:beat_group_1365",
+      "beatGroupId": "beat_group_1365",
+      "relativeTimeSec": 5.105,
+      "absoluteTimeSec": 1072.99,
+      "targetFrame": 64315,
+      "cueIds": [
+        "cue-01217",
+        "cue-01218"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "the floaties",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.306,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0.783
+    },
+    {
+      "candidateId": "cand_caption_beat_8c56697e5c72f46e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1366",
+      "beatGroupId": "beat_group_1366",
+      "relativeTimeSec": 5.635,
+      "absoluteTimeSec": 1073.52,
+      "targetFrame": 64347,
+      "cueIds": [
+        "cue-01218"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "floaties",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.28,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0.253
+    },
+    {
+      "candidateId": "cand_caption_beat_307fb40b2f4f0f37",
+      "momentId": "footage_05_11_26_sfx:beat_group_1367",
+      "beatGroupId": "beat_group_1367",
+      "relativeTimeSec": 6.365,
+      "absoluteTimeSec": 1074.25,
+      "targetFrame": 64391,
+      "cueIds": [
+        "1457aef9-ff5a-4299-b731-da221a290c76",
+        "cue-01219"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "you guys got? Remember the ones",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.28,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -0.477
+    },
+    {
+      "candidateId": "cand_caption_beat_572abd4e17a603ea",
+      "momentId": "footage_05_11_26_sfx:beat_group_1368",
+      "beatGroupId": "beat_group_1368",
+      "relativeTimeSec": 6.835,
+      "absoluteTimeSec": 1074.72,
+      "targetFrame": 64419,
+      "cueIds": [
+        "1457aef9-ff5a-4299-b731-da221a290c76"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "you guys got?",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.2,
+      "nearestZoomDeltaSec": -0.947
+    },
+    {
+      "candidateId": "cand_caption_beat_a7afb01a80fa5c2f",
+      "momentId": "footage_05_11_26_sfx:beat_group_1369",
+      "beatGroupId": "beat_group_1369",
+      "relativeTimeSec": 6.915,
+      "absoluteTimeSec": 1074.8,
+      "targetFrame": 64424,
+      "cueIds": [
+        "cue-01220"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I think they were like",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.24,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": -1.027
+    },
+    {
+      "candidateId": "cand_caption_beat_3b60ca88e5b8654c",
+      "momentId": "footage_05_11_26_sfx:beat_group_1370",
+      "beatGroupId": "beat_group_1370",
+      "relativeTimeSec": 7.495,
+      "absoluteTimeSec": 1075.38,
+      "targetFrame": 64458,
+      "cueIds": [
+        "cue-01220"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "I think they were like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0.24,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_2aa5b03a652bf753",
+      "momentId": "footage_05_11_26_sfx:beat_group_1371",
+      "beatGroupId": "beat_group_1371",
+      "relativeTimeSec": 7.735,
+      "absoluteTimeSec": 1075.62,
+      "targetFrame": 64473,
+      "cueIds": [
+        "cue-01221"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "unicorns and stuff",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.24,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_51ac83cf78166ce1",
+      "momentId": "footage_05_11_26_sfx:beat_group_1372",
+      "beatGroupId": "beat_group_1372",
+      "relativeTimeSec": 8.635,
+      "absoluteTimeSec": 1076.52,
+      "targetFrame": 64527,
+      "cueIds": [
+        "cue-01221"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "unicorns and stuff",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.24,
+      "followingGapSec": 0.1,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_0546f411051f269e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1373",
+      "beatGroupId": "beat_group_1373",
+      "relativeTimeSec": 8.915,
+      "absoluteTimeSec": 1076.8,
+      "targetFrame": 64543,
+      "cueIds": [
+        "cue-00515"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "Yeah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.1,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_f9e33adfbee9fc18",
+      "momentId": "footage_05_11_26_sfx:beat_group_1374",
+      "beatGroupId": "beat_group_1374",
+      "relativeTimeSec": 9.535,
+      "absoluteTimeSec": 1077.42,
+      "targetFrame": 64581,
+      "cueIds": [
+        "380dacc5-1aac-4788-aa64-2d17381a89e6",
+        "cue-01222"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "for Stary and Terah it was like",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_eae6cfbd1cca733e",
+      "momentId": "footage_05_11_26_sfx:beat_group_1375",
+      "beatGroupId": "beat_group_1375",
+      "relativeTimeSec": 10.535,
+      "absoluteTimeSec": 1078.42,
+      "targetFrame": 64641,
+      "cueIds": [
+        "380dacc5-1aac-4788-aa64-2d17381a89e6"
+      ],
+      "speakerKey": "speaker_3",
+      "captionText": "for Stary and Terah",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.5,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e1a71081c64ed190",
+      "momentId": "footage_05_11_26_sfx:beat_group_1376",
+      "beatGroupId": "beat_group_1376",
+      "relativeTimeSec": 11.335,
+      "absoluteTimeSec": 1079.22,
+      "targetFrame": 64689,
+      "cueIds": [
+        "cue-00516",
+        "cue-01223"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "Let me see pa",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.5,
+      "followingGapSec": 0,
+      "boundaryStrength": 0.6,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9f5ebba9f4ac0d43",
+      "momentId": "footage_05_11_26_sfx:beat_group_1377",
+      "beatGroupId": "beat_group_1377",
+      "relativeTimeSec": 11.535,
+      "absoluteTimeSec": 1079.42,
+      "targetFrame": 64700,
+      "cueIds": [
+        "cue-01223"
+      ],
+      "speakerKey": "speaker_4",
+      "captionText": "pa",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.166,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_68",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "51.220 speaker_2: So guys we have to make\n52.431 speaker_2: a stop right here because\n53.442 speaker_2: Suri said that she likes\n<CANDIDATE>55.380 speaker_2: this outfit for her dad</CANDIDATE>\n57.380 speaker_1: Yeah I think it looks good\n58.900 speaker_1: I don't know why they always\n59.700 speaker_1: put a zipper here when it",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_50",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "40.230 speaker_1: The heck?\n44.510 speaker_1: Amor?\n46.388 speaker_1: what are you guys doing?\n<CANDIDATE>48.620 speaker_1: You know the gardener's</CANDIDATE>\n<CANDIDATE>49.419 speaker_1: gonna come and do that</CANDIDATE>\n<CANDIDATE>50.290 speaker_1: right?</CANDIDATE>\n<CANDIDATE>51.240 speaker_4: No but this is</CANDIDATE>",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_70",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "50.280 speaker_2: You don't like it?\n52.120 speaker_2: And by the way\n53.000 speaker_2: look\n<CANDIDATE>54.476 speaker_1: my book</CANDIDATE>\n55.380 speaker_2: This is one of our\n56.355 speaker_2: favorite books\n57.460 speaker_1: Mine",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_49",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "41.600 speaker_1: do you wanna show\n42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n<CANDIDATE>43.920 speaker_3: the humongous t-Rex</CANDIDATE>\n47.562 speaker_1: We got this big\n48.332 speaker_1: t-Rex right here\n50.500 speaker_3: I think it's gonna be",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "new_footage_sfx:beat_group_52",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "40.940 speaker_1: We'll see\n41.400 speaker_1: if there's games\n42.520 speaker_1: I don't know\n<CANDIDATE>43.240 speaker_1: We're gonna go and check</CANDIDATE>\n46.100 speaker_3: somebody's excited\n47.640 speaker_1: So this is your surprise\n48.900 speaker_1: guys",
+      "humanDecision": "other_sfx",
+      "otherFamily": "dramatic"
+    },
+    {
+      "exampleId": "footage_05_26_26_sfx:beat_group_1110",
+      "projectId": "footage_05_26_26_sfx",
+      "markedCaptionContext": "948.696 speaker_5: the leash?\n949.556 speaker_4: I think that's for her\n951.096 speaker_4: You need to put it on her\n<CANDIDATE>952.176 speaker_5: Wait</CANDIDATE>\n<CANDIDATE>952.416 speaker_5: Stary</CANDIDATE>\n<CANDIDATE>952.656 speaker_5: what did you get?</CANDIDATE>\n<CANDIDATE>953.536 speaker_4: Look</CANDIDATE>",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_64",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "49.980 speaker_1: Yeah\n50.320 speaker_1: You're right\n50.940 speaker_1: Oh okay\n<CANDIDATE>51.700 speaker_1: You're so smart</CANDIDATE>\n52.880 speaker_2: I told you guys\n53.860 speaker_2: All right\n54.180 speaker_2: Let's go",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_colored_sfx:beat_group_1057",
+      "projectId": "footage_colored_sfx",
+      "markedCaptionContext": "815.540 speaker_1: for Terah and Stary?\n816.700 speaker_3: Should we?\n817.380 speaker_3: What do you\n<CANDIDATE>817.620 speaker_3: think they want?</CANDIDATE>\n818.360 speaker_1: I don't know\n818.740 speaker_1: Let's see if we\n819.240 speaker_1: can get them something",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "protocol": "positive-accent-codex-selector-v1",
+  "packetId": "cbd65ecc64e08fe2af85",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:core_000055549_02",
+  "coreStartSec": 55.549,
+  "coreEndSec": 60,
+  "contextStartSec": 47.549,
+  "contextEndSec": 68,
+  "allowedCandidateIds": [
+    "cand_caption_beat_1522d0cae64690f2",
+    "cand_caption_beat_14ca5efad20289ba",
+    "cand_caption_beat_c0d574f219f3d45f",
+    "cand_caption_beat_9e5d8295371fe433",
+    "cand_caption_beat_e7f06687d86a30c6"
+  ],
+  "cues": [
+    {
+      "cueId": "cue-00613",
+      "startSec": 47.367,
+      "endSec": 47.767,
+      "speakerKey": "speaker_1",
+      "text": "your hair"
+    },
+    {
+      "cueId": "cue-00614",
+      "startSec": 47.98,
+      "endSec": 48.797,
+      "speakerKey": "speaker_1",
+      "text": "and we have to hurry"
+    },
+    {
+      "cueId": "cue-00041",
+      "startSec": 48.797,
+      "endSec": 50.2,
+      "speakerKey": "speaker_2",
+      "text": "'Cause we have to go eat"
+    },
+    {
+      "cueId": "cue-00335",
+      "startSec": 50.24,
+      "endSec": 50.54,
+      "speakerKey": "speaker_1",
+      "text": "yeah"
+    },
+    {
+      "cueId": "cue-00615",
+      "startSec": 50.88,
+      "endSec": 51.739,
+      "speakerKey": "speaker_1",
+      "text": "we have to go eat"
+    },
+    {
+      "cueId": "cue-00616",
+      "startSec": 52.04,
+      "endSec": 53.666,
+      "speakerKey": "speaker_1",
+      "text": "But wait"
+    },
+    {
+      "cueId": "cue-00620",
+      "startSec": 53.666,
+      "endSec": 54.48,
+      "speakerKey": "speaker_1",
+      "text": "I have a surprise"
+    },
+    {
+      "cueId": "cue-00621",
+      "startSec": 54.758,
+      "endSec": 56.358,
+      "speakerKey": "speaker_1",
+      "text": "We're not going to be eating here"
+    },
+    {
+      "cueId": "cue-00622",
+      "startSec": 56.438,
+      "endSec": 56.819,
+      "speakerKey": "speaker_1",
+      "text": "I mean"
+    },
+    {
+      "cueId": "cue-00623",
+      "startSec": 56.819,
+      "endSec": 57.28,
+      "speakerKey": "speaker_1",
+      "text": "you guys"
+    },
+    {
+      "cueId": "cue-00624",
+      "startSec": 58.16,
+      "endSec": 58.88,
+      "speakerKey": "speaker_1",
+      "text": "I'm gonna take"
+    },
+    {
+      "cueId": "cue-00625",
+      "startSec": 58.96,
+      "endSec": 60.68,
+      "speakerKey": "speaker_1",
+      "text": "you to eat outside breakfast"
+    },
+    {
+      "cueId": "cue-00626",
+      "startSec": 61.84,
+      "endSec": 62.42,
+      "speakerKey": "speaker_1",
+      "text": "You guys like the idea?"
+    },
+    {
+      "cueId": "cue-00042",
+      "startSec": 62.46,
+      "endSec": 62.787,
+      "speakerKey": "speaker_2",
+      "text": "go to"
+    },
+    {
+      "cueId": "cue-00043",
+      "startSec": 62.787,
+      "endSec": 63.312,
+      "speakerKey": "speaker_2",
+      "text": "like"
+    },
+    {
+      "cueId": "cue-00044",
+      "startSec": 63.312,
+      "endSec": 64.18,
+      "speakerKey": "speaker_2",
+      "text": "fast food and stuff?"
+    },
+    {
+      "cueId": "cue-00336",
+      "startSec": 64.28,
+      "endSec": 64.58,
+      "speakerKey": "speaker_1",
+      "text": "Yeah"
+    },
+    {
+      "cueId": "cue-00627",
+      "startSec": 64.58,
+      "endSec": 65.19,
+      "speakerKey": "speaker_1",
+      "text": "Do you like that idea?"
+    },
+    {
+      "cueId": "cue-00045",
+      "startSec": 65.379,
+      "endSec": 65.68,
+      "speakerKey": "speaker_2",
+      "text": "Yes"
+    },
+    {
+      "cueId": "cue-00046",
+      "startSec": 65.68,
+      "endSec": 66.16,
+      "speakerKey": "speaker_2",
+      "text": "I'm gonna show off"
+    },
+    {
+      "cueId": "24b8b553-f9df-42b0-a5b7-28d7c7b2ff1f",
+      "startSec": 66.16,
+      "endSec": 67.14,
+      "speakerKey": "speaker_2",
+      "text": "to my friends"
+    },
+    {
+      "cueId": "cue-00047",
+      "startSec": 67.22,
+      "endSec": 67.51,
+      "speakerKey": "speaker_2",
+      "text": "I'm gonna be like"
+    },
+    {
+      "cueId": "cue-00048",
+      "startSec": 67.78,
+      "endSec": 68.66,
+      "speakerKey": "speaker_2",
+      "text": "\"Hey guys I got this\""
+    }
+  ],
+  "markedCaptionText": "[00:47.37 speaker_1] your hair\n[00:47.98 speaker_1] and we have to hurry\n[00:48.80 speaker_2] 'Cause we have to go eat\n[00:50.24 speaker_1] yeah\n[00:50.88 speaker_1] we have to go eat\n[00:52.04 speaker_1] But wait\n[00:53.67 speaker_1] I have a surprise\n[00:54.76 speaker_1] We're not going to be eating here <cand_caption_beat_1522d0cae64690f2>\n[00:56.44 speaker_1] I mean <cand_caption_beat_1522d0cae64690f2> <cand_caption_beat_14ca5efad20289ba>\n[00:56.82 speaker_1] you guys <cand_caption_beat_c0d574f219f3d45f>\n[00:58.16 speaker_1] I'm gonna take <cand_caption_beat_9e5d8295371fe433> <cand_caption_beat_e7f06687d86a30c6>\n[00:58.96 speaker_1] you to eat outside breakfast\n[01:01.84 speaker_1] You guys like the idea?\n[01:02.46 speaker_2] go to\n[01:02.79 speaker_2] like\n[01:03.31 speaker_2] fast food and stuff?\n[01:04.28 speaker_1] Yeah\n[01:04.58 speaker_1] Do you like that idea?\n[01:05.38 speaker_2] Yes\n[01:05.68 speaker_2] I'm gonna show off\n[01:06.16 speaker_2] to my friends\n[01:07.22 speaker_2] I'm gonna be like\n[01:07.78 speaker_2] \"Hey guys I got this\"",
+  "candidates": [
+    {
+      "candidateId": "cand_caption_beat_1522d0cae64690f2",
+      "momentId": "footage_05_11_26_sfx:beat_group_77",
+      "beatGroupId": "beat_group_77",
+      "relativeTimeSec": 0.851,
+      "absoluteTimeSec": 56.4,
+      "targetFrame": 3381,
+      "cueIds": [
+        "cue-00621",
+        "cue-00622"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "We're not going to be eating here I mean",
+      "anchorTypes": [
+        "cue_start",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.278,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_14ca5efad20289ba",
+      "momentId": "footage_05_11_26_sfx:beat_group_78",
+      "beatGroupId": "beat_group_78",
+      "relativeTimeSec": 1.331,
+      "absoluteTimeSec": 56.88,
+      "targetFrame": 3409,
+      "cueIds": [
+        "cue-00622"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I mean",
+      "anchorTypes": [
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.08,
+      "followingGapSec": 0,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_c0d574f219f3d45f",
+      "momentId": "footage_05_11_26_sfx:beat_group_79",
+      "beatGroupId": "beat_group_79",
+      "relativeTimeSec": 1.731,
+      "absoluteTimeSec": 57.28,
+      "targetFrame": 3433,
+      "cueIds": [
+        "cue-00623"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "you guys",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end",
+        "pause_boundary"
+      ],
+      "precedingGapSec": 0,
+      "followingGapSec": 0.88,
+      "boundaryStrength": 0,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_9e5d8295371fe433",
+      "momentId": "footage_05_11_26_sfx:beat_group_80",
+      "beatGroupId": "beat_group_80",
+      "relativeTimeSec": 2.611,
+      "absoluteTimeSec": 58.16,
+      "targetFrame": 3486,
+      "cueIds": [
+        "cue-00624"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'm gonna take",
+      "anchorTypes": [
+        "cue_start"
+      ],
+      "precedingGapSec": 0.88,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    },
+    {
+      "candidateId": "cand_caption_beat_e7f06687d86a30c6",
+      "momentId": "footage_05_11_26_sfx:beat_group_81",
+      "beatGroupId": "beat_group_81",
+      "relativeTimeSec": 3.331,
+      "absoluteTimeSec": 58.88,
+      "targetFrame": 3529,
+      "cueIds": [
+        "cue-00624"
+      ],
+      "speakerKey": "speaker_1",
+      "captionText": "I'm gonna take",
+      "anchorTypes": [
+        "cue_end_minus_80ms",
+        "final_word_end"
+      ],
+      "precedingGapSec": 0.88,
+      "followingGapSec": 0.08,
+      "boundaryStrength": 0.3,
+      "nearestZoomDeltaSec": 0
+    }
+  ],
+  "retrievalExamples": [
+    {
+      "exampleId": "new_footage_sfx:beat_group_63",
+      "projectId": "new_footage_sfx",
+      "markedCaptionContext": "50.920 speaker_1: okay\n51.240 speaker_1: where should we start amor?\n52.680 speaker_5: I think here\n<CANDIDATE>53.520 speaker_1: This room?</CANDIDATE>\n<CANDIDATE>53.940 speaker_5: Yeah</CANDIDATE>\n54.680 speaker_1: Okay guys\n55.140 speaker_1: we're gonna be starting",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_04_26_sfx:beat_group_52",
+      "projectId": "footage_05_04_26_sfx",
+      "markedCaptionContext": "42.240 speaker_1: them what you got?\n43.280 speaker_3: So we have\n43.920 speaker_3: the humongous t-Rex\n<CANDIDATE>47.562 speaker_1: We got this big</CANDIDATE>\n<CANDIDATE>48.332 speaker_1: t-Rex right here</CANDIDATE>\n50.500 speaker_3: I think it's gonna be\n52.480 speaker_3: George's favorite",
+      "humanDecision": "ding",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_06_05_26_sfx:beat_group_71",
+      "projectId": "footage_06_05_26_sfx",
+      "markedCaptionContext": "52.880 speaker_2: I told you guys\n53.860 speaker_2: All right\n54.180 speaker_2: Let's go\n<CANDIDATE>80.180 speaker_1: we're ready</CANDIDATE>\n82.520 speaker_1: One two\n82.960 speaker_1: three\n84.720 speaker_1: All right",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_17_26_sfx:beat_group_70",
+      "projectId": "footage_05_17_26_sfx",
+      "markedCaptionContext": "50.280 speaker_2: You don't like it?\n52.120 speaker_2: And by the way\n53.000 speaker_2: look\n<CANDIDATE>54.476 speaker_1: my book</CANDIDATE>\n55.380 speaker_2: This is one of our\n56.355 speaker_2: favorite books\n57.460 speaker_1: Mine",
+      "humanDecision": "success",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_colored_sfx:beat_group_26",
+      "projectId": "footage_colored_sfx",
+      "markedCaptionContext": "21.720 speaker_1: If not\n22.220 speaker_1: we're gonna have to\n22.700 speaker_1: wake her up\n<CANDIDATE>24.660 speaker_1: Oh she is awake guys</CANDIDATE>\n<CANDIDATE>26.180 speaker_1: She's right here</CANDIDATE>\n<CANDIDATE>27.640 speaker_1: awake and ready</CANDIDATE>\n28.960 speaker_1: You ready for the last",
+      "humanDecision": "other_sfx",
+      "otherFamily": "dramatic"
+    },
+    {
+      "exampleId": "footage_04_26_26_sfx:beat_group_6",
+      "projectId": "footage_04_26_26_sfx",
+      "markedCaptionContext": "0.180 speaker_1: Hey guys\n1.180 speaker_1: Welcome back\n1.740 speaker_1: to Jancy Family\n<CANDIDATE>4.300 speaker_1: Your hair smells delicious</CANDIDATE>\n<CANDIDATE>5.980 speaker_2: Thank you</CANDIDATE>\n<CANDIDATE>7.130 speaker_2: And I have a great voice right?</CANDIDATE>\n8.720 speaker_1: That was mine",
+      "humanDecision": "other_sfx",
+      "otherFamily": "pop"
+    },
+    {
+      "exampleId": "footage_05_07_26_sfx:beat_group_80",
+      "projectId": "footage_05_07_26_sfx",
+      "markedCaptionContext": "74.360 speaker_1: And guys\n74.740 speaker_1: we have a rule\n75.600 speaker_1: Each birthday\n<CANDIDATE>76.840 speaker_1: they can do</CANDIDATE>\n77.360 speaker_1: whatever they want\n78.320 speaker_1: so that's why we're here\n79.400 speaker_2: Yeah",
+      "humanDecision": "none",
+      "otherFamily": null
+    },
+    {
+      "exampleId": "footage_05_31_26_sfx:beat_group_48",
+      "projectId": "footage_05_31_26_sfx",
+      "markedCaptionContext": "37.560 speaker_3: I don't know\n40.230 speaker_1: The heck?\n44.510 speaker_1: Amor?\n<CANDIDATE>46.388 speaker_1: what are you guys doing?</CANDIDATE>\n48.620 speaker_1: You know the gardener's\n49.419 speaker_1: gonna come and do that\n50.290 speaker_1: right?",
+      "humanDecision": "none",
+      "otherFamily": null
+    }
+  ],
+  "styleReferenceSegments": []
+}

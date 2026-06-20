@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "mode": "phase1-conservative",
+  "pop": {
+    "threshold": 0.78,
+    "cooldownSeconds": 4.0,
+    "maxPerMinute": 2.4,
+    "maxZoomAccentRatio": 0.45
+  },
+  "families": {
+    "ding": {
+      "enabled": false,
+      "threshold": 0.92,
+      "cooldownSeconds": 4.0,
+      "globalCooldownSeconds": 1.25,
+      "maxPerMinute": 0.45,
+      "priority": 45,
+      "marginScore": 0.12
+    },
+    "success": {
+      "enabled": false,
+      "threshold": 0.93,
+      "cooldownSeconds": 10.0,
+      "globalCooldownSeconds": 1.25,
+      "maxPerMinute": 0.25,
+      "priority": 75,
+      "marginScore": 0.12
+    },
+    "bonk": {
+      "enabled": false,
+      "threshold": 0.93,
+      "cooldownSeconds": 8.0,
+      "globalCooldownSeconds": 1.25,
+      "maxPerMinute": 0.35,
+      "priority": 80,
+      "marginScore": 0.12
+    },
+    "funny": {
+      "enabled": false,
+      "threshold": 0.98,
+      "cooldownSeconds": 15.0,
+      "globalCooldownSeconds": 1.25,
+      "maxPerMinute": 0.1,
+      "priority": 40,
+      "marginScore": 0.18
+    },
+    "bruh": {
+      "enabled": false,
+      "threshold": 0.99,
+      "cooldownSeconds": 90.0,
+      "globalCooldownSeconds": 1.25,
+      "maxPerMinute": 0.0,
+      "priority": 90,
+      "marginScore": 0.2
+    },
+    "record_scratch": {
+      "enabled": false,
+      "threshold": 0.99,
+      "cooldownSeconds": 180.0,
+      "globalCooldownSeconds": 1.25,
+      "maxPerMinute": 0.0,
+      "priority": 95,
+      "marginScore": 0.2
+    }
+  },
+  "density": {
+    "rollingCaps": [
+      { "seconds": 3, "maxEvents": 2 },
+      { "seconds": 8, "maxEvents": 4 },
+      { "seconds": 20, "maxEvents": 7 },
+      { "seconds": 60, "maxEvents": 13 }
+    ]
+  }
+}
