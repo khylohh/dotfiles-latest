@@ -38,6 +38,10 @@ Precision-only, generated-only, same-project, contaminated, or inner-fold scores
 |---|---|---|---|
 | P01 | Caption Moment V3: moment-level multiclass classifier with classes `none`, `pop`, `ding`, `success`, `bonk`, `funny`, `bruh`, `record_scratch`, `dramatic`, `other_sfx`, plus family-conditioned timing selector | Not tried | Directly addresses known failure: missing learned `none`/rival classes and duplicate anchor scoring. It should score one semantic moment once, then choose timing, so ding/success can be blocked by pop/bonk/funny/dramatic/none. |
 
+## Implementation Notes
+
+- 2026-06-21: P01 slice 1 implemented locally: preserve `captionProjectPath` / `captionProjectId`, pass explicit caption path into caption-only automation, remove the UI zoom-marker preflight blocker, and allow caption resolution when `sourceMediaPath` is empty. This is not a model/product score improvement by itself.
+
 ## Required Log Entry For Future Runs
 
 Every new run must add:

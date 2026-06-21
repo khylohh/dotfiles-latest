@@ -163,8 +163,10 @@ const projectFileConfig = readSFXProjectFile(projectFile);
 const preferredPort = Number(args.get('port') || 5187);
 const mediaRaw = optionalArg('media') || projectFileConfig.mediaPath || '';
 const zoomXmlRaw = optionalArg('zoom-xml') || projectFileConfig.zoomXmlPath || '';
+const captionRaw = optionalArg('caption') || projectFileConfig.captionProjectPath || projectFileConfig.captionPath || '';
 const media = mediaRaw ? resolve(String(mediaRaw)) : '';
 const zoomXml = zoomXmlRaw ? resolve(String(zoomXmlRaw)) : '';
+const captionProject = captionRaw ? resolve(String(captionRaw)) : '';
 const genericOutputDir = resolve(join(homedir(), 'Desktop', 'Live SFX Projects'));
 const requestedOutputDir = resolve(String(optionalArg('output-dir') || projectFileConfig.outputDir || genericOutputDir));
 const useMediaScopedDefault = Boolean(media)
@@ -200,6 +202,7 @@ const bridgeArgs = [
 ];
 if (media) bridgeArgs.push('--media', media);
 if (zoomXml) bridgeArgs.push('--zoom-xml', zoomXml);
+if (captionProject) bridgeArgs.push('--caption', captionProject);
 if (projectFile || defaultProjectFile) bridgeArgs.push('--project-file', projectFile || defaultProjectFile);
 
 const bridge = spawn(nodePath, bridgeArgs, {

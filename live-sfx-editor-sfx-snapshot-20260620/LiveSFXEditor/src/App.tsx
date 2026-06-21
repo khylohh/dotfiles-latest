@@ -61,6 +61,10 @@ type AutomationPassResponse = {
     generatedEvents?: number;
     generatedEventIds?: string[];
     packReleaseId?: string;
+    captionSource?: string;
+    captionCandidates?: number;
+    regionCaptionCandidates?: number;
+    generatedByFamily?: Record<string, number>;
   };
   error?: string;
 };
@@ -555,7 +559,7 @@ export default function App() {
         setStatus(
           nextLibrary.leveling?.pending
             ? `Analyzing SFX library: ${nextLibrary.leveling.ready}/${nextLibrary.leveling.total} ready.`
-            : nextProject.sourceMediaPath ? 'Project loaded. Soundboard armed.' : 'Choose a source video or use the launcher with a media path.',
+            : nextProject.sourceMediaPath || nextProject.captionProjectPath ? 'Project loaded. Soundboard armed.' : 'Choose a source video, CaptionAI project, or use the launcher.',
         );
       } catch (error) {
         if (!cancelled) setStatus(`Load failed: ${error instanceof Error ? error.message : String(error)}`);
@@ -1103,10 +1107,6 @@ export default function App() {
   const applySFXAutomationPass = useCallback(async () => {
     if (automationRunning) return;
     const current = projectRef.current;
-    if (current.zoomMarkers.length === 0) {
-      setStatus('No zoom moments loaded.');
-      return;
-    }
 
     setAutomationRunning(true);
     setStatus(`Generating SFX pass for ${secondsToClock(automationRegion.start)} to ${secondsToClock(automationRegion.end)}...`);
@@ -1121,6 +1121,7 @@ export default function App() {
           createBackup: true,
           scorer: 'local',
           seed: 'sfx-v1',
+          captionPath: current.captionProjectPath,
         }),
       }).catch(() => null);
       if (!response?.ok) {
@@ -1133,8 +1134,9 @@ export default function App() {
 
       const generatedCount = payload.stats.generatedEvents ?? 0;
       const scannedCount = payload.stats.regionZoomCandidates ?? 0;
+      const captionCount = payload.stats.regionCaptionCandidates ?? payload.stats.captionCandidates ?? 0;
       if (generatedCount <= 0) {
-        setStatus(`SFX pass found no new high-confidence moments in this region (${scannedCount} zooms scanned).`);
+        setStatus(`SFX pass found no new high-confidence moments in this region (${captionCount} caption moments, ${scannedCount} zooms scanned).`);
         return;
       }
 
@@ -1144,7 +1146,7 @@ export default function App() {
       ));
       commitProject(
         () => nextProject,
-        `SFX pass placed ${generatedCount} event${generatedCount === 1 ? '' : 's'} from ${scannedCount} zooms.`,
+        `SFX pass placed ${generatedCount} event${generatedCount === 1 ? '' : 's'} from ${captionCount} caption moments and ${scannedCount} zooms.`,
       );
       selectedEventIdsRef.current = generatedIds;
       selectedEventIdRef.current = generatedIds[0] ?? null;
@@ -1842,7 +1844,7 @@ export default function App() {
                     type="button"
                     className="automation-button primary"
                     onClick={() => void applySFXAutomationPass()}
-                    disabled={automationRunning || zoomMarkers.length === 0}
+                    disabled={automationRunning}
                   >
                     <strong>{automationRunning ? 'Generating SFX Pass' : 'Generate SFX Pass'}</strong>
                     <span>Places editable V1 automation clips into the current project</span>

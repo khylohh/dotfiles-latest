@@ -46,6 +46,8 @@ export function normalizeProject(raw) {
     sampleRate: Number(candidate.sampleRate) > 0 ? Number(candidate.sampleRate) : 48000,
     zoomXmlPath: String(candidate.zoomXmlPath || ''),
     zoomMarkers: normalizeZoomMarkers(candidate.zoomMarkers, duration),
+    captionProjectPath: candidate.captionProjectPath ? String(candidate.captionProjectPath) : '',
+    captionProjectId: candidate.captionProjectId ? String(candidate.captionProjectId) : '',
     reactionOffsetFrames: Math.max(0, Math.round(Number(candidate.reactionOffsetFrames ?? 5) || 5)),
     maxPlaybackRate: Math.min(1.4, Math.max(1.1, Number(candidate.maxPlaybackRate ?? 1.4) || 1.4)),
     masterGainDb: Number.isFinite(masterGainDb) ? Math.min(6, Math.max(-24, masterGainDb)) : -12,
@@ -145,6 +147,8 @@ export function readLiveSFXDescriptor(filePath) {
   }
   const project = normalizeProject({
     ...rawProject,
+    captionProjectPath: rawProject.captionProjectPath || descriptor?.captionProjectPath || '',
+    captionProjectId: rawProject.captionProjectId || descriptor?.captionProjectId || '',
     projectFilePath: rawProject.projectFilePath || (descriptor?.kind === 'LiveSFXInterfaceProject' ? resolvedPath : rawProject.projectFilePath),
   });
   return {
@@ -177,6 +181,8 @@ export function writeLiveSFXDescriptorCopy(project, outPath, options = {}) {
     outputDir: nextProject.outputDir || dirname(projectFilePath),
     mediaPath: nextProject.sourceMediaPath || '',
     zoomXmlPath: nextProject.zoomXmlPath || '',
+    captionProjectPath: nextProject.captionProjectPath || '',
+    captionProjectId: nextProject.captionProjectId || '',
     libraryRoot: nextProject.libraryRoot || defaultLibraryRoot,
     manualRoot: nextProject.manualRoot || defaultManualRoot,
     fps: nextProject.fps || 30,

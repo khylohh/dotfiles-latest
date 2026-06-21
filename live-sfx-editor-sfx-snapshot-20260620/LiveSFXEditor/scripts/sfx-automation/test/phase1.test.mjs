@@ -1,17 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { buildSFXEvent, packEvents, packNewEventsAroundFixedEvents } from '../../../shared/sfx-event-core.mjs';
-import { readLiveSFXDescriptor } from '../../lib/live-sfx-project-io.mjs';
+import { readLiveSFXDescriptor, writeLiveSFXDescriptorCopy } from '../../lib/live-sfx-project-io.mjs';
 import { resolveCaptionProjectForMedia } from '../caption/find-caption-project.mjs';
 import { decodeTimeline } from '../decoding/decode-timeline.mjs';
 import { familyPoliciesForDecoder, scoreCaptionCandidatesModel } from '../scoring/caption-model-scorer.mjs';
 import { scoreCaptionCandidatesLocal } from '../scoring/caption-rule-scorer.mjs';
-
-const testDir = dirname(fileURLToPath(import.meta.url));
-const repoRoot = resolve(testDir, '../../../..');
 
 const project = {
   fps: 30,
@@ -65,17 +62,61 @@ test('packNewEventsAroundFixedEvents preserves fixed event tracks', () => {
   assert.notEqual(packed.find((event) => event.id === 'generated').track, 4);
 });
 
-test('caption resolver validates footage_05_27_26_sfx identity and timebase', () => {
-  const sourceProjectsPath = resolve(repoRoot, 'sfx_interface_compilation/sfx_interface_source_projects.json');
-  const sourceProjects = JSON.parse(readFileSync(sourceProjectsPath, 'utf8')).projects;
-  const meta = sourceProjects.find((item) => item.project_id === 'footage_05_27_26_sfx');
-  assert.ok(meta, 'fixture project should exist in source compilation');
-  const { project: sfxProject } = readLiveSFXDescriptor(meta.interface_path);
-  const resolver = resolveCaptionProjectForMedia(sfxProject, { captionPath: meta.caption_source });
-  assert.equal(resolver.status, 'ok');
-  assert.equal(resolver.captionPath, meta.caption_source);
-  assert.ok(Math.abs(Number(resolver.durationDeltaSec)) <= Math.max(0.5, Number(sfxProject.duration) * 0.005));
-  assert.ok(Number(resolver.resolverConfidence) >= 100);
+test('caption resolver validates explicit caption identity and timebase', () => {
+  const fixture = createCaptionResolverFixture();
+  try {
+    const resolver = resolveCaptionProjectForMedia(fixture.project, { captionPath: fixture.captionPath });
+    assert.equal(resolver.status, 'ok');
+    assert.equal(resolver.captionPath, fixture.captionPath);
+    assert.ok(Math.abs(Number(resolver.durationDeltaSec)) <= Math.max(0.5, Number(fixture.project.duration) * 0.005));
+    assert.ok(Number(resolver.resolverConfidence) >= 100);
+  } finally {
+    rmSync(fixture.tempDir, { recursive: true, force: true });
+  }
+});
+
+test('caption resolver accepts explicit caption project without source media or zoom markers', () => {
+  const fixture = createCaptionResolverFixture();
+  try {
+    const projectNoMedia = {
+      ...fixture.project,
+      sourceMediaPath: '',
+      zoomMarkers: [],
+      captionProjectPath: fixture.captionPath,
+    };
+    const resolver = resolveCaptionProjectForMedia(projectNoMedia);
+    assert.equal(resolver.status, 'ok');
+    assert.equal(resolver.captionPath, fixture.captionPath);
+    assert.ok(Math.abs(Number(resolver.durationDeltaSec)) <= Math.max(0.5, Number(fixture.project.duration) * 0.005));
+  } finally {
+    rmSync(fixture.tempDir, { recursive: true, force: true });
+  }
+});
+
+test('live sfx descriptor copy preserves caption project path and id', () => {
+  const fixture = createCaptionResolverFixture();
+  try {
+    const outPath = join(fixture.tempDir, 'Caption Round Trip.sfxinterface');
+    const written = writeLiveSFXDescriptorCopy({
+      ...fixture.project,
+      sourceMediaPath: '',
+      zoomMarkers: [],
+      captionProjectPath: fixture.captionPath,
+      captionProjectId: 'caption-fixture',
+    }, outPath);
+    assert.equal(written.descriptor.captionProjectPath, fixture.captionPath);
+    assert.equal(written.descriptor.captionProjectId, 'caption-fixture');
+    assert.equal(written.descriptor.projectSnapshot.captionProjectPath, fixture.captionPath);
+    assert.equal(written.descriptor.projectSnapshot.captionProjectId, 'caption-fixture');
+
+    const { descriptor, project: reloaded } = readLiveSFXDescriptor(outPath);
+    assert.equal(descriptor.captionProjectPath, fixture.captionPath);
+    assert.equal(descriptor.captionProjectId, 'caption-fixture');
+    assert.equal(reloaded.captionProjectPath, fixture.captionPath);
+    assert.equal(reloaded.captionProjectId, 'caption-fixture');
+  } finally {
+    rmSync(fixture.tempDir, { recursive: true, force: true });
+  }
 });
 
 test('caption scorer does not treat missing zoom as zoom support', () => {
@@ -217,6 +258,60 @@ function captionModelFixtureCandidate() {
       speakerChangesToNext: false,
       wordTimingAvailable: false,
       wordTimingCoverage: 0,
+    },
+  };
+}
+
+function createCaptionResolverFixture() {
+  const tempDir = mkdtempSync(join(tmpdir(), 'live-sfx-caption-'));
+  const mediaPath = join(tempDir, 'Footage 05-27-26.mp4');
+  const captionPath = join(tempDir, 'Captions 05-27-26.captionai');
+  const duration = 1224.24;
+  const descriptor = {
+    kind: 'CaptionAIProject',
+    version: 1,
+    mediaPath,
+    projectSnapshot: {
+      name: 'Captions 05-27-26',
+      sourceMediaPath: mediaPath,
+      duration,
+      cues: [
+        { id: 'cue-1', start: 0.12, end: 1.44, text: 'Done.' },
+        { id: 'cue-2', start: 1220.2, end: 1221.76, text: 'That worked.' },
+      ],
+    },
+  };
+  writeFileSync(captionPath, `${JSON.stringify(descriptor, null, 2)}\n`, 'utf8');
+  return {
+    tempDir,
+    captionPath,
+    project: {
+      version: 1,
+      name: 'Footage 05-27-26 SFX',
+      sourceMediaPath: mediaPath,
+      outputDir: tempDir,
+      libraryRoot: '/tmp/sfx-library',
+      manualRoot: '/tmp/manual-sfx',
+      fps: 59.94005994005994,
+      duration,
+      sampleRate: 48000,
+      zoomXmlPath: '',
+      zoomMarkers: [{
+        id: 'zoom-1',
+        name: 'Zoom 1',
+        startFrame: 120,
+        endFrame: 180,
+        startSeconds: 2,
+        endSeconds: 3,
+        durationSeconds: 1,
+      }],
+      captionProjectPath: '',
+      captionProjectId: '',
+      reactionOffsetFrames: 5,
+      maxPlaybackRate: 1.4,
+      masterGainDb: -12,
+      events: [],
+      decks: {},
     },
   };
 }

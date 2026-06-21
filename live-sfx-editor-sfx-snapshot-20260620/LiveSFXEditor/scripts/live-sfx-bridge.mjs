@@ -27,6 +27,7 @@ const outputDir = resolve(String(args.get('output-dir') || defaultOutputDir));
 const projectPath = resolve(String(args.get('project') || join(outputDir, 'live_sfx_project.json')));
 const initialMedia = args.get('media') ? resolve(String(args.get('media'))) : '';
 const explicitZoomXml = args.get('zoom-xml') ? resolve(String(args.get('zoom-xml'))) : '';
+const explicitCaptionProject = args.get('caption') ? resolve(String(args.get('caption'))) : '';
 const explicitProjectFile = args.get('project-file') ? resolve(String(args.get('project-file'))) : '';
 const port = Number(args.get('port') || 5187);
 const ffprobeBinary = resolveBinary('ffprobe');
@@ -928,6 +929,8 @@ function defaultProject(mediaPath = '') {
     sampleRate: 48000,
     zoomXmlPath,
     zoomMarkers,
+    captionProjectPath: explicitCaptionProject,
+    captionProjectId: '',
     reactionOffsetFrames: 5,
     maxPlaybackRate: 1.4,
     masterGainDb: -12,
@@ -960,6 +963,8 @@ function applyLaunchMedia(project) {
     sampleRate: 48000,
     zoomXmlPath,
     zoomMarkers,
+    captionProjectPath: project.captionProjectPath || explicitCaptionProject,
+    captionProjectId: project.captionProjectId || '',
     masterGainDb: Number.isFinite(Number(project.masterGainDb)) ? Number(project.masterGainDb) : -12,
     projectFilePath: project.projectFilePath || explicitProjectFile || undefined,
   };
@@ -991,6 +996,8 @@ function ensureProject() {
         sampleRate: 48000,
         zoomXmlPath,
         zoomMarkers,
+        captionProjectPath: existing.captionProjectPath || explicitCaptionProject,
+        captionProjectId: existing.captionProjectId || '',
       }
       : applyLaunchMedia(existing);
     if (
@@ -1040,6 +1047,8 @@ function writeProject(project, options = {}) {
     ...project,
     projectFilePath: project.projectFilePath || existingProject.projectFilePath,
     projectLauncherPath: project.projectLauncherPath || existingProject.projectLauncherPath,
+    captionProjectPath: project.captionProjectPath || existingProject.captionProjectPath || explicitCaptionProject,
+    captionProjectId: project.captionProjectId || existingProject.captionProjectId || '',
   });
   const createBackup = Boolean(options.backup);
   if (createBackup && existsSync(projectPath)) {
@@ -1155,6 +1164,8 @@ function writeSFXProjectFile(project, targetProjectPath) {
     outputDir: project.outputDir || outputDir,
     mediaPath: project.sourceMediaPath || '',
     zoomXmlPath: project.zoomXmlPath || '',
+    captionProjectPath: project.captionProjectPath || '',
+    captionProjectId: project.captionProjectId || '',
     libraryRoot: project.libraryRoot || libraryRoot,
     manualRoot: project.manualRoot || manualRoot,
     fps: project.fps || 30,
@@ -1995,6 +2006,7 @@ const server = createHttpServer(async (req, res) => {
         seed: payload.seed || 'sfx-v1',
         scorer: payload.scorer || 'local',
         packRoot: payload.packRoot,
+        captionPath: payload.captionPath || project.captionProjectPath,
         region: {
           start: Number.isFinite(regionStart) ? regionStart : undefined,
           end: Number.isFinite(regionEnd) ? regionEnd : undefined,

@@ -24,11 +24,12 @@ export function resolveCaptionProjectForMedia(project, options = {}) {
   }
 
   const mediaPath = project.sourceMediaPath ? resolve(String(project.sourceMediaPath)) : '';
-  if (!mediaPath) return fail('missing_media_path');
   const roots = unique([
     options.searchRoot,
+    project.captionProjectPath ? dirname(resolve(String(project.captionProjectPath))) : '',
+    project.projectFilePath ? dirname(resolve(String(project.projectFilePath))) : '',
     project.outputDir,
-    dirname(mediaPath),
+    mediaPath ? dirname(mediaPath) : '',
   ].filter(Boolean).map((value) => resolve(String(value))));
   const candidates = [];
   for (const root of roots) {
@@ -139,7 +140,7 @@ function scoreCaptionDescriptor({ descriptorMedia, descriptorName, filePath, med
   const mediaDateToken = dateToken(mediaPath);
   const descriptorHaystack = `${descriptorName || ''} ${filePath} ${descriptorMedia || ''}`.toLowerCase();
   if (mediaDateToken && descriptorHaystack.includes(mediaDateToken)) score = Math.max(score, 55);
-  const mediaStem = basename(mediaPath, extname(mediaPath)).toLowerCase();
+  const mediaStem = mediaPath ? basename(mediaPath, extname(mediaPath)).toLowerCase() : '';
   if (mediaStem && descriptorHaystack.includes(mediaStem)) score = Math.max(score, 50);
   if (Number.isFinite(snapshotDuration) && Number.isFinite(projectDuration) && durationDeltaSec <= durationLimit(projectDuration)) score = Math.max(score, 45);
   return score;

@@ -73,6 +73,8 @@ export interface LiveSFXProject {
   sampleRate: number;
   zoomXmlPath: string;
   zoomMarkers: ZoomMarker[];
+  captionProjectPath?: string;
+  captionProjectId?: string;
   reactionOffsetFrames: number;
   maxPlaybackRate: number;
   masterGainDb: number;
