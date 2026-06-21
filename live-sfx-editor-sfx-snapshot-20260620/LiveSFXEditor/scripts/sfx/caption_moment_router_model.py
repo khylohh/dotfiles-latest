@@ -545,7 +545,13 @@ def human_events_for_records(records):
     return events
 
 
-def match_generated_to_human(generated, manual):
+def event_match_window(family, match_window_sec=None):
+    if match_window_sec is not None:
+        return safe_float(match_window_sec)
+    return match_tolerance(family)
+
+
+def match_generated_to_human(generated, manual, match_window_sec=None):
     possible = []
     for gen_index, generated_event in enumerate(generated):
         for human_index, human_event in enumerate(manual):
@@ -556,7 +562,7 @@ def match_generated_to_human(generated, manual):
             if human_event["family"] not in EMITTABLE:
                 continue
             delta = safe_float(generated_event["targetSec"]) - safe_float(human_event["time"])
-            if abs(delta) <= match_tolerance(human_event["family"]):
+            if abs(delta) <= event_match_window(human_event["family"], match_window_sec):
                 possible.append((abs(delta), gen_index, human_index, delta))
     possible.sort()
     used_generated = set()
@@ -577,8 +583,8 @@ def match_generated_to_human(generated, manual):
     return matches, false_additions, false_negatives
 
 
-def product_metrics(generated, manual):
-    matches, false_additions, false_negatives = match_generated_to_human(generated, manual)
+def product_metrics(generated, manual, match_window_sec=None):
+    matches, false_additions, false_negatives = match_generated_to_human(generated, manual, match_window_sec)
     by_family = {}
     for family in CLASSES:
         if family == "none":
@@ -614,6 +620,7 @@ def product_metrics(generated, manual):
     false_count = len(false_additions)
     return {
         "humanTotal": human_total,
+        "matchWindowSec": match_window_sec,
         "matched": matched,
         "coverage": matched / human_total if human_total else None,
         "generatedAttempts": generated_count,

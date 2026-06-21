@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mode": "phase1-conservative",
   "pop": {
-    "threshold": 0.78,
-    "cooldownSeconds": 4.0,
+    "threshold": 0.8,
+    "cooldownSeconds": 5.0,
     "maxPerMinute": 2.4,
     "maxZoomAccentRatio": 0.45
   },

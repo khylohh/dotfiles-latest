@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "runId": "phrase-candidate-selector-outer04-001",
+  "corpus": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/data/sfx-automation-v3/caption-moment-corpus.jsonl",
+  "outerSplits": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/validation/outer-splits-v1.json",
+  "foldFilter": "outer_04",
+  "projectFilter": "footage_05_11_26_sfx",
+  "matchWindowSec": 5.0
+}

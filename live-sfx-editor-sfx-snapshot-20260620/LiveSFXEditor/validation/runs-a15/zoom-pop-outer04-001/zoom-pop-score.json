@@ -1,0 +1,2313 @@
+{
+  "schemaVersion": 1,
+  "protocol": "zoom-pop-selector-v1",
+  "createdAt": "2026-06-21T13:40:30.182504+00:00",
+  "metricBoundary": "outer-fold-only; zoom-pop selector and policy selected from trainProjectIds only",
+  "matchWindowSec": 5.0,
+  "summary": {
+    "humanTotal": 326,
+    "matchWindowSec": 5.0,
+    "matched": 17,
+    "coverage": 0.05214723926380368,
+    "generatedAttempts": 30,
+    "falseAdditions": 13,
+    "netSavedEdits": 4,
+    "precision": 0.5666666666666667,
+    "positiveNetProjectFraction": 1.0,
+    "byFamily": {
+      "pop": {
+        "humanTotal": 66,
+        "matched": 17,
+        "generatedAttempts": 30,
+        "falseAdditions": 13,
+        "netSavedEdits": 4
+      },
+      "ding": {
+        "humanTotal": 67,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "success": {
+        "humanTotal": 15,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "bonk": {
+        "humanTotal": 46,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "funny": {
+        "humanTotal": 26,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "bruh": {
+        "humanTotal": 3,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "record_scratch": {
+        "humanTotal": 7,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "dramatic": {
+        "humanTotal": 46,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "other_sfx": {
+        "humanTotal": 50,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      }
+    },
+    "byProject": [
+      {
+        "projectId": "footage_05_11_26_sfx",
+        "humanTotal": 326,
+        "matched": 17,
+        "generatedAttempts": 30,
+        "falseAdditions": 13,
+        "netSavedEdits": 4
+      }
+    ]
+  },
+  "promotion": {
+    "passes": true,
+    "requiredCondition": "outer/test net saved edits > 0"
+  },
+  "foldReports": [
+    {
+      "foldId": "outer_04",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_11_26_sfx"
+      ],
+      "candidateCount": 164,
+      "positiveCandidateCount": 82,
+      "selectedPolicy": {
+        "policy": {
+          "policyName": "threshold0.80_nms5",
+          "topK": 9999,
+          "threshold": 0.8,
+          "nmsSeconds": 5.0
+        },
+        "metrics": {
+          "humanTotal": 3738,
+          "matchWindowSec": 5.0,
+          "matched": 181,
+          "coverage": 0.04842161583734617,
+          "generatedAttempts": 266,
+          "falseAdditions": 85,
+          "netSavedEdits": 96,
+          "precision": 0.6804511278195489,
+          "positiveNetProjectFraction": 1.0,
+          "byFamily": {
+            "pop": {
+              "humanTotal": 609,
+              "matched": 181,
+              "generatedAttempts": 266,
+              "falseAdditions": 85,
+              "netSavedEdits": 96
+            },
+            "ding": {
+              "humanTotal": 619,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "success": {
+              "humanTotal": 330,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "bonk": {
+              "humanTotal": 327,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "funny": {
+              "humanTotal": 295,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "bruh": {
+              "humanTotal": 20,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "record_scratch": {
+              "humanTotal": 44,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "dramatic": {
+              "humanTotal": 606,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "other_sfx": {
+              "humanTotal": 888,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            }
+          },
+          "byProject": [
+            {
+              "projectId": "footage_04_26_26_sfx",
+              "humanTotal": 682,
+              "matched": 35,
+              "generatedAttempts": 41,
+              "falseAdditions": 6,
+              "netSavedEdits": 29
+            },
+            {
+              "projectId": "footage_05_04_26_sfx",
+              "humanTotal": 411,
+              "matched": 13,
+              "generatedAttempts": 18,
+              "falseAdditions": 5,
+              "netSavedEdits": 8
+            },
+            {
+              "projectId": "footage_05_07_26_sfx",
+              "humanTotal": 478,
+              "matched": 24,
+              "generatedAttempts": 37,
+              "falseAdditions": 13,
+              "netSavedEdits": 11
+            },
+            {
+              "projectId": "footage_05_17_26_sfx",
+              "humanTotal": 264,
+              "matched": 11,
+              "generatedAttempts": 15,
+              "falseAdditions": 4,
+              "netSavedEdits": 7
+            },
+            {
+              "projectId": "footage_05_19_26_sfx",
+              "humanTotal": 362,
+              "matched": 13,
+              "generatedAttempts": 20,
+              "falseAdditions": 7,
+              "netSavedEdits": 6
+            },
+            {
+              "projectId": "footage_05_26_26_sfx",
+              "humanTotal": 263,
+              "matched": 12,
+              "generatedAttempts": 16,
+              "falseAdditions": 4,
+              "netSavedEdits": 8
+            },
+            {
+              "projectId": "footage_05_27_26_sfx",
+              "humanTotal": 270,
+              "matched": 25,
+              "generatedAttempts": 45,
+              "falseAdditions": 20,
+              "netSavedEdits": 5
+            },
+            {
+              "projectId": "footage_05_31_26_sfx",
+              "humanTotal": 284,
+              "matched": 16,
+              "generatedAttempts": 31,
+              "falseAdditions": 15,
+              "netSavedEdits": 1
+            },
+            {
+              "projectId": "footage_06_05_26_sfx",
+              "humanTotal": 364,
+              "matched": 16,
+              "generatedAttempts": 23,
+              "falseAdditions": 7,
+              "netSavedEdits": 9
+            },
+            {
+              "projectId": "footage_colored_sfx",
+              "humanTotal": 325,
+              "matched": 15,
+              "generatedAttempts": 19,
+              "falseAdditions": 4,
+              "netSavedEdits": 11
+            },
+            {
+              "projectId": "new_footage_sfx",
+              "humanTotal": 35,
+              "matched": 1,
+              "generatedAttempts": 1,
+              "falseAdditions": 0,
+              "netSavedEdits": 1
+            }
+          ]
+        },
+        "popMetrics": {
+          "humanTotal": 609,
+          "matched": 181,
+          "generatedAttempts": 266,
+          "falseAdditions": 85,
+          "netSavedEdits": 96
+        },
+        "positiveProjectCount": 11,
+        "medianProjectNetSavedEdits": 8,
+        "choiceKey": [
+          1.0,
+          8,
+          96,
+          181,
+          -85,
+          -266
+        ]
+      },
+      "policyReports": [
+        {
+          "policy": {
+            "policyName": "threshold0.80_nms5",
+            "topK": 9999,
+            "threshold": 0.8,
+            "nmsSeconds": 5.0
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 181,
+            "coverage": 0.04842161583734617,
+            "generatedAttempts": 266,
+            "falseAdditions": 85,
+            "netSavedEdits": 96,
+            "precision": 0.6804511278195489,
+            "positiveNetProjectFraction": 1.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 181,
+                "generatedAttempts": 266,
+                "falseAdditions": 85,
+                "netSavedEdits": 96
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 35,
+                "generatedAttempts": 41,
+                "falseAdditions": 6,
+                "netSavedEdits": 29
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 13,
+                "generatedAttempts": 18,
+                "falseAdditions": 5,
+                "netSavedEdits": 8
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 24,
+                "generatedAttempts": 37,
+                "falseAdditions": 13,
+                "netSavedEdits": 11
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 11,
+                "generatedAttempts": 15,
+                "falseAdditions": 4,
+                "netSavedEdits": 7
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 13,
+                "generatedAttempts": 20,
+                "falseAdditions": 7,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 12,
+                "generatedAttempts": 16,
+                "falseAdditions": 4,
+                "netSavedEdits": 8
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 25,
+                "generatedAttempts": 45,
+                "falseAdditions": 20,
+                "netSavedEdits": 5
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 16,
+                "generatedAttempts": 31,
+                "falseAdditions": 15,
+                "netSavedEdits": 1
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 16,
+                "generatedAttempts": 23,
+                "falseAdditions": 7,
+                "netSavedEdits": 9
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 15,
+                "generatedAttempts": 19,
+                "falseAdditions": 4,
+                "netSavedEdits": 11
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 1,
+                "generatedAttempts": 1,
+                "falseAdditions": 0,
+                "netSavedEdits": 1
+              }
+            ]
+          },
+          "popMetrics": {
+            "humanTotal": 609,
+            "matched": 181,
+            "generatedAttempts": 266,
+            "falseAdditions": 85,
+            "netSavedEdits": 96
+          },
+          "positiveProjectCount": 11,
+          "medianProjectNetSavedEdits": 8,
+          "choiceKey": [
+            1.0,
+            8,
+            96,
+            181,
+            -85,
+            -266
+          ]
+        },
+        {
+          "policy": {
+            "policyName": "perMinute1.5_nms5",
+            "topK": null,
+            "maxPerMinute": 1.5,
+            "threshold": 0.0,
+            "nmsSeconds": 5.0
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 240,
+            "coverage": 0.06420545746388442,
+            "generatedAttempts": 352,
+            "falseAdditions": 112,
+            "netSavedEdits": 128,
+            "precision": 0.6818181818181818,
+            "positiveNetProjectFraction": 0.9090909090909091,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 240,
+                "generatedAttempts": 352,
+                "falseAdditions": 112,
+                "netSavedEdits": 128
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 33,
+                "generatedAttempts": 38,
+                "falseAdditions": 5,
+                "netSavedEdits": 28
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 20,
+                "generatedAttempts": 33,
+                "falseAdditions": 13,
+                "netSavedEdits": 7
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 29,
+                "generatedAttempts": 43,
+                "falseAdditions": 14,
+                "netSavedEdits": 15
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 18,
+                "generatedAttempts": 30,
+                "falseAdditions": 12,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 24,
+                "generatedAttempts": 37,
+                "falseAdditions": 13,
+                "netSavedEdits": 11
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 24,
+                "generatedAttempts": 31,
+                "falseAdditions": 7,
+                "netSavedEdits": 17
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 21,
+                "generatedAttempts": 31,
+                "falseAdditions": 10,
+                "netSavedEdits": 11
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 19,
+                "generatedAttempts": 35,
+                "falseAdditions": 16,
+                "netSavedEdits": 3
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 27,
+                "generatedAttempts": 37,
+                "falseAdditions": 10,
+                "netSavedEdits": 17
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 23,
+                "generatedAttempts": 32,
+                "falseAdditions": 9,
+                "netSavedEdits": 14
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 2,
+                "generatedAttempts": 5,
+                "falseAdditions": 3,
+                "netSavedEdits": -1
+              }
+            ]
+          },
+          "popMetrics": {
+            "humanTotal": 609,
+            "matched": 240,
+            "generatedAttempts": 352,
+            "falseAdditions": 112,
+            "netSavedEdits": 128
+          },
+          "positiveProjectCount": 10,
+          "medianProjectNetSavedEdits": 11,
+          "choiceKey": [
+            0.9090909090909091,
+            11,
+            128,
+            240,
+            -112,
+            -352
+          ]
+        },
+        {
+          "policy": {
+            "policyName": "top30_nms5",
+            "topK": 30,
+            "threshold": 0.0,
+            "nmsSeconds": 5.0
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 205,
+            "coverage": 0.05484216158373462,
+            "generatedAttempts": 305,
+            "falseAdditions": 100,
+            "netSavedEdits": 105,
+            "precision": 0.6721311475409836,
+            "positiveNetProjectFraction": 0.9090909090909091,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 205,
+                "generatedAttempts": 305,
+                "falseAdditions": 100,
+                "netSavedEdits": 105
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 27,
+                "generatedAttempts": 30,
+                "falseAdditions": 3,
+                "netSavedEdits": 24
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 19,
+                "generatedAttempts": 30,
+                "falseAdditions": 11,
+                "netSavedEdits": 8
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 18,
+                "generatedAttempts": 30,
+                "falseAdditions": 12,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 18,
+                "generatedAttempts": 30,
+                "falseAdditions": 12,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 19,
+                "generatedAttempts": 30,
+                "falseAdditions": 11,
+                "netSavedEdits": 8
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 23,
+                "generatedAttempts": 30,
+                "falseAdditions": 7,
+                "netSavedEdits": 16
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 20,
+                "generatedAttempts": 30,
+                "falseAdditions": 10,
+                "netSavedEdits": 10
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 16,
+                "generatedAttempts": 30,
+                "falseAdditions": 14,
+                "netSavedEdits": 2
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 22,
+                "generatedAttempts": 30,
+                "falseAdditions": 8,
+                "netSavedEdits": 14
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 21,
+                "generatedAttempts": 30,
+                "falseAdditions": 9,
+                "netSavedEdits": 12
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 2,
+                "generatedAttempts": 5,
+                "falseAdditions": 3,
+                "netSavedEdits": -1
+              }
+            ]
+          },
+          "popMetrics": {
+            "humanTotal": 609,
+            "matched": 205,
+            "generatedAttempts": 305,
+            "falseAdditions": 100,
+            "netSavedEdits": 105
+          },
+          "positiveProjectCount": 10,
+          "medianProjectNetSavedEdits": 8,
+          "choiceKey": [
+            0.9090909090909091,
+            8,
+            105,
+            205,
+            -100,
+            -305
+          ]
+        },
+        {
+          "policy": {
+            "policyName": "top40_nms5",
+            "topK": 40,
+            "threshold": 0.0,
+            "nmsSeconds": 5.0
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 263,
+            "coverage": 0.07035848047084002,
+            "generatedAttempts": 405,
+            "falseAdditions": 142,
+            "netSavedEdits": 121,
+            "precision": 0.6493827160493827,
+            "positiveNetProjectFraction": 0.8181818181818182,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 263,
+                "generatedAttempts": 405,
+                "falseAdditions": 142,
+                "netSavedEdits": 121
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 35,
+                "generatedAttempts": 40,
+                "falseAdditions": 5,
+                "netSavedEdits": 30
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 23,
+                "generatedAttempts": 40,
+                "falseAdditions": 17,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 26,
+                "generatedAttempts": 40,
+                "falseAdditions": 14,
+                "netSavedEdits": 12
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 23,
+                "generatedAttempts": 40,
+                "falseAdditions": 17,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 26,
+                "generatedAttempts": 40,
+                "falseAdditions": 14,
+                "netSavedEdits": 12
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 31,
+                "generatedAttempts": 40,
+                "falseAdditions": 9,
+                "netSavedEdits": 22
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 24,
+                "generatedAttempts": 40,
+                "falseAdditions": 16,
+                "netSavedEdits": 8
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 19,
+                "generatedAttempts": 40,
+                "falseAdditions": 21,
+                "netSavedEdits": -2
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 29,
+                "generatedAttempts": 40,
+                "falseAdditions": 11,
+                "netSavedEdits": 18
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 25,
+                "generatedAttempts": 40,
+                "falseAdditions": 15,
+                "netSavedEdits": 10
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 2,
+                "generatedAttempts": 5,
+                "falseAdditions": 3,
+                "netSavedEdits": -1
+              }
+            ]
+          },
+          "popMetrics": {
+            "humanTotal": 609,
+            "matched": 263,
+            "generatedAttempts": 405,
+            "falseAdditions": 142,
+            "netSavedEdits": 121
+          },
+          "positiveProjectCount": 9,
+          "medianProjectNetSavedEdits": 10,
+          "choiceKey": [
+            0.8181818181818182,
+            10,
+            121,
+            263,
+            -142,
+            -405
+          ]
+        },
+        {
+          "policy": {
+            "policyName": "perMinute2_nms5",
+            "topK": null,
+            "maxPerMinute": 2.0,
+            "threshold": 0.0,
+            "nmsSeconds": 5.0
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 299,
+            "coverage": 0.07998929909042268,
+            "generatedAttempts": 466,
+            "falseAdditions": 167,
+            "netSavedEdits": 132,
+            "precision": 0.6416309012875536,
+            "positiveNetProjectFraction": 0.8181818181818182,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 299,
+                "generatedAttempts": 466,
+                "falseAdditions": 167,
+                "netSavedEdits": 132
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 42,
+                "generatedAttempts": 50,
+                "falseAdditions": 8,
+                "netSavedEdits": 34
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 26,
+                "generatedAttempts": 44,
+                "falseAdditions": 18,
+                "netSavedEdits": 8
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 38,
+                "generatedAttempts": 57,
+                "falseAdditions": 19,
+                "netSavedEdits": 19
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 23,
+                "generatedAttempts": 40,
+                "falseAdditions": 17,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 28,
+                "generatedAttempts": 49,
+                "falseAdditions": 21,
+                "netSavedEdits": 7
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 32,
+                "generatedAttempts": 41,
+                "falseAdditions": 9,
+                "netSavedEdits": 23
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 24,
+                "generatedAttempts": 41,
+                "falseAdditions": 17,
+                "netSavedEdits": 7
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 21,
+                "generatedAttempts": 47,
+                "falseAdditions": 26,
+                "netSavedEdits": -5
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 36,
+                "generatedAttempts": 49,
+                "falseAdditions": 13,
+                "netSavedEdits": 23
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 27,
+                "generatedAttempts": 43,
+                "falseAdditions": 16,
+                "netSavedEdits": 11
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 2,
+                "generatedAttempts": 5,
+                "falseAdditions": 3,
+                "netSavedEdits": -1
+              }
+            ]
+          },
+          "popMetrics": {
+            "humanTotal": 609,
+            "matched": 299,
+            "generatedAttempts": 466,
+            "falseAdditions": 167,
+            "netSavedEdits": 132
+          },
+          "positiveProjectCount": 9,
+          "medianProjectNetSavedEdits": 8,
+          "choiceKey": [
+            0.8181818181818182,
+            8,
+            132,
+            299,
+            -167,
+            -466
+          ]
+        },
+        {
+          "policy": {
+            "policyName": "threshold0.70_nms5",
+            "topK": 9999,
+            "threshold": 0.7,
+            "nmsSeconds": 5.0
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 270,
+            "coverage": 0.07223113964686999,
+            "generatedAttempts": 419,
+            "falseAdditions": 149,
+            "netSavedEdits": 121,
+            "precision": 0.6443914081145584,
+            "positiveNetProjectFraction": 0.8181818181818182,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 270,
+                "generatedAttempts": 419,
+                "falseAdditions": 149,
+                "netSavedEdits": 121
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 51,
+                "generatedAttempts": 61,
+                "falseAdditions": 10,
+                "netSavedEdits": 41
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 21,
+                "generatedAttempts": 34,
+                "falseAdditions": 13,
+                "netSavedEdits": 8
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 37,
+                "generatedAttempts": 54,
+                "falseAdditions": 17,
+                "netSavedEdits": 20
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 14,
+                "generatedAttempts": 24,
+                "falseAdditions": 10,
+                "netSavedEdits": 4
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 17,
+                "generatedAttempts": 28,
+                "falseAdditions": 11,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 22,
+                "generatedAttempts": 29,
+                "falseAdditions": 7,
+                "netSavedEdits": 15
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 32,
+                "generatedAttempts": 64,
+                "falseAdditions": 32,
+                "netSavedEdits": 0
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 22,
+                "generatedAttempts": 52,
+                "falseAdditions": 30,
+                "netSavedEdits": -8
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 33,
+                "generatedAttempts": 44,
+                "falseAdditions": 11,
+                "netSavedEdits": 22
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 20,
+                "generatedAttempts": 28,
+                "falseAdditions": 8,
+                "netSavedEdits": 12
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 1,
+                "generatedAttempts": 1,
+                "falseAdditions": 0,
+                "netSavedEdits": 1
+              }
+            ]
+          },
+          "popMetrics": {
+            "humanTotal": 609,
+            "matched": 270,
+            "generatedAttempts": 419,
+            "falseAdditions": 149,
+            "netSavedEdits": 121
+          },
+          "positiveProjectCount": 9,
+          "medianProjectNetSavedEdits": 8,
+          "choiceKey": [
+            0.8181818181818182,
+            8,
+            121,
+            270,
+            -149,
+            -419
+          ]
+        },
+        {
+          "policy": {
+            "policyName": "top60_nms5",
+            "topK": 60,
+            "threshold": 0.0,
+            "nmsSeconds": 5.0
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 371,
+            "coverage": 0.09925093632958802,
+            "generatedAttempts": 605,
+            "falseAdditions": 234,
+            "netSavedEdits": 137,
+            "precision": 0.6132231404958678,
+            "positiveNetProjectFraction": 0.7272727272727273,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 371,
+                "generatedAttempts": 605,
+                "falseAdditions": 234,
+                "netSavedEdits": 137
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 50,
+                "generatedAttempts": 60,
+                "falseAdditions": 10,
+                "netSavedEdits": 40
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 33,
+                "generatedAttempts": 60,
+                "falseAdditions": 27,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 39,
+                "generatedAttempts": 60,
+                "falseAdditions": 21,
+                "netSavedEdits": 18
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 28,
+                "generatedAttempts": 60,
+                "falseAdditions": 32,
+                "netSavedEdits": -4
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 36,
+                "generatedAttempts": 60,
+                "falseAdditions": 24,
+                "netSavedEdits": 12
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 43,
+                "generatedAttempts": 60,
+                "falseAdditions": 17,
+                "netSavedEdits": 26
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 31,
+                "generatedAttempts": 60,
+                "falseAdditions": 29,
+                "netSavedEdits": 2
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 26,
+                "generatedAttempts": 60,
+                "falseAdditions": 34,
+                "netSavedEdits": -8
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 46,
+                "generatedAttempts": 60,
+                "falseAdditions": 14,
+                "netSavedEdits": 32
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 37,
+                "generatedAttempts": 60,
+                "falseAdditions": 23,
+                "netSavedEdits": 14
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 2,
+                "generatedAttempts": 5,
+                "falseAdditions": 3,
+                "netSavedEdits": -1
+              }
+            ]
+          },
+          "popMetrics": {
+            "humanTotal": 609,
+            "matched": 371,
+            "generatedAttempts": 605,
+            "falseAdditions": 234,
+            "netSavedEdits": 137
+          },
+          "positiveProjectCount": 8,
+          "medianProjectNetSavedEdits": 12,
+          "choiceKey": [
+            0.7272727272727273,
+            12,
+            137,
+            371,
+            -234,
+            -605
+          ]
+        },
+        {
+          "policy": {
+            "policyName": "perMinute2.5_nms5",
+            "topK": null,
+            "maxPerMinute": 2.5,
+            "threshold": 0.0,
+            "nmsSeconds": 5.0
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 363,
+            "coverage": 0.0971107544141252,
+            "generatedAttempts": 582,
+            "falseAdditions": 219,
+            "netSavedEdits": 144,
+            "precision": 0.6237113402061856,
+            "positiveNetProjectFraction": 0.7272727272727273,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 363,
+                "generatedAttempts": 582,
+                "falseAdditions": 219,
+                "netSavedEdits": 144
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 52,
+                "generatedAttempts": 63,
+                "falseAdditions": 11,
+                "netSavedEdits": 41
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 32,
+                "generatedAttempts": 55,
+                "falseAdditions": 23,
+                "netSavedEdits": 9
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 46,
+                "generatedAttempts": 72,
+                "falseAdditions": 26,
+                "netSavedEdits": 20
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 24,
+                "generatedAttempts": 50,
+                "falseAdditions": 26,
+                "netSavedEdits": -2
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 37,
+                "generatedAttempts": 61,
+                "falseAdditions": 24,
+                "netSavedEdits": 13
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 37,
+                "generatedAttempts": 52,
+                "falseAdditions": 15,
+                "netSavedEdits": 22
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 29,
+                "generatedAttempts": 52,
+                "falseAdditions": 23,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 25,
+                "generatedAttempts": 58,
+                "falseAdditions": 33,
+                "netSavedEdits": -8
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 47,
+                "generatedAttempts": 61,
+                "falseAdditions": 14,
+                "netSavedEdits": 33
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 32,
+                "generatedAttempts": 53,
+                "falseAdditions": 21,
+                "netSavedEdits": 11
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 2,
+                "generatedAttempts": 5,
+                "falseAdditions": 3,
+                "netSavedEdits": -1
+              }
+            ]
+          },
+          "popMetrics": {
+            "humanTotal": 609,
+            "matched": 363,
+            "generatedAttempts": 582,
+            "falseAdditions": 219,
+            "netSavedEdits": 144
+          },
+          "positiveProjectCount": 8,
+          "medianProjectNetSavedEdits": 11,
+          "choiceKey": [
+            0.7272727272727273,
+            11,
+            144,
+            363,
+            -219,
+            -582
+          ]
+        },
+        {
+          "policy": {
+            "policyName": "top50_nms5",
+            "topK": 50,
+            "threshold": 0.0,
+            "nmsSeconds": 5.0
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 314,
+            "coverage": 0.08400214018191546,
+            "generatedAttempts": 505,
+            "falseAdditions": 191,
+            "netSavedEdits": 123,
+            "precision": 0.6217821782178218,
+            "positiveNetProjectFraction": 0.7272727272727273,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 314,
+                "generatedAttempts": 505,
+                "falseAdditions": 191,
+                "netSavedEdits": 123
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 42,
+                "generatedAttempts": 50,
+                "falseAdditions": 8,
+                "netSavedEdits": 34
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 29,
+                "generatedAttempts": 50,
+                "falseAdditions": 21,
+                "netSavedEdits": 8
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 34,
+                "generatedAttempts": 50,
+                "falseAdditions": 16,
+                "netSavedEdits": 18
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 24,
+                "generatedAttempts": 50,
+                "falseAdditions": 26,
+                "netSavedEdits": -2
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 29,
+                "generatedAttempts": 50,
+                "falseAdditions": 21,
+                "netSavedEdits": 8
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 37,
+                "generatedAttempts": 50,
+                "falseAdditions": 13,
+                "netSavedEdits": 24
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 27,
+                "generatedAttempts": 50,
+                "falseAdditions": 23,
+                "netSavedEdits": 4
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 22,
+                "generatedAttempts": 50,
+                "falseAdditions": 28,
+                "netSavedEdits": -6
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 37,
+                "generatedAttempts": 50,
+                "falseAdditions": 13,
+                "netSavedEdits": 24
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 31,
+                "generatedAttempts": 50,
+                "falseAdditions": 19,
+                "netSavedEdits": 12
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 2,
+                "generatedAttempts": 5,
+                "falseAdditions": 3,
+                "netSavedEdits": -1
+              }
+            ]
+          },
+          "popMetrics": {
+            "humanTotal": 609,
+            "matched": 314,
+            "generatedAttempts": 505,
+            "falseAdditions": 191,
+            "netSavedEdits": 123
+          },
+          "positiveProjectCount": 8,
+          "medianProjectNetSavedEdits": 8,
+          "choiceKey": [
+            0.7272727272727273,
+            8,
+            123,
+            314,
+            -191,
+            -505
+          ]
+        },
+        {
+          "policy": {
+            "policyName": "threshold0.90_nms5",
+            "topK": 9999,
+            "threshold": 0.9,
+            "nmsSeconds": 5.0
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 73,
+            "coverage": 0.019529159978598182,
+            "generatedAttempts": 99,
+            "falseAdditions": 26,
+            "netSavedEdits": 47,
+            "precision": 0.7373737373737373,
+            "positiveNetProjectFraction": 0.7272727272727273,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 73,
+                "generatedAttempts": 99,
+                "falseAdditions": 26,
+                "netSavedEdits": 47
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 18,
+                "generatedAttempts": 19,
+                "falseAdditions": 1,
+                "netSavedEdits": 17
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 2,
+                "generatedAttempts": 4,
+                "falseAdditions": 2,
+                "netSavedEdits": 0
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 9,
+                "generatedAttempts": 14,
+                "falseAdditions": 5,
+                "netSavedEdits": 4
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 5,
+                "generatedAttempts": 5,
+                "falseAdditions": 0,
+                "netSavedEdits": 5
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 7,
+                "generatedAttempts": 8,
+                "falseAdditions": 1,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 5,
+                "generatedAttempts": 6,
+                "falseAdditions": 1,
+                "netSavedEdits": 4
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 12,
+                "generatedAttempts": 18,
+                "falseAdditions": 6,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 4,
+                "generatedAttempts": 12,
+                "falseAdditions": 8,
+                "netSavedEdits": -4
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 4,
+                "generatedAttempts": 6,
+                "falseAdditions": 2,
+                "netSavedEdits": 2
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 7,
+                "generatedAttempts": 7,
+                "falseAdditions": 0,
+                "netSavedEdits": 7
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            ]
+          },
+          "popMetrics": {
+            "humanTotal": 609,
+            "matched": 73,
+            "generatedAttempts": 99,
+            "falseAdditions": 26,
+            "netSavedEdits": 47
+          },
+          "positiveProjectCount": 8,
+          "medianProjectNetSavedEdits": 4,
+          "choiceKey": [
+            0.7272727272727273,
+            4,
+            47,
+            73,
+            -26,
+            -99
+          ]
+        }
+      ],
+      "outerMetrics": {
+        "humanTotal": 326,
+        "matchWindowSec": 5.0,
+        "matched": 17,
+        "coverage": 0.05214723926380368,
+        "generatedAttempts": 30,
+        "falseAdditions": 13,
+        "netSavedEdits": 4,
+        "precision": 0.5666666666666667,
+        "positiveNetProjectFraction": 1.0,
+        "byFamily": {
+          "pop": {
+            "humanTotal": 66,
+            "matched": 17,
+            "generatedAttempts": 30,
+            "falseAdditions": 13,
+            "netSavedEdits": 4
+          },
+          "ding": {
+            "humanTotal": 67,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "success": {
+            "humanTotal": 15,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "bonk": {
+            "humanTotal": 46,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "funny": {
+            "humanTotal": 26,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "bruh": {
+            "humanTotal": 3,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "record_scratch": {
+            "humanTotal": 7,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "dramatic": {
+            "humanTotal": 46,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "other_sfx": {
+            "humanTotal": 50,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          }
+        },
+        "byProject": [
+          {
+            "projectId": "footage_05_11_26_sfx",
+            "humanTotal": 326,
+            "matched": 17,
+            "generatedAttempts": 30,
+            "falseAdditions": 13,
+            "netSavedEdits": 4
+          }
+        ]
+      }
+    }
+  ]
+}

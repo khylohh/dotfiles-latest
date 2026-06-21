@@ -1,0 +1,5234 @@
+{
+  "schemaVersion": 1,
+  "protocol": "direct-phrase-association-v1",
+  "createdAt": "2026-06-21T13:34:21.927288+00:00",
+  "metricBoundary": "outer-fold-only; direct phrase rules and policy selected from trainProjectIds only",
+  "matchWindowSec": 5.0,
+  "summary": {
+    "humanTotal": 326,
+    "matchWindowSec": 5.0,
+    "matched": 16,
+    "coverage": 0.049079754601226995,
+    "generatedAttempts": 48,
+    "falseAdditions": 32,
+    "netSavedEdits": -16,
+    "precision": 0.3333333333333333,
+    "positiveNetProjectFraction": 0.0,
+    "byFamily": {
+      "pop": {
+        "humanTotal": 66,
+        "matched": 2,
+        "generatedAttempts": 8,
+        "falseAdditions": 6,
+        "netSavedEdits": -4
+      },
+      "ding": {
+        "humanTotal": 67,
+        "matched": 12,
+        "generatedAttempts": 28,
+        "falseAdditions": 16,
+        "netSavedEdits": -4
+      },
+      "success": {
+        "humanTotal": 15,
+        "matched": 2,
+        "generatedAttempts": 12,
+        "falseAdditions": 10,
+        "netSavedEdits": -8
+      },
+      "bonk": {
+        "humanTotal": 46,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "funny": {
+        "humanTotal": 26,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "bruh": {
+        "humanTotal": 3,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "record_scratch": {
+        "humanTotal": 7,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "dramatic": {
+        "humanTotal": 46,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "other_sfx": {
+        "humanTotal": 50,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      }
+    },
+    "byProject": [
+      {
+        "projectId": "footage_05_11_26_sfx",
+        "humanTotal": 326,
+        "matched": 16,
+        "generatedAttempts": 48,
+        "falseAdditions": 32,
+        "netSavedEdits": -16
+      }
+    ]
+  },
+  "promotion": {
+    "passes": false,
+    "requiredCondition": "outer/test net saved edits > 0"
+  },
+  "foldReports": [
+    {
+      "foldId": "outer_04",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_11_26_sfx"
+      ],
+      "candidateCount": 11688,
+      "policyCandidateCount": 1203,
+      "selectedPolicy": {
+        "policy": {
+          "globalNmsSeconds": 0.5,
+          "familyNmsSeconds": 1.5,
+          "phraseCooldownSeconds": 9.0,
+          "familyMaxPerMinute": {
+            "pop": 3.2,
+            "ding": 3.2,
+            "success": 1.5,
+            "bonk": 1.5,
+            "funny": 1.2,
+            "bruh": 0.4,
+            "record_scratch": 0.4,
+            "dramatic": 1.6
+          },
+          "policyName": "positive_tight",
+          "allowedFamilies": [
+            "pop",
+            "ding",
+            "success"
+          ],
+          "maxPerMinute": 2.0,
+          "minPos": 4,
+          "minProjects": 2,
+          "minPrecision": 0.56,
+          "minLift": 1.25,
+          "minScore": 2.2,
+          "minPhraseLength": 2
+        },
+        "metrics": {
+          "humanTotal": 3738,
+          "matchWindowSec": 5.0,
+          "matched": 195,
+          "coverage": 0.0521669341894061,
+          "generatedAttempts": 468,
+          "falseAdditions": 273,
+          "netSavedEdits": -78,
+          "precision": 0.4166666666666667,
+          "positiveNetProjectFraction": 0.09090909090909091,
+          "byFamily": {
+            "pop": {
+              "humanTotal": 609,
+              "matched": 55,
+              "generatedAttempts": 112,
+              "falseAdditions": 57,
+              "netSavedEdits": -2
+            },
+            "ding": {
+              "humanTotal": 619,
+              "matched": 72,
+              "generatedAttempts": 152,
+              "falseAdditions": 80,
+              "netSavedEdits": -8
+            },
+            "success": {
+              "humanTotal": 330,
+              "matched": 68,
+              "generatedAttempts": 204,
+              "falseAdditions": 136,
+              "netSavedEdits": -68
+            },
+            "bonk": {
+              "humanTotal": 327,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "funny": {
+              "humanTotal": 295,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "bruh": {
+              "humanTotal": 20,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "record_scratch": {
+              "humanTotal": 44,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "dramatic": {
+              "humanTotal": 606,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            },
+            "other_sfx": {
+              "humanTotal": 888,
+              "matched": 0,
+              "generatedAttempts": 0,
+              "falseAdditions": 0,
+              "netSavedEdits": 0
+            }
+          },
+          "byProject": [
+            {
+              "projectId": "footage_04_26_26_sfx",
+              "humanTotal": 682,
+              "matched": 26,
+              "generatedAttempts": 50,
+              "falseAdditions": 24,
+              "netSavedEdits": 2
+            },
+            {
+              "projectId": "footage_05_04_26_sfx",
+              "humanTotal": 411,
+              "matched": 14,
+              "generatedAttempts": 44,
+              "falseAdditions": 30,
+              "netSavedEdits": -16
+            },
+            {
+              "projectId": "footage_05_07_26_sfx",
+              "humanTotal": 478,
+              "matched": 28,
+              "generatedAttempts": 57,
+              "falseAdditions": 29,
+              "netSavedEdits": -1
+            },
+            {
+              "projectId": "footage_05_17_26_sfx",
+              "humanTotal": 264,
+              "matched": 12,
+              "generatedAttempts": 40,
+              "falseAdditions": 28,
+              "netSavedEdits": -16
+            },
+            {
+              "projectId": "footage_05_19_26_sfx",
+              "humanTotal": 362,
+              "matched": 17,
+              "generatedAttempts": 49,
+              "falseAdditions": 32,
+              "netSavedEdits": -15
+            },
+            {
+              "projectId": "footage_05_26_26_sfx",
+              "humanTotal": 263,
+              "matched": 16,
+              "generatedAttempts": 41,
+              "falseAdditions": 25,
+              "netSavedEdits": -9
+            },
+            {
+              "projectId": "footage_05_27_26_sfx",
+              "humanTotal": 270,
+              "matched": 19,
+              "generatedAttempts": 41,
+              "falseAdditions": 22,
+              "netSavedEdits": -3
+            },
+            {
+              "projectId": "footage_05_31_26_sfx",
+              "humanTotal": 284,
+              "matched": 18,
+              "generatedAttempts": 47,
+              "falseAdditions": 29,
+              "netSavedEdits": -11
+            },
+            {
+              "projectId": "footage_06_05_26_sfx",
+              "humanTotal": 364,
+              "matched": 23,
+              "generatedAttempts": 49,
+              "falseAdditions": 26,
+              "netSavedEdits": -3
+            },
+            {
+              "projectId": "footage_colored_sfx",
+              "humanTotal": 325,
+              "matched": 19,
+              "generatedAttempts": 43,
+              "falseAdditions": 24,
+              "netSavedEdits": -5
+            },
+            {
+              "projectId": "new_footage_sfx",
+              "humanTotal": 35,
+              "matched": 3,
+              "generatedAttempts": 7,
+              "falseAdditions": 4,
+              "netSavedEdits": -1
+            }
+          ]
+        },
+        "choiceKey": [
+          -78,
+          195,
+          -273,
+          -468
+        ]
+      },
+      "policyReports": [
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "positive_tight",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success"
+            ],
+            "maxPerMinute": 2.0,
+            "minPos": 4,
+            "minProjects": 2,
+            "minPrecision": 0.56,
+            "minLift": 1.25,
+            "minScore": 2.2,
+            "minPhraseLength": 2
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 195,
+            "coverage": 0.0521669341894061,
+            "generatedAttempts": 468,
+            "falseAdditions": 273,
+            "netSavedEdits": -78,
+            "precision": 0.4166666666666667,
+            "positiveNetProjectFraction": 0.09090909090909091,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 55,
+                "generatedAttempts": 112,
+                "falseAdditions": 57,
+                "netSavedEdits": -2
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 72,
+                "generatedAttempts": 152,
+                "falseAdditions": 80,
+                "netSavedEdits": -8
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 68,
+                "generatedAttempts": 204,
+                "falseAdditions": 136,
+                "netSavedEdits": -68
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 26,
+                "generatedAttempts": 50,
+                "falseAdditions": 24,
+                "netSavedEdits": 2
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 14,
+                "generatedAttempts": 44,
+                "falseAdditions": 30,
+                "netSavedEdits": -16
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 28,
+                "generatedAttempts": 57,
+                "falseAdditions": 29,
+                "netSavedEdits": -1
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 12,
+                "generatedAttempts": 40,
+                "falseAdditions": 28,
+                "netSavedEdits": -16
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 17,
+                "generatedAttempts": 49,
+                "falseAdditions": 32,
+                "netSavedEdits": -15
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 16,
+                "generatedAttempts": 41,
+                "falseAdditions": 25,
+                "netSavedEdits": -9
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 19,
+                "generatedAttempts": 41,
+                "falseAdditions": 22,
+                "netSavedEdits": -3
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 18,
+                "generatedAttempts": 47,
+                "falseAdditions": 29,
+                "netSavedEdits": -11
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 23,
+                "generatedAttempts": 49,
+                "falseAdditions": 26,
+                "netSavedEdits": -3
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 19,
+                "generatedAttempts": 43,
+                "falseAdditions": 24,
+                "netSavedEdits": -5
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 3,
+                "generatedAttempts": 7,
+                "falseAdditions": 4,
+                "netSavedEdits": -1
+              }
+            ]
+          },
+          "choiceKey": [
+            -78,
+            195,
+            -273,
+            -468
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "all_caption_tight",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success",
+              "bonk",
+              "funny",
+              "bruh",
+              "record_scratch",
+              "dramatic"
+            ],
+            "maxPerMinute": 2.0,
+            "minPos": 4,
+            "minProjects": 2,
+            "minPrecision": 0.56,
+            "minLift": 1.25,
+            "minScore": 2.2,
+            "minPhraseLength": 2
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 166,
+            "coverage": 0.0444087747458534,
+            "generatedAttempts": 468,
+            "falseAdditions": 302,
+            "netSavedEdits": -136,
+            "precision": 0.3547008547008547,
+            "positiveNetProjectFraction": 0.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 12,
+                "generatedAttempts": 29,
+                "falseAdditions": 17,
+                "netSavedEdits": -5
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 18,
+                "generatedAttempts": 46,
+                "falseAdditions": 28,
+                "netSavedEdits": -10
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 57,
+                "generatedAttempts": 159,
+                "falseAdditions": 102,
+                "netSavedEdits": -45
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 25,
+                "generatedAttempts": 79,
+                "falseAdditions": 54,
+                "netSavedEdits": -29
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 10,
+                "generatedAttempts": 36,
+                "falseAdditions": 26,
+                "netSavedEdits": -16
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 1,
+                "falseAdditions": 1,
+                "netSavedEdits": -1
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 44,
+                "generatedAttempts": 118,
+                "falseAdditions": 74,
+                "netSavedEdits": -30
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 22,
+                "generatedAttempts": 50,
+                "falseAdditions": 28,
+                "netSavedEdits": -6
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 13,
+                "generatedAttempts": 44,
+                "falseAdditions": 31,
+                "netSavedEdits": -18
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 21,
+                "generatedAttempts": 57,
+                "falseAdditions": 36,
+                "netSavedEdits": -15
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 18,
+                "generatedAttempts": 40,
+                "falseAdditions": 22,
+                "netSavedEdits": -4
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 11,
+                "generatedAttempts": 49,
+                "falseAdditions": 38,
+                "netSavedEdits": -27
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 9,
+                "generatedAttempts": 41,
+                "falseAdditions": 32,
+                "netSavedEdits": -23
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 15,
+                "generatedAttempts": 41,
+                "falseAdditions": 26,
+                "netSavedEdits": -11
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 15,
+                "generatedAttempts": 47,
+                "falseAdditions": 32,
+                "netSavedEdits": -17
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 23,
+                "generatedAttempts": 49,
+                "falseAdditions": 26,
+                "netSavedEdits": -3
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 17,
+                "generatedAttempts": 43,
+                "falseAdditions": 26,
+                "netSavedEdits": -9
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 2,
+                "generatedAttempts": 7,
+                "falseAdditions": 5,
+                "netSavedEdits": -3
+              }
+            ]
+          },
+          "choiceKey": [
+            -136,
+            166,
+            -302,
+            -468
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "core_tight",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success",
+              "bonk",
+              "funny"
+            ],
+            "maxPerMinute": 2.0,
+            "minPos": 4,
+            "minProjects": 2,
+            "minPrecision": 0.56,
+            "minLift": 1.25,
+            "minScore": 2.2,
+            "minPhraseLength": 2
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 165,
+            "coverage": 0.044141252006420544,
+            "generatedAttempts": 468,
+            "falseAdditions": 303,
+            "netSavedEdits": -138,
+            "precision": 0.3525641025641026,
+            "positiveNetProjectFraction": 0.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 25,
+                "generatedAttempts": 59,
+                "falseAdditions": 34,
+                "netSavedEdits": -9
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 33,
+                "generatedAttempts": 80,
+                "falseAdditions": 47,
+                "netSavedEdits": -14
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 64,
+                "generatedAttempts": 177,
+                "falseAdditions": 113,
+                "netSavedEdits": -49
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 32,
+                "generatedAttempts": 105,
+                "falseAdditions": 73,
+                "netSavedEdits": -41
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 11,
+                "generatedAttempts": 47,
+                "falseAdditions": 36,
+                "netSavedEdits": -25
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 24,
+                "generatedAttempts": 50,
+                "falseAdditions": 26,
+                "netSavedEdits": -2
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 12,
+                "generatedAttempts": 44,
+                "falseAdditions": 32,
+                "netSavedEdits": -20
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 24,
+                "generatedAttempts": 57,
+                "falseAdditions": 33,
+                "netSavedEdits": -9
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 15,
+                "generatedAttempts": 40,
+                "falseAdditions": 25,
+                "netSavedEdits": -10
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 9,
+                "generatedAttempts": 49,
+                "falseAdditions": 40,
+                "netSavedEdits": -31
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 13,
+                "generatedAttempts": 41,
+                "falseAdditions": 28,
+                "netSavedEdits": -15
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 18,
+                "generatedAttempts": 41,
+                "falseAdditions": 23,
+                "netSavedEdits": -5
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 8,
+                "generatedAttempts": 47,
+                "falseAdditions": 39,
+                "netSavedEdits": -31
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 20,
+                "generatedAttempts": 49,
+                "falseAdditions": 29,
+                "netSavedEdits": -9
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 19,
+                "generatedAttempts": 43,
+                "falseAdditions": 24,
+                "netSavedEdits": -5
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 3,
+                "generatedAttempts": 7,
+                "falseAdditions": 4,
+                "netSavedEdits": -1
+              }
+            ]
+          },
+          "choiceKey": [
+            -138,
+            165,
+            -303,
+            -468
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "positive_balanced",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success"
+            ],
+            "maxPerMinute": 4.0,
+            "minPos": 3,
+            "minProjects": 2,
+            "minPrecision": 0.5,
+            "minLift": 1.12,
+            "minScore": 1.55,
+            "minPhraseLength": 2
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 369,
+            "coverage": 0.09871589085072231,
+            "generatedAttempts": 932,
+            "falseAdditions": 563,
+            "netSavedEdits": -194,
+            "precision": 0.3959227467811159,
+            "positiveNetProjectFraction": 0.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 112,
+                "generatedAttempts": 271,
+                "falseAdditions": 159,
+                "netSavedEdits": -47
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 159,
+                "generatedAttempts": 349,
+                "falseAdditions": 190,
+                "netSavedEdits": -31
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 98,
+                "generatedAttempts": 312,
+                "falseAdditions": 214,
+                "netSavedEdits": -116
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 50,
+                "generatedAttempts": 100,
+                "falseAdditions": 50,
+                "netSavedEdits": 0
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 34,
+                "generatedAttempts": 87,
+                "falseAdditions": 53,
+                "netSavedEdits": -19
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 55,
+                "generatedAttempts": 114,
+                "falseAdditions": 59,
+                "netSavedEdits": -4
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 29,
+                "generatedAttempts": 80,
+                "falseAdditions": 51,
+                "netSavedEdits": -22
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 32,
+                "generatedAttempts": 98,
+                "falseAdditions": 66,
+                "netSavedEdits": -34
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 32,
+                "generatedAttempts": 82,
+                "falseAdditions": 50,
+                "netSavedEdits": -18
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 31,
+                "generatedAttempts": 82,
+                "falseAdditions": 51,
+                "netSavedEdits": -20
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 27,
+                "generatedAttempts": 93,
+                "falseAdditions": 66,
+                "netSavedEdits": -39
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 40,
+                "generatedAttempts": 98,
+                "falseAdditions": 58,
+                "netSavedEdits": -18
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 35,
+                "generatedAttempts": 85,
+                "falseAdditions": 50,
+                "netSavedEdits": -15
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 4,
+                "generatedAttempts": 13,
+                "falseAdditions": 9,
+                "netSavedEdits": -5
+              }
+            ]
+          },
+          "choiceKey": [
+            -194,
+            369,
+            -563,
+            -932
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "core_balanced",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success",
+              "bonk",
+              "funny"
+            ],
+            "maxPerMinute": 4.0,
+            "minPos": 3,
+            "minProjects": 2,
+            "minPrecision": 0.5,
+            "minLift": 1.12,
+            "minScore": 1.55,
+            "minPhraseLength": 2
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 325,
+            "coverage": 0.08694489031567683,
+            "generatedAttempts": 932,
+            "falseAdditions": 607,
+            "netSavedEdits": -282,
+            "precision": 0.3487124463519313,
+            "positiveNetProjectFraction": 0.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 67,
+                "generatedAttempts": 149,
+                "falseAdditions": 82,
+                "netSavedEdits": -15
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 80,
+                "generatedAttempts": 177,
+                "falseAdditions": 97,
+                "netSavedEdits": -17
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 90,
+                "generatedAttempts": 268,
+                "falseAdditions": 178,
+                "netSavedEdits": -88
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 56,
+                "generatedAttempts": 208,
+                "falseAdditions": 152,
+                "netSavedEdits": -96
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 32,
+                "generatedAttempts": 130,
+                "falseAdditions": 98,
+                "netSavedEdits": -66
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 45,
+                "generatedAttempts": 100,
+                "falseAdditions": 55,
+                "netSavedEdits": -10
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 33,
+                "generatedAttempts": 87,
+                "falseAdditions": 54,
+                "netSavedEdits": -21
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 47,
+                "generatedAttempts": 114,
+                "falseAdditions": 67,
+                "netSavedEdits": -20
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 25,
+                "generatedAttempts": 80,
+                "falseAdditions": 55,
+                "netSavedEdits": -30
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 25,
+                "generatedAttempts": 98,
+                "falseAdditions": 73,
+                "netSavedEdits": -48
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 24,
+                "generatedAttempts": 82,
+                "falseAdditions": 58,
+                "netSavedEdits": -34
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 30,
+                "generatedAttempts": 82,
+                "falseAdditions": 52,
+                "netSavedEdits": -22
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 24,
+                "generatedAttempts": 93,
+                "falseAdditions": 69,
+                "netSavedEdits": -45
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 34,
+                "generatedAttempts": 98,
+                "falseAdditions": 64,
+                "netSavedEdits": -30
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 34,
+                "generatedAttempts": 85,
+                "falseAdditions": 51,
+                "netSavedEdits": -17
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 4,
+                "generatedAttempts": 13,
+                "falseAdditions": 9,
+                "netSavedEdits": -5
+              }
+            ]
+          },
+          "choiceKey": [
+            -282,
+            325,
+            -607,
+            -932
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "all_caption_balanced",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success",
+              "bonk",
+              "funny",
+              "bruh",
+              "record_scratch",
+              "dramatic"
+            ],
+            "maxPerMinute": 4.0,
+            "minPos": 3,
+            "minProjects": 2,
+            "minPrecision": 0.5,
+            "minLift": 1.12,
+            "minScore": 1.55,
+            "minPhraseLength": 2
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 316,
+            "coverage": 0.08453718566078117,
+            "generatedAttempts": 932,
+            "falseAdditions": 616,
+            "netSavedEdits": -300,
+            "precision": 0.33905579399141633,
+            "positiveNetProjectFraction": 0.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 37,
+                "generatedAttempts": 87,
+                "falseAdditions": 50,
+                "netSavedEdits": -13
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 44,
+                "generatedAttempts": 103,
+                "falseAdditions": 59,
+                "netSavedEdits": -15
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 86,
+                "generatedAttempts": 250,
+                "falseAdditions": 164,
+                "netSavedEdits": -78
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 51,
+                "generatedAttempts": 177,
+                "falseAdditions": 126,
+                "netSavedEdits": -75
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 28,
+                "generatedAttempts": 113,
+                "falseAdditions": 85,
+                "netSavedEdits": -57
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 4,
+                "falseAdditions": 4,
+                "netSavedEdits": -4
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 70,
+                "generatedAttempts": 198,
+                "falseAdditions": 128,
+                "netSavedEdits": -58
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 40,
+                "generatedAttempts": 100,
+                "falseAdditions": 60,
+                "netSavedEdits": -20
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 32,
+                "generatedAttempts": 87,
+                "falseAdditions": 55,
+                "netSavedEdits": -23
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 44,
+                "generatedAttempts": 114,
+                "falseAdditions": 70,
+                "netSavedEdits": -26
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 28,
+                "generatedAttempts": 80,
+                "falseAdditions": 52,
+                "netSavedEdits": -24
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 23,
+                "generatedAttempts": 98,
+                "falseAdditions": 75,
+                "netSavedEdits": -52
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 20,
+                "generatedAttempts": 82,
+                "falseAdditions": 62,
+                "netSavedEdits": -42
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 33,
+                "generatedAttempts": 82,
+                "falseAdditions": 49,
+                "netSavedEdits": -16
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 27,
+                "generatedAttempts": 93,
+                "falseAdditions": 66,
+                "netSavedEdits": -39
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 33,
+                "generatedAttempts": 98,
+                "falseAdditions": 65,
+                "netSavedEdits": -32
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 32,
+                "generatedAttempts": 85,
+                "falseAdditions": 53,
+                "netSavedEdits": -21
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 4,
+                "generatedAttempts": 13,
+                "falseAdditions": 9,
+                "netSavedEdits": -5
+              }
+            ]
+          },
+          "choiceKey": [
+            -300,
+            316,
+            -616,
+            -932
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "positive_wide",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success"
+            ],
+            "maxPerMinute": 6.0,
+            "minPos": 2,
+            "minProjects": 1,
+            "minPrecision": 0.46,
+            "minLift": 1.02,
+            "minScore": 1.0,
+            "minPhraseLength": 1
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 547,
+            "coverage": 0.14633493846976994,
+            "generatedAttempts": 1397,
+            "falseAdditions": 850,
+            "netSavedEdits": -303,
+            "precision": 0.39155332856120256,
+            "positiveNetProjectFraction": 0.09090909090909091,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 230,
+                "generatedAttempts": 573,
+                "falseAdditions": 343,
+                "netSavedEdits": -113
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 210,
+                "generatedAttempts": 472,
+                "falseAdditions": 262,
+                "netSavedEdits": -52
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 107,
+                "generatedAttempts": 352,
+                "falseAdditions": 245,
+                "netSavedEdits": -138
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 78,
+                "generatedAttempts": 150,
+                "falseAdditions": 72,
+                "netSavedEdits": 6
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 53,
+                "generatedAttempts": 130,
+                "falseAdditions": 77,
+                "netSavedEdits": -24
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 84,
+                "generatedAttempts": 171,
+                "falseAdditions": 87,
+                "netSavedEdits": -3
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 37,
+                "generatedAttempts": 120,
+                "falseAdditions": 83,
+                "netSavedEdits": -46
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 48,
+                "generatedAttempts": 147,
+                "falseAdditions": 99,
+                "netSavedEdits": -51
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 53,
+                "generatedAttempts": 123,
+                "falseAdditions": 70,
+                "netSavedEdits": -17
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 40,
+                "generatedAttempts": 123,
+                "falseAdditions": 83,
+                "netSavedEdits": -43
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 42,
+                "generatedAttempts": 139,
+                "falseAdditions": 97,
+                "netSavedEdits": -55
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 59,
+                "generatedAttempts": 147,
+                "falseAdditions": 88,
+                "netSavedEdits": -29
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 45,
+                "generatedAttempts": 127,
+                "falseAdditions": 82,
+                "netSavedEdits": -37
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 8,
+                "generatedAttempts": 20,
+                "falseAdditions": 12,
+                "netSavedEdits": -4
+              }
+            ]
+          },
+          "choiceKey": [
+            -303,
+            547,
+            -850,
+            -1397
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "positive_aggressive",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success"
+            ],
+            "maxPerMinute": 8.0,
+            "minPos": 2,
+            "minProjects": 1,
+            "minPrecision": 0.42,
+            "minLift": 0.95,
+            "minScore": 0.65,
+            "minPhraseLength": 1
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 705,
+            "coverage": 0.18860353130016053,
+            "generatedAttempts": 1845,
+            "falseAdditions": 1140,
+            "netSavedEdits": -435,
+            "precision": 0.3821138211382114,
+            "positiveNetProjectFraction": 0.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 286,
+                "generatedAttempts": 746,
+                "falseAdditions": 460,
+                "netSavedEdits": -174
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 312,
+                "generatedAttempts": 747,
+                "falseAdditions": 435,
+                "netSavedEdits": -123
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 107,
+                "generatedAttempts": 352,
+                "falseAdditions": 245,
+                "netSavedEdits": -138
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 94,
+                "generatedAttempts": 198,
+                "falseAdditions": 104,
+                "netSavedEdits": -10
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 65,
+                "generatedAttempts": 173,
+                "falseAdditions": 108,
+                "netSavedEdits": -43
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 108,
+                "generatedAttempts": 225,
+                "falseAdditions": 117,
+                "netSavedEdits": -9
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 49,
+                "generatedAttempts": 158,
+                "falseAdditions": 109,
+                "netSavedEdits": -60
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 67,
+                "generatedAttempts": 195,
+                "falseAdditions": 128,
+                "netSavedEdits": -61
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 73,
+                "generatedAttempts": 163,
+                "falseAdditions": 90,
+                "netSavedEdits": -17
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 51,
+                "generatedAttempts": 163,
+                "falseAdditions": 112,
+                "netSavedEdits": -61
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 51,
+                "generatedAttempts": 183,
+                "falseAdditions": 132,
+                "netSavedEdits": -81
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 78,
+                "generatedAttempts": 193,
+                "falseAdditions": 115,
+                "netSavedEdits": -37
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 60,
+                "generatedAttempts": 168,
+                "falseAdditions": 108,
+                "netSavedEdits": -48
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 9,
+                "generatedAttempts": 26,
+                "falseAdditions": 17,
+                "netSavedEdits": -8
+              }
+            ]
+          },
+          "choiceKey": [
+            -435,
+            705,
+            -1140,
+            -1845
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "core_wide",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success",
+              "bonk",
+              "funny"
+            ],
+            "maxPerMinute": 6.0,
+            "minPos": 2,
+            "minProjects": 1,
+            "minPrecision": 0.46,
+            "minLift": 1.02,
+            "minScore": 1.0,
+            "minPhraseLength": 1
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 449,
+            "coverage": 0.12011771000535046,
+            "generatedAttempts": 1397,
+            "falseAdditions": 948,
+            "netSavedEdits": -499,
+            "precision": 0.3214030064423765,
+            "positiveNetProjectFraction": 0.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 119,
+                "generatedAttempts": 243,
+                "falseAdditions": 124,
+                "netSavedEdits": -5
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 74,
+                "generatedAttempts": 174,
+                "falseAdditions": 100,
+                "netSavedEdits": -26
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 109,
+                "generatedAttempts": 352,
+                "falseAdditions": 243,
+                "netSavedEdits": -134
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 90,
+                "generatedAttempts": 347,
+                "falseAdditions": 257,
+                "netSavedEdits": -167
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 57,
+                "generatedAttempts": 281,
+                "falseAdditions": 224,
+                "netSavedEdits": -167
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 59,
+                "generatedAttempts": 150,
+                "falseAdditions": 91,
+                "netSavedEdits": -32
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 51,
+                "generatedAttempts": 130,
+                "falseAdditions": 79,
+                "netSavedEdits": -28
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 68,
+                "generatedAttempts": 171,
+                "falseAdditions": 103,
+                "netSavedEdits": -35
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 37,
+                "generatedAttempts": 120,
+                "falseAdditions": 83,
+                "netSavedEdits": -46
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 36,
+                "generatedAttempts": 147,
+                "falseAdditions": 111,
+                "netSavedEdits": -75
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 35,
+                "generatedAttempts": 123,
+                "falseAdditions": 88,
+                "netSavedEdits": -53
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 30,
+                "generatedAttempts": 123,
+                "falseAdditions": 93,
+                "netSavedEdits": -63
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 33,
+                "generatedAttempts": 139,
+                "falseAdditions": 106,
+                "netSavedEdits": -73
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 49,
+                "generatedAttempts": 147,
+                "falseAdditions": 98,
+                "netSavedEdits": -49
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 44,
+                "generatedAttempts": 127,
+                "falseAdditions": 83,
+                "netSavedEdits": -39
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 7,
+                "generatedAttempts": 20,
+                "falseAdditions": 13,
+                "netSavedEdits": -6
+              }
+            ]
+          },
+          "choiceKey": [
+            -499,
+            449,
+            -948,
+            -1397
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "core_aggressive",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success",
+              "bonk",
+              "funny"
+            ],
+            "maxPerMinute": 8.0,
+            "minPos": 2,
+            "minProjects": 1,
+            "minPrecision": 0.42,
+            "minLift": 0.95,
+            "minScore": 0.65,
+            "minPhraseLength": 1
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 643,
+            "coverage": 0.1720171214553237,
+            "generatedAttempts": 1860,
+            "falseAdditions": 1217,
+            "netSavedEdits": -574,
+            "precision": 0.3456989247311828,
+            "positiveNetProjectFraction": 0.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 202,
+                "generatedAttempts": 469,
+                "falseAdditions": 267,
+                "netSavedEdits": -65
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 185,
+                "generatedAttempts": 409,
+                "falseAdditions": 224,
+                "netSavedEdits": -39
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 109,
+                "generatedAttempts": 352,
+                "falseAdditions": 243,
+                "netSavedEdits": -134
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 90,
+                "generatedAttempts": 349,
+                "falseAdditions": 259,
+                "netSavedEdits": -169
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 57,
+                "generatedAttempts": 281,
+                "falseAdditions": 224,
+                "netSavedEdits": -167
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 87,
+                "generatedAttempts": 200,
+                "falseAdditions": 113,
+                "netSavedEdits": -26
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 68,
+                "generatedAttempts": 173,
+                "falseAdditions": 105,
+                "netSavedEdits": -37
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 96,
+                "generatedAttempts": 228,
+                "falseAdditions": 132,
+                "netSavedEdits": -36
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 53,
+                "generatedAttempts": 160,
+                "falseAdditions": 107,
+                "netSavedEdits": -54
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 57,
+                "generatedAttempts": 196,
+                "falseAdditions": 139,
+                "netSavedEdits": -82
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 56,
+                "generatedAttempts": 164,
+                "falseAdditions": 108,
+                "netSavedEdits": -52
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 43,
+                "generatedAttempts": 164,
+                "falseAdditions": 121,
+                "netSavedEdits": -78
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 50,
+                "generatedAttempts": 185,
+                "falseAdditions": 135,
+                "netSavedEdits": -85
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 67,
+                "generatedAttempts": 195,
+                "falseAdditions": 128,
+                "netSavedEdits": -61
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 56,
+                "generatedAttempts": 169,
+                "falseAdditions": 113,
+                "netSavedEdits": -57
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 10,
+                "generatedAttempts": 26,
+                "falseAdditions": 16,
+                "netSavedEdits": -6
+              }
+            ]
+          },
+          "choiceKey": [
+            -574,
+            643,
+            -1217,
+            -1860
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "all_caption_wide",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success",
+              "bonk",
+              "funny",
+              "bruh",
+              "record_scratch",
+              "dramatic"
+            ],
+            "maxPerMinute": 6.0,
+            "minPos": 2,
+            "minProjects": 1,
+            "minPrecision": 0.46,
+            "minLift": 1.02,
+            "minScore": 1.0,
+            "minPhraseLength": 1
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 371,
+            "coverage": 0.09925093632958802,
+            "generatedAttempts": 1397,
+            "falseAdditions": 1026,
+            "netSavedEdits": -655,
+            "precision": 0.2655690765926986,
+            "positiveNetProjectFraction": 0.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 15,
+                "generatedAttempts": 27,
+                "falseAdditions": 12,
+                "netSavedEdits": 3
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 10,
+                "generatedAttempts": 25,
+                "falseAdditions": 15,
+                "netSavedEdits": -5
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 109,
+                "generatedAttempts": 352,
+                "falseAdditions": 243,
+                "netSavedEdits": -134
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 89,
+                "generatedAttempts": 339,
+                "falseAdditions": 250,
+                "netSavedEdits": -161
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 54,
+                "generatedAttempts": 274,
+                "falseAdditions": 220,
+                "netSavedEdits": -166
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 40,
+                "falseAdditions": 40,
+                "netSavedEdits": -40
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 2,
+                "generatedAttempts": 78,
+                "falseAdditions": 76,
+                "netSavedEdits": -74
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 92,
+                "generatedAttempts": 262,
+                "falseAdditions": 170,
+                "netSavedEdits": -78
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 47,
+                "generatedAttempts": 150,
+                "falseAdditions": 103,
+                "netSavedEdits": -56
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 49,
+                "generatedAttempts": 130,
+                "falseAdditions": 81,
+                "netSavedEdits": -32
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 47,
+                "generatedAttempts": 171,
+                "falseAdditions": 124,
+                "netSavedEdits": -77
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 40,
+                "generatedAttempts": 120,
+                "falseAdditions": 80,
+                "netSavedEdits": -40
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 33,
+                "generatedAttempts": 147,
+                "falseAdditions": 114,
+                "netSavedEdits": -81
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 23,
+                "generatedAttempts": 123,
+                "falseAdditions": 100,
+                "netSavedEdits": -77
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 24,
+                "generatedAttempts": 123,
+                "falseAdditions": 99,
+                "netSavedEdits": -75
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 26,
+                "generatedAttempts": 139,
+                "falseAdditions": 113,
+                "netSavedEdits": -87
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 37,
+                "generatedAttempts": 147,
+                "falseAdditions": 110,
+                "netSavedEdits": -73
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 39,
+                "generatedAttempts": 127,
+                "falseAdditions": 88,
+                "netSavedEdits": -49
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 6,
+                "generatedAttempts": 20,
+                "falseAdditions": 14,
+                "netSavedEdits": -8
+              }
+            ]
+          },
+          "choiceKey": [
+            -655,
+            371,
+            -1026,
+            -1397
+          ]
+        },
+        {
+          "policy": {
+            "globalNmsSeconds": 0.5,
+            "familyNmsSeconds": 1.5,
+            "phraseCooldownSeconds": 9.0,
+            "familyMaxPerMinute": {
+              "pop": 3.2,
+              "ding": 3.2,
+              "success": 1.5,
+              "bonk": 1.5,
+              "funny": 1.2,
+              "bruh": 0.4,
+              "record_scratch": 0.4,
+              "dramatic": 1.6
+            },
+            "policyName": "all_caption_aggressive",
+            "allowedFamilies": [
+              "pop",
+              "ding",
+              "success",
+              "bonk",
+              "funny",
+              "bruh",
+              "record_scratch",
+              "dramatic"
+            ],
+            "maxPerMinute": 8.0,
+            "minPos": 2,
+            "minProjects": 1,
+            "minPrecision": 0.42,
+            "minLift": 0.95,
+            "minScore": 0.65,
+            "minPhraseLength": 1
+          },
+          "metrics": {
+            "humanTotal": 3738,
+            "matchWindowSec": 5.0,
+            "matched": 557,
+            "coverage": 0.14901016586409846,
+            "generatedAttempts": 1860,
+            "falseAdditions": 1303,
+            "netSavedEdits": -746,
+            "precision": 0.2994623655913978,
+            "positiveNetProjectFraction": 0.0,
+            "byFamily": {
+              "pop": {
+                "humanTotal": 609,
+                "matched": 116,
+                "generatedAttempts": 232,
+                "falseAdditions": 116,
+                "netSavedEdits": 0
+              },
+              "ding": {
+                "humanTotal": 619,
+                "matched": 66,
+                "generatedAttempts": 157,
+                "falseAdditions": 91,
+                "netSavedEdits": -25
+              },
+              "success": {
+                "humanTotal": 330,
+                "matched": 109,
+                "generatedAttempts": 352,
+                "falseAdditions": 243,
+                "netSavedEdits": -134
+              },
+              "bonk": {
+                "humanTotal": 327,
+                "matched": 90,
+                "generatedAttempts": 344,
+                "falseAdditions": 254,
+                "netSavedEdits": -164
+              },
+              "funny": {
+                "humanTotal": 295,
+                "matched": 54,
+                "generatedAttempts": 281,
+                "falseAdditions": 227,
+                "netSavedEdits": -173
+              },
+              "bruh": {
+                "humanTotal": 20,
+                "matched": 0,
+                "generatedAttempts": 40,
+                "falseAdditions": 40,
+                "netSavedEdits": -40
+              },
+              "record_scratch": {
+                "humanTotal": 44,
+                "matched": 2,
+                "generatedAttempts": 79,
+                "falseAdditions": 77,
+                "netSavedEdits": -75
+              },
+              "dramatic": {
+                "humanTotal": 606,
+                "matched": 120,
+                "generatedAttempts": 375,
+                "falseAdditions": 255,
+                "netSavedEdits": -135
+              },
+              "other_sfx": {
+                "humanTotal": 888,
+                "matched": 0,
+                "generatedAttempts": 0,
+                "falseAdditions": 0,
+                "netSavedEdits": 0
+              }
+            },
+            "byProject": [
+              {
+                "projectId": "footage_04_26_26_sfx",
+                "humanTotal": 682,
+                "matched": 74,
+                "generatedAttempts": 200,
+                "falseAdditions": 126,
+                "netSavedEdits": -52
+              },
+              {
+                "projectId": "footage_05_04_26_sfx",
+                "humanTotal": 411,
+                "matched": 62,
+                "generatedAttempts": 173,
+                "falseAdditions": 111,
+                "netSavedEdits": -49
+              },
+              {
+                "projectId": "footage_05_07_26_sfx",
+                "humanTotal": 478,
+                "matched": 79,
+                "generatedAttempts": 228,
+                "falseAdditions": 149,
+                "netSavedEdits": -70
+              },
+              {
+                "projectId": "footage_05_17_26_sfx",
+                "humanTotal": 264,
+                "matched": 49,
+                "generatedAttempts": 160,
+                "falseAdditions": 111,
+                "netSavedEdits": -62
+              },
+              {
+                "projectId": "footage_05_19_26_sfx",
+                "humanTotal": 362,
+                "matched": 48,
+                "generatedAttempts": 196,
+                "falseAdditions": 148,
+                "netSavedEdits": -100
+              },
+              {
+                "projectId": "footage_05_26_26_sfx",
+                "humanTotal": 263,
+                "matched": 38,
+                "generatedAttempts": 164,
+                "falseAdditions": 126,
+                "netSavedEdits": -88
+              },
+              {
+                "projectId": "footage_05_27_26_sfx",
+                "humanTotal": 270,
+                "matched": 39,
+                "generatedAttempts": 164,
+                "falseAdditions": 125,
+                "netSavedEdits": -86
+              },
+              {
+                "projectId": "footage_05_31_26_sfx",
+                "humanTotal": 284,
+                "matched": 43,
+                "generatedAttempts": 185,
+                "falseAdditions": 142,
+                "netSavedEdits": -99
+              },
+              {
+                "projectId": "footage_06_05_26_sfx",
+                "humanTotal": 364,
+                "matched": 61,
+                "generatedAttempts": 195,
+                "falseAdditions": 134,
+                "netSavedEdits": -73
+              },
+              {
+                "projectId": "footage_colored_sfx",
+                "humanTotal": 325,
+                "matched": 56,
+                "generatedAttempts": 169,
+                "falseAdditions": 113,
+                "netSavedEdits": -57
+              },
+              {
+                "projectId": "new_footage_sfx",
+                "humanTotal": 35,
+                "matched": 8,
+                "generatedAttempts": 26,
+                "falseAdditions": 18,
+                "netSavedEdits": -10
+              }
+            ]
+          },
+          "choiceKey": [
+            -746,
+            557,
+            -1303,
+            -1860
+          ]
+        }
+      ],
+      "outerMetrics": {
+        "humanTotal": 326,
+        "matchWindowSec": 5.0,
+        "matched": 16,
+        "coverage": 0.049079754601226995,
+        "generatedAttempts": 48,
+        "falseAdditions": 32,
+        "netSavedEdits": -16,
+        "precision": 0.3333333333333333,
+        "positiveNetProjectFraction": 0.0,
+        "byFamily": {
+          "pop": {
+            "humanTotal": 66,
+            "matched": 2,
+            "generatedAttempts": 8,
+            "falseAdditions": 6,
+            "netSavedEdits": -4
+          },
+          "ding": {
+            "humanTotal": 67,
+            "matched": 12,
+            "generatedAttempts": 28,
+            "falseAdditions": 16,
+            "netSavedEdits": -4
+          },
+          "success": {
+            "humanTotal": 15,
+            "matched": 2,
+            "generatedAttempts": 12,
+            "falseAdditions": 10,
+            "netSavedEdits": -8
+          },
+          "bonk": {
+            "humanTotal": 46,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "funny": {
+            "humanTotal": 26,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "bruh": {
+            "humanTotal": 3,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "record_scratch": {
+            "humanTotal": 7,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "dramatic": {
+            "humanTotal": 46,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "other_sfx": {
+            "humanTotal": 50,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          }
+        },
+        "byProject": [
+          {
+            "projectId": "footage_05_11_26_sfx",
+            "humanTotal": 326,
+            "matched": 16,
+            "generatedAttempts": 48,
+            "falseAdditions": 32,
+            "netSavedEdits": -16
+          }
+        ]
+      },
+      "modelSummary": {
+        "modelVersion": "direct-phrase-association-v1",
+        "matchWindowSec": 5.0,
+        "ruleCounts": {
+          "bonk": 30174,
+          "bruh": 2615,
+          "ding": 53034,
+          "dramatic": 40853,
+          "funny": 27500,
+          "pop": 53042,
+          "record_scratch": 4720,
+          "success": 28178
+        },
+        "topRules": {
+          "bonk": [
+            {
+              "phrase": "he doesn't",
+              "anchorType": "cue_start",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.2149,
+              "lift": 4.4143,
+              "score": 8.2334,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "he doesn't",
+              "anchorType": "final_word_end",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.219,
+              "lift": 4.3381,
+              "score": 8.1936,
+              "offsetSec": -0.615
+            },
+            {
+              "phrase": "one time",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.2188,
+              "lift": 4.3414,
+              "score": 8.1868,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "one time",
+              "anchorType": "final_word_end",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.219,
+              "lift": 4.3381,
+              "score": 8.1847,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "he doesn't",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.2188,
+              "lift": 4.3414,
+              "score": 8.0957,
+              "offsetSec": -0.565
+            },
+            {
+              "phrase": "one time",
+              "anchorType": "cue_start",
+              "pos": 6,
+              "total": 6,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.2149,
+              "lift": 4.4143,
+              "score": 8.0105,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "and he doesn't",
+              "anchorType": "cue_start",
+              "pos": 3,
+              "total": 3,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.2149,
+              "lift": 4.4143,
+              "score": 7.9707,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "i did a good prank",
+              "anchorType": "cue_start",
+              "pos": 3,
+              "total": 3,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.2149,
+              "lift": 4.4143,
+              "score": 7.9507,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "of stairs when they come down",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.2149,
+              "lift": 4.4143,
+              "score": 7.9469,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "and i did a good prank",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.2149,
+              "lift": 4.4143,
+              "score": 7.9469,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "fell",
+              "anchorType": "pause_boundary",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.2147,
+              "lift": 4.4181,
+              "score": 7.9047,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "one time we",
+              "anchorType": "cue_start",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.2149,
+              "lift": 4.4143,
+              "score": 7.8823,
+              "offsetSec": -1.0
+            }
+          ],
+          "bruh": [
+            {
+              "phrase": "don't do it too fast george",
+              "anchorType": "pause_boundary",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0145,
+              "lift": 34.4404,
+              "score": 13.3964,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "i did not make a mistake",
+              "anchorType": "pause_boundary",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0145,
+              "lift": 34.4404,
+              "score": 13.3964,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "did not make a mistake because",
+              "anchorType": "pause_boundary",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0145,
+              "lift": 34.4404,
+              "score": 13.3964,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "don't do it too fast george",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0148,
+              "lift": 34.0821,
+              "score": 13.3671,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "i did not make a mistake",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0148,
+              "lift": 34.0821,
+              "score": 13.3671,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "did not make a mistake because",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0148,
+              "lift": 34.0821,
+              "score": 13.3671,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "don't do it too fast george",
+              "anchorType": "final_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0148,
+              "lift": 34.0422,
+              "score": 13.3639,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "i did not make a mistake",
+              "anchorType": "final_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0148,
+              "lift": 34.0422,
+              "score": 13.3639,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "did not make a mistake because",
+              "anchorType": "final_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0148,
+              "lift": 34.0422,
+              "score": 13.3639,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "wait let me just take it",
+              "anchorType": "cue_start",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0144,
+              "lift": 34.4766,
+              "score": 13.2994,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "let me just take it out",
+              "anchorType": "cue_start",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0144,
+              "lift": 34.4766,
+              "score": 13.2994,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "yeah let me take it out",
+              "anchorType": "cue_start",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0144,
+              "lift": 34.4766,
+              "score": 13.2994,
+              "offsetSec": -1.0
+            }
+          ],
+          "ding": [
+            {
+              "phrase": "we gotta take",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4289,
+              "lift": 2.2867,
+              "score": 6.6406,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "we gotta take",
+              "anchorType": "final_word_end",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4296,
+              "lift": 2.2828,
+              "score": 6.6359,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "the last one",
+              "anchorType": "cue_start",
+              "pos": 6,
+              "total": 6,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4295,
+              "lift": 2.2835,
+              "score": 6.6049,
+              "offsetSec": 0.9355
+            },
+            {
+              "phrase": "which",
+              "anchorType": "pause_boundary",
+              "pos": 7,
+              "total": 7,
+              "posProjects": 5,
+              "precision": 1.0,
+              "backgroundRate": 0.4301,
+              "lift": 2.2803,
+              "score": 6.4878,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "one for",
+              "anchorType": "pause_boundary",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4301,
+              "lift": 2.2803,
+              "score": 6.484,
+              "offsetSec": -0.1577
+            },
+            {
+              "phrase": "she's gonna be a",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 3,
+              "total": 3,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.4289,
+              "lift": 2.2867,
+              "score": 6.4691,
+              "offsetSec": 0.2506
+            },
+            {
+              "phrase": "last one",
+              "anchorType": "cue_start",
+              "pos": 6,
+              "total": 6,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4295,
+              "lift": 2.2835,
+              "score": 6.4649,
+              "offsetSec": 0.9355
+            },
+            {
+              "phrase": "she's gonna be a",
+              "anchorType": "final_word_end",
+              "pos": 3,
+              "total": 3,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.4296,
+              "lift": 2.2828,
+              "score": 6.4643,
+              "offsetSec": 0.1706
+            },
+            {
+              "phrase": "so you can",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4289,
+              "lift": 2.2867,
+              "score": 6.4406,
+              "offsetSec": -0.7269
+            },
+            {
+              "phrase": "so you can",
+              "anchorType": "final_word_end",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4296,
+              "lift": 2.2828,
+              "score": 6.4359,
+              "offsetSec": -0.8069
+            },
+            {
+              "phrase": "it comes",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4289,
+              "lift": 2.2867,
+              "score": 6.4006,
+              "offsetSec": -0.1269
+            },
+            {
+              "phrase": "it comes",
+              "anchorType": "final_word_end",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4296,
+              "lift": 2.2828,
+              "score": 6.3959,
+              "offsetSec": -0.2069
+            }
+          ],
+          "dramatic": [
+            {
+              "phrase": "not going",
+              "anchorType": "cue_start",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.3151,
+              "lift": 3.0748,
+              "score": 7.2298,
+              "offsetSec": -0.2237
+            },
+            {
+              "phrase": "okay tell me the truth",
+              "anchorType": "cue_start",
+              "pos": 3,
+              "total": 3,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.3151,
+              "lift": 3.0748,
+              "score": 7.1383,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "have to go",
+              "anchorType": "cue_start",
+              "pos": 6,
+              "total": 6,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.3151,
+              "lift": 3.0748,
+              "score": 7.1381,
+              "offsetSec": 0.0706
+            },
+            {
+              "phrase": "was looking",
+              "anchorType": "cue_start",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.3151,
+              "lift": 3.0748,
+              "score": 7.121,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "have to go",
+              "anchorType": "final_word_end",
+              "pos": 6,
+              "total": 6,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.3175,
+              "lift": 3.0524,
+              "score": 7.1176,
+              "offsetSec": -0.5644
+            },
+            {
+              "phrase": "have to go",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 6,
+              "total": 6,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.3183,
+              "lift": 3.0451,
+              "score": 7.1109,
+              "offsetSec": -0.4994
+            },
+            {
+              "phrase": "didn't",
+              "anchorType": "internal_pause_word_end",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.3012,
+              "lift": 3.2104,
+              "score": 7.1018,
+              "offsetSec": -0.4479
+            },
+            {
+              "phrase": "if there's",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 6,
+              "total": 6,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.3183,
+              "lift": 3.0451,
+              "score": 7.0709,
+              "offsetSec": 0.0057
+            },
+            {
+              "phrase": "that's why i",
+              "anchorType": "cue_start",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.3151,
+              "lift": 3.0748,
+              "score": 7.0698,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "to get it",
+              "anchorType": "cue_start",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.3151,
+              "lift": 3.0748,
+              "score": 7.0698,
+              "offsetSec": -0.8271
+            },
+            {
+              "phrase": "i feel like i want to",
+              "anchorType": "internal_pause_word_end",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.3012,
+              "lift": 3.2104,
+              "score": 7.0552,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "feel like i want to vomit",
+              "anchorType": "internal_pause_word_end",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.3012,
+              "lift": 3.2104,
+              "score": 7.0552,
+              "offsetSec": -1.0
+            }
+          ],
+          "funny": [
+            {
+              "phrase": "but how many times you could",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1908,
+              "lift": 4.9324,
+              "score": 8.2576,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "i want the",
+              "anchorType": "cue_start",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.1908,
+              "lift": 4.9324,
+              "score": 8.1931,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "so guys we have to make",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1908,
+              "lift": 4.9324,
+              "score": 8.1576,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "because i put my feet up",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1908,
+              "lift": 4.9324,
+              "score": 8.1576,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "so i don't know",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 3,
+              "total": 3,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.1972,
+              "lift": 4.7822,
+              "score": 8.1349,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "so i don't know if",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.1908,
+              "lift": 4.9324,
+              "score": 8.1176,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "but how many times you",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1908,
+              "lift": 4.9324,
+              "score": 8.1176,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "how many times you could",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1908,
+              "lift": 4.9324,
+              "score": 8.1176,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "i give it like a 5",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1871,
+              "lift": 5.0229,
+              "score": 8.1058,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "this one looks kind of weird",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1908,
+              "lift": 4.9324,
+              "score": 8.0576,
+              "offsetSec": 0.3403
+            },
+            {
+              "phrase": "i told her that she needs",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1908,
+              "lift": 4.9324,
+              "score": 8.0576,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "uh huh i needed to take",
+              "anchorType": "cue_start",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1908,
+              "lift": 4.9324,
+              "score": 8.0576,
+              "offsetSec": -0.5829
+            }
+          ],
+          "pop": [
+            {
+              "phrase": "this one's",
+              "anchorType": "pause_boundary",
+              "pos": 6,
+              "total": 6,
+              "posProjects": 5,
+              "precision": 1.0,
+              "backgroundRate": 0.391,
+              "lift": 2.4997,
+              "score": 6.8183,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "cold",
+              "anchorType": "pause_boundary",
+              "pos": 7,
+              "total": 7,
+              "posProjects": 5,
+              "precision": 1.0,
+              "backgroundRate": 0.391,
+              "lift": 2.4997,
+              "score": 6.545,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "for stary and",
+              "anchorType": "final_word_end",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4138,
+              "lift": 2.3669,
+              "score": 6.5372,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "for stary and",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4141,
+              "lift": 2.3657,
+              "score": 6.5357,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "give it an 8",
+              "anchorType": "cue_start",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.4131,
+              "lift": 2.3707,
+              "score": 6.4728,
+              "offsetSec": 0.5015
+            },
+            {
+              "phrase": "you gonna do",
+              "anchorType": "cue_start",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4131,
+              "lift": 2.3707,
+              "score": 6.4328,
+              "offsetSec": 0.9651
+            },
+            {
+              "phrase": "this is so cute",
+              "anchorType": "pause_boundary",
+              "pos": 3,
+              "total": 3,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.391,
+              "lift": 2.4997,
+              "score": 6.4185,
+              "offsetSec": 0.147
+            },
+            {
+              "phrase": "give it an 8",
+              "anchorType": "final_word_end",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.4138,
+              "lift": 2.3669,
+              "score": 6.3772,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "give it an 8",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 2,
+              "precision": 1.0,
+              "backgroundRate": 0.4141,
+              "lift": 2.3657,
+              "score": 6.3757,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "for stary and terah",
+              "anchorType": "final_word_end",
+              "pos": 3,
+              "total": 3,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.4138,
+              "lift": 2.3669,
+              "score": 6.3656,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "the video",
+              "anchorType": "final_word_end",
+              "pos": 6,
+              "total": 6,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.4138,
+              "lift": 2.3669,
+              "score": 6.3654,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "for stary and terah",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 3,
+              "total": 3,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.4141,
+              "lift": 2.3657,
+              "score": 6.3641,
+              "offsetSec": 1.0
+            }
+          ],
+          "record_scratch": [
+            {
+              "phrase": "i thought it was at 2",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0232,
+              "lift": 26.6005,
+              "score": 12.5732,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "thought it was at 2 00",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0232,
+              "lift": 26.6005,
+              "score": 12.5732,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "what are you gonna get her",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0232,
+              "lift": 26.6005,
+              "score": 12.4732,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "i thought it was at",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0232,
+              "lift": 26.6005,
+              "score": 12.4332,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "thought it was at 2",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0232,
+              "lift": 26.6005,
+              "score": 12.4332,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "it was at 2 00",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0232,
+              "lift": 26.6005,
+              "score": 12.4332,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "your hair is so messy",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0232,
+              "lift": 26.6005,
+              "score": 12.4332,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "we have the cart",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0232,
+              "lift": 26.6005,
+              "score": 12.3932,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "i think his friends",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0232,
+              "lift": 26.6005,
+              "score": 12.3932,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "she's in the back",
+              "anchorType": "internal_pause_word_end",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0232,
+              "lift": 26.6005,
+              "score": 12.3932,
+              "offsetSec": -0.9159
+            },
+            {
+              "phrase": "what is the book talking about",
+              "anchorType": "cue_start",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0278,
+              "lift": 23.7293,
+              "score": 12.3534,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "and i have this one for",
+              "anchorType": "cue_start",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.0278,
+              "lift": 23.7293,
+              "score": 12.3534,
+              "offsetSec": -0.4256
+            }
+          ],
+          "success": [
+            {
+              "phrase": "to get some pads to pee",
+              "anchorType": "zoom_onset",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1897,
+              "lift": 4.9575,
+              "score": 8.2718,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "this is so cute",
+              "anchorType": "cue_start",
+              "pos": 4,
+              "total": 4,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.2113,
+              "lift": 4.4853,
+              "score": 8.1669,
+              "offsetSec": 1.0
+            },
+            {
+              "phrase": "this video",
+              "anchorType": "cue_start",
+              "pos": 9,
+              "total": 9,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.2113,
+              "lift": 4.4853,
+              "score": 8.1335,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "to get some pads to",
+              "anchorType": "zoom_onset",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1897,
+              "lift": 4.9575,
+              "score": 8.1318,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "get some pads to pee",
+              "anchorType": "zoom_onset",
+              "pos": 2,
+              "total": 2,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1897,
+              "lift": 4.9575,
+              "score": 8.1318,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "you guys subscribe",
+              "anchorType": "cue_start",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.2113,
+              "lift": 4.4853,
+              "score": 8.1181,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "you guys subscribe",
+              "anchorType": "final_word_end",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.2143,
+              "lift": 4.427,
+              "score": 8.0815,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "if only it was like a",
+              "anchorType": "zoom_onset",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1897,
+              "lift": 4.9575,
+              "score": 8.0691,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "only it was like a real",
+              "anchorType": "zoom_onset",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1897,
+              "lift": 4.9575,
+              "score": 8.0691,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "i did turn on the spa",
+              "anchorType": "zoom_onset",
+              "pos": 1,
+              "total": 1,
+              "posProjects": 1,
+              "precision": 1.0,
+              "backgroundRate": 0.1897,
+              "lift": 4.9575,
+              "score": 8.0691,
+              "offsetSec": -0.5971
+            },
+            {
+              "phrase": "you guys subscribe",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 5,
+              "total": 5,
+              "posProjects": 4,
+              "precision": 1.0,
+              "backgroundRate": 0.2155,
+              "lift": 4.4043,
+              "score": 8.0671,
+              "offsetSec": -1.0
+            },
+            {
+              "phrase": "like the video",
+              "anchorType": "cue_end_minus_80ms",
+              "pos": 6,
+              "total": 6,
+              "posProjects": 3,
+              "precision": 1.0,
+              "backgroundRate": 0.2155,
+              "lift": 4.4043,
+              "score": 8.0442,
+              "offsetSec": -1.0
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "modelSummaries": [
+    {
+      "foldId": "outer_04",
+      "modelVersion": "direct-phrase-association-v1",
+      "matchWindowSec": 5.0,
+      "ruleCounts": {
+        "bonk": 30174,
+        "bruh": 2615,
+        "ding": 53034,
+        "dramatic": 40853,
+        "funny": 27500,
+        "pop": 53042,
+        "record_scratch": 4720,
+        "success": 28178
+      },
+      "topRules": {
+        "bonk": [
+          {
+            "phrase": "he doesn't",
+            "anchorType": "cue_start",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.2149,
+            "lift": 4.4143,
+            "score": 8.2334,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "he doesn't",
+            "anchorType": "final_word_end",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.219,
+            "lift": 4.3381,
+            "score": 8.1936,
+            "offsetSec": -0.615
+          },
+          {
+            "phrase": "one time",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.2188,
+            "lift": 4.3414,
+            "score": 8.1868,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "one time",
+            "anchorType": "final_word_end",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.219,
+            "lift": 4.3381,
+            "score": 8.1847,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "he doesn't",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.2188,
+            "lift": 4.3414,
+            "score": 8.0957,
+            "offsetSec": -0.565
+          },
+          {
+            "phrase": "one time",
+            "anchorType": "cue_start",
+            "pos": 6,
+            "total": 6,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.2149,
+            "lift": 4.4143,
+            "score": 8.0105,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "and he doesn't",
+            "anchorType": "cue_start",
+            "pos": 3,
+            "total": 3,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.2149,
+            "lift": 4.4143,
+            "score": 7.9707,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "i did a good prank",
+            "anchorType": "cue_start",
+            "pos": 3,
+            "total": 3,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.2149,
+            "lift": 4.4143,
+            "score": 7.9507,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "of stairs when they come down",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.2149,
+            "lift": 4.4143,
+            "score": 7.9469,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "and i did a good prank",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.2149,
+            "lift": 4.4143,
+            "score": 7.9469,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "fell",
+            "anchorType": "pause_boundary",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.2147,
+            "lift": 4.4181,
+            "score": 7.9047,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "one time we",
+            "anchorType": "cue_start",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.2149,
+            "lift": 4.4143,
+            "score": 7.8823,
+            "offsetSec": -1.0
+          }
+        ],
+        "bruh": [
+          {
+            "phrase": "don't do it too fast george",
+            "anchorType": "pause_boundary",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0145,
+            "lift": 34.4404,
+            "score": 13.3964,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "i did not make a mistake",
+            "anchorType": "pause_boundary",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0145,
+            "lift": 34.4404,
+            "score": 13.3964,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "did not make a mistake because",
+            "anchorType": "pause_boundary",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0145,
+            "lift": 34.4404,
+            "score": 13.3964,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "don't do it too fast george",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0148,
+            "lift": 34.0821,
+            "score": 13.3671,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "i did not make a mistake",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0148,
+            "lift": 34.0821,
+            "score": 13.3671,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "did not make a mistake because",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0148,
+            "lift": 34.0821,
+            "score": 13.3671,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "don't do it too fast george",
+            "anchorType": "final_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0148,
+            "lift": 34.0422,
+            "score": 13.3639,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "i did not make a mistake",
+            "anchorType": "final_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0148,
+            "lift": 34.0422,
+            "score": 13.3639,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "did not make a mistake because",
+            "anchorType": "final_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0148,
+            "lift": 34.0422,
+            "score": 13.3639,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "wait let me just take it",
+            "anchorType": "cue_start",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0144,
+            "lift": 34.4766,
+            "score": 13.2994,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "let me just take it out",
+            "anchorType": "cue_start",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0144,
+            "lift": 34.4766,
+            "score": 13.2994,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "yeah let me take it out",
+            "anchorType": "cue_start",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0144,
+            "lift": 34.4766,
+            "score": 13.2994,
+            "offsetSec": -1.0
+          }
+        ],
+        "ding": [
+          {
+            "phrase": "we gotta take",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4289,
+            "lift": 2.2867,
+            "score": 6.6406,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "we gotta take",
+            "anchorType": "final_word_end",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4296,
+            "lift": 2.2828,
+            "score": 6.6359,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "the last one",
+            "anchorType": "cue_start",
+            "pos": 6,
+            "total": 6,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4295,
+            "lift": 2.2835,
+            "score": 6.6049,
+            "offsetSec": 0.9355
+          },
+          {
+            "phrase": "which",
+            "anchorType": "pause_boundary",
+            "pos": 7,
+            "total": 7,
+            "posProjects": 5,
+            "precision": 1.0,
+            "backgroundRate": 0.4301,
+            "lift": 2.2803,
+            "score": 6.4878,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "one for",
+            "anchorType": "pause_boundary",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4301,
+            "lift": 2.2803,
+            "score": 6.484,
+            "offsetSec": -0.1577
+          },
+          {
+            "phrase": "she's gonna be a",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 3,
+            "total": 3,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.4289,
+            "lift": 2.2867,
+            "score": 6.4691,
+            "offsetSec": 0.2506
+          },
+          {
+            "phrase": "last one",
+            "anchorType": "cue_start",
+            "pos": 6,
+            "total": 6,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4295,
+            "lift": 2.2835,
+            "score": 6.4649,
+            "offsetSec": 0.9355
+          },
+          {
+            "phrase": "she's gonna be a",
+            "anchorType": "final_word_end",
+            "pos": 3,
+            "total": 3,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.4296,
+            "lift": 2.2828,
+            "score": 6.4643,
+            "offsetSec": 0.1706
+          },
+          {
+            "phrase": "so you can",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4289,
+            "lift": 2.2867,
+            "score": 6.4406,
+            "offsetSec": -0.7269
+          },
+          {
+            "phrase": "so you can",
+            "anchorType": "final_word_end",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4296,
+            "lift": 2.2828,
+            "score": 6.4359,
+            "offsetSec": -0.8069
+          },
+          {
+            "phrase": "it comes",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4289,
+            "lift": 2.2867,
+            "score": 6.4006,
+            "offsetSec": -0.1269
+          },
+          {
+            "phrase": "it comes",
+            "anchorType": "final_word_end",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4296,
+            "lift": 2.2828,
+            "score": 6.3959,
+            "offsetSec": -0.2069
+          }
+        ],
+        "dramatic": [
+          {
+            "phrase": "not going",
+            "anchorType": "cue_start",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.3151,
+            "lift": 3.0748,
+            "score": 7.2298,
+            "offsetSec": -0.2237
+          },
+          {
+            "phrase": "okay tell me the truth",
+            "anchorType": "cue_start",
+            "pos": 3,
+            "total": 3,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.3151,
+            "lift": 3.0748,
+            "score": 7.1383,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "have to go",
+            "anchorType": "cue_start",
+            "pos": 6,
+            "total": 6,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.3151,
+            "lift": 3.0748,
+            "score": 7.1381,
+            "offsetSec": 0.0706
+          },
+          {
+            "phrase": "was looking",
+            "anchorType": "cue_start",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.3151,
+            "lift": 3.0748,
+            "score": 7.121,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "have to go",
+            "anchorType": "final_word_end",
+            "pos": 6,
+            "total": 6,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.3175,
+            "lift": 3.0524,
+            "score": 7.1176,
+            "offsetSec": -0.5644
+          },
+          {
+            "phrase": "have to go",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 6,
+            "total": 6,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.3183,
+            "lift": 3.0451,
+            "score": 7.1109,
+            "offsetSec": -0.4994
+          },
+          {
+            "phrase": "didn't",
+            "anchorType": "internal_pause_word_end",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.3012,
+            "lift": 3.2104,
+            "score": 7.1018,
+            "offsetSec": -0.4479
+          },
+          {
+            "phrase": "if there's",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 6,
+            "total": 6,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.3183,
+            "lift": 3.0451,
+            "score": 7.0709,
+            "offsetSec": 0.0057
+          },
+          {
+            "phrase": "that's why i",
+            "anchorType": "cue_start",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.3151,
+            "lift": 3.0748,
+            "score": 7.0698,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "to get it",
+            "anchorType": "cue_start",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.3151,
+            "lift": 3.0748,
+            "score": 7.0698,
+            "offsetSec": -0.8271
+          },
+          {
+            "phrase": "i feel like i want to",
+            "anchorType": "internal_pause_word_end",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.3012,
+            "lift": 3.2104,
+            "score": 7.0552,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "feel like i want to vomit",
+            "anchorType": "internal_pause_word_end",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.3012,
+            "lift": 3.2104,
+            "score": 7.0552,
+            "offsetSec": -1.0
+          }
+        ],
+        "funny": [
+          {
+            "phrase": "but how many times you could",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1908,
+            "lift": 4.9324,
+            "score": 8.2576,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "i want the",
+            "anchorType": "cue_start",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.1908,
+            "lift": 4.9324,
+            "score": 8.1931,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "so guys we have to make",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1908,
+            "lift": 4.9324,
+            "score": 8.1576,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "because i put my feet up",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1908,
+            "lift": 4.9324,
+            "score": 8.1576,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "so i don't know",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 3,
+            "total": 3,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.1972,
+            "lift": 4.7822,
+            "score": 8.1349,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "so i don't know if",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.1908,
+            "lift": 4.9324,
+            "score": 8.1176,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "but how many times you",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1908,
+            "lift": 4.9324,
+            "score": 8.1176,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "how many times you could",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1908,
+            "lift": 4.9324,
+            "score": 8.1176,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "i give it like a 5",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1871,
+            "lift": 5.0229,
+            "score": 8.1058,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "this one looks kind of weird",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1908,
+            "lift": 4.9324,
+            "score": 8.0576,
+            "offsetSec": 0.3403
+          },
+          {
+            "phrase": "i told her that she needs",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1908,
+            "lift": 4.9324,
+            "score": 8.0576,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "uh huh i needed to take",
+            "anchorType": "cue_start",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1908,
+            "lift": 4.9324,
+            "score": 8.0576,
+            "offsetSec": -0.5829
+          }
+        ],
+        "pop": [
+          {
+            "phrase": "this one's",
+            "anchorType": "pause_boundary",
+            "pos": 6,
+            "total": 6,
+            "posProjects": 5,
+            "precision": 1.0,
+            "backgroundRate": 0.391,
+            "lift": 2.4997,
+            "score": 6.8183,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "cold",
+            "anchorType": "pause_boundary",
+            "pos": 7,
+            "total": 7,
+            "posProjects": 5,
+            "precision": 1.0,
+            "backgroundRate": 0.391,
+            "lift": 2.4997,
+            "score": 6.545,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "for stary and",
+            "anchorType": "final_word_end",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4138,
+            "lift": 2.3669,
+            "score": 6.5372,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "for stary and",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4141,
+            "lift": 2.3657,
+            "score": 6.5357,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "give it an 8",
+            "anchorType": "cue_start",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.4131,
+            "lift": 2.3707,
+            "score": 6.4728,
+            "offsetSec": 0.5015
+          },
+          {
+            "phrase": "you gonna do",
+            "anchorType": "cue_start",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4131,
+            "lift": 2.3707,
+            "score": 6.4328,
+            "offsetSec": 0.9651
+          },
+          {
+            "phrase": "this is so cute",
+            "anchorType": "pause_boundary",
+            "pos": 3,
+            "total": 3,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.391,
+            "lift": 2.4997,
+            "score": 6.4185,
+            "offsetSec": 0.147
+          },
+          {
+            "phrase": "give it an 8",
+            "anchorType": "final_word_end",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.4138,
+            "lift": 2.3669,
+            "score": 6.3772,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "give it an 8",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 2,
+            "precision": 1.0,
+            "backgroundRate": 0.4141,
+            "lift": 2.3657,
+            "score": 6.3757,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "for stary and terah",
+            "anchorType": "final_word_end",
+            "pos": 3,
+            "total": 3,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.4138,
+            "lift": 2.3669,
+            "score": 6.3656,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "the video",
+            "anchorType": "final_word_end",
+            "pos": 6,
+            "total": 6,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.4138,
+            "lift": 2.3669,
+            "score": 6.3654,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "for stary and terah",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 3,
+            "total": 3,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.4141,
+            "lift": 2.3657,
+            "score": 6.3641,
+            "offsetSec": 1.0
+          }
+        ],
+        "record_scratch": [
+          {
+            "phrase": "i thought it was at 2",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0232,
+            "lift": 26.6005,
+            "score": 12.5732,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "thought it was at 2 00",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0232,
+            "lift": 26.6005,
+            "score": 12.5732,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "what are you gonna get her",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0232,
+            "lift": 26.6005,
+            "score": 12.4732,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "i thought it was at",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0232,
+            "lift": 26.6005,
+            "score": 12.4332,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "thought it was at 2",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0232,
+            "lift": 26.6005,
+            "score": 12.4332,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "it was at 2 00",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0232,
+            "lift": 26.6005,
+            "score": 12.4332,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "your hair is so messy",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0232,
+            "lift": 26.6005,
+            "score": 12.4332,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "we have the cart",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0232,
+            "lift": 26.6005,
+            "score": 12.3932,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "i think his friends",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0232,
+            "lift": 26.6005,
+            "score": 12.3932,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "she's in the back",
+            "anchorType": "internal_pause_word_end",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0232,
+            "lift": 26.6005,
+            "score": 12.3932,
+            "offsetSec": -0.9159
+          },
+          {
+            "phrase": "what is the book talking about",
+            "anchorType": "cue_start",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0278,
+            "lift": 23.7293,
+            "score": 12.3534,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "and i have this one for",
+            "anchorType": "cue_start",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.0278,
+            "lift": 23.7293,
+            "score": 12.3534,
+            "offsetSec": -0.4256
+          }
+        ],
+        "success": [
+          {
+            "phrase": "to get some pads to pee",
+            "anchorType": "zoom_onset",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1897,
+            "lift": 4.9575,
+            "score": 8.2718,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "this is so cute",
+            "anchorType": "cue_start",
+            "pos": 4,
+            "total": 4,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.2113,
+            "lift": 4.4853,
+            "score": 8.1669,
+            "offsetSec": 1.0
+          },
+          {
+            "phrase": "this video",
+            "anchorType": "cue_start",
+            "pos": 9,
+            "total": 9,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.2113,
+            "lift": 4.4853,
+            "score": 8.1335,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "to get some pads to",
+            "anchorType": "zoom_onset",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1897,
+            "lift": 4.9575,
+            "score": 8.1318,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "get some pads to pee",
+            "anchorType": "zoom_onset",
+            "pos": 2,
+            "total": 2,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1897,
+            "lift": 4.9575,
+            "score": 8.1318,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "you guys subscribe",
+            "anchorType": "cue_start",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.2113,
+            "lift": 4.4853,
+            "score": 8.1181,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "you guys subscribe",
+            "anchorType": "final_word_end",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.2143,
+            "lift": 4.427,
+            "score": 8.0815,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "if only it was like a",
+            "anchorType": "zoom_onset",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1897,
+            "lift": 4.9575,
+            "score": 8.0691,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "only it was like a real",
+            "anchorType": "zoom_onset",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1897,
+            "lift": 4.9575,
+            "score": 8.0691,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "i did turn on the spa",
+            "anchorType": "zoom_onset",
+            "pos": 1,
+            "total": 1,
+            "posProjects": 1,
+            "precision": 1.0,
+            "backgroundRate": 0.1897,
+            "lift": 4.9575,
+            "score": 8.0691,
+            "offsetSec": -0.5971
+          },
+          {
+            "phrase": "you guys subscribe",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 5,
+            "total": 5,
+            "posProjects": 4,
+            "precision": 1.0,
+            "backgroundRate": 0.2155,
+            "lift": 4.4043,
+            "score": 8.0671,
+            "offsetSec": -1.0
+          },
+          {
+            "phrase": "like the video",
+            "anchorType": "cue_end_minus_80ms",
+            "pos": 6,
+            "total": 6,
+            "posProjects": 3,
+            "precision": 1.0,
+            "backgroundRate": 0.2155,
+            "lift": 4.4043,
+            "score": 8.0442,
+            "offsetSec": -1.0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -132,7 +132,7 @@ def inner_folds(records):
     return folds
 
 
-def select_policy_on_training(records):
+def select_policy_on_training(records, match_window_sec=None):
     prepared_folds = [
         {**fold, "model": build_phrase_cue_model(fold["train"])}
         for fold in inner_folds(records)
@@ -145,7 +145,7 @@ def select_policy_on_training(records):
             fold_emissions, _suppressed = predict_records(fold["model"], fold["test"], fold["foldId"], policy)
             emissions.extend(fold_emissions)
             manual_records.extend(fold["test"])
-        metrics = product_metrics(emissions, human_events_for_records(manual_records))
+        metrics = product_metrics(emissions, human_events_for_records(manual_records), match_window_sec)
         key = (
             metrics["netSavedEdits"],
             metrics["matched"],
@@ -172,6 +172,7 @@ def main():
     parser.add_argument("--fold", default="")
     parser.add_argument("--project", default="")
     parser.add_argument("--select-policy", action="store_true")
+    parser.add_argument("--match-window-sec", type=float, default=None)
     args = parser.parse_args()
 
     records = training_records(load_corpus(args.corpus))
@@ -198,7 +199,7 @@ def main():
         test = [by_project[project_id] for project_id in fold.get("testProjectIds") or [] if project_id in by_project]
         if not test:
             continue
-        policy_choice = select_policy_on_training(train) if args.select_policy else {
+        policy_choice = select_policy_on_training(train, args.match_window_sec) if args.select_policy else {
             "policy": fixed_policy,
             "metrics": None,
             "choiceKey": None,
@@ -207,7 +208,7 @@ def main():
         model = build_phrase_cue_model(train)
         emissions, suppressed = predict_records(model, test, fold.get("foldId", ""), policy)
         manual = human_events_for_records(test)
-        metrics = product_metrics(emissions, manual)
+        metrics = product_metrics(emissions, manual, args.match_window_sec)
         all_emissions.extend(emissions)
         all_suppressed.extend(suppressed)
         matches.extend({**row, "foldId": fold.get("foldId", "")} for row in metrics["matches"])
@@ -240,12 +241,13 @@ def main():
 
     selected_project_ids = sorted({project_id for fold in splits for project_id in fold.get("testProjectIds", []) if project_id in by_project})
     manual = human_events_for_records([by_project[project_id] for project_id in selected_project_ids])
-    aggregate = product_metrics(all_emissions, manual)
+    aggregate = product_metrics(all_emissions, manual, args.match_window_sec)
     report = {
         "schemaVersion": 1,
         "protocol": "phrase-cues-v1",
         "createdAt": datetime.now(timezone.utc).isoformat(),
         "metricBoundary": "outer-fold-only; phrase cue rules built from trainProjectIds only",
+        "matchWindowSec": args.match_window_sec,
         "enabledFamilies": sorted(model_summaries[-1]["enabledFamilies"]) if model_summaries else [],
         "policySelection": "inner_leave_one_project" if args.select_policy else "fixed_strict",
         "defaultPolicy": fixed_policy,

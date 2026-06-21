@@ -1,0 +1,9 @@
+{
+  "script": "scripts/sfx/run-zoom-pop-validation.py",
+  "corpus": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/data/sfx-automation-v3/caption-moment-corpus.jsonl",
+  "outerSplits": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/validation/outer-splits-v1.json",
+  "runDir": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/validation/runs-a15/zoom-pop-outer04-001",
+  "foldFilter": "outer_04",
+  "projectFilter": "footage_05_11_26_sfx",
+  "matchWindowSec": 5.0
+}

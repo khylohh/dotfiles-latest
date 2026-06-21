@@ -9,6 +9,7 @@ import { resolveCaptionProjectForMedia } from '../caption/find-caption-project.m
 import { decodeTimeline } from '../decoding/decode-timeline.mjs';
 import { familyPoliciesForDecoder, scoreCaptionCandidatesModel } from '../scoring/caption-model-scorer.mjs';
 import { scoreCaptionCandidatesLocal } from '../scoring/caption-rule-scorer.mjs';
+import { scoreZoomPopMoments } from '../scoring/zoom-pop-model-scorer.mjs';
 
 const project = {
   fps: 30,
@@ -213,6 +214,48 @@ test('caption model scorer obeys trained family policy enablement', () => {
   assert.equal(enabled.primaryFamily, 'ding');
   assert.equal(enabled.reasonCode, 'caption_model_v2_ding');
   assert.ok(enabled.confidence > 0.9);
+});
+
+test('zoom pop scorer uses caption moment context and zoom onset options', () => {
+  const [scored] = scoreZoomPopMoments([{
+    momentId: 'moment-1',
+    beatGroupId: 'beat-1',
+    momentSec: 12,
+    text: 'magic zoom',
+    cueIds: ['cue-1'],
+    captionPath: '/tmp/caption.captionai',
+    captionProjectId: 'caption-1',
+    features: {
+      dense: {},
+      lexical: [],
+    },
+    timingOptions: [{
+      optionId: 'zoom:zoom-1:zoom_onset:12.000000',
+      targetSec: 12,
+      anchorType: 'zoom_onset',
+      cueIds: ['cue-1'],
+      wordIds: [],
+      zoomMarkerIds: ['zoom-1'],
+      parentFeatures: { boundaryStrength: 0.4 },
+    }],
+  }], { name: 'Project', fps: 30, duration: 60 }, {
+    modelData: {
+      schemaVersion: 1,
+      modelVersion: 'zoom-pop-selector-v1',
+      featureVersion: 1,
+      classifier: {
+        intercept: -5,
+        weights: {
+          'token:magic': 10,
+        },
+      },
+    },
+  });
+  assert.equal(scored.primaryFamily, 'pop');
+  assert.equal(scored.candidate.kind, 'zoom');
+  assert.deepEqual(scored.candidate.zoomMarkerIds, ['zoom-1']);
+  assert.ok(scored.confidence > 0.99);
+  assert.equal(scored.reasonCode, 'zoom_pop_model_v1');
 });
 
 test('caption v2 policy maps to decoder threshold and margin fields', () => {

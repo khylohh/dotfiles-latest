@@ -1,0 +1,9 @@
+{
+  "script": "scripts/sfx/run-direct-phrase-association-validation.py",
+  "corpus": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/data/sfx-automation-v3/caption-moment-corpus.jsonl",
+  "outerSplits": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/validation/outer-splits-v1.json",
+  "runDir": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/validation/runs-a14/direct-phrase-association-outer04-001",
+  "foldFilter": "outer_04",
+  "projectFilter": "footage_05_11_26_sfx",
+  "matchWindowSec": 5.0
+}

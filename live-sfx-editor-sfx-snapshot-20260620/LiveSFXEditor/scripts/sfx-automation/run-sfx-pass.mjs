@@ -3,11 +3,12 @@ import { packNewEventsAroundFixedEvents, eventAudibleStart } from '../../shared/
 import { loadCaptionProjectForSFXProject } from './candidates/build-caption-candidates.mjs';
 import { buildZoomCandidates } from './candidates/build-zoom-candidates.mjs';
 import { buildCaptionBeatCandidates } from './caption/build-caption-beat-candidates.mjs';
+import { buildCaptionMoments } from './caption/build-caption-moments.mjs';
 import { decodeTimeline } from './decoding/decode-timeline.mjs';
 import { loadAutomationManifest } from './loaders/load-asset-pack.mjs';
 import { materializeDecisions } from './rendering/materialize-events.mjs';
 import { familyPoliciesForDecoder, loadCaptionBeatModel, scoreCaptionCandidatesModel } from './scoring/caption-model-scorer.mjs';
-import { scoreZoomCandidatesLocal } from './scoring/rule-scorer.mjs';
+import { scoreZoomPopMoments } from './scoring/zoom-pop-model-scorer.mjs';
 
 const defaultPolicyUrl = new URL('../../config/sfx-automation-v1/policy.json', import.meta.url);
 
@@ -52,16 +53,10 @@ export function generateSFXPass(project, options = {}) {
   const policy = options.policy || loadPolicy(options.policyPath);
   const assetPack = options.assetPack || loadAutomationManifest({ packRoot: options.packRoot });
   const region = normalizeAutomationRegion(options.region, project);
-  const allCandidates = buildZoomCandidates(project);
-  const zoomCandidates = allCandidates.filter((candidate) => {
+  const allZoomCandidates = buildZoomCandidates(project);
+  const zoomCandidates = allZoomCandidates.filter((candidate) => {
     const targetSec = Number(candidate.targetSec);
     return targetSec >= region.start - 0.001 && targetSec <= region.end + 0.001;
-  });
-  const captionModelBundle = options.includeCaptions === false ? null : loadCaptionBeatModel({
-    modelPath: options.captionModelPath,
-    policyPath: options.captionModelPolicyPath,
-    modelData: options.captionModelData,
-    policyData: options.captionPolicyData,
   });
   const captionResult = options.includeCaptions === false
     ? { captionPath: '', captionProject: null, candidates: [] }
@@ -70,12 +65,31 @@ export function generateSFXPass(project, options = {}) {
       searchRoot: options.captionSearchRoot,
       captionProject: options.captionProject,
     });
+  const captionModelBundle = options.includeCaptions === false ? null : loadCaptionBeatModel({
+    modelPath: options.captionModelPath,
+    policyPath: options.captionModelPolicyPath,
+    modelData: options.captionModelData,
+    policyData: options.captionPolicyData,
+  });
   const captionCandidates = captionResult.candidates.filter((candidate) => {
     const targetSec = Number(candidate.targetSec);
     return targetSec >= region.start - 0.001 && targetSec <= region.end + 0.001;
   });
+  const captionMoments = captionResult.captionProject
+    ? buildCaptionMoments(project, captionResult.captionProject, captionResult.candidates)
+    : [];
+  const zoomPopScored = options.includeZoomPop === false
+    ? []
+    : scoreZoomPopMoments(captionMoments, project, {
+      modelPath: options.zoomPopModelPath,
+      modelData: options.zoomPopModelData,
+    });
+  const regionZoomPopScored = zoomPopScored.filter((item) => {
+    const targetSec = Number(item.candidate.targetSec);
+    return targetSec >= region.start - 0.001 && targetSec <= region.end + 0.001;
+  });
   const scored = [
-    ...scoreZoomCandidatesLocal(zoomCandidates, { seed }),
+    ...regionZoomPopScored,
     ...scoreCaptionCandidatesModel(captionCandidates, { seed, modelBundle: captionModelBundle }),
   ];
   const captionFamilyPolicies = captionModelBundle ? familyPoliciesForDecoder(captionModelBundle.policy) : {};
@@ -108,15 +122,17 @@ export function generateSFXPass(project, options = {}) {
   return {
     project: nextProject,
     stats: {
-      scorerMode: 'local-model-v2',
+      scorerMode: 'local-model-v3-zoom-pop',
       captionModelVersion: captionModelBundle?.model?.modelVersion || '',
       captionEnabledFamilies: Object.entries(captionFamilyPolicies)
         .filter(([, config]) => config.enabled !== false)
         .map(([family]) => family),
       captionCandidateMode: 'beat-v2',
       region,
-      zoomCandidates: allCandidates.length,
+      zoomCandidates: allZoomCandidates.length,
       regionZoomCandidates: zoomCandidates.length,
+      zoomPopCandidates: zoomPopScored.length,
+      regionZoomPopCandidates: regionZoomPopScored.length,
       captionSource: captionResult.captionPath,
       captionResolver: captionResult.resolver || null,
       captionCandidates: captionResult.candidates.length,
