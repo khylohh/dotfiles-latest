@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "f57b4cd08443af370457",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001001640_49",
+  "coreStartSec": 1001.64,
+  "coreEndSec": 1008.9,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_cd5c3d02d6cba2b9"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_cd6a1d5caa6b3629:final_word_end:1006.460000",
+    "cand_caption_beat_d229d4c4c04f3c5f:cue_end_minus_80ms:1006.734110",
+    "cand_caption_beat_d229d4c4c04f3c5f:cue_start:1006.814110",
+    "cand_caption_beat_d229d4c4c04f3c5f:internal_pause_word_end:1006.820000",
+    "cand_caption_beat_d229d4c4c04f3c5f:zoom_onset:1006.805800",
+    "cand_caption_beat_fe8bce90f61f019e:cue_end_minus_80ms:1006.220000",
+    "cand_caption_beat_fe8bce90f61f019e:cue_start:1006.300000",
+    "cand_caption_beat_fe8bce90f61f019e:final_word_end:1006.320000",
+    "cand_caption_beat_fe8bce90f61f019e:internal_pause_word_end:1006.240000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_cd5c3d02d6cba2b9",
+      "beatGroupId": "beat_group_1272",
+      "kind": "caption_moment",
+      "momentSec": 1006.46,
+      "relativeSec": 4.82,
+      "cueIds": [
+        "cue-01169",
+        "cue-01170",
+        "eb511616-85c1-4c67-91db-f1f774dce38c"
+      ],
+      "text": "I don't know",
+      "captionWindow": "speaker_4: he said I think it's | speaker_4: an elbow or something | speaker_4: I don't know | speaker_4: how it happened | speaker_4: He's at home right now",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 9.0,
+        "moment.span_sec": 0.6,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.35,
+        "moment.mean_boundary_strength": 0.222,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 2.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 2.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 2.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 2.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_fe8bce90f61f019e:cue_end_minus_80ms:1006.220000",
+          "targetSec": 1006.22,
+          "relativeSec": 4.58,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01169",
+            "cue-01170"
+          ],
+          "wordIds": [
+            "word-03115",
+            "word-03116"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-128"
+          ],
+          "boundaryStrength": 0.15,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_fe8bce90f61f019e:internal_pause_word_end:1006.240000",
+          "targetSec": 1006.24,
+          "relativeSec": 4.6,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-01169",
+            "cue-01170"
+          ],
+          "wordIds": [
+            "word-03115",
+            "word-03116"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-128"
+          ],
+          "boundaryStrength": 0.15,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_fe8bce90f61f019e:cue_start:1006.300000",
+          "targetSec": 1006.3,
+          "relativeSec": 4.66,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01169",
+            "cue-01170"
+          ],
+          "wordIds": [
+            "word-03115",
+            "word-03116"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-128"
+          ],
+          "boundaryStrength": 0.15,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_fe8bce90f61f019e:final_word_end:1006.320000",
+          "targetSec": 1006.32,
+          "relativeSec": 4.68,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01169",
+            "cue-01170"
+          ],
+          "wordIds": [
+            "word-03115",
+            "word-03116"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-128"
+          ],
+          "boundaryStrength": 0.15,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cd6a1d5caa6b3629:final_word_end:1006.460000",
+          "targetSec": 1006.46,
+          "relativeSec": 4.82,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01170"
+          ],
+          "wordIds": [
+            "word-03117"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-128"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d229d4c4c04f3c5f:cue_end_minus_80ms:1006.734110",
+          "targetSec": 1006.734,
+          "relativeSec": 5.094,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01169",
+            "cue-01170",
+            "eb511616-85c1-4c67-91db-f1f774dce38c"
+          ],
+          "wordIds": [
+            "word-03118"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-128"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d229d4c4c04f3c5f:zoom_onset:1006.805800",
+          "targetSec": 1006.806,
+          "relativeSec": 5.165,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-01169",
+            "cue-01170",
+            "eb511616-85c1-4c67-91db-f1f774dce38c"
+          ],
+          "wordIds": [
+            "word-03118"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-128"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d229d4c4c04f3c5f:cue_start:1006.814110",
+          "targetSec": 1006.814,
+          "relativeSec": 5.174,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01169",
+            "cue-01170",
+            "eb511616-85c1-4c67-91db-f1f774dce38c"
+          ],
+          "wordIds": [
+            "word-03118"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-128"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d229d4c4c04f3c5f:internal_pause_word_end:1006.820000",
+          "targetSec": 1006.82,
+          "relativeSec": 5.18,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-01169",
+            "cue-01170",
+            "eb511616-85c1-4c67-91db-f1f774dce38c"
+          ],
+          "wordIds": [
+            "word-03118"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-128"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "none",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_3: How do you | speaker_3: think it happened? | speaker_1: I don't know | speaker_1: Remember we found all | speaker_1: those birds?",
+      "timing": null,
+      "similarity": 0.2091
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "none",
+      "momentText": "it is?",
+      "captionWindow": "speaker_4: It's on Netflix | speaker_4: like animation or something | speaker_2: it is? | speaker_2: I didn't know that | speaker_2: I didn't even know",
+      "timing": null,
+      "similarity": 0.2011
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "pop",
+      "momentText": "You like it?",
+      "captionWindow": "speaker_4: I can't believe it's a dinosaur | speaker_4: Oh my God | speaker_4: You like it? | speaker_4: Yaaaaay | speaker_4: All right",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1ae8fad045ece946:zoom_onset:1182.714867",
+        "anchorType": "zoom_onset",
+        "targetSec": 1182.715
+      },
+      "similarity": 0.1786
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "pop",
+      "momentText": "comment down below",
+      "captionWindow": "speaker_4: that they're fake or real? | speaker_4: Guys | speaker_4: comment down below | speaker_4: if you guys know | speaker_4: How do you know?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_b7c43446ae3476e7:zoom_onset:1355.721033",
+        "anchorType": "zoom_onset",
+        "targetSec": 1355.721
+      },
+      "similarity": 0.1697
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "ding",
+      "momentText": "flowers",
+      "captionWindow": "speaker_4: It's okay | speaker_4: I only two | speaker_4: flowers | speaker_1: Yeah | speaker_1: I think we put them",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_67f846f98ff32d9a:final_word_end:981.996000",
+        "anchorType": "final_word_end",
+        "targetSec": 981.996
+      },
+      "similarity": 0.1776
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "ding",
+      "momentText": "I think it's pretty cool",
+      "captionWindow": "speaker_4: I'm gonna be | speaker_4: going inside because | speaker_4: I think it's pretty cool | speaker_4: Stary | speaker_4: this is so creative",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2dd905e7fddffec6:final_word_end:439.724000",
+        "anchorType": "final_word_end",
+        "targetSec": 439.724
+      },
+      "similarity": 0.1707
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "I'm gonna be",
+      "captionWindow": "speaker_4: Guys | speaker_4: look at this thing | speaker_4: I'm gonna be | speaker_4: going inside because | speaker_4: I think it's pretty cool",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d713ddecc8e941f6:cue_end_minus_80ms:437.044000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 437.044
+      },
+      "similarity": 0.1774
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "success",
+      "momentText": "You don't have",
+      "captionWindow": "speaker_4: Oh thank you | speaker_4: Oh stop | speaker_4: You don't have | speaker_4: anything for me | speaker_4: All right",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5185e8ff5653d29a:cue_start:1232.820000",
+        "anchorType": "cue_start",
+        "targetSec": 1232.82
+      },
+      "similarity": 0.1616
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bonk",
+      "momentText": "How do you know",
+      "captionWindow": "speaker_3: Let me feel it | speaker_1: Suri? | speaker_4: How do you know | speaker_4: that they're fake or real? | speaker_4: Guys",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e0dbb80f3b16a730:cue_start:1352.870000",
+        "anchorType": "cue_start",
+        "targetSec": 1352.87
+      },
+      "similarity": 0.1798
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bonk",
+      "momentText": "Which color do you think",
+      "captionWindow": "speaker_4: Yeah | speaker_4: open it | speaker_4: Which color do you think | speaker_4: it's gonna be? | speaker_3: I thought it was only",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c9aa4b08bf9506c4:cue_start:1271.930000",
+        "anchorType": "cue_start",
+        "targetSec": 1271.93
+      },
+      "similarity": 0.1648
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "funny",
+      "momentText": "I don't know bro",
+      "captionWindow": "speaker_1: Wait | speaker_1: is she 20 pounds or more? | speaker_3: I don't know bro | speaker_3: i guess so | speaker_3: yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d2ff07e0cdf2b6d3:cue_end_minus_80ms:350.360000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 350.36
+      },
+      "similarity": 0.1718
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "funny",
+      "momentText": "four",
+      "captionWindow": "speaker_4: two | speaker_4: three | speaker_4: four | speaker_4: Right there | speaker_4: do it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_a7b15bcfde29b3a8:zoom_onset:1021.253567",
+        "anchorType": "zoom_onset",
+        "targetSec": 1021.254
+      },
+      "similarity": 0.17
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "bruh",
+      "momentText": "makeup doesn't last",
+      "captionWindow": "speaker_5: I put some lipstick too | speaker_2: That's why my | speaker_2: makeup doesn't last | speaker_5: I knew it | speaker_5: You know that makeup",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2b159711b130b219:final_word_end:549.723000",
+        "anchorType": "final_word_end",
+        "targetSec": 549.723
+      },
+      "similarity": 0.1172
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "bruh",
+      "momentText": "look",
+      "captionWindow": "speaker_1: no right? | speaker_5: Look | speaker_5: look | speaker_5: Look at that | speaker_5: It's like to here",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_749023db1b5e3d17:cue_end_minus_80ms:1043.880000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1043.88
+      },
+      "similarity": 0.1081
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "What is it?",
+      "captionWindow": "speaker_4: i need to tell you | speaker_4: something | speaker_5: What is it? | speaker_4: It's a prank! | speaker_1: It's a prank",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e07c6dc31584f731:cue_start:1210.340000",
+        "anchorType": "cue_start",
+        "targetSec": 1210.34
+      },
+      "similarity": 0.1621
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "record_scratch",
+      "momentText": "Oh",
+      "captionWindow": "speaker_4: your hair is so messy | speaker_3: I know | speaker_4: Oh | speaker_4: my pretty girl | speaker_4: You ate pizza too?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_81b1e99a12ed10a3:final_word_end:876.130000",
+        "anchorType": "final_word_end",
+        "targetSec": 876.13
+      },
+      "similarity": 0.1559
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "dramatic",
+      "momentText": "mama",
+      "captionWindow": "speaker_4: I know | speaker_4: I can imagine | speaker_4: mama | speaker_4: But listen | speaker_4: I know that you feel embarrassed",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_45a120baabfce261:cue_end_minus_80ms:934.620000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 934.62
+      },
+      "similarity": 0.1901
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "dramatic",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_3: It's there | speaker_1: Did they grab it? | speaker_1: I don't know | speaker_1: What do you think? | speaker_3: Let me see if it's",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f6be886e2a52078e:zoom_onset:1117.399617",
+        "anchorType": "zoom_onset",
+        "targetSec": 1117.4
+      },
+      "similarity": 0.1877
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_5: Do you think she's in | speaker_5: pain right now? | speaker_1: I don't know | speaker_1: Well no | speaker_1: because I'm carrying her",
+      "timing": null,
+      "similarity": 0.1921
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_3: It's there | speaker_1: Did they grab it? | speaker_1: I don't know | speaker_1: What do you think? | speaker_3: Let me see if it's",
+      "timing": null,
+      "similarity": 0.1877
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

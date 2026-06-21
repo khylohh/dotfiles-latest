@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "9650fa455ec2a47cee1a",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000016368_02",
+  "coreStartSec": 16.368,
+  "coreEndSec": 22.924,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_07e230e54ee51616"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_8fec5e20219a63f1:zoom_onset:22.188833"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_07e230e54ee51616",
+      "beatGroupId": "beat_group_28",
+      "kind": "caption_moment",
+      "momentSec": 22.189,
+      "relativeSec": 5.821,
+      "cueIds": [
+        "cue-00019",
+        "cue-00020",
+        "cue-00021",
+        "cue-00022"
+      ],
+      "text": "Yeah",
+      "captionWindow": "speaker_1: she uses | speaker_1: yeah? | speaker_1: Yeah | speaker_1: You scared me | speaker_1: bro",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.5,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_8fec5e20219a63f1:zoom_onset:22.188833",
+          "targetSec": 22.189,
+          "relativeSec": 5.821,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00019",
+            "cue-00020",
+            "cue-00021",
+            "cue-00022"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-4"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "none",
+      "momentText": "yeah",
+      "captionWindow": "speaker_3: that scared me | speaker_1: Stary's coming | speaker_1: yeah | speaker_1: yeah | speaker_1: she's coming",
+      "timing": null,
+      "similarity": 0.2242
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "none",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_1: You wanna get robux? | speaker_1: wait on your phone? | speaker_5: Yeah | speaker_1: Let me see it | speaker_1: Where should",
+      "timing": null,
+      "similarity": 0.2082
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "pop",
+      "momentText": "go?",
+      "captionWindow": "speaker_1: a song for each | speaker_1: place that you wanna | speaker_1: go? | speaker_1: Yeah | speaker_2: Yeah?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_77165dd38bac1a23:zoom_onset:343.876867",
+        "anchorType": "zoom_onset",
+        "targetSec": 343.877
+      },
+      "similarity": 0.1954
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "pop",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_1: so we just got | speaker_1: back from Target | speaker_3: Yeah | speaker_1: and Suri | speaker_1: let me see the",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f7938894c76a6c61:zoom_onset:823.355867",
+        "anchorType": "zoom_onset",
+        "targetSec": 823.356
+      },
+      "similarity": 0.1938
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "ding",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_1: Do you want | speaker_1: granola George? | speaker_2: Yeah | speaker_3: let me just | speaker_1: Bro you didn't do your hair",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_a80921350790d0de:final_word_end:364.760000",
+        "anchorType": "final_word_end",
+        "targetSec": 364.76
+      },
+      "similarity": 0.2117
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "ding",
+      "momentText": "okay?",
+      "captionWindow": "speaker_5: We love you Bambi | speaker_1: You're gonna be fine | speaker_1: okay? | speaker_1: They asked me | speaker_1: how old she was and",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f86ee535f4fc1ccb:final_word_end:684.384000",
+        "anchorType": "final_word_end",
+        "targetSec": 684.384
+      },
+      "similarity": 0.189
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "success",
+      "momentText": "yeah",
+      "captionWindow": "speaker_1: oh look at that Stary | speaker_1: Oooh | speaker_1: yeah | speaker_1: Give me those | speaker_1: They look delicious",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c743242c4a7be2b2:cue_end_minus_80ms:197.240000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 197.24
+      },
+      "similarity": 0.1955
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "success",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_1: Maybe you push it | speaker_3: All right | speaker_1: Yeah | speaker_1: like that | speaker_1: You gotta leave a place",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e1421c9b65886413:zoom_onset:419.419000",
+        "anchorType": "zoom_onset",
+        "targetSec": 419.419
+      },
+      "similarity": 0.1906
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bonk",
+      "momentText": "waking me up?",
+      "captionWindow": "speaker_1: She's like | speaker_1: why are you | speaker_1: waking me up? | speaker_4: Yeah | speaker_1: Guys",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1e1730765c68e0f7:cue_end_minus_80ms:450.580000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 450.58
+      },
+      "similarity": 0.1906
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "bonk",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_1: yay | speaker_1: yay | speaker_1: Yeah | speaker_1: it's gonna be hard | speaker_1: mama",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_36aed9e4bc206463:cue_start:172.920000",
+        "anchorType": "cue_start",
+        "targetSec": 172.92
+      },
+      "similarity": 0.1875
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "funny",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_1: World Cup because of | speaker_1: their age | speaker_1: Yeah | speaker_1: she has a club from France | speaker_6: Mine is pink",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_05b76088a73b6e46:cue_start:626.825078",
+        "anchorType": "cue_start",
+        "targetSec": 626.825
+      },
+      "similarity": 0.1906
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "funny",
+      "momentText": "you scared me",
+      "captionWindow": "speaker_1: I touch them? | speaker_1: Elsa | speaker_1: you scared me | speaker_1: Okay so | speaker_1: you got your clothes",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_099b5f577d4a1983:cue_end_minus_80ms:91.960000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 91.96
+      },
+      "similarity": 0.185
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bruh",
+      "momentText": "You do?",
+      "captionWindow": "speaker_1: Do you have to take your | speaker_1: backpack? | speaker_1: You do? | speaker_1: Okay guys | speaker_1: so",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d5e865863506385c:pause_boundary:42.860000",
+        "anchorType": "pause_boundary",
+        "targetSec": 42.86
+      },
+      "similarity": 0.1565
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bruh",
+      "momentText": "nobody wins",
+      "captionWindow": "speaker_1: but listen | speaker_1: if Suri is awake too | speaker_1: nobody wins | speaker_1: George | speaker_1: Wait",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1a399265a0db96c6:final_word_end:427.860000",
+        "anchorType": "final_word_end",
+        "targetSec": 427.86
+      },
+      "similarity": 0.1515
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "record_scratch",
+      "momentText": "here later",
+      "captionWindow": "speaker_1: Amor | speaker_1: you know they're gonna be | speaker_1: here later | speaker_1: at 3:00 | speaker_1: It's barely 2:00",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1e506665353edad9:final_word_end:231.200000",
+        "anchorType": "final_word_end",
+        "targetSec": 231.2
+      },
+      "similarity": 0.1597
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "record_scratch",
+      "momentText": "to",
+      "captionWindow": "speaker_3: Where? | speaker_1: I'll be taking you | speaker_1: to | speaker_1: I can't tell you | speaker_1: We're gonna go right now",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_abd23f7415d9dde6:pause_boundary:584.420000",
+        "anchorType": "pause_boundary",
+        "targetSec": 584.42
+      },
+      "similarity": 0.1575
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "dramatic",
+      "momentText": "Elsa",
+      "captionWindow": "speaker_1: Wait do they bite if | speaker_1: I touch them? | speaker_1: Elsa | speaker_1: you scared me | speaker_1: Okay so",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_fee25eb74eb7cfd5:zoom_onset:89.873117",
+        "anchorType": "zoom_onset",
+        "targetSec": 89.873
+      },
+      "similarity": 0.197
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "dramatic",
+      "momentText": "my boy",
+      "captionWindow": "speaker_1: Yeah | speaker_1: That's 30 seconds | speaker_1: my boy | speaker_1: You still good? | speaker_2: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8a99b5e237860584:zoom_onset:151.034217",
+        "anchorType": "zoom_onset",
+        "targetSec": 151.034
+      },
+      "similarity": 0.1922
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "other_sfx",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_1: It's easy to find | speaker_3: Yeah? | speaker_1: Yeah | speaker_1: We should've put | speaker_1: some rocks",
+      "timing": null,
+      "similarity": 0.1922
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "other_sfx",
+      "momentText": "Yeah look because",
+      "captionWindow": "speaker_1: some rocks | speaker_1: too | speaker_3: Yeah look because | speaker_3: like here you can tell | speaker_1: Yeah",
+      "timing": null,
+      "similarity": 0.1875
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

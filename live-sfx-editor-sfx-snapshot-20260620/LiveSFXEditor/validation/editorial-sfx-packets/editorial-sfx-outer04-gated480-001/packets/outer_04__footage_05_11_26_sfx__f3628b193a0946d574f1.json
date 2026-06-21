@@ -1,0 +1,870 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "f3628b193a0946d574f1",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000598791_30",
+  "coreStartSec": 598.791,
+  "coreEndSec": 633.38,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_f886eccebf40ae0d",
+    "caption_moment_35d86ae067c5f3cf",
+    "caption_moment_2e0bd586b74fb8c3",
+    "caption_moment_f4bef5810b6c2ab4",
+    "caption_moment_733616a414c87433"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_170c2231c060dc8d:cue_end_minus_80ms:609.147803",
+    "cand_caption_beat_21aba0933ffa1f2d:cue_end_minus_80ms:606.240000",
+    "cand_caption_beat_21aba0933ffa1f2d:cue_start:606.320000",
+    "cand_caption_beat_21aba0933ffa1f2d:final_word_end:606.300000",
+    "cand_caption_beat_313bb20c18e42bec:internal_pause_word_end:606.680000",
+    "cand_caption_beat_313bb20c18e42bec:zoom_onset:606.639367",
+    "cand_caption_beat_4e527b946c5397d7:cue_end_minus_80ms:599.450000",
+    "cand_caption_beat_4e527b946c5397d7:final_word_end:599.530000",
+    "cand_caption_beat_6200de48910e0cb9:final_word_end:609.580000",
+    "cand_caption_beat_6200de48910e0cb9:zoom_onset:609.542267",
+    "cand_caption_beat_71f8cac14f2fa16b:cue_start:603.052923",
+    "cand_caption_beat_71f8cac14f2fa16b:zoom_onset:603.102500",
+    "cand_caption_beat_aef7ad4f84b704cf:cue_end_minus_80ms:602.840000",
+    "cand_caption_beat_aef7ad4f84b704cf:final_word_end:602.920000",
+    "cand_caption_beat_d5ab8a7c0c5617fb:zoom_onset:621.821200",
+    "cand_caption_beat_f59405cf5116b2e6:cue_start:599.740000",
+    "cand_caption_beat_f59405cf5116b2e6:internal_pause_word_end:599.820000",
+    "cand_caption_beat_f59405cf5116b2e6:zoom_onset:599.732467"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_f886eccebf40ae0d",
+      "beatGroupId": "beat_group_787",
+      "kind": "caption_moment",
+      "momentSec": 599.732,
+      "relativeSec": 0.941,
+      "cueIds": [
+        "cue-00884",
+        "cue-00885",
+        "cue-00886"
+      ],
+      "text": "they have fever",
+      "captionWindow": "speaker_4: I think they caught a virus | speaker_4: So Stary and Terah | speaker_4: they have fever | speaker_4: and are kind of sick | speaker_4: Not good",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.37,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.41,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_4e527b946c5397d7:cue_end_minus_80ms:599.450000",
+          "targetSec": 599.45,
+          "relativeSec": 0.659,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00884"
+          ],
+          "wordIds": [
+            "word-01929"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-80"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_4e527b946c5397d7:final_word_end:599.530000",
+          "targetSec": 599.53,
+          "relativeSec": 0.739,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00884"
+          ],
+          "wordIds": [
+            "word-01929"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-80"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f59405cf5116b2e6:zoom_onset:599.732467",
+          "targetSec": 599.732,
+          "relativeSec": 0.941,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00884",
+            "cue-00885",
+            "cue-00886"
+          ],
+          "wordIds": [
+            "word-01930"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-80"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f59405cf5116b2e6:cue_start:599.740000",
+          "targetSec": 599.74,
+          "relativeSec": 0.949,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00884",
+            "cue-00885",
+            "cue-00886"
+          ],
+          "wordIds": [
+            "word-01930"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-80"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f59405cf5116b2e6:internal_pause_word_end:599.820000",
+          "targetSec": 599.82,
+          "relativeSec": 1.029,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00884",
+            "cue-00885",
+            "cue-00886"
+          ],
+          "wordIds": [
+            "word-01930"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-80"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_35d86ae067c5f3cf",
+      "beatGroupId": "beat_group_791",
+      "kind": "caption_moment",
+      "momentSec": 602.986,
+      "relativeSec": 4.195,
+      "cueIds": [
+        "6528eeae-c0a5-43e5-acce-4a6783889406",
+        "cue-00887",
+        "cue-00889",
+        "cue-00890"
+      ],
+      "text": "Not good",
+      "captionWindow": "speaker_4: they have fever | speaker_4: and are kind of sick | speaker_4: Not good | speaker_4: but Nan's taking | speaker_4: care of them",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.262,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.35,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_aef7ad4f84b704cf:cue_end_minus_80ms:602.840000",
+          "targetSec": 602.84,
+          "relativeSec": 4.049,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00887"
+          ],
+          "wordIds": [
+            "word-01939"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-81"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_aef7ad4f84b704cf:final_word_end:602.920000",
+          "targetSec": 602.92,
+          "relativeSec": 4.129,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00887"
+          ],
+          "wordIds": [
+            "word-01939"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-81"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_71f8cac14f2fa16b:cue_start:603.052923",
+          "targetSec": 603.053,
+          "relativeSec": 4.262,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "6528eeae-c0a5-43e5-acce-4a6783889406",
+            "cue-00887",
+            "cue-00889",
+            "cue-00890"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-81"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_71f8cac14f2fa16b:zoom_onset:603.102500",
+          "targetSec": 603.102,
+          "relativeSec": 4.311,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "6528eeae-c0a5-43e5-acce-4a6783889406",
+            "cue-00887",
+            "cue-00889",
+            "cue-00890"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-81"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_2e0bd586b74fb8c3",
+      "beatGroupId": "beat_group_795",
+      "kind": "caption_moment",
+      "momentSec": 606.32,
+      "relativeSec": 7.529,
+      "cueIds": [
+        "b4c03282-d09a-4b12-8f07-4f2b28eb768c",
+        "cue-00891",
+        "cue-00892"
+      ],
+      "text": "them some medicine",
+      "captionWindow": "speaker_4: care of them | speaker_4: we already gave | speaker_4: them some medicine | speaker_4: but we're gonna be giving | speaker_4: them some freezer pops",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.44,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.35,
+        "moment.mean_boundary_strength": 0.14,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_21aba0933ffa1f2d:cue_end_minus_80ms:606.240000",
+          "targetSec": 606.24,
+          "relativeSec": 7.449,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "b4c03282-d09a-4b12-8f07-4f2b28eb768c",
+            "cue-00891"
+          ],
+          "wordIds": [
+            "word-01952"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-82"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_21aba0933ffa1f2d:final_word_end:606.300000",
+          "targetSec": 606.3,
+          "relativeSec": 7.509,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "b4c03282-d09a-4b12-8f07-4f2b28eb768c",
+            "cue-00891"
+          ],
+          "wordIds": [
+            "word-01952"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-82"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_21aba0933ffa1f2d:cue_start:606.320000",
+          "targetSec": 606.32,
+          "relativeSec": 7.529,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "b4c03282-d09a-4b12-8f07-4f2b28eb768c",
+            "cue-00891"
+          ],
+          "wordIds": [
+            "word-01952"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-82"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_313bb20c18e42bec:zoom_onset:606.639367",
+          "targetSec": 606.639,
+          "relativeSec": 7.848,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "b4c03282-d09a-4b12-8f07-4f2b28eb768c",
+            "cue-00891",
+            "cue-00892"
+          ],
+          "wordIds": [
+            "word-01953"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-82"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_313bb20c18e42bec:internal_pause_word_end:606.680000",
+          "targetSec": 606.68,
+          "relativeSec": 7.889,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "b4c03282-d09a-4b12-8f07-4f2b28eb768c",
+            "cue-00891",
+            "cue-00892"
+          ],
+          "wordIds": [
+            "word-01953"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-82"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_f4bef5810b6c2ab4",
+      "beatGroupId": "beat_group_799",
+      "kind": "caption_moment",
+      "momentSec": 609.542,
+      "relativeSec": 10.751,
+      "cueIds": [
+        "cue-00892",
+        "cue-00893",
+        "cue-00894",
+        "cue-00896",
+        "cue-00897",
+        "cue-00898"
+      ],
+      "text": "It's weird but every",
+      "captionWindow": "speaker_4: but we're gonna be giving | speaker_4: them some freezer pops | speaker_4: It's weird but every | speaker_4: time like | speaker_4: when we go to places",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.432,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.2,
+        "moment.mean_boundary_strength": 0.133,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_170c2231c060dc8d:cue_end_minus_80ms:609.147803",
+          "targetSec": 609.148,
+          "relativeSec": 10.357,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00892"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-83"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_6200de48910e0cb9:zoom_onset:609.542267",
+          "targetSec": 609.542,
+          "relativeSec": 10.751,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00892",
+            "cue-00893",
+            "cue-00894",
+            "cue-00896",
+            "cue-00897",
+            "cue-00898"
+          ],
+          "wordIds": [
+            "word-01961"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-83"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_6200de48910e0cb9:final_word_end:609.580000",
+          "targetSec": 609.58,
+          "relativeSec": 10.789,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00892",
+            "cue-00893",
+            "cue-00894",
+            "cue-00896",
+            "cue-00897",
+            "cue-00898"
+          ],
+          "wordIds": [
+            "word-01961"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-83"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_733616a414c87433",
+      "beatGroupId": "beat_group_816",
+      "kind": "caption_moment",
+      "momentSec": 621.821,
+      "relativeSec": 23.03,
+      "cueIds": [
+        "b374a599-bde0-480a-8fbe-2b5d4cec16c3",
+        "cue-00906",
+        "cue-00907"
+      ],
+      "text": "Stary tambi\u00e9n",
+      "captionWindow": "speaker_4: inside her mouth | speaker_4: so | speaker_5: Stary tambi\u00e9n | speaker_4: stary tambi\u00e9n? | speaker_5: put in her mouth",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.8,
+        "moment.mean_boundary_strength": 0.8,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_d5ab8a7c0c5617fb:zoom_onset:621.821200",
+          "targetSec": 621.821,
+          "relativeSec": 23.03,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "b374a599-bde0-480a-8fbe-2b5d4cec16c3",
+            "cue-00906",
+            "cue-00907"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-84"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "none",
+      "momentText": "stary and terah are sick",
+      "captionWindow": "speaker_2: not a virus because | speaker_2: it's gonna be bad | speaker_1: stary and terah are sick | speaker_1: we couldn't find a bookstore | speaker_1: but we found Miniso",
+      "timing": null,
+      "similarity": 0.0683
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "none",
+      "momentText": "stary and terah are sick",
+      "captionWindow": "speaker_2: not a virus because | speaker_2: it's gonna be bad | speaker_1: stary and terah are sick | speaker_1: we couldn't find a bookstore | speaker_1: but we found Miniso",
+      "timing": null,
+      "similarity": 0.0683
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "pop",
+      "momentText": "not gonna be good",
+      "captionWindow": "speaker_5: she didn't like it | speaker_5: That means it's | speaker_5: not gonna be good | speaker_2: it's good | speaker_3: Okay my turn",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2724bfc0eef75978:zoom_onset:808.257450",
+        "anchorType": "zoom_onset",
+        "targetSec": 808.257
+      },
+      "similarity": 0.0599
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "pop",
+      "momentText": "balloons because it got windy",
+      "captionWindow": "speaker_5: So we're just gonna be doing | speaker_5: like little snacks and water | speaker_5: balloons because it got windy | speaker_5: So I think it's gonna be cold | speaker_5: for them to get in the pool",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_168f2951d4bfb0a6:zoom_onset:475.266667",
+        "anchorType": "zoom_onset",
+        "targetSec": 475.267
+      },
+      "similarity": 0.0577
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "ding",
+      "momentText": "I think it's pretty cool",
+      "captionWindow": "speaker_4: I'm gonna be | speaker_4: going inside because | speaker_4: I think it's pretty cool | speaker_4: Stary | speaker_4: this is so creative",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2dd905e7fddffec6:final_word_end:439.724000",
+        "anchorType": "final_word_end",
+        "targetSec": 439.724
+      },
+      "similarity": 0.0557
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "so we're gonna wait for her",
+      "captionWindow": "speaker_5: to go and change | speaker_5: into her bathing suit | speaker_5: so we're gonna wait for her | speaker_5: Okay so one of yous | speaker_5: are gonna be on that side",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8a9724666649c7e8:zoom_onset:747.533333",
+        "anchorType": "zoom_onset",
+        "targetSec": 747.533
+      },
+      "similarity": 0.0541
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "I'm gonna be",
+      "captionWindow": "speaker_4: Guys | speaker_4: look at this thing | speaker_4: I'm gonna be | speaker_4: going inside because | speaker_4: I think it's pretty cool",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d713ddecc8e941f6:cue_end_minus_80ms:437.044000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 437.044
+      },
+      "similarity": 0.0548
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "success",
+      "momentText": "It's your turn",
+      "captionWindow": "speaker_5: Wait | speaker_5: can I go please? | speaker_4: It's your turn | speaker_4: Suri | speaker_4: One",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_6d81a9413d3c909d:cue_end_minus_80ms:1065.320000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1065.32
+      },
+      "similarity": 0.0489
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "bonk",
+      "momentText": "We're pranking you",
+      "captionWindow": "speaker_4: It's a prank! | speaker_1: It's a prank | speaker_1: We're pranking you | speaker_5: No | speaker_5: Stary you have to go",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_740f2a22aa473d07:zoom_onset:1218.483933",
+        "anchorType": "zoom_onset",
+        "targetSec": 1218.484
+      },
+      "similarity": 0.0544
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bonk",
+      "momentText": "but this one is fine",
+      "captionWindow": "speaker_4: too small | speaker_4: I think these ones | speaker_4: but this one is fine | speaker_1: Yeah those are fine | speaker_1: So you're gonna be taking",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e0ea18e6e7799440:cue_start:64.858000",
+        "anchorType": "cue_start",
+        "targetSec": 64.858
+      },
+      "similarity": 0.0511
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "funny",
+      "momentText": "to be green and yellow?",
+      "captionWindow": "speaker_5: Right here | speaker_1: Are these supposed | speaker_1: to be green and yellow? | speaker_5: I think so | speaker_1: they look the same",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2217acb9742a96d7:final_word_end:754.036000",
+        "anchorType": "final_word_end",
+        "targetSec": 754.036
+      },
+      "similarity": 0.0536
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "funny",
+      "momentText": "it's so sunny but",
+      "captionWindow": "speaker_1: we're here | speaker_1: As you guys can see | speaker_1: it's so sunny but | speaker_2: yeah | speaker_2: but inside it's gonna be cold",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_63ad4cccbda564a3:cue_end_minus_80ms:7.780000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 7.78
+      },
+      "similarity": 0.0484
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "bruh",
+      "momentText": "each?",
+      "captionWindow": "speaker_5: we got scammed | speaker_5: Why did they put one in | speaker_5: each? | speaker_3: I know | speaker_1: Okay taste test",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_0fa279e3018fc688:cue_start:990.460000",
+        "anchorType": "cue_start",
+        "targetSec": 990.46
+      },
+      "similarity": 0.0431
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "bruh",
+      "momentText": "None of them are staying",
+      "captionWindow": "speaker_5: George the best part | speaker_3: Sprinkles | speaker_5: None of them are staying | speaker_1: They're dropping | speaker_1: at least 75%",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_31b9e844f8afc7a0:cue_end_minus_80ms:1158.660000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1158.66
+      },
+      "similarity": 0.0429
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "record_scratch",
+      "momentText": "so we're gonna be sharing",
+      "captionWindow": "speaker_1: I have cherry limeade | speaker_1: But George got something | speaker_1: so we're gonna be sharing | speaker_1: 23 | speaker_1: 24",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c6e954b6ff52f6f4:zoom_onset:136.186050",
+        "anchorType": "zoom_onset",
+        "targetSec": 136.186
+      },
+      "similarity": 0.0472
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "What is it?",
+      "captionWindow": "speaker_4: i need to tell you | speaker_4: something | speaker_5: What is it? | speaker_4: It's a prank! | speaker_1: It's a prank",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e07c6dc31584f731:cue_start:1210.340000",
+        "anchorType": "cue_start",
+        "targetSec": 1210.34
+      },
+      "similarity": 0.0455
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "dramatic",
+      "momentText": "it's gonna be",
+      "captionWindow": "speaker_4: What is it? | speaker_4: I think | speaker_4: it's gonna be | speaker_1: Let me see | speaker_4: gold",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_7f65380f79669bc2:cue_end_minus_80ms:1292.456432",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1292.456
+      },
+      "similarity": 0.0565
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "dramatic",
+      "momentText": "cleaning her crate",
+      "captionWindow": "speaker_1: We just gave it to her | speaker_1: but we're gonna be | speaker_1: cleaning her crate | speaker_3: So all | speaker_3: frenchies have it?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5fab59a5e5485499:final_word_end:551.224000",
+        "anchorType": "final_word_end",
+        "targetSec": 551.224
+      },
+      "similarity": 0.0501
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "other_sfx",
+      "momentText": "We're pranking you",
+      "captionWindow": "speaker_4: It's a prank! | speaker_1: It's a prank | speaker_1: We're pranking you | speaker_5: No | speaker_5: Stary you have to go",
+      "timing": null,
+      "similarity": 0.0544
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "other_sfx",
+      "momentText": "So we're gonna have",
+      "captionWindow": "speaker_3: Yeah | speaker_3: no | speaker_1: So we're gonna have | speaker_1: to bury it | speaker_1: And",
+      "timing": null,
+      "similarity": 0.0511
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

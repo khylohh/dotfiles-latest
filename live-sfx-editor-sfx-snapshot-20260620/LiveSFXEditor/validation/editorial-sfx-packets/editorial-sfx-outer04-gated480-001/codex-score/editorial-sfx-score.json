@@ -1,0 +1,3272 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1-product-score",
+  "evaluationKind": "outer_grouped_packet_decisions",
+  "metricBoundary": "packet candidates are outer test projects; training examples use only each fold's trainProjectIds",
+  "packetsRoot": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/validation/editorial-sfx-packets/editorial-sfx-outer04-gated480-001",
+  "decisionsRoot": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/validation/editorial-sfx-packets/editorial-sfx-outer04-gated480-001/decisions-codex",
+  "projectIds": [
+    "footage_05_11_26_sfx"
+  ],
+  "summary": {
+    "humanTotal": 326,
+    "matched": 15,
+    "coverage": 0.046012269938650305,
+    "generatedAttempts": 76,
+    "falseAdditions": 61,
+    "netSavedEdits": -46,
+    "precision": 0.19736842105263158,
+    "positiveNetProjectFraction": 0.0,
+    "byFamily": {
+      "pop": {
+        "humanTotal": 66,
+        "matched": 11,
+        "generatedAttempts": 33,
+        "falseAdditions": 22,
+        "netSavedEdits": -11
+      },
+      "ding": {
+        "humanTotal": 67,
+        "matched": 3,
+        "generatedAttempts": 21,
+        "falseAdditions": 18,
+        "netSavedEdits": -15
+      },
+      "success": {
+        "humanTotal": 15,
+        "matched": 0,
+        "generatedAttempts": 3,
+        "falseAdditions": 3,
+        "netSavedEdits": -3
+      },
+      "bonk": {
+        "humanTotal": 46,
+        "matched": 1,
+        "generatedAttempts": 6,
+        "falseAdditions": 5,
+        "netSavedEdits": -4
+      },
+      "funny": {
+        "humanTotal": 26,
+        "matched": 0,
+        "generatedAttempts": 1,
+        "falseAdditions": 1,
+        "netSavedEdits": -1
+      },
+      "bruh": {
+        "humanTotal": 3,
+        "matched": 0,
+        "generatedAttempts": 1,
+        "falseAdditions": 1,
+        "netSavedEdits": -1
+      },
+      "record_scratch": {
+        "humanTotal": 7,
+        "matched": 0,
+        "generatedAttempts": 11,
+        "falseAdditions": 11,
+        "netSavedEdits": -11
+      },
+      "dramatic": {
+        "humanTotal": 46,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "other_sfx": {
+        "humanTotal": 50,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      }
+    },
+    "byProject": [
+      {
+        "projectId": "footage_05_11_26_sfx",
+        "humanTotal": 326,
+        "matched": 15,
+        "generatedAttempts": 76,
+        "falseAdditions": 61,
+        "netSavedEdits": -46
+      }
+    ]
+  },
+  "blockerCount": 1,
+  "invalidDecisionCount": 0,
+  "nmsSuppressedCount": 0,
+  "promotion": {
+    "passes": false,
+    "requiredCondition": "net saved edits > 0 with zero invalid decisions"
+  },
+  "matches": [
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001008900_50",
+        "momentId": "caption_moment_373a58de669dbf52",
+        "family": "pop",
+        "targetSec": 1030.029,
+        "selectedTimingOptionId": "cand_caption_beat_cf02fce2bed588df:zoom_onset:1030.029000",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "cf402384-6160-49d0-bb4f-28005d15ff48",
+        "family": "pop",
+        "time": 1030.029
+      },
+      "deltaSec": 0.0
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001332855_64",
+        "momentId": "caption_moment_2a602d40b0b70158",
+        "family": "pop",
+        "targetSec": 1342.808,
+        "selectedTimingOptionId": "cand_caption_beat_b3711a23e79e579c:zoom_onset:1342.808133",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "95e43d4b-a9d6-4b15-ab0d-905d272789f5",
+        "family": "pop",
+        "time": 1342.808133
+      },
+      "deltaSec": -0.0001330000000052678
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001332855_64",
+        "momentId": "caption_moment_eeb99aafd3591030",
+        "family": "pop",
+        "targetSec": 1353.919,
+        "selectedTimingOptionId": "cand_caption_beat_acc4ee73915cd439:zoom_onset:1353.919233",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "9517eea7-ef2b-4731-8da2-4845490a4622",
+        "family": "pop",
+        "time": 1353.919233
+      },
+      "deltaSec": -0.00023299999998016574
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000130321_09",
+        "momentId": "caption_moment_fba16029150db144",
+        "family": "pop",
+        "targetSec": 141.708,
+        "selectedTimingOptionId": "cand_caption_beat_97ac47574598a1ab:zoom_onset:141.708233",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "01229b10-eed0-48a6-901c-97957d1e2e75",
+        "family": "pop",
+        "time": 141.708233
+      },
+      "deltaSec": -0.00023300000000858745
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001332855_64",
+        "momentId": "caption_moment_84c7ba96e765c7de",
+        "family": "pop",
+        "targetSec": 1365.297,
+        "selectedTimingOptionId": "cand_caption_beat_21076db7635be110:zoom_onset:1365.297267",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "a9613753-7816-4014-b31c-fc16cf93e75e",
+        "family": "pop",
+        "time": 1365.297267
+      },
+      "deltaSec": -0.000266999999894324
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001035121_51",
+        "momentId": "caption_moment_244735e21305b22d",
+        "family": "pop",
+        "targetSec": 1038.337,
+        "selectedTimingOptionId": "cand_caption_beat_5f331e48a495e38b:zoom_onset:1038.337300",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "413da958-951a-45ae-8d7f-dd53b46b1e5d",
+        "family": "pop",
+        "time": 1038.3373
+      },
+      "deltaSec": -0.00029999999992469384
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001051710_52",
+        "momentId": "caption_moment_36f68ff726c81d69",
+        "family": "pop",
+        "targetSec": 1073.773,
+        "selectedTimingOptionId": "cand_caption_beat_0b09a159441db38d:zoom_onset:1073.772700",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "24ab48cd-8dd4-4353-92e5-554f596dda54",
+        "family": "pop",
+        "time": 1073.7727
+      },
+      "deltaSec": 0.00029999999992469384
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001267340_62",
+        "momentId": "caption_moment_a0e7aba3301f3480",
+        "family": "pop",
+        "targetSec": 1275.574,
+        "selectedTimingOptionId": "cand_caption_beat_05a8838924f4c44c:zoom_onset:1275.574300",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "a5ecc737-f76d-43ec-890a-1924d3a13236",
+        "family": "pop",
+        "time": 1275.5743
+      },
+      "deltaSec": -0.00029999999992469384
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001191068_58",
+        "momentId": "caption_moment_2f352966a7dba740",
+        "family": "pop",
+        "targetSec": 1214.547,
+        "selectedTimingOptionId": "cand_caption_beat_f585bbfa5b0a7f67:zoom_onset:1214.546667",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "995e78e9-904b-469d-b81d-b1f43c44f725",
+        "family": "pop",
+        "time": 1214.546667
+      },
+      "deltaSec": 0.0003329999999550637
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001228950_59",
+        "momentId": "caption_moment_98cbc7d78c40e263",
+        "family": "pop",
+        "targetSec": 1229.829,
+        "selectedTimingOptionId": "cand_caption_beat_4c33cab6c894eb4f:zoom_onset:1229.828600",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "665a39c5-b1a2-4f7e-bfed-0bc7bfcd0d1f",
+        "family": "pop",
+        "time": 1229.8286
+      },
+      "deltaSec": 0.0003999999998995918
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000115980_08",
+        "momentId": "caption_moment_9e3ba1ba4a7b8304",
+        "family": "pop",
+        "targetSec": 116.984,
+        "selectedTimingOptionId": "cand_caption_beat_8d8709061d2b7162:zoom_onset:116.983533",
+        "selectedAnchorType": "zoom_onset",
+        "reasonCode": "zoom_accent"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "b0d8dc49-7cba-4990-a207-5bd2dba61e73",
+        "family": "pop",
+        "time": 116.983533
+      },
+      "deltaSec": 0.0004670000000004393
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001144321_56",
+        "momentId": "caption_moment_bca248b1c5926e20",
+        "family": "ding",
+        "targetSec": 1156.713,
+        "selectedTimingOptionId": "cand_caption_beat_19e537d0994998de:cue_end_minus_80ms:1156.713000",
+        "selectedAnchorType": "cue_end_minus_80ms",
+        "reasonCode": "specific_reveal"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "2a15cd35-b2ca-4748-9c16-a50b5bfeb000",
+        "family": "ding",
+        "time": 1156.688867
+      },
+      "deltaSec": 0.02413299999989249
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000170010_11",
+        "momentId": "caption_moment_754460affa4693a4",
+        "family": "ding",
+        "targetSec": 185.41,
+        "selectedTimingOptionId": "cand_caption_beat_d496b8c4f482b3cc:final_word_end:185.410000",
+        "selectedAnchorType": "final_word_end",
+        "reasonCode": "specific_reveal"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "fdf58167-b6cf-41cb-9378-b3abdced51c0",
+        "family": "ding",
+        "time": 185.501983
+      },
+      "deltaSec": -0.09198299999999904
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000391070_20",
+        "momentId": "caption_moment_9a024012ede51ab9",
+        "family": "ding",
+        "targetSec": 423.54,
+        "selectedTimingOptionId": "cand_caption_beat_4e275e31aefa3c95:final_word_end:423.540000",
+        "selectedAnchorType": "final_word_end",
+        "reasonCode": "specific_reveal"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "92080572-ab73-4def-82c2-04a3f0ba5917",
+        "family": "ding",
+        "time": 423.832619
+      },
+      "deltaSec": -0.29261900000000196
+    },
+    {
+      "generated": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000679630_33",
+        "momentId": "caption_moment_d50d195d48d31a90",
+        "family": "bonk",
+        "targetSec": 705.7,
+        "selectedTimingOptionId": "cand_caption_beat_3b735ec0c4592296:final_word_end:705.700000",
+        "selectedAnchorType": "final_word_end",
+        "reasonCode": "mistake_or_fail"
+      },
+      "human": {
+        "projectId": "footage_05_11_26_sfx",
+        "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+        "eventId": "6c4cd3c2-1837-470a-bcb8-10a94e0b0d6a",
+        "family": "bonk",
+        "time": 706.242345
+      },
+      "deltaSec": -0.5423449999999548
+    }
+  ],
+  "falseAdditions": [
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000022924_03",
+      "momentId": "caption_moment_691a864a8b8b4980",
+      "family": "record_scratch",
+      "targetSec": 54.758,
+      "selectedTimingOptionId": "cand_caption_beat_4b222fc787747ad6:cue_start:54.758000",
+      "selectedAnchorType": "cue_start",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000055579_04",
+      "momentId": "caption_moment_14bfddde2e0f0ab4",
+      "family": "record_scratch",
+      "targetSec": 56.4,
+      "selectedTimingOptionId": "cand_caption_beat_1522d0cae64690f2:final_word_end:56.400000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000076408_06",
+      "momentId": "caption_moment_f0113fe11f5ae5b2",
+      "family": "pop",
+      "targetSec": 86.019,
+      "selectedTimingOptionId": "cand_caption_beat_21495563a4136665:zoom_onset:86.019267",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000086830_07",
+      "momentId": "caption_moment_591a73ee6bea0bb4",
+      "family": "record_scratch",
+      "targetSec": 100.9,
+      "selectedTimingOptionId": "cand_caption_beat_30ebc422ba3a2640:final_word_end:100.900000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000170010_11",
+      "momentId": "caption_moment_c0f1e55ed5232aa4",
+      "family": "ding",
+      "targetSec": 187.92,
+      "selectedTimingOptionId": "cand_caption_beat_e5d2aef32035a6bd:final_word_end:187.920000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000192039_12",
+      "momentId": "caption_moment_63e71fe84aed8b0c",
+      "family": "success",
+      "targetSec": 198.82,
+      "selectedTimingOptionId": "cand_caption_beat_eb1e2794680ea46e:cue_start:198.820000",
+      "selectedAnchorType": "cue_start",
+      "reasonCode": "completed_result"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000192039_12",
+      "momentId": "caption_moment_cc850b366860bc4d",
+      "family": "record_scratch",
+      "targetSec": 213.98,
+      "selectedTimingOptionId": "cand_caption_beat_e72b55f2cd91d7f5:cue_start:213.980000",
+      "selectedAnchorType": "cue_start",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000224720_13",
+      "momentId": "caption_moment_a3e6c05af2d249c6",
+      "family": "pop",
+      "targetSec": 226.093,
+      "selectedTimingOptionId": "cand_caption_beat_8882b33dabfb86d2:zoom_onset:226.092533",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000243395_14",
+      "momentId": "caption_moment_55a205b64eac4c56",
+      "family": "pop",
+      "targetSec": 250.016,
+      "selectedTimingOptionId": "cand_caption_beat_c1fec3b5889bee51:zoom_onset:250.016433",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000243395_14",
+      "momentId": "caption_moment_20a089112022e2d0",
+      "family": "pop",
+      "targetSec": 260.16,
+      "selectedTimingOptionId": "cand_caption_beat_c5e62a48af02f53a:zoom_onset:260.159900",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000243395_14",
+      "momentId": "caption_moment_9513111685f81c50",
+      "family": "pop",
+      "targetSec": 273.54,
+      "selectedTimingOptionId": "cand_caption_beat_fa15dfb7d3266b60:zoom_onset:273.539933",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000283690_15",
+      "momentId": "caption_moment_13f36ae7f29a9f1c",
+      "family": "pop",
+      "targetSec": 300.6,
+      "selectedTimingOptionId": "cand_caption_beat_0bdb1f1b165cab41:zoom_onset:300.600300",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000283690_15",
+      "momentId": "caption_moment_74bbbe6b36b7ee13",
+      "family": "record_scratch",
+      "targetSec": 312.12,
+      "selectedTimingOptionId": "cand_caption_beat_44782ca17ede0e69:final_word_end:312.120000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000317510_16",
+      "momentId": "caption_moment_ac31d84215558227",
+      "family": "pop",
+      "targetSec": 325.458,
+      "selectedTimingOptionId": "cand_caption_beat_f153e1bf42416e43:zoom_onset:325.458467",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000330610_17",
+      "momentId": "caption_moment_61ac659b0624c427",
+      "family": "ding",
+      "targetSec": 333.68,
+      "selectedTimingOptionId": "cand_caption_beat_53e02be0bb13625a:final_word_end:333.680000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000330610_17",
+      "momentId": "caption_moment_ff2e56d6e70d20a2",
+      "family": "success",
+      "targetSec": 336.86,
+      "selectedTimingOptionId": "cand_caption_beat_2651f40f80e4894f:final_word_end:336.860000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "completed_result"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000349286_18",
+      "momentId": "caption_moment_d1a74c430764e895",
+      "family": "bonk",
+      "targetSec": 363.3,
+      "selectedTimingOptionId": "cand_caption_beat_a60491a84d572007:final_word_end:363.300000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "mistake_or_fail"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000364750_19",
+      "momentId": "caption_moment_ecc7bcada85dd1d9",
+      "family": "pop",
+      "targetSec": 373.607,
+      "selectedTimingOptionId": "cand_caption_beat_4f8d80fa72adff32:zoom_onset:373.606567",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000364750_19",
+      "momentId": "caption_moment_c6e37a2108fc51d2",
+      "family": "pop",
+      "targetSec": 382.215,
+      "selectedTimingOptionId": "cand_caption_beat_fa0cb47657377524:zoom_onset:382.215167",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000391070_20",
+      "momentId": "caption_moment_7c554f40ecb99ea7",
+      "family": "record_scratch",
+      "targetSec": 409.542,
+      "selectedTimingOptionId": "cand_caption_beat_1e80d666e80cafcb:zoom_onset:409.542467",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000391070_20",
+      "momentId": "caption_moment_1455fb87a45a073f",
+      "family": "record_scratch",
+      "targetSec": 419.36,
+      "selectedTimingOptionId": "cand_caption_beat_029014d897d675cb:final_word_end:419.360000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000424460_21",
+      "momentId": "caption_moment_c3ceb1b042a589e1",
+      "family": "ding",
+      "targetSec": 427.66,
+      "selectedTimingOptionId": "cand_caption_beat_b45df8a28deeabc3:final_word_end:427.660000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000424460_21",
+      "momentId": "caption_moment_a6a208be1548cc16",
+      "family": "ding",
+      "targetSec": 433.42,
+      "selectedTimingOptionId": "cand_caption_beat_d7fb95c73ba5a1a4:final_word_end:433.420000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000424460_21",
+      "momentId": "caption_moment_70b3bb93cdda4ec3",
+      "family": "funny",
+      "targetSec": 444.4,
+      "selectedTimingOptionId": "cand_caption_beat_cf856553ec974070:final_word_end:444.400000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "comic_punchline"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000445490_22",
+      "momentId": "caption_moment_b483868da1ecb9f6",
+      "family": "ding",
+      "targetSec": 452.88,
+      "selectedTimingOptionId": "cand_caption_beat_f36ac18d3c5c8e9e:final_word_end:452.880000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000445490_22",
+      "momentId": "caption_moment_8fc0ed49980bdfb6",
+      "family": "ding",
+      "targetSec": 460.51,
+      "selectedTimingOptionId": "cand_caption_beat_3441cbf3e72017ad:cue_start:460.510000",
+      "selectedAnchorType": "cue_start",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000471370_23",
+      "momentId": "caption_moment_79614d4631d9cc15",
+      "family": "pop",
+      "targetSec": 476.81,
+      "selectedTimingOptionId": "cand_caption_beat_7fdc91c4dcb5396e:zoom_onset:476.809667",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000480000_24",
+      "momentId": "caption_moment_db22a378746d08f8",
+      "family": "success",
+      "targetSec": 498.2,
+      "selectedTimingOptionId": "cand_caption_beat_48aaed0b7c75961a:final_word_end:498.200000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "completed_result"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000502188_25",
+      "momentId": "caption_moment_ff37c041a4192dd7",
+      "family": "pop",
+      "targetSec": 505.872,
+      "selectedTimingOptionId": "cand_caption_beat_da4bc7b0905cace8:zoom_onset:505.872033",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000502188_25",
+      "momentId": "caption_moment_11696671acf111d0",
+      "family": "ding",
+      "targetSec": 525.97,
+      "selectedTimingOptionId": "cand_caption_beat_e9d1ad424af0f774:final_word_end:525.970000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "positive_detail"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000502188_25",
+      "momentId": "caption_moment_82289a821742ae6e",
+      "family": "ding",
+      "targetSec": 527.42,
+      "selectedTimingOptionId": "cand_caption_beat_0ea044054af1b6e5:final_word_end:527.420000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000542163_27",
+      "momentId": "caption_moment_f0a6cfefa6fc6714",
+      "family": "pop",
+      "targetSec": 554.621,
+      "selectedTimingOptionId": "cand_caption_beat_387dee1a84b5ab36:zoom_onset:554.620733",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000542163_27",
+      "momentId": "caption_moment_5638f5e7e71feecb",
+      "family": "pop",
+      "targetSec": 562.762,
+      "selectedTimingOptionId": "cand_caption_beat_e2034c2c6c000a7f:zoom_onset:562.762200",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "completed_result"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000542163_27",
+      "momentId": "caption_moment_4f6d989f7320f8dd",
+      "family": "record_scratch",
+      "targetSec": 571.4,
+      "selectedTimingOptionId": "cand_caption_beat_23d452c24f56e3a2:final_word_end:571.400000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000577170_28",
+      "momentId": "caption_moment_04ddcd2af1bcecf2",
+      "family": "pop",
+      "targetSec": 580.08,
+      "selectedTimingOptionId": "cand_caption_beat_8b192f3d37ad4f26:zoom_onset:580.079500",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000598791_30",
+      "momentId": "caption_moment_35d86ae067c5f3cf",
+      "family": "pop",
+      "targetSec": 603.102,
+      "selectedTimingOptionId": "cand_caption_beat_71f8cac14f2fa16b:zoom_onset:603.102500",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000642465_32",
+      "momentId": "caption_moment_78a6346bc1455a46",
+      "family": "ding",
+      "targetSec": 675.02,
+      "selectedTimingOptionId": "cand_caption_beat_95faa77a1aaef0a4:final_word_end:675.020000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000679630_33",
+      "momentId": "caption_moment_e4806e49884b5948",
+      "family": "ding",
+      "targetSec": 680.58,
+      "selectedTimingOptionId": "cand_caption_beat_9af90e806c3eb733:final_word_end:680.580000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000709780_34",
+      "momentId": "caption_moment_4d2efae137996e08",
+      "family": "ding",
+      "targetSec": 711.48,
+      "selectedTimingOptionId": "cand_caption_beat_1334bac2a986b7be:final_word_end:711.480000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000709780_34",
+      "momentId": "caption_moment_9d1f009cc77ba8ad",
+      "family": "ding",
+      "targetSec": 723.4,
+      "selectedTimingOptionId": "cand_caption_beat_2aa33e49852d04f9:final_word_end:723.400000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000709780_34",
+      "momentId": "caption_moment_4b94309bc1c84060",
+      "family": "pop",
+      "targetSec": 741.941,
+      "selectedTimingOptionId": "cand_caption_beat_391ba0d74ad475db:zoom_onset:741.941200",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000762847_37",
+      "momentId": "caption_moment_c104d2964517e52e",
+      "family": "pop",
+      "targetSec": 769.836,
+      "selectedTimingOptionId": "cand_caption_beat_f3649bbd7416c057:zoom_onset:769.835733",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000790862_38",
+      "momentId": "caption_moment_312271061a11e695",
+      "family": "pop",
+      "targetSec": 803.002,
+      "selectedTimingOptionId": "cand_caption_beat_8d02a7a69348de69:zoom_onset:803.002200",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000805210_39",
+      "momentId": "caption_moment_3e255de5cfad38fe",
+      "family": "record_scratch",
+      "targetSec": 842.16,
+      "selectedTimingOptionId": "cand_caption_beat_0cfb73ea38de8a93:cue_start:842.160367",
+      "selectedAnchorType": "cue_start",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000874630_43",
+      "momentId": "caption_moment_6b7d84c0a74fe876",
+      "family": "record_scratch",
+      "targetSec": 891.64,
+      "selectedTimingOptionId": "cand_caption_beat_f38143db9354333e:cue_start:891.640000",
+      "selectedAnchorType": "cue_start",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000988292_48",
+      "momentId": "caption_moment_b50043578040cbcc",
+      "family": "bonk",
+      "targetSec": 994.96,
+      "selectedTimingOptionId": "cand_caption_beat_32719ecba5447dd3:final_word_end:994.960000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "mistake_or_fail"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001051710_52",
+      "momentId": "caption_moment_3e5d4f0c3a5aa015",
+      "family": "ding",
+      "targetSec": 1060.32,
+      "selectedTimingOptionId": "cand_caption_beat_87902e5fcae3b452:final_word_end:1060.320000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001051710_52",
+      "momentId": "caption_moment_52fa8d445dd76768",
+      "family": "record_scratch",
+      "targetSec": 1071.38,
+      "selectedTimingOptionId": "cand_caption_beat_0a487f87d754b1cd:final_word_end:1071.380000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "abrupt_reversal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001116740_54",
+      "momentId": "caption_moment_aac88b444be3269c",
+      "family": "pop",
+      "targetSec": 1117.717,
+      "selectedTimingOptionId": "cand_caption_beat_596b50e711abdf35:zoom_onset:1117.716600",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001116740_54",
+      "momentId": "caption_moment_317a3f723e277a93",
+      "family": "ding",
+      "targetSec": 1137.98,
+      "selectedTimingOptionId": "cand_caption_beat_3781178966afeb82:final_word_end:1137.980000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001144321_56",
+      "momentId": "caption_moment_580b064d19cf0212",
+      "family": "ding",
+      "targetSec": 1159.73,
+      "selectedTimingOptionId": "cand_caption_beat_a0466ef9d994dfa1:final_word_end:1159.730000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001144321_56",
+      "momentId": "caption_moment_c2c944f1a66138e9",
+      "family": "ding",
+      "targetSec": 1160.84,
+      "selectedTimingOptionId": "cand_caption_beat_d47a3872a2d99ac0:final_word_end:1160.840000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001191068_58",
+      "momentId": "caption_moment_2b14b60ca8759907",
+      "family": "pop",
+      "targetSec": 1199.698,
+      "selectedTimingOptionId": "cand_caption_beat_ee4019f71d12ea04:zoom_onset:1199.698500",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001254445_61",
+      "momentId": "caption_moment_5ca4d3875a21cc3d",
+      "family": "ding",
+      "targetSec": 1264.96,
+      "selectedTimingOptionId": "cand_caption_beat_4bf6468a18f78b61:final_word_end:1264.960000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001267340_62",
+      "momentId": "caption_moment_5dd3486962ac257b",
+      "family": "bruh",
+      "targetSec": 1286.36,
+      "selectedTimingOptionId": "cand_caption_beat_404c78a4dcc6f8a4:final_word_end:1286.360000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "cringe_or_disbelief"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001297237_63",
+      "momentId": "caption_moment_5d3df0f0729c01e5",
+      "family": "pop",
+      "targetSec": 1321.587,
+      "selectedTimingOptionId": "cand_caption_beat_250656c53684db71:zoom_onset:1321.586933",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001366070_65",
+      "momentId": "caption_moment_2d1c54f3717b5e8a",
+      "family": "bonk",
+      "targetSec": 1371.357,
+      "selectedTimingOptionId": "cand_caption_beat_b3894e16357b10a9:cue_start:1371.356841",
+      "selectedAnchorType": "cue_start",
+      "reasonCode": "mistake_or_fail"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001366070_65",
+      "momentId": "caption_moment_3562b147913b2653",
+      "family": "pop",
+      "targetSec": 1374.707,
+      "selectedTimingOptionId": "cand_caption_beat_cdd0dab173832335:zoom_onset:1374.706667",
+      "selectedAnchorType": "zoom_onset",
+      "reasonCode": "zoom_accent"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001377628_66",
+      "momentId": "caption_moment_2c8f4c72a2a5d34a",
+      "family": "bonk",
+      "targetSec": 1384.28,
+      "selectedTimingOptionId": "cand_caption_beat_24486d2b3485e9ea:final_word_end:1384.280000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "mistake_or_fail"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001377628_66",
+      "momentId": "caption_moment_7a39ca2e46fa3982",
+      "family": "ding",
+      "targetSec": 1398.94,
+      "selectedTimingOptionId": "cand_caption_beat_cc4a7ede1f2a0f93:final_word_end:1398.940000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "specific_reveal"
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001377628_66",
+      "momentId": "caption_moment_893ca4092ce5ea1c",
+      "family": "bonk",
+      "targetSec": 1411.31,
+      "selectedTimingOptionId": "cand_caption_beat_4ab39f96d776c62d:final_word_end:1411.310000",
+      "selectedAnchorType": "final_word_end",
+      "reasonCode": "mistake_or_fail"
+    }
+  ],
+  "falseNegatives": [
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6ce2c85e-3394-4b74-8186-df4f2ace74f6",
+      "family": "pop",
+      "time": 2.4024
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "530b57ce-d281-480d-b86d-27463bd7815c",
+      "family": "ding",
+      "time": 8.597656
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "524b43de-476b-42d8-af0b-8eb503419367",
+      "family": "pop",
+      "time": 11.2112
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3c0aa6cb-ac27-4026-9073-0b5f41f496ca",
+      "family": "funny",
+      "time": 14.481133
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "8f2f0b8e-4a9f-4e0e-b6c1-05f4ca5907e0",
+      "family": "record_scratch",
+      "time": 19.015639
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "41e293ec-46b4-41df-86ae-5f85a727abe7",
+      "family": "pop",
+      "time": 22.188833
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "f050e54d-a030-45c4-b441-5c57c3d5abaa",
+      "family": "ding",
+      "time": 23.325837
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ad075a89-4d12-4171-a4c7-e50802c0eb34",
+      "family": "funny",
+      "time": 24.908217
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "eb185ddc-d221-43dc-ac01-47c0851ea5f5",
+      "family": "success",
+      "time": 33.413166
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c1210d78-890d-4c28-afef-d71f76fcba12",
+      "family": "ding",
+      "time": 36.202833
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "4399c311-01d8-4384-a334-f8708c9911d3",
+      "family": "pop",
+      "time": 40.774067
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b9941afb-3514-4201-a62c-99914813098f",
+      "family": "ding",
+      "time": 43.710333
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "f5241c64-c9ba-4312-a3fd-57e3d803cedc",
+      "family": "ding",
+      "time": 54.301861
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "394c8039-f4e0-420e-970d-a4066a19b2a4",
+      "family": "dramatic",
+      "time": 57.340617
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "179dbcca-9d8d-4353-9532-8e1be7d4a6bd",
+      "family": "dramatic",
+      "time": 60.823031
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "393063ec-7de5-44dc-90be-f2241e3973ee",
+      "family": "ding",
+      "time": 65.534956
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "aa6af284-e4ca-4898-86b6-20527e202d6d",
+      "family": "dramatic",
+      "time": 68.9689
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "12270100-412c-435b-8489-ae88979ac160",
+      "family": "funny",
+      "time": 70.2702
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c91dd868-afd7-4e18-9ac6-2caeb40e4f83",
+      "family": "ding",
+      "time": 77.3773
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "f2d77403-8ba4-47df-8ff1-b1be585c4213",
+      "family": "bonk",
+      "time": 83.330742
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "32b81496-e7f7-4800-9cbc-4b8e22377514",
+      "family": "other_sfx",
+      "time": 86.019267
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6eccba17-3a06-4b39-bed2-0e329348edd5",
+      "family": "dramatic",
+      "time": 86.019267
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ad597a12-0f76-4778-aceb-889e8f82eece",
+      "family": "bruh",
+      "time": 87.022983
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c8990c7b-ad9e-4354-88e3-a7fad7dec371",
+      "family": "bonk",
+      "time": 89.255833
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "1abd268b-24a3-471c-aef4-70f94747db88",
+      "family": "bonk",
+      "time": 93.414285
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "a7b69029-6a92-4efb-8cbe-cdd1c86290b8",
+      "family": "pop",
+      "time": 98.098
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "9b09ef8e-d876-468d-9dfc-a4b06132b168",
+      "family": "record_scratch",
+      "time": 98.90686
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "f8b60129-03dc-4ec8-bb14-d7f52d70c6a8",
+      "family": "funny",
+      "time": 101.028213
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "704e2ae5-1c68-4fba-aa65-f2018f08c4f4",
+      "family": "funny",
+      "time": 105.493784
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3a5cba96-e583-40e6-beda-619a8eaff21c",
+      "family": "pop",
+      "time": 107.040267
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "84d29cda-acd4-44a3-be11-78f59e0e74d3",
+      "family": "pop",
+      "time": 111.478033
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ec745c96-7449-4e52-bb27-0e60425eb847",
+      "family": "bonk",
+      "time": 113.603584
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6b013933-afeb-4b19-8719-3818793395c6",
+      "family": "ding",
+      "time": 123.000978
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "fb21d80d-a073-4b7c-97fa-a2529653ba57",
+      "family": "ding",
+      "time": 127.371415
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "443d90a2-2f2d-4b0f-841a-388cd9f200c2",
+      "family": "pop",
+      "time": 129.562767
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "47478482-bf0a-4f6b-842d-1c427260a56a",
+      "family": "bonk",
+      "time": 132.935183
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "32806c7a-eb64-4c0d-974e-c994209106bf",
+      "family": "ding",
+      "time": 135.624631
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d7ba5d7c-7c03-4c87-94ee-0c6c466a36df",
+      "family": "pop",
+      "time": 138.104633
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "082fdc83-02f2-48f8-958f-6d36aee51f03",
+      "family": "success",
+      "time": 138.812156
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "273ecb74-2f33-4250-8a47-fbaf5aa6f91e",
+      "family": "success",
+      "time": 144.155151
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "9d0618a3-6eae-4f3c-a1d0-72c7ec512401",
+      "family": "bonk",
+      "time": 147.132408
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3cf5d95e-143f-4703-a5a1-503e871503ef",
+      "family": "pop",
+      "time": 150.383567
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "cfeb060f-025f-47be-9b16-ed4f879fae16",
+      "family": "bonk",
+      "time": 154.50435
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "109b3c2b-dda7-421c-8c17-e03cb90779da",
+      "family": "funny",
+      "time": 157.8577
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c70cfc77-e64a-4595-bd93-147683648d87",
+      "family": "ding",
+      "time": 161.61145
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "08452b31-2ecd-408c-a113-6b4e300de006",
+      "family": "pop",
+      "time": 164.5644
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "acf9ad0c-83c1-4274-ac08-37392a187e8f",
+      "family": "ding",
+      "time": 166.903805
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "92c008b5-3481-400e-a052-7304d42c101d",
+      "family": "funny",
+      "time": 169.302467
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "f326d95e-0a61-428e-8edc-132034444ad8",
+      "family": "bonk",
+      "time": 170.4703
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b7156297-c60f-488f-b8aa-52c1b3c79f9a",
+      "family": "other_sfx",
+      "time": 174.584468
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2c8a4fc7-26a8-44db-9700-4c875116a1a8",
+      "family": "pop",
+      "time": 177.110267
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3b74ff5f-8af6-412b-9579-feb5766d12e0",
+      "family": "ding",
+      "time": 179.662817
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "aded348d-3bd6-4c3b-8669-5681534a888a",
+      "family": "funny",
+      "time": 181.714867
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2074c054-1bbc-421a-aca2-f450aa48c081",
+      "family": "ding",
+      "time": 192.74255
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3b706127-02c1-406f-8c29-e5488f06f61a",
+      "family": "ding",
+      "time": 198.372946
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "730b8f88-eb62-45b2-b8e6-8777e4eea116",
+      "family": "pop",
+      "time": 199.866333
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c9f6204c-a2c8-4dee-81db-daaea187eafe",
+      "family": "success",
+      "time": 201.868498
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d198120f-35f4-4088-8c81-77a146e2d1a0",
+      "family": "success",
+      "time": 207.134326
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "982aa184-d5f1-441c-932c-c108f6b1f4ae",
+      "family": "record_scratch",
+      "time": 211.939697
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "96780c94-3287-4f92-b3c5-076ebde193ce",
+      "family": "dramatic",
+      "time": 213.895798
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7910e937-606e-43d2-b285-6a2998da82fe",
+      "family": "bonk",
+      "time": 215.798917
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "043495da-7b18-4171-a83d-7980c48546b2",
+      "family": "ding",
+      "time": 220.6204
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "fa5a7cf8-1fd2-4600-a514-464e94ef511d",
+      "family": "other_sfx",
+      "time": 226.092533
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "99716801-ff71-4d44-94b5-4de5e685b847",
+      "family": "funny",
+      "time": 227.834948
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b9d65ce9-2106-4ec4-a294-6533b72132f9",
+      "family": "pop",
+      "time": 231.698133
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7bdea14f-3d35-47a5-97e0-4b5a0f028c9a",
+      "family": "funny",
+      "time": 234.651083
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d0b43cb8-ed0c-4460-bcf4-3f52e82bbd35",
+      "family": "other_sfx",
+      "time": 240.24
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "737ba5d5-55b7-42cd-8aeb-f4f2fadcebad",
+      "family": "pop",
+      "time": 240.24
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ee6afc71-9f22-4719-b5d4-28eadede4f77",
+      "family": "other_sfx",
+      "time": 240.431064
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "39ecca31-ef5e-47a3-a629-f8af6f7d27e8",
+      "family": "other_sfx",
+      "time": 240.511086
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "52bd9e85-7bf1-4388-8beb-c7c8020365b8",
+      "family": "other_sfx",
+      "time": 240.577589
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6a26b5f1-ab17-4775-a12e-5bbe054ac2f8",
+      "family": "other_sfx",
+      "time": 250.016433
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "05d8ed0a-6fef-4925-b224-0ed8d83a6ae6",
+      "family": "other_sfx",
+      "time": 250.016433
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "fcf57d1e-197b-49b3-9adc-a25cedaac934",
+      "family": "funny",
+      "time": 251.8516
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "4a3eb763-f913-4636-9592-6aac2fe76c02",
+      "family": "dramatic",
+      "time": 257.824233
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "222ef204-2c38-41e4-aa01-9bebf44ce984",
+      "family": "dramatic",
+      "time": 257.874283
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "e70cb88d-7c97-4db4-85b0-e44feb0b50c2",
+      "family": "bruh",
+      "time": 260.1599
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "18e0a77b-eb35-4e40-86f5-cc91027797bc",
+      "family": "bonk",
+      "time": 264.76475
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "5bac61ce-c292-4b67-8317-61a7925ef839",
+      "family": "bonk",
+      "time": 273.032605
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "32cfe453-dcaa-45a1-8f15-a7a529a0d8d0",
+      "family": "other_sfx",
+      "time": 281.821175
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "5ada3f0a-78e6-4cc9-a50d-3819f73f65f7",
+      "family": "dramatic",
+      "time": 281.905763
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "27180a99-f397-49dd-bf6c-43f379ce5299",
+      "family": "bonk",
+      "time": 282.749133
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7266818d-2cdf-402d-b8b7-8a78362aa83b",
+      "family": "bonk",
+      "time": 284.881196
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2c21118c-1994-4af5-accb-6ee24b6f5e67",
+      "family": "funny",
+      "time": 288.828954
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "eec486d5-cc54-4dca-a506-bd8383fbd136",
+      "family": "bonk",
+      "time": 292.408783
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c24dcdc7-cd35-4ab4-a4f3-4240412384ce",
+      "family": "dramatic",
+      "time": 300.6003
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "80d43936-5e60-4f8c-9392-78e3e9d9bf31",
+      "family": "success",
+      "time": 301.332173
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ea6c1b3f-837d-403a-a129-4c834bdbe5ec",
+      "family": "other_sfx",
+      "time": 304.071107
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3d5fc5b0-ec90-4978-87b0-cf4780db1a62",
+      "family": "other_sfx",
+      "time": 304.116822
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "827a8cf9-63d3-48ce-ac75-f2acdf432425",
+      "family": "bonk",
+      "time": 309.993017
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "a7dd0db4-3d5a-4b38-a99b-0e24165ae921",
+      "family": "pop",
+      "time": 310.943967
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7ca20c3c-dc69-455e-a09e-fa8b52c2a538",
+      "family": "dramatic",
+      "time": 312.6123
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "9b7c875c-3fa0-447d-b4bc-93493c431f09",
+      "family": "other_sfx",
+      "time": 313.101015
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "1bd6d79b-8534-4060-9a94-f710b6d65460",
+      "family": "bonk",
+      "time": 313.533712
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "34a0008f-4257-4276-8378-9df4e65bd3fa",
+      "family": "funny",
+      "time": 325.384675
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "1addfe6e-9cfe-4e5d-b11c-6e9854d24500",
+      "family": "bonk",
+      "time": 334.717717
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "702c4dd4-08bb-480a-b257-e3669da0de1b",
+      "family": "funny",
+      "time": 338.221217
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c1b85d91-ece3-401c-8664-c1c2433d4889",
+      "family": "ding",
+      "time": 344.843872
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c2a4f809-38b9-4c95-826f-eb7292839391",
+      "family": "pop",
+      "time": 352.218533
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3ee44070-2fc2-478a-833c-7a0dd0cd04b8",
+      "family": "funny",
+      "time": 353.843841
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "42f4ac4f-aebf-43c9-8319-77a27e8656b2",
+      "family": "pop",
+      "time": 358.358
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "34e0fee2-baeb-42e1-8054-fa73c9399629",
+      "family": "other_sfx",
+      "time": 362.2619
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2a21b13a-ed3d-42c4-9655-5b58f759cd38",
+      "family": "ding",
+      "time": 366.492685
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "cfddda28-93f9-4a13-9b62-3b698fdcc6b9",
+      "family": "dramatic",
+      "time": 373.606567
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3e54e761-88c5-46b2-9560-615eaaa81ea4",
+      "family": "ding",
+      "time": 375.530592
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "56c3f142-77ef-49a1-855f-f8a700439ae9",
+      "family": "ding",
+      "time": 379.112327
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b47bcc60-dbfe-4dd4-8c73-c1e1748e09b3",
+      "family": "record_scratch",
+      "time": 382.215167
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "17d5775c-ee59-4aaf-9d0d-037102489469",
+      "family": "pop",
+      "time": 385.451733
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "fece1d84-eaa4-4744-a4c5-0cd926158a87",
+      "family": "pop",
+      "time": 389.922867
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "300f201d-2b2d-4225-848c-9b8c275789bf",
+      "family": "bonk",
+      "time": 393.025967
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b56e9ae8-625c-4e64-bc62-b874c1eb5ba7",
+      "family": "bonk",
+      "time": 396.121808
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "51496f8a-405a-4ed4-a237-c1e3abc7c6a4",
+      "family": "ding",
+      "time": 400.333267
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "0b08b8fa-7239-4670-ab09-0e0f372e9cb3",
+      "family": "ding",
+      "time": 406.411808
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c0282e63-f16f-4015-bf72-a35e0e32d57c",
+      "family": "pop",
+      "time": 409.542467
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b0004040-1310-457b-ae35-6db56906d946",
+      "family": "bonk",
+      "time": 413.800425
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "227c2d37-2864-4fe5-a979-cb41b2720855",
+      "family": "funny",
+      "time": 414.892683
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "353cb440-624f-41b2-8eee-d827c109c697",
+      "family": "pop",
+      "time": 422.155067
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "88bd0b25-aa34-4cd4-8016-0e5228eb27e7",
+      "family": "pop",
+      "time": 426.3259
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "5e5fb6d4-70b2-46a6-a0d1-23a2ad6de4ce",
+      "family": "funny",
+      "time": 428.184637
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6ad83f80-15ad-4207-9faa-53e66661f676",
+      "family": "pop",
+      "time": 437.238575
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "04256520-a1bd-4e51-964b-0ca3df3fbfee",
+      "family": "funny",
+      "time": 442.612071
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "f857503b-18e4-4d17-9e48-2d219f5e3f4b",
+      "family": "bonk",
+      "time": 444.796681
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ca8005e9-c1b1-45f2-ac50-5271bd960ba5",
+      "family": "other_sfx",
+      "time": 444.842417
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "57ed43af-b5d8-4a0d-a8cc-13c21509f983",
+      "family": "ding",
+      "time": 454.075731
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7b8d199e-5ec0-4e37-ac99-7ca70d101f4b",
+      "family": "pop",
+      "time": 460.293167
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "e33bed65-05ef-416c-bbbd-aa7045ae0472",
+      "family": "pop",
+      "time": 473.473
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "bf193746-10b4-4f09-9260-f4e9119f37c4",
+      "family": "ding",
+      "time": 475.041233
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "0b40f286-4220-49d1-a6c4-b7ad783dd621",
+      "family": "record_scratch",
+      "time": 476.809667
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7c45203a-27a0-4de8-a45f-b2051860fe4d",
+      "family": "dramatic",
+      "time": 477.643833
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "f1cbde92-e01e-4dd9-b662-da7f57d87c72",
+      "family": "success",
+      "time": 478.611595
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ee8ac77e-3783-41b0-8b26-ad4098e62426",
+      "family": "pop",
+      "time": 485.051233
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "9ba97167-5def-499b-b3e5-841559cabe04",
+      "family": "ding",
+      "time": 496.762933
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "234e4e07-0ac1-408b-b257-90a1fa086fbf",
+      "family": "funny",
+      "time": 498.191406
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "37f387ff-6c8d-4285-82da-2434e10b0816",
+      "family": "dramatic",
+      "time": 505.188186
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "dca7a755-6199-4acb-a216-1fc2c979b4c9",
+      "family": "dramatic",
+      "time": 505.271433
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "0e444282-dfdc-426c-b32c-883a93be5ec1",
+      "family": "pop",
+      "time": 510.7102
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "1f9b702e-bc5e-4089-94fa-73bae2d465d5",
+      "family": "funny",
+      "time": 511.494317
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "f920a309-fc09-4668-9850-41372443d82f",
+      "family": "pop",
+      "time": 514.9144
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ca840cee-5dd9-4a68-a4b1-aa2552e22149",
+      "family": "ding",
+      "time": 517.517
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "65da1d55-7434-44c3-a477-6c6f4fa3918e",
+      "family": "pop",
+      "time": 524.9244
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2f3b58ca-7a59-47bd-8875-bd12853685b1",
+      "family": "ding",
+      "time": 528.406333
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "a19f2d41-14cf-4065-9f88-59349a99a5e4",
+      "family": "ding",
+      "time": 538.404533
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7241ef73-52a8-4313-be81-97279a99aa10",
+      "family": "pop",
+      "time": 544.810933
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c6882979-a192-45d1-b33e-d33f14965691",
+      "family": "ding",
+      "time": 551.467583
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "4f05714e-e627-4505-a26b-6772d4b1244b",
+      "family": "dramatic",
+      "time": 554.496114
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "1e252fc6-f4f0-45be-949d-f8c1223a58a7",
+      "family": "funny",
+      "time": 556.426449
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6657a11d-eadc-431e-8986-26b3fa93dfd9",
+      "family": "ding",
+      "time": 562.72324
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b1685532-cf26-4866-a870-d289754fbf74",
+      "family": "success",
+      "time": 570.676822
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "33bc41d1-f9c2-4037-9e90-84b4119a8493",
+      "family": "pop",
+      "time": 574.507267
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "133a821f-567a-4c41-9104-71c6f3af2d1e",
+      "family": "ding",
+      "time": 575.992083
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3fafa0e7-77a3-4fbb-a98b-8f609738a132",
+      "family": "funny",
+      "time": 580.0795
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "4c6d09fc-9ef6-4a31-a2c5-422a4666f1ce",
+      "family": "bonk",
+      "time": 582.654554
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "a363a27c-a99f-4c87-ab30-a8aa74988322",
+      "family": "bonk",
+      "time": 597.163233
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "52bbca82-6edf-4dfd-8150-234fd124ab10",
+      "family": "pop",
+      "time": 599.732467
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b2538baa-79e1-49e6-a344-c115915e03ef",
+      "family": "bonk",
+      "time": 601.589063
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "938af67c-386c-4c06-be2c-920d291e5698",
+      "family": "ding",
+      "time": 604.595948
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "61b137cf-f0d6-46b8-95ee-7d91678496f3",
+      "family": "ding",
+      "time": 609.075133
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b03b621e-9ff5-44df-815b-258b8ec14353",
+      "family": "bonk",
+      "time": 613.529583
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "0093e687-52c1-4cd1-95a2-7b58d72dacc7",
+      "family": "bonk",
+      "time": 619.251967
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "9d4bd398-7228-48ac-b708-05e91856c934",
+      "family": "pop",
+      "time": 621.8212
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "5a9fe037-5652-4d7a-9f01-4d1aca77f93e",
+      "family": "funny",
+      "time": 624.040083
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "588abad5-cd8e-4f42-ab0d-fea1aaeb2496",
+      "family": "bonk",
+      "time": 635.768467
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3b0380fb-ec28-4764-897b-6a1057fa408a",
+      "family": "ding",
+      "time": 638.571267
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ce7a2751-22f2-464d-8cdd-db8aecd14376",
+      "family": "dramatic",
+      "time": 647.380067
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "14712628-e466-4b13-835f-532b7aa6f0b2",
+      "family": "dramatic",
+      "time": 648.84422
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "27f7f265-10f5-4399-a12e-f9abdf34c2db",
+      "family": "pop",
+      "time": 653.319333
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "92fe8472-00e2-4018-87f4-6d2faf274076",
+      "family": "ding",
+      "time": 656.144885
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7e6d7166-26d7-436f-8242-f06d6b6ab08c",
+      "family": "pop",
+      "time": 666.9663
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d49cf06a-0810-4449-a23c-a2bdbca4889a",
+      "family": "ding",
+      "time": 670.513629
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d591be51-c20a-4b4b-9394-078c11c57d45",
+      "family": "dramatic",
+      "time": 674.796447
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "61e4aa6a-d66e-47f7-886b-941e490474ca",
+      "family": "ding",
+      "time": 685.766307
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ae8c67eb-722d-4b9f-94ab-7ca532b30a2d",
+      "family": "pop",
+      "time": 691.257233
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d30dc17e-55d4-4711-a7f2-f8eec5012d17",
+      "family": "bonk",
+      "time": 693.903617
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b5f41a66-83de-4a56-b37b-7171049d99ef",
+      "family": "pop",
+      "time": 696.476169
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6a51da3c-2dc1-45ec-8e91-43977a0d75d4",
+      "family": "funny",
+      "time": 714.1134
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d7ec84d9-576d-40f6-9d30-7c57a0a36379",
+      "family": "pop",
+      "time": 717.850467
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c9849b6c-a048-4021-9da7-47160a803510",
+      "family": "success",
+      "time": 723.577711
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ae698338-1f2c-4679-a70c-099d49f28704",
+      "family": "ding",
+      "time": 730.513117
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6c994faa-605d-478c-b617-03807e3ca5c7",
+      "family": "pop",
+      "time": 733.634509
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2c11ef57-05a6-465b-92f6-2ef5961e1690",
+      "family": "bonk",
+      "time": 740.23832
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "05d74a9e-98fb-4a3e-9857-8f35d6834e85",
+      "family": "bonk",
+      "time": 749.181767
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "182e5c1c-734d-488f-8bd3-1780781ce19b",
+      "family": "record_scratch",
+      "time": 756.438721
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "52f86a09-e6cb-4ca7-a1c2-4db421ce3aa0",
+      "family": "other_sfx",
+      "time": 757.619496
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b8692ecd-6300-4488-b6c4-a25556845ca2",
+      "family": "other_sfx",
+      "time": 758.991567
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "0d045717-20ae-4421-b1f1-1cb29de2ae35",
+      "family": "dramatic",
+      "time": 759.161164
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ba301335-1e7c-4f51-9da8-ce56c6dbbb8b",
+      "family": "other_sfx",
+      "time": 763.084856
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "9aee3452-ffb5-4c49-93b6-cc9a708d70f2",
+      "family": "other_sfx",
+      "time": 763.105998
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6d381dc2-8e40-4dd1-afdf-202669af378c",
+      "family": "dramatic",
+      "time": 764.067313
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "dce50754-10bd-4027-b9bb-badeb0f2c0b5",
+      "family": "other_sfx",
+      "time": 767.281471
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3cab172a-2d12-4513-9850-cc4465796a5c",
+      "family": "dramatic",
+      "time": 769.835733
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ef90a627-51f6-49fe-abce-dbfd1793798c",
+      "family": "other_sfx",
+      "time": 771.902692
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "e3a6748f-1122-4dff-a9a2-ee6c9a632c77",
+      "family": "other_sfx",
+      "time": 775.38094
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "bef70dec-38be-4575-b88c-26e4441b3533",
+      "family": "dramatic",
+      "time": 776.639518
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b8b9093b-859e-4c50-ba1b-907cf4fd5167",
+      "family": "dramatic",
+      "time": 780.54056
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "098a325b-ad92-479b-9fe0-0ad8d8817527",
+      "family": "other_sfx",
+      "time": 783.112374
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "819d4fa5-4437-4c46-9ada-59ee34c28d28",
+      "family": "dramatic",
+      "time": 793.763018
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d8c99047-e5f8-496c-ba67-832d7568bbd0",
+      "family": "other_sfx",
+      "time": 799.673527
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "cd7704eb-2879-41a7-859e-285c00751e73",
+      "family": "other_sfx",
+      "time": 801.856363
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c5fa78d7-9d71-4752-bfbf-edbf2576de16",
+      "family": "dramatic",
+      "time": 803.0022
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "f96f62c8-78ae-4d87-91fb-a17040ebc02f",
+      "family": "other_sfx",
+      "time": 805.376684
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "0685b59f-9b38-4c1a-9cda-41b265bcf58c",
+      "family": "dramatic",
+      "time": 808.0718
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "bbf343b3-5340-469c-83c4-4aadcb6c0405",
+      "family": "dramatic",
+      "time": 813.145667
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2018fd64-c631-4947-abf3-0b74573067d0",
+      "family": "other_sfx",
+      "time": 814.77575
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b10cfabd-27d3-43f0-92d7-557d04d0c9ae",
+      "family": "other_sfx",
+      "time": 826.155461
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "87f76c13-a2a7-44a5-bac4-13f2107d4669",
+      "family": "dramatic",
+      "time": 827.58238
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "41bd4857-101f-46d3-b11b-28a27ce996cc",
+      "family": "other_sfx",
+      "time": 841.221143
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b13f8c92-5b7e-4d49-8b0f-f4931e05e839",
+      "family": "dramatic",
+      "time": 842.072771
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "69dcd347-fe11-411d-9a3b-d985c830c85b",
+      "family": "dramatic",
+      "time": 842.308133
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d648c930-1631-434a-ab8b-a823f682c04e",
+      "family": "other_sfx",
+      "time": 842.308133
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b0905899-c1ed-45e6-88ad-0d73d56cf4fb",
+      "family": "other_sfx",
+      "time": 844.414615
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "0281b100-09ac-42f4-a40c-b7f0ee29da08",
+      "family": "dramatic",
+      "time": 856.537022
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "8724f582-ed69-40e1-a88f-f06d3e41a531",
+      "family": "other_sfx",
+      "time": 858.390867
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "9a0fce7b-4760-4f92-bafe-d63af4a649e7",
+      "family": "dramatic",
+      "time": 861.910016
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "945e9b01-6f8e-4f03-9108-d7460334ca84",
+      "family": "other_sfx",
+      "time": 873.2724
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c485043d-bd8b-4e36-92f0-60140a1a883b",
+      "family": "other_sfx",
+      "time": 877.6768
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "4165c1fc-aabf-475a-92a6-bec143509c86",
+      "family": "other_sfx",
+      "time": 890.540252
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "93b63cb7-4d21-42b7-bce6-0f26e24f79f0",
+      "family": "other_sfx",
+      "time": 908.5076
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ecad37fe-f5e9-4b62-8b3e-675d8df02ec6",
+      "family": "ding",
+      "time": 910.492917
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "19d9e931-a1c0-473f-8638-03ec33472f43",
+      "family": "dramatic",
+      "time": 914.844525
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "375e97ef-e813-4c20-a6c1-f02687ba1118",
+      "family": "other_sfx",
+      "time": 916.309635
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "03610c91-c152-47f4-be4f-a35706fc9e39",
+      "family": "other_sfx",
+      "time": 922.288033
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "23ca1a41-662d-476a-a78e-2cec58247be4",
+      "family": "other_sfx",
+      "time": 927.103905
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "1ae6db96-4584-4c62-9d39-2a3c56a66507",
+      "family": "dramatic",
+      "time": 928.7278
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "dcb40db4-c5b6-4c8e-90dd-3b9630f8fb99",
+      "family": "other_sfx",
+      "time": 936.769167
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "0194b3f8-be39-472d-b98d-eff8f067b198",
+      "family": "other_sfx",
+      "time": 949.844718
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "fed82eb3-9823-48e0-ad23-fa1a69b2502b",
+      "family": "other_sfx",
+      "time": 953.252777
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "e36df951-38e8-40e1-b9fe-14e5be736600",
+      "family": "dramatic",
+      "time": 956.231754
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "de624b0d-226e-4a9e-89ab-b936842578c2",
+      "family": "dramatic",
+      "time": 962.584014
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3bfaa531-a4a5-4a9b-a645-04465a345d9f",
+      "family": "dramatic",
+      "time": 967.087178
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "8736f418-db31-4aa2-a37a-1e83e015eaf7",
+      "family": "other_sfx",
+      "time": 966.932633
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "dc03ac5c-47b3-4af7-a283-5e5bf472781e",
+      "family": "dramatic",
+      "time": 974.840533
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "89538e60-8c75-4dd1-a96e-461d569562a6",
+      "family": "dramatic",
+      "time": 974.840533
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b51a586c-4559-456b-b947-7837d806ebb3",
+      "family": "other_sfx",
+      "time": 977.666908
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "edcfa720-2859-4f41-b2b8-051443b0ea3b",
+      "family": "other_sfx",
+      "time": 987.453133
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c062f764-3d10-40ad-aa4b-f8d551ea5a6b",
+      "family": "dramatic",
+      "time": 995.327667
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6411f983-08a9-4fd2-b883-f046243aa32c",
+      "family": "bonk",
+      "time": 997.279617
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d485490b-8b85-46c0-8825-86e84ccefa77",
+      "family": "pop",
+      "time": 999.4985
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6bfd3198-f128-40e0-81b5-456ea9dde755",
+      "family": "dramatic",
+      "time": 1006.404035
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "16aa7590-7288-43d8-8fcb-3b8b1e2d6333",
+      "family": "other_sfx",
+      "time": 1006.778828
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "0b8792f5-cdce-4a02-941a-5aa491f2e22e",
+      "family": "ding",
+      "time": 1022.192225
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2ee8d13f-3379-435d-bd5c-df2b1bb34d53",
+      "family": "bonk",
+      "time": 1031.430645
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ce54e804-18ef-4d4a-a9f9-7c8800937126",
+      "family": "ding",
+      "time": 1040.472767
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "483c7ba0-f5ad-4251-b96d-58643acc9611",
+      "family": "success",
+      "time": 1042.708333
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7d4d66c7-49c9-494b-a36c-231f5b30be8e",
+      "family": "ding",
+      "time": 1046.469593
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2633d20c-fd34-44bf-a7be-e6e726e397b8",
+      "family": "ding",
+      "time": 1052.53781
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "4b6a06ad-8369-4bb7-b4ed-71ebe93b475e",
+      "family": "bonk",
+      "time": 1055.324712
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b1d79e0e-bc17-45c4-9561-279adf8ad92b",
+      "family": "pop",
+      "time": 1057.589867
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "92314af2-683c-48b6-b6f6-24707acc38d7",
+      "family": "bonk",
+      "time": 1065.448976
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2e588344-247a-4be4-852c-9be0f27b2037",
+      "family": "ding",
+      "time": 1076.63302
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "a4f5c21c-bb90-43d6-b65a-cc8b6ae89d96",
+      "family": "bonk",
+      "time": 1085.369379
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "16cb5792-b9db-4775-8304-077e9447cc63",
+      "family": "ding",
+      "time": 1094.173448
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ef849d33-b476-4bdd-8a50-d7d67313cb07",
+      "family": "pop",
+      "time": 1103.5024
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "798d210f-26f1-457c-a259-30c3ed3912f7",
+      "family": "ding",
+      "time": 1104.983543
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d429db09-3bab-46d6-aa2a-3075f7c2cbc1",
+      "family": "pop",
+      "time": 1113.112
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "8daa2049-fd26-4637-b79f-a6f331032992",
+      "family": "ding",
+      "time": 1118.934483
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "eaa2cf03-6b0d-4683-bced-10a1543046e7",
+      "family": "bonk",
+      "time": 1121.87075
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6f3428d2-7d03-4690-83f8-d78abc104658",
+      "family": "ding",
+      "time": 1126.112848
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7ad3f34e-3e95-4a99-a009-5b6a2ec3e463",
+      "family": "success",
+      "time": 1137.920117
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7e8ece0e-3422-41fc-8022-37d8c8e31cbf",
+      "family": "ding",
+      "time": 1143.09195
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c141bfb2-d35b-4925-add5-530cc564d319",
+      "family": "bonk",
+      "time": 1147.579767
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "40fa9d75-da26-4ffc-a3cd-19391daa2b59",
+      "family": "success",
+      "time": 1152.969865
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ea3b3d7b-1af8-40da-9944-11fa65b409ea",
+      "family": "pop",
+      "time": 1156.121633
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7e094cbc-f541-4ca2-b329-290e4a061813",
+      "family": "pop",
+      "time": 1161.293467
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "16a60ebf-4f2b-4e26-b49f-583410e1f171",
+      "family": "dramatic",
+      "time": 1169.942805
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "333686ec-3d9d-4d99-8150-bb78351fb6b7",
+      "family": "pop",
+      "time": 1173.305467
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "56a1bf82-785a-4fba-8cfd-6adb4a7d1ea0",
+      "family": "bonk",
+      "time": 1174.106267
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "61ab68c7-254f-4fd4-bd5c-799a237e486d",
+      "family": "bonk",
+      "time": 1179.3782
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "e776767e-0c3f-4866-ab69-5a66690795cf",
+      "family": "pop",
+      "time": 1184.0829
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "897a4a23-ed05-4b74-a2eb-749a51e04b38",
+      "family": "bonk",
+      "time": 1196.708708
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "23394e73-315f-4e04-b5ea-6c6b7cbfdb23",
+      "family": "bonk",
+      "time": 1212.561382
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c550d13e-2794-49d2-a107-7cb8f8ff6f36",
+      "family": "ding",
+      "time": 1217.132583
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ac33fa0d-e412-451d-b23f-4aef0f10655f",
+      "family": "ding",
+      "time": 1232.05375
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d9f599dd-f5c1-497a-b890-db3b92aab171",
+      "family": "ding",
+      "time": 1250.929873
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "5ee3016e-8204-4a6d-82ad-d8e8ec0d677b",
+      "family": "pop",
+      "time": 1256.121533
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ffd90c62-bfda-450d-b3d4-8e742cf227d8",
+      "family": "pop",
+      "time": 1264.0628
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "431b562f-0099-4d7a-a698-1f8aa34acaed",
+      "family": "success",
+      "time": 1264.89715
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "a9b91c1f-d779-4040-8efb-a1b4e621c107",
+      "family": "ding",
+      "time": 1276.9757
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "67328c98-b9d0-4ebd-a2e6-a914132df84c",
+      "family": "funny",
+      "time": 1278.610667
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "65671472-8b0b-423e-8560-1647cf18c38e",
+      "family": "pop",
+      "time": 1282.547933
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "c4475d2b-3878-4970-9f36-f76100012e82",
+      "family": "ding",
+      "time": 1284.83355
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "77ec9004-5f5b-4d45-95ee-275a43b80f15",
+      "family": "dramatic",
+      "time": 1286.3851
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "6c1a03b5-8a91-46f7-b690-20592d8e3d9b",
+      "family": "pop",
+      "time": 1291.323367
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "46cdbc53-c697-421d-80bd-5f25e75ff6fd",
+      "family": "ding",
+      "time": 1292.357733
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "66e9f721-30f7-4d61-91f4-b80dcf668db0",
+      "family": "ding",
+      "time": 1306.25495
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "ef934ff2-cd22-426e-b538-ad9bcb81806a",
+      "family": "pop",
+      "time": 1308.940967
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "bfab98cc-50aa-4cdd-997e-68c7902b2f86",
+      "family": "ding",
+      "time": 1309.7084
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "60577892-12b5-4f4a-b5b6-1cfd710b0d61",
+      "family": "other_sfx",
+      "time": 1313.745767
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "150a3a94-b58d-4e04-8ca8-108d63b64cc7",
+      "family": "ding",
+      "time": 1317.683033
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d531836c-292f-49cc-bf01-c9d6ca6fb715",
+      "family": "ding",
+      "time": 1321.25133
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "e677f189-8663-47e0-8797-9e2c7ff25ac6",
+      "family": "ding",
+      "time": 1326.591933
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "59a0daa0-4c60-453e-a7e1-e77bb417d2cd",
+      "family": "bonk",
+      "time": 1336.668667
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "15ef06b9-9e93-46b4-9b53-1b21a08232a6",
+      "family": "funny",
+      "time": 1339.504833
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "30d05775-c1a3-4ddb-a24a-24010c9c0e81",
+      "family": "bonk",
+      "time": 1346.829346
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "9e6b4836-f2a6-4b25-8161-f5f0703ec687",
+      "family": "ding",
+      "time": 1353.719033
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "02b17643-db0e-445f-acf1-03d181da4fcf",
+      "family": "success",
+      "time": 1361.119008
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "7dc170b7-fbc5-43b7-906b-17a7d6934025",
+      "family": "ding",
+      "time": 1364.0627
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "0bca9c71-aa24-4aca-95ad-9692ef0ebfda",
+      "family": "dramatic",
+      "time": 1368.583883
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "eaccbaa3-c571-4d91-b42f-6224bd2ef9f1",
+      "family": "bonk",
+      "time": 1373.004967
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "473ef3a8-028d-43c2-9b59-7e213c67e614",
+      "family": "bruh",
+      "time": 1374.459133
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "78690964-b9e6-49d0-94c9-12e87ec36914",
+      "family": "dramatic",
+      "time": 1375.566763
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "b49d9003-605c-4636-b15e-b5e5b2fbdcd9",
+      "family": "dramatic",
+      "time": 1375.566611
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "3fb62cd5-0fdb-4e9d-a8c7-8d7b17a66d86",
+      "family": "pop",
+      "time": 1379.945233
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "e6a9cbe1-9c7a-4ef5-962a-34792a8b29da",
+      "family": "bonk",
+      "time": 1382.131656
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "a3135df1-a91d-456f-9730-6cac248c7558",
+      "family": "pop",
+      "time": 1387.047772
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "2f58c6fb-4b76-4475-9d1f-b321a32dd71c",
+      "family": "ding",
+      "time": 1389.808948
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "db4844b5-5796-4f53-924b-3394eb90d660",
+      "family": "success",
+      "time": 1398.563833
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "eb220a46-4d5d-4ee0-a9b8-3e46817d21f1",
+      "family": "ding",
+      "time": 1401.7003
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "e7fb1615-cc15-406c-ad36-a8d07ba05e7a",
+      "family": "record_scratch",
+      "time": 1408.336959
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "82b770f6-a507-4552-8364-2d9196cdddb1",
+      "family": "other_sfx",
+      "time": 1408.63199
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "8dfd1aec-6187-4af9-9b30-98b0eaa71e1b",
+      "family": "other_sfx",
+      "time": 1408.817527
+    },
+    {
+      "projectId": "footage_05_11_26_sfx",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "eventId": "d469a601-9699-43d4-8b1c-8acb15cf7d56",
+      "family": "other_sfx",
+      "time": 1409.165555
+    }
+  ]
+}

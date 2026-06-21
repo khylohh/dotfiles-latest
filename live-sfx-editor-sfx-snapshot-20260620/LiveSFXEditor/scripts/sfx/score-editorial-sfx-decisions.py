@@ -52,17 +52,19 @@ def forbidden_fields(decision):
 def packet_index(packet):
     moments = {}
     timing_by_moment = {}
+    allowed_by_moment = {}
     for candidate in packet.get("candidates") or []:
         moment_id = candidate.get("momentId")
         if not moment_id:
             continue
         moments[moment_id] = candidate
+        allowed_by_moment[moment_id] = set(candidate.get("allowedFamilies") or [])
         timing_by_moment[moment_id] = {
             option.get("timingOptionId"): option
             for option in candidate.get("timingOptions") or []
             if option.get("timingOptionId")
         }
-    return moments, timing_by_moment
+    return moments, timing_by_moment, allowed_by_moment
 
 
 def validate_and_decode(packet_path, decisions_root):
@@ -94,7 +96,7 @@ def validate_and_decode(packet_path, decisions_root):
             "actualSegmentId": output.get("segmentId"),
         })
         return generated, blockers, invalid
-    moments, timing_by_moment = packet_index(packet)
+    moments, timing_by_moment, allowed_by_moment = packet_index(packet)
     seen = set()
     for decision in output.get("decisions") or []:
         if not isinstance(decision, dict):
@@ -114,6 +116,9 @@ def validate_and_decode(packet_path, decisions_root):
             invalid.append({"packetPath": str(packet_path), "decisionPath": str(decision_path), "momentId": moment_id, "reason": "duplicate moment decision"})
             continue
         seen.add(moment_id)
+        if family not in allowed_by_moment.get(moment_id, set()):
+            invalid.append({"packetPath": str(packet_path), "decisionPath": str(decision_path), "momentId": moment_id, "family": family, "reason": "family not allowed for this candidate"})
+            continue
         if family == "other_sfx":
             blockers.append({
                 "projectId": packet.get("projectId"),

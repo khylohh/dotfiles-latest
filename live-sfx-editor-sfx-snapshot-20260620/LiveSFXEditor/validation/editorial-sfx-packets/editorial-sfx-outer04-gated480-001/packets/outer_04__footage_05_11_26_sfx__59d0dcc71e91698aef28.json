@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "59d0dcc71e91698aef28",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001228950_59",
+  "coreStartSec": 1228.95,
+  "coreEndSec": 1231.43,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_98cbc7d78c40e263"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_4c33cab6c894eb4f:zoom_onset:1229.828600",
+    "cand_caption_beat_e2d6ceeb09394c80:cue_end_minus_80ms:1229.600000",
+    "cand_caption_beat_e2d6ceeb09394c80:final_word_end:1229.680000",
+    "cand_caption_beat_e2d6ceeb09394c80:pause_boundary:1229.680000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_98cbc7d78c40e263",
+      "beatGroupId": "beat_group_1555",
+      "kind": "caption_moment",
+      "momentSec": 1229.68,
+      "relativeSec": 0.73,
+      "cueIds": [
+        "cue-00547",
+        "cue-01344",
+        "cue-01345"
+      ],
+      "text": "to have a boy to lay eggs",
+      "captionWindow": "speaker_4: like | speaker_4: we don't know if they need | speaker_4: to have a boy to lay eggs | speaker_4: But she's being super cute | speaker_3: can you search it?",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.229,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.2,
+        "moment.mean_boundary_strength": 0.2,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_e2d6ceeb09394c80:cue_end_minus_80ms:1229.600000",
+          "targetSec": 1229.6,
+          "relativeSec": 0.65,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01344"
+          ],
+          "wordIds": [
+            "word-03853"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-149"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e2d6ceeb09394c80:final_word_end:1229.680000",
+          "targetSec": 1229.68,
+          "relativeSec": 0.73,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01344"
+          ],
+          "wordIds": [
+            "word-03853"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-149"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e2d6ceeb09394c80:pause_boundary:1229.680000",
+          "targetSec": 1229.68,
+          "relativeSec": 0.73,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-01344"
+          ],
+          "wordIds": [
+            "word-03853"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-149"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_4c33cab6c894eb4f:zoom_onset:1229.828600",
+          "targetSec": 1229.829,
+          "relativeSec": 0.879,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00547",
+            "cue-01344",
+            "cue-01345"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-149"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "none",
+      "momentText": "All right",
+      "captionWindow": "speaker_4: You like it? | speaker_4: Yaaaaay | speaker_4: All right | speaker_3: Wait what is this? | speaker_4: I don't know",
+      "timing": null,
+      "similarity": 0.1981
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "none",
+      "momentText": "but you need to",
+      "captionWindow": "speaker_4: that can | speaker_4: make you feel embarrassed | speaker_4: but you need to | speaker_4: be strong | speaker_4: Like",
+      "timing": null,
+      "similarity": 0.1857
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "pop",
+      "momentText": "How about this?",
+      "captionWindow": "speaker_5: Because you know we | speaker_5: have a crocodile in the pond | speaker_3: How about this? | speaker_2: George | speaker_2: I don't think she's",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_daf963a346e6b1b5:zoom_onset:789.171717",
+        "anchorType": "zoom_onset",
+        "targetSec": 789.172
+      },
+      "similarity": 0.1717
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "pop",
+      "momentText": "open it",
+      "captionWindow": "speaker_3: Oh can we open it? | speaker_4: Yeah | speaker_4: open it | speaker_4: Which color do you think | speaker_4: it's gonna be?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8db6d7cbe1d2acae:zoom_onset:1270.585983",
+        "anchorType": "zoom_onset",
+        "targetSec": 1270.586
+      },
+      "similarity": 0.1702
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "ding",
+      "momentText": "flip to the other side",
+      "captionWindow": "speaker_4: So you've got to | speaker_4: open it and then | speaker_4: flip to the other side | speaker_4: Okay? | speaker_3: Okay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_4bfb1f8a381ea811:final_word_end:1596.916000",
+        "anchorType": "final_word_end",
+        "targetSec": 1596.916
+      },
+      "similarity": 0.1635
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "ding",
+      "momentText": "so you can just destroy it",
+      "captionWindow": "speaker_4: it comes | speaker_4: with a building | speaker_4: so you can just destroy it | speaker_4: It's really cool | speaker_1: All right let's go",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_78d494d8cddfdf1b:cue_start:787.420000",
+        "anchorType": "cue_start",
+        "targetSec": 787.42
+      },
+      "similarity": 0.1481
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "success",
+      "momentText": "yeah",
+      "captionWindow": "speaker_5: best part | speaker_4: Wow | speaker_5: yeah | speaker_1: If only it was like a real | speaker_1: straw that you can eat",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e0cc4d6df89ff825:internal_pause_word_end:1189.090000",
+        "anchorType": "internal_pause_word_end",
+        "targetSec": 1189.09
+      },
+      "similarity": 0.17
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "success",
+      "momentText": "A dinosaur",
+      "captionWindow": "speaker_3: Look | speaker_4: Thank you | speaker_1: A dinosaur | speaker_4: No way | speaker_3: They're bigger than",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_88632ca25fede942:final_word_end:1217.870000",
+        "anchorType": "final_word_end",
+        "targetSec": 1217.87
+      },
+      "similarity": 0.1605
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bonk",
+      "momentText": "wait shouldn't they have",
+      "captionWindow": "speaker_4: \u00bfEsa? | speaker_4: that one? | speaker_1: wait shouldn't they have | speaker_1: a face? | speaker_3: Mine doesn't have a face",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_03b71fcef435034a:cue_start:1332.898932",
+        "anchorType": "cue_start",
+        "targetSec": 1332.899
+      },
+      "similarity": 0.1626
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bonk",
+      "momentText": "gets me a little scared",
+      "captionWindow": "speaker_4: This is so sick | speaker_4: Can you jump? | speaker_4: gets me a little scared | speaker_4: Like | speaker_4: just imagine me",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_25abef445907834a:cue_end_minus_80ms:513.784000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 513.784
+      },
+      "similarity": 0.1566
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "funny",
+      "momentText": "Oh my God",
+      "captionWindow": "speaker_1: A dinosaur | speaker_4: I can't believe it's a dinosaur | speaker_4: Oh my God | speaker_4: You like it? | speaker_4: Yaaaaay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5bc4d56b448f83bb:final_word_end:1177.590000",
+        "anchorType": "final_word_end",
+        "targetSec": 1177.59
+      },
+      "similarity": 0.1726
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "funny",
+      "momentText": "to ride a bike though",
+      "captionWindow": "speaker_1: amor | speaker_1: you don't know how | speaker_1: to ride a bike though | speaker_1: Come on | speaker_3: It's like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2332a2474bfc6587:cue_end_minus_80ms:387.848000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 387.848
+      },
+      "similarity": 0.1714
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bruh",
+      "momentText": "wait shouldn't they have",
+      "captionWindow": "speaker_4: \u00bfEsa? | speaker_4: that one? | speaker_1: wait shouldn't they have | speaker_1: a face? | speaker_3: Mine doesn't have a face",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_03b71fcef435034a:cue_start:1332.898932",
+        "anchorType": "cue_start",
+        "targetSec": 1332.899
+      },
+      "similarity": 0.1626
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "bruh",
+      "momentText": "each?",
+      "captionWindow": "speaker_5: we got scammed | speaker_5: Why did they put one in | speaker_5: each? | speaker_3: I know | speaker_1: Okay taste test",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_0fa279e3018fc688:cue_start:990.460000",
+        "anchorType": "cue_start",
+        "targetSec": 990.46
+      },
+      "similarity": 0.1263
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "What is it?",
+      "captionWindow": "speaker_4: i need to tell you | speaker_4: something | speaker_5: What is it? | speaker_4: It's a prank! | speaker_1: It's a prank",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e07c6dc31584f731:cue_start:1210.340000",
+        "anchorType": "cue_start",
+        "targetSec": 1210.34
+      },
+      "similarity": 0.1777
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "record_scratch",
+      "momentText": "Oh",
+      "captionWindow": "speaker_4: your hair is so messy | speaker_3: I know | speaker_4: Oh | speaker_4: my pretty girl | speaker_4: You ate pizza too?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_81b1e99a12ed10a3:final_word_end:876.130000",
+        "anchorType": "final_word_end",
+        "targetSec": 876.13
+      },
+      "similarity": 0.1598
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "dramatic",
+      "momentText": "swimming suit",
+      "captionWindow": "speaker_4: Suri | speaker_4: you don't have a | speaker_4: swimming suit | speaker_4: Wet him Suri | speaker_5: I'm trying",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_562e9367ba1d415b:zoom_onset:739.138400",
+        "anchorType": "zoom_onset",
+        "targetSec": 739.138
+      },
+      "similarity": 0.1703
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "dramatic",
+      "momentText": "open it",
+      "captionWindow": "speaker_3: Oh can we open it? | speaker_4: Yeah | speaker_4: open it | speaker_4: Which color do you think | speaker_4: it's gonna be?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_994a900720c37d62:cue_start:1270.950000",
+        "anchorType": "cue_start",
+        "targetSec": 1270.95
+      },
+      "similarity": 0.1702
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "other_sfx",
+      "momentText": "swimming suit",
+      "captionWindow": "speaker_4: Suri | speaker_4: you don't have a | speaker_4: swimming suit | speaker_4: Wet him Suri | speaker_5: I'm trying",
+      "timing": null,
+      "similarity": 0.1703
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "other_sfx",
+      "momentText": "open it",
+      "captionWindow": "speaker_3: Oh can we open it? | speaker_4: Yeah | speaker_4: open it | speaker_4: Which color do you think | speaker_4: it's gonna be?",
+      "timing": null,
+      "similarity": 0.1702
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

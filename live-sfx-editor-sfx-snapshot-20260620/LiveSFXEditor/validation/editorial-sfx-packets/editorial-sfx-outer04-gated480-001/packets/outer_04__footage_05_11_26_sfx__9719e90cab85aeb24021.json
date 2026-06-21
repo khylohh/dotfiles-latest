@@ -1,0 +1,578 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "9719e90cab85aeb24021",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001139090_55",
+  "coreStartSec": 1139.09,
+  "coreEndSec": 1144.321,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_ccbbf92c38e6dcc1",
+    "caption_moment_a3b1f4f9c73fbdec",
+    "caption_moment_6b2dd50e62199743",
+    "caption_moment_197f7b899374a068"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_36a28f4e2cf3f1b8:cue_end_minus_80ms:1143.080000",
+    "cand_caption_beat_36a28f4e2cf3f1b8:final_word_end:1143.160000",
+    "cand_caption_beat_36a28f4e2cf3f1b8:pause_boundary:1143.160000",
+    "cand_caption_beat_42f4a4be0f52b0ce:cue_start:1141.710000",
+    "cand_caption_beat_90f368801f61a965:cue_start:1140.200000",
+    "cand_caption_beat_d65ee15a44a8e791:cue_end_minus_80ms:1141.260000",
+    "cand_caption_beat_d65ee15a44a8e791:final_word_end:1141.340000",
+    "cand_caption_beat_d65ee15a44a8e791:pause_boundary:1141.340000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_ccbbf92c38e6dcc1",
+      "beatGroupId": "beat_group_1447",
+      "kind": "caption_moment",
+      "momentSec": 1140.2,
+      "relativeSec": 1.11,
+      "cueIds": [
+        "cue-01275"
+      ],
+      "text": "This is the ones we got",
+      "captionWindow": "speaker_4: got | speaker_4: got the floaties | speaker_4: This is the ones we got | speaker_4: I'm gonna take these downstairs | speaker_4: And",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_90f368801f61a965:cue_start:1140.200000",
+          "targetSec": 1140.2,
+          "relativeSec": 1.11,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01275"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_a3b1f4f9c73fbdec",
+      "beatGroupId": "beat_group_1448",
+      "kind": "caption_moment",
+      "momentSec": 1141.34,
+      "relativeSec": 2.25,
+      "cueIds": [
+        "cue-01275"
+      ],
+      "text": "This is the ones we got",
+      "captionWindow": "speaker_4: got | speaker_4: got the floaties | speaker_4: This is the ones we got | speaker_4: I'm gonna take these downstairs | speaker_4: And",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_d65ee15a44a8e791:cue_end_minus_80ms:1141.260000",
+          "targetSec": 1141.26,
+          "relativeSec": 2.17,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01275"
+          ],
+          "wordIds": [
+            "word-03543"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d65ee15a44a8e791:final_word_end:1141.340000",
+          "targetSec": 1141.34,
+          "relativeSec": 2.25,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01275"
+          ],
+          "wordIds": [
+            "word-03543"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d65ee15a44a8e791:pause_boundary:1141.340000",
+          "targetSec": 1141.34,
+          "relativeSec": 2.25,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-01275"
+          ],
+          "wordIds": [
+            "word-03543"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_6b2dd50e62199743",
+      "beatGroupId": "beat_group_1449",
+      "kind": "caption_moment",
+      "momentSec": 1141.71,
+      "relativeSec": 2.62,
+      "cueIds": [
+        "cue-01277"
+      ],
+      "text": "I'm gonna take these downstairs",
+      "captionWindow": "speaker_4: got the floaties | speaker_4: This is the ones we got | speaker_4: I'm gonna take these downstairs | speaker_4: And | speaker_4: you know where the",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_42f4a4be0f52b0ce:cue_start:1141.710000",
+          "targetSec": 1141.71,
+          "relativeSec": 2.62,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01277"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_197f7b899374a068",
+      "beatGroupId": "beat_group_1450",
+      "kind": "caption_moment",
+      "momentSec": 1143.16,
+      "relativeSec": 4.07,
+      "cueIds": [
+        "cue-01277"
+      ],
+      "text": "I'm gonna take these downstairs",
+      "captionWindow": "speaker_4: got the floaties | speaker_4: This is the ones we got | speaker_4: I'm gonna take these downstairs | speaker_4: And | speaker_4: you know where the",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_36a28f4e2cf3f1b8:cue_end_minus_80ms:1143.080000",
+          "targetSec": 1143.08,
+          "relativeSec": 3.99,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01277"
+          ],
+          "wordIds": [
+            "word-03549"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_36a28f4e2cf3f1b8:final_word_end:1143.160000",
+          "targetSec": 1143.16,
+          "relativeSec": 4.07,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01277"
+          ],
+          "wordIds": [
+            "word-03549"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_36a28f4e2cf3f1b8:pause_boundary:1143.160000",
+          "targetSec": 1143.16,
+          "relativeSec": 4.07,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-01277"
+          ],
+          "wordIds": [
+            "word-03549"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "none",
+      "momentText": "where is the 6?",
+      "captionWindow": "speaker_1: this has a | speaker_4: Wait | speaker_4: where is the 6? | speaker_4: You know | speaker_4: 6 7",
+      "timing": null,
+      "similarity": 0.0564
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "none",
+      "momentText": "where is the 6?",
+      "captionWindow": "speaker_1: this has a | speaker_4: Wait | speaker_4: where is the 6? | speaker_4: You know | speaker_4: 6 7",
+      "timing": null,
+      "similarity": 0.0564
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "pop",
+      "momentText": "And then George added",
+      "captionWindow": "speaker_3: This is cool | speaker_4: And we have the plushies | speaker_2: And then George added | speaker_2: these things down here | speaker_2: And",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_55ab090f38cd8381:zoom_onset:1033.065367",
+        "anchorType": "zoom_onset",
+        "targetSec": 1033.065
+      },
+      "similarity": 0.0454
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "pop",
+      "momentText": "Pistachio?",
+      "captionWindow": "speaker_1: And then this is Suri's | speaker_1: She got the Dubai strawberry | speaker_2: Pistachio? | speaker_2: I don't know | speaker_1: And Stary got the little one",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e0d852cafc371d09:zoom_onset:231.798233",
+        "anchorType": "zoom_onset",
+        "targetSec": 231.798
+      },
+      "similarity": 0.0448
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "ding",
+      "momentText": "I'm not gonna lie",
+      "captionWindow": "speaker_4: the best place | speaker_4: guys | speaker_4: I'm not gonna lie | speaker_4: How is it | speaker_4: Stary?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_a7db4335350dac1b:cue_end_minus_80ms:469.844000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 469.844
+      },
+      "similarity": 0.0487
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "ding",
+      "momentText": "and same for Terah",
+      "captionWindow": "speaker_4: guys | speaker_4: I'm gonna get this | speaker_4: and same for Terah | speaker_1: This one? | speaker_4: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1643fc4478383bdb:cue_end_minus_80ms:853.396000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 853.396
+      },
+      "similarity": 0.0477
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "I'm gonna be",
+      "captionWindow": "speaker_4: Guys | speaker_4: look at this thing | speaker_4: I'm gonna be | speaker_4: going inside because | speaker_4: I think it's pretty cool",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d713ddecc8e941f6:cue_end_minus_80ms:437.044000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 437.044
+      },
+      "similarity": 0.0454
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "this",
+      "captionWindow": "speaker_4: Oh my God | speaker_4: look at | speaker_4: this | speaker_4: This | speaker_4: is sick",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f6eacdc093d2aabb:final_word_end:495.444000",
+        "anchorType": "final_word_end",
+        "targetSec": 495.444
+      },
+      "similarity": 0.0452
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "bonk",
+      "momentText": "for Terah and Stary",
+      "captionWindow": "speaker_1: How are you gonna break it? | speaker_3: This is like | speaker_3: for Terah and Stary | speaker_6: Yeah | speaker_5: this is the best part",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_6892721a110b3e25:cue_end_minus_80ms:303.900000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 303.9
+      },
+      "similarity": 0.0448
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bonk",
+      "momentText": "but this one is fine",
+      "captionWindow": "speaker_4: too small | speaker_4: I think these ones | speaker_4: but this one is fine | speaker_1: Yeah those are fine | speaker_1: So you're gonna be taking",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e0ea18e6e7799440:cue_start:64.858000",
+        "anchorType": "cue_start",
+        "targetSec": 64.858
+      },
+      "similarity": 0.0448
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "funny",
+      "momentText": "We didn't get the real ones",
+      "captionWindow": "speaker_4: Suri's has a face | speaker_1: You know what? | speaker_1: We didn't get the real ones | speaker_4: No | speaker_4: Are you for real?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_847416dbb8af50fa:cue_start:1340.150000",
+        "anchorType": "cue_start",
+        "targetSec": 1340.15
+      },
+      "similarity": 0.0498
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "funny",
+      "momentText": "but the plastic ones",
+      "captionWindow": "speaker_4: because i like these | speaker_4: ones more | speaker_6: but the plastic ones | speaker_6: are better | speaker_4: Oh this one is so tiny",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3ff257aed060783a:final_word_end:655.260000",
+        "anchorType": "final_word_end",
+        "targetSec": 655.26
+      },
+      "similarity": 0.0494
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bruh",
+      "momentText": "That's so cheap",
+      "captionWindow": "speaker_2: Is this the ball | speaker_2: bro? | speaker_2: That's so cheap | speaker_2: Why is the ball so little? | speaker_2: You got it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_b9b785ae416baffe:cue_end_minus_80ms:127.940000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 127.94
+      },
+      "similarity": 0.0339
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "bruh",
+      "momentText": "each?",
+      "captionWindow": "speaker_5: we got scammed | speaker_5: Why did they put one in | speaker_5: each? | speaker_3: I know | speaker_1: Okay taste test",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_0fa279e3018fc688:cue_start:990.460000",
+        "anchorType": "cue_start",
+        "targetSec": 990.46
+      },
+      "similarity": 0.0285
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "you got this one?",
+      "captionWindow": "speaker_5: oh you got another one? | speaker_1: what do you mean | speaker_1: you got this one? | speaker_3: Where did you get that? | speaker_4: I got it from the store",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c76f594345a94749:cue_end_minus_80ms:1148.980000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1148.98
+      },
+      "similarity": 0.0419
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "record_scratch",
+      "momentText": "Oh",
+      "captionWindow": "speaker_4: your hair is so messy | speaker_3: I know | speaker_4: Oh | speaker_4: my pretty girl | speaker_4: You ate pizza too?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_81b1e99a12ed10a3:final_word_end:876.130000",
+        "anchorType": "final_word_end",
+        "targetSec": 876.13
+      },
+      "similarity": 0.0406
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "dramatic",
+      "momentText": "this is gonna be purple",
+      "captionWindow": "speaker_1: Let me see | speaker_4: gold | speaker_4: this is gonna be purple | speaker_4: it's gonna be yellow | speaker_3: okay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_03fdc16bf582206d:zoom_onset:1293.525567",
+        "anchorType": "zoom_onset",
+        "targetSec": 1293.526
+      },
+      "similarity": 0.046
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "dramatic",
+      "momentText": "What is this supposed to be?",
+      "captionWindow": "speaker_2: for the girls | speaker_2: the little ones | speaker_1: What is this supposed to be? | speaker_2: You want one too? | speaker_4: They go in the water",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_12de4b97a7e7dc82:zoom_onset:247.866667",
+        "anchorType": "zoom_onset",
+        "targetSec": 247.867
+      },
+      "similarity": 0.0437
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "other_sfx",
+      "momentText": "That thing is gonna last",
+      "captionWindow": "speaker_4: How are we gonna | speaker_4: take off this thing? | speaker_4: That thing is gonna last | speaker_4: forever! | speaker_1: Oh my God Suri",
+      "timing": null,
+      "similarity": 0.0489
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "other_sfx",
+      "momentText": "You look so cool and fashionable",
+      "captionWindow": "speaker_1: Let's go | speaker_1: It match your outfit | speaker_1: You look so cool and fashionable | speaker_4: These are good | speaker_4: This is gonna be my new",
+      "timing": null,
+      "similarity": 0.0448
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

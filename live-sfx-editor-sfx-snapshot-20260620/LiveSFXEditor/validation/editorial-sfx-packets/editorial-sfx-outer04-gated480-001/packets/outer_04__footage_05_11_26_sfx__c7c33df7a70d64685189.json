@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "c7c33df7a70d64685189",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000857985_41",
+  "coreStartSec": 857.985,
+  "coreEndSec": 866.89,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_83673a2c982e995f"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_00f5988607f4d9ad:internal_pause_word_end:862.980000",
+    "cand_caption_beat_47488006657210fb:cue_start:862.840000",
+    "cand_caption_beat_47488006657210fb:zoom_onset:862.862000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_83673a2c982e995f",
+      "beatGroupId": "beat_group_1105",
+      "kind": "caption_moment",
+      "momentSec": 862.862,
+      "relativeSec": 4.877,
+      "cueIds": [
+        "cue-01079",
+        "cue-01080",
+        "cue-01081"
+      ],
+      "text": "the other kid",
+      "captionWindow": "speaker_4: He's right here | speaker_4: the tooth that fell off | speaker_4: the other kid | speaker_4: it was an accident | speaker_4: so he was playing basketball",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.14,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.65,
+        "moment.mean_boundary_strength": 0.55,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_47488006657210fb:cue_start:862.840000",
+          "targetSec": 862.84,
+          "relativeSec": 4.855,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01079",
+            "cue-01080",
+            "cue-01081"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-110"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_47488006657210fb:zoom_onset:862.862000",
+          "targetSec": 862.862,
+          "relativeSec": 4.877,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-01079",
+            "cue-01080",
+            "cue-01081"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-110"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_00f5988607f4d9ad:internal_pause_word_end:862.980000",
+          "targetSec": 862.98,
+          "relativeSec": 4.995,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-01079"
+          ],
+          "wordIds": [
+            "word-02672"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-110"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "none",
+      "momentText": "mami",
+      "captionWindow": "speaker_1: The artist | speaker_4: So creative | speaker_4: mami | speaker_4: open it | speaker_1: What is that?",
+      "timing": null,
+      "similarity": 0.1823
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "none",
+      "momentText": "if the blindfold was",
+      "captionWindow": "speaker_2: it's too big | speaker_4: Wouldn't it be cool | speaker_4: if the blindfold was | speaker_4: also Digital Circus | speaker_2: Oh",
+      "timing": null,
+      "similarity": 0.1749
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "pop",
+      "momentText": "on the Cheeto one",
+      "captionWindow": "speaker_4: on the Cheeto one | speaker_4: George is gonna jump | speaker_4: on the Cheeto one | speaker_4: he said | speaker_4: So let's see",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_fd433d77528fdb05:zoom_onset:698.197500",
+        "anchorType": "zoom_onset",
+        "targetSec": 698.197
+      },
+      "similarity": 0.1669
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "pop",
+      "momentText": "The other one is right here",
+      "captionWindow": "speaker_1: Yeah | speaker_3: I think that's cute | speaker_4: The other one is right here | speaker_1: The girl or the big one? | speaker_3: No",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_76d4b21672fa611b:zoom_onset:431.597833",
+        "anchorType": "zoom_onset",
+        "targetSec": 431.598
+      },
+      "similarity": 0.1538
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "ding",
+      "momentText": "flip to the other side",
+      "captionWindow": "speaker_4: So you've got to | speaker_4: open it and then | speaker_4: flip to the other side | speaker_4: Okay? | speaker_3: Okay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_4bfb1f8a381ea811:final_word_end:1596.916000",
+        "anchorType": "final_word_end",
+        "targetSec": 1596.916
+      },
+      "similarity": 0.1842
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "ding",
+      "momentText": "This is so cool",
+      "captionWindow": "speaker_1: Right here | speaker_1: okay can get it Stary | speaker_4: This is so cool | speaker_1: Yay | speaker_4: in the basket",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_da0eebfb991ff8c7:final_word_end:223.660000",
+        "anchorType": "final_word_end",
+        "targetSec": 223.66
+      },
+      "similarity": 0.1614
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "What the heck?",
+      "captionWindow": "speaker_4: and I also made you | speaker_4: an LPS of jax | speaker_2: What the heck? | speaker_2: That is so cute | speaker_4: Oh my God",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d6b4ce3461020b15:cue_start:1649.116000",
+        "anchorType": "cue_start",
+        "targetSec": 1649.116
+      },
+      "similarity": 0.1736
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "Aw",
+      "captionWindow": "speaker_4: Clown | speaker_2: What the? | speaker_4: Aw | speaker_4: so cute | speaker_2: That's nice",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_9f79b33ac33ef55f:zoom_onset:870.035833",
+        "anchorType": "zoom_onset",
+        "targetSec": 870.036
+      },
+      "similarity": 0.155
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "bonk",
+      "momentText": "Your time is done",
+      "captionWindow": "speaker_4: six | speaker_4: seven | speaker_4: Your time is done | speaker_4: George | speaker_4: it was behind you",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_fe3153be963c6e2f:final_word_end:985.940000",
+        "anchorType": "final_word_end",
+        "targetSec": 985.94
+      },
+      "similarity": 0.1523
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bonk",
+      "momentText": "jumping into the hole",
+      "captionWindow": "speaker_4: Like | speaker_4: just imagine me | speaker_4: jumping into the hole | speaker_4: like this | speaker_4: And",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_096f499e0de5af7b:final_word_end:516.134000",
+        "anchorType": "final_word_end",
+        "targetSec": 516.134
+      },
+      "similarity": 0.1503
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "funny",
+      "momentText": "Grounded",
+      "captionWindow": "speaker_3: I'm so grounded | speaker_1: Give me the toy | speaker_1: Grounded | speaker_1: Where's the toy? | speaker_4: that was an accident",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8adb98edb06410dc:cue_start:1164.680000",
+        "anchorType": "cue_start",
+        "targetSec": 1164.68
+      },
+      "similarity": 0.1791
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "funny",
+      "momentText": "four",
+      "captionWindow": "speaker_4: two | speaker_4: three | speaker_4: four | speaker_4: Right there | speaker_4: do it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_a7b15bcfde29b3a8:zoom_onset:1021.253567",
+        "anchorType": "zoom_onset",
+        "targetSec": 1021.254
+      },
+      "similarity": 0.168
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "bruh",
+      "momentText": "look",
+      "captionWindow": "speaker_1: no right? | speaker_5: Look | speaker_5: look | speaker_5: Look at that | speaker_5: It's like to here",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_749023db1b5e3d17:cue_end_minus_80ms:1043.880000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1043.88
+      },
+      "similarity": 0.1068
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bruh",
+      "momentText": "That's so cheap",
+      "captionWindow": "speaker_2: Is this the ball | speaker_2: bro? | speaker_2: That's so cheap | speaker_2: Why is the ball so little? | speaker_2: You got it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_b9b785ae416baffe:cue_end_minus_80ms:127.940000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 127.94
+      },
+      "similarity": 0.1053
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "record_scratch",
+      "momentText": "Amor",
+      "captionWindow": "speaker_4: in your hands? | speaker_4: They're so cute | speaker_1: Amor | speaker_4: Oh | speaker_4: you're there",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_9abda9d95daeb631:cue_start:1221.230000",
+        "anchorType": "cue_start",
+        "targetSec": 1221.23
+      },
+      "similarity": 0.1463
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "record_scratch",
+      "momentText": "Oh",
+      "captionWindow": "speaker_4: your hair is so messy | speaker_3: I know | speaker_4: Oh | speaker_4: my pretty girl | speaker_4: You ate pizza too?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_81b1e99a12ed10a3:final_word_end:876.130000",
+        "anchorType": "final_word_end",
+        "targetSec": 876.13
+      },
+      "similarity": 0.14
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "dramatic",
+      "momentText": "The teacher was",
+      "captionWindow": "speaker_4: so yeah | speaker_1: What happened mama? | speaker_3: The teacher was | speaker_3: saying that | speaker_3: I couldn't speak Spanish",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_884369d0635bb2ca:zoom_onset:1160.292467",
+        "anchorType": "zoom_onset",
+        "targetSec": 1160.292
+      },
+      "similarity": 0.1695
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "dramatic",
+      "momentText": "it was in the moment",
+      "captionWindow": "speaker_4: she didn't think about it | speaker_4: She just like | speaker_4: it was in the moment | speaker_4: and then she's like | speaker_4: \"Suri no Spanish\"",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8e9f211c0711a707:zoom_onset:1029.361667",
+        "anchorType": "zoom_onset",
+        "targetSec": 1029.362
+      },
+      "similarity": 0.1687
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "other_sfx",
+      "momentText": "One",
+      "captionWindow": "speaker_4: it was behind you | speaker_4: Go | speaker_4: One | speaker_4: two | speaker_4: three",
+      "timing": null,
+      "similarity": 0.1667
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "other_sfx",
+      "momentText": "One",
+      "captionWindow": "speaker_4: it was behind you | speaker_4: Go | speaker_4: One | speaker_4: two | speaker_4: three",
+      "timing": null,
+      "similarity": 0.1667
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

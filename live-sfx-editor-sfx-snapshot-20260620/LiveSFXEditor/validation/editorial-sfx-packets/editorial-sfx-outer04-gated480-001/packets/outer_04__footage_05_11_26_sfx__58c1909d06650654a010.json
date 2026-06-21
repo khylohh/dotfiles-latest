@@ -1,0 +1,1150 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "58c1909d06650654a010",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000022924_03",
+  "coreStartSec": 22.924,
+  "coreEndSec": 55.579,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_4e7e2b3502832710",
+    "caption_moment_69b4e5d173bc846f",
+    "caption_moment_1007f59da04da0ce",
+    "caption_moment_da24e1b2fde31131",
+    "caption_moment_07e6d8a43609449d",
+    "caption_moment_c88a7b327bd11af8",
+    "caption_moment_f1545eb6d9a4c30d",
+    "caption_moment_173bf409c87cb31a",
+    "caption_moment_2a2fd2b356b90ccc",
+    "caption_moment_691a864a8b8b4980"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_0ae7cfa99d342026:final_word_end:53.010000",
+    "cand_caption_beat_25001e0e7af54a09:cue_end_minus_80ms:40.420000",
+    "cand_caption_beat_25001e0e7af54a09:cue_start:40.500000",
+    "cand_caption_beat_25001e0e7af54a09:final_word_end:40.440000",
+    "cand_caption_beat_4b222fc787747ad6:cue_start:54.758000",
+    "cand_caption_beat_54e14c123a1a3ec7:cue_end_minus_80ms:53.585877",
+    "cand_caption_beat_54e14c123a1a3ec7:cue_start:53.665877",
+    "cand_caption_beat_71814de8b09e13e5:cue_end_minus_80ms:54.400000",
+    "cand_caption_beat_71814de8b09e13e5:final_word_end:54.480000",
+    "cand_caption_beat_71f2658a88b9c28a:cue_end_minus_80ms:51.659000",
+    "cand_caption_beat_71f2658a88b9c28a:final_word_end:51.739000",
+    "cand_caption_beat_71f2658a88b9c28a:pause_boundary:51.739000",
+    "cand_caption_beat_7ad4ac0404b987c9:cue_start:50.880000",
+    "cand_caption_beat_8e06a14975299e51:cue_start:50.240000",
+    "cand_caption_beat_8e06a14975299e51:speaker_turn_start:50.240000",
+    "cand_caption_beat_c86d5c8d6dd37b79:cue_start:52.040000",
+    "cand_caption_beat_d2f4859e2c0aa444:zoom_onset:40.774067",
+    "cand_caption_beat_ec42880090aab96d:cue_end_minus_80ms:50.460000",
+    "cand_caption_beat_ec42880090aab96d:final_word_end:50.540000",
+    "cand_caption_beat_ec42880090aab96d:pause_boundary:50.540000",
+    "cand_caption_beat_ec8cb9c7eae43594:cue_start:47.980000",
+    "cand_caption_beat_ec8cb9c7eae43594:internal_pause_word_end:48.000000",
+    "cand_caption_beat_ec8cb9c7eae43594:zoom_onset:47.914533",
+    "cand_caption_beat_f7b60aadc034e26b:internal_pause_word_end:40.700000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_4e7e2b3502832710",
+      "beatGroupId": "beat_group_52",
+      "kind": "caption_moment",
+      "momentSec": 40.5,
+      "relativeSec": 17.576,
+      "cueIds": [
+        "cue-00031",
+        "cue-00032",
+        "cue-00033",
+        "cue-00034",
+        "cue-00035"
+      ],
+      "text": "because it's kinda",
+      "captionWindow": "speaker_2: Yeah | speaker_2: I like them | speaker_2: because it's kinda | speaker_2: like unique | speaker_2: not just",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.354,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.35,
+        "moment.mean_boundary_strength": 0.11,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_25001e0e7af54a09:cue_end_minus_80ms:40.420000",
+          "targetSec": 40.42,
+          "relativeSec": 17.496,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00032",
+            "cue-00033"
+          ],
+          "wordIds": [
+            "word-00129"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-5"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_25001e0e7af54a09:final_word_end:40.440000",
+          "targetSec": 40.44,
+          "relativeSec": 17.516,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00032",
+            "cue-00033"
+          ],
+          "wordIds": [
+            "word-00129"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-5"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_25001e0e7af54a09:cue_start:40.500000",
+          "targetSec": 40.5,
+          "relativeSec": 17.576,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00032",
+            "cue-00033"
+          ],
+          "wordIds": [
+            "word-00129"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-5"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f7b60aadc034e26b:internal_pause_word_end:40.700000",
+          "targetSec": 40.7,
+          "relativeSec": 17.776,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00033"
+          ],
+          "wordIds": [
+            "word-00130"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-5"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d2f4859e2c0aa444:zoom_onset:40.774067",
+          "targetSec": 40.774,
+          "relativeSec": 17.85,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00031",
+            "cue-00032",
+            "cue-00033",
+            "cue-00034",
+            "cue-00035"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-5"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_69b4e5d173bc846f",
+      "beatGroupId": "beat_group_65",
+      "kind": "caption_moment",
+      "momentSec": 47.98,
+      "relativeSec": 25.056,
+      "cueIds": [
+        "cue-00041",
+        "cue-00612",
+        "cue-00613",
+        "cue-00614"
+      ],
+      "text": "and we have to hurry",
+      "captionWindow": "speaker_1: I have to do | speaker_1: your hair | speaker_1: and we have to hurry | speaker_2: 'Cause we have to go eat | speaker_1: yeah",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.085,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.35,
+        "moment.mean_boundary_strength": 0.35,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_ec8cb9c7eae43594:zoom_onset:47.914533",
+          "targetSec": 47.915,
+          "relativeSec": 24.99,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00041",
+            "cue-00612",
+            "cue-00613",
+            "cue-00614"
+          ],
+          "wordIds": [
+            "word-00157"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-6"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_ec8cb9c7eae43594:cue_start:47.980000",
+          "targetSec": 47.98,
+          "relativeSec": 25.056,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00041",
+            "cue-00612",
+            "cue-00613",
+            "cue-00614"
+          ],
+          "wordIds": [
+            "word-00157"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-6"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_ec8cb9c7eae43594:internal_pause_word_end:48.000000",
+          "targetSec": 48.0,
+          "relativeSec": 25.076,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00041",
+            "cue-00612",
+            "cue-00613",
+            "cue-00614"
+          ],
+          "wordIds": [
+            "word-00157"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-6"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_1007f59da04da0ce",
+      "beatGroupId": "beat_group_69",
+      "kind": "caption_moment",
+      "momentSec": 50.46,
+      "relativeSec": 27.536,
+      "cueIds": [
+        "cue-00335"
+      ],
+      "text": "yeah",
+      "captionWindow": "speaker_1: and we have to hurry | speaker_2: 'Cause we have to go eat | speaker_1: yeah | speaker_1: we have to go eat | speaker_1: But wait",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.3,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_8e06a14975299e51:cue_start:50.240000",
+          "targetSec": 50.24,
+          "relativeSec": 27.316,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00335"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_8e06a14975299e51:speaker_turn_start:50.240000",
+          "targetSec": 50.24,
+          "relativeSec": 27.316,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00335"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_ec42880090aab96d:cue_end_minus_80ms:50.460000",
+          "targetSec": 50.46,
+          "relativeSec": 27.536,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00335"
+          ],
+          "wordIds": [
+            "word-00165"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_ec42880090aab96d:final_word_end:50.540000",
+          "targetSec": 50.54,
+          "relativeSec": 27.616,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00335"
+          ],
+          "wordIds": [
+            "word-00165"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_ec42880090aab96d:pause_boundary:50.540000",
+          "targetSec": 50.54,
+          "relativeSec": 27.616,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00335"
+          ],
+          "wordIds": [
+            "word-00165"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_da24e1b2fde31131",
+      "beatGroupId": "beat_group_70",
+      "kind": "caption_moment",
+      "momentSec": 50.88,
+      "relativeSec": 27.956,
+      "cueIds": [
+        "cue-00615"
+      ],
+      "text": "we have to go eat",
+      "captionWindow": "speaker_2: 'Cause we have to go eat | speaker_1: yeah | speaker_1: we have to go eat | speaker_1: But wait | speaker_1: I have a surprise",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_7ad4ac0404b987c9:cue_start:50.880000",
+          "targetSec": 50.88,
+          "relativeSec": 27.956,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00615"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_07e6d8a43609449d",
+      "beatGroupId": "beat_group_71",
+      "kind": "caption_moment",
+      "momentSec": 51.739,
+      "relativeSec": 28.815,
+      "cueIds": [
+        "cue-00615"
+      ],
+      "text": "we have to go eat",
+      "captionWindow": "speaker_2: 'Cause we have to go eat | speaker_1: yeah | speaker_1: we have to go eat | speaker_1: But wait | speaker_1: I have a surprise",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_71f2658a88b9c28a:cue_end_minus_80ms:51.659000",
+          "targetSec": 51.659,
+          "relativeSec": 28.735,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00615"
+          ],
+          "wordIds": [
+            "word-00170"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_71f2658a88b9c28a:final_word_end:51.739000",
+          "targetSec": 51.739,
+          "relativeSec": 28.815,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00615"
+          ],
+          "wordIds": [
+            "word-00170"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_71f2658a88b9c28a:pause_boundary:51.739000",
+          "targetSec": 51.739,
+          "relativeSec": 28.815,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00615"
+          ],
+          "wordIds": [
+            "word-00170"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_c88a7b327bd11af8",
+      "beatGroupId": "beat_group_72",
+      "kind": "caption_moment",
+      "momentSec": 52.04,
+      "relativeSec": 29.116,
+      "cueIds": [
+        "cue-00616"
+      ],
+      "text": "But wait",
+      "captionWindow": "speaker_1: yeah | speaker_1: we have to go eat | speaker_1: But wait | speaker_1: I have a surprise | speaker_1: We're not going to be eating here",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_c86d5c8d6dd37b79:cue_start:52.040000",
+          "targetSec": 52.04,
+          "relativeSec": 29.116,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00616"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_f1545eb6d9a4c30d",
+      "beatGroupId": "beat_group_73",
+      "kind": "caption_moment",
+      "momentSec": 53.01,
+      "relativeSec": 30.086,
+      "cueIds": [
+        "cue-00616"
+      ],
+      "text": "But wait",
+      "captionWindow": "speaker_1: yeah | speaker_1: we have to go eat | speaker_1: But wait | speaker_1: I have a surprise | speaker_1: We're not going to be eating here",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_0ae7cfa99d342026:final_word_end:53.010000",
+          "targetSec": 53.01,
+          "relativeSec": 30.086,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00616"
+          ],
+          "wordIds": [
+            "word-00174"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_173bf409c87cb31a",
+      "beatGroupId": "beat_group_74",
+      "kind": "caption_moment",
+      "momentSec": 53.626,
+      "relativeSec": 30.701,
+      "cueIds": [
+        "cue-00616",
+        "cue-00620"
+      ],
+      "text": "But wait",
+      "captionWindow": "speaker_1: yeah | speaker_1: we have to go eat | speaker_1: But wait | speaker_1: I have a surprise | speaker_1: We're not going to be eating here",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_54e14c123a1a3ec7:cue_end_minus_80ms:53.585877",
+          "targetSec": 53.586,
+          "relativeSec": 30.661,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00616",
+            "cue-00620"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_54e14c123a1a3ec7:cue_start:53.665877",
+          "targetSec": 53.666,
+          "relativeSec": 30.741,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00616",
+            "cue-00620"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_2a2fd2b356b90ccc",
+      "beatGroupId": "beat_group_75",
+      "kind": "caption_moment",
+      "momentSec": 54.44,
+      "relativeSec": 31.516,
+      "cueIds": [
+        "cue-00620"
+      ],
+      "text": "I have a surprise",
+      "captionWindow": "speaker_1: we have to go eat | speaker_1: But wait | speaker_1: I have a surprise | speaker_1: We're not going to be eating here | speaker_1: I mean",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_71814de8b09e13e5:cue_end_minus_80ms:54.400000",
+          "targetSec": 54.4,
+          "relativeSec": 31.476,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00620"
+          ],
+          "wordIds": [
+            "word-00181"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_71814de8b09e13e5:final_word_end:54.480000",
+          "targetSec": 54.48,
+          "relativeSec": 31.556,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00620"
+          ],
+          "wordIds": [
+            "word-00181"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_691a864a8b8b4980",
+      "beatGroupId": "beat_group_76",
+      "kind": "caption_moment",
+      "momentSec": 54.758,
+      "relativeSec": 31.834,
+      "cueIds": [
+        "cue-00621"
+      ],
+      "text": "We're not going to be eating here",
+      "captionWindow": "speaker_1: But wait | speaker_1: I have a surprise | speaker_1: We're not going to be eating here | speaker_1: I mean | speaker_1: you guys",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_4b222fc787747ad6:cue_start:54.758000",
+          "targetSec": 54.758,
+          "relativeSec": 31.834,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00621"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "none",
+      "momentText": "We're not going",
+      "captionWindow": "speaker_1: Wait | speaker_1: but you have to go | speaker_1: We're not going | speaker_1: to keep that | speaker_1: No",
+      "timing": null,
+      "similarity": 0.0322
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "none",
+      "momentText": "but you have to go",
+      "captionWindow": "speaker_5: Come | speaker_1: Wait | speaker_1: but you have to go | speaker_1: We're not going | speaker_1: to keep that",
+      "timing": null,
+      "similarity": 0.0322
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "pop",
+      "momentText": "yeah",
+      "captionWindow": "speaker_1: As you guys can see | speaker_1: it's so sunny but | speaker_2: yeah | speaker_2: but inside it's gonna be cold | speaker_2: Like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8e854010b73c4d30:zoom_onset:9.159150",
+        "anchorType": "zoom_onset",
+        "targetSec": 9.159
+      },
+      "similarity": 0.0306
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "pop",
+      "momentText": "Still I have a great voice",
+      "captionWindow": "speaker_2: And I have a great voice right? | speaker_1: That was mine | speaker_2: Still I have a great voice | speaker_1: So guys we're here | speaker_1: at Target because we're",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8ea902f875431507:zoom_onset:11.166667",
+        "anchorType": "zoom_onset",
+        "targetSec": 11.167
+      },
+      "similarity": 0.0298
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "And I have a great voice right?",
+      "captionWindow": "speaker_1: Your hair smells delicious | speaker_2: Thank you | speaker_2: And I have a great voice right? | speaker_1: That was mine | speaker_2: Still I have a great voice",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e7b101afcfe560e0:cue_end_minus_80ms:8.420000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 8.42
+      },
+      "similarity": 0.0288
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "ding",
+      "momentText": "we have Stary right here",
+      "captionWindow": "speaker_2: guys | speaker_2: So | speaker_2: we have Stary right here | speaker_2: And we have a | speaker_2: surprise for her",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e94e68da5cc0cdf4:cue_end_minus_80ms:784.860000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 784.86
+      },
+      "similarity": 0.0284
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "success",
+      "momentText": "just go and subscribe",
+      "captionWindow": "speaker_2: That we're having a giveaway | speaker_2: so if you wanna win an iPhone | speaker_2: just go and subscribe | speaker_2: guys | speaker_1: Like the video",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_205e1112adbe2668:cue_end_minus_80ms:209.660000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 209.66
+      },
+      "similarity": 0.028
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "success",
+      "momentText": "gonna have a pool day",
+      "captionWindow": "speaker_1: So guys we're here | speaker_1: at Target because we're | speaker_1: gonna have a pool day | speaker_3: Yeah A pool day | speaker_1: We have everything",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_dbec12cac520a192:final_word_end:16.160000",
+        "anchorType": "final_word_end",
+        "targetSec": 16.16
+      },
+      "similarity": 0.0272
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bonk",
+      "momentText": "to wear a PJ",
+      "captionWindow": "speaker_1: she's kinda jealous though | speaker_1: because I know George has | speaker_1: to wear a PJ | speaker_1: I mean | speaker_1: he doesn't have to",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_218bbe640633f30b:zoom_onset:189.472617",
+        "anchorType": "zoom_onset",
+        "targetSec": 189.473
+      },
+      "similarity": 0.0271
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "bonk",
+      "momentText": "to find a restroom",
+      "captionWindow": "speaker_2: And | speaker_2: it's so hard | speaker_2: to find a restroom | speaker_1: I know | speaker_1: I need to use the restroom",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8426c9721fd2eb0a:zoom_onset:256.439517",
+        "anchorType": "zoom_onset",
+        "targetSec": 256.44
+      },
+      "similarity": 0.0262
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "funny",
+      "momentText": "Still I have a great voice",
+      "captionWindow": "speaker_2: And I have a great voice right? | speaker_1: That was mine | speaker_2: Still I have a great voice | speaker_1: So guys we're here | speaker_1: at Target because we're",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2950ae54eac6122f:final_word_end:12.500000",
+        "anchorType": "final_word_end",
+        "targetSec": 12.5
+      },
+      "similarity": 0.0298
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "funny",
+      "momentText": "it's so sunny but",
+      "captionWindow": "speaker_1: we're here | speaker_1: As you guys can see | speaker_1: it's so sunny but | speaker_2: yeah | speaker_2: but inside it's gonna be cold",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_63ad4cccbda564a3:cue_end_minus_80ms:7.780000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 7.78
+      },
+      "similarity": 0.029
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bruh",
+      "momentText": "You do?",
+      "captionWindow": "speaker_1: Do you have to take your | speaker_1: backpack? | speaker_1: You do? | speaker_1: Okay guys | speaker_1: so",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d5e865863506385c:pause_boundary:42.860000",
+        "anchorType": "pause_boundary",
+        "targetSec": 42.86
+      },
+      "similarity": 0.0221
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bruh",
+      "momentText": "wait shouldn't they have",
+      "captionWindow": "speaker_4: \u00bfEsa? | speaker_4: that one? | speaker_1: wait shouldn't they have | speaker_1: a face? | speaker_3: Mine doesn't have a face",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_03b71fcef435034a:cue_start:1332.898932",
+        "anchorType": "cue_start",
+        "targetSec": 1332.899
+      },
+      "similarity": 0.0204
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "I said",
+      "captionWindow": "speaker_1: All right | speaker_1: So like | speaker_1: I said | speaker_1: it's gonna be a challenge | speaker_2: i feel like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5d5542d20fc9489f:zoom_onset:40.090050",
+        "anchorType": "zoom_onset",
+        "targetSec": 40.09
+      },
+      "similarity": 0.0263
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "record_scratch",
+      "momentText": "And you dad's card",
+      "captionWindow": "speaker_1: We have everything | speaker_1: We have the cart | speaker_2: And you dad's card | speaker_1: No your card | speaker_2: You forgot to ask him?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_134d58b059c515b8:cue_end_minus_80ms:20.339000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 20.339
+      },
+      "similarity": 0.0254
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "dramatic",
+      "momentText": "we have to go home",
+      "captionWindow": "speaker_2: If we couldn't find it | speaker_1: We need to go outside | speaker_2: we have to go home | speaker_2: Okay | speaker_2: Guys",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_87faa1c88ee1add9:final_word_end:732.512000",
+        "anchorType": "final_word_end",
+        "targetSec": 732.512
+      },
+      "similarity": 0.0289
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "dramatic",
+      "momentText": "go with her and return it",
+      "captionWindow": "speaker_1: Yeah | speaker_1: You have to | speaker_1: go with her and return it | speaker_1: I'm not going | speaker_1: You have to go",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_45ee49ac0c38e66f:zoom_onset:1187.986800",
+        "anchorType": "zoom_onset",
+        "targetSec": 1187.987
+      },
+      "similarity": 0.0284
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "other_sfx",
+      "momentText": "go with her and return it",
+      "captionWindow": "speaker_1: Yeah | speaker_1: You have to | speaker_1: go with her and return it | speaker_1: I'm not going | speaker_1: You have to go",
+      "timing": null,
+      "similarity": 0.0284
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I feel like something",
+      "captionWindow": "speaker_1: It's just that | speaker_1: you took a while | speaker_2: I feel like something | speaker_2: weird in my stomach | speaker_2: but I think",
+      "timing": null,
+      "similarity": 0.0284
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

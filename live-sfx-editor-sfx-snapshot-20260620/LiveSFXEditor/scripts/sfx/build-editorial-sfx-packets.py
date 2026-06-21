@@ -74,6 +74,98 @@ def option_summary(moment, option, core_start):
     }
 
 
+def text_blob(moment):
+    return f"{moment.get('text', '')}\n{moment.get('captionWindow', '')}".lower()
+
+
+def has_any(patterns, value):
+    return any(re.search(pattern, value) for pattern in patterns)
+
+
+def family_gate(moment):
+    text = text_blob(moment)
+    options = moment.get("timingOptions") or []
+    allowed = set()
+    reasons = []
+
+    has_zoom_onset = any(
+        option.get("anchorType") == "zoom_onset" and option.get("zoomMarkerIds")
+        for option in options
+    )
+    if has_zoom_onset:
+        allowed.add("pop")
+        reasons.append("explicit_zoom_onset")
+
+    if has_any([
+        r"\bthere (it|we) (is|are)\b",
+        r"\bfound (it|one|the|a)\b",
+        r"\bgot (it|one|the|a)\b",
+        r"\bexactly\b",
+        r"\bcorrect\b",
+        r"\bright answer\b",
+        r"\bthe answer\b",
+        r"\bthat'?s (it|the one|right|correct)\b",
+        r"\b\d+(\.\d+)?\b",
+        r"\b(first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth) one\b",
+    ], text):
+        allowed.add("ding")
+        reasons.append("specific_reveal_or_answer")
+
+    if has_any([
+        r"\b(done|finished|completed|complete)\b",
+        r"\bwe (did it|made it|won|passed)\b",
+        r"\bi (did it|made it|won|passed)\b",
+        r"\b(success|successful|solved|fixed|works|worked)\b",
+        r"\bfinally\b",
+    ], text):
+        allowed.add("success")
+        reasons.append("completed_result")
+
+    if has_any([
+        r"\b(wrong|mistake|failed|fail|failure|broke|broken|lost|dead|died)\b",
+        r"\b(can'?t|cannot|couldn'?t|shouldn'?t|wouldn'?t)\b",
+        r"\b(no|nope|nah)\b.{0,24}\b(wrong|bad|failed|work)\b",
+    ], text):
+        allowed.add("bonk")
+        reasons.append("mistake_or_fail")
+
+    if has_any([
+        r"\b(funny|joke|joking|laugh|laughed|hilarious|ridiculous|absurd)\b",
+        r"\bwhat (is|was) that\b",
+    ], text):
+        allowed.add("funny")
+        reasons.append("explicit_comedy")
+
+    if has_any([
+        r"\b(bruh|bro what|come on|seriously|are you kidding)\b",
+        r"\bwhat the (heck|hell)\b",
+    ], text):
+        allowed.add("bruh")
+        reasons.append("disbelief_or_cringe")
+
+    if has_any([
+        r"\b(wait|hold on|actually|plot twist)\b",
+        r"\bbut then\b",
+        r"\bexcept\b",
+        r"\bnot anymore\b",
+        r"\bsuddenly\b",
+    ], text):
+        allowed.add("record_scratch")
+        reasons.append("abrupt_reversal")
+
+    if has_any([
+        r"\b(scary|terrifying|horror|danger|dangerous|ominous|dramatic)\b",
+        r"\b(monster|ghost|demon|death|murder|killer)\b",
+        r"\bboom\b",
+    ], text):
+        allowed.add("dramatic")
+        reasons.append("dramatic_reveal")
+
+    if allowed:
+        allowed.add("other_sfx")
+    return sorted(allowed), reasons
+
+
 def dense_hints(moment):
     dense = ((moment.get("features") or {}).get("dense") or {})
     interesting = [
@@ -96,6 +188,9 @@ def dense_hints(moment):
 
 
 def candidate_summary(moment, core_start):
+    allowed_families, gate_reasons = family_gate(moment)
+    if not allowed_families:
+        return None
     options = [
         option_summary(moment, option, core_start)
         for option in moment.get("timingOptions") or []
@@ -114,6 +209,8 @@ def candidate_summary(moment, core_start):
         "cueIds": moment.get("cueIds") or [],
         "text": str(moment.get("text") or "")[:400],
         "captionWindow": str(moment.get("captionWindow") or "")[:1400],
+        "allowedFamilies": allowed_families,
+        "gateReasons": gate_reasons,
         "denseHints": dense_hints(moment),
         "timingOptions": options,
     }
@@ -228,6 +325,9 @@ def selected_folds(splits, requested_folds, requested_projects):
 def make_packet(fold, record, start_sec, end_sec, split_index, split_moments, example_pool, options):
     project_id = record["project"]["projectId"]
     candidates = [candidate_summary(moment, start_sec) for moment in split_moments]
+    candidates = [candidate for candidate in candidates if candidate]
+    if not candidates:
+        return None
     text = segment_text(candidates)
     packet_hash = sha256(
         "\0".join([
@@ -297,7 +397,9 @@ def build_packets(records_by_project, folds, options):
                 if core_moments:
                     for split_start, split_end, split_moments in split_segment(start, end, core_moments, options["max_moments"]):
                         segment_index += 1
-                        packets.append(make_packet(fold, record, split_start, split_end, segment_index, split_moments, example_pool, options))
+                        packet = make_packet(fold, record, split_start, split_end, segment_index, split_moments, example_pool, options)
+                        if packet:
+                            packets.append(packet)
                 start += core
     return packets
 

@@ -1,0 +1,2110 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "886c16d589bb72c927f8",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001332855_64",
+  "coreStartSec": 1332.855,
+  "coreEndSec": 1366.07,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_c92b7f0975168abb",
+    "caption_moment_2a602d40b0b70158",
+    "caption_moment_5c3d7df3f8efa229",
+    "caption_moment_e7288b9fb504738d",
+    "caption_moment_1d0c6e1012c874d3",
+    "caption_moment_7e654a630ef262ae",
+    "caption_moment_e99bee3bc768e09c",
+    "caption_moment_5094b91c35ff8ef1",
+    "caption_moment_cecac44d924919bf",
+    "caption_moment_38f5661fcdec2a36",
+    "caption_moment_eeb99aafd3591030",
+    "caption_moment_0ff409066f24d447",
+    "caption_moment_8f4281c431a37135",
+    "caption_moment_3cc2400bdb89ce7b",
+    "caption_moment_4d44e0fce439c350",
+    "caption_moment_65e02a27cc45ce1f",
+    "caption_moment_ad276477d8998ea9",
+    "caption_moment_84c7ba96e765c7de"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_0915a694dd3a4a6a:cue_start:1350.310000",
+    "cand_caption_beat_0915a694dd3a4a6a:speaker_turn_start:1350.310000",
+    "cand_caption_beat_21076db7635be110:zoom_onset:1365.297267",
+    "cand_caption_beat_29d355955b4d28df:cue_end_minus_80ms:1359.220000",
+    "cand_caption_beat_29d355955b4d28df:final_word_end:1359.300000",
+    "cand_caption_beat_3191699e0d13d6d8:cue_end_minus_80ms:1351.520000",
+    "cand_caption_beat_3191699e0d13d6d8:final_word_end:1351.600000",
+    "cand_caption_beat_380350850b59f252:cue_end_minus_80ms:1343.095000",
+    "cand_caption_beat_380350850b59f252:cue_start:1343.175000",
+    "cand_caption_beat_380350850b59f252:final_word_end:1343.080000",
+    "cand_caption_beat_3b2bdf17b6f5a382:cue_end_minus_80ms:1358.240000",
+    "cand_caption_beat_3b2bdf17b6f5a382:final_word_end:1358.140000",
+    "cand_caption_beat_47ebfc797cd741d1:cue_start:1359.400000",
+    "cand_caption_beat_481159c8ca115715:cue_start:1347.340000",
+    "cand_caption_beat_481159c8ca115715:speaker_turn_start:1347.340000",
+    "cand_caption_beat_63f7273d6f5b6bf1:cue_start:1358.320000",
+    "cand_caption_beat_673aa93fb256bbb5:cue_start:1336.700000",
+    "cand_caption_beat_673aa93fb256bbb5:internal_pause_word_end:1336.720000",
+    "cand_caption_beat_673aa93fb256bbb5:speaker_turn_start:1336.700000",
+    "cand_caption_beat_673aa93fb256bbb5:zoom_onset:1336.668667",
+    "cand_caption_beat_76f76b9796458474:cue_end_minus_80ms:1350.680000",
+    "cand_caption_beat_76f76b9796458474:cue_start:1350.760000",
+    "cand_caption_beat_76f76b9796458474:final_word_end:1350.650000",
+    "cand_caption_beat_8183d9ee8938d805:cue_end_minus_80ms:1349.420000",
+    "cand_caption_beat_8183d9ee8938d805:final_word_end:1349.500000",
+    "cand_caption_beat_8183d9ee8938d805:pause_boundary:1349.500000",
+    "cand_caption_beat_854fddd947066b1b:cue_end_minus_80ms:1356.780000",
+    "cand_caption_beat_854fddd947066b1b:final_word_end:1356.860000",
+    "cand_caption_beat_854fddd947066b1b:pause_boundary:1356.860000",
+    "cand_caption_beat_87728a4d8e8ca90c:cue_end_minus_80ms:1360.530000",
+    "cand_caption_beat_87728a4d8e8ca90c:cue_start:1360.610000",
+    "cand_caption_beat_87728a4d8e8ca90c:final_word_end:1360.610000",
+    "cand_caption_beat_9741888e92363532:cue_end_minus_80ms:1360.060000",
+    "cand_caption_beat_9741888e92363532:cue_start:1360.140000",
+    "cand_caption_beat_9741888e92363532:final_word_end:1360.130000",
+    "cand_caption_beat_988c6391c66d17d1:cue_end_minus_80ms:1352.660000",
+    "cand_caption_beat_988c6391c66d17d1:cue_start:1352.740000",
+    "cand_caption_beat_988c6391c66d17d1:final_word_end:1352.700000",
+    "cand_caption_beat_9e91c5e55413d911:cue_start:1351.838272",
+    "cand_caption_beat_a7fc1b1c1d348702:cue_start:1348.920000",
+    "cand_caption_beat_a7fc1b1c1d348702:speaker_turn_start:1348.920000",
+    "cand_caption_beat_acc4ee73915cd439:cue_start:1353.980000",
+    "cand_caption_beat_acc4ee73915cd439:zoom_onset:1353.919233",
+    "cand_caption_beat_b3711a23e79e579c:cue_start:1342.850000",
+    "cand_caption_beat_b3711a23e79e579c:speaker_turn_start:1342.850000",
+    "cand_caption_beat_b3711a23e79e579c:zoom_onset:1342.808133",
+    "cand_caption_beat_b4a0f2591cbad7de:cue_start:1357.820000",
+    "cand_caption_beat_d3c5568740c90d82:cue_end_minus_80ms:1353.740000",
+    "cand_caption_beat_d3c5568740c90d82:final_word_end:1353.820000",
+    "cand_caption_beat_d68a2f7b53d70b9c:cue_end_minus_80ms:1365.100000",
+    "cand_caption_beat_d68a2f7b53d70b9c:final_word_end:1365.180000",
+    "cand_caption_beat_d68a2f7b53d70b9c:pause_boundary:1365.180000",
+    "cand_caption_beat_d841c37cf1f98f0e:cue_end_minus_80ms:1347.920000",
+    "cand_caption_beat_d841c37cf1f98f0e:final_word_end:1348.000000",
+    "cand_caption_beat_d841c37cf1f98f0e:pause_boundary:1348.000000",
+    "cand_caption_beat_e35a0a0e94d26760:cue_end_minus_80ms:1336.482000",
+    "cand_caption_beat_e35a0a0e94d26760:final_word_end:1336.480000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_c92b7f0975168abb",
+      "beatGroupId": "beat_group_1668",
+      "kind": "caption_moment",
+      "momentSec": 1336.684,
+      "relativeSec": 3.829,
+      "cueIds": [
+        "cue-00579",
+        "cue-00580",
+        "cue-01407",
+        "cue-01408"
+      ],
+      "text": "I don't know",
+      "captionWindow": "speaker_4: What do you think | speaker_4: happened to her shell though? | speaker_3: I don't know | speaker_4: She's so fast | speaker_4: Who said turtles were slow?",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 6.0,
+        "moment.span_sec": 0.24,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.65,
+        "moment.mean_boundary_strength": 0.567,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_e35a0a0e94d26760:final_word_end:1336.480000",
+          "targetSec": 1336.48,
+          "relativeSec": 3.625,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01407"
+          ],
+          "wordIds": [
+            "word-04172"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-160"
+          ],
+          "boundaryStrength": 0.4,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e35a0a0e94d26760:cue_end_minus_80ms:1336.482000",
+          "targetSec": 1336.482,
+          "relativeSec": 3.627,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01407"
+          ],
+          "wordIds": [
+            "word-04172"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-160"
+          ],
+          "boundaryStrength": 0.4,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_673aa93fb256bbb5:zoom_onset:1336.668667",
+          "targetSec": 1336.669,
+          "relativeSec": 3.814,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00579",
+            "cue-00580",
+            "cue-01407",
+            "cue-01408"
+          ],
+          "wordIds": [
+            "word-04173"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-160"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_673aa93fb256bbb5:cue_start:1336.700000",
+          "targetSec": 1336.7,
+          "relativeSec": 3.845,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00579",
+            "cue-00580",
+            "cue-01407",
+            "cue-01408"
+          ],
+          "wordIds": [
+            "word-04173"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-160"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_673aa93fb256bbb5:speaker_turn_start:1336.700000",
+          "targetSec": 1336.7,
+          "relativeSec": 3.845,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00579",
+            "cue-00580",
+            "cue-01407",
+            "cue-01408"
+          ],
+          "wordIds": [
+            "word-04173"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-160"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_673aa93fb256bbb5:internal_pause_word_end:1336.720000",
+          "targetSec": 1336.72,
+          "relativeSec": 3.865,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00579",
+            "cue-00580",
+            "cue-01407",
+            "cue-01408"
+          ],
+          "wordIds": [
+            "word-04173"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-160"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_2a602d40b0b70158",
+      "beatGroupId": "beat_group_1679",
+      "kind": "caption_moment",
+      "momentSec": 1342.965,
+      "relativeSec": 10.11,
+      "cueIds": [
+        "cue-00583",
+        "cue-00584",
+        "cue-01409"
+      ],
+      "text": "Bro",
+      "captionWindow": "speaker_4: turtles were slow? | speaker_3: No | speaker_4: Bro | speaker_4: she's so quick | speaker_1: They always say",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 6.0,
+        "moment.span_sec": 0.367,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.8,
+        "moment.mean_boundary_strength": 0.7,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 2.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_b3711a23e79e579c:zoom_onset:1342.808133",
+          "targetSec": 1342.808,
+          "relativeSec": 9.953,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00583",
+            "cue-00584",
+            "cue-01409"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-161"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_b3711a23e79e579c:cue_start:1342.850000",
+          "targetSec": 1342.85,
+          "relativeSec": 9.995,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00583",
+            "cue-00584",
+            "cue-01409"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-161"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_b3711a23e79e579c:speaker_turn_start:1342.850000",
+          "targetSec": 1342.85,
+          "relativeSec": 9.995,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00583",
+            "cue-00584",
+            "cue-01409"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-161"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_380350850b59f252:final_word_end:1343.080000",
+          "targetSec": 1343.08,
+          "relativeSec": 10.225,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00584",
+            "cue-01409"
+          ],
+          "wordIds": [
+            "word-04193"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-161"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_380350850b59f252:cue_end_minus_80ms:1343.095000",
+          "targetSec": 1343.095,
+          "relativeSec": 10.24,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00584",
+            "cue-01409"
+          ],
+          "wordIds": [
+            "word-04193"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-161"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_380350850b59f252:cue_start:1343.175000",
+          "targetSec": 1343.175,
+          "relativeSec": 10.32,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00584",
+            "cue-01409"
+          ],
+          "wordIds": [
+            "word-04193"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-161"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_5c3d7df3f8efa229",
+      "beatGroupId": "beat_group_1685",
+      "kind": "caption_moment",
+      "momentSec": 1347.34,
+      "relativeSec": 14.485,
+      "cueIds": [
+        "cue-00585"
+      ],
+      "text": "Where's she going?",
+      "captionWindow": "speaker_1: but look at that | speaker_1: bro | speaker_4: Where's she going? | speaker_1: They don't look slow | speaker_4: Let's wait",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.5,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_481159c8ca115715:cue_start:1347.340000",
+          "targetSec": 1347.34,
+          "relativeSec": 14.485,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00585"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_481159c8ca115715:speaker_turn_start:1347.340000",
+          "targetSec": 1347.34,
+          "relativeSec": 14.485,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00585"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_e7288b9fb504738d",
+      "beatGroupId": "beat_group_1686",
+      "kind": "caption_moment",
+      "momentSec": 1348.0,
+      "relativeSec": 15.145,
+      "cueIds": [
+        "cue-00585"
+      ],
+      "text": "Where's she going?",
+      "captionWindow": "speaker_1: but look at that | speaker_1: bro | speaker_4: Where's she going? | speaker_1: They don't look slow | speaker_4: Let's wait",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.5,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_d841c37cf1f98f0e:cue_end_minus_80ms:1347.920000",
+          "targetSec": 1347.92,
+          "relativeSec": 15.065,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00585"
+          ],
+          "wordIds": [
+            "word-04211"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d841c37cf1f98f0e:final_word_end:1348.000000",
+          "targetSec": 1348.0,
+          "relativeSec": 15.145,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00585"
+          ],
+          "wordIds": [
+            "word-04211"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d841c37cf1f98f0e:pause_boundary:1348.000000",
+          "targetSec": 1348.0,
+          "relativeSec": 15.145,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00585"
+          ],
+          "wordIds": [
+            "word-04211"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_1d0c6e1012c874d3",
+      "beatGroupId": "beat_group_1687",
+      "kind": "caption_moment",
+      "momentSec": 1348.92,
+      "relativeSec": 16.065,
+      "cueIds": [
+        "cue-00330"
+      ],
+      "text": "They don't look slow",
+      "captionWindow": "speaker_1: bro | speaker_4: Where's she going? | speaker_1: They don't look slow | speaker_4: Let's wait | speaker_4: see where she goes",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.6,
+        "moment.mean_boundary_strength": 0.6,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_a7fc1b1c1d348702:cue_start:1348.920000",
+          "targetSec": 1348.92,
+          "relativeSec": 16.065,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00330"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_a7fc1b1c1d348702:speaker_turn_start:1348.920000",
+          "targetSec": 1348.92,
+          "relativeSec": 16.065,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00330"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_7e654a630ef262ae",
+      "beatGroupId": "beat_group_1688",
+      "kind": "caption_moment",
+      "momentSec": 1349.5,
+      "relativeSec": 16.645,
+      "cueIds": [
+        "cue-00330"
+      ],
+      "text": "They don't look slow",
+      "captionWindow": "speaker_1: bro | speaker_4: Where's she going? | speaker_1: They don't look slow | speaker_4: Let's wait | speaker_4: see where she goes",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.6,
+        "moment.mean_boundary_strength": 0.6,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_8183d9ee8938d805:cue_end_minus_80ms:1349.420000",
+          "targetSec": 1349.42,
+          "relativeSec": 16.565,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00330"
+          ],
+          "wordIds": [
+            "word-04215"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_8183d9ee8938d805:final_word_end:1349.500000",
+          "targetSec": 1349.5,
+          "relativeSec": 16.645,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00330"
+          ],
+          "wordIds": [
+            "word-04215"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_8183d9ee8938d805:pause_boundary:1349.500000",
+          "targetSec": 1349.5,
+          "relativeSec": 16.645,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00330"
+          ],
+          "wordIds": [
+            "word-04215"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_e99bee3bc768e09c",
+      "beatGroupId": "beat_group_1689",
+      "kind": "caption_moment",
+      "momentSec": 1350.65,
+      "relativeSec": 17.795,
+      "cueIds": [
+        "cue-00586",
+        "cue-01410"
+      ],
+      "text": "Let's wait",
+      "captionWindow": "speaker_4: Where's she going? | speaker_1: They don't look slow | speaker_4: Let's wait | speaker_4: see where she goes | speaker_4: So the turtle went",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.45,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.6,
+        "moment.mean_boundary_strength": 0.6,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 2.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_0915a694dd3a4a6a:cue_start:1350.310000",
+          "targetSec": 1350.31,
+          "relativeSec": 17.455,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00586"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_0915a694dd3a4a6a:speaker_turn_start:1350.310000",
+          "targetSec": 1350.31,
+          "relativeSec": 17.455,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00586"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_76f76b9796458474:final_word_end:1350.650000",
+          "targetSec": 1350.65,
+          "relativeSec": 17.795,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00586",
+            "cue-01410"
+          ],
+          "wordIds": [
+            "word-04217"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_76f76b9796458474:cue_end_minus_80ms:1350.680000",
+          "targetSec": 1350.68,
+          "relativeSec": 17.825,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00586",
+            "cue-01410"
+          ],
+          "wordIds": [
+            "word-04217"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_76f76b9796458474:cue_start:1350.760000",
+          "targetSec": 1350.76,
+          "relativeSec": 17.905,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00586",
+            "cue-01410"
+          ],
+          "wordIds": [
+            "word-04217"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_5094b91c35ff8ef1",
+      "beatGroupId": "beat_group_1690",
+      "kind": "caption_moment",
+      "momentSec": 1351.56,
+      "relativeSec": 18.705,
+      "cueIds": [
+        "cue-01410"
+      ],
+      "text": "see where she goes",
+      "captionWindow": "speaker_1: They don't look slow | speaker_4: Let's wait | speaker_4: see where she goes | speaker_4: So the turtle went | speaker_4: inside the bushes",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_3191699e0d13d6d8:cue_end_minus_80ms:1351.520000",
+          "targetSec": 1351.52,
+          "relativeSec": 18.665,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01410"
+          ],
+          "wordIds": [
+            "word-04221"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_3191699e0d13d6d8:final_word_end:1351.600000",
+          "targetSec": 1351.6,
+          "relativeSec": 18.745,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01410"
+          ],
+          "wordIds": [
+            "word-04221"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_cecac44d924919bf",
+      "beatGroupId": "beat_group_1691",
+      "kind": "caption_moment",
+      "momentSec": 1351.838,
+      "relativeSec": 18.983,
+      "cueIds": [
+        "cue-01411"
+      ],
+      "text": "So the turtle went",
+      "captionWindow": "speaker_4: Let's wait | speaker_4: see where she goes | speaker_4: So the turtle went | speaker_4: inside the bushes | speaker_4: She's just there",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_9e91c5e55413d911:cue_start:1351.838272",
+          "targetSec": 1351.838,
+          "relativeSec": 18.983,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01411"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_38f5661fcdec2a36",
+      "beatGroupId": "beat_group_1692",
+      "kind": "caption_moment",
+      "momentSec": 1352.7,
+      "relativeSec": 19.845,
+      "cueIds": [
+        "cue-01411",
+        "cue-01412"
+      ],
+      "text": "So the turtle went",
+      "captionWindow": "speaker_4: Let's wait | speaker_4: see where she goes | speaker_4: So the turtle went | speaker_4: inside the bushes | speaker_4: She's just there",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_988c6391c66d17d1:cue_end_minus_80ms:1352.660000",
+          "targetSec": 1352.66,
+          "relativeSec": 19.805,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01411",
+            "cue-01412"
+          ],
+          "wordIds": [
+            "word-04225"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-162"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_988c6391c66d17d1:final_word_end:1352.700000",
+          "targetSec": 1352.7,
+          "relativeSec": 19.845,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01411",
+            "cue-01412"
+          ],
+          "wordIds": [
+            "word-04225"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-162"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_988c6391c66d17d1:cue_start:1352.740000",
+          "targetSec": 1352.74,
+          "relativeSec": 19.885,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01411",
+            "cue-01412"
+          ],
+          "wordIds": [
+            "word-04225"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-162"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_eeb99aafd3591030",
+      "beatGroupId": "beat_group_1693",
+      "kind": "caption_moment",
+      "momentSec": 1353.87,
+      "relativeSec": 21.015,
+      "cueIds": [
+        "cue-01412",
+        "cue-01413",
+        "cue-01414"
+      ],
+      "text": "inside the bushes",
+      "captionWindow": "speaker_4: see where she goes | speaker_4: So the turtle went | speaker_4: inside the bushes | speaker_4: She's just there | speaker_4: I don't know if she's",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.24,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.2,
+        "moment.mean_boundary_strength": 0.2,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_d3c5568740c90d82:cue_end_minus_80ms:1353.740000",
+          "targetSec": 1353.74,
+          "relativeSec": 20.885,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01412"
+          ],
+          "wordIds": [
+            "word-04228"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-162"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d3c5568740c90d82:final_word_end:1353.820000",
+          "targetSec": 1353.82,
+          "relativeSec": 20.965,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01412"
+          ],
+          "wordIds": [
+            "word-04228"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-162"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_acc4ee73915cd439:zoom_onset:1353.919233",
+          "targetSec": 1353.919,
+          "relativeSec": 21.064,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-01412",
+            "cue-01413",
+            "cue-01414"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-162"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_acc4ee73915cd439:cue_start:1353.980000",
+          "targetSec": 1353.98,
+          "relativeSec": 21.125,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01412",
+            "cue-01413",
+            "cue-01414"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-162"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_0ff409066f24d447",
+      "beatGroupId": "beat_group_1697",
+      "kind": "caption_moment",
+      "momentSec": 1356.86,
+      "relativeSec": 24.005,
+      "cueIds": [
+        "cue-01415"
+      ],
+      "text": "laying the eggs or not",
+      "captionWindow": "speaker_4: She's just there | speaker_4: I don't know if she's | speaker_4: laying the eggs or not | speaker_4: But | speaker_4: we didn't wanna wait anymore",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_854fddd947066b1b:cue_end_minus_80ms:1356.780000",
+          "targetSec": 1356.78,
+          "relativeSec": 23.925,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01415"
+          ],
+          "wordIds": [
+            "word-04241"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_854fddd947066b1b:final_word_end:1356.860000",
+          "targetSec": 1356.86,
+          "relativeSec": 24.005,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01415"
+          ],
+          "wordIds": [
+            "word-04241"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_854fddd947066b1b:pause_boundary:1356.860000",
+          "targetSec": 1356.86,
+          "relativeSec": 24.005,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-01415"
+          ],
+          "wordIds": [
+            "word-04241"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_8f4281c431a37135",
+      "beatGroupId": "beat_group_1698",
+      "kind": "caption_moment",
+      "momentSec": 1358.14,
+      "relativeSec": 25.285,
+      "cueIds": [
+        "cue-01416"
+      ],
+      "text": "But",
+      "captionWindow": "speaker_4: I don't know if she's | speaker_4: laying the eggs or not | speaker_4: But | speaker_4: we didn't wanna wait anymore | speaker_4: so George and suri are",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.42,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_b4a0f2591cbad7de:cue_start:1357.820000",
+          "targetSec": 1357.82,
+          "relativeSec": 24.965,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01416"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_3b2bdf17b6f5a382:final_word_end:1358.140000",
+          "targetSec": 1358.14,
+          "relativeSec": 25.285,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01416"
+          ],
+          "wordIds": [
+            "word-04242"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_3b2bdf17b6f5a382:cue_end_minus_80ms:1358.240000",
+          "targetSec": 1358.24,
+          "relativeSec": 25.385,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01416"
+          ],
+          "wordIds": [
+            "word-04242"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_3cc2400bdb89ce7b",
+      "beatGroupId": "beat_group_1699",
+      "kind": "caption_moment",
+      "momentSec": 1358.32,
+      "relativeSec": 25.465,
+      "cueIds": [
+        "000de897-afeb-4abb-9dfd-eaf19ac29d06"
+      ],
+      "text": "we didn't wanna wait anymore",
+      "captionWindow": "speaker_4: laying the eggs or not | speaker_4: But | speaker_4: we didn't wanna wait anymore | speaker_4: so George and suri are | speaker_4: gonna be going",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_63f7273d6f5b6bf1:cue_start:1358.320000",
+          "targetSec": 1358.32,
+          "relativeSec": 25.465,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "000de897-afeb-4abb-9dfd-eaf19ac29d06"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_4d44e0fce439c350",
+      "beatGroupId": "beat_group_1700",
+      "kind": "caption_moment",
+      "momentSec": 1359.3,
+      "relativeSec": 26.445,
+      "cueIds": [
+        "000de897-afeb-4abb-9dfd-eaf19ac29d06",
+        "cue-01417"
+      ],
+      "text": "we didn't wanna wait anymore",
+      "captionWindow": "speaker_4: laying the eggs or not | speaker_4: But | speaker_4: we didn't wanna wait anymore | speaker_4: so George and suri are | speaker_4: gonna be going",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.18,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_29d355955b4d28df:cue_end_minus_80ms:1359.220000",
+          "targetSec": 1359.22,
+          "relativeSec": 26.365,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "000de897-afeb-4abb-9dfd-eaf19ac29d06"
+          ],
+          "wordIds": [
+            "word-04247"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_29d355955b4d28df:final_word_end:1359.300000",
+          "targetSec": 1359.3,
+          "relativeSec": 26.445,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "000de897-afeb-4abb-9dfd-eaf19ac29d06"
+          ],
+          "wordIds": [
+            "word-04247"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_47ebfc797cd741d1:cue_start:1359.400000",
+          "targetSec": 1359.4,
+          "relativeSec": 26.545,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01417"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_65e02a27cc45ce1f",
+      "beatGroupId": "beat_group_1701",
+      "kind": "caption_moment",
+      "momentSec": 1360.13,
+      "relativeSec": 27.275,
+      "cueIds": [
+        "cue-01417",
+        "cue-01418"
+      ],
+      "text": "so George and suri are",
+      "captionWindow": "speaker_4: But | speaker_4: we didn't wanna wait anymore | speaker_4: so George and suri are | speaker_4: gonna be going | speaker_4: inside the pool",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_9741888e92363532:cue_end_minus_80ms:1360.060000",
+          "targetSec": 1360.06,
+          "relativeSec": 27.205,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-01417",
+            "cue-01418"
+          ],
+          "wordIds": [
+            "word-04252"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_9741888e92363532:final_word_end:1360.130000",
+          "targetSec": 1360.13,
+          "relativeSec": 27.275,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-01417",
+            "cue-01418"
+          ],
+          "wordIds": [
+            "word-04252"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_9741888e92363532:cue_start:1360.140000",
+          "targetSec": 1360.14,
+          "relativeSec": 27.285,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01417",
+            "cue-01418"
+          ],
+          "wordIds": [
+            "word-04252"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_ad276477d8998ea9",
+      "beatGroupId": "beat_group_1702",
+      "kind": "caption_moment",
+      "momentSec": 1360.61,
+      "relativeSec": 27.755,
+      "cueIds": [
+        "2d4c8a00-1e79-4824-a6d9-92a17cd8abc4",
+        "cue-01418"
+      ],
+      "text": "gonna be going",
+      "captionWindow": "speaker_4: we didn't wanna wait anymore | speaker_4: so George and suri are | speaker_4: gonna be going | speaker_4: inside the pool | speaker_3: And I'm going",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_87728a4d8e8ca90c:cue_end_minus_80ms:1360.530000",
+          "targetSec": 1360.53,
+          "relativeSec": 27.675,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "2d4c8a00-1e79-4824-a6d9-92a17cd8abc4",
+            "cue-01418"
+          ],
+          "wordIds": [
+            "word-04255"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_87728a4d8e8ca90c:cue_start:1360.610000",
+          "targetSec": 1360.61,
+          "relativeSec": 27.755,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "2d4c8a00-1e79-4824-a6d9-92a17cd8abc4",
+            "cue-01418"
+          ],
+          "wordIds": [
+            "word-04255"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_87728a4d8e8ca90c:final_word_end:1360.610000",
+          "targetSec": 1360.61,
+          "relativeSec": 27.755,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "2d4c8a00-1e79-4824-a6d9-92a17cd8abc4",
+            "cue-01418"
+          ],
+          "wordIds": [
+            "word-04255"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_84c7ba96e765c7de",
+      "beatGroupId": "beat_group_1708",
+      "kind": "caption_moment",
+      "momentSec": 1365.18,
+      "relativeSec": 32.325,
+      "cueIds": [
+        "cue-00588",
+        "cue-00590"
+      ],
+      "text": "She's going in the Cheeto",
+      "captionWindow": "speaker_3: And I'm going | speaker_3: on the Cheetos floaty | speaker_4: She's going in the Cheeto | speaker_4: And whoever falls first loses | speaker_3: What do we win?",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.197,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.5,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_d68a2f7b53d70b9c:cue_end_minus_80ms:1365.100000",
+          "targetSec": 1365.1,
+          "relativeSec": 32.245,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00588"
+          ],
+          "wordIds": [
+            "word-04268"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-163"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d68a2f7b53d70b9c:final_word_end:1365.180000",
+          "targetSec": 1365.18,
+          "relativeSec": 32.325,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00588"
+          ],
+          "wordIds": [
+            "word-04268"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-163"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d68a2f7b53d70b9c:pause_boundary:1365.180000",
+          "targetSec": 1365.18,
+          "relativeSec": 32.325,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00588"
+          ],
+          "wordIds": [
+            "word-04268"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-163"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_21076db7635be110:zoom_onset:1365.297267",
+          "targetSec": 1365.297,
+          "relativeSec": 32.442,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00588",
+            "cue-00590"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-163"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "none",
+      "momentText": "Wait there",
+      "captionWindow": "speaker_4: What? | speaker_3: I don't know | speaker_1: Wait there | speaker_1: wait | speaker_4: What are you gonna do?",
+      "timing": null,
+      "similarity": 0.0243
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "none",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_3: What do you | speaker_3: think they want? | speaker_1: I don't know | speaker_1: Let's see if we | speaker_1: can get them something",
+      "timing": null,
+      "similarity": 0.0241
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "pop",
+      "momentText": "Okay",
+      "captionWindow": "speaker_3: I already told you | speaker_3: I'm going into the pool | speaker_1: Okay | speaker_1: Should we turn on the jacuzzi? | speaker_1: What do you think",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8095899e3242519a:zoom_onset:904.503600",
+        "anchorType": "zoom_onset",
+        "targetSec": 904.504
+      },
+      "similarity": 0.0211
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "pop",
+      "momentText": "What are you gonna do?",
+      "captionWindow": "speaker_6: Right here bambi | speaker_1: You gotta use the bathroom? | speaker_1: What are you gonna do? | speaker_6: No | speaker_3: I wanna try",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1a0bd9560b6fa0d6:zoom_onset:795.895100",
+        "anchorType": "zoom_onset",
+        "targetSec": 795.895
+      },
+      "similarity": 0.0194
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "ding",
+      "momentText": "I'm going into the pool",
+      "captionWindow": "speaker_3: I don't know about you | speaker_3: but | speaker_3: I'm going into the pool | speaker_1: So Terah wants to get | speaker_1: inside the water",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_fe544fb3d5809dde:cue_end_minus_80ms:884.318000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 884.318
+      },
+      "similarity": 0.0239
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "ding",
+      "momentText": "but i think",
+      "captionWindow": "speaker_1: and first | speaker_1: I said no | speaker_1: but i think | speaker_1: I'm gonna be getting it | speaker_1: You want it?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f4cef5377e125df9:pause_boundary:1448.760000",
+        "anchorType": "pause_boundary",
+        "targetSec": 1448.76
+      },
+      "similarity": 0.0206
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "I'm gonna be",
+      "captionWindow": "speaker_4: Guys | speaker_4: look at this thing | speaker_4: I'm gonna be | speaker_4: going inside because | speaker_4: I think it's pretty cool",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d713ddecc8e941f6:cue_end_minus_80ms:437.044000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 437.044
+      },
+      "similarity": 0.0196
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "success",
+      "momentText": "are gonna be getting the cake",
+      "captionWindow": "speaker_1: guys | speaker_1: So me and Suri | speaker_1: are gonna be getting the cake | speaker_1: We got some snacks here | speaker_1: And the decoration",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_691dca84f61fdb8a:cue_end_minus_80ms:27.380000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 27.38
+      },
+      "similarity": 0.0192
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bonk",
+      "momentText": "wait",
+      "captionWindow": "speaker_3: I don't know | speaker_1: Wait there | speaker_1: wait | speaker_4: What are you gonna do? | speaker_1: Just wait",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_acbf0bc06ab9aaa3:cue_start:1205.030000",
+        "anchorType": "cue_start",
+        "targetSec": 1205.03
+      },
+      "similarity": 0.0235
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "bonk",
+      "momentText": "What are you talking about?",
+      "captionWindow": "speaker_3: She's in the back | speaker_1: Art? | speaker_1: What are you talking about? | speaker_4: I don't know | speaker_4: math?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_7e6283867e9ba419:zoom_onset:14.698017",
+        "anchorType": "zoom_onset",
+        "targetSec": 14.698
+      },
+      "similarity": 0.0204
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "funny",
+      "momentText": "I don't know about you",
+      "captionWindow": "speaker_1: I don't know | speaker_1: Terah | speaker_3: I don't know about you | speaker_3: but | speaker_3: I'm going into the pool",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e91011a524a59b08:pause_boundary:882.853099",
+        "anchorType": "pause_boundary",
+        "targetSec": 882.853
+      },
+      "similarity": 0.0216
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "funny",
+      "momentText": "I'm going into the pool",
+      "captionWindow": "speaker_1: Why are you wearing that? | speaker_3: I already told you | speaker_3: I'm going into the pool | speaker_1: Okay | speaker_1: Should we turn on the jacuzzi?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_62f91198c6806928:final_word_end:903.498000",
+        "anchorType": "final_word_end",
+        "targetSec": 903.498
+      },
+      "similarity": 0.0216
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "bruh",
+      "momentText": "Wait what?",
+      "captionWindow": "speaker_3: What the heck? | speaker_3: You put tiptik on your eyes | speaker_4: Wait what? | speaker_2: she did? | speaker_3: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_6660df5a398256dd:cue_start:53.197390",
+        "anchorType": "cue_start",
+        "targetSec": 53.197
+      },
+      "similarity": 0.017
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "bruh",
+      "momentText": "it's at 3:00",
+      "captionWindow": "speaker_1: No | speaker_1: amor | speaker_1: it's at 3:00 | speaker_3: pa they're gonna come | speaker_1: George",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_102efcfddb7a29bb:zoom_onset:238.171267",
+        "anchorType": "zoom_onset",
+        "targetSec": 238.171
+      },
+      "similarity": 0.0158
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "record_scratch",
+      "momentText": "but I thought",
+      "captionWindow": "speaker_3: not me | speaker_1: He's awake | speaker_1: but I thought | speaker_1: you were gonna be awake | speaker_3: What do you think mama?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_cab676e27bd0eeb8:internal_pause_word_end:500.780000",
+        "anchorType": "internal_pause_word_end",
+        "targetSec": 500.78
+      },
+      "similarity": 0.0206
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "record_scratch",
+      "momentText": "And she's like",
+      "captionWindow": "speaker_1: \"Okay so\" | speaker_1: \"what is the book talking about?\" | speaker_1: And she's like | speaker_1: \"I don't know\" | speaker_2: And I'm like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_197b09c8ba683a55:zoom_onset:71.221150",
+        "anchorType": "zoom_onset",
+        "targetSec": 71.221
+      },
+      "similarity": 0.0186
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "dramatic",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_3: It's there | speaker_1: Did they grab it? | speaker_1: I don't know | speaker_1: What do you think? | speaker_3: Let me see if it's",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f6be886e2a52078e:zoom_onset:1117.399617",
+        "anchorType": "zoom_onset",
+        "targetSec": 1117.4
+      },
+      "similarity": 0.0227
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "dramatic",
+      "momentText": "are not gonna come",
+      "captionWindow": "speaker_1: What do you mean? | speaker_3: I think his friends | speaker_3: are not gonna come | speaker_1: Amor | speaker_1: you know they're gonna be",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_38a4415eb44977a6:zoom_onset:229.028800",
+        "anchorType": "zoom_onset",
+        "targetSec": 229.029
+      },
+      "similarity": 0.0216
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_3: It's there | speaker_1: Did they grab it? | speaker_1: I don't know | speaker_1: What do you think? | speaker_3: Let me see if it's",
+      "timing": null,
+      "similarity": 0.0227
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_5: Do you think she's in | speaker_5: pain right now? | speaker_1: I don't know | speaker_1: Well no | speaker_1: because I'm carrying her",
+      "timing": null,
+      "similarity": 0.0212
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

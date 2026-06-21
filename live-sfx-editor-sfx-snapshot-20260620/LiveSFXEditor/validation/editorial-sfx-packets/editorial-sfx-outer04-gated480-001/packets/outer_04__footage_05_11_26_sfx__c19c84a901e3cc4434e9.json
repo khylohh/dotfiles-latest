@@ -1,0 +1,527 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "c19c84a901e3cc4434e9",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000471370_23",
+  "coreStartSec": 471.37,
+  "coreEndSec": 480.0,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_cc2bf9cac03425d3",
+    "caption_moment_79614d4631d9cc15"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_2680462f26a02205:cue_end_minus_80ms:476.560000",
+    "cand_caption_beat_2680462f26a02205:final_word_end:476.640000",
+    "cand_caption_beat_4aa1c1f8078dfa7d:pause_boundary:473.230015",
+    "cand_caption_beat_55fb7facfa6def87:zoom_onset:473.473000",
+    "cand_caption_beat_7fdc91c4dcb5396e:cue_start:476.726045",
+    "cand_caption_beat_7fdc91c4dcb5396e:speaker_turn_start:476.726045",
+    "cand_caption_beat_7fdc91c4dcb5396e:zoom_onset:476.809667",
+    "cand_caption_beat_bdfebd7d60c7c5d4:cue_end_minus_80ms:473.150015",
+    "cand_caption_beat_bdfebd7d60c7c5d4:internal_pause_word_end:473.080000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_cc2bf9cac03425d3",
+      "beatGroupId": "beat_group_623",
+      "kind": "caption_moment",
+      "momentSec": 473.19,
+      "relativeSec": 1.82,
+      "cueIds": [
+        "cue-00261",
+        "cue-00263"
+      ],
+      "text": "too",
+      "captionWindow": "speaker_1: cherry and Fanta | speaker_1: coke which is really tastey | speaker_1: too | speaker_1: you're supposed to be clapping | speaker_2: oh i'm sorry",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.393,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.2,
+        "moment.mean_boundary_strength": 0.175,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_bdfebd7d60c7c5d4:internal_pause_word_end:473.080000",
+          "targetSec": 473.08,
+          "relativeSec": 1.71,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00263"
+          ],
+          "wordIds": [
+            "word-01519"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-62"
+          ],
+          "boundaryStrength": 0.15,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_bdfebd7d60c7c5d4:cue_end_minus_80ms:473.150015",
+          "targetSec": 473.15,
+          "relativeSec": 1.78,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00263"
+          ],
+          "wordIds": [
+            "word-01519"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-62"
+          ],
+          "boundaryStrength": 0.15,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_4aa1c1f8078dfa7d:pause_boundary:473.230015",
+          "targetSec": 473.23,
+          "relativeSec": 1.86,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00263"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-62"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_55fb7facfa6def87:zoom_onset:473.473000",
+          "targetSec": 473.473,
+          "relativeSec": 2.103,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00261",
+            "cue-00263"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-62"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_79614d4631d9cc15",
+      "beatGroupId": "beat_group_626",
+      "kind": "caption_moment",
+      "momentSec": 476.726,
+      "relativeSec": 5.356,
+      "cueIds": [
+        "cue-00265",
+        "cue-00266",
+        "cue-00267"
+      ],
+      "text": "oh i'm sorry",
+      "captionWindow": "speaker_1: too | speaker_1: you're supposed to be clapping | speaker_2: oh i'm sorry | speaker_2: Bravo! | speaker_2: It's because",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.25,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.5,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_2680462f26a02205:cue_end_minus_80ms:476.560000",
+          "targetSec": 476.56,
+          "relativeSec": 5.19,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00265"
+          ],
+          "wordIds": [
+            "word-01530"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-63"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_2680462f26a02205:final_word_end:476.640000",
+          "targetSec": 476.64,
+          "relativeSec": 5.27,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00265"
+          ],
+          "wordIds": [
+            "word-01530"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-63"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_7fdc91c4dcb5396e:cue_start:476.726045",
+          "targetSec": 476.726,
+          "relativeSec": 5.356,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00265",
+            "cue-00266",
+            "cue-00267"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-63"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_7fdc91c4dcb5396e:speaker_turn_start:476.726045",
+          "targetSec": 476.726,
+          "relativeSec": 5.356,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00265",
+            "cue-00266",
+            "cue-00267"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-63"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_7fdc91c4dcb5396e:zoom_onset:476.809667",
+          "targetSec": 476.81,
+          "relativeSec": 5.44,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00265",
+            "cue-00266",
+            "cue-00267"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-63"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "none",
+      "momentText": "Oh",
+      "captionWindow": "speaker_1: Yeah | speaker_1: because | speaker_2: Oh | speaker_2: it's actually my first | speaker_2: time too because",
+      "timing": null,
+      "similarity": 0.1392
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "none",
+      "momentText": "Oh yummy",
+      "captionWindow": "speaker_2: I'm gonna be getting one | speaker_1: Okay | speaker_2: Oh yummy | speaker_1: It's so hot | speaker_2: Yeah",
+      "timing": null,
+      "similarity": 0.1354
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "pop",
+      "momentText": "I'm gonna",
+      "captionWindow": "speaker_1: to the house | speaker_1: and | speaker_1: I'm gonna | speaker_1: be opening this | speaker_2: Okay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5f4287396854ae39:zoom_onset:832.198033",
+        "anchorType": "zoom_onset",
+        "targetSec": 832.198
+      },
+      "similarity": 0.1331
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "pop",
+      "momentText": "Mine too",
+      "captionWindow": "speaker_2: favorite books | speaker_1: Mine | speaker_2: Mine too | speaker_2: Because she reads | speaker_2: and I lay down",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_dcff46a8f09b2849:zoom_onset:60.009950",
+        "anchorType": "zoom_onset",
+        "targetSec": 60.01
+      },
+      "similarity": 0.1183
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "ding",
+      "momentText": "I'm gonna be getting one",
+      "captionWindow": "speaker_2: Oh my God | speaker_2: That's pretty cool | speaker_2: I'm gonna be getting one | speaker_1: Okay | speaker_2: Oh yummy",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_51c1af16f5b4c2a5:final_word_end:165.920000",
+        "anchorType": "final_word_end",
+        "targetSec": 165.92
+      },
+      "similarity": 0.1265
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "ding",
+      "momentText": "Oh",
+      "captionWindow": "speaker_1: Like this | speaker_1: You have to | speaker_2: Oh | speaker_2: okay | speaker_1: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_819c02593c7565f4:cue_start:286.320000",
+        "anchorType": "cue_start",
+        "targetSec": 286.32
+      },
+      "similarity": 0.1255
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "success",
+      "momentText": "be opening this",
+      "captionWindow": "speaker_1: and | speaker_1: I'm gonna | speaker_1: be opening this | speaker_2: Okay | speaker_2: You wanna open it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_aa0a083f95806e2a:final_word_end:833.212000",
+        "anchorType": "final_word_end",
+        "targetSec": 833.212
+      },
+      "similarity": 0.1242
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "success",
+      "momentText": "able to get something",
+      "captionWindow": "speaker_1: and then you're | speaker_1: gonna be | speaker_1: able to get something | speaker_1: 'Cause it's the last | speaker_1: day of school",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e81d899da8ec0b2d:cue_end_minus_80ms:591.440000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 591.44
+      },
+      "similarity": 0.1224
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bonk",
+      "momentText": "Oh okay",
+      "captionWindow": "speaker_1: that's supposed to | speaker_1: be in the front | speaker_6: Oh okay | speaker_6: I'm sorry | speaker_1: Yeah like that",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_9cf6ec785887b386:internal_pause_word_end:731.500000",
+        "anchorType": "internal_pause_word_end",
+        "targetSec": 731.5
+      },
+      "similarity": 0.1331
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "bonk",
+      "momentText": "to be doing this one",
+      "captionWindow": "speaker_1: okay? | speaker_1: You're too little | speaker_1: to be doing this one | speaker_5: No | speaker_1: You're a baby",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_6f6886c610673eb9:final_word_end:435.508000",
+        "anchorType": "final_word_end",
+        "targetSec": 435.508
+      },
+      "similarity": 0.1274
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "funny",
+      "momentText": "enjoying the place",
+      "captionWindow": "speaker_2: you're coming with | speaker_2: You're gonna be | speaker_2: enjoying the place | speaker_4: Okay | speaker_1: And guys",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e18618c630e6428a:zoom_onset:73.239833",
+        "anchorType": "zoom_onset",
+        "targetSec": 73.24
+      },
+      "similarity": 0.1144
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "funny",
+      "momentText": "Oh my God",
+      "captionWindow": "speaker_1: me pushing George | speaker_1: super hard | speaker_2: Oh my God | speaker_2: Bro | speaker_2: I'm going so high",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8890fb7c8d6ee894:cue_end_minus_80ms:532.328000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 532.328
+      },
+      "similarity": 0.1134
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bruh",
+      "momentText": "nobody wins",
+      "captionWindow": "speaker_1: but listen | speaker_1: if Suri is awake too | speaker_1: nobody wins | speaker_1: George | speaker_1: Wait",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1a399265a0db96c6:final_word_end:427.860000",
+        "anchorType": "final_word_end",
+        "targetSec": 427.86
+      },
+      "similarity": 0.0991
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "bruh",
+      "momentText": "bebe",
+      "captionWindow": "speaker_3: That's it | speaker_1: You're going too high | speaker_1: bebe | speaker_1: You're going too high | speaker_3: you're going to high bebe",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f70e2f1ef2d0f1c8:final_word_end:563.468000",
+        "anchorType": "final_word_end",
+        "targetSec": 563.468
+      },
+      "similarity": 0.0976
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "record_scratch",
+      "momentText": "how could you",
+      "captionWindow": "speaker_1: the last day of school | speaker_1: you're pranking us | speaker_1: how could you | speaker_3: Oh | speaker_3: I'm so sorry",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_6458d9ffc4be1fe3:pause_boundary:1159.540000",
+        "anchorType": "pause_boundary",
+        "targetSec": 1159.54
+      },
+      "similarity": 0.103
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "record_scratch",
+      "momentText": "to",
+      "captionWindow": "speaker_3: Where? | speaker_1: I'll be taking you | speaker_1: to | speaker_1: I can't tell you | speaker_1: We're gonna go right now",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_abd23f7415d9dde6:pause_boundary:584.420000",
+        "anchorType": "pause_boundary",
+        "targetSec": 584.42
+      },
+      "similarity": 0.103
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "dramatic",
+      "momentText": "What is this supposed to be?",
+      "captionWindow": "speaker_2: for the girls | speaker_2: the little ones | speaker_1: What is this supposed to be? | speaker_2: You want one too? | speaker_4: They go in the water",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_12de4b97a7e7dc82:zoom_onset:247.866667",
+        "anchorType": "zoom_onset",
+        "targetSec": 247.867
+      },
+      "similarity": 0.1276
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "dramatic",
+      "momentText": "It's supposed to be so good",
+      "captionWindow": "speaker_2: Cutting the cake | speaker_2: guys | speaker_2: It's supposed to be so good | speaker_4: ASMR | speaker_2: Are those big gums?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_771cbaef9a3954a7:final_word_end:1350.564000",
+        "anchorType": "final_word_end",
+        "targetSec": 1350.564
+      },
+      "similarity": 0.1248
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "other_sfx",
+      "momentText": "i feel like i'm gonna vomit",
+      "captionWindow": "speaker_2: find a Starbucks | speaker_2: to go to the restroom | speaker_1: i feel like i'm gonna vomit | speaker_2: Me too | speaker_2: me too",
+      "timing": null,
+      "similarity": 0.118
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "other_sfx",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_3: and he doesn't even have | speaker_3: to bring his backpack | speaker_1: Yeah | speaker_1: It's because you're already | speaker_1: a big kid now",
+      "timing": null,
+      "similarity": 0.1144
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

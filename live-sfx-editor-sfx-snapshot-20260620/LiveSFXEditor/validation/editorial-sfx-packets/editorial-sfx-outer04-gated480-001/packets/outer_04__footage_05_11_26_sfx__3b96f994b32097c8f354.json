@@ -1,0 +1,2382 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "3b96f994b32097c8f354",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000192039_12",
+  "coreStartSec": 192.039,
+  "coreEndSec": 224.72,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_8a9317541f3315e9",
+    "caption_moment_26390ff5a049c5e8",
+    "caption_moment_387c8072ec33f4e9",
+    "caption_moment_f08b8804309f4694",
+    "caption_moment_63e71fe84aed8b0c",
+    "caption_moment_e32b572017e72a51",
+    "caption_moment_d140366554759d8e",
+    "caption_moment_85bd53dbe1382a72",
+    "caption_moment_cfbc24e6cf7f7ca3",
+    "caption_moment_fef4a74bb104d64d",
+    "caption_moment_2d4bf799b2cda8a5",
+    "caption_moment_3c93567951bc8031",
+    "caption_moment_30916b6c366132de",
+    "caption_moment_3198bbaa7b5ea3c6",
+    "caption_moment_0da85edcec678e8a",
+    "caption_moment_7d75c5a839238107",
+    "caption_moment_cc850b366860bc4d",
+    "caption_moment_a1b613692ffdd73c",
+    "caption_moment_9244e7c27c39773d"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_11e271ee71581964:cue_start:201.040000",
+    "cand_caption_beat_11e271ee71581964:speaker_turn_start:201.040000",
+    "cand_caption_beat_15b864321bfbe526:cue_end_minus_80ms:197.620000",
+    "cand_caption_beat_15b864321bfbe526:final_word_end:197.700000",
+    "cand_caption_beat_18809d93da8af9d8:cue_end_minus_80ms:200.220000",
+    "cand_caption_beat_18809d93da8af9d8:final_word_end:200.300000",
+    "cand_caption_beat_22a33228ab74e11f:internal_pause_word_end:220.500000",
+    "cand_caption_beat_2ab6dd11c02d5d84:cue_start:212.760000",
+    "cand_caption_beat_2f06312a3ba44984:cue_end_minus_80ms:197.180000",
+    "cand_caption_beat_2f06312a3ba44984:final_word_end:197.260000",
+    "cand_caption_beat_348f79c7cc1e8aea:cue_end_minus_80ms:212.219160",
+    "cand_caption_beat_348f79c7cc1e8aea:final_word_end:212.140000",
+    "cand_caption_beat_60b3390b2a9b311d:pause_boundary:212.299160",
+    "cand_caption_beat_632eb2fe10a4c777:cue_start:194.760000",
+    "cand_caption_beat_632eb2fe10a4c777:speaker_turn_start:194.760000",
+    "cand_caption_beat_632eb2fe10a4c777:zoom_onset:194.827967",
+    "cand_caption_beat_668de0916f4fab98:cue_end_minus_80ms:198.180000",
+    "cand_caption_beat_668de0916f4fab98:final_word_end:198.260000",
+    "cand_caption_beat_668de0916f4fab98:pause_boundary:198.260000",
+    "cand_caption_beat_6e6c20830b056485:cue_start:197.900000",
+    "cand_caption_beat_7725a77c35a7dc59:zoom_onset:220.620400",
+    "cand_caption_beat_8a971599822d0a4c:cue_end_minus_80ms:206.144000",
+    "cand_caption_beat_8d15cd5f815fe709:cue_end_minus_80ms:214.200000",
+    "cand_caption_beat_8d15cd5f815fe709:final_word_end:214.280000",
+    "cand_caption_beat_907673807da89c77:cue_start:197.420000",
+    "cand_caption_beat_907673807da89c77:speaker_turn_start:197.420000",
+    "cand_caption_beat_935bc5b9aaeadee2:cue_end_minus_80ms:215.170000",
+    "cand_caption_beat_935bc5b9aaeadee2:cue_start:215.250000",
+    "cand_caption_beat_935bc5b9aaeadee2:final_word_end:215.240000",
+    "cand_caption_beat_9686c09b75e6331f:cue_end_minus_80ms:201.940000",
+    "cand_caption_beat_9686c09b75e6331f:final_word_end:202.020000",
+    "cand_caption_beat_9686c09b75e6331f:pause_boundary:202.020000",
+    "cand_caption_beat_9c590e8254e2185f:cue_end_minus_80ms:213.300000",
+    "cand_caption_beat_9c590e8254e2185f:final_word_end:213.380000",
+    "cand_caption_beat_9c590e8254e2185f:pause_boundary:213.380000",
+    "cand_caption_beat_a2a6c0a4d1c328c1:cue_start:213.100000",
+    "cand_caption_beat_a94cfa723ac6d799:final_word_end:199.280000",
+    "cand_caption_beat_bcd9dc20891d7f0d:cue_start:211.880000",
+    "cand_caption_beat_bcd9dc20891d7f0d:speaker_turn_start:211.880000",
+    "cand_caption_beat_c49541d838e78a14:cue_start:203.132512",
+    "cand_caption_beat_c49541d838e78a14:speaker_turn_start:203.132512",
+    "cand_caption_beat_cd563d83024f8830:cue_end_minus_80ms:201.240000",
+    "cand_caption_beat_cd563d83024f8830:cue_start:201.320000",
+    "cand_caption_beat_cd563d83024f8830:final_word_end:201.340000",
+    "cand_caption_beat_cd563d83024f8830:internal_pause_word_end:201.300000",
+    "cand_caption_beat_cdda4445b0c4b385:cue_end_minus_80ms:199.405479",
+    "cand_caption_beat_cdda4445b0c4b385:pause_boundary:199.485479",
+    "cand_caption_beat_d6bfe858e3476fcd:cue_start:205.104000",
+    "cand_caption_beat_d7f2a91d8cd5de3f:cue_start:199.940000",
+    "cand_caption_beat_d7f2a91d8cd5de3f:zoom_onset:199.866333",
+    "cand_caption_beat_e2c22240e693a904:cue_start:214.420000",
+    "cand_caption_beat_e2c22240e693a904:speaker_turn_start:214.420000",
+    "cand_caption_beat_e72b55f2cd91d7f5:cue_start:213.980000",
+    "cand_caption_beat_e72b55f2cd91d7f5:speaker_turn_start:213.980000",
+    "cand_caption_beat_e72b55f2cd91d7f5:zoom_onset:213.913700",
+    "cand_caption_beat_e748306035d3b689:cue_start:206.304000",
+    "cand_caption_beat_e748306035d3b689:final_word_end:206.280000",
+    "cand_caption_beat_e768eccbdcf2d7a3:internal_pause_word_end:200.040000",
+    "cand_caption_beat_eb184d686825b2e2:cue_end_minus_80ms:204.944000",
+    "cand_caption_beat_eb184d686825b2e2:final_word_end:204.920000",
+    "cand_caption_beat_eb1e2794680ea46e:cue_start:198.820000",
+    "cand_caption_beat_eb1e2794680ea46e:speaker_turn_start:198.820000",
+    "cand_caption_beat_f3f4dd26f75e66b3:cue_end_minus_80ms:212.975673",
+    "cand_caption_beat_f3f4dd26f75e66b3:final_word_end:213.000000",
+    "cand_caption_beat_fadcb239407388f2:cue_end_minus_80ms:194.560000",
+    "cand_caption_beat_fadcb239407388f2:final_word_end:194.640000",
+    "cand_caption_beat_fd48712d8566d986:cue_end_minus_80ms:203.760000",
+    "cand_caption_beat_fd48712d8566d986:cue_start:203.840000",
+    "cand_caption_beat_fd48712d8566d986:final_word_end:203.760000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_8a9317541f3315e9",
+      "beatGroupId": "beat_group_262",
+      "kind": "caption_moment",
+      "momentSec": 194.76,
+      "relativeSec": 2.721,
+      "cueIds": [
+        "cue-00707",
+        "cue-00710",
+        "cue-00711",
+        "df17d018-fa31-465e-a3f4-a95c2ec63426"
+      ],
+      "text": "That's smart",
+      "captionWindow": "speaker_2: I keep | speaker_2: the bottle | speaker_1: That's smart | speaker_1: I never | speaker_1: would've thought of that",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.268,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.38,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_fadcb239407388f2:cue_end_minus_80ms:194.560000",
+          "targetSec": 194.56,
+          "relativeSec": 2.521,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00707"
+          ],
+          "wordIds": [
+            "word-00673"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-26"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_fadcb239407388f2:final_word_end:194.640000",
+          "targetSec": 194.64,
+          "relativeSec": 2.601,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00707"
+          ],
+          "wordIds": [
+            "word-00673"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-26"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_632eb2fe10a4c777:cue_start:194.760000",
+          "targetSec": 194.76,
+          "relativeSec": 2.721,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00707",
+            "cue-00710",
+            "cue-00711",
+            "df17d018-fa31-465e-a3f4-a95c2ec63426"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-26"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_632eb2fe10a4c777:speaker_turn_start:194.760000",
+          "targetSec": 194.76,
+          "relativeSec": 2.721,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00707",
+            "cue-00710",
+            "cue-00711",
+            "df17d018-fa31-465e-a3f4-a95c2ec63426"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-26"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_632eb2fe10a4c777:zoom_onset:194.827967",
+          "targetSec": 194.828,
+          "relativeSec": 2.789,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00707",
+            "cue-00710",
+            "cue-00711",
+            "df17d018-fa31-465e-a3f4-a95c2ec63426"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-26"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_26390ff5a049c5e8",
+      "beatGroupId": "beat_group_266",
+      "kind": "caption_moment",
+      "momentSec": 197.22,
+      "relativeSec": 5.181,
+      "cueIds": [
+        "df17d018-fa31-465e-a3f4-a95c2ec63426"
+      ],
+      "text": "would've thought of that",
+      "captionWindow": "speaker_1: That's smart | speaker_1: I never | speaker_1: would've thought of that | speaker_2: All right | speaker_2: you're done",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_2f06312a3ba44984:cue_end_minus_80ms:197.180000",
+          "targetSec": 197.18,
+          "relativeSec": 5.141,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "df17d018-fa31-465e-a3f4-a95c2ec63426"
+          ],
+          "wordIds": [
+            "word-00681"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_2f06312a3ba44984:final_word_end:197.260000",
+          "targetSec": 197.26,
+          "relativeSec": 5.221,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "df17d018-fa31-465e-a3f4-a95c2ec63426"
+          ],
+          "wordIds": [
+            "word-00681"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_387c8072ec33f4e9",
+      "beatGroupId": "beat_group_267",
+      "kind": "caption_moment",
+      "momentSec": 197.52,
+      "relativeSec": 5.481,
+      "cueIds": [
+        "cue-00712"
+      ],
+      "text": "All right",
+      "captionWindow": "speaker_1: I never | speaker_1: would've thought of that | speaker_2: All right | speaker_2: you're done | speaker_1: Yay",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.28,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_907673807da89c77:cue_start:197.420000",
+          "targetSec": 197.42,
+          "relativeSec": 5.381,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00712"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_907673807da89c77:speaker_turn_start:197.420000",
+          "targetSec": 197.42,
+          "relativeSec": 5.381,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00712"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_15b864321bfbe526:cue_end_minus_80ms:197.620000",
+          "targetSec": 197.62,
+          "relativeSec": 5.581,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00712"
+          ],
+          "wordIds": [
+            "word-00683"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_15b864321bfbe526:final_word_end:197.700000",
+          "targetSec": 197.7,
+          "relativeSec": 5.661,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00712"
+          ],
+          "wordIds": [
+            "word-00683"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_f08b8804309f4694",
+      "beatGroupId": "beat_group_268",
+      "kind": "caption_moment",
+      "momentSec": 198.22,
+      "relativeSec": 6.181,
+      "cueIds": [
+        "cue-00713"
+      ],
+      "text": "you're done",
+      "captionWindow": "speaker_1: would've thought of that | speaker_2: All right | speaker_2: you're done | speaker_1: Yay | speaker_1: Is it good?",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.36,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_6e6c20830b056485:cue_start:197.900000",
+          "targetSec": 197.9,
+          "relativeSec": 5.861,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00713"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_668de0916f4fab98:cue_end_minus_80ms:198.180000",
+          "targetSec": 198.18,
+          "relativeSec": 6.141,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00713"
+          ],
+          "wordIds": [
+            "word-00685"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_668de0916f4fab98:final_word_end:198.260000",
+          "targetSec": 198.26,
+          "relativeSec": 6.221,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00713"
+          ],
+          "wordIds": [
+            "word-00685"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_668de0916f4fab98:pause_boundary:198.260000",
+          "targetSec": 198.26,
+          "relativeSec": 6.221,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00713"
+          ],
+          "wordIds": [
+            "word-00685"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_63e71fe84aed8b0c",
+      "beatGroupId": "beat_group_269",
+      "kind": "caption_moment",
+      "momentSec": 198.82,
+      "relativeSec": 6.781,
+      "cueIds": [
+        "cue-00714"
+      ],
+      "text": "Yay",
+      "captionWindow": "speaker_2: All right | speaker_2: you're done | speaker_1: Yay | speaker_1: Is it good? | speaker_1: does it look good?",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.6,
+        "moment.mean_boundary_strength": 0.6,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_eb1e2794680ea46e:cue_start:198.820000",
+          "targetSec": 198.82,
+          "relativeSec": 6.781,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00714"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_eb1e2794680ea46e:speaker_turn_start:198.820000",
+          "targetSec": 198.82,
+          "relativeSec": 6.781,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00714"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_e32b572017e72a51",
+      "beatGroupId": "beat_group_270",
+      "kind": "caption_moment",
+      "momentSec": 199.405,
+      "relativeSec": 7.366,
+      "cueIds": [
+        "cue-00714"
+      ],
+      "text": "Yay",
+      "captionWindow": "speaker_2: All right | speaker_2: you're done | speaker_1: Yay | speaker_1: Is it good? | speaker_1: does it look good?",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.205,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.6,
+        "moment.mean_boundary_strength": 0.6,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_a94cfa723ac6d799:final_word_end:199.280000",
+          "targetSec": 199.28,
+          "relativeSec": 7.241,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00714"
+          ],
+          "wordIds": [
+            "word-00686"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cdda4445b0c4b385:cue_end_minus_80ms:199.405479",
+          "targetSec": 199.405,
+          "relativeSec": 7.366,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00714"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cdda4445b0c4b385:pause_boundary:199.485479",
+          "targetSec": 199.485,
+          "relativeSec": 7.446,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00714"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_d140366554759d8e",
+      "beatGroupId": "beat_group_271",
+      "kind": "caption_moment",
+      "momentSec": 200.04,
+      "relativeSec": 8.001,
+      "cueIds": [
+        "cue-00714",
+        "cue-00715",
+        "cue-00716"
+      ],
+      "text": "Is it good?",
+      "captionWindow": "speaker_2: you're done | speaker_1: Yay | speaker_1: Is it good? | speaker_1: does it look good? | speaker_2: Yeah",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop",
+        "success"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset",
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.434,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.85,
+        "moment.mean_boundary_strength": 0.65,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_d7f2a91d8cd5de3f:zoom_onset:199.866333",
+          "targetSec": 199.866,
+          "relativeSec": 7.827,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00714",
+            "cue-00715",
+            "cue-00716"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.7,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d7f2a91d8cd5de3f:cue_start:199.940000",
+          "targetSec": 199.94,
+          "relativeSec": 7.901,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00714",
+            "cue-00715",
+            "cue-00716"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.7,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e768eccbdcf2d7a3:internal_pause_word_end:200.040000",
+          "targetSec": 200.04,
+          "relativeSec": 8.001,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00715"
+          ],
+          "wordIds": [
+            "word-00687"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.85,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_18809d93da8af9d8:cue_end_minus_80ms:200.220000",
+          "targetSec": 200.22,
+          "relativeSec": 8.181,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00715"
+          ],
+          "wordIds": [
+            "word-00689"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_18809d93da8af9d8:final_word_end:200.300000",
+          "targetSec": 200.3,
+          "relativeSec": 8.261,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00715"
+          ],
+          "wordIds": [
+            "word-00689"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_85bd53dbe1382a72",
+      "beatGroupId": "beat_group_273",
+      "kind": "caption_moment",
+      "momentSec": 201.27,
+      "relativeSec": 9.231,
+      "cueIds": [
+        "cue-00717",
+        "cue-00718"
+      ],
+      "text": "Yeah",
+      "captionWindow": "speaker_1: Is it good? | speaker_1: does it look good? | speaker_2: Yeah | speaker_2: You look so beautiful | speaker_1: I am done",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 6.0,
+        "moment.span_sec": 0.3,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.45,
+        "moment.mean_boundary_strength": 0.4,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 2.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_11e271ee71581964:cue_start:201.040000",
+          "targetSec": 201.04,
+          "relativeSec": 9.001,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00717"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_11e271ee71581964:speaker_turn_start:201.040000",
+          "targetSec": 201.04,
+          "relativeSec": 9.001,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00717"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cd563d83024f8830:cue_end_minus_80ms:201.240000",
+          "targetSec": 201.24,
+          "relativeSec": 9.201,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00717",
+            "cue-00718"
+          ],
+          "wordIds": [
+            "word-00692",
+            "word-00693"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.45,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cd563d83024f8830:internal_pause_word_end:201.300000",
+          "targetSec": 201.3,
+          "relativeSec": 9.261,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00717",
+            "cue-00718"
+          ],
+          "wordIds": [
+            "word-00692",
+            "word-00693"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.45,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cd563d83024f8830:cue_start:201.320000",
+          "targetSec": 201.32,
+          "relativeSec": 9.281,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00717",
+            "cue-00718"
+          ],
+          "wordIds": [
+            "word-00692",
+            "word-00693"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.45,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cd563d83024f8830:final_word_end:201.340000",
+          "targetSec": 201.34,
+          "relativeSec": 9.301,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00717",
+            "cue-00718"
+          ],
+          "wordIds": [
+            "word-00692",
+            "word-00693"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-27"
+          ],
+          "boundaryStrength": 0.45,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_cfbc24e6cf7f7ca3",
+      "beatGroupId": "beat_group_274",
+      "kind": "caption_moment",
+      "momentSec": 202.02,
+      "relativeSec": 9.981,
+      "cueIds": [
+        "cue-00718"
+      ],
+      "text": "You look so beautiful",
+      "captionWindow": "speaker_1: does it look good? | speaker_2: Yeah | speaker_2: You look so beautiful | speaker_1: I am done | speaker_1: and look at my backpack",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_9686c09b75e6331f:cue_end_minus_80ms:201.940000",
+          "targetSec": 201.94,
+          "relativeSec": 9.901,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00718"
+          ],
+          "wordIds": [
+            "word-00696"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_9686c09b75e6331f:final_word_end:202.020000",
+          "targetSec": 202.02,
+          "relativeSec": 9.981,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00718"
+          ],
+          "wordIds": [
+            "word-00696"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_9686c09b75e6331f:pause_boundary:202.020000",
+          "targetSec": 202.02,
+          "relativeSec": 9.981,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00718"
+          ],
+          "wordIds": [
+            "word-00696"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_fef4a74bb104d64d",
+      "beatGroupId": "beat_group_275",
+      "kind": "caption_moment",
+      "momentSec": 203.133,
+      "relativeSec": 11.093,
+      "cueIds": [
+        "cue-00113"
+      ],
+      "text": "I am done",
+      "captionWindow": "speaker_2: Yeah | speaker_2: You look so beautiful | speaker_1: I am done | speaker_1: and look at my backpack | speaker_1: My best friend gave it to me",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.6,
+        "moment.mean_boundary_strength": 0.6,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_c49541d838e78a14:cue_start:203.132512",
+          "targetSec": 203.133,
+          "relativeSec": 11.093,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00113"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_c49541d838e78a14:speaker_turn_start:203.132512",
+          "targetSec": 203.133,
+          "relativeSec": 11.093,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00113"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_2d4bf799b2cda8a5",
+      "beatGroupId": "beat_group_276",
+      "kind": "caption_moment",
+      "momentSec": 203.76,
+      "relativeSec": 11.721,
+      "cueIds": [
+        "92d53507-7100-4d5a-95f0-8cf66b85cdc4",
+        "cue-00113"
+      ],
+      "text": "I am done",
+      "captionWindow": "speaker_2: Yeah | speaker_2: You look so beautiful | speaker_1: I am done | speaker_1: and look at my backpack | speaker_1: My best friend gave it to me",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.6,
+        "moment.mean_boundary_strength": 0.6,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_fd48712d8566d986:cue_end_minus_80ms:203.760000",
+          "targetSec": 203.76,
+          "relativeSec": 11.721,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "92d53507-7100-4d5a-95f0-8cf66b85cdc4",
+            "cue-00113"
+          ],
+          "wordIds": [
+            "word-00702"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_fd48712d8566d986:final_word_end:203.760000",
+          "targetSec": 203.76,
+          "relativeSec": 11.721,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "92d53507-7100-4d5a-95f0-8cf66b85cdc4",
+            "cue-00113"
+          ],
+          "wordIds": [
+            "word-00702"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_fd48712d8566d986:cue_start:203.840000",
+          "targetSec": 203.84,
+          "relativeSec": 11.801,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "92d53507-7100-4d5a-95f0-8cf66b85cdc4",
+            "cue-00113"
+          ],
+          "wordIds": [
+            "word-00702"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_3c93567951bc8031",
+      "beatGroupId": "beat_group_277",
+      "kind": "caption_moment",
+      "momentSec": 204.944,
+      "relativeSec": 12.905,
+      "cueIds": [
+        "92d53507-7100-4d5a-95f0-8cf66b85cdc4",
+        "cue-00114"
+      ],
+      "text": "and look at my backpack",
+      "captionWindow": "speaker_2: You look so beautiful | speaker_1: I am done | speaker_1: and look at my backpack | speaker_1: My best friend gave it to me | speaker_1: so yeah",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.184,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_eb184d686825b2e2:final_word_end:204.920000",
+          "targetSec": 204.92,
+          "relativeSec": 12.881,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "92d53507-7100-4d5a-95f0-8cf66b85cdc4"
+          ],
+          "wordIds": [
+            "word-00707"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_eb184d686825b2e2:cue_end_minus_80ms:204.944000",
+          "targetSec": 204.944,
+          "relativeSec": 12.905,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "92d53507-7100-4d5a-95f0-8cf66b85cdc4"
+          ],
+          "wordIds": [
+            "word-00707"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d6bfe858e3476fcd:cue_start:205.104000",
+          "targetSec": 205.104,
+          "relativeSec": 13.065,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00114"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_30916b6c366132de",
+      "beatGroupId": "beat_group_278",
+      "kind": "caption_moment",
+      "momentSec": 206.28,
+      "relativeSec": 14.241,
+      "cueIds": [
+        "cue-00114",
+        "cue-00115"
+      ],
+      "text": "My best friend gave it to me",
+      "captionWindow": "speaker_1: I am done | speaker_1: and look at my backpack | speaker_1: My best friend gave it to me | speaker_1: so yeah | speaker_1: thanks",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.16,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_8a971599822d0a4c:cue_end_minus_80ms:206.144000",
+          "targetSec": 206.144,
+          "relativeSec": 14.105,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00114"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e748306035d3b689:final_word_end:206.280000",
+          "targetSec": 206.28,
+          "relativeSec": 14.241,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00114",
+            "cue-00115"
+          ],
+          "wordIds": [
+            "word-00714"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e748306035d3b689:cue_start:206.304000",
+          "targetSec": 206.304,
+          "relativeSec": 14.265,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00114",
+            "cue-00115"
+          ],
+          "wordIds": [
+            "word-00714"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_3198bbaa7b5ea3c6",
+      "beatGroupId": "beat_group_286",
+      "kind": "caption_moment",
+      "momentSec": 212.14,
+      "relativeSec": 20.101,
+      "cueIds": [
+        "cue-00118"
+      ],
+      "text": "Yeah",
+      "captionWindow": "speaker_2: let's go | speaker_2: Let's go with George | speaker_1: Yeah | speaker_1: Oh | speaker_1: wait",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.419,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_bcd9dc20891d7f0d:cue_start:211.880000",
+          "targetSec": 211.88,
+          "relativeSec": 19.841,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00118"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_bcd9dc20891d7f0d:speaker_turn_start:211.880000",
+          "targetSec": 211.88,
+          "relativeSec": 19.841,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00118"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_348f79c7cc1e8aea:final_word_end:212.140000",
+          "targetSec": 212.14,
+          "relativeSec": 20.101,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00118"
+          ],
+          "wordIds": [
+            "word-00731"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_348f79c7cc1e8aea:cue_end_minus_80ms:212.219160",
+          "targetSec": 212.219,
+          "relativeSec": 20.18,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00118"
+          ],
+          "wordIds": [
+            "word-00731"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_60b3390b2a9b311d:pause_boundary:212.299160",
+          "targetSec": 212.299,
+          "relativeSec": 20.26,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00118"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_0da85edcec678e8a",
+      "beatGroupId": "beat_group_287",
+      "kind": "caption_moment",
+      "momentSec": 212.988,
+      "relativeSec": 20.949,
+      "cueIds": [
+        "cue-00119",
+        "cue-00120"
+      ],
+      "text": "Oh",
+      "captionWindow": "speaker_2: Let's go with George | speaker_1: Yeah | speaker_1: Oh | speaker_1: wait | speaker_2: What?",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.34,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.225,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 2.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_2ab6dd11c02d5d84:cue_start:212.760000",
+          "targetSec": 212.76,
+          "relativeSec": 20.721,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00119"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f3f4dd26f75e66b3:cue_end_minus_80ms:212.975673",
+          "targetSec": 212.976,
+          "relativeSec": 20.937,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00119"
+          ],
+          "wordIds": [
+            "word-00732"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f3f4dd26f75e66b3:final_word_end:213.000000",
+          "targetSec": 213.0,
+          "relativeSec": 20.961,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00119"
+          ],
+          "wordIds": [
+            "word-00732"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_a2a6c0a4d1c328c1:cue_start:213.100000",
+          "targetSec": 213.1,
+          "relativeSec": 21.061,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00120"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_7d75c5a839238107",
+      "beatGroupId": "beat_group_288",
+      "kind": "caption_moment",
+      "momentSec": 213.38,
+      "relativeSec": 21.341,
+      "cueIds": [
+        "cue-00120"
+      ],
+      "text": "wait",
+      "captionWindow": "speaker_1: Yeah | speaker_1: Oh | speaker_1: wait | speaker_2: What? | speaker_1: I forgot one last",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_9c590e8254e2185f:cue_end_minus_80ms:213.300000",
+          "targetSec": 213.3,
+          "relativeSec": 21.261,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00120"
+          ],
+          "wordIds": [
+            "word-00733"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_9c590e8254e2185f:final_word_end:213.380000",
+          "targetSec": 213.38,
+          "relativeSec": 21.341,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00120"
+          ],
+          "wordIds": [
+            "word-00733"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_9c590e8254e2185f:pause_boundary:213.380000",
+          "targetSec": 213.38,
+          "relativeSec": 21.341,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00120"
+          ],
+          "wordIds": [
+            "word-00733"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_cc850b366860bc4d",
+      "beatGroupId": "beat_group_289",
+      "kind": "caption_moment",
+      "momentSec": 214.2,
+      "relativeSec": 22.161,
+      "cueIds": [
+        "18b59133-c89c-42d8-8923-72b995ed7866",
+        "cue-00119",
+        "cue-00120",
+        "cue-00121",
+        "cue-00352"
+      ],
+      "text": "What?",
+      "captionWindow": "speaker_1: Oh | speaker_1: wait | speaker_2: What? | speaker_1: I forgot one last | speaker_1: step of today",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset",
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 7.0,
+        "moment.span_sec": 0.506,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 1.0,
+        "moment.mean_boundary_strength": 0.743,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 2.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 2.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_e72b55f2cd91d7f5:zoom_onset:213.913700",
+          "targetSec": 213.914,
+          "relativeSec": 21.875,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "18b59133-c89c-42d8-8923-72b995ed7866",
+            "cue-00119",
+            "cue-00120",
+            "cue-00121",
+            "cue-00352"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 1.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e72b55f2cd91d7f5:cue_start:213.980000",
+          "targetSec": 213.98,
+          "relativeSec": 21.941,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "18b59133-c89c-42d8-8923-72b995ed7866",
+            "cue-00119",
+            "cue-00120",
+            "cue-00121",
+            "cue-00352"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 1.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e72b55f2cd91d7f5:speaker_turn_start:213.980000",
+          "targetSec": 213.98,
+          "relativeSec": 21.941,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "18b59133-c89c-42d8-8923-72b995ed7866",
+            "cue-00119",
+            "cue-00120",
+            "cue-00121",
+            "cue-00352"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 1.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_8d15cd5f815fe709:cue_end_minus_80ms:214.200000",
+          "targetSec": 214.2,
+          "relativeSec": 22.161,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00352"
+          ],
+          "wordIds": [
+            "word-00734"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_8d15cd5f815fe709:final_word_end:214.280000",
+          "targetSec": 214.28,
+          "relativeSec": 22.241,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00352"
+          ],
+          "wordIds": [
+            "word-00734"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e2c22240e693a904:cue_start:214.420000",
+          "targetSec": 214.42,
+          "relativeSec": 22.381,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00121"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e2c22240e693a904:speaker_turn_start:214.420000",
+          "targetSec": 214.42,
+          "relativeSec": 22.381,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00121"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_a1b613692ffdd73c",
+      "beatGroupId": "beat_group_290",
+      "kind": "caption_moment",
+      "momentSec": 215.24,
+      "relativeSec": 23.201,
+      "cueIds": [
+        "18b59133-c89c-42d8-8923-72b995ed7866",
+        "cue-00121"
+      ],
+      "text": "I forgot one last",
+      "captionWindow": "speaker_1: wait | speaker_2: What? | speaker_1: I forgot one last | speaker_1: step of today | speaker_2: Oh",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_935bc5b9aaeadee2:cue_end_minus_80ms:215.170000",
+          "targetSec": 215.17,
+          "relativeSec": 23.131,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "18b59133-c89c-42d8-8923-72b995ed7866",
+            "cue-00121"
+          ],
+          "wordIds": [
+            "word-00738"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_935bc5b9aaeadee2:final_word_end:215.240000",
+          "targetSec": 215.24,
+          "relativeSec": 23.201,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "18b59133-c89c-42d8-8923-72b995ed7866",
+            "cue-00121"
+          ],
+          "wordIds": [
+            "word-00738"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_935bc5b9aaeadee2:cue_start:215.250000",
+          "targetSec": 215.25,
+          "relativeSec": 23.211,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "18b59133-c89c-42d8-8923-72b995ed7866",
+            "cue-00121"
+          ],
+          "wordIds": [
+            "word-00738"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-28"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_9244e7c27c39773d",
+      "beatGroupId": "beat_group_299",
+      "kind": "caption_moment",
+      "momentSec": 220.56,
+      "relativeSec": 28.521,
+      "cueIds": [
+        "cue-00122",
+        "cue-00354",
+        "cue-00726",
+        "d7012411-4077-41a4-a0ef-d2a9a96541ac"
+      ],
+      "text": "I have to say bye to Elsa",
+      "captionWindow": "speaker_2: okay | speaker_2: okay | speaker_1: I have to say bye to Elsa | speaker_2: She's waiting for you | speaker_2: outside the door",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.12,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.8,
+        "moment.mean_boundary_strength": 0.725,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_22a33228ab74e11f:internal_pause_word_end:220.500000",
+          "targetSec": 220.5,
+          "relativeSec": 28.461,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00354"
+          ],
+          "wordIds": [
+            "word-00754"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-29"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_7725a77c35a7dc59:zoom_onset:220.620400",
+          "targetSec": 220.62,
+          "relativeSec": 28.581,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00122",
+            "cue-00354",
+            "cue-00726",
+            "d7012411-4077-41a4-a0ef-d2a9a96541ac"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-29"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "none",
+      "momentText": "Is it the one with George?",
+      "captionWindow": "speaker_6: I don't like you | speaker_3: Oh | speaker_1: Is it the one with George? | speaker_1: That's me | speaker_1: That's the one",
+      "timing": null,
+      "similarity": 0.0236
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "none",
+      "momentText": "Is it the one with George?",
+      "captionWindow": "speaker_6: I don't like you | speaker_3: Oh | speaker_1: Is it the one with George? | speaker_1: That's me | speaker_1: That's the one",
+      "timing": null,
+      "similarity": 0.0236
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "pop",
+      "momentText": "But I saw it",
+      "captionWindow": "speaker_1: and the blue | speaker_2: I chose that one | speaker_1: But I saw it | speaker_2: All right | speaker_2: so you're gonna be",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_dec068999dffa74b:zoom_onset:354.237217",
+        "anchorType": "zoom_onset",
+        "targetSec": 354.237
+      },
+      "similarity": 0.0213
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "pop",
+      "momentText": "And so",
+      "captionWindow": "speaker_2: Get that one | speaker_2: Okay | speaker_2: And so | speaker_1: Look at this ma | speaker_2: oh",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_db95fff2da2c64ec:zoom_onset:176.666667",
+        "anchorType": "zoom_onset",
+        "targetSec": 176.667
+      },
+      "similarity": 0.0203
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "All right George you go first",
+      "captionWindow": "speaker_1: scissors | speaker_1: shoot | speaker_5: All right George you go first | speaker_5: So you're just gonna have | speaker_5: to wait with all the coldness",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_eb6890dc9629ae1e:cue_end_minus_80ms:865.736000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 865.736
+      },
+      "similarity": 0.0219
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "ding",
+      "momentText": "I chose that one",
+      "captionWindow": "speaker_1: the red | speaker_1: and the blue | speaker_2: I chose that one | speaker_1: But I saw it | speaker_2: All right",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8f38acb4ff221eb7:final_word_end:353.280000",
+        "anchorType": "final_word_end",
+        "targetSec": 353.28
+      },
+      "similarity": 0.0213
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "success",
+      "momentText": "It's so good",
+      "captionWindow": "speaker_2: You're eating my heart | speaker_1: Your heart's good | speaker_1: It's so good | speaker_2: look at that | speaker_1: I have to wait for my cheese",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_150f840cb60826f1:pause_boundary:110.204644",
+        "anchorType": "pause_boundary",
+        "targetSec": 110.205
+      },
+      "similarity": 0.0237
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "success",
+      "momentText": "Oh this is easier than i thought",
+      "captionWindow": "speaker_2: Okay | speaker_2: that one? | speaker_1: Oh this is easier than i thought | speaker_2: All right | speaker_2: And",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f9327a521f468f44:cue_start:209.600000",
+        "anchorType": "cue_start",
+        "targetSec": 209.6
+      },
+      "similarity": 0.0215
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "bonk",
+      "momentText": "I thought it was at 2:00",
+      "captionWindow": "speaker_1: you gotta go up | speaker_1: Take him upstairs | speaker_3: I thought it was at 2:00 | speaker_1: oh my God | speaker_1: amor",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_eaf8feb15eafa6a3:final_word_end:257.220000",
+        "anchorType": "final_word_end",
+        "targetSec": 257.22
+      },
+      "similarity": 0.0199
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bonk",
+      "momentText": "What the heck is that?",
+      "captionWindow": "speaker_1: They look like | speaker_6: so tiny | speaker_1: What the heck is that? | speaker_1: All right | speaker_1: guys",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2c1d696f45bf63bc:cue_start:663.280000",
+        "anchorType": "cue_start",
+        "targetSec": 663.28
+      },
+      "similarity": 0.0196
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "funny",
+      "momentText": "But I saw it",
+      "captionWindow": "speaker_1: and the blue | speaker_2: I chose that one | speaker_1: But I saw it | speaker_2: All right | speaker_2: so you're gonna be",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1720253a627ecfc4:cue_end_minus_80ms:355.612000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 355.612
+      },
+      "similarity": 0.0213
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "funny",
+      "momentText": "Okay bye",
+      "captionWindow": "speaker_5: The potato one | speaker_1: And I have this one for me | speaker_1: Okay bye | speaker_5: Oh my God | speaker_5: We have",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3c6e882dfe119640:cue_end_minus_80ms:972.740000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 972.74
+      },
+      "similarity": 0.0213
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bruh",
+      "momentText": "That's so cheap",
+      "captionWindow": "speaker_2: Is this the ball | speaker_2: bro? | speaker_2: That's so cheap | speaker_2: Why is the ball so little? | speaker_2: You got it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_b9b785ae416baffe:cue_end_minus_80ms:127.940000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 127.94
+      },
+      "similarity": 0.0177
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "bruh",
+      "momentText": "bro",
+      "captionWindow": "speaker_2: I did not make a mistake because | speaker_2: this is gigantic | speaker_2: bro | speaker_2: Look at that | speaker_2: Look at it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2f7b944f0f01a7f5:final_word_end:395.616000",
+        "anchorType": "final_word_end",
+        "targetSec": 395.616
+      },
+      "similarity": 0.0163
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "record_scratch",
+      "momentText": "what do you",
+      "captionWindow": "speaker_1: right now | speaker_2: Okay | speaker_2: what do you | speaker_1: mommy I can't | speaker_1: Open the door",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2e8bdc157b18d849:zoom_onset:841.390550",
+        "anchorType": "zoom_onset",
+        "targetSec": 841.391
+      },
+      "similarity": 0.0193
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "The potato one",
+      "captionWindow": "speaker_5: bad one was the last one | speaker_1: I love that one | speaker_5: The potato one | speaker_1: And I have this one for me | speaker_1: Okay bye",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c26d55cd494ed645:cue_start:971.420000",
+        "anchorType": "cue_start",
+        "targetSec": 971.42
+      },
+      "similarity": 0.0185
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "dramatic",
+      "momentText": "Oh my God look at this one",
+      "captionWindow": "speaker_2: All right | speaker_1: Oh they have hot Cheetos | speaker_2: Oh my God look at this one | speaker_2: You can go in | speaker_2: Oh my God",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_130cda19f61a8334:cue_end_minus_80ms:103.640000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 103.64
+      },
+      "similarity": 0.0216
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "dramatic",
+      "momentText": "go with her and return it",
+      "captionWindow": "speaker_1: Yeah | speaker_1: You have to | speaker_1: go with her and return it | speaker_1: I'm not going | speaker_1: You have to go",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_45ee49ac0c38e66f:zoom_onset:1187.986800",
+        "anchorType": "zoom_onset",
+        "targetSec": 1187.987
+      },
+      "similarity": 0.0208
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "other_sfx",
+      "momentText": "go with her and return it",
+      "captionWindow": "speaker_1: Yeah | speaker_1: You have to | speaker_1: go with her and return it | speaker_1: I'm not going | speaker_1: You have to go",
+      "timing": null,
+      "similarity": 0.0208
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "other_sfx",
+      "momentText": "What the heck is that?",
+      "captionWindow": "speaker_1: They look like | speaker_6: so tiny | speaker_1: What the heck is that? | speaker_1: All right | speaker_1: guys",
+      "timing": null,
+      "similarity": 0.0196
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

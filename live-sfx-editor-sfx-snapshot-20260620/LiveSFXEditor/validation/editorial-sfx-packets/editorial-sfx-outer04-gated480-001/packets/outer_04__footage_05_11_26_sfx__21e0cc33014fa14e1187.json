@@ -1,0 +1,1008 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "21e0cc33014fa14e1187",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000577170_28",
+  "coreStartSec": 577.17,
+  "coreEndSec": 596.629,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_04ddcd2af1bcecf2",
+    "caption_moment_a21cf37be856c284",
+    "caption_moment_f9c5b57c1bf90b3e",
+    "caption_moment_d1ae073b518c6a06",
+    "caption_moment_5068869f92838452",
+    "caption_moment_4cee488c258705c8"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_08d63807422bf680:cue_end_minus_80ms:589.764498",
+    "cand_caption_beat_08d63807422bf680:pause_boundary:589.844498",
+    "cand_caption_beat_0faa97e4afba9bf2:cue_end_minus_80ms:582.540000",
+    "cand_caption_beat_0faa97e4afba9bf2:final_word_end:582.620000",
+    "cand_caption_beat_2a5b6f64d52abeb9:final_word_end:587.820000",
+    "cand_caption_beat_4c019c39a5b8b2f1:internal_pause_word_end:580.220000",
+    "cand_caption_beat_5b69b3077bec4b70:final_word_end:589.640000",
+    "cand_caption_beat_5ce3778e0b434606:cue_start:579.940000",
+    "cand_caption_beat_5ce3778e0b434606:internal_pause_word_end:579.980000",
+    "cand_caption_beat_5ce3778e0b434606:speaker_turn_start:579.940000",
+    "cand_caption_beat_62be4cc7927dd5c2:zoom_onset:582.715467",
+    "cand_caption_beat_6c3b3ab23a564bc2:cue_end_minus_80ms:586.880000",
+    "cand_caption_beat_6c3b3ab23a564bc2:cue_start:586.960000",
+    "cand_caption_beat_6c3b3ab23a564bc2:final_word_end:586.920000",
+    "cand_caption_beat_8b192f3d37ad4f26:internal_pause_word_end:580.109000",
+    "cand_caption_beat_8b192f3d37ad4f26:zoom_onset:580.079500",
+    "cand_caption_beat_b2ea02c1e047247e:cue_end_minus_80ms:589.400000",
+    "cand_caption_beat_b2ea02c1e047247e:cue_start:589.480000",
+    "cand_caption_beat_b2ea02c1e047247e:final_word_end:589.440000",
+    "cand_caption_beat_b2ea02c1e047247e:speaker_turn_start:589.480000",
+    "cand_caption_beat_d4caa2ebed2f4746:cue_end_minus_80ms:589.163731",
+    "cand_caption_beat_d4caa2ebed2f4746:cue_start:589.243731",
+    "cand_caption_beat_d4caa2ebed2f4746:final_word_end:589.220000",
+    "cand_caption_beat_e6ee197d2668f0c9:cue_end_minus_80ms:588.035954",
+    "cand_caption_beat_e6ee197d2668f0c9:cue_start:588.115954"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_04ddcd2af1bcecf2",
+      "beatGroupId": "beat_group_765",
+      "kind": "caption_moment",
+      "momentSec": 580.03,
+      "relativeSec": 2.86,
+      "cueIds": [
+        "cue-00304",
+        "cue-00408",
+        "cue-00876",
+        "cue-00877"
+      ],
+      "text": "real shoes",
+      "captionWindow": "speaker_1: so | speaker_1: because I only bring my | speaker_1: real shoes | speaker_2: I don't know why she | speaker_2: wears Crocs to school",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 6.0,
+        "moment.span_sec": 0.28,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.95,
+        "moment.mean_boundary_strength": 0.75,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 3.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_5ce3778e0b434606:cue_start:579.940000",
+          "targetSec": 579.94,
+          "relativeSec": 2.77,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00408"
+          ],
+          "wordIds": [
+            "word-01860"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-78"
+          ],
+          "boundaryStrength": 0.95,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_5ce3778e0b434606:speaker_turn_start:579.940000",
+          "targetSec": 579.94,
+          "relativeSec": 2.77,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00408"
+          ],
+          "wordIds": [
+            "word-01860"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-78"
+          ],
+          "boundaryStrength": 0.95,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_5ce3778e0b434606:internal_pause_word_end:579.980000",
+          "targetSec": 579.98,
+          "relativeSec": 2.81,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00408"
+          ],
+          "wordIds": [
+            "word-01860"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-78"
+          ],
+          "boundaryStrength": 0.95,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_8b192f3d37ad4f26:zoom_onset:580.079500",
+          "targetSec": 580.08,
+          "relativeSec": 2.909,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00304",
+            "cue-00408",
+            "cue-00876",
+            "cue-00877"
+          ],
+          "wordIds": [
+            "word-01861"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-78"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_8b192f3d37ad4f26:internal_pause_word_end:580.109000",
+          "targetSec": 580.109,
+          "relativeSec": 2.939,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00304",
+            "cue-00408",
+            "cue-00876",
+            "cue-00877"
+          ],
+          "wordIds": [
+            "word-01861"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-78"
+          ],
+          "boundaryStrength": 0.35,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_4c019c39a5b8b2f1:internal_pause_word_end:580.220000",
+          "targetSec": 580.22,
+          "relativeSec": 3.05,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00408"
+          ],
+          "wordIds": [
+            "word-01862"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-78"
+          ],
+          "boundaryStrength": 0.95,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_a21cf37be856c284",
+      "beatGroupId": "beat_group_768",
+      "kind": "caption_moment",
+      "momentSec": 582.62,
+      "relativeSec": 5.45,
+      "cueIds": [
+        "cue-00305",
+        "cue-00306",
+        "cue-00307",
+        "cue-00308",
+        "cue-00309",
+        "cue-00876",
+        "cue-00877",
+        "cue-00878"
+      ],
+      "text": "but it's fine",
+      "captionWindow": "speaker_2: I don't know why she | speaker_2: wears Crocs to school | speaker_2: but it's fine | speaker_2: I guess | speaker_1: I like Crocs",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.175,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.2,
+        "moment.mean_boundary_strength": 0.2,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_0faa97e4afba9bf2:cue_end_minus_80ms:582.540000",
+          "targetSec": 582.54,
+          "relativeSec": 5.37,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00877"
+          ],
+          "wordIds": [
+            "word-01871"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-79"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_0faa97e4afba9bf2:final_word_end:582.620000",
+          "targetSec": 582.62,
+          "relativeSec": 5.45,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00877"
+          ],
+          "wordIds": [
+            "word-01871"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-79"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_62be4cc7927dd5c2:zoom_onset:582.715467",
+          "targetSec": 582.715,
+          "relativeSec": 5.545,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00305",
+            "cue-00306",
+            "cue-00307",
+            "cue-00308",
+            "cue-00309",
+            "cue-00876",
+            "cue-00877",
+            "cue-00878"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-79"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_f9c5b57c1bf90b3e",
+      "beatGroupId": "beat_group_773",
+      "kind": "caption_moment",
+      "momentSec": 586.92,
+      "relativeSec": 9.75,
+      "cueIds": [
+        "cue-00308",
+        "cue-00309"
+      ],
+      "text": "You don't have to tie",
+      "captionWindow": "speaker_1: They're easy to put on | speaker_1: You don't have to find socks | speaker_1: You don't have to tie | speaker_1: your shoelaces every like | speaker_1: 20 minutes or something",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_6c3b3ab23a564bc2:cue_end_minus_80ms:586.880000",
+          "targetSec": 586.88,
+          "relativeSec": 9.71,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00308",
+            "cue-00309"
+          ],
+          "wordIds": [
+            "word-01891"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_6c3b3ab23a564bc2:final_word_end:586.920000",
+          "targetSec": 586.92,
+          "relativeSec": 9.75,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00308",
+            "cue-00309"
+          ],
+          "wordIds": [
+            "word-01891"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_6c3b3ab23a564bc2:cue_start:586.960000",
+          "targetSec": 586.96,
+          "relativeSec": 9.79,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00308",
+            "cue-00309"
+          ],
+          "wordIds": [
+            "word-01891"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_d1ae073b518c6a06",
+      "beatGroupId": "beat_group_774",
+      "kind": "caption_moment",
+      "momentSec": 588.036,
+      "relativeSec": 10.866,
+      "cueIds": [
+        "cue-00309",
+        "cue-00311"
+      ],
+      "text": "your shoelaces every like",
+      "captionWindow": "speaker_1: You don't have to find socks | speaker_1: You don't have to tie | speaker_1: your shoelaces every like | speaker_1: 20 minutes or something | speaker_1: so",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.296,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_2a5b6f64d52abeb9:final_word_end:587.820000",
+          "targetSec": 587.82,
+          "relativeSec": 10.65,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00309"
+          ],
+          "wordIds": [
+            "word-01894"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e6ee197d2668f0c9:cue_end_minus_80ms:588.035954",
+          "targetSec": 588.036,
+          "relativeSec": 10.866,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00309",
+            "cue-00311"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e6ee197d2668f0c9:cue_start:588.115954",
+          "targetSec": 588.116,
+          "relativeSec": 10.946,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00309",
+            "cue-00311"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_5068869f92838452",
+      "beatGroupId": "beat_group_775",
+      "kind": "caption_moment",
+      "momentSec": 589.4,
+      "relativeSec": 12.23,
+      "cueIds": [
+        "cue-00311",
+        "cue-00312",
+        "cue-00313"
+      ],
+      "text": "so",
+      "captionWindow": "speaker_1: your shoelaces every like | speaker_1: 20 minutes or something | speaker_1: so | speaker_2: Yeah | speaker_4: All right",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 7.0,
+        "moment.span_sec": 0.316,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 2.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 2.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 2.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_d4caa2ebed2f4746:cue_end_minus_80ms:589.163731",
+          "targetSec": 589.164,
+          "relativeSec": 11.994,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00311",
+            "cue-00312"
+          ],
+          "wordIds": [
+            "word-01899"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d4caa2ebed2f4746:final_word_end:589.220000",
+          "targetSec": 589.22,
+          "relativeSec": 12.05,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00311",
+            "cue-00312"
+          ],
+          "wordIds": [
+            "word-01899"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d4caa2ebed2f4746:cue_start:589.243731",
+          "targetSec": 589.244,
+          "relativeSec": 12.074,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00311",
+            "cue-00312"
+          ],
+          "wordIds": [
+            "word-01899"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_b2ea02c1e047247e:cue_end_minus_80ms:589.400000",
+          "targetSec": 589.4,
+          "relativeSec": 12.23,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00312",
+            "cue-00313"
+          ],
+          "wordIds": [
+            "word-01900"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_b2ea02c1e047247e:final_word_end:589.440000",
+          "targetSec": 589.44,
+          "relativeSec": 12.27,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00312",
+            "cue-00313"
+          ],
+          "wordIds": [
+            "word-01900"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_b2ea02c1e047247e:cue_start:589.480000",
+          "targetSec": 589.48,
+          "relativeSec": 12.31,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00312",
+            "cue-00313"
+          ],
+          "wordIds": [
+            "word-01900"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_b2ea02c1e047247e:speaker_turn_start:589.480000",
+          "targetSec": 589.48,
+          "relativeSec": 12.31,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00312",
+            "cue-00313"
+          ],
+          "wordIds": [
+            "word-01900"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_4cee488c258705c8",
+      "beatGroupId": "beat_group_776",
+      "kind": "caption_moment",
+      "momentSec": 589.764,
+      "relativeSec": 12.594,
+      "cueIds": [
+        "cue-00313"
+      ],
+      "text": "Yeah",
+      "captionWindow": "speaker_1: 20 minutes or something | speaker_1: so | speaker_2: Yeah | speaker_4: All right | speaker_4: guys",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.204,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_5b69b3077bec4b70:final_word_end:589.640000",
+          "targetSec": 589.64,
+          "relativeSec": 12.47,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00313"
+          ],
+          "wordIds": [
+            "word-01901"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_08d63807422bf680:cue_end_minus_80ms:589.764498",
+          "targetSec": 589.764,
+          "relativeSec": 12.594,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00313"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_08d63807422bf680:pause_boundary:589.844498",
+          "targetSec": 589.844,
+          "relativeSec": 12.674,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00313"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "none",
+      "momentText": "to find something",
+      "captionWindow": "speaker_1: bebe no | speaker_2: Guys I'm trying | speaker_2: to find something | speaker_2: I just don't know | speaker_2: There's so much figures",
+      "timing": null,
+      "similarity": 0.0609
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "none",
+      "momentText": "but I don't know if",
+      "captionWindow": "speaker_4: So George | speaker_1: I did get him something | speaker_1: but I don't know if | speaker_1: they're for boys though | speaker_4: Oh those?",
+      "timing": null,
+      "similarity": 0.0603
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "pop",
+      "momentText": "yeah",
+      "captionWindow": "speaker_1: As you guys can see | speaker_1: it's so sunny but | speaker_2: yeah | speaker_2: but inside it's gonna be cold | speaker_2: Like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8e854010b73c4d30:zoom_onset:9.159150",
+        "anchorType": "zoom_onset",
+        "targetSec": 9.159
+      },
+      "similarity": 0.0603
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "pop",
+      "momentText": "I don't know why",
+      "captionWindow": "speaker_1: It's crazy | speaker_1: guys | speaker_1: I don't know why | speaker_1: but it was super fast | speaker_1: guys",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_7788a9801bcff9bd:zoom_onset:67.117050",
+        "anchorType": "zoom_onset",
+        "targetSec": 67.117
+      },
+      "similarity": 0.0568
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "All right",
+      "captionWindow": "speaker_1: dishes or anything or the trash | speaker_1: yeah you can just eat it | speaker_2: All right | speaker_3: It's waffle right? | speaker_2: You guys are forgetting something",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_7db97c434557653b:cue_end_minus_80ms:439.324000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 439.324
+      },
+      "similarity": 0.0595
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "ding",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_2: And | speaker_2: I don't know if that | speaker_1: Yeah | speaker_1: I just | speaker_1: All right",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_9387102c7a2a5e5d:final_word_end:219.480000",
+        "anchorType": "final_word_end",
+        "targetSec": 219.48
+      },
+      "similarity": 0.0581
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "success",
+      "momentText": "to you",
+      "captionWindow": "speaker_2: I don't know how | speaker_2: to say it | speaker_2: to you | speaker_2: I tried my best | speaker_2: I tried my best",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f8b66e9ed58857a0:final_word_end:1423.090000",
+        "anchorType": "final_word_end",
+        "targetSec": 1423.09
+      },
+      "similarity": 0.0528
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "success",
+      "momentText": "It's so good",
+      "captionWindow": "speaker_2: You're eating my heart | speaker_1: Your heart's good | speaker_1: It's so good | speaker_2: look at that | speaker_1: I have to wait for my cheese",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_150f840cb60826f1:pause_boundary:110.204644",
+        "anchorType": "pause_boundary",
+        "targetSec": 110.205
+      },
+      "similarity": 0.0528
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bonk",
+      "momentText": "I have this",
+      "captionWindow": "speaker_2: I feel really | speaker_2: hot because | speaker_2: I have this | speaker_1: I know | speaker_1: i don't know",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_b80f9912e6d20bd3:pause_boundary:652.240000",
+        "anchorType": "pause_boundary",
+        "targetSec": 652.24
+      },
+      "similarity": 0.0557
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "bonk",
+      "momentText": "to find a restroom",
+      "captionWindow": "speaker_2: And | speaker_2: it's so hard | speaker_2: to find a restroom | speaker_1: I know | speaker_1: I need to use the restroom",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8426c9721fd2eb0a:zoom_onset:256.439517",
+        "anchorType": "zoom_onset",
+        "targetSec": 256.44
+      },
+      "similarity": 0.0544
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "funny",
+      "momentText": "I don't know bro",
+      "captionWindow": "speaker_1: Wait | speaker_1: is she 20 pounds or more? | speaker_3: I don't know bro | speaker_3: i guess so | speaker_3: yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d2ff07e0cdf2b6d3:cue_end_minus_80ms:350.360000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 350.36
+      },
+      "similarity": 0.0571
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "funny",
+      "momentText": "I have to use my card",
+      "captionWindow": "speaker_2: Don't tell me | speaker_2: again | speaker_2: I have to use my card | speaker_2: All right | speaker_2: It's okay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1c93b604a685497c:cue_end_minus_80ms:25.800000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 25.8
+      },
+      "similarity": 0.055
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bruh",
+      "momentText": "You do?",
+      "captionWindow": "speaker_1: Do you have to take your | speaker_1: backpack? | speaker_1: You do? | speaker_1: Okay guys | speaker_1: so",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d5e865863506385c:pause_boundary:42.860000",
+        "anchorType": "pause_boundary",
+        "targetSec": 42.86
+      },
+      "similarity": 0.049
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bruh",
+      "momentText": "sHe can't",
+      "captionWindow": "speaker_2: where's your plushie? | speaker_3: I can't bring a | speaker_1: sHe can't | speaker_3: Stop | speaker_1: He already knows",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_04bbfe53e84677a4:cue_start:349.180000",
+        "anchorType": "cue_start",
+        "targetSec": 349.18
+      },
+      "similarity": 0.0408
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "I said",
+      "captionWindow": "speaker_1: All right | speaker_1: So like | speaker_1: I said | speaker_1: it's gonna be a challenge | speaker_2: i feel like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5d5542d20fc9489f:zoom_onset:40.090050",
+        "anchorType": "zoom_onset",
+        "targetSec": 40.09
+      },
+      "similarity": 0.0547
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "record_scratch",
+      "momentText": "have in your cart",
+      "captionWindow": "speaker_1: it to pay for all | speaker_1: the groceries that you already | speaker_1: have in your cart | speaker_4: Can I have whatever in? | speaker_1: Nope",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3403d63d6a513df0:cue_start:805.856000",
+        "anchorType": "cue_start",
+        "targetSec": 805.856
+      },
+      "similarity": 0.0498
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "dramatic",
+      "momentText": "I don't know if you",
+      "captionWindow": "speaker_2: like | speaker_1: Bad | speaker_1: I don't know if you | speaker_1: guys remember | speaker_1: but last time",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_00e0c50ba9b22767:zoom_onset:7.857850",
+        "anchorType": "zoom_onset",
+        "targetSec": 7.858
+      },
+      "similarity": 0.06
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "dramatic",
+      "momentText": "I already know what",
+      "captionWindow": "speaker_1: You guys can get | speaker_1: one thing | speaker_4: I already know what | speaker_4: I'm gonna get | speaker_1: So yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_89de01caa60e5032:zoom_onset:427.026600",
+        "anchorType": "zoom_onset",
+        "targetSec": 427.027
+      },
+      "similarity": 0.0522
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "other_sfx",
+      "momentText": "I don't know why",
+      "captionWindow": "speaker_1: Suri's acting | speaker_1: a little sus | speaker_1: I don't know why | speaker_2: Yeah | speaker_2: let me get my plushie",
+      "timing": null,
+      "similarity": 0.0588
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I feel like something",
+      "captionWindow": "speaker_1: It's just that | speaker_1: you took a while | speaker_2: I feel like something | speaker_2: weird in my stomach | speaker_2: but I think",
+      "timing": null,
+      "similarity": 0.0587
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

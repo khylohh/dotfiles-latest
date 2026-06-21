@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "a0fa0f5f0eb45c59dbe3",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000906640_44",
+  "coreStartSec": 906.64,
+  "coreEndSec": 920.636,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_a5df18a464943eab"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_32a7e11097ee6461:cue_end_minus_80ms:908.540000",
+    "cand_caption_beat_32a7e11097ee6461:final_word_end:908.620000",
+    "cand_caption_beat_32a7e11097ee6461:zoom_onset:908.507600",
+    "cand_caption_beat_6dbabe9d394a7b69:cue_start:908.660000",
+    "cand_caption_beat_6dbabe9d394a7b69:speaker_turn_start:908.660000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_a5df18a464943eab",
+      "beatGroupId": "beat_group_1163",
+      "kind": "caption_moment",
+      "momentSec": 908.62,
+      "relativeSec": 1.98,
+      "cueIds": [
+        "92ec3fee-e74e-4af1-b256-dc72d5dfe721",
+        "cue-01112",
+        "cue-01114",
+        "cue-01115"
+      ],
+      "text": "the other one?",
+      "captionWindow": "speaker_2: He can take the pill too | speaker_2: You want the pill or | speaker_2: the other one? | speaker_3: the other one | speaker_2: The other one",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.152,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.44,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_32a7e11097ee6461:zoom_onset:908.507600",
+          "targetSec": 908.508,
+          "relativeSec": 1.868,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "92ec3fee-e74e-4af1-b256-dc72d5dfe721",
+            "cue-01112",
+            "cue-01114",
+            "cue-01115"
+          ],
+          "wordIds": [
+            "word-02824"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-114"
+          ],
+          "boundaryStrength": 0.4,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_32a7e11097ee6461:cue_end_minus_80ms:908.540000",
+          "targetSec": 908.54,
+          "relativeSec": 1.9,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "92ec3fee-e74e-4af1-b256-dc72d5dfe721",
+            "cue-01112",
+            "cue-01114",
+            "cue-01115"
+          ],
+          "wordIds": [
+            "word-02824"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-114"
+          ],
+          "boundaryStrength": 0.4,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_32a7e11097ee6461:final_word_end:908.620000",
+          "targetSec": 908.62,
+          "relativeSec": 1.98,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "92ec3fee-e74e-4af1-b256-dc72d5dfe721",
+            "cue-01112",
+            "cue-01114",
+            "cue-01115"
+          ],
+          "wordIds": [
+            "word-02824"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-114"
+          ],
+          "boundaryStrength": 0.4,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_6dbabe9d394a7b69:cue_start:908.660000",
+          "targetSec": 908.66,
+          "relativeSec": 2.02,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-01114"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-114"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_6dbabe9d394a7b69:speaker_turn_start:908.660000",
+          "targetSec": 908.66,
+          "relativeSec": 2.02,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-01114"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-114"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "none",
+      "momentText": "this one?",
+      "captionWindow": "speaker_2: Okay | speaker_5: You want another one or | speaker_5: this one? | speaker_3: Jam looks cool | speaker_2: I think the jam looks",
+      "timing": null,
+      "similarity": 0.1705
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "none",
+      "momentText": "which other one?",
+      "captionWindow": "speaker_2: show me the other one | speaker_2: That one? | speaker_1: which other one? | speaker_2: The red one | speaker_1: Oh there's a difference",
+      "timing": null,
+      "similarity": 0.1647
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "pop",
+      "momentText": "The other one is right here",
+      "captionWindow": "speaker_1: Yeah | speaker_3: I think that's cute | speaker_4: The other one is right here | speaker_1: The girl or the big one? | speaker_3: No",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_76d4b21672fa611b:zoom_onset:431.597833",
+        "anchorType": "zoom_onset",
+        "targetSec": 431.598
+      },
+      "similarity": 0.1587
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "pop",
+      "momentText": "Like",
+      "captionWindow": "speaker_2: It's kind of like the other one | speaker_2: just blue | speaker_2: Like | speaker_2: because the other one's green | speaker_4: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_01b532d48ac94e8e:zoom_onset:891.891000",
+        "anchorType": "zoom_onset",
+        "targetSec": 891.891
+      },
+      "similarity": 0.1532
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "The Cheetos ones looks cool",
+      "captionWindow": "speaker_3: I want the Cheetos one | speaker_2: Uno one? | speaker_2: The Cheetos ones looks cool | speaker_1: I like the Uno one | speaker_2: It's like a bed",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8a1fbc5ab3a5f1a3:cue_end_minus_80ms:86.160000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 86.16
+      },
+      "similarity": 0.1561
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "Yeah that one is transparent",
+      "captionWindow": "speaker_1: one or this one | speaker_2: Yeah | speaker_2: Yeah that one is transparent | speaker_2: You know? | speaker_2: Okay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e2a025f804db94fc:cue_end_minus_80ms:207.640000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 207.64
+      },
+      "similarity": 0.1488
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "the one inside",
+      "captionWindow": "speaker_2: whoa | speaker_2: that picture's so good | speaker_2: the one inside | speaker_3: Compi you did this | speaker_3: one so good",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3a9ffb0a24819efd:cue_end_minus_80ms:1615.076000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1615.076
+      },
+      "similarity": 0.163
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "What the?",
+      "captionWindow": "speaker_2: take off the blindfold | speaker_2: amor | speaker_3: What the? | speaker_2: What do you think? | speaker_3: this is so cool",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_97338b20b3697340:cue_start:912.860000",
+        "anchorType": "cue_start",
+        "targetSec": 912.86
+      },
+      "similarity": 0.1555
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "bonk",
+      "momentText": "I don't like you",
+      "captionWindow": "speaker_2: I'm Christian the Clown | speaker_2: and | speaker_2: I don't like you | speaker_2: Can he talk? | speaker_1: He doesn't like me",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3a7a332d72483461:final_word_end:691.476000",
+        "anchorType": "final_word_end",
+        "targetSec": 691.476
+      },
+      "similarity": 0.1356
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "bonk",
+      "momentText": "I think it's only one",
+      "captionWindow": "speaker_2: But I can't find | speaker_2: the other one It's | speaker_2: I think it's only one | speaker_2: Oh look | speaker_2: How about that one?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f80c769cdb7eabfe:cue_end_minus_80ms:222.900000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 222.9
+      },
+      "similarity": 0.135
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "funny",
+      "momentText": "it's the same one?",
+      "captionWindow": "speaker_2: no way | speaker_2: Wait | speaker_2: it's the same one? | speaker_3: It's Kuromi | speaker_2: Oh",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_02b4daf5d4dfba5a:cue_end_minus_80ms:1441.784000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1441.784
+      },
+      "similarity": 0.1543
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "funny",
+      "momentText": "everything out?",
+      "captionWindow": "speaker_1: How about this? | speaker_2: You wanna take | speaker_2: everything out? | speaker_2: Okay | speaker_3: No",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3f566d4cdc4ef0bd:cue_end_minus_80ms:1304.084000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1304.084
+      },
+      "similarity": 0.1387
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bruh",
+      "momentText": "That's so cheap",
+      "captionWindow": "speaker_2: Is this the ball | speaker_2: bro? | speaker_2: That's so cheap | speaker_2: Why is the ball so little? | speaker_2: You got it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_b9b785ae416baffe:cue_end_minus_80ms:127.940000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 127.94
+      },
+      "similarity": 0.1176
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "bruh",
+      "momentText": "George!",
+      "captionWindow": "speaker_2: please | speaker_2: don't do it too fast George | speaker_2: George! | speaker_2: Guys | speaker_2: guys",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_ab819489bc2440e4:pause_boundary:44.147000",
+        "anchorType": "pause_boundary",
+        "targetSec": 44.147
+      },
+      "similarity": 0.1094
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "record_scratch",
+      "momentText": "We?",
+      "captionWindow": "speaker_1: but we found Miniso | speaker_1: so | speaker_2: We? | speaker_2: we? | speaker_2: or you?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2d44f7ce1c814fc6:cue_start:599.712000",
+        "anchorType": "cue_start",
+        "targetSec": 599.712
+      },
+      "similarity": 0.1174
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "The potato one",
+      "captionWindow": "speaker_5: bad one was the last one | speaker_1: I love that one | speaker_5: The potato one | speaker_1: And I have this one for me | speaker_1: Okay bye",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c26d55cd494ed645:cue_start:971.420000",
+        "anchorType": "cue_start",
+        "targetSec": 971.42
+      },
+      "similarity": 0.1075
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "dramatic",
+      "momentText": "amor",
+      "captionWindow": "speaker_2: Okay | speaker_2: take off the blindfold | speaker_2: amor | speaker_3: What the? | speaker_2: What do you think?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_ce2427461a9578e4:final_word_end:909.079000",
+        "anchorType": "final_word_end",
+        "targetSec": 909.079
+      },
+      "similarity": 0.163
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "dramatic",
+      "momentText": "The big one",
+      "captionWindow": "speaker_2: The big one | speaker_2: guys | speaker_2: The big one | speaker_2: Oh | speaker_2: no",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_85067dbcbe2ae861:zoom_onset:1554.452900",
+        "anchorType": "zoom_onset",
+        "targetSec": 1554.453
+      },
+      "similarity": 0.1525
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "other_sfx",
+      "momentText": "take off the blindfold",
+      "captionWindow": "speaker_3: yes | speaker_2: Okay | speaker_2: take off the blindfold | speaker_2: amor | speaker_3: What the?",
+      "timing": null,
+      "similarity": 0.1489
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "other_sfx",
+      "momentText": "take off the blindfold",
+      "captionWindow": "speaker_3: yes | speaker_2: Okay | speaker_2: take off the blindfold | speaker_2: amor | speaker_3: What the?",
+      "timing": null,
+      "similarity": 0.1489
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "80f830eb950dee650bf3",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000055579_04",
+  "coreStartSec": 55.579,
+  "coreEndSec": 59.8,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_14bfddde2e0f0ab4"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_1522d0cae64690f2:cue_start:56.438000",
+    "cand_caption_beat_1522d0cae64690f2:final_word_end:56.400000",
+    "cand_caption_beat_d8027c51e3e8fe30:cue_end_minus_80ms:56.278000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_14bfddde2e0f0ab4",
+      "beatGroupId": "beat_group_77",
+      "kind": "caption_moment",
+      "momentSec": 56.4,
+      "relativeSec": 0.821,
+      "cueIds": [
+        "cue-00621",
+        "cue-00622"
+      ],
+      "text": "We're not going to be eating here",
+      "captionWindow": "speaker_1: But wait | speaker_1: I have a surprise | speaker_1: We're not going to be eating here | speaker_1: I mean | speaker_1: you guys",
+      "allowedFamilies": [
+        "other_sfx",
+        "record_scratch"
+      ],
+      "gateReasons": [
+        "abrupt_reversal"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.16,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_d8027c51e3e8fe30:cue_end_minus_80ms:56.278000",
+          "targetSec": 56.278,
+          "relativeSec": 0.699,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00621"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_1522d0cae64690f2:final_word_end:56.400000",
+          "targetSec": 56.4,
+          "relativeSec": 0.821,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00621",
+            "cue-00622"
+          ],
+          "wordIds": [
+            "word-00188"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_1522d0cae64690f2:cue_start:56.438000",
+          "targetSec": 56.438,
+          "relativeSec": 0.859,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00621",
+            "cue-00622"
+          ],
+          "wordIds": [
+            "word-00188"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "none",
+      "momentText": "We're not going",
+      "captionWindow": "speaker_1: Wait | speaker_1: but you have to go | speaker_1: We're not going | speaker_1: to keep that | speaker_1: No",
+      "timing": null,
+      "similarity": 0.2696
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "none",
+      "momentText": "Wait",
+      "captionWindow": "speaker_5: Come I gotta talk to you | speaker_5: Come | speaker_1: Wait | speaker_1: but you have to go | speaker_1: We're not going",
+      "timing": null,
+      "similarity": 0.239
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "pop",
+      "momentText": "because we're",
+      "captionWindow": "speaker_1: me tell you something | speaker_1: We're here | speaker_1: because we're | speaker_1: gonna be going | speaker_1: to this store",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_87d81c6de651f3b9:zoom_onset:17.450767",
+        "anchorType": "zoom_onset",
+        "targetSec": 17.451
+      },
+      "similarity": 0.2083
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "pop",
+      "momentText": "We're gonna be going",
+      "captionWindow": "speaker_1: George is gonna be so happy | speaker_1: We're home | speaker_1: We're gonna be going | speaker_1: in through here | speaker_1: Look at this",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_13b9627c26fb4a84:cue_end_minus_80ms:196.200000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 196.2
+      },
+      "similarity": 0.1868
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "ding",
+      "momentText": "to the next grade",
+      "captionWindow": "speaker_1: a good job in school | speaker_1: And you guys are going | speaker_1: to the next grade | speaker_1: so | speaker_1: let's go",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_6f7d148fb410ddd3:cue_end_minus_80ms:600.240000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 600.24
+      },
+      "similarity": 0.1898
+    },
+    {
+      "projectId": "new_footage_sfx",
+      "family": "ding",
+      "momentText": "stay here longer",
+      "captionWindow": "speaker_1: but after you see this | speaker_1: you're gonna wanna | speaker_1: stay here longer | speaker_1: We're gonna stay | speaker_1: a couple of days here",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e2210c4bb205092b:pause_boundary:93.680000",
+        "anchorType": "pause_boundary",
+        "targetSec": 93.68
+      },
+      "similarity": 0.1798
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "success",
+      "momentText": "guys",
+      "captionWindow": "speaker_1: Oh | speaker_1: he's fixing his bed | speaker_1: guys | speaker_1: What's going on? | speaker_1: You gonna be going",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_7e000b57d5f49e81:cue_end_minus_80ms:136.640000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 136.64
+      },
+      "similarity": 0.1917
+    },
+    {
+      "projectId": "new_footage_sfx",
+      "family": "success",
+      "momentText": "room here too",
+      "captionWindow": "speaker_1: Yeah guys | speaker_1: you have your own | speaker_1: room here too | speaker_6: aaaaay | speaker_1: aaaaay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_a0925ee3682c5819:cue_end_minus_80ms:106.040000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 106.04
+      },
+      "similarity": 0.1845
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bonk",
+      "momentText": "to wear a PJ",
+      "captionWindow": "speaker_1: she's kinda jealous though | speaker_1: because I know George has | speaker_1: to wear a PJ | speaker_1: I mean | speaker_1: he doesn't have to",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_218bbe640633f30b:zoom_onset:189.472617",
+        "anchorType": "zoom_onset",
+        "targetSec": 189.473
+      },
+      "similarity": 0.1921
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bonk",
+      "momentText": "I can't tell you",
+      "captionWindow": "speaker_1: I'll be taking you | speaker_1: to | speaker_1: I can't tell you | speaker_1: We're gonna go right now | speaker_1: Me",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f6df8644e729f54e:cue_end_minus_80ms:585.640000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 585.64
+      },
+      "similarity": 0.1874
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "funny",
+      "momentText": "we're gonna be trying",
+      "captionWindow": "speaker_1: I got the wrong squishies | speaker_1: guys | speaker_1: we're gonna be trying | speaker_1: to get the original ones | speaker_1: I think",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2c2486da263a14d1:zoom_onset:1362.394367",
+        "anchorType": "zoom_onset",
+        "targetSec": 1362.394
+      },
+      "similarity": 0.2083
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "funny",
+      "momentText": "Wait",
+      "captionWindow": "speaker_1: We are here | speaker_3: We're at Target | speaker_1: Wait | speaker_1: What are you doing? | speaker_1: So you guys could",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_9425027e125acbd8:cue_start:608.580000",
+        "anchorType": "cue_start",
+        "targetSec": 608.58
+      },
+      "similarity": 0.1845
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bruh",
+      "momentText": "You do?",
+      "captionWindow": "speaker_1: Do you have to take your | speaker_1: backpack? | speaker_1: You do? | speaker_1: Okay guys | speaker_1: so",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d5e865863506385c:pause_boundary:42.860000",
+        "anchorType": "pause_boundary",
+        "targetSec": 42.86
+      },
+      "similarity": 0.1693
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bruh",
+      "momentText": "nobody wins",
+      "captionWindow": "speaker_1: but listen | speaker_1: if Suri is awake too | speaker_1: nobody wins | speaker_1: George | speaker_1: Wait",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1a399265a0db96c6:final_word_end:427.860000",
+        "anchorType": "final_word_end",
+        "targetSec": 427.86
+      },
+      "similarity": 0.1545
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "record_scratch",
+      "momentText": "to",
+      "captionWindow": "speaker_3: Where? | speaker_1: I'll be taking you | speaker_1: to | speaker_1: I can't tell you | speaker_1: We're gonna go right now",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_abd23f7415d9dde6:pause_boundary:584.420000",
+        "anchorType": "pause_boundary",
+        "targetSec": 584.42
+      },
+      "similarity": 0.2008
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "record_scratch",
+      "momentText": "so we're gonna be sharing",
+      "captionWindow": "speaker_1: I have cherry limeade | speaker_1: But George got something | speaker_1: so we're gonna be sharing | speaker_1: 23 | speaker_1: 24",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c6e954b6ff52f6f4:zoom_onset:136.186050",
+        "anchorType": "zoom_onset",
+        "targetSec": 136.186
+      },
+      "similarity": 0.2003
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "dramatic",
+      "momentText": "Terah",
+      "captionWindow": "speaker_1: guys | speaker_1: we're gonna be seeing where | speaker_1: Terah | speaker_1: wait | speaker_1: Ooh",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_a7e8c6440bd25ab7:zoom_onset:317.433783",
+        "anchorType": "zoom_onset",
+        "targetSec": 317.434
+      },
+      "similarity": 0.1874
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "dramatic",
+      "momentText": "I just lost a",
+      "captionWindow": "speaker_1: Guys | speaker_1: this is crazy | speaker_1: I just lost a | speaker_1: coffee from Starbucks | speaker_1: Not good",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_36e709f622debed2:zoom_onset:453.503050",
+        "anchorType": "zoom_onset",
+        "targetSec": 453.503
+      },
+      "similarity": 0.1826
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "other_sfx",
+      "momentText": "so we're gonna be sharing",
+      "captionWindow": "speaker_1: I have cherry limeade | speaker_1: But George got something | speaker_1: so we're gonna be sharing | speaker_1: 23 | speaker_1: 24",
+      "timing": null,
+      "similarity": 0.2003
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "other_sfx",
+      "momentText": "what's going on",
+      "captionWindow": "speaker_1: guys | speaker_1: I don't know | speaker_1: what's going on | speaker_3: No I haven't | speaker_1: But she's been acting",
+      "timing": null,
+      "similarity": 0.1932
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

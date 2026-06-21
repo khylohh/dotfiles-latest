@@ -1,0 +1,1946 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "3a05baa513f2a9028197",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000445490_22",
+  "coreStartSec": 445.49,
+  "coreEndSec": 471.37,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_2f01ce7785c3c9e1",
+    "caption_moment_a3ed196099a6073b",
+    "caption_moment_ca4b9e8810815975",
+    "caption_moment_7527441dc348fcea",
+    "caption_moment_f31b1a0dce5657ce",
+    "caption_moment_bdd0afcc30872507",
+    "caption_moment_b7f3fe21dfb6bd74",
+    "caption_moment_b483868da1ecb9f6",
+    "caption_moment_7686c7f416112165",
+    "caption_moment_f9a70d00d875dd10",
+    "caption_moment_c6b89ecd4699b884",
+    "caption_moment_865198e4f791a1f6",
+    "caption_moment_1ad2b67c7beb89d9",
+    "caption_moment_adbbb0309b7e9ec2",
+    "caption_moment_8fc0ed49980bdfb6",
+    "caption_moment_a440cd23221dcef7",
+    "caption_moment_7be1417832407b43",
+    "caption_moment_62864ce036c9c2f5"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_025e3928cc514312:internal_pause_word_end:459.400000",
+    "cand_caption_beat_126083d712748744:cue_end_minus_80ms:463.499361",
+    "cand_caption_beat_126083d712748744:cue_start:463.579361",
+    "cand_caption_beat_126083d712748744:final_word_end:463.520000",
+    "cand_caption_beat_126083d712748744:internal_pause_word_end:463.520000",
+    "cand_caption_beat_1388d4bd50ed0876:cue_end_minus_80ms:459.920000",
+    "cand_caption_beat_1388d4bd50ed0876:final_word_end:460.000000",
+    "cand_caption_beat_1388d4bd50ed0876:pause_boundary:460.000000",
+    "cand_caption_beat_287eac98cb89cddb:cue_end_minus_80ms:465.208120",
+    "cand_caption_beat_287eac98cb89cddb:cue_start:465.288120",
+    "cand_caption_beat_2f4b1c6c87b19dd5:zoom_onset:460.293167",
+    "cand_caption_beat_3441cbf3e72017ad:cue_start:460.510000",
+    "cand_caption_beat_3441cbf3e72017ad:internal_pause_word_end:460.580000",
+    "cand_caption_beat_3441cbf3e72017ad:speaker_turn_start:460.510000",
+    "cand_caption_beat_4943d92fc88d4a88:cue_start:454.320000",
+    "cand_caption_beat_4943d92fc88d4a88:speaker_turn_start:454.320000",
+    "cand_caption_beat_5183c32146b110ae:cue_end_minus_80ms:449.843000",
+    "cand_caption_beat_5183c32146b110ae:final_word_end:449.960000",
+    "cand_caption_beat_5183c32146b110ae:pause_boundary:449.923000",
+    "cand_caption_beat_5ab09e120911f641:cue_start:450.524000",
+    "cand_caption_beat_5cc132778a65ec06:cue_start:455.220000",
+    "cand_caption_beat_6272704ee01c19ce:cue_end_minus_80ms:454.840000",
+    "cand_caption_beat_6272704ee01c19ce:cue_start:454.920000",
+    "cand_caption_beat_6272704ee01c19ce:final_word_end:454.900000",
+    "cand_caption_beat_67b62464bd8151b0:internal_pause_word_end:451.580000",
+    "cand_caption_beat_70ccfe9e093a3a12:cue_end_minus_80ms:449.080000",
+    "cand_caption_beat_70ccfe9e093a3a12:cue_start:449.160000",
+    "cand_caption_beat_70ccfe9e093a3a12:final_word_end:449.140000",
+    "cand_caption_beat_927a507125af3026:cue_start:446.580000",
+    "cand_caption_beat_9fbb70e65e0c2708:cue_end_minus_80ms:447.980000",
+    "cand_caption_beat_9fbb70e65e0c2708:final_word_end:448.060000",
+    "cand_caption_beat_ab2c8ef7f8e63335:cue_start:448.323000",
+    "cand_caption_beat_bef35a1670fcbd7c:cue_end_minus_80ms:454.120000",
+    "cand_caption_beat_bef35a1670fcbd7c:final_word_end:454.200000",
+    "cand_caption_beat_bf1f5c2f8f1307f7:cue_end_minus_80ms:459.080000",
+    "cand_caption_beat_bf1f5c2f8f1307f7:cue_start:459.160000",
+    "cand_caption_beat_bf1f5c2f8f1307f7:final_word_end:459.140000",
+    "cand_caption_beat_c03bd1739ad6502a:cue_end_minus_80ms:461.759986",
+    "cand_caption_beat_c03bd1739ad6502a:cue_start:461.839986",
+    "cand_caption_beat_e417f4b9ee96c494:cue_end_minus_80ms:455.060000",
+    "cand_caption_beat_e417f4b9ee96c494:final_word_end:455.140000",
+    "cand_caption_beat_f36ac18d3c5c8e9e:cue_end_minus_80ms:452.833351",
+    "cand_caption_beat_f36ac18d3c5c8e9e:cue_start:452.913351",
+    "cand_caption_beat_f36ac18d3c5c8e9e:final_word_end:452.880000",
+    "cand_caption_beat_f36ac18d3c5c8e9e:zoom_onset:452.919133",
+    "cand_caption_beat_f65428c3580bb839:final_word_end:464.820000",
+    "cand_caption_beat_fe5e4d97686c0d39:cue_start:458.540000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_2f01ce7785c3c9e1",
+      "beatGroupId": "beat_group_596",
+      "kind": "caption_moment",
+      "momentSec": 446.58,
+      "relativeSec": 1.09,
+      "cueIds": [
+        "cue-00818"
+      ],
+      "text": "My kids made a song",
+      "captionWindow": "speaker_1: is that the joke? | speaker_2: Yeah | speaker_2: My kids made a song | speaker_2: So every time | speaker_2: that they want",
+      "allowedFamilies": [
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_927a507125af3026:cue_start:446.580000",
+          "targetSec": 446.58,
+          "relativeSec": 1.09,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00818"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_a3ed196099a6073b",
+      "beatGroupId": "beat_group_597",
+      "kind": "caption_moment",
+      "momentSec": 448.02,
+      "relativeSec": 2.53,
+      "cueIds": [
+        "cue-00818"
+      ],
+      "text": "My kids made a song",
+      "captionWindow": "speaker_1: is that the joke? | speaker_2: Yeah | speaker_2: My kids made a song | speaker_2: So every time | speaker_2: that they want",
+      "allowedFamilies": [
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_9fbb70e65e0c2708:cue_end_minus_80ms:447.980000",
+          "targetSec": 447.98,
+          "relativeSec": 2.49,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00818"
+          ],
+          "wordIds": [
+            "word-01462"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_9fbb70e65e0c2708:final_word_end:448.060000",
+          "targetSec": 448.06,
+          "relativeSec": 2.57,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00818"
+          ],
+          "wordIds": [
+            "word-01462"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_ca4b9e8810815975",
+      "beatGroupId": "beat_group_598",
+      "kind": "caption_moment",
+      "momentSec": 448.323,
+      "relativeSec": 2.833,
+      "cueIds": [
+        "cue-00819"
+      ],
+      "text": "So every time",
+      "captionWindow": "speaker_2: Yeah | speaker_2: My kids made a song | speaker_2: So every time | speaker_2: that they want | speaker_2: Something from 7 Eleven",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_ab2c8ef7f8e63335:cue_start:448.323000",
+          "targetSec": 448.323,
+          "relativeSec": 2.833,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00819"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_7527441dc348fcea",
+      "beatGroupId": "beat_group_599",
+      "kind": "caption_moment",
+      "momentSec": 449.14,
+      "relativeSec": 3.65,
+      "cueIds": [
+        "cue-00819",
+        "d144b4cf-c562-49bc-9823-e82f24b0a880"
+      ],
+      "text": "So every time",
+      "captionWindow": "speaker_2: Yeah | speaker_2: My kids made a song | speaker_2: So every time | speaker_2: that they want | speaker_2: Something from 7 Eleven",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_70ccfe9e093a3a12:cue_end_minus_80ms:449.080000",
+          "targetSec": 449.08,
+          "relativeSec": 3.59,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00819",
+            "d144b4cf-c562-49bc-9823-e82f24b0a880"
+          ],
+          "wordIds": [
+            "word-01465"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_70ccfe9e093a3a12:final_word_end:449.140000",
+          "targetSec": 449.14,
+          "relativeSec": 3.65,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00819",
+            "d144b4cf-c562-49bc-9823-e82f24b0a880"
+          ],
+          "wordIds": [
+            "word-01465"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_70ccfe9e093a3a12:cue_start:449.160000",
+          "targetSec": 449.16,
+          "relativeSec": 3.67,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00819",
+            "d144b4cf-c562-49bc-9823-e82f24b0a880"
+          ],
+          "wordIds": [
+            "word-01465"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_f31b1a0dce5657ce",
+      "beatGroupId": "beat_group_600",
+      "kind": "caption_moment",
+      "momentSec": 449.923,
+      "relativeSec": 4.433,
+      "cueIds": [
+        "d144b4cf-c562-49bc-9823-e82f24b0a880"
+      ],
+      "text": "that they want",
+      "captionWindow": "speaker_2: My kids made a song | speaker_2: So every time | speaker_2: that they want | speaker_2: Something from 7 Eleven | speaker_2: they have to sing this song",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.117,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_5183c32146b110ae:cue_end_minus_80ms:449.843000",
+          "targetSec": 449.843,
+          "relativeSec": 4.353,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "d144b4cf-c562-49bc-9823-e82f24b0a880"
+          ],
+          "wordIds": [
+            "word-01468"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_5183c32146b110ae:pause_boundary:449.923000",
+          "targetSec": 449.923,
+          "relativeSec": 4.433,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "d144b4cf-c562-49bc-9823-e82f24b0a880"
+          ],
+          "wordIds": [
+            "word-01468"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_5183c32146b110ae:final_word_end:449.960000",
+          "targetSec": 449.96,
+          "relativeSec": 4.47,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "d144b4cf-c562-49bc-9823-e82f24b0a880"
+          ],
+          "wordIds": [
+            "word-01468"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_bdd0afcc30872507",
+      "beatGroupId": "beat_group_601",
+      "kind": "caption_moment",
+      "momentSec": 450.524,
+      "relativeSec": 5.034,
+      "cueIds": [
+        "cue-00820"
+      ],
+      "text": "Something from 7 Eleven",
+      "captionWindow": "speaker_2: So every time | speaker_2: that they want | speaker_2: Something from 7 Eleven | speaker_2: they have to sing this song | speaker_1: Which one was it",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_5ab09e120911f641:cue_start:450.524000",
+          "targetSec": 450.524,
+          "relativeSec": 5.034,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00820"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_b7f3fe21dfb6bd74",
+      "beatGroupId": "beat_group_602",
+      "kind": "caption_moment",
+      "momentSec": 451.58,
+      "relativeSec": 6.09,
+      "cueIds": [
+        "cue-00820"
+      ],
+      "text": "Something from 7 Eleven",
+      "captionWindow": "speaker_2: So every time | speaker_2: that they want | speaker_2: Something from 7 Eleven | speaker_2: they have to sing this song | speaker_1: Which one was it",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.45,
+        "moment.mean_boundary_strength": 0.45,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_67b62464bd8151b0:internal_pause_word_end:451.580000",
+          "targetSec": 451.58,
+          "relativeSec": 6.09,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00820"
+          ],
+          "wordIds": [
+            "word-01470"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-60"
+          ],
+          "boundaryStrength": 0.45,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_b483868da1ecb9f6",
+      "beatGroupId": "beat_group_603",
+      "kind": "caption_moment",
+      "momentSec": 452.897,
+      "relativeSec": 7.407,
+      "cueIds": [
+        "cue-00253",
+        "cue-00820",
+        "cue-00822"
+      ],
+      "text": "Something from 7 Eleven",
+      "captionWindow": "speaker_2: So every time | speaker_2: that they want | speaker_2: Something from 7 Eleven | speaker_2: they have to sing this song | speaker_1: Which one was it",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset",
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.086,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.5,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_f36ac18d3c5c8e9e:cue_end_minus_80ms:452.833351",
+          "targetSec": 452.833,
+          "relativeSec": 7.343,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00253",
+            "cue-00820",
+            "cue-00822"
+          ],
+          "wordIds": [
+            "word-01472"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-60"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f36ac18d3c5c8e9e:final_word_end:452.880000",
+          "targetSec": 452.88,
+          "relativeSec": 7.39,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00253",
+            "cue-00820",
+            "cue-00822"
+          ],
+          "wordIds": [
+            "word-01472"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-60"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f36ac18d3c5c8e9e:cue_start:452.913351",
+          "targetSec": 452.913,
+          "relativeSec": 7.423,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00253",
+            "cue-00820",
+            "cue-00822"
+          ],
+          "wordIds": [
+            "word-01472"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-60"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f36ac18d3c5c8e9e:zoom_onset:452.919133",
+          "targetSec": 452.919,
+          "relativeSec": 7.429,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00253",
+            "cue-00820",
+            "cue-00822"
+          ],
+          "wordIds": [
+            "word-01472"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-60"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_7686c7f416112165",
+      "beatGroupId": "beat_group_604",
+      "kind": "caption_moment",
+      "momentSec": 454.16,
+      "relativeSec": 8.67,
+      "cueIds": [
+        "cue-00822"
+      ],
+      "text": "they have to sing this song",
+      "captionWindow": "speaker_2: that they want | speaker_2: Something from 7 Eleven | speaker_2: they have to sing this song | speaker_1: Which one was it | speaker_1: George",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_bef35a1670fcbd7c:cue_end_minus_80ms:454.120000",
+          "targetSec": 454.12,
+          "relativeSec": 8.63,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00822"
+          ],
+          "wordIds": [
+            "word-01478"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-60"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_bef35a1670fcbd7c:final_word_end:454.200000",
+          "targetSec": 454.2,
+          "relativeSec": 8.71,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00822"
+          ],
+          "wordIds": [
+            "word-01478"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-60"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_f9a70d00d875dd10",
+      "beatGroupId": "beat_group_605",
+      "kind": "caption_moment",
+      "momentSec": 454.32,
+      "relativeSec": 8.83,
+      "cueIds": [
+        "cue-00253"
+      ],
+      "text": "Which one was it",
+      "captionWindow": "speaker_2: Something from 7 Eleven | speaker_2: they have to sing this song | speaker_1: Which one was it | speaker_1: George | speaker_1: the first or the second?",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_4943d92fc88d4a88:cue_start:454.320000",
+          "targetSec": 454.32,
+          "relativeSec": 8.83,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00253"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-60"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_4943d92fc88d4a88:speaker_turn_start:454.320000",
+          "targetSec": 454.32,
+          "relativeSec": 8.83,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00253"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-60"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_c6b89ecd4699b884",
+      "beatGroupId": "beat_group_606",
+      "kind": "caption_moment",
+      "momentSec": 454.99,
+      "relativeSec": 9.5,
+      "cueIds": [
+        "cue-00253",
+        "cue-00254",
+        "cue-00255"
+      ],
+      "text": "Which one was it",
+      "captionWindow": "speaker_2: Something from 7 Eleven | speaker_2: they have to sing this song | speaker_1: Which one was it | speaker_1: George | speaker_1: the first or the second?",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 6.0,
+        "moment.span_sec": 0.38,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.183,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 2.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 2.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 2.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_6272704ee01c19ce:cue_end_minus_80ms:454.840000",
+          "targetSec": 454.84,
+          "relativeSec": 9.35,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00253",
+            "cue-00254"
+          ],
+          "wordIds": [
+            "word-01482"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_6272704ee01c19ce:final_word_end:454.900000",
+          "targetSec": 454.9,
+          "relativeSec": 9.41,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00253",
+            "cue-00254"
+          ],
+          "wordIds": [
+            "word-01482"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_6272704ee01c19ce:cue_start:454.920000",
+          "targetSec": 454.92,
+          "relativeSec": 9.43,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00253",
+            "cue-00254"
+          ],
+          "wordIds": [
+            "word-01482"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e417f4b9ee96c494:cue_end_minus_80ms:455.060000",
+          "targetSec": 455.06,
+          "relativeSec": 9.57,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00254"
+          ],
+          "wordIds": [
+            "word-01483"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e417f4b9ee96c494:final_word_end:455.140000",
+          "targetSec": 455.14,
+          "relativeSec": 9.65,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00254"
+          ],
+          "wordIds": [
+            "word-01483"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_5cc132778a65ec06:cue_start:455.220000",
+          "targetSec": 455.22,
+          "relativeSec": 9.73,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00255"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_865198e4f791a1f6",
+      "beatGroupId": "beat_group_611",
+      "kind": "caption_moment",
+      "momentSec": 458.54,
+      "relativeSec": 13.05,
+      "cueIds": [
+        "cue-00823"
+      ],
+      "text": "Sing the first",
+      "captionWindow": "speaker_3: I think the first | speaker_2: Okay | speaker_2: Sing the first | speaker_2: to jancy family | speaker_1: 7 Eleven",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_fe5e4d97686c0d39:cue_start:458.540000",
+          "targetSec": 458.54,
+          "relativeSec": 13.05,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00823"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_1ad2b67c7beb89d9",
+      "beatGroupId": "beat_group_612",
+      "kind": "caption_moment",
+      "momentSec": 459.15,
+      "relativeSec": 13.66,
+      "cueIds": [
+        "cue-00823",
+        "cue-00824"
+      ],
+      "text": "Sing the first",
+      "captionWindow": "speaker_3: I think the first | speaker_2: Okay | speaker_2: Sing the first | speaker_2: to jancy family | speaker_1: 7 Eleven",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.32,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.262,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_bf1f5c2f8f1307f7:cue_end_minus_80ms:459.080000",
+          "targetSec": 459.08,
+          "relativeSec": 13.59,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00823",
+            "cue-00824"
+          ],
+          "wordIds": [
+            "word-01497"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_bf1f5c2f8f1307f7:final_word_end:459.140000",
+          "targetSec": 459.14,
+          "relativeSec": 13.65,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00823",
+            "cue-00824"
+          ],
+          "wordIds": [
+            "word-01497"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_bf1f5c2f8f1307f7:cue_start:459.160000",
+          "targetSec": 459.16,
+          "relativeSec": 13.67,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00823",
+            "cue-00824"
+          ],
+          "wordIds": [
+            "word-01497"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_025e3928cc514312:internal_pause_word_end:459.400000",
+          "targetSec": 459.4,
+          "relativeSec": 13.91,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00824"
+          ],
+          "wordIds": [
+            "word-01500"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.15,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_adbbb0309b7e9ec2",
+      "beatGroupId": "beat_group_613",
+      "kind": "caption_moment",
+      "momentSec": 460.0,
+      "relativeSec": 14.51,
+      "cueIds": [
+        "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+        "cue-00257",
+        "cue-00258",
+        "cue-00824"
+      ],
+      "text": "to jancy family",
+      "captionWindow": "speaker_2: Okay | speaker_2: Sing the first | speaker_2: to jancy family | speaker_1: 7 Eleven | speaker_1: has chips",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset",
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.373,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.2,
+        "moment.mean_boundary_strength": 0.05,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_1388d4bd50ed0876:cue_end_minus_80ms:459.920000",
+          "targetSec": 459.92,
+          "relativeSec": 14.43,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00824"
+          ],
+          "wordIds": [
+            "word-01501"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_1388d4bd50ed0876:final_word_end:460.000000",
+          "targetSec": 460.0,
+          "relativeSec": 14.51,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00824"
+          ],
+          "wordIds": [
+            "word-01501"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_1388d4bd50ed0876:pause_boundary:460.000000",
+          "targetSec": 460.0,
+          "relativeSec": 14.51,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00824"
+          ],
+          "wordIds": [
+            "word-01501"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_2f4b1c6c87b19dd5:zoom_onset:460.293167",
+          "targetSec": 460.293,
+          "relativeSec": 14.803,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+            "cue-00257",
+            "cue-00258",
+            "cue-00824"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_8fc0ed49980bdfb6",
+      "beatGroupId": "beat_group_614",
+      "kind": "caption_moment",
+      "momentSec": 460.51,
+      "relativeSec": 15.02,
+      "cueIds": [
+        "cue-00257"
+      ],
+      "text": "7 Eleven",
+      "captionWindow": "speaker_2: Sing the first | speaker_2: to jancy family | speaker_1: 7 Eleven | speaker_1: has chips | speaker_1: candies and",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.07,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.95,
+        "moment.mean_boundary_strength": 0.95,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_3441cbf3e72017ad:cue_start:460.510000",
+          "targetSec": 460.51,
+          "relativeSec": 15.02,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00257"
+          ],
+          "wordIds": [
+            "word-01502"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.95,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_3441cbf3e72017ad:speaker_turn_start:460.510000",
+          "targetSec": 460.51,
+          "relativeSec": 15.02,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00257"
+          ],
+          "wordIds": [
+            "word-01502"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.95,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_3441cbf3e72017ad:internal_pause_word_end:460.580000",
+          "targetSec": 460.58,
+          "relativeSec": 15.09,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00257"
+          ],
+          "wordIds": [
+            "word-01502"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.95,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_a440cd23221dcef7",
+      "beatGroupId": "beat_group_615",
+      "kind": "caption_moment",
+      "momentSec": 461.8,
+      "relativeSec": 16.31,
+      "cueIds": [
+        "cue-00257",
+        "cue-00258"
+      ],
+      "text": "7 Eleven",
+      "captionWindow": "speaker_2: Sing the first | speaker_2: to jancy family | speaker_1: 7 Eleven | speaker_1: has chips | speaker_1: candies and",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.6,
+        "moment.mean_boundary_strength": 0.6,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_c03bd1739ad6502a:cue_end_minus_80ms:461.759986",
+          "targetSec": 461.76,
+          "relativeSec": 16.27,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00257",
+            "cue-00258"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_c03bd1739ad6502a:cue_start:461.839986",
+          "targetSec": 461.84,
+          "relativeSec": 16.35,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00257",
+            "cue-00258"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-61"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_7be1417832407b43",
+      "beatGroupId": "beat_group_616",
+      "kind": "caption_moment",
+      "momentSec": 463.52,
+      "relativeSec": 18.03,
+      "cueIds": [
+        "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+        "cue-00257",
+        "cue-00258"
+      ],
+      "text": "7 Eleven",
+      "captionWindow": "speaker_2: Sing the first | speaker_2: to jancy family | speaker_1: 7 Eleven | speaker_1: has chips | speaker_1: candies and",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.75,
+        "moment.mean_boundary_strength": 0.75,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_126083d712748744:cue_end_minus_80ms:463.499361",
+          "targetSec": 463.499,
+          "relativeSec": 18.009,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+            "cue-00257",
+            "cue-00258"
+          ],
+          "wordIds": [
+            "word-01505"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.75,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_126083d712748744:final_word_end:463.520000",
+          "targetSec": 463.52,
+          "relativeSec": 18.03,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+            "cue-00257",
+            "cue-00258"
+          ],
+          "wordIds": [
+            "word-01505"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.75,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_126083d712748744:internal_pause_word_end:463.520000",
+          "targetSec": 463.52,
+          "relativeSec": 18.03,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+            "cue-00257",
+            "cue-00258"
+          ],
+          "wordIds": [
+            "word-01505"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.75,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_126083d712748744:cue_start:463.579361",
+          "targetSec": 463.579,
+          "relativeSec": 18.089,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+            "cue-00257",
+            "cue-00258"
+          ],
+          "wordIds": [
+            "word-01505"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.75,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_62864ce036c9c2f5",
+      "beatGroupId": "beat_group_617",
+      "kind": "caption_moment",
+      "momentSec": 465.208,
+      "relativeSec": 19.718,
+      "cueIds": [
+        "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+        "cue-00258",
+        "cue-00259"
+      ],
+      "text": "candies and",
+      "captionWindow": "speaker_1: 7 Eleven | speaker_1: has chips | speaker_1: candies and | speaker_1: slushees like blue raspberry | speaker_1: cherry and Fanta",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.468,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_f65428c3580bb839:final_word_end:464.820000",
+          "targetSec": 464.82,
+          "relativeSec": 19.33,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+            "cue-00258"
+          ],
+          "wordIds": [
+            "word-01506"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_287eac98cb89cddb:cue_end_minus_80ms:465.208120",
+          "targetSec": 465.208,
+          "relativeSec": 19.718,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+            "cue-00259"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_287eac98cb89cddb:cue_start:465.288120",
+          "targetSec": 465.288,
+          "relativeSec": 19.798,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "b90f87b8-5d94-4121-a521-9f8e4e9cd3e2",
+            "cue-00259"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "none",
+      "momentText": "me that they want to get this one",
+      "captionWindow": "speaker_2: of these blue ones | speaker_2: So the kids are telling | speaker_2: me that they want to get this one | speaker_2: because this one's like a boat | speaker_1: It has three things",
+      "timing": null,
+      "similarity": 0.0246
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "none",
+      "momentText": "Yeah the same one",
+      "captionWindow": "speaker_1: I didn't know it was | speaker_3: i want this one | speaker_1: Yeah the same one | speaker_3: This blue green | speaker_2: You want that one?",
+      "timing": null,
+      "similarity": 0.0241
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "pop",
+      "momentText": "one or this one",
+      "captionWindow": "speaker_2: of these ones | speaker_1: So maybe the purple | speaker_1: one or this one | speaker_2: Yeah | speaker_2: Yeah that one is transparent",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d1eb6a468c0e0af5:zoom_onset:206.033333",
+        "anchorType": "zoom_onset",
+        "targetSec": 206.033
+      },
+      "similarity": 0.0212
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "pop",
+      "momentText": "I think we have",
+      "captionWindow": "speaker_1: That's crazy | speaker_1: Why is it plastic? | speaker_3: I think we have | speaker_3: to use the broom one | speaker_1: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3965cfaeef2cdc8e:final_word_end:322.700000",
+        "anchorType": "final_word_end",
+        "targetSec": 322.7
+      },
+      "similarity": 0.0211
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "ding",
+      "momentText": "and it was the last one",
+      "captionWindow": "speaker_2: Wow | speaker_1: A dinosaur book | speaker_1: and it was the last one | speaker_2: That's cool | speaker_2: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_17b78638ef20575b:cue_end_minus_80ms:788.432000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 788.432
+      },
+      "similarity": 0.0207
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_3: Like a normal tube | speaker_3: like this one | speaker_2: Yeah | speaker_2: The normal ones | speaker_1: Since this one has the",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_23c32420cd3e359f:cue_start:183.420000",
+        "anchorType": "cue_start",
+        "targetSec": 183.42
+      },
+      "similarity": 0.0207
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "success",
+      "momentText": "Wow",
+      "captionWindow": "speaker_1: Look what I got for george | speaker_1: This is perfect | speaker_2: Wow | speaker_1: A dinosaur book | speaker_1: and it was the last one",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f74e9306c72ca62c:cue_start:785.892000",
+        "anchorType": "cue_start",
+        "targetSec": 785.892
+      },
+      "similarity": 0.0195
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "success",
+      "momentText": "Okay let's get that one then",
+      "captionWindow": "speaker_2: Oh yeah | speaker_1: I think it's pretty | speaker_2: Okay let's get that one then | speaker_2: Okay | speaker_2: So we have one",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e7b2eb255f9d6f97:cue_end_minus_80ms:194.700000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 194.7
+      },
+      "similarity": 0.0195
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "bonk",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_1: that one is like a | speaker_1: green or blue | speaker_1: I don't know | speaker_1: Yeah | speaker_2: What the heck is this?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_929691982def1dec:cue_end_minus_80ms:266.080000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 266.08
+      },
+      "similarity": 0.0215
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "bonk",
+      "momentText": "the bookstore or something",
+      "captionWindow": "speaker_1: So guys | speaker_1: I think they closed | speaker_1: the bookstore or something | speaker_2: Yeah I'm pretty | speaker_2: sure they closed",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_051eb438d5fdfc33:final_word_end:610.191000",
+        "anchorType": "final_word_end",
+        "targetSec": 610.191
+      },
+      "similarity": 0.0205
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "funny",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_1: that the markers | speaker_1: they kind of lose them | speaker_2: Yeah | speaker_2: So I don't know if | speaker_2: should I get this one?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_6e03b55843536fa3:cue_start:760.292000",
+        "anchorType": "cue_start",
+        "targetSec": 760.292
+      },
+      "similarity": 0.0198
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "funny",
+      "momentText": "But I saw it",
+      "captionWindow": "speaker_1: and the blue | speaker_2: I chose that one | speaker_1: But I saw it | speaker_2: All right | speaker_2: so you're gonna be",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1720253a627ecfc4:cue_end_minus_80ms:355.612000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 355.612
+      },
+      "similarity": 0.0185
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bruh",
+      "momentText": "wait shouldn't they have",
+      "captionWindow": "speaker_4: \u00bfEsa? | speaker_4: that one? | speaker_1: wait shouldn't they have | speaker_1: a face? | speaker_3: Mine doesn't have a face",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_03b71fcef435034a:cue_start:1332.898932",
+        "anchorType": "cue_start",
+        "targetSec": 1332.899
+      },
+      "similarity": 0.0161
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bruh",
+      "momentText": "That's so cheap",
+      "captionWindow": "speaker_2: Is this the ball | speaker_2: bro? | speaker_2: That's so cheap | speaker_2: Why is the ball so little? | speaker_2: You got it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_b9b785ae416baffe:cue_end_minus_80ms:127.940000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 127.94
+      },
+      "similarity": 0.016
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "The potato one",
+      "captionWindow": "speaker_5: bad one was the last one | speaker_1: I love that one | speaker_5: The potato one | speaker_1: And I have this one for me | speaker_1: Okay bye",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c26d55cd494ed645:cue_start:971.420000",
+        "anchorType": "cue_start",
+        "targetSec": 971.42
+      },
+      "similarity": 0.0192
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "record_scratch",
+      "momentText": "Okay guys so",
+      "captionWindow": "speaker_2: I think that's good too | speaker_3: Yeah | speaker_2: Okay guys so | speaker_3: This is my new home | speaker_3: guys",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_eea7f29ca03dee89:final_word_end:764.560000",
+        "anchorType": "final_word_end",
+        "targetSec": 764.56
+      },
+      "similarity": 0.0183
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "dramatic",
+      "momentText": "bite it first",
+      "captionWindow": "speaker_1: yellow or the red | speaker_3: i thought i was gonna | speaker_3: bite it first | speaker_2: Yeah | speaker_2: she has to bite it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_485e98914c257c82:final_word_end:1326.353000",
+        "anchorType": "final_word_end",
+        "targetSec": 1326.353
+      },
+      "similarity": 0.0213
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "dramatic",
+      "momentText": "So",
+      "captionWindow": "speaker_1: back and a disc | speaker_1: something like that | speaker_1: So | speaker_1: hopefully it | speaker_1: doesn't get to that",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d561372822004850:final_word_end:455.784000",
+        "anchorType": "final_word_end",
+        "targetSec": 455.784
+      },
+      "similarity": 0.0188
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "other_sfx",
+      "momentText": "mami it's the same one",
+      "captionWindow": "speaker_1: there's the opposite | speaker_3: This is cool | speaker_2: mami it's the same one | speaker_1: I didn't know it was | speaker_3: i want this one",
+      "timing": null,
+      "similarity": 0.0208
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I think that she's",
+      "captionWindow": "speaker_1: so they're saying that | speaker_1: the turtle is not moving | speaker_3: I think that she's | speaker_3: just sleeping because | speaker_1: She came out a couple",
+      "timing": null,
+      "similarity": 0.0189
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

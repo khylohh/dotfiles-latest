@@ -1,0 +1,1416 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "b6449540ff509babcddf",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000170010_11",
+  "coreStartSec": 170.01,
+  "coreEndSec": 192.039,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_52c00b41c87bafa4",
+    "caption_moment_8d5409fa188a4d60",
+    "caption_moment_a45c8412b70ad278",
+    "caption_moment_cb3422e043d83b70",
+    "caption_moment_33b8ebb699bf1895",
+    "caption_moment_b98f122e5f1072e1",
+    "caption_moment_ff6b9017793fead5",
+    "caption_moment_754460affa4693a4",
+    "caption_moment_c66fef3b878ac966",
+    "caption_moment_73017dded8f4b23d",
+    "caption_moment_c0f1e55ed5232aa4",
+    "caption_moment_70fef100c8b9d96a",
+    "caption_moment_5802cd58c52d0390"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_0953884cfed14135:cue_start:189.300000",
+    "cand_caption_beat_2f1b305085b70b75:cue_start:180.120000",
+    "cand_caption_beat_3646aa88665e6cf8:cue_end_minus_80ms:189.540000",
+    "cand_caption_beat_3646aa88665e6cf8:final_word_end:189.620000",
+    "cand_caption_beat_555a2909582fc2ed:cue_end_minus_80ms:188.360000",
+    "cand_caption_beat_555a2909582fc2ed:final_word_end:188.440000",
+    "cand_caption_beat_555a2909582fc2ed:pause_boundary:188.440000",
+    "cand_caption_beat_6243e2f6fb3a8080:cue_start:185.780000",
+    "cand_caption_beat_7955c0ff65398d26:cue_start:186.980000",
+    "cand_caption_beat_82250240a9cebda2:cue_end_minus_80ms:181.620000",
+    "cand_caption_beat_82250240a9cebda2:final_word_end:181.700000",
+    "cand_caption_beat_82250240a9cebda2:pause_boundary:181.700000",
+    "cand_caption_beat_88042d68650280c5:cue_end_minus_80ms:186.820000",
+    "cand_caption_beat_88042d68650280c5:final_word_end:186.900000",
+    "cand_caption_beat_896972555c78aebf:cue_start:184.160000",
+    "cand_caption_beat_9275c406cabbe41d:cue_end_minus_80ms:183.370000",
+    "cand_caption_beat_9275c406cabbe41d:final_word_end:183.450000",
+    "cand_caption_beat_9275c406cabbe41d:pause_boundary:183.450000",
+    "cand_caption_beat_a2de332921e343a7:cue_start:188.200000",
+    "cand_caption_beat_cae1d9cc7836b9a9:cue_start:182.710000",
+    "cand_caption_beat_cae1d9cc7836b9a9:internal_pause_word_end:182.720000",
+    "cand_caption_beat_ccc8c0eb26a6039e:zoom_onset:177.110267",
+    "cand_caption_beat_d496b8c4f482b3cc:cue_end_minus_80ms:185.330000",
+    "cand_caption_beat_d496b8c4f482b3cc:final_word_end:185.410000",
+    "cand_caption_beat_d496b8c4f482b3cc:pause_boundary:185.410000",
+    "cand_caption_beat_e4b7dabdfc2a5194:internal_pause_word_end:184.910000",
+    "cand_caption_beat_e5d2aef32035a6bd:cue_end_minus_80ms:187.840000",
+    "cand_caption_beat_e5d2aef32035a6bd:final_word_end:187.920000",
+    "cand_caption_beat_f30bf8f70ea49340:cue_start:189.740000",
+    "cand_caption_beat_fcfe08cce635e9ef:internal_pause_word_end:184.650000",
+    "cand_caption_beat_fcfe08cce635e9ef:internal_pause_word_end:184.760000",
+    "cand_caption_beat_fcfe08cce635e9ef:zoom_onset:184.651133"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_52c00b41c87bafa4",
+      "beatGroupId": "beat_group_240",
+      "kind": "caption_moment",
+      "momentSec": 177.11,
+      "relativeSec": 7.1,
+      "cueIds": [
+        "cue-00685",
+        "cue-00687",
+        "cue-00688"
+      ],
+      "text": "them in the trash",
+      "captionWindow": "speaker_1: three leftover bottles | speaker_1: and she doesn't put | speaker_1: them in the trash | speaker_2: It's because this bottle | speaker_2: goes inside in another bottle",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.2,
+        "moment.mean_boundary_strength": 0.2,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_ccc8c0eb26a6039e:zoom_onset:177.110267",
+          "targetSec": 177.11,
+          "relativeSec": 7.1,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00685",
+            "cue-00687",
+            "cue-00688"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-24"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_8d5409fa188a4d60",
+      "beatGroupId": "beat_group_245",
+      "kind": "caption_moment",
+      "momentSec": 180.12,
+      "relativeSec": 10.11,
+      "cueIds": [
+        "cue-00690"
+      ],
+      "text": "If you buy the other bottle",
+      "captionWindow": "speaker_2: It's because this bottle | speaker_2: goes inside in another bottle | speaker_2: If you buy the other bottle | speaker_2: no the whole bottle | speaker_2: it's I think $60",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_2f1b305085b70b75:cue_start:180.120000",
+          "targetSec": 180.12,
+          "relativeSec": 10.11,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00690"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_a45c8412b70ad278",
+      "beatGroupId": "beat_group_246",
+      "kind": "caption_moment",
+      "momentSec": 181.7,
+      "relativeSec": 11.69,
+      "cueIds": [
+        "cue-00690"
+      ],
+      "text": "If you buy the other bottle",
+      "captionWindow": "speaker_2: It's because this bottle | speaker_2: goes inside in another bottle | speaker_2: If you buy the other bottle | speaker_2: no the whole bottle | speaker_2: it's I think $60",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_82250240a9cebda2:cue_end_minus_80ms:181.620000",
+          "targetSec": 181.62,
+          "relativeSec": 11.61,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00690"
+          ],
+          "wordIds": [
+            "word-00630"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_82250240a9cebda2:final_word_end:181.700000",
+          "targetSec": 181.7,
+          "relativeSec": 11.69,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00690"
+          ],
+          "wordIds": [
+            "word-00630"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_82250240a9cebda2:pause_boundary:181.700000",
+          "targetSec": 181.7,
+          "relativeSec": 11.69,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00690"
+          ],
+          "wordIds": [
+            "word-00630"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_cb3422e043d83b70",
+      "beatGroupId": "beat_group_247",
+      "kind": "caption_moment",
+      "momentSec": 182.715,
+      "relativeSec": 12.705,
+      "cueIds": [
+        "cue-00692"
+      ],
+      "text": "no the whole bottle",
+      "captionWindow": "speaker_2: goes inside in another bottle | speaker_2: If you buy the other bottle | speaker_2: no the whole bottle | speaker_2: it's I think $60 | speaker_2: And if you buy this one",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.01,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.45,
+        "moment.mean_boundary_strength": 0.45,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_cae1d9cc7836b9a9:cue_start:182.710000",
+          "targetSec": 182.71,
+          "relativeSec": 12.7,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00692"
+          ],
+          "wordIds": [
+            "word-00633"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.45,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cae1d9cc7836b9a9:internal_pause_word_end:182.720000",
+          "targetSec": 182.72,
+          "relativeSec": 12.71,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00692"
+          ],
+          "wordIds": [
+            "word-00633"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.45,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_33b8ebb699bf1895",
+      "beatGroupId": "beat_group_248",
+      "kind": "caption_moment",
+      "momentSec": 183.45,
+      "relativeSec": 13.44,
+      "cueIds": [
+        "cue-00692"
+      ],
+      "text": "no the whole bottle",
+      "captionWindow": "speaker_2: goes inside in another bottle | speaker_2: If you buy the other bottle | speaker_2: no the whole bottle | speaker_2: it's I think $60 | speaker_2: And if you buy this one",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_9275c406cabbe41d:cue_end_minus_80ms:183.370000",
+          "targetSec": 183.37,
+          "relativeSec": 13.36,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00692"
+          ],
+          "wordIds": [
+            "word-00637"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_9275c406cabbe41d:final_word_end:183.450000",
+          "targetSec": 183.45,
+          "relativeSec": 13.44,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00692"
+          ],
+          "wordIds": [
+            "word-00637"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_9275c406cabbe41d:pause_boundary:183.450000",
+          "targetSec": 183.45,
+          "relativeSec": 13.44,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00692"
+          ],
+          "wordIds": [
+            "word-00637"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_b98f122e5f1072e1",
+      "beatGroupId": "beat_group_249",
+      "kind": "caption_moment",
+      "momentSec": 184.16,
+      "relativeSec": 14.15,
+      "cueIds": [
+        "cue-00694"
+      ],
+      "text": "it's I think $60",
+      "captionWindow": "speaker_2: If you buy the other bottle | speaker_2: no the whole bottle | speaker_2: it's I think $60 | speaker_2: And if you buy this one | speaker_2: it's only $48",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_896972555c78aebf:cue_start:184.160000",
+          "targetSec": 184.16,
+          "relativeSec": 14.15,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00694"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_ff6b9017793fead5",
+      "beatGroupId": "beat_group_250",
+      "kind": "caption_moment",
+      "momentSec": 184.706,
+      "relativeSec": 14.696,
+      "cueIds": [
+        "cue-00694"
+      ],
+      "text": "it's I think $60",
+      "captionWindow": "speaker_2: If you buy the other bottle | speaker_2: no the whole bottle | speaker_2: it's I think $60 | speaker_2: And if you buy this one | speaker_2: it's only $48",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset",
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.26,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.65,
+        "moment.mean_boundary_strength": 0.6,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 3.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_fcfe08cce635e9ef:internal_pause_word_end:184.650000",
+          "targetSec": 184.65,
+          "relativeSec": 14.64,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00694"
+          ],
+          "wordIds": [
+            "word-00638",
+            "word-00639"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_fcfe08cce635e9ef:zoom_onset:184.651133",
+          "targetSec": 184.651,
+          "relativeSec": 14.641,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00694"
+          ],
+          "wordIds": [
+            "word-00638",
+            "word-00639"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_fcfe08cce635e9ef:internal_pause_word_end:184.760000",
+          "targetSec": 184.76,
+          "relativeSec": 14.75,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00694"
+          ],
+          "wordIds": [
+            "word-00638",
+            "word-00639"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e4b7dabdfc2a5194:internal_pause_word_end:184.910000",
+          "targetSec": 184.91,
+          "relativeSec": 14.9,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00694"
+          ],
+          "wordIds": [
+            "word-00640"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.45,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_754460affa4693a4",
+      "beatGroupId": "beat_group_251",
+      "kind": "caption_moment",
+      "momentSec": 185.41,
+      "relativeSec": 15.4,
+      "cueIds": [
+        "cue-00694"
+      ],
+      "text": "it's I think $60",
+      "captionWindow": "speaker_2: If you buy the other bottle | speaker_2: no the whole bottle | speaker_2: it's I think $60 | speaker_2: And if you buy this one | speaker_2: it's only $48",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_d496b8c4f482b3cc:cue_end_minus_80ms:185.330000",
+          "targetSec": 185.33,
+          "relativeSec": 15.32,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00694"
+          ],
+          "wordIds": [
+            "word-00641"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d496b8c4f482b3cc:final_word_end:185.410000",
+          "targetSec": 185.41,
+          "relativeSec": 15.4,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00694"
+          ],
+          "wordIds": [
+            "word-00641"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_d496b8c4f482b3cc:pause_boundary:185.410000",
+          "targetSec": 185.41,
+          "relativeSec": 15.4,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00694"
+          ],
+          "wordIds": [
+            "word-00641"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_c66fef3b878ac966",
+      "beatGroupId": "beat_group_252",
+      "kind": "caption_moment",
+      "momentSec": 185.78,
+      "relativeSec": 15.77,
+      "cueIds": [
+        "cue-00696"
+      ],
+      "text": "And if you buy this one",
+      "captionWindow": "speaker_2: no the whole bottle | speaker_2: it's I think $60 | speaker_2: And if you buy this one | speaker_2: it's only $48 | speaker_2: So",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_6243e2f6fb3a8080:cue_start:185.780000",
+          "targetSec": 185.78,
+          "relativeSec": 15.77,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00696"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-25"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_73017dded8f4b23d",
+      "beatGroupId": "beat_group_253",
+      "kind": "caption_moment",
+      "momentSec": 186.9,
+      "relativeSec": 16.89,
+      "cueIds": [
+        "cue-00696",
+        "cue-00697"
+      ],
+      "text": "And if you buy this one",
+      "captionWindow": "speaker_2: no the whole bottle | speaker_2: it's I think $60 | speaker_2: And if you buy this one | speaker_2: it's only $48 | speaker_2: So",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.16,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.2,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_88042d68650280c5:cue_end_minus_80ms:186.820000",
+          "targetSec": 186.82,
+          "relativeSec": 16.81,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00696"
+          ],
+          "wordIds": [
+            "word-00647"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_88042d68650280c5:final_word_end:186.900000",
+          "targetSec": 186.9,
+          "relativeSec": 16.89,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00696"
+          ],
+          "wordIds": [
+            "word-00647"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_7955c0ff65398d26:cue_start:186.980000",
+          "targetSec": 186.98,
+          "relativeSec": 16.97,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00697"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_c0f1e55ed5232aa4",
+      "beatGroupId": "beat_group_254",
+      "kind": "caption_moment",
+      "momentSec": 187.88,
+      "relativeSec": 17.87,
+      "cueIds": [
+        "cue-00697"
+      ],
+      "text": "it's only $48",
+      "captionWindow": "speaker_2: it's I think $60 | speaker_2: And if you buy this one | speaker_2: it's only $48 | speaker_2: So | speaker_2: so yeah",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_e5d2aef32035a6bd:cue_end_minus_80ms:187.840000",
+          "targetSec": 187.84,
+          "relativeSec": 17.83,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00697"
+          ],
+          "wordIds": [
+            "word-00650"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e5d2aef32035a6bd:final_word_end:187.920000",
+          "targetSec": 187.92,
+          "relativeSec": 17.91,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00697"
+          ],
+          "wordIds": [
+            "word-00650"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_70fef100c8b9d96a",
+      "beatGroupId": "beat_group_255",
+      "kind": "caption_moment",
+      "momentSec": 188.4,
+      "relativeSec": 18.39,
+      "cueIds": [
+        "cue-00698"
+      ],
+      "text": "So",
+      "captionWindow": "speaker_2: And if you buy this one | speaker_2: it's only $48 | speaker_2: So | speaker_2: so yeah | speaker_2: Oh",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.24,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.0,
+        "moment.mean_boundary_strength": 0.0,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_a2de332921e343a7:cue_start:188.200000",
+          "targetSec": 188.2,
+          "relativeSec": 18.19,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00698"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_555a2909582fc2ed:cue_end_minus_80ms:188.360000",
+          "targetSec": 188.36,
+          "relativeSec": 18.35,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00698"
+          ],
+          "wordIds": [
+            "word-00651"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_555a2909582fc2ed:final_word_end:188.440000",
+          "targetSec": 188.44,
+          "relativeSec": 18.43,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00698"
+          ],
+          "wordIds": [
+            "word-00651"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_555a2909582fc2ed:pause_boundary:188.440000",
+          "targetSec": 188.44,
+          "relativeSec": 18.43,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00698"
+          ],
+          "wordIds": [
+            "word-00651"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_5802cd58c52d0390",
+      "beatGroupId": "beat_group_256",
+      "kind": "caption_moment",
+      "momentSec": 189.58,
+      "relativeSec": 19.57,
+      "cueIds": [
+        "cue-00699",
+        "cue-00701"
+      ],
+      "text": "so yeah",
+      "captionWindow": "speaker_2: it's only $48 | speaker_2: So | speaker_2: so yeah | speaker_2: Oh | speaker_2: That's why I have a lot",
+      "allowedFamilies": [
+        "ding",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "specific_reveal_or_answer"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.44,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.225,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 2.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_0953884cfed14135:cue_start:189.300000",
+          "targetSec": 189.3,
+          "relativeSec": 19.29,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00699"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_3646aa88665e6cf8:cue_end_minus_80ms:189.540000",
+          "targetSec": 189.54,
+          "relativeSec": 19.53,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00699"
+          ],
+          "wordIds": [
+            "word-00653"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_3646aa88665e6cf8:final_word_end:189.620000",
+          "targetSec": 189.62,
+          "relativeSec": 19.61,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00699"
+          ],
+          "wordIds": [
+            "word-00653"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f30bf8f70ea49340:cue_start:189.740000",
+          "targetSec": 189.74,
+          "relativeSec": 19.73,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00701"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "none",
+      "momentText": "the other one It's",
+      "captionWindow": "speaker_1: Oh that's so cute | speaker_2: But I can't find | speaker_2: the other one It's | speaker_2: I think it's only one | speaker_2: Oh look",
+      "timing": null,
+      "similarity": 0.0267
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "none",
+      "momentText": "But I can't find",
+      "captionWindow": "speaker_1: This one? | speaker_1: Oh that's so cute | speaker_2: But I can't find | speaker_2: the other one It's | speaker_2: I think it's only one",
+      "timing": null,
+      "similarity": 0.0254
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "pop",
+      "momentText": "I think it's pretty",
+      "captionWindow": "speaker_1: of this in the set | speaker_2: Oh yeah | speaker_1: I think it's pretty | speaker_2: Okay let's get that one then | speaker_2: Okay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c07a9ee04e4eec97:zoom_onset:192.600000",
+        "anchorType": "zoom_onset",
+        "targetSec": 192.6
+      },
+      "similarity": 0.0231
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "pop",
+      "momentText": "except for this one",
+      "captionWindow": "speaker_1: And also you have most of this | speaker_2: Yeah | speaker_2: except for this one | speaker_2: and one more | speaker_2: that's all of them",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_ff5b277e72096257:zoom_onset:600.816883",
+        "anchorType": "zoom_onset",
+        "targetSec": 600.817
+      },
+      "similarity": 0.0219
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "of this in the set",
+      "captionWindow": "speaker_1: It's the only one | speaker_1: We have another copy | speaker_1: of this in the set | speaker_2: Oh yeah | speaker_1: I think it's pretty",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_eae7d7964f195a4d:cue_end_minus_80ms:191.160000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 191.16
+      },
+      "similarity": 0.0253
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "ding",
+      "momentText": "because it's in the Rebirth movie",
+      "captionWindow": "speaker_2: green one or something like that? | speaker_2: I think | speaker_2: because it's in the Rebirth movie | speaker_2: that's what it was | speaker_2: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2c1db60358ef6c4d:final_word_end:888.936000",
+        "anchorType": "final_word_end",
+        "targetSec": 888.936
+      },
+      "similarity": 0.0217
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "success",
+      "momentText": "This one?",
+      "captionWindow": "speaker_2: What do you guys think? | speaker_2: Look Suri | speaker_1: This one? | speaker_1: Oh that's so cute | speaker_2: But I can't find",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5e39073a111280e7:cue_end_minus_80ms:218.020000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 218.02
+      },
+      "similarity": 0.0225
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "success",
+      "momentText": "should I get this one?",
+      "captionWindow": "speaker_2: Yeah | speaker_2: So I don't know if | speaker_2: should I get this one? | speaker_1: That's so cute ma | speaker_2: Or one of these ones",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_877d6b6cf3e2b654:final_word_end:763.932000",
+        "anchorType": "final_word_end",
+        "targetSec": 763.932
+      },
+      "similarity": 0.0217
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "bonk",
+      "momentText": "I think it's only one",
+      "captionWindow": "speaker_2: But I can't find | speaker_2: the other one It's | speaker_2: I think it's only one | speaker_2: Oh look | speaker_2: How about that one?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f80c769cdb7eabfe:cue_end_minus_80ms:222.900000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 222.9
+      },
+      "similarity": 0.0235
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "bonk",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_2: I read this one already | speaker_1: You read this one already? | speaker_2: Yeah | speaker_1: I haven't seen that one | speaker_2: It's like in color",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_820a67e63c24888f:cue_end_minus_80ms:579.356000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 579.356
+      },
+      "similarity": 0.0223
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "funny",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_1: that the markers | speaker_1: they kind of lose them | speaker_2: Yeah | speaker_2: So I don't know if | speaker_2: should I get this one?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_6e03b55843536fa3:cue_start:760.292000",
+        "anchorType": "cue_start",
+        "targetSec": 760.292
+      },
+      "similarity": 0.0223
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "funny",
+      "momentText": "stuff in the cart",
+      "captionWindow": "speaker_2: getting all that? | speaker_1: Yeah and also the | speaker_1: stuff in the cart | speaker_1: so | speaker_2: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_408d86dd30c54a4f:final_word_end:810.712000",
+        "anchorType": "final_word_end",
+        "targetSec": 810.712
+      },
+      "similarity": 0.0201
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bruh",
+      "momentText": "That's so cheap",
+      "captionWindow": "speaker_2: Is this the ball | speaker_2: bro? | speaker_2: That's so cheap | speaker_2: Why is the ball so little? | speaker_2: You got it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_b9b785ae416baffe:cue_end_minus_80ms:127.940000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 127.94
+      },
+      "similarity": 0.018
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "bruh",
+      "momentText": "makeup doesn't last",
+      "captionWindow": "speaker_5: I put some lipstick too | speaker_2: That's why my | speaker_2: makeup doesn't last | speaker_5: I knew it | speaker_5: You know that makeup",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2b159711b130b219:final_word_end:549.723000",
+        "anchorType": "final_word_end",
+        "targetSec": 549.723
+      },
+      "similarity": 0.0146
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "The potato one",
+      "captionWindow": "speaker_5: bad one was the last one | speaker_1: I love that one | speaker_5: The potato one | speaker_1: And I have this one for me | speaker_1: Okay bye",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c26d55cd494ed645:cue_start:971.420000",
+        "anchorType": "cue_start",
+        "targetSec": 971.42
+      },
+      "similarity": 0.0191
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "you got this one?",
+      "captionWindow": "speaker_5: oh you got another one? | speaker_1: what do you mean | speaker_1: you got this one? | speaker_3: Where did you get that? | speaker_4: I got it from the store",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c76f594345a94749:cue_end_minus_80ms:1148.980000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1148.98
+      },
+      "similarity": 0.0185
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "dramatic",
+      "momentText": "oh",
+      "captionWindow": "speaker_1: Since this one has the | speaker_1: I think we should get the blue | speaker_1: oh | speaker_1: It's the only one | speaker_1: We have another copy",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_07b318508eac60a3:zoom_onset:188.100000",
+        "anchorType": "zoom_onset",
+        "targetSec": 188.1
+      },
+      "similarity": 0.0211
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "dramatic",
+      "momentText": "I think we should get the blue",
+      "captionWindow": "speaker_2: The normal ones | speaker_1: Since this one has the | speaker_1: I think we should get the blue | speaker_1: oh | speaker_1: It's the only one",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_953e0cbea4ef53ff:internal_pause_word_end:187.260000",
+        "anchorType": "internal_pause_word_end",
+        "targetSec": 187.26
+      },
+      "similarity": 0.0208
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I think we should get the blue",
+      "captionWindow": "speaker_2: The normal ones | speaker_1: Since this one has the | speaker_1: I think we should get the blue | speaker_1: oh | speaker_1: It's the only one",
+      "timing": null,
+      "similarity": 0.0208
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "other_sfx",
+      "momentText": "mami it's the same one",
+      "captionWindow": "speaker_1: there's the opposite | speaker_3: This is cool | speaker_2: mami it's the same one | speaker_1: I didn't know it was | speaker_3: i want this one",
+      "timing": null,
+      "similarity": 0.0195
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

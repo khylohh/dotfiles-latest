@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "268a34366275315dee86",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000317510_16",
+  "coreStartSec": 317.51,
+  "coreEndSec": 330.61,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_ac31d84215558227"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_efbff80229839722:cue_start:325.380000",
+    "cand_caption_beat_efbff80229839722:internal_pause_word_end:325.420000",
+    "cand_caption_beat_f153e1bf42416e43:zoom_onset:325.458467"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_ac31d84215558227",
+      "beatGroupId": "beat_group_429",
+      "kind": "caption_moment",
+      "momentSec": 325.42,
+      "relativeSec": 7.91,
+      "cueIds": [
+        "cue-00178",
+        "cue-00179",
+        "cue-00180",
+        "cue-00181",
+        "cue-00182",
+        "cue-00183"
+      ],
+      "text": "three seconds",
+      "captionWindow": "speaker_1: They can literally do | speaker_1: it in like | speaker_1: three seconds | speaker_1: Look | speaker_1: I think it's because",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.078,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.65,
+        "moment.mean_boundary_strength": 0.5,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_efbff80229839722:cue_start:325.380000",
+          "targetSec": 325.38,
+          "relativeSec": 7.87,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00180"
+          ],
+          "wordIds": [
+            "word-01061"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-41"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_efbff80229839722:internal_pause_word_end:325.420000",
+          "targetSec": 325.42,
+          "relativeSec": 7.91,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00180"
+          ],
+          "wordIds": [
+            "word-01061"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-41"
+          ],
+          "boundaryStrength": 0.65,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f153e1bf42416e43:zoom_onset:325.458467",
+          "targetSec": 325.458,
+          "relativeSec": 7.948,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00178",
+            "cue-00179",
+            "cue-00180",
+            "cue-00181",
+            "cue-00182",
+            "cue-00183"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-41"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "none",
+      "momentText": "yeah",
+      "captionWindow": "speaker_1: This is it | speaker_1: And | speaker_1: yeah | speaker_1: i think it's like | speaker_1: it has to do with her",
+      "timing": null,
+      "similarity": 0.2286
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "none",
+      "momentText": "And",
+      "captionWindow": "speaker_1: IVDD | speaker_1: This is it | speaker_1: And | speaker_1: yeah | speaker_1: i think it's like",
+      "timing": null,
+      "similarity": 0.2259
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "pop",
+      "momentText": "I couldn't find anything",
+      "captionWindow": "speaker_1: cooking stuff | speaker_1: but | speaker_1: I couldn't find anything | speaker_1: What it is | speaker_1: What do you think",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_9dacd0c2a456271a:zoom_onset:828.310817",
+        "anchorType": "zoom_onset",
+        "targetSec": 828.311
+      },
+      "similarity": 0.1895
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "pop",
+      "momentText": "$60 for those four",
+      "captionWindow": "speaker_1: I thought they were real | speaker_1: It was like | speaker_1: $60 for those four | speaker_1: so | speaker_4: That much?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_fa507d282843bd47:zoom_onset:1370.619250",
+        "anchorType": "zoom_onset",
+        "targetSec": 1370.619
+      },
+      "similarity": 0.1871
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "ding",
+      "momentText": "It was like",
+      "captionWindow": "speaker_1: That's why | speaker_1: I thought they were real | speaker_1: It was like | speaker_1: $60 for those four | speaker_1: so",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_12a093559dd68453:cue_start:1369.008750",
+        "anchorType": "cue_start",
+        "targetSec": 1369.009
+      },
+      "similarity": 0.1945
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "ding",
+      "momentText": "day of school",
+      "captionWindow": "speaker_1: Hopefully they had | speaker_1: an awesome last | speaker_1: day of school | speaker_1: it was super short | speaker_1: guys Literally like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3cb0ed358ce4c7cb:final_word_end:415.748000",
+        "anchorType": "final_word_end",
+        "targetSec": 415.748
+      },
+      "similarity": 0.1932
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "success",
+      "momentText": "guys",
+      "captionWindow": "speaker_1: gonna be waiting | speaker_1: in this room | speaker_1: guys | speaker_1: They got a clock here | speaker_1: It's early",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3ec4ebbc8ad28ad0:final_word_end:299.540000",
+        "anchorType": "final_word_end",
+        "targetSec": 299.54
+      },
+      "similarity": 0.1898
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "success",
+      "momentText": "She's learning so smooth",
+      "captionWindow": "speaker_1: getting it | speaker_1: Look at Suri | speaker_1: She's learning so smooth | speaker_1: Suri | speaker_1: I think she cannot hear me",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_bbe1df94bc25dc1c:cue_end_minus_80ms:119.160000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 119.16
+      },
+      "similarity": 0.1871
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bonk",
+      "momentText": "Stop",
+      "captionWindow": "speaker_2: that one | speaker_2: guys | speaker_1: Stop | speaker_3: I do like it | speaker_2: Look at Terah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e426fd454fbd394c:pause_boundary:1513.417790",
+        "anchorType": "pause_boundary",
+        "targetSec": 1513.418
+      },
+      "similarity": 0.1859
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bonk",
+      "momentText": "Look",
+      "captionWindow": "speaker_4: like it's | speaker_3: No it's temporary | speaker_3: Look | speaker_1: Suri | speaker_1: how is it temporary?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8d2f1afb6e577ec3:cue_end_minus_80ms:1115.240000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1115.24
+      },
+      "similarity": 0.1823
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "funny",
+      "momentText": "like",
+      "captionWindow": "speaker_3: Yeah that's old | speaker_1: It was years | speaker_1: like | speaker_1: I think it was like four | speaker_1: five years ago",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_412c0406cee3a01b:cue_start:84.780000",
+        "anchorType": "cue_start",
+        "targetSec": 84.78
+      },
+      "similarity": 0.1844
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "funny",
+      "momentText": "looks like granola",
+      "captionWindow": "speaker_1: All right | speaker_1: I think it already | speaker_1: looks like granola | speaker_3: does it? | speaker_2: where's your plushie?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_dc866c61a4af1709:final_word_end:345.840000",
+        "anchorType": "final_word_end",
+        "targetSec": 345.84
+      },
+      "similarity": 0.1836
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bruh",
+      "momentText": "You do?",
+      "captionWindow": "speaker_1: Do you have to take your | speaker_1: backpack? | speaker_1: You do? | speaker_1: Okay guys | speaker_1: so",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_d5e865863506385c:pause_boundary:42.860000",
+        "anchorType": "pause_boundary",
+        "targetSec": 42.86
+      },
+      "similarity": 0.1508
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "bruh",
+      "momentText": "each?",
+      "captionWindow": "speaker_5: we got scammed | speaker_5: Why did they put one in | speaker_5: each? | speaker_3: I know | speaker_1: Okay taste test",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_0fa279e3018fc688:cue_start:990.460000",
+        "anchorType": "cue_start",
+        "targetSec": 990.46
+      },
+      "similarity": 0.1464
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "I said",
+      "captionWindow": "speaker_1: All right | speaker_1: So like | speaker_1: I said | speaker_1: it's gonna be a challenge | speaker_2: i feel like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5d5542d20fc9489f:zoom_onset:40.090050",
+        "anchorType": "zoom_onset",
+        "targetSec": 40.09
+      },
+      "similarity": 0.1739
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "record_scratch",
+      "momentText": "have in your cart",
+      "captionWindow": "speaker_1: it to pay for all | speaker_1: the groceries that you already | speaker_1: have in your cart | speaker_4: Can I have whatever in? | speaker_1: Nope",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3403d63d6a513df0:cue_start:805.856000",
+        "anchorType": "cue_start",
+        "targetSec": 805.856
+      },
+      "similarity": 0.1716
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "dramatic",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_3: It's there | speaker_1: Did they grab it? | speaker_1: I don't know | speaker_1: What do you think? | speaker_3: Let me see if it's",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f6be886e2a52078e:zoom_onset:1117.399617",
+        "anchorType": "zoom_onset",
+        "targetSec": 1117.4
+      },
+      "similarity": 0.2044
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "dramatic",
+      "momentText": "stomach still hurts",
+      "captionWindow": "speaker_1: I think it's good | speaker_1: because my | speaker_1: stomach still hurts | speaker_1: It still hurts | speaker_1: so",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_4fd7df8703326188:final_word_end:816.672000",
+        "anchorType": "final_word_end",
+        "targetSec": 816.672
+      },
+      "similarity": 0.2004
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "other_sfx",
+      "momentText": "Did they grab it?",
+      "captionWindow": "speaker_1: Where? | speaker_3: It's there | speaker_1: Did they grab it? | speaker_1: I don't know | speaker_1: What do you think?",
+      "timing": null,
+      "similarity": 0.2174
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "other_sfx",
+      "momentText": "wait",
+      "captionWindow": "speaker_1: You okay | speaker_1: ma? | speaker_2: wait | speaker_1: because | speaker_1: I think it was the food",
+      "timing": null,
+      "similarity": 0.2076
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

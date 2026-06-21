@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "dd1b6f73c25be5b995e5",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_001035121_51",
+  "coreStartSec": 1035.121,
+  "coreEndSec": 1051.71,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_244735e21305b22d"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_5f331e48a495e38b:zoom_onset:1038.337300",
+    "cand_caption_beat_f3d387539f7c0841:cue_end_minus_80ms:1037.940080",
+    "cand_caption_beat_f3d387539f7c0841:cue_start:1038.020080",
+    "cand_caption_beat_f3d387539f7c0841:final_word_end:1038.060000",
+    "cand_caption_beat_f3d387539f7c0841:internal_pause_word_end:1038.030000",
+    "cand_caption_beat_f3d387539f7c0841:speaker_turn_start:1038.020080"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_244735e21305b22d",
+      "beatGroupId": "beat_group_1316",
+      "kind": "caption_moment",
+      "momentSec": 1038.025,
+      "relativeSec": 2.904,
+      "cueIds": [
+        "cue-00501",
+        "cue-00502",
+        "cue-00503",
+        "cue-01189"
+      ],
+      "text": "i think the syrup helped me",
+      "captionWindow": "speaker_3: no | speaker_4: Does it still hurt or no? | speaker_3: i think the syrup helped me | speaker_5: It's still some | speaker_4: the Tylenol?",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 6.0,
+        "moment.span_sec": 0.397,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.8,
+        "moment.mean_boundary_strength": 0.758,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 1.0,
+        "moment.anchor_count.internal_pause_word_end": 1.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_f3d387539f7c0841:cue_end_minus_80ms:1037.940080",
+          "targetSec": 1037.94,
+          "relativeSec": 2.819,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00501",
+            "cue-01189"
+          ],
+          "wordIds": [
+            "word-03203",
+            "word-03204"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-130"
+          ],
+          "boundaryStrength": 0.75,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f3d387539f7c0841:cue_start:1038.020080",
+          "targetSec": 1038.02,
+          "relativeSec": 2.899,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00501",
+            "cue-01189"
+          ],
+          "wordIds": [
+            "word-03203",
+            "word-03204"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-130"
+          ],
+          "boundaryStrength": 0.75,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f3d387539f7c0841:speaker_turn_start:1038.020080",
+          "targetSec": 1038.02,
+          "relativeSec": 2.899,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00501",
+            "cue-01189"
+          ],
+          "wordIds": [
+            "word-03203",
+            "word-03204"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-130"
+          ],
+          "boundaryStrength": 0.75,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f3d387539f7c0841:internal_pause_word_end:1038.030000",
+          "targetSec": 1038.03,
+          "relativeSec": 2.909,
+          "anchorType": "internal_pause_word_end",
+          "source": "internal_word.end",
+          "cueIds": [
+            "cue-00501",
+            "cue-01189"
+          ],
+          "wordIds": [
+            "word-03203",
+            "word-03204"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-130"
+          ],
+          "boundaryStrength": 0.75,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f3d387539f7c0841:final_word_end:1038.060000",
+          "targetSec": 1038.06,
+          "relativeSec": 2.939,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00501",
+            "cue-01189"
+          ],
+          "wordIds": [
+            "word-03203",
+            "word-03204"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-130"
+          ],
+          "boundaryStrength": 0.75,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_5f331e48a495e38b:zoom_onset:1038.337300",
+          "targetSec": 1038.337,
+          "relativeSec": 3.216,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00501",
+            "cue-00502",
+            "cue-00503",
+            "cue-01189"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-130"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "none",
+      "momentText": "But and the other girl?",
+      "captionWindow": "speaker_4: Oh that's the | speaker_4: embarrassing part | speaker_3: But and the other girl? | speaker_3: i don't get it | speaker_5: It's because",
+      "timing": null,
+      "similarity": 0.2181
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "none",
+      "momentText": "no",
+      "captionWindow": "speaker_4: I think Terah's and Stary's | speaker_4: The middle one | speaker_4: no | speaker_1: Mine's taller | speaker_6: I think papa's",
+      "timing": null,
+      "similarity": 0.21
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "pop",
+      "momentText": "The other one is right here",
+      "captionWindow": "speaker_1: Yeah | speaker_3: I think that's cute | speaker_4: The other one is right here | speaker_1: The girl or the big one? | speaker_3: No",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_76d4b21672fa611b:zoom_onset:431.597833",
+        "anchorType": "zoom_onset",
+        "targetSec": 431.598
+      },
+      "similarity": 0.1853
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "pop",
+      "momentText": "I think it looks good",
+      "captionWindow": "speaker_1: we got the cake | speaker_5: Yeah | speaker_5: I think it looks good | speaker_1: The only thing that Suri | speaker_1: said that it's blue",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_02d6229f13a2d2b6:cue_end_minus_80ms:167.999000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 167.999
+      },
+      "similarity": 0.1818
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "ding",
+      "momentText": "the ice skating",
+      "captionWindow": "speaker_5: Thanks | speaker_1: You're ready to do | speaker_1: the ice skating | speaker_2: I think I am | speaker_4: Oh",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_0e9c9521b33b6137:final_word_end:509.048000",
+        "anchorType": "final_word_end",
+        "targetSec": 509.048
+      },
+      "similarity": 0.1816
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "ding",
+      "momentText": "the girl",
+      "captionWindow": "speaker_1: The girl or the big one? | speaker_3: No | speaker_3: the girl | speaker_3: I think the girl | speaker_5: she looks a little more easy",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_0f2f499225e49919:cue_end_minus_80ms:434.275000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 434.275
+      },
+      "similarity": 0.18
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "that I wanted",
+      "captionWindow": "speaker_1: No | speaker_3: This is the outfit | speaker_3: that I wanted | speaker_2: No way | speaker_2: Is it?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_b676a99bc366b2b6:cue_end_minus_80ms:1524.386682",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1524.387
+      },
+      "similarity": 0.1916
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "I wanted",
+      "captionWindow": "speaker_5: it is | speaker_3: This is the LPS that | speaker_3: I wanted | speaker_1: yaaaaaay | speaker_2: Terah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_73e5010d763d02b6:cue_start:1531.260324",
+        "anchorType": "cue_start",
+        "targetSec": 1531.26
+      },
+      "similarity": 0.1903
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bonk",
+      "momentText": "Wait Compi got the",
+      "captionWindow": "speaker_3: Me | speaker_4: Me | speaker_3: Wait Compi got the | speaker_3: rainbow one? | speaker_5: I got the rainbow one",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5e5bbc86ca90b2ae:internal_pause_word_end:1326.240000",
+        "anchorType": "internal_pause_word_end",
+        "targetSec": 1326.24
+      },
+      "similarity": 0.1961
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bonk",
+      "momentText": "no",
+      "captionWindow": "speaker_1: with this day | speaker_1: already George? | speaker_2: no | speaker_3: I know | speaker_3: Me too",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_32c45ec7fc7e691c:cue_start:320.640000",
+        "anchorType": "cue_start",
+        "targetSec": 320.64
+      },
+      "similarity": 0.1817
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "funny",
+      "momentText": "dog so big?",
+      "captionWindow": "speaker_2: I think it's pretty cute | speaker_3: Wait why is the | speaker_3: dog so big? | speaker_2: I have no idea | speaker_2: actually",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_37a6ff63bbbfeda4:cue_end_minus_80ms:949.560000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 949.56
+      },
+      "similarity": 0.1812
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "funny",
+      "momentText": "mini Cokes",
+      "captionWindow": "speaker_5: Yeah give me some | speaker_3: I have never seen | speaker_3: mini Cokes | speaker_5: You didn't? | speaker_3: no",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2fcd66975769801e:cue_end_minus_80ms:1202.840000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1202.84
+      },
+      "similarity": 0.18
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "bruh",
+      "momentText": "makeup doesn't last",
+      "captionWindow": "speaker_5: I put some lipstick too | speaker_2: That's why my | speaker_2: makeup doesn't last | speaker_5: I knew it | speaker_5: You know that makeup",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2b159711b130b219:final_word_end:549.723000",
+        "anchorType": "final_word_end",
+        "targetSec": 549.723
+      },
+      "similarity": 0.1344
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "bruh",
+      "momentText": "Wait what?",
+      "captionWindow": "speaker_3: What the heck? | speaker_3: You put tiptik on your eyes | speaker_4: Wait what? | speaker_2: she did? | speaker_3: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_6660df5a398256dd:cue_start:53.197390",
+        "anchorType": "cue_start",
+        "targetSec": 53.197
+      },
+      "similarity": 0.1316
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "record_scratch",
+      "momentText": "No",
+      "captionWindow": "speaker_3: best things is | speaker_1: Is that | speaker_3: No | speaker_3: it's not that | speaker_3: I mean",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_54fab9627b3869af:cue_start:88.000000",
+        "anchorType": "cue_start",
+        "targetSec": 88.0
+      },
+      "similarity": 0.1608
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "Pepperoni",
+      "captionWindow": "speaker_3: What the heck? | speaker_3: Who's that? | speaker_5: Pepperoni | speaker_5: I mean | speaker_5: Pepero",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c531a4bc983e1430:final_word_end:839.766000",
+        "anchorType": "final_word_end",
+        "targetSec": 839.766
+      },
+      "similarity": 0.1601
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "dramatic",
+      "momentText": "of the class",
+      "captionWindow": "speaker_3: Yeah it's because | speaker_3: I was in the back | speaker_3: of the class | speaker_4: Yeah | speaker_4: maybe",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_33ebd73bef251b3e:zoom_onset:994.259933",
+        "anchorType": "zoom_onset",
+        "targetSec": 994.26
+      },
+      "similarity": 0.1951
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "dramatic",
+      "momentText": "No",
+      "captionWindow": "speaker_3: you're a traitor terah | speaker_5: was it you? | speaker_4: No | speaker_5: Ooh | speaker_5: What the",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8ef17f890edb9c5b:zoom_onset:1031.897533",
+        "anchorType": "zoom_onset",
+        "targetSec": 1031.898
+      },
+      "similarity": 0.1922
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "other_sfx",
+      "momentText": "Yeah it's because",
+      "captionWindow": "speaker_4: it in front of the class | speaker_4: right? | speaker_3: Yeah it's because | speaker_3: I was in the back | speaker_3: of the class",
+      "timing": null,
+      "similarity": 0.1936
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "other_sfx",
+      "momentText": "Look at me",
+      "captionWindow": "speaker_6: Yeah | speaker_1: I don't know if she should | speaker_3: Look at me | speaker_3: amor | speaker_5: is it cold?",
+      "timing": null,
+      "similarity": 0.1832
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

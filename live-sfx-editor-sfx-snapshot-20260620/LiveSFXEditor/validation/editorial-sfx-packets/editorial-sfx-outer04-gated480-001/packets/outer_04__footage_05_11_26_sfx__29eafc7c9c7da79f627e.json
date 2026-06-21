@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "29eafc7c9c7da79f627e",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000539930_26",
+  "coreStartSec": 539.93,
+  "coreEndSec": 542.163,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_e33685cc1557642c",
+    "caption_moment_9c37ed323bd80f84"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_cf013ff8bfd51a75:cue_start:541.225906",
+    "cand_caption_beat_cf013ff8bfd51a75:speaker_turn_start:541.225906",
+    "cand_caption_beat_cfee4e59f1818efd:cue_end_minus_80ms:540.860000",
+    "cand_caption_beat_cfee4e59f1818efd:final_word_end:540.940000",
+    "cand_caption_beat_e504f7d649a0f715:cue_end_minus_80ms:540.620000",
+    "cand_caption_beat_e504f7d649a0f715:cue_start:540.700000",
+    "cand_caption_beat_e504f7d649a0f715:final_word_end:540.660000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_e33685cc1557642c",
+      "beatGroupId": "beat_group_714",
+      "kind": "caption_moment",
+      "momentSec": 540.7,
+      "relativeSec": 0.77,
+      "cueIds": [
+        "cue-00865",
+        "cue-00866"
+      ],
+      "text": "because we don't wanna be late",
+      "captionWindow": "speaker_2: Okay | speaker_2: hurry | speaker_2: because we don't wanna be late | speaker_2: okay? | speaker_1: We're done eating at Starbucks",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.32,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.2,
+        "moment.mean_boundary_strength": 0.08,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 2.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 2.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_e504f7d649a0f715:cue_end_minus_80ms:540.620000",
+          "targetSec": 540.62,
+          "relativeSec": 0.69,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00865",
+            "cue-00866"
+          ],
+          "wordIds": [
+            "word-01727"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e504f7d649a0f715:final_word_end:540.660000",
+          "targetSec": 540.66,
+          "relativeSec": 0.73,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00865",
+            "cue-00866"
+          ],
+          "wordIds": [
+            "word-01727"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_e504f7d649a0f715:cue_start:540.700000",
+          "targetSec": 540.7,
+          "relativeSec": 0.77,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00865",
+            "cue-00866"
+          ],
+          "wordIds": [
+            "word-01727"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cfee4e59f1818efd:cue_end_minus_80ms:540.860000",
+          "targetSec": 540.86,
+          "relativeSec": 0.93,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00866"
+          ],
+          "wordIds": [
+            "word-01728"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cfee4e59f1818efd:final_word_end:540.940000",
+          "targetSec": 540.94,
+          "relativeSec": 1.01,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00866"
+          ],
+          "wordIds": [
+            "word-01728"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_9c37ed323bd80f84",
+      "beatGroupId": "beat_group_715",
+      "kind": "caption_moment",
+      "momentSec": 541.226,
+      "relativeSec": 1.296,
+      "cueIds": [
+        "cue-00274"
+      ],
+      "text": "We're done eating at Starbucks",
+      "captionWindow": "speaker_2: because we don't wanna be late | speaker_2: okay? | speaker_1: We're done eating at Starbucks | speaker_1: and | speaker_1: I got two",
+      "allowedFamilies": [
+        "other_sfx",
+        "success"
+      ],
+      "gateReasons": [
+        "completed_result"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_cf013ff8bfd51a75:cue_start:541.225906",
+          "targetSec": 541.226,
+          "relativeSec": 1.296,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00274"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_cf013ff8bfd51a75:speaker_turn_start:541.225906",
+          "targetSec": 541.226,
+          "relativeSec": 1.296,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00274"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "none",
+      "momentText": "We're gonna be running late",
+      "captionWindow": "speaker_1: guys | speaker_1: hurry up because gotta | speaker_1: We're gonna be running late | speaker_6: Okay | speaker_1: Where's Terah and Stary amor?",
+      "timing": null,
+      "similarity": 0.1366
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "none",
+      "momentText": "We're gonna be running late",
+      "captionWindow": "speaker_1: guys | speaker_1: hurry up because gotta | speaker_1: We're gonna be running late | speaker_6: Okay | speaker_1: Where's Terah and Stary amor?",
+      "timing": null,
+      "similarity": 0.1366
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "pop",
+      "momentText": "Wait",
+      "captionWindow": "speaker_2: All right | speaker_2: so while we're waiting | speaker_1: Wait | speaker_1: guys | speaker_1: I got some",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_bbd2e254fd068b03:final_word_end:34.150000",
+        "anchorType": "final_word_end",
+        "targetSec": 34.15
+      },
+      "similarity": 0.1107
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "pop",
+      "momentText": "because we be seeing her",
+      "captionWindow": "speaker_1: Guys | speaker_1: I think the turtle is happy | speaker_1: because we be seeing her | speaker_1: Right here | speaker_1: Papa?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_65b39f55e6d2e827:zoom_onset:1042.758383",
+        "anchorType": "zoom_onset",
+        "targetSec": 1042.758
+      },
+      "similarity": 0.1099
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "ding",
+      "momentText": "okay?",
+      "captionWindow": "speaker_2: more | speaker_2: gifts | speaker_2: okay? | speaker_2: And then come over here | speaker_2: And we got",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_4702786d49113588:final_word_end:1022.780000",
+        "anchorType": "final_word_end",
+        "targetSec": 1022.78
+      },
+      "similarity": 0.1134
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "ding",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_1: She got the Dubai strawberry | speaker_2: Pistachio? | speaker_2: I don't know | speaker_1: And Stary got the little one | speaker_1: Oh",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f6096c6e410409d7:cue_end_minus_80ms:233.000000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 233.0
+      },
+      "similarity": 0.1126
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "success",
+      "momentText": "be opening this",
+      "captionWindow": "speaker_1: and | speaker_1: I'm gonna | speaker_1: be opening this | speaker_2: Okay | speaker_2: You wanna open it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_aa0a083f95806e2a:final_word_end:833.212000",
+        "anchorType": "final_word_end",
+        "targetSec": 833.212
+      },
+      "similarity": 0.121
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "success",
+      "momentText": "We got George",
+      "captionWindow": "speaker_1: and then we're gonna | speaker_1: be picking up Suri | speaker_1: We got George | speaker_2: Yeah it was really fun | speaker_1: You had fun?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2090959af5b454b0:cue_end_minus_80ms:426.280000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 426.28
+      },
+      "similarity": 0.1158
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "bonk",
+      "momentText": "thing we shared",
+      "captionWindow": "speaker_1: Because we're both sick | speaker_1: and that's the only | speaker_1: thing we shared | speaker_2: Yeah | speaker_2: So Suri's there because",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_82ecc99078e8c408:cue_end_minus_80ms:549.062000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 549.062
+      },
+      "similarity": 0.1219
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "bonk",
+      "momentText": "A little?",
+      "captionWindow": "speaker_1: and | speaker_1: I think we're a little late | speaker_5: A little? | speaker_5: I think we are late | speaker_1: We're gonna be there",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_66ca20ba1551e014:cue_end_minus_80ms:137.999000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 137.999
+      },
+      "similarity": 0.1113
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "funny",
+      "momentText": "already cooking something",
+      "captionWindow": "speaker_1: We're gonna be late | speaker_1: Your mom's | speaker_1: already cooking something | speaker_2: she's cooking something? | speaker_1: I don't know",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_130f364d01fdf3b5:internal_pause_word_end:267.380000",
+        "anchorType": "internal_pause_word_end",
+        "targetSec": 267.38
+      },
+      "similarity": 0.1071
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "funny",
+      "momentText": "I think we are late",
+      "captionWindow": "speaker_1: I think we're a little late | speaker_5: A little? | speaker_5: I think we are late | speaker_1: We're gonna be there | speaker_1: 10 minutes late",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_27cd7a96023bf00e:final_word_end:139.680000",
+        "anchorType": "final_word_end",
+        "targetSec": 139.68
+      },
+      "similarity": 0.106
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "bruh",
+      "momentText": "bro",
+      "captionWindow": "speaker_2: I did not make a mistake because | speaker_2: this is gigantic | speaker_2: bro | speaker_2: Look at that | speaker_2: Look at it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2f7b944f0f01a7f5:final_word_end:395.616000",
+        "anchorType": "final_word_end",
+        "targetSec": 395.616
+      },
+      "similarity": 0.1
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "bruh",
+      "momentText": "each?",
+      "captionWindow": "speaker_5: we got scammed | speaker_5: Why did they put one in | speaker_5: each? | speaker_3: I know | speaker_1: Okay taste test",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_0fa279e3018fc688:cue_start:990.460000",
+        "anchorType": "cue_start",
+        "targetSec": 990.46
+      },
+      "similarity": 0.0836
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "record_scratch",
+      "momentText": "We?",
+      "captionWindow": "speaker_1: but we found Miniso | speaker_1: so | speaker_2: We? | speaker_2: we? | speaker_2: or you?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2d44f7ce1c814fc6:cue_start:599.712000",
+        "anchorType": "cue_start",
+        "targetSec": 599.712
+      },
+      "similarity": 0.1031
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "record_scratch",
+      "momentText": "so we're gonna be sharing",
+      "captionWindow": "speaker_1: I have cherry limeade | speaker_1: But George got something | speaker_1: so we're gonna be sharing | speaker_1: 23 | speaker_1: 24",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c6e954b6ff52f6f4:zoom_onset:136.186050",
+        "anchorType": "zoom_onset",
+        "targetSec": 136.186
+      },
+      "similarity": 0.103
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "dramatic",
+      "momentText": "some cereal because",
+      "captionWindow": "speaker_1: so | speaker_1: they're gonna be eating | speaker_1: some cereal because | speaker_1: we're already kind of late | speaker_6: Wait",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5ff9ce0b86adde42:cue_end_minus_80ms:648.730000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 648.73
+      },
+      "similarity": 0.1143
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "dramatic",
+      "momentText": "You feel",
+      "captionWindow": "speaker_1: I'm okay | speaker_1: I guess | speaker_2: You feel | speaker_2: okay? | speaker_2: Okay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_53a3340f1f226a0f:cue_start:717.272000",
+        "anchorType": "cue_start",
+        "targetSec": 717.272
+      },
+      "similarity": 0.1129
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "other_sfx",
+      "momentText": "we're ready",
+      "captionWindow": "speaker_2: All right | speaker_2: Let's go | speaker_1: we're ready | speaker_1: One two | speaker_1: three",
+      "timing": null,
+      "similarity": 0.1097
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "other_sfx",
+      "momentText": "Oh my God",
+      "captionWindow": "speaker_1: you | speaker_1: got it | speaker_1: Oh my God | speaker_2: Look at Terah | speaker_1: I don't know",
+      "timing": null,
+      "similarity": 0.1084
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

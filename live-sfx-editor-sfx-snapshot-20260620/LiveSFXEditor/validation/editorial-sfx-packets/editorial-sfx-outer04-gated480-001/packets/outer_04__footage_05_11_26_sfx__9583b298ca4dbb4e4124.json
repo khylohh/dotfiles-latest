@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "9583b298ca4dbb4e4124",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000076408_06",
+  "coreStartSec": 76.408,
+  "coreEndSec": 86.83,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_f0113fe11f5ae5b2"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_21495563a4136665:cue_end_minus_80ms:85.940000",
+    "cand_caption_beat_21495563a4136665:final_word_end:86.020000",
+    "cand_caption_beat_21495563a4136665:pause_boundary:86.020000",
+    "cand_caption_beat_21495563a4136665:zoom_onset:86.019267"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_f0113fe11f5ae5b2",
+      "beatGroupId": "beat_group_115",
+      "kind": "caption_moment",
+      "momentSec": 86.02,
+      "relativeSec": 9.612,
+      "cueIds": [
+        "cue-00064",
+        "cue-00340"
+      ],
+      "text": "How about your face?",
+      "captionWindow": "speaker_1: 'Cause then it's | speaker_1: gonna be looking wet | speaker_2: How about your face? | speaker_2: It was only little | speaker_2: It was a little",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.7,
+        "moment.mean_boundary_strength": 0.7,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_21495563a4136665:cue_end_minus_80ms:85.940000",
+          "targetSec": 85.94,
+          "relativeSec": 9.532,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00064",
+            "cue-00340"
+          ],
+          "wordIds": [
+            "word-00291"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-9"
+          ],
+          "boundaryStrength": 0.7,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_21495563a4136665:zoom_onset:86.019267",
+          "targetSec": 86.019,
+          "relativeSec": 9.611,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00064",
+            "cue-00340"
+          ],
+          "wordIds": [
+            "word-00291"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-9"
+          ],
+          "boundaryStrength": 0.7,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_21495563a4136665:final_word_end:86.020000",
+          "targetSec": 86.02,
+          "relativeSec": 9.612,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00064",
+            "cue-00340"
+          ],
+          "wordIds": [
+            "word-00291"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-9"
+          ],
+          "boundaryStrength": 0.7,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_21495563a4136665:pause_boundary:86.020000",
+          "targetSec": 86.02,
+          "relativeSec": 9.612,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00064",
+            "cue-00340"
+          ],
+          "wordIds": [
+            "word-00291"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-9"
+          ],
+          "boundaryStrength": 0.7,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "none",
+      "momentText": "Let's get him something",
+      "captionWindow": "speaker_2: It's about the World Cup | speaker_2: Your dad is gonna love it | speaker_2: Let's get him something | speaker_1: Maybe | speaker_1: this",
+      "timing": null,
+      "similarity": 0.2116
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "none",
+      "momentText": "Okay",
+      "captionWindow": "speaker_1: It's too pretty | speaker_2: It is too pretty | speaker_2: Okay | speaker_1: How about this? | speaker_2: You wanna take",
+      "timing": null,
+      "similarity": 0.2105
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "pop",
+      "momentText": "Terah",
+      "captionWindow": "speaker_1: She was playing there | speaker_2: Yeah | speaker_2: Terah | speaker_2: you gonna be a doctor? | speaker_1: But I don't have it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_fc4b3e03087db085:zoom_onset:624.957667",
+        "anchorType": "zoom_onset",
+        "targetSec": 624.958
+      },
+      "similarity": 0.2294
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "pop",
+      "momentText": "yeah",
+      "captionWindow": "speaker_1: It's okay | speaker_2: it's okay? | speaker_1: yeah | speaker_2: So are you gonna | speaker_2: be getting it or",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1a072dc098383c23:zoom_onset:377.894183",
+        "anchorType": "zoom_onset",
+        "targetSec": 377.894
+      },
+      "similarity": 0.2123
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "ding",
+      "momentText": "so",
+      "captionWindow": "speaker_2: but then | speaker_2: I found out it was French | speaker_2: so | speaker_1: Yeah | speaker_1: So I'm gonna be getting this",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_0f6f71c7554b18f5:cue_end_minus_80ms:847.576000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 847.576
+      },
+      "similarity": 0.2218
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "ding",
+      "momentText": "and it was the last one",
+      "captionWindow": "speaker_2: Wow | speaker_1: A dinosaur book | speaker_1: and it was the last one | speaker_2: That's cool | speaker_2: Yeah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_17b78638ef20575b:cue_end_minus_80ms:788.432000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 788.432
+      },
+      "similarity": 0.2085
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "with your LPS",
+      "captionWindow": "speaker_2: it's a house | speaker_2: That way you can play | speaker_2: with your LPS | speaker_1: Yay | speaker_1: Stary",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_c862cd1ca7790316:cue_end_minus_80ms:1574.256000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1574.256
+      },
+      "similarity": 0.2087
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "success",
+      "momentText": "It's really good",
+      "captionWindow": "speaker_1: All right | speaker_2: hows it Taste? | speaker_1: It's really good | speaker_2: Well I'm tasting now | speaker_2: I thought I was",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_ed7b1f222584b524:cue_end_minus_80ms:94.960000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 94.96
+      },
+      "similarity": 0.1862
+    },
+    {
+      "projectId": "footage_05_04_26_sfx",
+      "family": "bonk",
+      "momentText": "be at 2:00",
+      "captionWindow": "speaker_1: so George already went upstairs | speaker_1: Nan thought it was gonna | speaker_1: be at 2:00 | speaker_5: Well | speaker_5: it was not",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_6c4d71c05dc3039f:cue_start:273.680000",
+        "anchorType": "cue_start",
+        "targetSec": 273.68
+      },
+      "similarity": 0.2041
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bonk",
+      "momentText": "Yeah",
+      "captionWindow": "speaker_2: you something better | speaker_2: okay? | speaker_1: Yeah | speaker_2: it's too big | speaker_4: Wouldn't it be cool",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2adfbc29784bcd03:cue_start:883.280000",
+        "anchorType": "cue_start",
+        "targetSec": 883.28
+      },
+      "similarity": 0.194
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "funny",
+      "momentText": "It was papa by the way",
+      "captionWindow": "speaker_2: you got some in your face | speaker_4: It was papa | speaker_1: It was papa by the way | speaker_3: it's So good | speaker_1: Okay",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_8c49dde70b7f5f83:cue_start:1340.844000",
+        "anchorType": "cue_start",
+        "targetSec": 1340.844
+      },
+      "similarity": 0.1925
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "funny",
+      "momentText": "But I saw it",
+      "captionWindow": "speaker_1: and the blue | speaker_2: I chose that one | speaker_1: But I saw it | speaker_2: All right | speaker_2: so you're gonna be",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_1720253a627ecfc4:cue_end_minus_80ms:355.612000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 355.612
+      },
+      "similarity": 0.1919
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bruh",
+      "momentText": "sHe can't",
+      "captionWindow": "speaker_2: where's your plushie? | speaker_3: I can't bring a | speaker_1: sHe can't | speaker_3: Stop | speaker_1: He already knows",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_04bbfe53e84677a4:cue_start:349.180000",
+        "anchorType": "cue_start",
+        "targetSec": 349.18
+      },
+      "similarity": 0.1529
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "bruh",
+      "momentText": "wait shouldn't they have",
+      "captionWindow": "speaker_4: \u00bfEsa? | speaker_4: that one? | speaker_1: wait shouldn't they have | speaker_1: a face? | speaker_3: Mine doesn't have a face",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_03b71fcef435034a:cue_start:1332.898932",
+        "anchorType": "cue_start",
+        "targetSec": 1332.899
+      },
+      "similarity": 0.14
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "record_scratch",
+      "momentText": "because it was",
+      "captionWindow": "speaker_2: if this | speaker_2: was a good prank | speaker_2: because it was | speaker_1: we'll | speaker_1: see",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_872173f63183a1da:cue_end_minus_80ms:1258.080000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1258.08
+      },
+      "similarity": 0.22
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "record_scratch",
+      "momentText": "where's your plushie?",
+      "captionWindow": "speaker_1: looks like granola | speaker_3: does it? | speaker_2: where's your plushie? | speaker_3: I can't bring a | speaker_1: sHe can't",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_7803fd84ada9ad5f:cue_end_minus_80ms:347.260000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 347.26
+      },
+      "similarity": 0.1804
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "dramatic",
+      "momentText": "It has spiderwebs",
+      "captionWindow": "speaker_1: guys | speaker_2: Like ever since like last | speaker_1: It has spiderwebs | speaker_2: It's because when were little | speaker_2: we never used to",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_95a83fbfdda364d9:zoom_onset:713.245867",
+        "anchorType": "zoom_onset",
+        "targetSec": 713.246
+      },
+      "similarity": 0.1975
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "dramatic",
+      "momentText": "is it Hello Kitty?",
+      "captionWindow": "speaker_1: Okay | speaker_2: what's that? | speaker_2: is it Hello Kitty? | speaker_1: it's $80 | speaker_2: Whoa",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_cef90fc8d67680a1:final_word_end:655.572000",
+        "anchorType": "final_word_end",
+        "targetSec": 655.572
+      },
+      "similarity": 0.1938
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "other_sfx",
+      "momentText": "because it was",
+      "captionWindow": "speaker_2: if this | speaker_2: was a good prank | speaker_2: because it was | speaker_1: we'll | speaker_1: see",
+      "timing": null,
+      "similarity": 0.22
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "other_sfx",
+      "momentText": "and it wasn't moving",
+      "captionWindow": "speaker_1: What? | speaker_2: We found the turtle | speaker_2: and it wasn't moving | speaker_1: What do you mean? | speaker_2: It's not moving",
+      "timing": null,
+      "similarity": 0.1769
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

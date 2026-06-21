@@ -1,0 +1,1424 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "76445b20da1787b07009",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000349286_18",
+  "coreStartSec": 349.286,
+  "coreEndSec": 364.75,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_f701cd8623b26ab3",
+    "caption_moment_8e639ebf0136cb27",
+    "caption_moment_bf997a7569845a51",
+    "caption_moment_cf310ef31db24044",
+    "caption_moment_9fedf61a65129fd6",
+    "caption_moment_6791c5be1803e898",
+    "caption_moment_c580528bd39cfa39",
+    "caption_moment_96113311d681e5bb",
+    "caption_moment_e60b02edfec5cd5a",
+    "caption_moment_90ae47227b9330b7",
+    "caption_moment_d1a74c430764e895",
+    "caption_moment_bf3ad1348699c7ce"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_112bfe1a9eeea4ba:cue_start:360.824997",
+    "cand_caption_beat_218cf2b6378ae557:final_word_end:359.220000",
+    "cand_caption_beat_254426ed5e42e5a3:cue_end_minus_80ms:351.935000",
+    "cand_caption_beat_3944d3bce6d70699:cue_end_minus_80ms:359.773176",
+    "cand_caption_beat_3944d3bce6d70699:pause_boundary:359.853176",
+    "cand_caption_beat_3d9ccb2c18ded68c:cue_end_minus_80ms:357.959000",
+    "cand_caption_beat_3d9ccb2c18ded68c:final_word_end:358.039000",
+    "cand_caption_beat_3d9ccb2c18ded68c:pause_boundary:358.039000",
+    "cand_caption_beat_5800b7f6156057b8:cue_start:352.200000",
+    "cand_caption_beat_5800b7f6156057b8:final_word_end:352.100000",
+    "cand_caption_beat_5800b7f6156057b8:speaker_turn_start:352.200000",
+    "cand_caption_beat_5800b7f6156057b8:zoom_onset:352.218533",
+    "cand_caption_beat_67025d6e9c3b1e6b:final_word_end:361.620000",
+    "cand_caption_beat_6c3c04e9737c4c5e:cue_start:362.480000",
+    "cand_caption_beat_6c3c04e9737c4c5e:speaker_turn_start:362.480000",
+    "cand_caption_beat_7edf191c1443808a:cue_start:363.960000",
+    "cand_caption_beat_939269657b90f3b1:cue_end_minus_80ms:356.080000",
+    "cand_caption_beat_939269657b90f3b1:final_word_end:356.160000",
+    "cand_caption_beat_9413457755122fbe:cue_start:356.420000",
+    "cand_caption_beat_9413457755122fbe:speaker_turn_start:356.420000",
+    "cand_caption_beat_a60491a84d572007:cue_end_minus_80ms:363.220000",
+    "cand_caption_beat_a60491a84d572007:final_word_end:363.300000",
+    "cand_caption_beat_a60491a84d572007:pause_boundary:363.300000",
+    "cand_caption_beat_c83cdd8685ff15b0:zoom_onset:362.261900",
+    "cand_caption_beat_ca150cf80d5f8b9e:cue_end_minus_80ms:361.849147",
+    "cand_caption_beat_ca150cf80d5f8b9e:pause_boundary:361.929147",
+    "cand_caption_beat_da2ec650401159fe:cue_start:358.460000",
+    "cand_caption_beat_da2ec650401159fe:zoom_onset:358.358000",
+    "cand_caption_beat_f34bf689cccc5f81:cue_end_minus_80ms:356.840000",
+    "cand_caption_beat_f34bf689cccc5f81:cue_start:356.920000",
+    "cand_caption_beat_f34bf689cccc5f81:final_word_end:356.890000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_f701cd8623b26ab3",
+      "beatGroupId": "beat_group_469",
+      "kind": "caption_moment",
+      "momentSec": 352.2,
+      "relativeSec": 2.914,
+      "cueIds": [
+        "cue-00208",
+        "cue-00369",
+        "cue-00772",
+        "cue-00773",
+        "cue-00774",
+        "cue-00775",
+        "cue-00776",
+        "cue-00777"
+      ],
+      "text": "we tell jokes",
+      "captionWindow": "speaker_1: usually when we | speaker_1: are Going to school | speaker_1: we tell jokes | speaker_2: They have | speaker_2: like",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.284,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.2,
+        "moment.mean_boundary_strength": 0.16,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_254426ed5e42e5a3:cue_end_minus_80ms:351.935000",
+          "targetSec": 351.935,
+          "relativeSec": 2.649,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00208"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-42"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_5800b7f6156057b8:final_word_end:352.100000",
+          "targetSec": 352.1,
+          "relativeSec": 2.814,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00208",
+            "cue-00369",
+            "cue-00772",
+            "cue-00773",
+            "cue-00774",
+            "cue-00775",
+            "cue-00776",
+            "cue-00777"
+          ],
+          "wordIds": [
+            "word-01153"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-42"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_5800b7f6156057b8:cue_start:352.200000",
+          "targetSec": 352.2,
+          "relativeSec": 2.914,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00208",
+            "cue-00369",
+            "cue-00772",
+            "cue-00773",
+            "cue-00774",
+            "cue-00775",
+            "cue-00776",
+            "cue-00777"
+          ],
+          "wordIds": [
+            "word-01153"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-42"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_5800b7f6156057b8:speaker_turn_start:352.200000",
+          "targetSec": 352.2,
+          "relativeSec": 2.914,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00208",
+            "cue-00369",
+            "cue-00772",
+            "cue-00773",
+            "cue-00774",
+            "cue-00775",
+            "cue-00776",
+            "cue-00777"
+          ],
+          "wordIds": [
+            "word-01153"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-42"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_5800b7f6156057b8:zoom_onset:352.218533",
+          "targetSec": 352.219,
+          "relativeSec": 2.933,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00208",
+            "cue-00369",
+            "cue-00772",
+            "cue-00773",
+            "cue-00774",
+            "cue-00775",
+            "cue-00776",
+            "cue-00777"
+          ],
+          "wordIds": [
+            "word-01153"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-42"
+          ],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_8e639ebf0136cb27",
+      "beatGroupId": "beat_group_475",
+      "kind": "caption_moment",
+      "momentSec": 356.12,
+      "relativeSec": 6.834,
+      "cueIds": [
+        "cue-00777"
+      ],
+      "text": "Can you believe it?",
+      "captionWindow": "speaker_2: Yeah | speaker_2: between Suri and George | speaker_2: Can you believe it? | speaker_1: I don't know if it's | speaker_1: like a riddle or a joke",
+      "allowedFamilies": [
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.2,
+        "moment.mean_boundary_strength": 0.2,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_939269657b90f3b1:cue_end_minus_80ms:356.080000",
+          "targetSec": 356.08,
+          "relativeSec": 6.794,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00777"
+          ],
+          "wordIds": [
+            "word-01169"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_939269657b90f3b1:final_word_end:356.160000",
+          "targetSec": 356.16,
+          "relativeSec": 6.874,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00777"
+          ],
+          "wordIds": [
+            "word-01169"
+          ],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.2,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_bf997a7569845a51",
+      "beatGroupId": "beat_group_476",
+      "kind": "caption_moment",
+      "momentSec": 356.42,
+      "relativeSec": 7.134,
+      "cueIds": [
+        "cue-00209"
+      ],
+      "text": "I don't know if it's",
+      "captionWindow": "speaker_2: between Suri and George | speaker_2: Can you believe it? | speaker_1: I don't know if it's | speaker_1: like a riddle or a joke | speaker_1: What type of cup",
+      "allowedFamilies": [
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_9413457755122fbe:cue_start:356.420000",
+          "targetSec": 356.42,
+          "relativeSec": 7.134,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00209"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_9413457755122fbe:speaker_turn_start:356.420000",
+          "targetSec": 356.42,
+          "relativeSec": 7.134,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00209"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_cf310ef31db24044",
+      "beatGroupId": "beat_group_477",
+      "kind": "caption_moment",
+      "momentSec": 356.89,
+      "relativeSec": 7.604,
+      "cueIds": [
+        "cue-00209",
+        "cue-00210"
+      ],
+      "text": "I don't know if it's",
+      "captionWindow": "speaker_2: between Suri and George | speaker_2: Can you believe it? | speaker_1: I don't know if it's | speaker_1: like a riddle or a joke | speaker_1: What type of cup",
+      "allowedFamilies": [
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_f34bf689cccc5f81:cue_end_minus_80ms:356.840000",
+          "targetSec": 356.84,
+          "relativeSec": 7.554,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00209",
+            "cue-00210"
+          ],
+          "wordIds": [
+            "word-01174"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f34bf689cccc5f81:final_word_end:356.890000",
+          "targetSec": 356.89,
+          "relativeSec": 7.604,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00209",
+            "cue-00210"
+          ],
+          "wordIds": [
+            "word-01174"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_f34bf689cccc5f81:cue_start:356.920000",
+          "targetSec": 356.92,
+          "relativeSec": 7.634,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00209",
+            "cue-00210"
+          ],
+          "wordIds": [
+            "word-01174"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_9fedf61a65129fd6",
+      "beatGroupId": "beat_group_478",
+      "kind": "caption_moment",
+      "momentSec": 358.039,
+      "relativeSec": 8.753,
+      "cueIds": [
+        "25bd9605-2569-4cf3-9270-fad18cbf7b37",
+        "cue-00210",
+        "cue-00212"
+      ],
+      "text": "like a riddle or a joke",
+      "captionWindow": "speaker_2: Can you believe it? | speaker_1: I don't know if it's | speaker_1: like a riddle or a joke | speaker_1: What type of cup | speaker_1: Can't hold water?",
+      "allowedFamilies": [
+        "bonk",
+        "funny",
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset",
+        "mistake_or_fail",
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 5.0,
+        "moment.span_sec": 0.501,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.2,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_3d9ccb2c18ded68c:cue_end_minus_80ms:357.959000",
+          "targetSec": 357.959,
+          "relativeSec": 8.673,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00210"
+          ],
+          "wordIds": [
+            "word-01180"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_3d9ccb2c18ded68c:final_word_end:358.039000",
+          "targetSec": 358.039,
+          "relativeSec": 8.753,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00210"
+          ],
+          "wordIds": [
+            "word-01180"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_3d9ccb2c18ded68c:pause_boundary:358.039000",
+          "targetSec": 358.039,
+          "relativeSec": 8.753,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00210"
+          ],
+          "wordIds": [
+            "word-01180"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.0,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_da2ec650401159fe:zoom_onset:358.358000",
+          "targetSec": 358.358,
+          "relativeSec": 9.072,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "25bd9605-2569-4cf3-9270-fad18cbf7b37",
+            "cue-00210",
+            "cue-00212"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_da2ec650401159fe:cue_start:358.460000",
+          "targetSec": 358.46,
+          "relativeSec": 9.174,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "25bd9605-2569-4cf3-9270-fad18cbf7b37",
+            "cue-00210",
+            "cue-00212"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_6791c5be1803e898",
+      "beatGroupId": "beat_group_479",
+      "kind": "caption_moment",
+      "momentSec": 359.22,
+      "relativeSec": 9.934,
+      "cueIds": [
+        "cue-00212"
+      ],
+      "text": "What type of cup",
+      "captionWindow": "speaker_1: I don't know if it's | speaker_1: like a riddle or a joke | speaker_1: What type of cup | speaker_1: Can't hold water? | speaker_2: I don't know",
+      "allowedFamilies": [
+        "bonk",
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "mistake_or_fail",
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_218cf2b6378ae557:final_word_end:359.220000",
+          "targetSec": 359.22,
+          "relativeSec": 9.934,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00212"
+          ],
+          "wordIds": [
+            "word-01183"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_c580528bd39cfa39",
+      "beatGroupId": "beat_group_480",
+      "kind": "caption_moment",
+      "momentSec": 359.813,
+      "relativeSec": 10.528,
+      "cueIds": [
+        "cue-00212"
+      ],
+      "text": "What type of cup",
+      "captionWindow": "speaker_1: I don't know if it's | speaker_1: like a riddle or a joke | speaker_1: What type of cup | speaker_1: Can't hold water? | speaker_2: I don't know",
+      "allowedFamilies": [
+        "bonk",
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "mistake_or_fail",
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 2.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_3944d3bce6d70699:cue_end_minus_80ms:359.773176",
+          "targetSec": 359.773,
+          "relativeSec": 10.488,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00212"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_3944d3bce6d70699:pause_boundary:359.853176",
+          "targetSec": 359.853,
+          "relativeSec": 10.568,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00212"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-43"
+          ],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_96113311d681e5bb",
+      "beatGroupId": "beat_group_481",
+      "kind": "caption_moment",
+      "momentSec": 360.825,
+      "relativeSec": 11.539,
+      "cueIds": [
+        "25bd9605-2569-4cf3-9270-fad18cbf7b37"
+      ],
+      "text": "Can't hold water?",
+      "captionWindow": "speaker_1: like a riddle or a joke | speaker_1: What type of cup | speaker_1: Can't hold water? | speaker_2: I don't know | speaker_2: You're gonna be deciding",
+      "allowedFamilies": [
+        "bonk",
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "mistake_or_fail",
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.5,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_112bfe1a9eeea4ba:cue_start:360.824997",
+          "targetSec": 360.825,
+          "relativeSec": 11.539,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "25bd9605-2569-4cf3-9270-fad18cbf7b37"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-44"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_e60b02edfec5cd5a",
+      "beatGroupId": "beat_group_482",
+      "kind": "caption_moment",
+      "momentSec": 361.849,
+      "relativeSec": 12.564,
+      "cueIds": [
+        "25bd9605-2569-4cf3-9270-fad18cbf7b37"
+      ],
+      "text": "Can't hold water?",
+      "captionWindow": "speaker_1: like a riddle or a joke | speaker_1: What type of cup | speaker_1: Can't hold water? | speaker_2: I don't know | speaker_2: You're gonna be deciding",
+      "allowedFamilies": [
+        "bonk",
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "mistake_or_fail",
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.309,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.5,
+        "moment.mean_boundary_strength": 0.5,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_67025d6e9c3b1e6b:final_word_end:361.620000",
+          "targetSec": 361.62,
+          "relativeSec": 12.334,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "25bd9605-2569-4cf3-9270-fad18cbf7b37"
+          ],
+          "wordIds": [
+            "word-01186"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-44"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_ca150cf80d5f8b9e:cue_end_minus_80ms:361.849147",
+          "targetSec": 361.849,
+          "relativeSec": 12.564,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "25bd9605-2569-4cf3-9270-fad18cbf7b37"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-44"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_ca150cf80d5f8b9e:pause_boundary:361.929147",
+          "targetSec": 361.929,
+          "relativeSec": 12.644,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "25bd9605-2569-4cf3-9270-fad18cbf7b37"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-44"
+          ],
+          "boundaryStrength": 0.5,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_90ae47227b9330b7",
+      "beatGroupId": "beat_group_483",
+      "kind": "caption_moment",
+      "momentSec": 362.48,
+      "relativeSec": 13.194,
+      "cueIds": [
+        "25bd9605-2569-4cf3-9270-fad18cbf7b37",
+        "cue-00370"
+      ],
+      "text": "I don't know",
+      "captionWindow": "speaker_1: What type of cup | speaker_1: Can't hold water? | speaker_2: I don't know | speaker_2: You're gonna be deciding | speaker_2: who's the best joke",
+      "allowedFamilies": [
+        "bonk",
+        "funny",
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset",
+        "mistake_or_fail",
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.218,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.8,
+        "moment.mean_boundary_strength": 0.767,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 1.0,
+        "moment.anchor_count.speaker_turn_start": 1.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_c83cdd8685ff15b0:zoom_onset:362.261900",
+          "targetSec": 362.262,
+          "relativeSec": 12.976,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "25bd9605-2569-4cf3-9270-fad18cbf7b37",
+            "cue-00370"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-44"
+          ],
+          "boundaryStrength": 0.7,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_6c3c04e9737c4c5e:cue_start:362.480000",
+          "targetSec": 362.48,
+          "relativeSec": 13.194,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00370"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-44"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_6c3c04e9737c4c5e:speaker_turn_start:362.480000",
+          "targetSec": 362.48,
+          "relativeSec": 13.194,
+          "anchorType": "speaker_turn_start",
+          "source": "speaker_turn.start",
+          "cueIds": [
+            "cue-00370"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-44"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_d1a74c430764e895",
+      "beatGroupId": "beat_group_484",
+      "kind": "caption_moment",
+      "momentSec": 363.3,
+      "relativeSec": 14.014,
+      "cueIds": [
+        "cue-00370"
+      ],
+      "text": "I don't know",
+      "captionWindow": "speaker_1: What type of cup | speaker_1: Can't hold water? | speaker_2: I don't know | speaker_2: You're gonna be deciding | speaker_2: who's the best joke",
+      "allowedFamilies": [
+        "bonk",
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "mistake_or_fail",
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 3.0,
+        "moment.span_sec": 0.08,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.6,
+        "moment.mean_boundary_strength": 0.6,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_a60491a84d572007:cue_end_minus_80ms:363.220000",
+          "targetSec": 363.22,
+          "relativeSec": 13.934,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00370"
+          ],
+          "wordIds": [
+            "word-01190"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-44"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_a60491a84d572007:final_word_end:363.300000",
+          "targetSec": 363.3,
+          "relativeSec": 14.014,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00370"
+          ],
+          "wordIds": [
+            "word-01190"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-44"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_a60491a84d572007:pause_boundary:363.300000",
+          "targetSec": 363.3,
+          "relativeSec": 14.014,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00370"
+          ],
+          "wordIds": [
+            "word-01190"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-44"
+          ],
+          "boundaryStrength": 0.6,
+          "wordTimingAvailable": true
+        }
+      ]
+    },
+    {
+      "momentId": "caption_moment_bf3ad1348699c7ce",
+      "beatGroupId": "beat_group_485",
+      "kind": "caption_moment",
+      "momentSec": 363.96,
+      "relativeSec": 14.674,
+      "cueIds": [
+        "cue-00778"
+      ],
+      "text": "You're gonna be deciding",
+      "captionWindow": "speaker_1: Can't hold water? | speaker_2: I don't know | speaker_2: You're gonna be deciding | speaker_2: who's the best joke | speaker_1: It's not like",
+      "allowedFamilies": [
+        "bonk",
+        "funny",
+        "other_sfx"
+      ],
+      "gateReasons": [
+        "mistake_or_fail",
+        "explicit_comedy"
+      ],
+      "denseHints": {
+        "moment.option_count": 1.0,
+        "moment.span_sec": 0.0,
+        "moment.has_zoom": 0.0,
+        "moment.max_boundary_strength": 0.3,
+        "moment.mean_boundary_strength": 0.3,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 1.0,
+        "moment.anchor_count.cue_start": 1.0,
+        "moment.has_anchor.cue_end_minus_80ms": 0.0,
+        "moment.anchor_count.cue_end_minus_80ms": 0.0,
+        "moment.has_anchor.final_word_end": 0.0,
+        "moment.anchor_count.final_word_end": 0.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 0.0,
+        "moment.anchor_count.zoom_onset": 0.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 0.0,
+        "moment.anchor_count.pause_boundary": 0.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_7edf191c1443808a:cue_start:363.960000",
+          "targetSec": 363.96,
+          "relativeSec": 14.674,
+          "anchorType": "cue_start",
+          "source": "cue.start",
+          "cueIds": [
+            "cue-00778"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [],
+          "boundaryStrength": 0.3,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "none",
+      "momentText": "You know the ice",
+      "captionWindow": "speaker_1: like a cup that you could eat | speaker_2: So you can eat all of it | speaker_2: You know the ice | speaker_2: cream and the cone | speaker_1: you don't have to put in the",
+      "timing": null,
+      "similarity": 0.0315
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "none",
+      "momentText": "You know the ice",
+      "captionWindow": "speaker_1: like a cup that you could eat | speaker_2: So you can eat all of it | speaker_2: You know the ice | speaker_2: cream and the cone | speaker_1: you don't have to put in the",
+      "timing": null,
+      "similarity": 0.0315
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "pop",
+      "momentText": "Terah",
+      "captionWindow": "speaker_1: She was playing there | speaker_2: Yeah | speaker_2: Terah | speaker_2: you gonna be a doctor? | speaker_1: But I don't have it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_fc4b3e03087db085:zoom_onset:624.957667",
+        "anchorType": "zoom_onset",
+        "targetSec": 624.958
+      },
+      "similarity": 0.0276
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "pop",
+      "momentText": "it can be a toy?",
+      "captionWindow": "speaker_1: I'm gonna be getting | speaker_1: one for Terah | speaker_3: it can be a toy? | speaker_1: Yeah whatever you want | speaker_1: It doesn't have",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f0a069dad838c8bf:zoom_onset:431.497733",
+        "anchorType": "zoom_onset",
+        "targetSec": 431.498
+      },
+      "similarity": 0.0275
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "like a cup that you could eat",
+      "captionWindow": "speaker_1: eat it with it? | speaker_3: For example like a cup | speaker_1: like a cup that you could eat | speaker_2: So you can eat all of it | speaker_2: You know the ice",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_9452def4572b893d:final_word_end:431.284000",
+        "anchorType": "final_word_end",
+        "targetSec": 431.284
+      },
+      "similarity": 0.029
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "It's gonna be the pink one",
+      "captionWindow": "speaker_1: Oh I win | speaker_2: All right | speaker_2: It's gonna be the pink one | speaker_3: And | speaker_2: And",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_7e377a9a7cdf9aee:cue_end_minus_80ms:160.160000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 160.16
+      },
+      "similarity": 0.0264
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "success",
+      "momentText": "We got George",
+      "captionWindow": "speaker_1: and then we're gonna | speaker_1: be picking up Suri | speaker_1: We got George | speaker_2: Yeah it was really fun | speaker_1: You had fun?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2090959af5b454b0:cue_end_minus_80ms:426.280000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 426.28
+      },
+      "similarity": 0.0271
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "success",
+      "momentText": "Yeah whatever you want",
+      "captionWindow": "speaker_1: one for Terah | speaker_3: it can be a toy? | speaker_1: Yeah whatever you want | speaker_1: It doesn't have | speaker_1: to be a snack",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_934e5836d02ead02:pause_boundary:433.960000",
+        "anchorType": "pause_boundary",
+        "targetSec": 433.96
+      },
+      "similarity": 0.0259
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "bonk",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_1: that one is like a | speaker_1: green or blue | speaker_1: I don't know | speaker_1: Yeah | speaker_2: What the heck is this?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_929691982def1dec:cue_end_minus_80ms:266.080000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 266.08
+      },
+      "similarity": 0.0288
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "bonk",
+      "momentText": "I don't like you",
+      "captionWindow": "speaker_2: I'm Christian the Clown | speaker_2: and | speaker_2: I don't like you | speaker_2: Can he talk? | speaker_1: He doesn't like me",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3a7a332d72483461:final_word_end:691.476000",
+        "anchorType": "final_word_end",
+        "targetSec": 691.476
+      },
+      "similarity": 0.0276
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "funny",
+      "momentText": "You don't have it?",
+      "captionWindow": "speaker_2: you gonna be a doctor? | speaker_1: But I don't have it | speaker_2: You don't have it? | speaker_2: You gotta make it | speaker_1: He's crazy",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_24e0b5ed38de0258:cue_end_minus_80ms:630.030000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 630.03
+      },
+      "similarity": 0.0288
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "funny",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_2: George | speaker_2: Where did Suri go? | speaker_5: I don't know | speaker_2: Suri | speaker_2: you're not helping George",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_964957357c87dadc:cue_start:422.324000",
+        "anchorType": "cue_start",
+        "targetSec": 422.324
+      },
+      "similarity": 0.0279
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "bruh",
+      "momentText": "George!",
+      "captionWindow": "speaker_2: please | speaker_2: don't do it too fast George | speaker_2: George! | speaker_2: Guys | speaker_2: guys",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_ab819489bc2440e4:pause_boundary:44.147000",
+        "anchorType": "pause_boundary",
+        "targetSec": 44.147
+      },
+      "similarity": 0.0198
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bruh",
+      "momentText": "sHe can't",
+      "captionWindow": "speaker_2: where's your plushie? | speaker_3: I can't bring a | speaker_1: sHe can't | speaker_3: Stop | speaker_1: He already knows",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_04bbfe53e84677a4:cue_start:349.180000",
+        "anchorType": "cue_start",
+        "targetSec": 349.18
+      },
+      "similarity": 0.0189
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "record_scratch",
+      "momentText": "And she's like",
+      "captionWindow": "speaker_1: \"Okay so\" | speaker_1: \"what is the book talking about?\" | speaker_1: And she's like | speaker_1: \"I don't know\" | speaker_2: And I'm like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_197b09c8ba683a55:zoom_onset:71.221150",
+        "anchorType": "zoom_onset",
+        "targetSec": 71.221
+      },
+      "similarity": 0.0264
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "I said",
+      "captionWindow": "speaker_1: All right | speaker_1: So like | speaker_1: I said | speaker_1: it's gonna be a challenge | speaker_2: i feel like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5d5542d20fc9489f:zoom_onset:40.090050",
+        "anchorType": "zoom_onset",
+        "targetSec": 40.09
+      },
+      "similarity": 0.0252
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "dramatic",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_3: It's there | speaker_1: Did they grab it? | speaker_1: I don't know | speaker_1: What do you think? | speaker_3: Let me see if it's",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f6be886e2a52078e:zoom_onset:1117.399617",
+        "anchorType": "zoom_onset",
+        "targetSec": 1117.4
+      },
+      "similarity": 0.0281
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "dramatic",
+      "momentText": "I don't know if you",
+      "captionWindow": "speaker_2: like | speaker_1: Bad | speaker_1: I don't know if you | speaker_1: guys remember | speaker_1: but last time",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_00e0c50ba9b22767:zoom_onset:7.857850",
+        "anchorType": "zoom_onset",
+        "targetSec": 7.858
+      },
+      "similarity": 0.0277
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I don't know like nauseous",
+      "captionWindow": "speaker_1: Are you feeling bad? | speaker_2: I feel like | speaker_2: I don't know like nauseous | speaker_1: I know | speaker_1: me too",
+      "timing": null,
+      "similarity": 0.0282
+    },
+    {
+      "projectId": "footage_05_19_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I don't know",
+      "captionWindow": "speaker_3: It's there | speaker_1: Did they grab it? | speaker_1: I don't know | speaker_1: What do you think? | speaker_3: Let me see if it's",
+      "timing": null,
+      "similarity": 0.0281
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}

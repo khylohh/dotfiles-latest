@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "protocol": "editorial-sfx-selector-v1",
+  "packetId": "c51991af69a4e82ab9eb",
+  "foldId": "outer_04",
+  "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+  "projectId": "footage_05_11_26_sfx",
+  "segmentId": "footage_05_11_26_sfx:outer_04:editorial_000633380_31",
+  "coreStartSec": 633.38,
+  "coreEndSec": 642.465,
+  "allowedFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "other_sfx",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "allowedMomentIds": [
+    "caption_moment_7aee593f3dcc173f"
+  ],
+  "allowedTimingOptionIds": [
+    "cand_caption_beat_2dad01877c7e4767:zoom_onset:634.400433",
+    "cand_caption_beat_fcdb1233f02e15f9:cue_end_minus_80ms:634.140000",
+    "cand_caption_beat_fcdb1233f02e15f9:final_word_end:634.220000",
+    "cand_caption_beat_fcdb1233f02e15f9:pause_boundary:634.220000"
+  ],
+  "soundGuide": {
+    "pop": "short zoom/timing accent; use mainly when zoom marker timing makes the accent obvious",
+    "ding": "specific reveal, positive detail, answer, count, clear selection, or satisfying small payoff",
+    "success": "completed task, solved problem, achieved result, win, or finished outcome",
+    "bonk": "mistake, fail, wrong answer, awkward hit, clumsy outcome, or comic negative beat",
+    "funny": "actual punchline or absurd comedy beat",
+    "bruh": "cringe, disbelief, deflation, or 'come on' reaction",
+    "record_scratch": "abrupt reversal, interruption, wait-what pivot, or sudden contradiction",
+    "dramatic": "dramatic reveal, boom, ominous escalation, suspense hit, or major emphasis",
+    "other_sfx": "a human likely used a sound here, but not one of the supported automation-safe families"
+  },
+  "candidates": [
+    {
+      "momentId": "caption_moment_7aee593f3dcc173f",
+      "beatGroupId": "beat_group_831",
+      "kind": "caption_moment",
+      "momentSec": 634.22,
+      "relativeSec": 0.84,
+      "cueIds": [
+        "cue-00415",
+        "cue-00913",
+        "cue-00914",
+        "cue-00915",
+        "cue-00917"
+      ],
+      "text": "she said that her throat hurts",
+      "captionWindow": "speaker_2: They feel sick but different | speaker_4: Yeah | speaker_2: she said that her throat hurts | speaker_2: and Terah has | speaker_2: like a fever",
+      "allowedFamilies": [
+        "other_sfx",
+        "pop"
+      ],
+      "gateReasons": [
+        "explicit_zoom_onset"
+      ],
+      "denseHints": {
+        "moment.option_count": 4.0,
+        "moment.span_sec": 0.26,
+        "moment.has_zoom": 1.0,
+        "moment.max_boundary_strength": 0.8,
+        "moment.mean_boundary_strength": 0.8,
+        "moment.word_timing_available": 1.0,
+        "moment.is_orphan_zoom": 0.0,
+        "moment.has_anchor.cue_start": 0.0,
+        "moment.anchor_count.cue_start": 0.0,
+        "moment.has_anchor.cue_end_minus_80ms": 1.0,
+        "moment.anchor_count.cue_end_minus_80ms": 1.0,
+        "moment.has_anchor.final_word_end": 1.0,
+        "moment.anchor_count.final_word_end": 1.0,
+        "moment.has_anchor.internal_pause_word_end": 0.0,
+        "moment.anchor_count.internal_pause_word_end": 0.0,
+        "moment.has_anchor.zoom_onset": 1.0,
+        "moment.anchor_count.zoom_onset": 1.0,
+        "moment.has_anchor.speaker_turn_start": 0.0,
+        "moment.anchor_count.speaker_turn_start": 0.0,
+        "moment.has_anchor.pause_boundary": 1.0,
+        "moment.anchor_count.pause_boundary": 1.0
+      },
+      "timingOptions": [
+        {
+          "timingOptionId": "cand_caption_beat_fcdb1233f02e15f9:cue_end_minus_80ms:634.140000",
+          "targetSec": 634.14,
+          "relativeSec": 0.76,
+          "anchorType": "cue_end_minus_80ms",
+          "source": "cue.end_minus_80ms",
+          "cueIds": [
+            "cue-00913"
+          ],
+          "wordIds": [
+            "word-02037"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-85"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_fcdb1233f02e15f9:final_word_end:634.220000",
+          "targetSec": 634.22,
+          "relativeSec": 0.84,
+          "anchorType": "final_word_end",
+          "source": "final_word.end",
+          "cueIds": [
+            "cue-00913"
+          ],
+          "wordIds": [
+            "word-02037"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-85"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_fcdb1233f02e15f9:pause_boundary:634.220000",
+          "targetSec": 634.22,
+          "relativeSec": 0.84,
+          "anchorType": "pause_boundary",
+          "source": "pause_boundary.previous_end",
+          "cueIds": [
+            "cue-00913"
+          ],
+          "wordIds": [
+            "word-02037"
+          ],
+          "zoomMarkerIds": [
+            "clipitem-85"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        },
+        {
+          "timingOptionId": "cand_caption_beat_2dad01877c7e4767:zoom_onset:634.400433",
+          "targetSec": 634.4,
+          "relativeSec": 1.02,
+          "anchorType": "zoom_onset",
+          "source": "zoom.start",
+          "cueIds": [
+            "cue-00415",
+            "cue-00913",
+            "cue-00914",
+            "cue-00915",
+            "cue-00917"
+          ],
+          "wordIds": [],
+          "zoomMarkerIds": [
+            "clipitem-85"
+          ],
+          "boundaryStrength": 0.8,
+          "wordTimingAvailable": true
+        }
+      ]
+    }
+  ],
+  "trainingExamples": [
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "none",
+      "momentText": "Suri said that she likes",
+      "captionWindow": "speaker_2: So guys we have to make | speaker_2: a stop right here because | speaker_2: Suri said that she likes | speaker_2: this outfit for her dad | speaker_1: Yeah I think it looks good",
+      "timing": null,
+      "similarity": 0.2224
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "none",
+      "momentText": "Suri said that she likes",
+      "captionWindow": "speaker_2: So guys we have to make | speaker_2: a stop right here because | speaker_2: Suri said that she likes | speaker_2: this outfit for her dad | speaker_1: Yeah I think it looks good",
+      "timing": null,
+      "similarity": 0.2224
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "pop",
+      "momentText": "crema",
+      "captionWindow": "speaker_2: has chips | speaker_2: fresas con | speaker_2: crema | speaker_2: and | speaker_4: Ice cream like strawberry",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_3b2c9e4e0fc4bc7f:zoom_onset:351.501150",
+        "anchorType": "zoom_onset",
+        "targetSec": 351.501
+      },
+      "similarity": 0.1985
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "pop",
+      "momentText": "Terah",
+      "captionWindow": "speaker_1: She was playing there | speaker_2: Yeah | speaker_2: Terah | speaker_2: you gonna be a doctor? | speaker_1: But I don't have it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_fc4b3e03087db085:zoom_onset:624.957667",
+        "anchorType": "zoom_onset",
+        "targetSec": 624.958
+      },
+      "similarity": 0.195
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "ding",
+      "momentText": "this outfit for her dad",
+      "captionWindow": "speaker_2: a stop right here because | speaker_2: Suri said that she likes | speaker_2: this outfit for her dad | speaker_1: Yeah I think it looks good | speaker_1: I don't know why they always",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_996fa118ae3ba172:final_word_end:56.740000",
+        "anchorType": "final_word_end",
+        "targetSec": 56.74
+      },
+      "similarity": 0.2001
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "ding",
+      "momentText": "upstairs last night and today",
+      "captionWindow": "speaker_2: guys so She still hasn't | speaker_2: seen anything because she was | speaker_2: upstairs last night and today | speaker_2: But they | speaker_2: gave her that teddy bear",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_da9b797a18d0aac3:pause_boundary:42.438816",
+        "anchorType": "pause_boundary",
+        "targetSec": 42.439
+      },
+      "similarity": 0.192
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "gave her that teddy bear",
+      "captionWindow": "speaker_2: upstairs last night and today | speaker_2: But they | speaker_2: gave her that teddy bear | speaker_1: Are you excited | speaker_1: Stary?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_f0a6a545ca1a5cdc:final_word_end:44.920000",
+        "anchorType": "final_word_end",
+        "targetSec": 44.92
+      },
+      "similarity": 0.2045
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "success",
+      "momentText": "she loves digital circus so",
+      "captionWindow": "speaker_2: age | speaker_2: and also | speaker_2: she loves digital circus so | speaker_4: I think it's pretty nice | speaker_2: Yeah?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_82d3f53b0eb0624e:internal_pause_word_end:849.500000",
+        "anchorType": "internal_pause_word_end",
+        "targetSec": 849.5
+      },
+      "similarity": 0.1881
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "bonk",
+      "momentText": "Stop",
+      "captionWindow": "speaker_2: that one | speaker_2: guys | speaker_1: Stop | speaker_3: I do like it | speaker_2: Look at Terah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_e426fd454fbd394c:pause_boundary:1513.417790",
+        "anchorType": "pause_boundary",
+        "targetSec": 1513.418
+      },
+      "similarity": 0.1761
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "bonk",
+      "momentText": "too big",
+      "captionWindow": "speaker_2: but | speaker_2: I think they're running | speaker_2: too big | speaker_1: Yeah | speaker_2: Show me that one",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_ade3419509c3e5b1:cue_end_minus_80ms:703.732000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 703.732
+      },
+      "similarity": 0.1754
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "funny",
+      "momentText": "given me anything",
+      "captionWindow": "speaker_2: she's like | speaker_2: \"$100 \" and she hasn't | speaker_2: given me anything | speaker_2: What is that? | speaker_2: A basket?",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_48f3a467d392b3f6:cue_end_minus_80ms:581.524000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 581.524
+      },
+      "similarity": 0.1855
+    },
+    {
+      "projectId": "footage_04_26_26_sfx",
+      "family": "funny",
+      "momentText": "You were blowing into this?",
+      "captionWindow": "speaker_2: they | speaker_2: estaban soplando | speaker_5: You were blowing into this? | speaker_2: Yeah | speaker_2: Stary and Terah",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_75557cdbf0c52930:cue_end_minus_80ms:646.164000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 646.164
+      },
+      "similarity": 0.1772
+    },
+    {
+      "projectId": "footage_05_26_26_sfx",
+      "family": "bruh",
+      "momentText": "bro",
+      "captionWindow": "speaker_2: I did not make a mistake because | speaker_2: this is gigantic | speaker_2: bro | speaker_2: Look at that | speaker_2: Look at it",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_2f7b944f0f01a7f5:final_word_end:395.616000",
+        "anchorType": "final_word_end",
+        "targetSec": 395.616
+      },
+      "similarity": 0.1448
+    },
+    {
+      "projectId": "footage_colored_sfx",
+      "family": "bruh",
+      "momentText": "sHe can't",
+      "captionWindow": "speaker_2: where's your plushie? | speaker_3: I can't bring a | speaker_1: sHe can't | speaker_3: Stop | speaker_1: He already knows",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_04bbfe53e84677a4:cue_start:349.180000",
+        "anchorType": "cue_start",
+        "targetSec": 349.18
+      },
+      "similarity": 0.135
+    },
+    {
+      "projectId": "footage_06_05_26_sfx",
+      "family": "record_scratch",
+      "momentText": "I said",
+      "captionWindow": "speaker_1: All right | speaker_1: So like | speaker_1: I said | speaker_1: it's gonna be a challenge | speaker_2: i feel like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_5d5542d20fc9489f:zoom_onset:40.090050",
+        "anchorType": "zoom_onset",
+        "targetSec": 40.09
+      },
+      "similarity": 0.151
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "record_scratch",
+      "momentText": "How about you Terah?",
+      "captionWindow": "speaker_2: George is going first | speaker_2: okay | speaker_2: How about you Terah? | speaker_2: What are you gonna get her? | speaker_2: Terah's like",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_ba3d87dc670db027:zoom_onset:1586.685100",
+        "anchorType": "zoom_onset",
+        "targetSec": 1586.685
+      },
+      "similarity": 0.1491
+    },
+    {
+      "projectId": "footage_05_31_26_sfx",
+      "family": "dramatic",
+      "momentText": "Oh",
+      "captionWindow": "speaker_3: and they're gonna think | speaker_3: I'm making fun of them | speaker_1: Oh | speaker_4: but she said that | speaker_4: she felt embarrassed",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_479e2310fc74a8e5:cue_start:1177.542656",
+        "anchorType": "cue_start",
+        "targetSec": 1177.543
+      },
+      "similarity": 0.1816
+    },
+    {
+      "projectId": "footage_05_07_26_sfx",
+      "family": "dramatic",
+      "momentText": "next",
+      "captionWindow": "speaker_4: she wanted that one | speaker_2: Okay | speaker_2: next | speaker_2: The big one | speaker_2: guys",
+      "timing": {
+        "timingOptionId": "cand_caption_beat_fba4393cc70a4405:cue_end_minus_80ms:1552.456000",
+        "anchorType": "cue_end_minus_80ms",
+        "targetSec": 1552.456
+      },
+      "similarity": 0.18
+    },
+    {
+      "projectId": "footage_05_27_26_sfx",
+      "family": "other_sfx",
+      "momentText": "up her whole body",
+      "captionWindow": "speaker_2: I go touch her belly | speaker_2: she tenses | speaker_2: up her whole body | speaker_1: And shakes right? | speaker_2: yeah",
+      "timing": null,
+      "similarity": 0.1855
+    },
+    {
+      "projectId": "footage_05_17_26_sfx",
+      "family": "other_sfx",
+      "momentText": "I feel like something",
+      "captionWindow": "speaker_1: It's just that | speaker_1: you took a while | speaker_2: I feel like something | speaker_2: weird in my stomach | speaker_2: but I think",
+      "timing": null,
+      "similarity": 0.1735
+    }
+  ],
+  "currentHumanLabelsIncluded": false
+}
