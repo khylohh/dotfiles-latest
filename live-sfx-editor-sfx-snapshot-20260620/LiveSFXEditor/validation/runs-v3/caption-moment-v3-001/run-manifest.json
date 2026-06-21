@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 3,
+  "runId": "caption-moment-v3-001",
+  "corpus": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/data/sfx-automation-v3/caption-moment-corpus.jsonl",
+  "projectManifest": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/validation/project-manifest-v1.json",
+  "outerSplits": "/Users/kyle/Documents/Command Center Project/LiveSFXEditor/validation/outer-splits-v1.json"
+}

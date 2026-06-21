@@ -1,0 +1,13 @@
+foldId,projectId,humanTotal,matched,generatedAttempts,falseAdditions,netSavedEdits
+outer_01,footage_04_26_26_sfx,682,0,0,0,0
+outer_02,footage_05_04_26_sfx,411,0,0,0,0
+outer_03,footage_05_07_26_sfx,478,0,0,0,0
+outer_04,footage_05_11_26_sfx,326,0,0,0,0
+outer_05,footage_05_17_26_sfx,264,0,0,0,0
+outer_06,footage_05_19_26_sfx,362,0,1,1,-1
+outer_07,footage_05_26_26_sfx,263,0,0,0,0
+outer_08,footage_05_27_26_sfx,270,7,31,24,-17
+outer_09,footage_05_31_26_sfx,284,3,16,13,-10
+outer_10,footage_06_05_26_sfx,364,0,0,0,0
+outer_11,new_footage_sfx,35,0,0,0,0
+outer_12,footage_colored_sfx,325,1,1,0,1

@@ -64,6 +64,7 @@ export const defaultFamilyPool = {
   bonk: 'bonk.failure',
   funny: 'funny.punchline',
   heavy: 'heavy.short',
+  dramatic: 'heavy.short',
   riser: 'riser.short',
   record_scratch: 'record-scratch',
   bruh: 'bruh',

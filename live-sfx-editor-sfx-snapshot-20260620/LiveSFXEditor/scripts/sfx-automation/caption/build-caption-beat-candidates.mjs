@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import { ROUTER_CLASSES } from '../editorial-router-taxonomy.mjs';
 import { cueContext, formatCueWindow, textFeatureFlags, tokenize } from './text-features.mjs';
 
 const cueEndOffsetSec = 0.08;
@@ -266,7 +267,7 @@ function buildCandidate(input) {
     kind: 'caption',
     targetSec,
     targetFrame: Math.max(0, Math.round(targetSec * Math.max(1, Number(project.fps) || 30))),
-    allowedFamilies: ['none', 'ding', 'success', 'bonk', 'funny', 'bruh', 'record_scratch'],
+    allowedFamilies: ROUTER_CLASSES,
     cueIds,
     wordIds: [...new Set(anchors.map((item) => item.wordId).filter(Boolean))],
     beatIds: [],

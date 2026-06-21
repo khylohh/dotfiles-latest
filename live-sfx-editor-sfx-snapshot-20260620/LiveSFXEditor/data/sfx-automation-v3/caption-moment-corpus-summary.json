@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 3,
+  "projectCount": 16,
+  "trainEligibleProjectCount": 12,
+  "momentCount": 18515,
+  "timingOptionCount": 53862,
+  "manualEventCount": 5455,
+  "datasetSha256": "fc625c51df3cf6e2e8bdd491fa9e44e154341b41121f82c7a0c0118090ad7ff3",
+  "prohibitedProjectIds": [
+    "blind_caption_only_06_17_26",
+    "footage_06_10_26_sfx"
+  ],
+  "reachabilityByClass": {
+    "pop": {
+      "humanCount": 882,
+      "reachableWithinStrictWindow": 669,
+      "reachableWithin075": 669,
+      "unreachable": 213
+    },
+    "ding": {
+      "humanCount": 881,
+      "reachableWithinStrictWindow": 673,
+      "reachableWithin075": 673,
+      "unreachable": 208
+    },
+    "success": {
+      "humanCount": 431,
+      "reachableWithinStrictWindow": 332,
+      "reachableWithin075": 332,
+      "unreachable": 99
+    },
+    "bonk": {
+      "humanCount": 554,
+      "reachableWithinStrictWindow": 361,
+      "reachableWithin075": 361,
+      "unreachable": 193
+    },
+    "funny": {
+      "humanCount": 431,
+      "reachableWithinStrictWindow": 305,
+      "reachableWithin075": 305,
+      "unreachable": 126
+    },
+    "bruh": {
+      "humanCount": 33,
+      "reachableWithinStrictWindow": 22,
+      "reachableWithin075": 22,
+      "unreachable": 11
+    },
+    "record_scratch": {
+      "humanCount": 81,
+      "reachableWithinStrictWindow": 48,
+      "reachableWithin075": 48,
+      "unreachable": 33
+    },
+    "dramatic": {
+      "humanCount": 915,
+      "reachableWithinStrictWindow": 619,
+      "reachableWithin075": 619,
+      "unreachable": 296
+    },
+    "other_sfx": {
+      "humanCount": 1247,
+      "reachableWithinStrictWindow": 846,
+      "reachableWithin075": 846,
+      "unreachable": 401
+    }
+  },
+  "resolverFailures": [
+    {
+      "projectId": "footage_05_01_26_sfx",
+      "reason": "explicit_caption_duration_mismatch"
+    },
+    {
+      "projectId": "footage_06_08_26_sfx",
+      "reason": "explicit_caption_duration_mismatch"
+    },
+    {
+      "projectId": "footage_05_15_26_sfx",
+      "reason": "explicit_caption_duration_mismatch"
+    },
+    {
+      "projectId": "footage_06_02_26_sfx",
+      "reason": "explicit_caption_duration_mismatch"
+    }
+  ]
+}
