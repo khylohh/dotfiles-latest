@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "protocol": "evidence-motifs-v1-summary",
+  "policy": {
+    "policyName": "strict",
+    "top_k": 8,
+    "neighbor_min_similarity": 0.48,
+    "min_similarity": 0.58,
+    "min_margin": 0.14,
+    "min_support": 2,
+    "min_projects": 2,
+    "motif_min_pos": 2,
+    "motif_min_projects": 2,
+    "motif_ratio": 2.5,
+    "motif_margin": 1,
+    "pop_min_similarity": 0.46,
+    "pop_min_margin": 0.1,
+    "pop_min_projects": 2,
+    "positive_candidate_limit": 60,
+    "negative_candidate_limit": 80,
+    "global_nms_seconds": 0.3
+  },
+  "trainingProjectIds": [
+    "footage_04_26_26_sfx",
+    "footage_05_04_26_sfx",
+    "footage_05_07_26_sfx",
+    "footage_05_11_26_sfx",
+    "footage_05_17_26_sfx",
+    "footage_05_19_26_sfx",
+    "footage_05_26_26_sfx",
+    "footage_05_27_26_sfx",
+    "footage_05_31_26_sfx",
+    "footage_06_05_26_sfx",
+    "footage_colored_sfx",
+    "new_footage_sfx"
+  ],
+  "modelSummary": {
+    "enabledFamilies": [
+      "pop",
+      "ding",
+      "bonk"
+    ],
+    "positiveExampleCounts": {
+      "pop": 665,
+      "ding": 662,
+      "bonk": 345
+    },
+    "strongMotifCounts": {
+      "pop": 197,
+      "ding": 249,
+      "bonk": 66
+    }
+  }
+}
