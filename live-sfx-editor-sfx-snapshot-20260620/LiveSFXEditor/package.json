@@ -23,6 +23,8 @@
     "sfx:editorial-score-v1": ".venv-sfx/bin/python scripts/sfx/score-editorial-sfx-decisions.py",
     "sfx:evidence-motifs-v1": ".venv-sfx/bin/python scripts/sfx/build-evidence-motifs-v1.py",
     "sfx:evidence-motif-validation-v1": ".venv-sfx/bin/python scripts/sfx/run-evidence-motif-validation.py",
+    "sfx:phrase-cues-v1": ".venv-sfx/bin/python scripts/sfx/build-phrase-cues-v1.py",
+    "sfx:phrase-cue-validation-v1": ".venv-sfx/bin/python scripts/sfx/run-phrase-cue-validation.py",
     "sfx:positive-accent-moments-v1": "node scripts/sfx/build-positive-accent-moments.mjs",
     "sfx:validation-protocol-v1": "node scripts/sfx/create-caption-validation-protocol.mjs",
     "sfx:nested-validation-v1": ".venv-sfx/bin/python scripts/sfx/run-caption-nested-validation.py",

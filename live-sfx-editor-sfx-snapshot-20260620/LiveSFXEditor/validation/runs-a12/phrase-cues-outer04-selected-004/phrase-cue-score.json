@@ -1,0 +1,4825 @@
+{
+  "schemaVersion": 1,
+  "protocol": "phrase-cues-v1",
+  "createdAt": "2026-06-21T13:03:56.998897+00:00",
+  "metricBoundary": "outer-fold-only; phrase cue rules built from trainProjectIds only",
+  "enabledFamilies": [
+    "bonk",
+    "bruh",
+    "ding",
+    "dramatic",
+    "funny",
+    "pop",
+    "record_scratch",
+    "success"
+  ],
+  "policySelection": "inner_leave_one_project",
+  "defaultPolicy": {
+    "policyName": "strict",
+    "min_pos": 3,
+    "min_projects": 2,
+    "min_precision": 0.4,
+    "min_quality": 3.6,
+    "min_length": 2,
+    "cue_only": true,
+    "phrase_cooldown_seconds": 6.0,
+    "global_nms_seconds": 0.3
+  },
+  "summary": {
+    "humanTotal": 326,
+    "matched": 2,
+    "coverage": 0.006134969325153374,
+    "generatedAttempts": 8,
+    "falseAdditions": 6,
+    "netSavedEdits": -4,
+    "precision": 0.25,
+    "positiveNetProjectFraction": 0.0,
+    "byFamily": {
+      "pop": {
+        "humanTotal": 66,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "ding": {
+        "humanTotal": 67,
+        "matched": 2,
+        "generatedAttempts": 5,
+        "falseAdditions": 3,
+        "netSavedEdits": -1
+      },
+      "success": {
+        "humanTotal": 15,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "bonk": {
+        "humanTotal": 46,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "funny": {
+        "humanTotal": 26,
+        "matched": 0,
+        "generatedAttempts": 3,
+        "falseAdditions": 3,
+        "netSavedEdits": -3
+      },
+      "bruh": {
+        "humanTotal": 3,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "record_scratch": {
+        "humanTotal": 7,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "dramatic": {
+        "humanTotal": 46,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      },
+      "other_sfx": {
+        "humanTotal": 50,
+        "matched": 0,
+        "generatedAttempts": 0,
+        "falseAdditions": 0,
+        "netSavedEdits": 0
+      }
+    },
+    "byProject": [
+      {
+        "projectId": "footage_05_11_26_sfx",
+        "humanTotal": 326,
+        "matched": 2,
+        "generatedAttempts": 8,
+        "falseAdditions": 6,
+        "netSavedEdits": -4
+      }
+    ]
+  },
+  "promotion": {
+    "passes": false,
+    "requiredCondition": "outer/test net saved edits > 0"
+  },
+  "foldReports": [
+    {
+      "foldId": "outer_04",
+      "generalizationGroupId": "group_05_footage_05_11_26_sfx",
+      "trainProjectIds": [
+        "footage_04_26_26_sfx",
+        "footage_05_04_26_sfx",
+        "footage_05_07_26_sfx",
+        "footage_05_17_26_sfx",
+        "footage_05_19_26_sfx",
+        "footage_05_26_26_sfx",
+        "footage_05_27_26_sfx",
+        "footage_05_31_26_sfx",
+        "footage_06_05_26_sfx",
+        "footage_colored_sfx",
+        "new_footage_sfx"
+      ],
+      "testProjectIds": [
+        "footage_05_11_26_sfx"
+      ],
+      "outerMetrics": {
+        "humanTotal": 326,
+        "matched": 2,
+        "coverage": 0.006134969325153374,
+        "generatedAttempts": 8,
+        "falseAdditions": 6,
+        "netSavedEdits": -4,
+        "precision": 0.25,
+        "positiveNetProjectFraction": 0.0,
+        "byFamily": {
+          "pop": {
+            "humanTotal": 66,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "ding": {
+            "humanTotal": 67,
+            "matched": 2,
+            "generatedAttempts": 5,
+            "falseAdditions": 3,
+            "netSavedEdits": -1
+          },
+          "success": {
+            "humanTotal": 15,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "bonk": {
+            "humanTotal": 46,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "funny": {
+            "humanTotal": 26,
+            "matched": 0,
+            "generatedAttempts": 3,
+            "falseAdditions": 3,
+            "netSavedEdits": -3
+          },
+          "bruh": {
+            "humanTotal": 3,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "record_scratch": {
+            "humanTotal": 7,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "dramatic": {
+            "humanTotal": 46,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "other_sfx": {
+            "humanTotal": 50,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          }
+        },
+        "byProject": [
+          {
+            "projectId": "footage_05_11_26_sfx",
+            "humanTotal": 326,
+            "matched": 2,
+            "generatedAttempts": 8,
+            "falseAdditions": 6,
+            "netSavedEdits": -4
+          }
+        ]
+      },
+      "modelSummary": {
+        "enabledFamilies": [
+          "bonk",
+          "bruh",
+          "ding",
+          "dramatic",
+          "funny",
+          "pop",
+          "record_scratch",
+          "success"
+        ],
+        "ruleCounts": {
+          "bonk": 25883,
+          "bruh": 1765,
+          "ding": 49730,
+          "dramatic": 40158,
+          "funny": 23214,
+          "pop": 49817,
+          "record_scratch": 3519,
+          "success": 25307
+        },
+        "topRules": {
+          "bonk": [
+            {
+              "phrase": "speaker 1",
+              "source": "window",
+              "pos": 212,
+              "neg": 6839,
+              "posProjects": 10,
+              "precision": 0.0301,
+              "quality": 5.9828,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 83,
+                  "offsetSec": -0.06811699999997245
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 47,
+                  "offsetSec": 0.016604000000029373
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 42,
+                  "offsetSec": 0.049205000000085874
+                }
+              ]
+            },
+            {
+              "phrase": "speaker",
+              "source": "window",
+              "pos": 301,
+              "neg": 10617,
+              "posProjects": 10,
+              "precision": 0.0276,
+              "quality": 5.952,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 118,
+                  "offsetSec": -0.08402549999996722
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 76,
+                  "offsetSec": 0.019800000000003593
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 54,
+                  "offsetSec": 0.028507999999987987
+                }
+              ]
+            },
+            {
+              "phrase": "1",
+              "source": "window",
+              "pos": 212,
+              "neg": 6851,
+              "posProjects": 10,
+              "precision": 0.03,
+              "quality": 5.762,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 83,
+                  "offsetSec": -0.06811699999997245
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 47,
+                  "offsetSec": 0.016604000000029373
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 42,
+                  "offsetSec": 0.049205000000085874
+                }
+              ]
+            },
+            {
+              "phrase": "no you can't say it",
+              "source": "cue",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 5.2686,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": -0.20571700000004967
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.06312200000002122
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 3",
+              "source": "window",
+              "pos": 107,
+              "neg": 3187,
+              "posProjects": 9,
+              "precision": 0.0325,
+              "quality": 5.2566,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 39,
+                  "offsetSec": -0.039027999999916574
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 28,
+                  "offsetSec": 0.01730100000000334
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 20,
+                  "offsetSec": 0.03132949999996981
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 5",
+              "source": "window",
+              "pos": 93,
+              "neg": 2862,
+              "posProjects": 9,
+              "precision": 0.0315,
+              "quality": 5.153,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 44,
+                  "offsetSec": -0.09345249999998373
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 22,
+                  "offsetSec": 0.002142500000019254
+                },
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 12,
+                  "offsetSec": 0.0
+                }
+              ]
+            },
+            {
+              "phrase": "1 wake up george speaker 1",
+              "source": "window",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 5.1386,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.11028999999996358
+                },
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 1,
+                  "offsetSec": 0.0
+                }
+              ]
+            },
+            {
+              "phrase": "2 guys speaker 1 stop speaker",
+              "source": "window",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 5.1386,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 1,
+                  "offsetSec": -0.02486899999985326
+                },
+                {
+                  "anchorType": "pause_boundary",
+                  "count": 1,
+                  "offsetSec": -0.0058899999999084685
+                }
+              ]
+            },
+            {
+              "phrase": "2 i don't like you speaker",
+              "source": "window",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 5.1386,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.18163300000003346
+                },
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 1,
+                  "offsetSec": 0.0
+                }
+              ]
+            },
+            {
+              "phrase": "2 what speaker 1 she was",
+              "source": "window",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 5.1386,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 1,
+                  "offsetSec": -0.0948669999999936
+                },
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 1,
+                  "offsetSec": 0.22058400000000233
+                }
+              ]
+            },
+            {
+              "phrase": "2 you gotta ask for a",
+              "source": "window",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 5.1386,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": -0.20571700000004967
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.06312200000002122
+                }
+              ]
+            },
+            {
+              "phrase": "3 i wish speaker 2 no",
+              "source": "window",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 5.1386,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": -0.20571700000004967
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.06312200000002122
+                }
+              ]
+            }
+          ],
+          "bruh": [
+            {
+              "phrase": "1 nobody wins speaker 1 george",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.02016699999995808
+                }
+              ]
+            },
+            {
+              "phrase": "3 stop speaker 1 he already",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": 0.171717000000001
+                }
+              ]
+            },
+            {
+              "phrase": "3 terah speaker 5 terah speaker",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": -0.02944999999999709
+                }
+              ]
+            },
+            {
+              "phrase": "4 wait what speaker 2 she",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": 0.058526999999998
+                }
+              ]
+            },
+            {
+              "phrase": "5 look speaker 5 look at",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 1,
+                  "offsetSec": 0.009318999999777589
+                }
+              ]
+            },
+            {
+              "phrase": "5 terah speaker 5 they didn't",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": -0.02944999999999709
+                }
+              ]
+            },
+            {
+              "phrase": "can't speaker 3 stop speaker 1",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": 0.171717000000001
+                }
+              ]
+            },
+            {
+              "phrase": "eyes speaker 4 wait what speaker",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": 0.058526999999998
+                }
+              ]
+            },
+            {
+              "phrase": "gigantic speaker 2 bro speaker 2",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.06533300000000963
+                }
+              ]
+            },
+            {
+              "phrase": "in speaker 5 each speaker 3",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": 0.015533000000004904
+                }
+              ]
+            },
+            {
+              "phrase": "is gigantic speaker 2 bro speaker",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.06533300000000963
+                }
+              ]
+            },
+            {
+              "phrase": "look speaker 5 look at that",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 1,
+                  "offsetSec": 0.009318999999777589
+                }
+              ]
+            }
+          ],
+          "ding": [
+            {
+              "phrase": "speaker",
+              "source": "window",
+              "pos": 596,
+              "neg": 10322,
+              "posProjects": 11,
+              "precision": 0.0546,
+              "quality": 7.0282,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 246,
+                  "offsetSec": -0.062298999999995885
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 179,
+                  "offsetSec": 0.02968799999996463
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 81,
+                  "offsetSec": 0.028083000000151515
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 1",
+              "source": "window",
+              "pos": 382,
+              "neg": 6669,
+              "posProjects": 11,
+              "precision": 0.0542,
+              "quality": 6.9562,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 152,
+                  "offsetSec": -0.05310450000001765
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 117,
+                  "offsetSec": 0.031241000000008512
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 56,
+                  "offsetSec": 0.0453815000000759
+                }
+              ]
+            },
+            {
+              "phrase": "1",
+              "source": "window",
+              "pos": 382,
+              "neg": 6681,
+              "posProjects": 11,
+              "precision": 0.0541,
+              "quality": 6.7353,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 152,
+                  "offsetSec": -0.05310450000001765
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 117,
+                  "offsetSec": 0.031241000000008512
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 56,
+                  "offsetSec": 0.0453815000000759
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 2",
+              "source": "window",
+              "pos": 288,
+              "neg": 4266,
+              "posProjects": 10,
+              "precision": 0.0632,
+              "quality": 6.5327,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 113,
+                  "offsetSec": -0.05024500000001808
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 93,
+                  "offsetSec": 0.03566699999998946
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 39,
+                  "offsetSec": 0.0338849999999411
+                }
+              ]
+            },
+            {
+              "phrase": "yeah speaker",
+              "source": "window",
+              "pos": 124,
+              "neg": 1423,
+              "posProjects": 11,
+              "precision": 0.0802,
+              "quality": 6.4393,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 50,
+                  "offsetSec": -0.042281500000001415
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 37,
+                  "offsetSec": 0.025833000000005768
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 26,
+                  "offsetSec": 0.002172499999957722
+                }
+              ]
+            },
+            {
+              "phrase": "2",
+              "source": "window",
+              "pos": 288,
+              "neg": 4292,
+              "posProjects": 10,
+              "precision": 0.0629,
+              "quality": 6.3097,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 113,
+                  "offsetSec": -0.05024500000001808
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 93,
+                  "offsetSec": 0.03566699999998946
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 39,
+                  "offsetSec": 0.0338849999999411
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 3",
+              "source": "window",
+              "pos": 148,
+              "neg": 3146,
+              "posProjects": 11,
+              "precision": 0.0449,
+              "quality": 6.2528,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 60,
+                  "offsetSec": -0.03869950000000699
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 44,
+                  "offsetSec": 0.025569999999977
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 21,
+                  "offsetSec": 0.06718299999999999
+                }
+              ]
+            },
+            {
+              "phrase": "yeah speaker 1",
+              "source": "window",
+              "pos": 51,
+              "neg": 589,
+              "posProjects": 11,
+              "precision": 0.0797,
+              "quality": 6.0895,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 21,
+                  "offsetSec": -0.023432999999954518
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 14,
+                  "offsetSec": 0.006977999999975282
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 12,
+                  "offsetSec": 0.0552755000000289
+                }
+              ]
+            },
+            {
+              "phrase": "3",
+              "source": "window",
+              "pos": 148,
+              "neg": 3156,
+              "posProjects": 11,
+              "precision": 0.0448,
+              "quality": 6.0314,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 60,
+                  "offsetSec": -0.03869950000000699
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 44,
+                  "offsetSec": 0.025569999999977
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 21,
+                  "offsetSec": 0.06718299999999999
+                }
+              ]
+            },
+            {
+              "phrase": "it's",
+              "source": "window",
+              "pos": 115,
+              "neg": 1778,
+              "posProjects": 11,
+              "precision": 0.0608,
+              "quality": 6.0201,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 43,
+                  "offsetSec": -0.058867000000077496
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 40,
+                  "offsetSec": 0.03173350000002273
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 16,
+                  "offsetSec": 0.025767000000030293
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 1 yeah",
+              "source": "window",
+              "pos": 52,
+              "neg": 710,
+              "posProjects": 11,
+              "precision": 0.0682,
+              "quality": 6.0157,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 19,
+                  "offsetSec": 0.03137599999999452
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 16,
+                  "offsetSec": -0.023449500000026546
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 12,
+                  "offsetSec": -0.02438250000004416
+                }
+              ]
+            },
+            {
+              "phrase": "guys",
+              "source": "window",
+              "pos": 112,
+              "neg": 1830,
+              "posProjects": 11,
+              "precision": 0.0577,
+              "quality": 5.9764,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 51,
+                  "offsetSec": -0.09564500000000464
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 33,
+                  "offsetSec": 0.020432999999997037
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 12,
+                  "offsetSec": 0.050550000000015416
+                }
+              ]
+            }
+          ],
+          "dramatic": [
+            {
+              "phrase": "speaker",
+              "source": "window",
+              "pos": 528,
+              "neg": 10390,
+              "posProjects": 11,
+              "precision": 0.0484,
+              "quality": 6.89,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 230,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 96,
+                  "offsetSec": -0.06199999999995498
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 86,
+                  "offsetSec": 0.09095649999994748
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 1",
+              "source": "window",
+              "pos": 342,
+              "neg": 6709,
+              "posProjects": 11,
+              "precision": 0.0485,
+              "quality": 6.8302,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 150,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 55,
+                  "offsetSec": 0.09037299999999959
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 53,
+                  "offsetSec": -0.05836199999998826
+                }
+              ]
+            },
+            {
+              "phrase": "1",
+              "source": "window",
+              "pos": 342,
+              "neg": 6721,
+              "posProjects": 11,
+              "precision": 0.0484,
+              "quality": 6.6093,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 150,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 55,
+                  "offsetSec": 0.09037299999999959
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 53,
+                  "offsetSec": -0.05836199999998826
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 3",
+              "source": "window",
+              "pos": 187,
+              "neg": 3107,
+              "posProjects": 11,
+              "precision": 0.0568,
+              "quality": 6.5181,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 79,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 32,
+                  "offsetSec": -0.057257499999991524
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 30,
+                  "offsetSec": 0.11639999999999873
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 2",
+              "source": "window",
+              "pos": 213,
+              "neg": 4341,
+              "posProjects": 11,
+              "precision": 0.0468,
+              "quality": 6.5066,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 86,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 45,
+                  "offsetSec": -0.05323700000000997
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 38,
+                  "offsetSec": 0.07636549999995168
+                }
+              ]
+            },
+            {
+              "phrase": "3",
+              "source": "window",
+              "pos": 187,
+              "neg": 3117,
+              "posProjects": 11,
+              "precision": 0.0566,
+              "quality": 6.2965,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 79,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 32,
+                  "offsetSec": -0.057257499999991524
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 30,
+                  "offsetSec": 0.11639999999999873
+                }
+              ]
+            },
+            {
+              "phrase": "2",
+              "source": "window",
+              "pos": 213,
+              "neg": 4367,
+              "posProjects": 11,
+              "precision": 0.0465,
+              "quality": 6.2839,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 86,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 45,
+                  "offsetSec": -0.05323700000000997
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 38,
+                  "offsetSec": 0.07636549999995168
+                }
+              ]
+            },
+            {
+              "phrase": "oh my god",
+              "source": "window",
+              "pos": 40,
+              "neg": 300,
+              "posProjects": 10,
+              "precision": 0.1176,
+              "quality": 5.8584,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 13,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 10,
+                  "offsetSec": -0.12499149999998593
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 7,
+                  "offsetSec": -0.20928700000013123
+                }
+              ]
+            },
+            {
+              "phrase": "it speaker",
+              "source": "window",
+              "pos": 64,
+              "neg": 1022,
+              "posProjects": 11,
+              "precision": 0.0589,
+              "quality": 5.8502,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 25,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 13,
+                  "offsetSec": -0.04788300000006984
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 11,
+                  "offsetSec": 0.23360599999989518
+                }
+              ]
+            },
+            {
+              "phrase": "oh my",
+              "source": "window",
+              "pos": 47,
+              "neg": 334,
+              "posProjects": 10,
+              "precision": 0.1234,
+              "quality": 5.7723,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 15,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 13,
+                  "offsetSec": -0.08464899999989939
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 9,
+                  "offsetSec": -0.11761700000002406
+                }
+              ]
+            },
+            {
+              "phrase": "my god",
+              "source": "window",
+              "pos": 45,
+              "neg": 333,
+              "posProjects": 10,
+              "precision": 0.119,
+              "quality": 5.7205,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 15,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 12,
+                  "offsetSec": -0.09232449999995396
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 8,
+                  "offsetSec": -0.16345200000007765
+                }
+              ]
+            },
+            {
+              "phrase": "wait",
+              "source": "window",
+              "pos": 52,
+              "neg": 630,
+              "posProjects": 11,
+              "precision": 0.0762,
+              "quality": 5.6367,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 22,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 10,
+                  "offsetSec": -0.07371449999993729
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 9,
+                  "offsetSec": 0.05838699999992514
+                }
+              ]
+            }
+          ],
+          "funny": [
+            {
+              "phrase": "speaker",
+              "source": "window",
+              "pos": 268,
+              "neg": 10650,
+              "posProjects": 11,
+              "precision": 0.0245,
+              "quality": 6.1479,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 111,
+                  "offsetSec": -0.09484999999997967
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 61,
+                  "offsetSec": 0.03774999999995998
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 49,
+                  "offsetSec": -0.011629000000084488
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 1",
+              "source": "window",
+              "pos": 167,
+              "neg": 6884,
+              "posProjects": 11,
+              "precision": 0.0237,
+              "quality": 6.0478,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 66,
+                  "offsetSec": -0.09200849999997729
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 37,
+                  "offsetSec": 0.03466700000012679
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 32,
+                  "offsetSec": -0.008064500000045882
+                }
+              ]
+            },
+            {
+              "phrase": "1",
+              "source": "window",
+              "pos": 167,
+              "neg": 6896,
+              "posProjects": 11,
+              "precision": 0.0236,
+              "quality": 5.8271,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 66,
+                  "offsetSec": -0.09200849999997729
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 37,
+                  "offsetSec": 0.03466700000012679
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 32,
+                  "offsetSec": -0.008064500000045882
+                }
+              ]
+            },
+            {
+              "phrase": "are you doing",
+              "source": "cue",
+              "pos": 8,
+              "neg": 12,
+              "posProjects": 7,
+              "precision": 0.4,
+              "quality": 5.5095,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 5,
+                  "offsetSec": -0.08100000000001728
+                },
+                {
+                  "anchorType": "pause_boundary",
+                  "count": 1,
+                  "offsetSec": -0.0186649999999986
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": -0.25
+                }
+              ]
+            },
+            {
+              "phrase": "2",
+              "source": "window",
+              "pos": 133,
+              "neg": 4447,
+              "posProjects": 10,
+              "precision": 0.029,
+              "quality": 5.4475,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 59,
+                  "offsetSec": -0.09733299999993505
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 32,
+                  "offsetSec": 0.05513949999999568
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 22,
+                  "offsetSec": 0.010546000000005051
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 2",
+              "source": "window",
+              "pos": 131,
+              "neg": 4423,
+              "posProjects": 9,
+              "precision": 0.0288,
+              "quality": 5.3337,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 58,
+                  "offsetSec": -0.09609149999995736
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 31,
+                  "offsetSec": 0.05295000000000982
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 22,
+                  "offsetSec": 0.010546000000005051
+                }
+              ]
+            },
+            {
+              "phrase": "you doing",
+              "source": "cue",
+              "pos": 8,
+              "neg": 12,
+              "posProjects": 7,
+              "precision": 0.4,
+              "quality": 5.2895,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 5,
+                  "offsetSec": -0.08100000000001728
+                },
+                {
+                  "anchorType": "pause_boundary",
+                  "count": 1,
+                  "offsetSec": -0.0186649999999986
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": -0.25
+                }
+              ]
+            },
+            {
+              "phrase": "what are you doing",
+              "source": "cue",
+              "pos": 7,
+              "neg": 12,
+              "posProjects": 6,
+              "precision": 0.3684,
+              "quality": 5.2159,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 4,
+                  "offsetSec": -0.06641400000000885
+                },
+                {
+                  "anchorType": "pause_boundary",
+                  "count": 1,
+                  "offsetSec": -0.0186649999999986
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": -0.25
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 3",
+              "source": "window",
+              "pos": 103,
+              "neg": 3191,
+              "posProjects": 9,
+              "precision": 0.0313,
+              "quality": 5.2155,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 40,
+                  "offsetSec": -0.09741049999999518
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 25,
+                  "offsetSec": 0.019317000000000917
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 20,
+                  "offsetSec": -0.01165600000001632
+                }
+              ]
+            },
+            {
+              "phrase": "in the cart",
+              "source": "cue",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 2,
+              "precision": 1.0,
+              "quality": 5.1486,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.014583000000016
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 1,
+                  "offsetSec": -0.11869999999998981
+                }
+              ]
+            },
+            {
+              "phrase": "2 and also stary's speaker 2",
+              "source": "window",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 5.1386,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.09279399999999782
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": -0.25
+                }
+              ]
+            },
+            {
+              "phrase": "2 i don't know speaker 5",
+              "source": "window",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 5.1386,
+              "anchors": [
+                {
+                  "anchorType": "pause_boundary",
+                  "count": 1,
+                  "offsetSec": 0.07069300000011935
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": 0.022083000000066022
+                }
+              ]
+            }
+          ],
+          "pop": [
+            {
+              "phrase": "speaker",
+              "source": "window",
+              "pos": 592,
+              "neg": 10326,
+              "posProjects": 11,
+              "precision": 0.0542,
+              "quality": 7.0204,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 572,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "internal_pause_word_end",
+                  "count": 6,
+                  "offsetSec": -0.06533349999997995
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 6,
+                  "offsetSec": -0.01066550000000177
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 1",
+              "source": "window",
+              "pos": 367,
+              "neg": 6684,
+              "posProjects": 11,
+              "precision": 0.052,
+              "quality": 6.9103,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 352,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 6,
+                  "offsetSec": -0.01066550000000177
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 6,
+                  "offsetSec": -0.14321650000003672
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 2",
+              "source": "window",
+              "pos": 269,
+              "neg": 4285,
+              "posProjects": 11,
+              "precision": 0.0591,
+              "quality": 6.7731,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 264,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 2,
+                  "offsetSec": -0.07607800000004161
+                },
+                {
+                  "anchorType": "internal_pause_word_end",
+                  "count": 1,
+                  "offsetSec": -0.1306669999999599
+                }
+              ]
+            },
+            {
+              "phrase": "1",
+              "source": "window",
+              "pos": 367,
+              "neg": 6696,
+              "posProjects": 11,
+              "precision": 0.052,
+              "quality": 6.6895,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 352,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 6,
+                  "offsetSec": -0.01066550000000177
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 6,
+                  "offsetSec": -0.14321650000003672
+                }
+              ]
+            },
+            {
+              "phrase": "2",
+              "source": "window",
+              "pos": 271,
+              "neg": 4309,
+              "posProjects": 11,
+              "precision": 0.0592,
+              "quality": 6.5588,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 265,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 3,
+                  "offsetSec": -0.028999999999996362
+                },
+                {
+                  "anchorType": "internal_pause_word_end",
+                  "count": 1,
+                  "offsetSec": -0.1306669999999599
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 3",
+              "source": "window",
+              "pos": 157,
+              "neg": 3137,
+              "posProjects": 11,
+              "precision": 0.0477,
+              "quality": 6.319,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 153,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "internal_pause_word_end",
+                  "count": 2,
+                  "offsetSec": 0.02666649999999393
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 1,
+                  "offsetSec": -0.028999999999996362
+                }
+              ]
+            },
+            {
+              "phrase": "3",
+              "source": "window",
+              "pos": 157,
+              "neg": 3147,
+              "posProjects": 11,
+              "precision": 0.0475,
+              "quality": 6.0976,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 153,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "internal_pause_word_end",
+                  "count": 2,
+                  "offsetSec": 0.02666649999999393
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 1,
+                  "offsetSec": -0.028999999999996362
+                }
+              ]
+            },
+            {
+              "phrase": "yeah speaker",
+              "source": "window",
+              "pos": 94,
+              "neg": 1453,
+              "posProjects": 10,
+              "precision": 0.0608,
+              "quality": 5.791,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 93,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 1,
+                  "offsetSec": -0.1323329999999885
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 5",
+              "source": "window",
+              "pos": 203,
+              "neg": 2752,
+              "posProjects": 8,
+              "precision": 0.0687,
+              "quality": 5.7108,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 196,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "internal_pause_word_end",
+                  "count": 3,
+                  "offsetSec": -0.13226699999995617
+                },
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 2,
+                  "offsetSec": -0.08066649999999242
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 1 you",
+              "source": "window",
+              "pos": 56,
+              "neg": 854,
+              "posProjects": 10,
+              "precision": 0.0615,
+              "quality": 5.6879,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 55,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": -0.015667000000007647
+                }
+              ]
+            },
+            {
+              "phrase": "guys",
+              "source": "window",
+              "pos": 112,
+              "neg": 1830,
+              "posProjects": 10,
+              "precision": 0.0577,
+              "quality": 5.6564,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 110,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 2,
+                  "offsetSec": -0.01616549999999961
+                }
+              ]
+            },
+            {
+              "phrase": "one speaker",
+              "source": "window",
+              "pos": 53,
+              "neg": 641,
+              "posProjects": 10,
+              "precision": 0.0764,
+              "quality": 5.5497,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 50,
+                  "offsetSec": 0.0
+                },
+                {
+                  "anchorType": "internal_pause_word_end",
+                  "count": 2,
+                  "offsetSec": -0.04533349999998393
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.0
+                }
+              ]
+            }
+          ],
+          "record_scratch": [
+            {
+              "phrase": "it's probably gonna be his",
+              "source": "cue",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.8631,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 1,
+                  "offsetSec": -0.25
+                }
+              ]
+            },
+            {
+              "phrase": "so we're gonna be sharing",
+              "source": "cue",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.8631,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 1,
+                  "offsetSec": 0.0
+                }
+              ]
+            },
+            {
+              "phrase": "1 amor speaker 1 we got",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.25
+                }
+              ]
+            },
+            {
+              "phrase": "1 here later speaker 1 at",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.17809400000001574
+                }
+              ]
+            },
+            {
+              "phrase": "1 hey speaker 1 amor speaker",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.25
+                }
+              ]
+            },
+            {
+              "phrase": "1 so speaker 2 we speaker",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": 0.0008000000000265572
+                }
+              ]
+            },
+            {
+              "phrase": "2 okay speaker 2 what do",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 1,
+                  "offsetSec": -0.25
+                }
+              ]
+            },
+            {
+              "phrase": "2 we speaker 2 we speaker",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": 0.0008000000000265572
+                }
+              ]
+            },
+            {
+              "phrase": "5 guys speaker 5 we'll see",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": -0.03383200000007491
+                }
+              ]
+            },
+            {
+              "phrase": "5 ooh speaker 5 that's speaker",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.1667250000000422
+                }
+              ]
+            },
+            {
+              "phrase": "5 that's speaker 5 what speaker",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": 0.1667250000000422
+                }
+              ]
+            },
+            {
+              "phrase": "5 we'll see you guys next",
+              "source": "window",
+              "pos": 1,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 4.7331,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": -0.03383200000007491
+                }
+              ]
+            }
+          ],
+          "success": [
+            {
+              "phrase": "speaker",
+              "source": "window",
+              "pos": 300,
+              "neg": 10618,
+              "posProjects": 11,
+              "precision": 0.0275,
+              "quality": 6.2684,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 120,
+                  "offsetSec": -0.10662649999997598
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 80,
+                  "offsetSec": 0.00849649999999258
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 62,
+                  "offsetSec": -0.029053500000031818
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 1",
+              "source": "window",
+              "pos": 193,
+              "neg": 6858,
+              "posProjects": 11,
+              "precision": 0.0274,
+              "quality": 6.2019,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 83,
+                  "offsetSec": -0.10965000000000202
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 46,
+                  "offsetSec": 0.0199115000000063
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 43,
+                  "offsetSec": -0.01896700000000351
+                }
+              ]
+            },
+            {
+              "phrase": "speaker 2",
+              "source": "window",
+              "pos": 147,
+              "neg": 4407,
+              "posProjects": 11,
+              "precision": 0.0323,
+              "quality": 6.0978,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 60,
+                  "offsetSec": -0.09625700000000847
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 42,
+                  "offsetSec": 0.01490849999999
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 29,
+                  "offsetSec": -0.08624999999983629
+                }
+              ]
+            },
+            {
+              "phrase": "1",
+              "source": "window",
+              "pos": 193,
+              "neg": 6870,
+              "posProjects": 11,
+              "precision": 0.0273,
+              "quality": 5.9812,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 83,
+                  "offsetSec": -0.10965000000000202
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 46,
+                  "offsetSec": 0.0199115000000063
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 43,
+                  "offsetSec": -0.01896700000000351
+                }
+              ]
+            },
+            {
+              "phrase": "2",
+              "source": "window",
+              "pos": 148,
+              "neg": 4432,
+              "posProjects": 11,
+              "precision": 0.0323,
+              "quality": 5.8826,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 60,
+                  "offsetSec": -0.09625700000000847
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 42,
+                  "offsetSec": 0.01490849999999
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 30,
+                  "offsetSec": -0.08003399999992666
+                }
+              ]
+            },
+            {
+              "phrase": "guys",
+              "source": "window",
+              "pos": 80,
+              "neg": 1862,
+              "posProjects": 11,
+              "precision": 0.0412,
+              "quality": 5.5978,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 46,
+                  "offsetSec": -0.08412650000002486
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 16,
+                  "offsetSec": -0.0030909999999977344
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 15,
+                  "offsetSec": 0.01211600000000601
+                }
+              ]
+            },
+            {
+              "phrase": "guys speaker",
+              "source": "window",
+              "pos": 52,
+              "neg": 1157,
+              "posProjects": 11,
+              "precision": 0.043,
+              "quality": 5.5645,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 28,
+                  "offsetSec": -0.08648700000003195
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 11,
+                  "offsetSec": 0.028767000000016196
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 10,
+                  "offsetSec": 0.028729500000004293
+                }
+              ]
+            },
+            {
+              "phrase": "look",
+              "source": "window",
+              "pos": 63,
+              "neg": 811,
+              "posProjects": 10,
+              "precision": 0.0721,
+              "quality": 5.4071,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 21,
+                  "offsetSec": -0.09699999999997999
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 19,
+                  "offsetSec": 0.01942300000001751
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 14,
+                  "offsetSec": 0.007858500000004653
+                }
+              ]
+            },
+            {
+              "phrase": "it's",
+              "source": "window",
+              "pos": 58,
+              "neg": 1835,
+              "posProjects": 11,
+              "precision": 0.0306,
+              "quality": 5.2607,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 32,
+                  "offsetSec": -0.1004339999999928
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 13,
+                  "offsetSec": -0.0256570000000238
+                },
+                {
+                  "anchorType": "cue_start",
+                  "count": 8,
+                  "offsetSec": -0.04286249999989877
+                }
+              ]
+            },
+            {
+              "phrase": "be getting the",
+              "source": "cue",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 2,
+              "precision": 1.0,
+              "quality": 5.1486,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 1,
+                  "offsetSec": -0.25
+                },
+                {
+                  "anchorType": "final_word_end",
+                  "count": 1,
+                  "offsetSec": -0.036860000000046966
+                }
+              ]
+            },
+            {
+              "phrase": "let's go get",
+              "source": "cue",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 2,
+              "precision": 1.0,
+              "quality": 5.1486,
+              "anchors": [
+                {
+                  "anchorType": "cue_end_minus_80ms",
+                  "count": 2,
+                  "offsetSec": -0.11145100000000951
+                }
+              ]
+            },
+            {
+              "phrase": "god speaker 2 look speaker 2",
+              "source": "window",
+              "pos": 2,
+              "neg": 0,
+              "posProjects": 1,
+              "precision": 1.0,
+              "quality": 5.1386,
+              "anchors": [
+                {
+                  "anchorType": "cue_start",
+                  "count": 1,
+                  "offsetSec": 0.167160999999993
+                },
+                {
+                  "anchorType": "zoom_onset",
+                  "count": 1,
+                  "offsetSec": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "policy": {
+        "policyName": "strict",
+        "min_pos": 3,
+        "min_projects": 2,
+        "min_precision": 0.4,
+        "min_quality": 3.6,
+        "min_length": 2,
+        "cue_only": true,
+        "phrase_cooldown_seconds": 6.0,
+        "global_nms_seconds": 0.3
+      },
+      "innerPolicyMetrics": {
+        "humanTotal": 3738,
+        "matched": 3,
+        "coverage": 0.0008025682182985554,
+        "generatedAttempts": 161,
+        "falseAdditions": 158,
+        "netSavedEdits": -155,
+        "precision": 0.018633540372670808,
+        "positiveNetProjectFraction": 0.0,
+        "byFamily": {
+          "pop": {
+            "humanTotal": 609,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "ding": {
+            "humanTotal": 619,
+            "matched": 3,
+            "generatedAttempts": 114,
+            "falseAdditions": 111,
+            "netSavedEdits": -108
+          },
+          "success": {
+            "humanTotal": 330,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "bonk": {
+            "humanTotal": 327,
+            "matched": 0,
+            "generatedAttempts": 37,
+            "falseAdditions": 37,
+            "netSavedEdits": -37
+          },
+          "funny": {
+            "humanTotal": 295,
+            "matched": 0,
+            "generatedAttempts": 10,
+            "falseAdditions": 10,
+            "netSavedEdits": -10
+          },
+          "bruh": {
+            "humanTotal": 20,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "record_scratch": {
+            "humanTotal": 44,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "dramatic": {
+            "humanTotal": 606,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          },
+          "other_sfx": {
+            "humanTotal": 888,
+            "matched": 0,
+            "generatedAttempts": 0,
+            "falseAdditions": 0,
+            "netSavedEdits": 0
+          }
+        },
+        "byProject": [
+          {
+            "projectId": "footage_04_26_26_sfx",
+            "humanTotal": 682,
+            "matched": 1,
+            "generatedAttempts": 12,
+            "falseAdditions": 11,
+            "netSavedEdits": -10
+          },
+          {
+            "projectId": "footage_05_04_26_sfx",
+            "humanTotal": 411,
+            "matched": 0,
+            "generatedAttempts": 14,
+            "falseAdditions": 14,
+            "netSavedEdits": -14
+          },
+          {
+            "projectId": "footage_05_07_26_sfx",
+            "humanTotal": 478,
+            "matched": 0,
+            "generatedAttempts": 21,
+            "falseAdditions": 21,
+            "netSavedEdits": -21
+          },
+          {
+            "projectId": "footage_05_17_26_sfx",
+            "humanTotal": 264,
+            "matched": 0,
+            "generatedAttempts": 12,
+            "falseAdditions": 12,
+            "netSavedEdits": -12
+          },
+          {
+            "projectId": "footage_05_19_26_sfx",
+            "humanTotal": 362,
+            "matched": 1,
+            "generatedAttempts": 16,
+            "falseAdditions": 15,
+            "netSavedEdits": -14
+          },
+          {
+            "projectId": "footage_05_26_26_sfx",
+            "humanTotal": 263,
+            "matched": 0,
+            "generatedAttempts": 15,
+            "falseAdditions": 15,
+            "netSavedEdits": -15
+          },
+          {
+            "projectId": "footage_05_27_26_sfx",
+            "humanTotal": 270,
+            "matched": 1,
+            "generatedAttempts": 16,
+            "falseAdditions": 15,
+            "netSavedEdits": -14
+          },
+          {
+            "projectId": "footage_05_31_26_sfx",
+            "humanTotal": 284,
+            "matched": 0,
+            "generatedAttempts": 20,
+            "falseAdditions": 20,
+            "netSavedEdits": -20
+          },
+          {
+            "projectId": "footage_06_05_26_sfx",
+            "humanTotal": 364,
+            "matched": 0,
+            "generatedAttempts": 17,
+            "falseAdditions": 17,
+            "netSavedEdits": -17
+          },
+          {
+            "projectId": "footage_colored_sfx",
+            "humanTotal": 325,
+            "matched": 0,
+            "generatedAttempts": 16,
+            "falseAdditions": 16,
+            "netSavedEdits": -16
+          },
+          {
+            "projectId": "new_footage_sfx",
+            "humanTotal": 35,
+            "matched": 0,
+            "generatedAttempts": 2,
+            "falseAdditions": 2,
+            "netSavedEdits": -2
+          }
+        ]
+      }
+    }
+  ],
+  "modelSummaries": [
+    {
+      "foldId": "outer_04",
+      "enabledFamilies": [
+        "bonk",
+        "bruh",
+        "ding",
+        "dramatic",
+        "funny",
+        "pop",
+        "record_scratch",
+        "success"
+      ],
+      "ruleCounts": {
+        "bonk": 25883,
+        "bruh": 1765,
+        "ding": 49730,
+        "dramatic": 40158,
+        "funny": 23214,
+        "pop": 49817,
+        "record_scratch": 3519,
+        "success": 25307
+      },
+      "topRules": {
+        "bonk": [
+          {
+            "phrase": "speaker 1",
+            "source": "window",
+            "pos": 212,
+            "neg": 6839,
+            "posProjects": 10,
+            "precision": 0.0301,
+            "quality": 5.9828,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 83,
+                "offsetSec": -0.06811699999997245
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 47,
+                "offsetSec": 0.016604000000029373
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 42,
+                "offsetSec": 0.049205000000085874
+              }
+            ]
+          },
+          {
+            "phrase": "speaker",
+            "source": "window",
+            "pos": 301,
+            "neg": 10617,
+            "posProjects": 10,
+            "precision": 0.0276,
+            "quality": 5.952,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 118,
+                "offsetSec": -0.08402549999996722
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 76,
+                "offsetSec": 0.019800000000003593
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 54,
+                "offsetSec": 0.028507999999987987
+              }
+            ]
+          },
+          {
+            "phrase": "1",
+            "source": "window",
+            "pos": 212,
+            "neg": 6851,
+            "posProjects": 10,
+            "precision": 0.03,
+            "quality": 5.762,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 83,
+                "offsetSec": -0.06811699999997245
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 47,
+                "offsetSec": 0.016604000000029373
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 42,
+                "offsetSec": 0.049205000000085874
+              }
+            ]
+          },
+          {
+            "phrase": "no you can't say it",
+            "source": "cue",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 5.2686,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": -0.20571700000004967
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.06312200000002122
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 3",
+            "source": "window",
+            "pos": 107,
+            "neg": 3187,
+            "posProjects": 9,
+            "precision": 0.0325,
+            "quality": 5.2566,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 39,
+                "offsetSec": -0.039027999999916574
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 28,
+                "offsetSec": 0.01730100000000334
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 20,
+                "offsetSec": 0.03132949999996981
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 5",
+            "source": "window",
+            "pos": 93,
+            "neg": 2862,
+            "posProjects": 9,
+            "precision": 0.0315,
+            "quality": 5.153,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 44,
+                "offsetSec": -0.09345249999998373
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 22,
+                "offsetSec": 0.002142500000019254
+              },
+              {
+                "anchorType": "zoom_onset",
+                "count": 12,
+                "offsetSec": 0.0
+              }
+            ]
+          },
+          {
+            "phrase": "1 wake up george speaker 1",
+            "source": "window",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 5.1386,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.11028999999996358
+              },
+              {
+                "anchorType": "zoom_onset",
+                "count": 1,
+                "offsetSec": 0.0
+              }
+            ]
+          },
+          {
+            "phrase": "2 guys speaker 1 stop speaker",
+            "source": "window",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 5.1386,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 1,
+                "offsetSec": -0.02486899999985326
+              },
+              {
+                "anchorType": "pause_boundary",
+                "count": 1,
+                "offsetSec": -0.0058899999999084685
+              }
+            ]
+          },
+          {
+            "phrase": "2 i don't like you speaker",
+            "source": "window",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 5.1386,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.18163300000003346
+              },
+              {
+                "anchorType": "zoom_onset",
+                "count": 1,
+                "offsetSec": 0.0
+              }
+            ]
+          },
+          {
+            "phrase": "2 what speaker 1 she was",
+            "source": "window",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 5.1386,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 1,
+                "offsetSec": -0.0948669999999936
+              },
+              {
+                "anchorType": "zoom_onset",
+                "count": 1,
+                "offsetSec": 0.22058400000000233
+              }
+            ]
+          },
+          {
+            "phrase": "2 you gotta ask for a",
+            "source": "window",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 5.1386,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": -0.20571700000004967
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.06312200000002122
+              }
+            ]
+          },
+          {
+            "phrase": "3 i wish speaker 2 no",
+            "source": "window",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 5.1386,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": -0.20571700000004967
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.06312200000002122
+              }
+            ]
+          }
+        ],
+        "bruh": [
+          {
+            "phrase": "1 nobody wins speaker 1 george",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.02016699999995808
+              }
+            ]
+          },
+          {
+            "phrase": "3 stop speaker 1 he already",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": 0.171717000000001
+              }
+            ]
+          },
+          {
+            "phrase": "3 terah speaker 5 terah speaker",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": -0.02944999999999709
+              }
+            ]
+          },
+          {
+            "phrase": "4 wait what speaker 2 she",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": 0.058526999999998
+              }
+            ]
+          },
+          {
+            "phrase": "5 look speaker 5 look at",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 1,
+                "offsetSec": 0.009318999999777589
+              }
+            ]
+          },
+          {
+            "phrase": "5 terah speaker 5 they didn't",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": -0.02944999999999709
+              }
+            ]
+          },
+          {
+            "phrase": "can't speaker 3 stop speaker 1",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": 0.171717000000001
+              }
+            ]
+          },
+          {
+            "phrase": "eyes speaker 4 wait what speaker",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": 0.058526999999998
+              }
+            ]
+          },
+          {
+            "phrase": "gigantic speaker 2 bro speaker 2",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.06533300000000963
+              }
+            ]
+          },
+          {
+            "phrase": "in speaker 5 each speaker 3",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": 0.015533000000004904
+              }
+            ]
+          },
+          {
+            "phrase": "is gigantic speaker 2 bro speaker",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.06533300000000963
+              }
+            ]
+          },
+          {
+            "phrase": "look speaker 5 look at that",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 1,
+                "offsetSec": 0.009318999999777589
+              }
+            ]
+          }
+        ],
+        "ding": [
+          {
+            "phrase": "speaker",
+            "source": "window",
+            "pos": 596,
+            "neg": 10322,
+            "posProjects": 11,
+            "precision": 0.0546,
+            "quality": 7.0282,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 246,
+                "offsetSec": -0.062298999999995885
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 179,
+                "offsetSec": 0.02968799999996463
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 81,
+                "offsetSec": 0.028083000000151515
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 1",
+            "source": "window",
+            "pos": 382,
+            "neg": 6669,
+            "posProjects": 11,
+            "precision": 0.0542,
+            "quality": 6.9562,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 152,
+                "offsetSec": -0.05310450000001765
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 117,
+                "offsetSec": 0.031241000000008512
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 56,
+                "offsetSec": 0.0453815000000759
+              }
+            ]
+          },
+          {
+            "phrase": "1",
+            "source": "window",
+            "pos": 382,
+            "neg": 6681,
+            "posProjects": 11,
+            "precision": 0.0541,
+            "quality": 6.7353,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 152,
+                "offsetSec": -0.05310450000001765
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 117,
+                "offsetSec": 0.031241000000008512
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 56,
+                "offsetSec": 0.0453815000000759
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 2",
+            "source": "window",
+            "pos": 288,
+            "neg": 4266,
+            "posProjects": 10,
+            "precision": 0.0632,
+            "quality": 6.5327,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 113,
+                "offsetSec": -0.05024500000001808
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 93,
+                "offsetSec": 0.03566699999998946
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 39,
+                "offsetSec": 0.0338849999999411
+              }
+            ]
+          },
+          {
+            "phrase": "yeah speaker",
+            "source": "window",
+            "pos": 124,
+            "neg": 1423,
+            "posProjects": 11,
+            "precision": 0.0802,
+            "quality": 6.4393,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 50,
+                "offsetSec": -0.042281500000001415
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 37,
+                "offsetSec": 0.025833000000005768
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 26,
+                "offsetSec": 0.002172499999957722
+              }
+            ]
+          },
+          {
+            "phrase": "2",
+            "source": "window",
+            "pos": 288,
+            "neg": 4292,
+            "posProjects": 10,
+            "precision": 0.0629,
+            "quality": 6.3097,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 113,
+                "offsetSec": -0.05024500000001808
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 93,
+                "offsetSec": 0.03566699999998946
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 39,
+                "offsetSec": 0.0338849999999411
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 3",
+            "source": "window",
+            "pos": 148,
+            "neg": 3146,
+            "posProjects": 11,
+            "precision": 0.0449,
+            "quality": 6.2528,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 60,
+                "offsetSec": -0.03869950000000699
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 44,
+                "offsetSec": 0.025569999999977
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 21,
+                "offsetSec": 0.06718299999999999
+              }
+            ]
+          },
+          {
+            "phrase": "yeah speaker 1",
+            "source": "window",
+            "pos": 51,
+            "neg": 589,
+            "posProjects": 11,
+            "precision": 0.0797,
+            "quality": 6.0895,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 21,
+                "offsetSec": -0.023432999999954518
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 14,
+                "offsetSec": 0.006977999999975282
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 12,
+                "offsetSec": 0.0552755000000289
+              }
+            ]
+          },
+          {
+            "phrase": "3",
+            "source": "window",
+            "pos": 148,
+            "neg": 3156,
+            "posProjects": 11,
+            "precision": 0.0448,
+            "quality": 6.0314,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 60,
+                "offsetSec": -0.03869950000000699
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 44,
+                "offsetSec": 0.025569999999977
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 21,
+                "offsetSec": 0.06718299999999999
+              }
+            ]
+          },
+          {
+            "phrase": "it's",
+            "source": "window",
+            "pos": 115,
+            "neg": 1778,
+            "posProjects": 11,
+            "precision": 0.0608,
+            "quality": 6.0201,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 43,
+                "offsetSec": -0.058867000000077496
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 40,
+                "offsetSec": 0.03173350000002273
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 16,
+                "offsetSec": 0.025767000000030293
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 1 yeah",
+            "source": "window",
+            "pos": 52,
+            "neg": 710,
+            "posProjects": 11,
+            "precision": 0.0682,
+            "quality": 6.0157,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 19,
+                "offsetSec": 0.03137599999999452
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 16,
+                "offsetSec": -0.023449500000026546
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 12,
+                "offsetSec": -0.02438250000004416
+              }
+            ]
+          },
+          {
+            "phrase": "guys",
+            "source": "window",
+            "pos": 112,
+            "neg": 1830,
+            "posProjects": 11,
+            "precision": 0.0577,
+            "quality": 5.9764,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 51,
+                "offsetSec": -0.09564500000000464
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 33,
+                "offsetSec": 0.020432999999997037
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 12,
+                "offsetSec": 0.050550000000015416
+              }
+            ]
+          }
+        ],
+        "dramatic": [
+          {
+            "phrase": "speaker",
+            "source": "window",
+            "pos": 528,
+            "neg": 10390,
+            "posProjects": 11,
+            "precision": 0.0484,
+            "quality": 6.89,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 230,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 96,
+                "offsetSec": -0.06199999999995498
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 86,
+                "offsetSec": 0.09095649999994748
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 1",
+            "source": "window",
+            "pos": 342,
+            "neg": 6709,
+            "posProjects": 11,
+            "precision": 0.0485,
+            "quality": 6.8302,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 150,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 55,
+                "offsetSec": 0.09037299999999959
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 53,
+                "offsetSec": -0.05836199999998826
+              }
+            ]
+          },
+          {
+            "phrase": "1",
+            "source": "window",
+            "pos": 342,
+            "neg": 6721,
+            "posProjects": 11,
+            "precision": 0.0484,
+            "quality": 6.6093,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 150,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 55,
+                "offsetSec": 0.09037299999999959
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 53,
+                "offsetSec": -0.05836199999998826
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 3",
+            "source": "window",
+            "pos": 187,
+            "neg": 3107,
+            "posProjects": 11,
+            "precision": 0.0568,
+            "quality": 6.5181,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 79,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 32,
+                "offsetSec": -0.057257499999991524
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 30,
+                "offsetSec": 0.11639999999999873
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 2",
+            "source": "window",
+            "pos": 213,
+            "neg": 4341,
+            "posProjects": 11,
+            "precision": 0.0468,
+            "quality": 6.5066,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 86,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 45,
+                "offsetSec": -0.05323700000000997
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 38,
+                "offsetSec": 0.07636549999995168
+              }
+            ]
+          },
+          {
+            "phrase": "3",
+            "source": "window",
+            "pos": 187,
+            "neg": 3117,
+            "posProjects": 11,
+            "precision": 0.0566,
+            "quality": 6.2965,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 79,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 32,
+                "offsetSec": -0.057257499999991524
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 30,
+                "offsetSec": 0.11639999999999873
+              }
+            ]
+          },
+          {
+            "phrase": "2",
+            "source": "window",
+            "pos": 213,
+            "neg": 4367,
+            "posProjects": 11,
+            "precision": 0.0465,
+            "quality": 6.2839,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 86,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 45,
+                "offsetSec": -0.05323700000000997
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 38,
+                "offsetSec": 0.07636549999995168
+              }
+            ]
+          },
+          {
+            "phrase": "oh my god",
+            "source": "window",
+            "pos": 40,
+            "neg": 300,
+            "posProjects": 10,
+            "precision": 0.1176,
+            "quality": 5.8584,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 13,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 10,
+                "offsetSec": -0.12499149999998593
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 7,
+                "offsetSec": -0.20928700000013123
+              }
+            ]
+          },
+          {
+            "phrase": "it speaker",
+            "source": "window",
+            "pos": 64,
+            "neg": 1022,
+            "posProjects": 11,
+            "precision": 0.0589,
+            "quality": 5.8502,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 25,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 13,
+                "offsetSec": -0.04788300000006984
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 11,
+                "offsetSec": 0.23360599999989518
+              }
+            ]
+          },
+          {
+            "phrase": "oh my",
+            "source": "window",
+            "pos": 47,
+            "neg": 334,
+            "posProjects": 10,
+            "precision": 0.1234,
+            "quality": 5.7723,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 15,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 13,
+                "offsetSec": -0.08464899999989939
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 9,
+                "offsetSec": -0.11761700000002406
+              }
+            ]
+          },
+          {
+            "phrase": "my god",
+            "source": "window",
+            "pos": 45,
+            "neg": 333,
+            "posProjects": 10,
+            "precision": 0.119,
+            "quality": 5.7205,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 15,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 12,
+                "offsetSec": -0.09232449999995396
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 8,
+                "offsetSec": -0.16345200000007765
+              }
+            ]
+          },
+          {
+            "phrase": "wait",
+            "source": "window",
+            "pos": 52,
+            "neg": 630,
+            "posProjects": 11,
+            "precision": 0.0762,
+            "quality": 5.6367,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 22,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 10,
+                "offsetSec": -0.07371449999993729
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 9,
+                "offsetSec": 0.05838699999992514
+              }
+            ]
+          }
+        ],
+        "funny": [
+          {
+            "phrase": "speaker",
+            "source": "window",
+            "pos": 268,
+            "neg": 10650,
+            "posProjects": 11,
+            "precision": 0.0245,
+            "quality": 6.1479,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 111,
+                "offsetSec": -0.09484999999997967
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 61,
+                "offsetSec": 0.03774999999995998
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 49,
+                "offsetSec": -0.011629000000084488
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 1",
+            "source": "window",
+            "pos": 167,
+            "neg": 6884,
+            "posProjects": 11,
+            "precision": 0.0237,
+            "quality": 6.0478,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 66,
+                "offsetSec": -0.09200849999997729
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 37,
+                "offsetSec": 0.03466700000012679
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 32,
+                "offsetSec": -0.008064500000045882
+              }
+            ]
+          },
+          {
+            "phrase": "1",
+            "source": "window",
+            "pos": 167,
+            "neg": 6896,
+            "posProjects": 11,
+            "precision": 0.0236,
+            "quality": 5.8271,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 66,
+                "offsetSec": -0.09200849999997729
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 37,
+                "offsetSec": 0.03466700000012679
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 32,
+                "offsetSec": -0.008064500000045882
+              }
+            ]
+          },
+          {
+            "phrase": "are you doing",
+            "source": "cue",
+            "pos": 8,
+            "neg": 12,
+            "posProjects": 7,
+            "precision": 0.4,
+            "quality": 5.5095,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 5,
+                "offsetSec": -0.08100000000001728
+              },
+              {
+                "anchorType": "pause_boundary",
+                "count": 1,
+                "offsetSec": -0.0186649999999986
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": -0.25
+              }
+            ]
+          },
+          {
+            "phrase": "2",
+            "source": "window",
+            "pos": 133,
+            "neg": 4447,
+            "posProjects": 10,
+            "precision": 0.029,
+            "quality": 5.4475,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 59,
+                "offsetSec": -0.09733299999993505
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 32,
+                "offsetSec": 0.05513949999999568
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 22,
+                "offsetSec": 0.010546000000005051
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 2",
+            "source": "window",
+            "pos": 131,
+            "neg": 4423,
+            "posProjects": 9,
+            "precision": 0.0288,
+            "quality": 5.3337,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 58,
+                "offsetSec": -0.09609149999995736
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 31,
+                "offsetSec": 0.05295000000000982
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 22,
+                "offsetSec": 0.010546000000005051
+              }
+            ]
+          },
+          {
+            "phrase": "you doing",
+            "source": "cue",
+            "pos": 8,
+            "neg": 12,
+            "posProjects": 7,
+            "precision": 0.4,
+            "quality": 5.2895,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 5,
+                "offsetSec": -0.08100000000001728
+              },
+              {
+                "anchorType": "pause_boundary",
+                "count": 1,
+                "offsetSec": -0.0186649999999986
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": -0.25
+              }
+            ]
+          },
+          {
+            "phrase": "what are you doing",
+            "source": "cue",
+            "pos": 7,
+            "neg": 12,
+            "posProjects": 6,
+            "precision": 0.3684,
+            "quality": 5.2159,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 4,
+                "offsetSec": -0.06641400000000885
+              },
+              {
+                "anchorType": "pause_boundary",
+                "count": 1,
+                "offsetSec": -0.0186649999999986
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": -0.25
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 3",
+            "source": "window",
+            "pos": 103,
+            "neg": 3191,
+            "posProjects": 9,
+            "precision": 0.0313,
+            "quality": 5.2155,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 40,
+                "offsetSec": -0.09741049999999518
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 25,
+                "offsetSec": 0.019317000000000917
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 20,
+                "offsetSec": -0.01165600000001632
+              }
+            ]
+          },
+          {
+            "phrase": "in the cart",
+            "source": "cue",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 2,
+            "precision": 1.0,
+            "quality": 5.1486,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.014583000000016
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 1,
+                "offsetSec": -0.11869999999998981
+              }
+            ]
+          },
+          {
+            "phrase": "2 and also stary's speaker 2",
+            "source": "window",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 5.1386,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.09279399999999782
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": -0.25
+              }
+            ]
+          },
+          {
+            "phrase": "2 i don't know speaker 5",
+            "source": "window",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 5.1386,
+            "anchors": [
+              {
+                "anchorType": "pause_boundary",
+                "count": 1,
+                "offsetSec": 0.07069300000011935
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": 0.022083000000066022
+              }
+            ]
+          }
+        ],
+        "pop": [
+          {
+            "phrase": "speaker",
+            "source": "window",
+            "pos": 592,
+            "neg": 10326,
+            "posProjects": 11,
+            "precision": 0.0542,
+            "quality": 7.0204,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 572,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "internal_pause_word_end",
+                "count": 6,
+                "offsetSec": -0.06533349999997995
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 6,
+                "offsetSec": -0.01066550000000177
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 1",
+            "source": "window",
+            "pos": 367,
+            "neg": 6684,
+            "posProjects": 11,
+            "precision": 0.052,
+            "quality": 6.9103,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 352,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 6,
+                "offsetSec": -0.01066550000000177
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 6,
+                "offsetSec": -0.14321650000003672
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 2",
+            "source": "window",
+            "pos": 269,
+            "neg": 4285,
+            "posProjects": 11,
+            "precision": 0.0591,
+            "quality": 6.7731,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 264,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 2,
+                "offsetSec": -0.07607800000004161
+              },
+              {
+                "anchorType": "internal_pause_word_end",
+                "count": 1,
+                "offsetSec": -0.1306669999999599
+              }
+            ]
+          },
+          {
+            "phrase": "1",
+            "source": "window",
+            "pos": 367,
+            "neg": 6696,
+            "posProjects": 11,
+            "precision": 0.052,
+            "quality": 6.6895,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 352,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 6,
+                "offsetSec": -0.01066550000000177
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 6,
+                "offsetSec": -0.14321650000003672
+              }
+            ]
+          },
+          {
+            "phrase": "2",
+            "source": "window",
+            "pos": 271,
+            "neg": 4309,
+            "posProjects": 11,
+            "precision": 0.0592,
+            "quality": 6.5588,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 265,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 3,
+                "offsetSec": -0.028999999999996362
+              },
+              {
+                "anchorType": "internal_pause_word_end",
+                "count": 1,
+                "offsetSec": -0.1306669999999599
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 3",
+            "source": "window",
+            "pos": 157,
+            "neg": 3137,
+            "posProjects": 11,
+            "precision": 0.0477,
+            "quality": 6.319,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 153,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "internal_pause_word_end",
+                "count": 2,
+                "offsetSec": 0.02666649999999393
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 1,
+                "offsetSec": -0.028999999999996362
+              }
+            ]
+          },
+          {
+            "phrase": "3",
+            "source": "window",
+            "pos": 157,
+            "neg": 3147,
+            "posProjects": 11,
+            "precision": 0.0475,
+            "quality": 6.0976,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 153,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "internal_pause_word_end",
+                "count": 2,
+                "offsetSec": 0.02666649999999393
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 1,
+                "offsetSec": -0.028999999999996362
+              }
+            ]
+          },
+          {
+            "phrase": "yeah speaker",
+            "source": "window",
+            "pos": 94,
+            "neg": 1453,
+            "posProjects": 10,
+            "precision": 0.0608,
+            "quality": 5.791,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 93,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 1,
+                "offsetSec": -0.1323329999999885
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 5",
+            "source": "window",
+            "pos": 203,
+            "neg": 2752,
+            "posProjects": 8,
+            "precision": 0.0687,
+            "quality": 5.7108,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 196,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "internal_pause_word_end",
+                "count": 3,
+                "offsetSec": -0.13226699999995617
+              },
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 2,
+                "offsetSec": -0.08066649999999242
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 1 you",
+            "source": "window",
+            "pos": 56,
+            "neg": 854,
+            "posProjects": 10,
+            "precision": 0.0615,
+            "quality": 5.6879,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 55,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": -0.015667000000007647
+              }
+            ]
+          },
+          {
+            "phrase": "guys",
+            "source": "window",
+            "pos": 112,
+            "neg": 1830,
+            "posProjects": 10,
+            "precision": 0.0577,
+            "quality": 5.6564,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 110,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 2,
+                "offsetSec": -0.01616549999999961
+              }
+            ]
+          },
+          {
+            "phrase": "one speaker",
+            "source": "window",
+            "pos": 53,
+            "neg": 641,
+            "posProjects": 10,
+            "precision": 0.0764,
+            "quality": 5.5497,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 50,
+                "offsetSec": 0.0
+              },
+              {
+                "anchorType": "internal_pause_word_end",
+                "count": 2,
+                "offsetSec": -0.04533349999998393
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.0
+              }
+            ]
+          }
+        ],
+        "record_scratch": [
+          {
+            "phrase": "it's probably gonna be his",
+            "source": "cue",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.8631,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 1,
+                "offsetSec": -0.25
+              }
+            ]
+          },
+          {
+            "phrase": "so we're gonna be sharing",
+            "source": "cue",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.8631,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 1,
+                "offsetSec": 0.0
+              }
+            ]
+          },
+          {
+            "phrase": "1 amor speaker 1 we got",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.25
+              }
+            ]
+          },
+          {
+            "phrase": "1 here later speaker 1 at",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.17809400000001574
+              }
+            ]
+          },
+          {
+            "phrase": "1 hey speaker 1 amor speaker",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.25
+              }
+            ]
+          },
+          {
+            "phrase": "1 so speaker 2 we speaker",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": 0.0008000000000265572
+              }
+            ]
+          },
+          {
+            "phrase": "2 okay speaker 2 what do",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "zoom_onset",
+                "count": 1,
+                "offsetSec": -0.25
+              }
+            ]
+          },
+          {
+            "phrase": "2 we speaker 2 we speaker",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": 0.0008000000000265572
+              }
+            ]
+          },
+          {
+            "phrase": "5 guys speaker 5 we'll see",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": -0.03383200000007491
+              }
+            ]
+          },
+          {
+            "phrase": "5 ooh speaker 5 that's speaker",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.1667250000000422
+              }
+            ]
+          },
+          {
+            "phrase": "5 that's speaker 5 what speaker",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": 0.1667250000000422
+              }
+            ]
+          },
+          {
+            "phrase": "5 we'll see you guys next",
+            "source": "window",
+            "pos": 1,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 4.7331,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": -0.03383200000007491
+              }
+            ]
+          }
+        ],
+        "success": [
+          {
+            "phrase": "speaker",
+            "source": "window",
+            "pos": 300,
+            "neg": 10618,
+            "posProjects": 11,
+            "precision": 0.0275,
+            "quality": 6.2684,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 120,
+                "offsetSec": -0.10662649999997598
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 80,
+                "offsetSec": 0.00849649999999258
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 62,
+                "offsetSec": -0.029053500000031818
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 1",
+            "source": "window",
+            "pos": 193,
+            "neg": 6858,
+            "posProjects": 11,
+            "precision": 0.0274,
+            "quality": 6.2019,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 83,
+                "offsetSec": -0.10965000000000202
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 46,
+                "offsetSec": 0.0199115000000063
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 43,
+                "offsetSec": -0.01896700000000351
+              }
+            ]
+          },
+          {
+            "phrase": "speaker 2",
+            "source": "window",
+            "pos": 147,
+            "neg": 4407,
+            "posProjects": 11,
+            "precision": 0.0323,
+            "quality": 6.0978,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 60,
+                "offsetSec": -0.09625700000000847
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 42,
+                "offsetSec": 0.01490849999999
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 29,
+                "offsetSec": -0.08624999999983629
+              }
+            ]
+          },
+          {
+            "phrase": "1",
+            "source": "window",
+            "pos": 193,
+            "neg": 6870,
+            "posProjects": 11,
+            "precision": 0.0273,
+            "quality": 5.9812,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 83,
+                "offsetSec": -0.10965000000000202
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 46,
+                "offsetSec": 0.0199115000000063
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 43,
+                "offsetSec": -0.01896700000000351
+              }
+            ]
+          },
+          {
+            "phrase": "2",
+            "source": "window",
+            "pos": 148,
+            "neg": 4432,
+            "posProjects": 11,
+            "precision": 0.0323,
+            "quality": 5.8826,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 60,
+                "offsetSec": -0.09625700000000847
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 42,
+                "offsetSec": 0.01490849999999
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 30,
+                "offsetSec": -0.08003399999992666
+              }
+            ]
+          },
+          {
+            "phrase": "guys",
+            "source": "window",
+            "pos": 80,
+            "neg": 1862,
+            "posProjects": 11,
+            "precision": 0.0412,
+            "quality": 5.5978,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 46,
+                "offsetSec": -0.08412650000002486
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 16,
+                "offsetSec": -0.0030909999999977344
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 15,
+                "offsetSec": 0.01211600000000601
+              }
+            ]
+          },
+          {
+            "phrase": "guys speaker",
+            "source": "window",
+            "pos": 52,
+            "neg": 1157,
+            "posProjects": 11,
+            "precision": 0.043,
+            "quality": 5.5645,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 28,
+                "offsetSec": -0.08648700000003195
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 11,
+                "offsetSec": 0.028767000000016196
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 10,
+                "offsetSec": 0.028729500000004293
+              }
+            ]
+          },
+          {
+            "phrase": "look",
+            "source": "window",
+            "pos": 63,
+            "neg": 811,
+            "posProjects": 10,
+            "precision": 0.0721,
+            "quality": 5.4071,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 21,
+                "offsetSec": -0.09699999999997999
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 19,
+                "offsetSec": 0.01942300000001751
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 14,
+                "offsetSec": 0.007858500000004653
+              }
+            ]
+          },
+          {
+            "phrase": "it's",
+            "source": "window",
+            "pos": 58,
+            "neg": 1835,
+            "posProjects": 11,
+            "precision": 0.0306,
+            "quality": 5.2607,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 32,
+                "offsetSec": -0.1004339999999928
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 13,
+                "offsetSec": -0.0256570000000238
+              },
+              {
+                "anchorType": "cue_start",
+                "count": 8,
+                "offsetSec": -0.04286249999989877
+              }
+            ]
+          },
+          {
+            "phrase": "be getting the",
+            "source": "cue",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 2,
+            "precision": 1.0,
+            "quality": 5.1486,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 1,
+                "offsetSec": -0.25
+              },
+              {
+                "anchorType": "final_word_end",
+                "count": 1,
+                "offsetSec": -0.036860000000046966
+              }
+            ]
+          },
+          {
+            "phrase": "let's go get",
+            "source": "cue",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 2,
+            "precision": 1.0,
+            "quality": 5.1486,
+            "anchors": [
+              {
+                "anchorType": "cue_end_minus_80ms",
+                "count": 2,
+                "offsetSec": -0.11145100000000951
+              }
+            ]
+          },
+          {
+            "phrase": "god speaker 2 look speaker 2",
+            "source": "window",
+            "pos": 2,
+            "neg": 0,
+            "posProjects": 1,
+            "precision": 1.0,
+            "quality": 5.1386,
+            "anchors": [
+              {
+                "anchorType": "cue_start",
+                "count": 1,
+                "offsetSec": 0.167160999999993
+              },
+              {
+                "anchorType": "zoom_onset",
+                "count": 1,
+                "offsetSec": 0.0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
