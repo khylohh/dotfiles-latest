@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "editorial_sfx_segment_selection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "segmentId", "decisions"],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "segmentId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decisions": {
+      "type": "array",
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["momentId", "family", "timingOptionId", "reasonCode"],
+        "properties": {
+          "momentId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "family": {
+            "type": "string",
+            "enum": [
+              "pop",
+              "ding",
+              "success",
+              "bonk",
+              "funny",
+              "bruh",
+              "record_scratch",
+              "dramatic",
+              "other_sfx"
+            ]
+          },
+          "timingOptionId": {
+            "type": "string"
+          },
+          "reasonCode": {
+            "type": "string",
+            "enum": [
+              "zoom_accent",
+              "specific_reveal",
+              "positive_detail",
+              "selection_confirmation",
+              "completed_result",
+              "mistake_or_fail",
+              "comic_punchline",
+              "cringe_or_disbelief",
+              "abrupt_reversal",
+              "dramatic_reveal",
+              "unsupported_sound"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
